@@ -1,0 +1,12 @@
+@import "theme_colors";
+
+$class_slug: ui-page-theme !default
+
+@for $i from 1 through length($themes) {
+	.#{$class_slug}-#{$i}{
+		.toolbar-background-md,
+	 	.toolbar-background{
+			background: color($themes, theme_#{$i}, tool_color);
+	 	}
+	}
+}

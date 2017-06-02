@@ -1,0 +1,10 @@
+{
+  "name": "Pharmacist",
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "proxies": [{
+    "path": "/api",
+    "proxyUrl": " http://192.168.0.65/otc/api/"
+  }]
+}

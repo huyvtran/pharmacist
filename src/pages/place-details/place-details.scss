@@ -1,0 +1,57 @@
+$toolbar-background-color: #FF9800;
+
+page-place-details {
+	font-size: 16px;
+	.info_window{
+		border: 0px none; 
+		margin: 8px; 
+		background: white; 
+		padding: 5px; 
+		color: #black;
+		max-width: 280px;
+	}
+	.review-stars ul {
+		display: inline-block;
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.review-stars ul li {
+		float: left;
+		margin-right: 5px;
+	}
+	.review-stars ul li i {
+		color: #E4B248;
+		font-size: 20px;
+	}
+	.review-stars ul li i.inactive {
+		color: #c6c6c6;
+	}
+	.star:after {
+		content: "\2605";
+	}
+	.review-text{
+		margin: 0px;
+	}
+	.review-item{
+		margin-bottom: 25px;
+	}
+
+	a.authorLink:link, a.authorLink:visited {
+		font-weight: bold;
+		text-decoration:none;
+		color:#FF9800 !important;
+		letter-spacing: 2px;
+		background:none;
+	}
+	#popupMenu button:focus{
+		background-color: transparent;
+	}
+	.navbarButtons{
+		background-color: transparent !important;
+	}
+	.toolbar-background-md, .toolbar-background{
+		background: $toolbar-background-color;
+	}
+}

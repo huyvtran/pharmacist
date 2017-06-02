@@ -1,0 +1,97 @@
+<!-- 
+  Generated template for the NearestHospital page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+ -->
+<ion-header class="ui-header {{setting.class}}">
+	<ion-navbar>
+    <ion-title>
+    	<h1 class="ui-title">
+      		{{pageTitle[pageId]}}
+      </h1>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="showMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+	</ion-navbar>
+	<ion-navbar class="fullWidth">
+	  	<div class="{{setting.p}} floatright"></div>
+	  	<div align="center" class="floatright">
+			<button ion-button data-inline="true" data-role="none" class="{{pageClasses[pageId][0]}} navbarButtons" id="results-switch" (click)="toggleResult(1)">List</button>
+			<button ion-button data-inline="true" data-role="none" class="{{pageClasses[pageId][1]}} navbarButtons" id="map-switch" (click)="toggleResult(2)">Map</button>
+	 	</div>
+	</ion-navbar>
+</ion-header>
+
+<ion-content class="{{setting.class}}">
+	<div class="ui-content" role="main" #mainWindow>
+	    <!--
+	    <div id="pharmacist_speech" class="opacity4" style="display: none;">
+	        <div class="maxwidth450">
+	            <div class="ovalBorderRightBlue centerText">
+	                <span>These are the <span class="bluefont">nearby hospitals or ER</span> we found for you using google places.</span><br>
+	            </div>
+	            <div align="right"><img src="assets/img/pharm/female/pharm-amy-green.svg" width="70"></div>
+	        </div>
+	        <div class="clearboth divider1"></div>
+	    </div> -->
+	    <div id="results" [ngStyle]="{'display': DataDisplay[0]}">
+	        <div>
+	            <!--  <p>From Database</p> -->              
+	            <ul data-role="listview" id="list-database" data-inset="true" class="searchResult ui-listview ui-listview-inset ui-corner-all ui-shadow">
+	            </ul>
+	            <p>&nbsp;</p>
+	            <div class="floatright"><a href="#" data-rel="popup" data-transition="slidedown" class="{{pageClasses[pageId][2]}} ui-link" aria-haspopup="true" aria-owns="popupMenu" aria-expanded="false" (click)="toggleSortDlg(true)">Sort List</a></div>
+	            <div class="clearboth"></div>
+	            <!-- <p>From Google</p> --> 
+	            <ul data-role="listview" id="list-canvas" data-inset="true" class="searchResult ui-listview ui-listview-inset ui-corner-all ui-shadow">
+	            	<li *ngFor="let each of TableData | orderby: sortby : false ; let i=index">
+	            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" *ngIf="i<TableMaxDisplayCount" (click)="showDetails(each)" >
+	            			<h3 class="{{pageClasses[pageId][3]}} placename">{{each.name}}</h3>
+	                        <p class="grayfontSmall placeaddress">{{each.address}}</p>
+	                        <p class="graygrayfontSmall"><span>Distance:</span> <span>{{each.distance}}</span> <span>(about</span> {{each.duration}} <span>drive)</span></p>
+	            		</a>
+	            	</li>
+	            </ul>
+	            <br>
+	            <p id="more" class="centerText">
+	                <button data-inline="true" class=" ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="ShowMore()">More...</button>
+	            </p>
+	        </div>
+	    </div>
+	    <sebm-google-map [scrollwheel]="true" [latitude]="mapData.latitude" [longitude]="mapData.longitude" [zoom]="mapData.zoom" [ngStyle]="{'display': DataDisplay[1], 'height': MapHeight + 'px'}" >
+	    	<ng-container *ngFor="let m of TableData; let i = index">
+		    	<sebm-google-map-marker 
+		    		*ngIf="i<TableMaxDisplayCount" 
+			        (markerClick)="clickedMarker(m.name, i)"
+			        [latitude]="m.lat"
+			        [longitude]="m.lng" 
+			        [markerDraggable]="false"
+			        [iconUrl]="m.marker_icon">
+			        
+			      	<sebm-google-map-info-window class="info_window" [isOpen] = "m.iw_open">
+			      		<div (click)="showDetails(m)">
+					    	{{m.name}}<br>
+					    	{{m.formatted_address}}
+					    </div>
+			      	</sebm-google-map-info-window>
+			    </sebm-google-map-marker>
+        	</ng-container>
+		</sebm-google-map>
+	</div>
+	<div class="ui-popup-screen ui-overlay-inherit in" id="popupMenu-screen" *ngIf="sortDlg" (click)="toggleSortDlg(false)"></div>
+	<div class="ui-popup-container slidedown in ui-popup-active" id="popupMenu-popup" style="max-width: 702px; top: 33px; right: 90px;" *ngIf="sortDlg">
+	    <div data-role="popup" id="popupMenu" data-theme="n centerText" class="ui-popup ui-body-n centerText ui-overlay-shadow ui-corner-all">
+	        <div>Sort by:</div>
+	        <hr class="{{setting.hr}}">
+	        <button data-inline="true" data-role="none" class="buttonBlue" id="by_distance" (click)="SortBy('distance')">Distance</button>
+	        <hr class="{{setting.hr}}">
+	        <button data-inline="true" data-role="none" class="buttonCyan" id="by_name" (click)="SortBy('name')">Name</button>
+	        <hr class="{{setting.hr}}">
+	        <button data-inline="true" data-role="none" class="buttonPink" id="by_address" (click)="SortBy('address')">Address</button>
+	    </div>
+	</div>
+</ion-content>

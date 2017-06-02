@@ -1,0 +1,28 @@
+page-find-nearest {
+	font-size: 16px;
+	.ui-input-text{
+		border: 0px none;
+	}
+	.ui-content{
+		height: 480px;
+	}
+}
+
+.ui-page-theme-14 .ui-content{
+	background-image: url(../assets/img/backgrounds/nearest/hospital_bg.jpg);
+}
+.ui-page-theme-9 .ui-content{
+	background-image: url(../assets/img/backgrounds/nearest/urgentcare-white.jpg);
+}
+.ui-page-theme-15 .ui-content{
+    background-image: url(../assets/img/backgrounds/nearest/doctor_bg.jpg);
+}
+.ui-page-theme-3 .ui-content{
+	background-image: url(../assets/img/backgrounds/nearest/pediatric_doctor_bg.jpg);
+}
+.ui-page-theme-1 .ui-content{
+	background-image: url(../assets/img/backgrounds/nearest/cracked-tooth.jpg);
+}
+.ui-page-theme-7 .ui-content{
+    background-image:url(../assets/img/backgrounds/nearest/pharmacy_bg.jpg);
+}

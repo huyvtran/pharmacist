@@ -1,0 +1,180 @@
+// http://ionicframework.com/docs/v2/theming/
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.mbsc-mobiscroll .mbsc-input input {
+    width: 100%;
+}
+.ui-header.header::after,
+.ui-header.header-md::after,
+.ui-header.header-ios::after {
+    height: 0px;
+}
+.ui-title {
+    color: #FFF !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-bottom: 0px !important;
+}
+ion-title p {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+hr.hrblue {
+    height: 1px !important;
+}
+ion-navbar button {
+    color: #FFF !important;
+}
+ion-content{
+    background-color: #FFF;
+}
+ion-header {
+    border: 0px none !important;
+}
+.item.item-range {
+    background: transparent !important;
+}
+.item.item-block .item-inner,
+.item-md.item-block .item-inner,
+.item-ios.item-block .item-inner {
+    border-bottom: 0px none;
+    text-align: center;
+}
+.interface-items .row {
+    margin: 0;
+}
+.ui-popup-container.ui-popup-active {
+    background: #FFF;
+}
+.comment_why_div ul li {
+    list-style-type: inherit;
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5RV6cRhDpPC5P4GCEJpqGoc.woff) format('woff');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+// Spinners
+.spinner-blue {
+    width: 50px;
+    height: 50px;
+    background-color:#B9F6CA;
+    margin-right:50px;
+    border-radius: 100%;  
+    -webkit-animation: scaleout 1.0s infinite ease-in-out;
+    animation: scaleout 1.0s infinite ease-in-out;
+}
+.spinner {
+    width: 50px;
+    height: 50px;
+    background-color:#f8bbd0;
+    margin-right:50px;
+    border-radius: 100%;  
+    -webkit-animation: scaleout 1.0s infinite ease-in-out;
+    animation: scaleout 1.0s infinite ease-in-out;
+}
+.spinner-green {
+    width: 50px;
+    height: 50px;
+    background-color: #B9F6CA;
+    margin-right: 50px;
+    border-radius: 100%;
+    -webkit-animation: scaleout 1.0s infinite ease-in-out;
+    animation: scaleout 1.0s infinite ease-in-out;
+}
+.spinner-purple {
+    width: 50px;
+    height: 50px;
+    background-color: #D1C4E9;
+    margin-right: 50px;
+    border-radius: 100%;
+    -webkit-animation: scaleout 1.0s infinite ease-in-out;
+    animation: scaleout 1.0s infinite ease-in-out;
+}
+
+// Spinner Animation
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+    opacity: 0.5;
+  }
+  50% { 
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    opacity: 0.5;
+  } 
+  100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+// For each pages
+h1{
+    text-transform: capitalize;
+    font-size: 2.4em;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.toolbar-title-md{
+    font-size: 16px;
+}
+.scroll-content{
+    background-color: #FFF;
+}
+.content-md{
+    background-color: transparent;
+}
+.ui-content a.ui-btn {
+    border: 0px none !important;
+}
+.bar-button-md{
+    padding: 0px;
+}
+.ui-content{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}

@@ -1,0 +1,28 @@
+$toolbar-background-color: #00BCD4;
+
+page-find-nearest-list {
+	font-size: 16px;
+	.info_window{
+		border: 0px none; 
+		margin: 8px; 
+		background: white; 
+		padding: 5px; 
+		color: #black;
+		max-width: 280px;
+	}
+	ul.searchResult li:nth-of-type(even) {
+	    background: #ebebeb;
+	}
+	.searchResult li {
+	    background: #f7f7f7;
+	}
+	.searchResult li a{
+		background-color: transparent !important;
+	}
+	#popupMenu button:focus{
+		background-color: transparent;
+	}
+	.navbarButtons{
+		background-color: transparent !important;
+	}
+}

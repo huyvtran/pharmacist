@@ -1,0 +1,33 @@
+
+page-compare-childs {
+	font-size: 16px;
+	.toolbar-background, .toolbar-background-md, .toolbar-background-ios{
+		border: 0px none !important;
+	}
+	.ui-header .robotoLight p{
+		margin: 0px;
+		padding: 1em;
+	}
+	ion-navbar{
+		height: 55px !important;
+	}
+	fieldset.ui-controlgroup{
+		border: 0px none !important;
+	}
+	.ui-title{
+		padding-top: 0px !important;
+	}
+	.ui-input-search input{
+		padding-left: 1.75em !important;
+		width: 100%;
+	}
+	.ui-input-search{
+		border: 0px none;
+	}
+	.ui-popup-container .ui-content a.ui-btn{
+		background-color: #FFF;
+	}
+}
+#ion-diagnostics-toast{
+	background: transparent;
+}

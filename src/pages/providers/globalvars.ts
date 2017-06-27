@@ -24,6 +24,7 @@ let settings = [
         oval: "ovalBorderRightBlue",
         hr: "hrblue",
         font: "orangefont",
+        arrow: "light-blue",
     },
     {   // b - 2
         spinner: "",
@@ -42,27 +43,39 @@ let settings = [
     },
     {   // e - 5
         spinner: "",
-        p: "",
+        p: "bgOrange",
+        oval: "ovalBorderRightOrange",
+        hr: "hrorange",
+        arrow: "orange",
     },
     {   // f - 6
         spinner: "",
-        p: "",
+        p: "bgRed",
+        oval: "ovalBorderRightRed",
+        arrow: "red",
+        hr: "hrpink",
+
     },
     {   // g - 7
         spinner: "spinner-green",
         p: "bgGreen",
         oval: "ovalBorderRightGreen",
+        arrow: "green",
         hr: "hrgreen",
     },
     {   // h - 8
         spinner: "",
         p: "",
+        oval: "ovalBorderRightGreen",
+        arrow: "light-green",
+        hr: "hrgreen",
     },
     {   // i - 9
         spinner: "spinner",
         p: "bgPink",
         oval: "ovalBorderRightPurple_red",
         hr: "hrpink",
+        arrow: "pink",
     },
     {   // j - 10
         spinner: "",
@@ -84,13 +97,17 @@ let settings = [
         spinner: "spinner-blue",
         p: "bgCyan",
         oval: "ovalBorderRightBlue",
+        arrow: "cyan",
         hr: "hrblue",
+        
     },
     {   // o - 15
         spinner: "spinner",
         p: "bgDeepOrange",
         oval: "ovalBorderRightOrange",
         hr: "hrorange",
+        arrow: "deep-orange",
+
     },
 ]
 // number_char = {
@@ -114,7 +131,12 @@ let settings = [
 
 export var GlobalVars = {
     AbsoluteURL : "http://www.selfcarepharmacist.com",
-    RestApiURL: "api/call.php?",
+    DeviceNumber: 0,
+    RestApiURLs: 
+        [
+            "http://selfcarepharmacist.com/api/call.php?",  // mobile
+            "api/call.php?",                                // web
+        ],   
     dosingWeight: 0,
     mapData : {
         latitude: 0,
@@ -131,8 +153,11 @@ export var GlobalVars = {
     getAbsoluteURL : function() {
         return this.AbsoluteURL;
     },
+    setDeviceNumber(device: number) {
+        this.DeviceNumber = device;
+    },
     getApiURL: function() {
-    	return this.RestApiURL;
+    	return this.RestApiURLs[this.DeviceNumber];
     },
     getDosingWeight: function() {
     	return this.dosingWeight;
@@ -186,6 +211,7 @@ export var GlobalVars = {
             pageSetting["p"] = settings[num_id]["p"];
             pageSetting["oval"] = settings[num_id]["oval"];
             pageSetting["hr"] = settings[num_id]["hr"];
+            pageSetting["arrow"] = settings[num_id]["arrow"];
         }
         return pageSetting;
     },

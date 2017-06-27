@@ -14,6 +14,8 @@ import { ComparePage } from '../pages/compare/compare';
 import { NearestPage } from '../pages/nearest/nearest';
 import { DrugPage } from '../pages/drug/drug';
 
+import { GlobalVars } from '../pages/providers/globalvars';
+
 export interface PageInterface {
     title: string;
     description: string;
@@ -26,7 +28,6 @@ export interface PageInterface {
   templateUrl: 'app.html'
 })
 export class MyApp {
-
     @ViewChild(Nav) nav:Nav;
     rootPage = HomePage;
     appPages: PageInterface[] = [
@@ -45,11 +46,20 @@ export class MyApp {
         public splashScreen: SplashScreen,
         public menu: MenuController,
     ) {
-    platform.ready().then(() => {
+        platform.ready().then(() => {
           // Okay, so the platform is ready and our plugins are available.
           // Here you can do any higher level native things you might need.
-          statusBar.styleDefault();
-          splashScreen.hide();
+            statusBar.styleDefault();
+            splashScreen.hide();
+
+            if (platform.is('mobileweb')) {
+                console.log("running on a web device");
+                GlobalVars.setDeviceNumber(1);
+            }
+            else
+            {
+                GlobalVars.setDeviceNumber(0);
+            }
         });
     }
     openPage(page: PageInterface) {

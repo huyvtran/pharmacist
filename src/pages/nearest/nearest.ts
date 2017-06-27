@@ -85,6 +85,9 @@ export class NearestPage {
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
   }
   showMenu() {
+    var menu = document.querySelector( 'ion-menu ion-content' );
+    var setting = GlobalVars.getPageSetting('a');
+    menu.className = "outer-content content" + " " + setting['class'];
   	this.menu.open();
   }
   transit(slide: any){

@@ -104,7 +104,7 @@ export class DirectionsMapDirective {
                     <table class='adp-placemark'>\
                         <tbody>\
                             <tr>\
-                                <td width='22'>\
+                                <td width='25%'>\
                                   <img jstcache='21' src='https://mts.googleapis.com/maps/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&amp;text=A&amp;psize=16&amp;font=fonts/Roboto-Regular.ttf&amp;color=ff333333&amp;ax=44&amp;ay=48&amp;scale=1' class='adp-marker' />\
                                 </td>\
                                 <td jstcache='22' class='adp-text' jsan='7.adp-text'>" + this.origin.address + "</td>\

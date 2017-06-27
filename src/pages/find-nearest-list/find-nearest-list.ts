@@ -142,6 +142,11 @@ export class FindNearestListPage {
   		this.setting = GlobalVars.getPageSetting(this.mode[this.pageId]);
 		this.RestApiURL = GlobalVars.getApiURL() + "ppp=" + params[ this.pageId ]["api"];
 	}
+	showMenu() {
+	    var menu = document.querySelector( 'ion-menu ion-content' );
+	    menu.className = "outer-content content" + " " + this.setting['class'];
+	  	this.menu.open();
+	  }
 	ShowMore() {
 		this.TableMaxDisplayCount = this.TableMaxDisplayCount + 15;
 	}

@@ -57,6 +57,12 @@ export class PlaceNavigationPage {
 		this.map = null;
 		this.detailRoute = "";
 	}
+	showMenu() {
+	    var menu = document.querySelector( 'ion-menu ion-content' );
+	    var setting = GlobalVars.getPageSetting('a');
+    	menu.className = "outer-content content" + " " + setting['class'];
+	  	this.menu.open();
+	}
 	showPath(address1, address2){
 		var location1, location2;
 		var geocoder = new google.maps.Geocoder();

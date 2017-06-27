@@ -1,0 +1,36 @@
+
+$toolbar-background-color: #E91E63;
+page-diphenhydramine {
+	font-size: 16px;
+	background-image: url(../assets/img/dosing/pink-balls.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+	a.linkGrayLight{
+    	position: relative;
+    	top: 2rem;
+	}
+	.toolbar-background-md, .toolbar-background{
+		background: $toolbar-background-color;
+	}
+	h3{
+		font-size: 1.8em;
+		font-weight: bold;
+	}
+	.boxSpinnerRed {
+	    background-color: #E91E63;
+	    opacity: 0.75;
+	    width: 10px;
+	    height: 10px;
+	    position: absolute;
+	    right: 5%;
+	    top: 0%;
+	    /* margin: -5px auto 0 auto; */
+	    border-radius: 0px;
+	    border: 10px solid #E91E63;
+	    box-shadow: 10px 0px #FF9100, 10px 0px #FF9100;
+	    -webkit-animation: shadowSpinRed 1s ease-in-out infinite;
+	    animation: shadowSpinRed 1s ease-in-out infinite;
+	}
+}

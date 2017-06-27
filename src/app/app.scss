@@ -42,6 +42,25 @@ ion-content{
 ion-header {
     border: 0px none !important;
 }
+ion-slide h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ion-slides{
+    height: 220px;
+}
+.slide-zoom {
+    height: 100%;
+}
+.swiper-slide{
+    height: 200px !important;
+}
+.slide-image {
+    max-height: 50%;
+    max-width: 60%;
+    margin: 18px 0;
+}
 .item.item-range {
     background: transparent !important;
 }
@@ -84,41 +103,26 @@ ion-header {
 
 
 // Spinners
-.spinner-blue {
+.spinner, .spinner-blue,
+.spinner-green, .spinner-purple {
     width: 50px;
     height: 50px;
-    background-color:#B9F6CA;
     margin-right:50px;
     border-radius: 100%;  
     -webkit-animation: scaleout 1.0s infinite ease-in-out;
     animation: scaleout 1.0s infinite ease-in-out;
 }
 .spinner {
-    width: 50px;
-    height: 50px;
     background-color:#f8bbd0;
-    margin-right:50px;
-    border-radius: 100%;  
-    -webkit-animation: scaleout 1.0s infinite ease-in-out;
-    animation: scaleout 1.0s infinite ease-in-out;
+}
+.spinner-blue {
+    background-color:#B9F6CA;
 }
 .spinner-green {
-    width: 50px;
-    height: 50px;
     background-color: #B9F6CA;
-    margin-right: 50px;
-    border-radius: 100%;
-    -webkit-animation: scaleout 1.0s infinite ease-in-out;
-    animation: scaleout 1.0s infinite ease-in-out;
 }
 .spinner-purple {
-    width: 50px;
-    height: 50px;
     background-color: #D1C4E9;
-    margin-right: 50px;
-    border-radius: 100%;
-    -webkit-animation: scaleout 1.0s infinite ease-in-out;
-    animation: scaleout 1.0s infinite ease-in-out;
 }
 
 // Spinner Animation
@@ -173,8 +177,73 @@ h1{
 .bar-button-md{
     padding: 0px;
 }
+.fontBold{
+    font-weight: bold;
+}
+
 .ui-content{
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
+}
+.divider1 {
+    background-image: url(../assets/img/backgrounds/dividers/div1.png);
+    background-repeat: repeat-x;
+    height: 9px;
+    background-position: left top;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button:focus{
+    background-color: transparent;
+}
+#ion-diagnostics-toast{
+    background: transparent;
+}
+ion-navbar.bgCyan,
+ion-navbar.bgLightBlue,
+ion-navbar.bgDeepOrange,
+ion-navbar.bgGreen,
+ion-navbar.bgPink,
+ion-navbar.bgRed,
+ion-navbar.bgOrange
+{
+    padding-left: 0px !important;
+}
+.fullWidth.bgCyan,
+.fullWidth.bgLightBlue,
+.fullWidth.bgDeepOrange,
+.fullWidth.bgGreen,
+.fullWidth.bgPink,
+.fullWidth.bgRed,
+.fullWidth.bgOrange
+{
+    padding-left: 1em !important;
+}
+
+input[aria-hidden="true"]{
+    display: none !important;
+}
+h3{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+a.linkGrayLight{
+    position: relative;
+    top: 2rem;
+}
+.boxSpinnerRed {
+    background-color: #E91E63;
+    opacity: 0.75;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 5%;
+    top: 0%;
+    /* margin: -5px auto 0 auto; */
+    border-radius: 0px;
+    border: 10px solid #E91E63;
+    box-shadow: 10px 0px #FF9100, 10px 0px #FF9100;
+    -webkit-animation: shadowSpinRed 1s ease-in-out infinite;
+    animation: shadowSpinRed 1s ease-in-out infinite;
 }

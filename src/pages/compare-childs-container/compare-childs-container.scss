@@ -1,0 +1,39 @@
+
+$toolbar-background-color: #03a9f4;
+
+page-compare-childs-container {
+	font-size: 16px;
+    background: #FFF;
+
+    ion-content, div.scroll-content{
+    	background-color: transparent;
+    }
+    ion-content{
+    	background-repeat: no-repeat;
+	    background-position: bottom;
+	    background-attachment: fixed;
+    }
+    ion-content.content0,ion-content.content2,ion-content.content4
+    {
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+    ion-content.content3{
+    	background-image: url(../assets/img/dosing/blue-flower.jpg);    
+    }
+    ion-content.content5{
+    	background-image: url(../assets/img/dosing/orange-balls.jpg);
+    }
+
+    .ui-header .robotoLight p{
+		margin: 0px;
+		padding: 1em;
+	}
+    ion-navbar.bgCyan,
+	ion-navbar.bgLightBlue,
+	ion-navbar.bgDeepOrange,
+	ion-navbar.bgGreen,
+	ion-navbar.bgPink
+	{
+		padding-left: 0px !important;
+	}
+}

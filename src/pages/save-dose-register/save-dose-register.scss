@@ -1,0 +1,38 @@
+
+$toolbar-background-color: #00BCD4;
+page-save-dose-register {
+	font-size: 16px;
+	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+	.toolbar-background-md, .toolbar-background{
+		background: $toolbar-background-color;
+	}
+	input[type='text'], input[type='password'],
+	input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]),
+	input[type='text']:hover, input[type='email']:hover, input[type='password']:hover
+	{
+		border-bottom: 0px none;
+		box-shadow: 0 0 0 0 transparent;
+	}
+	input{
+		margin-bottom: 0px !important;
+	}
+	ion-item.item.item-input .item-inner{
+		border-bottom: 2px solid #03A9F4;
+		margin-bottom: 20px;
+	}
+	.list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):last-child ,
+	.list-md .item-input.input-has-focus:last-child{
+		border-bottom-color: transparent;
+	    box-shadow: 0 0 0 0 transparent;
+	}
+	.list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus) .item-inner,
+	.list-md .item-input.input-has-focus:last-child .item-inner,
+	.list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):last-child .item-inner
+  	{
+		border-bottom: 2px solid #03A9F4;
+		box-shadow: inset 0 -1px 0 0 #488aff;
+	}
+}

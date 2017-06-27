@@ -8,5 +8,13 @@ $class_slug: ui-page-theme !default
 	 	.toolbar-background{
 			background: color($themes, theme_#{$i}, tool_color);
 	 	}
+	 	.menu-lists ion-icon, 
+	 	.menu-lists h3,
+	 	.menu-lists p{
+	 		color: color($themes, theme_#{$i}, tool_color);
+	 	}
+	 	.menu-lists button{
+	 		border-bottom: 1px solid color($themes, theme_#{$i}, tool_color);
+	 	}
 	}
 }

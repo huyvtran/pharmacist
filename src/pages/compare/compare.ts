@@ -22,12 +22,39 @@ import { NavController, NavParams, MenuController } from 'ionic-angular';
 // import { ProbioticsPage } from '../probiotics/probiotics';
 // import { SleepAidsPage } from '../sleep-aids/sleep-aids';
 
+import { GlobalVars } from '../providers/globalvars';
+import { CompareChildsPage } from '../compare-childs/compare-childs';
+import { CompareChildsContainerPage } from '../compare-childs-container/compare-childs-container';
+import { CompareYesnoPage } from '../compare-yesno/compare-yesno';
+
 @Component({
   selector: 'page-compare',
   templateUrl: 'compare.html'
 })
 export class ComparePage {
-  items = {};
+  modes = {
+    1: 'h',
+    2: 0,
+    3: 'n',
+    4: 1,
+    5: 'a',
+    6: 'o',
+    7: 2,
+    8: 3,
+    9: 4,
+    10: 'g',
+    11: 5,
+    12: 'i',
+    13: 'n',
+  };
+  items = {
+    0: 'a',
+    1: 0,
+    2: 'a',
+    3: 'n',
+    4: 'n',
+    5: 'o',
+  }
   // items = {
   //   1     : AllergyMedsPage,
   //   2     : ColdMedsPage,
@@ -43,17 +70,38 @@ export class ComparePage {
   //   12    : ProbioticsPage,
   //   13    : SleepAidsPage,
   // }
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
   	this.menu = menu;
   }
   showMenu() {
+    var menu = document.querySelector( 'ion-menu ion-content' );
+    var setting = GlobalVars.getPageSetting('n');
+    menu.className = "outer-content content" + " " + setting['class'];
   	this.menu.open();
   }
   goTo(index: string) {
     if (index.length > 0)
     {
-      let page = (<any>this.items)[index];
-      this.navCtrl.push(page);
+      let mode = (<any>this.modes)[index];
+      if (mode >='a' && mode<='z'){
+        GlobalVars.setPageId(parseInt(index,10));
+        this.navCtrl.push(CompareChildsPage);
+      }
+      else
+      {
+        let item = this.items[ mode ];
+        if (item >= 'a' && item<='z'){
+          GlobalVars.setPageId(parseInt(mode,10));
+          this.navCtrl.push(CompareChildsContainerPage);
+        }
+        else
+        {
+          GlobalVars.setPageId(0);
+          this.navCtrl.push(CompareYesnoPage);
+          // cough_meds page
+        }
+      }
     }
   }
   ionViewDidLoad() {

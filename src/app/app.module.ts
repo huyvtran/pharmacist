@@ -25,6 +25,24 @@ import { OrderByPipe } from '../pages/orderby/orderby';
 import { PlaceNavigationPage } from '../pages/place-navigation/place-navigation';
 import { DirectionsMapDirective } from '../pages/place-navigation/google-map.directive';
 
+import { CompareChildsPage } from '../pages/compare-childs/compare-childs';
+import { CompareChildsContainerPage } from '../pages/compare-childs-container/compare-childs-container';
+import { CompareYesnoPage } from '../pages/compare-yesno/compare-yesno';
+
+import { SaveDoseInsertPage } from '../pages/save-dose-insert/save-dose-insert';
+import { SaveDoseLoginPage } from '../pages/save-dose-login/save-dose-login';
+import { SaveDoseInsertSuccessPage } from '../pages/save-dose-insert-success/save-dose-insert-success';
+import { SaveDoseListPage } from '../pages/save-dose-list/save-dose-list';
+import { SaveDoseLogoutConfirmPage } from '../pages/save-dose-logout-confirm/save-dose-logout-confirm';
+import { SaveDoseLoginDirectPage } from '../pages/save-dose-login-direct/save-dose-login-direct';
+import { SaveDoseRegisterPage } from '../pages/save-dose-register/save-dose-register';
+
+import { DiphenhydraminePage } from '../pages/diphenhydramine/diphenhydramine';
+import { LoratadinePage } from '../pages/loratadine/loratadine';
+
+import { ChildrenDiphenhydramineMobilePage } from '../pages/children-diphenhydramine-mobile/children-diphenhydramine-mobile';
+
+
 import { AuthService} from '../pages/providers/auth-service';
 
 @NgModule({
@@ -47,6 +65,23 @@ import { AuthService} from '../pages/providers/auth-service';
         OrderByPipe,
         PlaceNavigationPage,
         DirectionsMapDirective,
+
+        CompareChildsPage,
+        CompareChildsContainerPage,
+        CompareYesnoPage,
+
+        SaveDoseInsertPage,
+        SaveDoseLoginPage,
+        SaveDoseInsertSuccessPage,
+        SaveDoseListPage,
+        SaveDoseLogoutConfirmPage,
+        SaveDoseLoginDirectPage,
+        SaveDoseRegisterPage,
+
+        DiphenhydraminePage,
+        LoratadinePage,
+
+        ChildrenDiphenhydramineMobilePage,
     ],
     imports: [
         AgmCoreModule.forRoot({
@@ -76,6 +111,23 @@ import { AuthService} from '../pages/providers/auth-service';
             FindNearestListPage,
             PlaceDetailsPage,
             PlaceNavigationPage,
+
+            CompareChildsPage,
+            CompareChildsContainerPage,
+            CompareYesnoPage,
+
+            SaveDoseInsertPage,
+            SaveDoseLoginPage,
+            SaveDoseInsertSuccessPage,
+            SaveDoseListPage,
+            SaveDoseLogoutConfirmPage,
+            SaveDoseLoginDirectPage,
+            SaveDoseRegisterPage,
+
+            DiphenhydraminePage,
+            LoratadinePage,
+
+            ChildrenDiphenhydramineMobilePage,
         ],
     providers: [
         AuthService,

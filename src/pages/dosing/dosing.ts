@@ -9,11 +9,11 @@ import { NavController, NavParams, MenuController } from 'ionic-angular';
 */
 import { GlobalVars } from '../providers/globalvars';
 import { AuthService} from '../providers/auth-service';
-// import { SaveDoseLoginPage } from '../save-dose-login/save-dose-login';
-// import { SaveDoseListPage } from '../save-dose-list/save-dose-list';
+import { SaveDoseLoginPage } from '../save-dose-login/save-dose-login';
+import { SaveDoseListPage } from '../save-dose-list/save-dose-list';
 
-// import { DiphenhydraminePage } from '../diphenhydramine/diphenhydramine';
-// import { LoratadinePage } from '../loratadine/loratadine';
+import { DiphenhydraminePage } from '../diphenhydramine/diphenhydramine';
+import { LoratadinePage } from '../loratadine/loratadine';
 // import { CetirizinePage } from '../cetirizine/cetirizine';
 // import { FexofenadinePage } from '../fexofenadine/fexofenadine';
 // import { TumsPage } from '../tums/tums';
@@ -56,8 +56,8 @@ export class DosingPage {
     this.currentPage = 0;
     this.pages = [true, true, true, true, true, true, true];
     this.subPages = [
-      // DiphenhydraminePage,  // 0
-      // LoratadinePage,       // 1
+      DiphenhydraminePage,  // 0
+      LoratadinePage,       // 1
       // CetirizinePage,       // 2
       // FexofenadinePage,     // 3
       // TumsPage,             // 4
@@ -81,6 +81,9 @@ export class DosingPage {
     ];
   }
   showMenu() {
+    var menu = document.querySelector( 'ion-menu ion-content' );
+    var setting = GlobalVars.getPageSetting('i');
+    menu.className = "outer-content content" + " " + setting['class'];
   	this.menu.open();
   }
   transitPage(pageNumber: number) {
@@ -93,10 +96,10 @@ export class DosingPage {
     this.navCtrl.push(this.subPages[id]);
   }
   gotoLogin() {
-    // this.navCtrl.push(SaveDoseLoginPage);
+    this.navCtrl.push(SaveDoseLoginPage);
   }
   gotoSavedDose() {
-    // this.navCtrl.push(SaveDoseListPage);
+    this.navCtrl.push(SaveDoseListPage);
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad DosingPage');

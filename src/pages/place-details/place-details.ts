@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController, Platform } from 'ionic-angular';
 
-import { NgZone, OnInit } from '@angular/core';
+import { NgZone } from '@angular/core';
 import { MapsAPILoader } from 'angular2-google-maps/core';
 
 import { DomSanitizer } from '@angular/platform-browser';
@@ -48,6 +48,12 @@ export class PlaceDetailsPage {
 		this.MapHeight = 400;
 		this.greviews = [];
 		this.map = null;
+	}
+	showMenu() {
+	    var menu = document.querySelector( 'ion-menu ion-content' );
+	    var setting = GlobalVars.getPageSetting('e');
+    	menu.className = "outer-content content" + " " + setting['class'];
+	  	this.menu.open();
 	}
 	getDirection() {
 		this.navCtrl.push(PlaceNavigationPage);

@@ -59,6 +59,8 @@ export class FindNearestPage {
     this.locationPage = 1;
   }
   showMenu() {
+    var menu = document.querySelector( 'ion-menu ion-content' );
+    menu.className = "outer-content content" + " " + this.setting['class'];
   	this.menu.open();
   }
   transitionPage(pageNum: number){

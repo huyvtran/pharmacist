@@ -13,7 +13,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -23,7 +23,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="ui-page-theme-n ui-mobile">
+<ion-content overflow-scroll="true"  padding class="ui-page-theme-n ui-mobile">
 	<div class="ui-content">
 	    <p>&nbsp;</p>
 	    <div style="padding:16px;">
@@ -70,7 +70,7 @@
 				        </ion-col>
 					</ion-row>
 	                <p style="padding-left: 20px;">
-	                    <a href="#" class="linkCyan ui-link" (click)="gotoRegisterPage()">Register</a>
+	                    <a href="#" class="linkCyan ui-link" (tap)="gotoRegisterPage()">Register</a>
 	                    <input name="save_dose_submit_login" type="submit" id="save_dose_submit_login" data-enhanced="false" data-role="none" class="buttonAmberBorder" value="Login" [disabled]="!loginForm.form.valid">
 	                </p>
 	            </form>

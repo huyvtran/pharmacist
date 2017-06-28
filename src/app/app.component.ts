@@ -53,7 +53,7 @@ export class MyApp {
             splashScreen.hide();
 
             if (platform.is('mobileweb')) {
-                console.log("running on a web device");
+                // console.log("running on a web device");
                 GlobalVars.setDeviceNumber(1);
             }
             else
@@ -67,7 +67,7 @@ export class MyApp {
             this.nav.push(page.component);
         } else {
             this.nav.setRoot(page.component).catch(() => {
-                console.log("Didn't set nav root");
+                // console.log("Didn't set nav root");
             });
         }
     }

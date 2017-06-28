@@ -9,6 +9,7 @@ import { NavController, NavParams, MenuController } from 'ionic-angular';
 */
 
 import { ChildrenDiphenhydramineMobilePage } from '../children-diphenhydramine-mobile/children-diphenhydramine-mobile';
+import { GlobalVars } from '../providers/globalvars';
 
 @Component({
   selector: 'page-diphenhydramine',
@@ -23,7 +24,10 @@ export class DiphenhydraminePage {
     this.pages = [true, true];
   }
   showMenu() {
-  	this.menu.open();
+    var menu = document.querySelector( 'ion-menu ion-content' );
+    var setting = GlobalVars.getPageSetting('i');
+    menu.className = "outer-content content" + " " + setting['class'];
+    this.menu.open();
   }
   togglePage(ind: number) {
     this.pages[ind] = !this.pages[ind];
@@ -32,7 +36,7 @@ export class DiphenhydraminePage {
     this.navCtrl.push(ChildrenDiphenhydramineMobilePage);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

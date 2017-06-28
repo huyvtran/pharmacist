@@ -589,14 +589,14 @@ export class CompareChildsPage {
 	}
 	loadData() {
 	    //this.RestApiURL
-	    console.log("Loading data");
+	    // console.log("Loading data");
 	    this.http.get(this.RestApiURL).map(res => res.json())
 	        .subscribe(data => {
 	            this.TableTempData = this.TableData = data;
-	            console.log(data);
+	            // console.log(data);
 	        }),
 	        err => {
-	            console.log("Oops!");
+	            // console.log("Oops!");
 	        }
 	}
 	gotoTop(scrollDuration) {

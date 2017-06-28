@@ -6,7 +6,7 @@
             </h1>
         </ion-title>
         <ion-buttons end>
-            <button ion-button icon-only (click)="showMenu()">
+            <button ion-button icon-only (tap)="showMenu()">
                 <ion-icon name="menu"></ion-icon>
             </button>
         </ion-buttons>
@@ -14,19 +14,19 @@
     <ion-navbar class="grayback">
         <ion-scroll scrollX="true" class="mbsc-ms-icons mbsc-mobi-blue mbsc-ms-b mbsc-mobiscroll" *ngIf="feedback_confirm==false">
             <ul id="about_menustrip" class="md-selected mbsc-comp mbsc-ms" style="font-size: 20px; height: 82px;">
-                <li data-tab="tab-aaaa" class="dataTab mbsc-ms-item mbsc-btn-e" data-selected="true" data-icon="ion-ios7-information-outline" data-role="button" aria-selected="true" (click)="showPage('tab-aaaa')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-aaaa'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-information-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">About this project</span></span></span></li>
-                <li data-tab="tab-bbbb" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="stream-speech-talk-user" data-role="button" (click)="showPage('tab-bbbb')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-bbbb'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-stream-speech-talk-user"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Pharmacist OTC Recommendations</span></span></span></li>
-                <li data-tab="tab-cccc" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="fa-balance-scale" data-role="button" (click)="showPage('tab-cccc')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-cccc'}"><span class="purplefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-fa-balance-scale"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Compare OTC Products</span></span></span></li>
-                <li data-tab="tab-dddd" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="stream-eye-dropper" data-role="button" (click)="showPage('tab-dddd')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-dddd'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-stream-eye-dropper"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Kids Medication Dosing</span></span></span></li>
-                <li data-tab="tab-eeee" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="material-local-pharmacy" data-role="button" (click)="showPage('tab-eeee')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-eeee'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-material-local-pharmacy"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Drug Savings Card</span></span></span></li>
-                <li data-tab="tab-ffff" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-lightbulb-outline" data-role="button" (click)="showPage('tab-ffff')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-ffff'}"><span class="orangefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-lightbulb-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Sponsor This App</span></span></span></li>
-                <li data-tab="tab-gggg" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-world-outline" data-role="button" (click)="showPage('tab-gggg')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-gggg'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-world-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Advertise With Us</span></span></span></li>
-                <li data-tab="tab-hhhh" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-cart-outline" data-role="button" (click)="showPage('tab-hhhh')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-hhhh'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-cart-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Shopping</span></span></span></li>
-                <li data-tab="tab-iiii" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-android-share" data-role="button" (click)="showPage('tab-iiii')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-iiii'}"><span class="purplefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-android-share"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Show Your Love</span></span></span></li>
-                <li data-tab="tab-kkkk" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-people-outline" data-role="button" (click)="showPage('tab-kkkk')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-kkkk'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-people-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Terms Of Use</span></span></span></li>
-                <li data-tab="tab-llll" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-eye-disabled" data-role="button" (click)="showPage('tab-llll')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-llll'}"><span class="orangefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-eye-disabled"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Privacy Policy</span></span></span></li>
-                <li data-tab="tab-mmmm" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-email-outline" data-role="button" (click)="showPage('tab-mmmm')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-mmmm'}"><span class="purplefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-email-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Contact Us</span></span></span></li>
-                <li data-tab="tab-nnnn" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-chatboxes-outline" data-role="button" (click)="showPage('tab-nnnn')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-nnnn'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-chatboxes-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Give Feedback</span></span></span></li>
+                <li data-tab="tab-aaaa" class="dataTab mbsc-ms-item mbsc-btn-e" data-selected="true" data-icon="ion-ios7-information-outline" data-role="button" aria-selected="true" (tap)="showPage('tab-aaaa')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-aaaa'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-information-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">About this project</span></span></span></li>
+                <li data-tab="tab-bbbb" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="stream-speech-talk-user" data-role="button" (tap)="showPage('tab-bbbb')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-bbbb'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-stream-speech-talk-user"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Pharmacist OTC Recommendations</span></span></span></li>
+                <li data-tab="tab-cccc" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="fa-balance-scale" data-role="button" (tap)="showPage('tab-cccc')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-cccc'}"><span class="purplefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-fa-balance-scale"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Compare OTC Products</span></span></span></li>
+                <li data-tab="tab-dddd" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="stream-eye-dropper" data-role="button" (tap)="showPage('tab-dddd')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-dddd'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-stream-eye-dropper"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Kids Medication Dosing</span></span></span></li>
+                <li data-tab="tab-eeee" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="material-local-pharmacy" data-role="button" (tap)="showPage('tab-eeee')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-eeee'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-material-local-pharmacy"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Drug Savings Card</span></span></span></li>
+                <li data-tab="tab-ffff" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-lightbulb-outline" data-role="button" (tap)="showPage('tab-ffff')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-ffff'}"><span class="orangefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-lightbulb-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Sponsor This App</span></span></span></li>
+                <li data-tab="tab-gggg" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-world-outline" data-role="button" (tap)="showPage('tab-gggg')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-gggg'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-world-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Advertise With Us</span></span></span></li>
+                <li data-tab="tab-hhhh" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-cart-outline" data-role="button" (tap)="showPage('tab-hhhh')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-hhhh'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-cart-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Shopping</span></span></span></li>
+                <li data-tab="tab-iiii" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-android-share" data-role="button" (tap)="showPage('tab-iiii')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-iiii'}"><span class="purplefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-android-share"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Show Your Love</span></span></span></li>
+                <li data-tab="tab-kkkk" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-people-outline" data-role="button" (tap)="showPage('tab-kkkk')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-kkkk'}"><span class="redfont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-people-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Terms Of Use</span></span></span></li>
+                <li data-tab="tab-llll" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-eye-disabled" data-role="button" (tap)="showPage('tab-llll')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-llll'}"><span class="orangefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-eye-disabled"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Privacy Policy</span></span></span></li>
+                <li data-tab="tab-mmmm" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-email-outline" data-role="button" (tap)="showPage('tab-mmmm')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-mmmm'}"><span class="purplefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-email-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Contact Us</span></span></span></li>
+                <li data-tab="tab-nnnn" class="dataTab mbsc-ms-item mbsc-btn-e" data-icon="ion-ios7-chatboxes-outline" data-role="button" (tap)="showPage('tab-nnnn')" [ngClass]="{'mbsc-ms-item-sel': page=='tab-nnnn'}"><span class="bluefont mbsc-ms-item-i mbsc-ms-ic mbsc-ic mbsc-ic-ion-ios7-chatboxes-outline"><span class="mbsc-ms-item-i-t"><span class="mbsc-ms-item-i-c">Give Feedback</span></span></span></li>
             </ul>
         </ion-scroll>
         <div class="fullWidth robotoLight bgGray" *ngIf="feedback_confirm==true">
@@ -34,7 +34,7 @@
         </div>
     </ion-navbar>
 </ion-header>
-<ion-content class="ui-page-theme-a">
+<ion-content overflow-scroll="true"  class="ui-page-theme-a">
     <div class="ui-content" role="main" *ngIf="feedback_confirm==false">
         <div id="tab-aaaa" *ngIf="page=='tab-aaaa'">
             <p>&nbsp;</p>
@@ -65,7 +65,7 @@
                 <p>&nbsp;</p>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-aaaa',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][0], 'ui-icon-arrow-d': !state['tab-aaaa'][0]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-aaaa',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][0], 'ui-icon-arrow-d': !state['tab-aaaa'][0]}">
                             <span class="bluefont robotoLight">Self-Care Medications</span>
                             <span class="ui-collapsible-heading-status"> click to expand contents</span>
                         </a>
@@ -100,7 +100,7 @@
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-aaaa',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][1], 'ui-icon-arrow-d': !state['tab-aaaa'][1]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-aaaa',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][1], 'ui-icon-arrow-d': !state['tab-aaaa'][1]}">
                         <span class="orangefont robotoLight">Compare OTC Medications</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-aaaa'][1]}" aria-hidden="true">
                         <div class="orangeBorderAll">
@@ -130,7 +130,7 @@
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-aaaa',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][2], 'ui-icon-arrow-d': !state['tab-aaaa'][2]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-aaaa',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][2], 'ui-icon-arrow-d': !state['tab-aaaa'][2]}">
                             <span class="purplefont robotoLight">Kids Medication Dosing</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-aaaa'][2]}" aria-hidden="true" >
                         <div class="purpleBorderAll">
@@ -159,7 +159,7 @@
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-aaaa',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][3], 'ui-icon-arrow-d': !state['tab-aaaa'][3]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-aaaa',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][3], 'ui-icon-arrow-d': !state['tab-aaaa'][3]}">
                             <span class="bluefont robotoLight">Manufacturer's savings</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-aaaa'][3]}" aria-hidden="true">
                         <div class="greenBorderAll">
@@ -182,7 +182,7 @@
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-aaaa',4)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][4], 'ui-icon-arrow-d': !state['tab-aaaa'][4]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-aaaa',4)" [ngClass]="{'ui-icon-arrow-r': state['tab-aaaa'][4], 'ui-icon-arrow-d': !state['tab-aaaa'][4]}">
                             <span class="bluefont robotoLight">Nearest Health Clinic</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-aaaa'][4]}" aria-hidden="true">
                         <div class="blueBorderAll">
@@ -662,7 +662,7 @@
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][0], 'ui-icon-arrow-d': !state['tab-kkkk'][0]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][0], 'ui-icon-arrow-d': !state['tab-kkkk'][0]}">
                             <span class="orangefont robotoLight">IMPORTANT INTRODUCTION</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][0]}" aria-hidden="true">
                         <p>You are attempting to download, install, already installed a mobile software application (the "App") and access the websites located at https://www.selfcare-otc.com, http://www.m.selfcare-otc.com, http://www.otc.selfcarepharmacist.com, http://www.redapplepharmacy.com, http://www.blog.redapplepharmacy.com&nbsp;(the "Site") maintained and provided by Miles Connect LLC dba Selfcare-OTC, Red Apple Interactive Pharmacy. Together, the App and the Site are referred to below as the "Applications."</p>
@@ -676,7 +676,7 @@
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
                     <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][1], 'ui-icon-arrow-d': !state['tab-kkkk'][1]}">
+                        <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][1], 'ui-icon-arrow-d': !state['tab-kkkk'][1]}">
                             <span class="redfont robotoLight">WARNING / DISCLAIMER</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][1]}" aria-hidden="true">
                         <p>1. </p>
@@ -688,7 +688,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][2], 'ui-icon-arrow-d': !state['tab-kkkk'][2]}"><span class="orangefont robotoLight">User Obligations</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][2], 'ui-icon-arrow-d': !state['tab-kkkk'][2]}"><span class="orangefont robotoLight">User Obligations</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][2]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -697,7 +697,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][3], 'ui-icon-arrow-d': !state['tab-kkkk'][3]}"><span class="redfont robotoLight">Use of Content</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][3], 'ui-icon-arrow-d': !state['tab-kkkk'][3]}"><span class="redfont robotoLight">Use of Content</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][3]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -706,7 +706,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',4)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][4], 'ui-icon-arrow-d': !state['tab-kkkk'][4]}"><span class="orangefont robotoLight">Prohibited Activities</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',4)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][4], 'ui-icon-arrow-d': !state['tab-kkkk'][4]}"><span class="orangefont robotoLight">Prohibited Activities</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][4]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -715,7 +715,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',5)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][5], 'ui-icon-arrow-d': !state['tab-kkkk'][5]}"><span class="redfont robotoLight">Accounts, Passwords and Security</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',5)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][5], 'ui-icon-arrow-d': !state['tab-kkkk'][5]}"><span class="redfont robotoLight">Accounts, Passwords and Security</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][5]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -724,7 +724,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',6)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][6], 'ui-icon-arrow-d': !state['tab-kkkk'][6]}"><span class="orangefont robotoLight">Third Party Dealings</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',6)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][6], 'ui-icon-arrow-d': !state['tab-kkkk'][6]}"><span class="orangefont robotoLight">Third Party Dealings</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][6]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -733,7 +733,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',7)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][7], 'ui-icon-arrow-d': !state['tab-kkkk'][7]}"><span class="redfont robotoLight">Commercial Transactions</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',7)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][7], 'ui-icon-arrow-d': !state['tab-kkkk'][7]}"><span class="redfont robotoLight">Commercial Transactions</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][7]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -742,7 +742,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',8)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][8], 'ui-icon-arrow-d': !state['tab-kkkk'][8]}"><span class="orangefont robotoLight">Sweepstakes, Contests and Games</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',8)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][8], 'ui-icon-arrow-d': !state['tab-kkkk'][8]}"><span class="orangefont robotoLight">Sweepstakes, Contests and Games</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][8]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -751,7 +751,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',9)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][9], 'ui-icon-arrow-d': !state['tab-kkkk'][9]}"><span class="orangefont robotoLight">Community posting Rules</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',9)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][9], 'ui-icon-arrow-d': !state['tab-kkkk'][9]}"><span class="orangefont robotoLight">Community posting Rules</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][9]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -760,7 +760,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',10)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][10], 'ui-icon-arrow-d': !state['tab-kkkk'][10]}"><span class="orangefont robotoLight">Limitation Of Liability
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',10)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][10], 'ui-icon-arrow-d': !state['tab-kkkk'][10]}"><span class="orangefont robotoLight">Limitation Of Liability
                         </span><span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][10]}" aria-hidden="true">
@@ -771,7 +771,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',11)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][11], 'ui-icon-arrow-d': !state['tab-kkkk'][11]}"><span class="orangefont robotoLight">Applications Ownership
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',11)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][11], 'ui-icon-arrow-d': !state['tab-kkkk'][11]}"><span class="orangefont robotoLight">Applications Ownership
                         </span><span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][11]}" aria-hidden="true">
@@ -782,7 +782,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',12)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][12], 'ui-icon-arrow-d': !state['tab-kkkk'][12]}"><span class="orangefont robotoLight">Disclaimer of Warranties</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',12)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][12], 'ui-icon-arrow-d': !state['tab-kkkk'][12]}"><span class="orangefont robotoLight">Disclaimer of Warranties</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][12]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -791,7 +791,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',13)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][13], 'ui-icon-arrow-d': !state['tab-kkkk'][13]}"><span class="orangefont robotoLight">Indemnity</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',13)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][13], 'ui-icon-arrow-d': !state['tab-kkkk'][13]}"><span class="orangefont robotoLight">Indemnity</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][13]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -800,7 +800,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',14)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][14], 'ui-icon-arrow-d': !state['tab-kkkk'][14]}"><span class="orangefont robotoLight">Copyright Policy</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',14)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][14], 'ui-icon-arrow-d': !state['tab-kkkk'][14]}"><span class="orangefont robotoLight">Copyright Policy</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][14]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -809,7 +809,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',15)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][15], 'ui-icon-arrow-d': !state['tab-kkkk'][15]}"><span class="orangefont robotoLight">Jurisdiction</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',15)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][15], 'ui-icon-arrow-d': !state['tab-kkkk'][15]}"><span class="orangefont robotoLight">Jurisdiction</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][15]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -818,7 +818,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',16)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][16], 'ui-icon-arrow-d': !state['tab-kkkk'][16]}"><span class="orangefont robotoLight">Termination</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',16)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][16], 'ui-icon-arrow-d': !state['tab-kkkk'][16]}"><span class="orangefont robotoLight">Termination</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][16]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -827,7 +827,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',17)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][17], 'ui-icon-arrow-d': !state['tab-kkkk'][17]}"><span class="orangefont robotoLight">Governing Law</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',17)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][17], 'ui-icon-arrow-d': !state['tab-kkkk'][17]}"><span class="orangefont robotoLight">Governing Law</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][17]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -836,7 +836,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',18)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][18], 'ui-icon-arrow-d': !state['tab-kkkk'][18]}"><span class="orangefont robotoLight">Waiver and Severability</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',18)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][18], 'ui-icon-arrow-d': !state['tab-kkkk'][18]}"><span class="orangefont robotoLight">Waiver and Severability</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][18]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -845,7 +845,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',19)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][19], 'ui-icon-arrow-d': !state['tab-kkkk'][19]}"><span class="orangefont robotoLight">APPLE-SPECIFIC Terms Of Use.</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',19)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][19], 'ui-icon-arrow-d': !state['tab-kkkk'][19]}"><span class="orangefont robotoLight">APPLE-SPECIFIC Terms Of Use.</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][19]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -854,7 +854,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',20)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][20], 'ui-icon-arrow-d': !state['tab-kkkk'][20]}"><span class="orangefont robotoLight">Successors and Assigns</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',20)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][20], 'ui-icon-arrow-d': !state['tab-kkkk'][20]}"><span class="orangefont robotoLight">Successors and Assigns</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][20]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -863,7 +863,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',21)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][21], 'ui-icon-arrow-d': !state['tab-kkkk'][21]}"><span class="orangefont robotoLight">Updates</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',21)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][21], 'ui-icon-arrow-d': !state['tab-kkkk'][21]}"><span class="orangefont robotoLight">Updates</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][21]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -872,7 +872,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-kkkk',22)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][22], 'ui-icon-arrow-d': !state['tab-kkkk'][22]}"><span class="orangefont robotoLight">Complete Agreement
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-kkkk',22)" [ngClass]="{'ui-icon-arrow-r': state['tab-kkkk'][22], 'ui-icon-arrow-d': !state['tab-kkkk'][22]}"><span class="orangefont robotoLight">Complete Agreement
                         </span><span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-kkkk'][22]}" aria-hidden="true">
@@ -903,7 +903,7 @@
                 <p class="orangefont redBorderAll centerText">This App is for Informational Purposes Only and Does Not Provide Medical Advice.</p>
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][0], 'ui-icon-arrow-d': !state['tab-llll'][0]}"><span class="orangefont robotoLight">INTRODUCTION</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][0], 'ui-icon-arrow-d': !state['tab-llll'][0]}"><span class="orangefont robotoLight">INTRODUCTION</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][0]}" aria-hidden="true">
                         <p>Miles Connect LLC is concerned about privacy issues and wants you to be familiar with how we may use and disclose the information, and how you can control, correct and/or update the information.</p>
                         <p>This Privacy Policy describes our practices in connection with information that we collect through software applications (like mobile applications) and websites (http://www.selfcare-otc.com, http://www.m.selfcare-otc.com, http://www.selfcarepharmacist.com, http://www.otc.selfcarepharmacist.com, http://www.redapplepharmacy.com, http://www.redappleinteractivepharmacy.com, http://www.blog.redapplepharmacy.com)&nbsp;that we operate and that contain or link to this Privacy Policy (such applications and websites, the “Applications”). </p>
@@ -914,7 +914,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][1], 'ui-icon-arrow-d': !state['tab-llll'][1]}"><span class="redfont robotoLight">Information Collected About You</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][1], 'ui-icon-arrow-d': !state['tab-llll'][1]}"><span class="redfont robotoLight">Information Collected About You</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][1]}" aria-hidden="true">
                         <p>1. </p>
                         <p>2. </p>
@@ -925,7 +925,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][2], 'ui-icon-arrow-d': !state['tab-llll'][2]}"><span class="orangefont robotoLight">How We Use Your Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][2], 'ui-icon-arrow-d': !state['tab-llll'][2]}"><span class="orangefont robotoLight">How We Use Your Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][2]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -934,7 +934,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][3], 'ui-icon-arrow-d': !state['tab-llll'][3]}"><span class="redfont robotoLight">How We Disclose Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][3], 'ui-icon-arrow-d': !state['tab-llll'][3]}"><span class="redfont robotoLight">How We Disclose Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][3]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -943,7 +943,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',4)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][4], 'ui-icon-arrow-d': !state['tab-llll'][4]}"><span class="orangefont robotoLight">How We Protect Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',4)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][4], 'ui-icon-arrow-d': !state['tab-llll'][4]}"><span class="orangefont robotoLight">How We Protect Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][4]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -952,7 +952,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',5)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][5], 'ui-icon-arrow-d': !state['tab-llll'][5]}"><span class="redfont robotoLight">Controlling Your Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',5)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][5], 'ui-icon-arrow-d': !state['tab-llll'][5]}"><span class="redfont robotoLight">Controlling Your Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][5]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -961,7 +961,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',6)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][6], 'ui-icon-arrow-d': !state['tab-llll'][6]}"><span class="orangefont robotoLight">Children's Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',6)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][6], 'ui-icon-arrow-d': !state['tab-llll'][6]}"><span class="orangefont robotoLight">Children's Information</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][6]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -970,7 +970,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',7)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][7], 'ui-icon-arrow-d': !state['tab-llll'][7]}"><span class="redfont robotoLight">Third Parties / Advertising</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',7)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][7], 'ui-icon-arrow-d': !state['tab-llll'][7]}"><span class="redfont robotoLight">Third Parties / Advertising</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][7]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -979,7 +979,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',8)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][8], 'ui-icon-arrow-d': !state['tab-llll'][8]}"><span class="orangefont robotoLight">How To Contact Us</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',8)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][8], 'ui-icon-arrow-d': !state['tab-llll'][8]}"><span class="orangefont robotoLight">How To Contact Us</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][8]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -988,7 +988,7 @@
                 <hr class="hrorange">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-llll',9)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][9], 'ui-icon-arrow-d': !state['tab-llll'][9]}"><span class="orangefont robotoLight">Privacy Policy Changes</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-llll',9)" [ngClass]="{'ui-icon-arrow-r': state['tab-llll'][9], 'ui-icon-arrow-d': !state['tab-llll'][9]}"><span class="orangefont robotoLight">Privacy Policy Changes</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-llll'][9]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -1013,7 +1013,7 @@
                 <div class="clearboth divider1"></div>
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-mmmm',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][0], 'ui-icon-arrow-d': !state['tab-mmmm'][0]}"><span class="purplefont robotoLight">Phone / Fax Number</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-mmmm',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][0], 'ui-icon-arrow-d': !state['tab-mmmm'][0]}"><span class="purplefont robotoLight">Phone / Fax Number</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-mmmm'][0]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -1022,7 +1022,7 @@
                 <hr class="hrpurple">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-mmmm',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][1], 'ui-icon-arrow-d': !state['tab-mmmm'][1]}"><span class="purplefont robotoLight">Email Address</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-mmmm',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][1], 'ui-icon-arrow-d': !state['tab-mmmm'][1]}"><span class="purplefont robotoLight">Email Address</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-mmmm'][1]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -1030,7 +1030,7 @@
                 <br>
                 <hr class="hrpurple">
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-mmmm',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][2], 'ui-icon-arrow-d': !state['tab-mmmm'][2]}"><span class="bluefont robotoLight">Social Media</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-mmmm',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][2], 'ui-icon-arrow-d': !state['tab-mmmm'][2]}"><span class="bluefont robotoLight">Social Media</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-mmmm'][2]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -1039,7 +1039,7 @@
                 <hr class="hrpurple">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-mmmm',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][3], 'ui-icon-arrow-d': !state['tab-mmmm'][3]}"><span class="orangefont robotoLight">Mailing Address</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-mmmm',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-mmmm'][3], 'ui-icon-arrow-d': !state['tab-mmmm'][3]}"><span class="orangefont robotoLight">Mailing Address</span><span class="ui-collapsible-heading-status"> click to expand contents</span></a></h3>
                     <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': state['tab-mmmm'][3]}" aria-hidden="true">
                         <p></p>
                     </div>
@@ -1074,7 +1074,7 @@
                 <div class="clearboth divider1"></div>
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-nnnn',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][0], 'ui-icon-arrow-d': !state['tab-nnnn'][0]}"><span class="bluefont robotoLight">User Experience (UX)</span>         
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-nnnn',0)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][0], 'ui-icon-arrow-d': !state['tab-nnnn'][0]}"><span class="bluefont robotoLight">User Experience (UX)</span>         
                         <span class="redfont robotoLight font12" *ngIf="feedback_contents['rsUXSurveyName']>0">(<span class="mbsc-ic mbsc-ic-ion-android-checkmark"></span> Thank you!)</span>  
                         <span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
@@ -1090,7 +1090,7 @@
                                 </div>
                             </div>
                             <p class="centerText">
-                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showUXSurveyA1" (click)="transitFeedback(0,1)">Let's Start</button>
+                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showUXSurveyA1" (tap)="transitFeedback(0,1)">Let's Start</button>
                             </p>
                         </div>
                         <form action="" method="POST" name="UX_feedback_survey_form" id="UX_feedback_survey_form">
@@ -1116,7 +1116,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUXSurveyA2" *ngIf="answers[0][0]!=''">                     
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(0,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(0,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UXsurveyA2 ui-field-contain" *ngIf="feedback[0]==2">
@@ -1138,7 +1138,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUXSurveyA3" *ngIf="answers[0][1]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(0,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(0,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UXsurveyA3 ui-field-contain" *ngIf="feedback[0]==3">
@@ -1160,7 +1160,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUXSurveyA4" *ngIf="answers[0][2]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(0,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(0,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UXsurveyA4 ui-field-contain" *ngIf="feedback[0]==4">
@@ -1182,7 +1182,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUXSurveyA5" *ngIf="answers[0][3]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(0,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(0,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UXsurveyA5 ui-field-contain" *ngIf="feedback[0]==5">
@@ -1204,7 +1204,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="submitSurvey centerText" *ngIf="answers[0][4]!=''">
-                                    <input type="submit" id="submitUXSurvey" name="submitUXSurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (click)="transitFeedback(0,6)">
+                                    <input type="submit" id="submitUXSurvey" name="submitUXSurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (tap)="transitFeedback(0,6)">
                                 </p>
                             </div>
                         </form>
@@ -1217,7 +1217,7 @@
                 <hr class="hrblue">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-nnnn',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][1], 'ui-icon-arrow-d': !state['tab-nnnn'][1]}"><span class="bluefont robotoLight">User Interface (UI)</span>         
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-nnnn',1)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][1], 'ui-icon-arrow-d': !state['tab-nnnn'][1]}"><span class="bluefont robotoLight">User Interface (UI)</span>         
                         <span class="redfont robotoLight font12" *ngIf="feedback_contents['rsUISurveyName']>0">(<span class="mbsc-ic mbsc-ic-ion-android-checkmark"></span> Thank you!)</span>  
                         <span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
@@ -1233,7 +1233,7 @@
                                 </div>
                             </div>
                             <p class="centerText">
-                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showUISurveyA1" (click)="transitFeedback(1,1)">Let's Start</button>
+                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showUISurveyA1" (tap)="transitFeedback(1,1)">Let's Start</button>
                             </p>
                         </div>
                         <form action="" method="POST" name="UI_feedback_survey_form" id="UI_feedback_survey_form">
@@ -1259,7 +1259,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUISurveyA2" *ngIf="answers[1][0]!=''">                     
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(1,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(1,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UIsurveyA2 ui-field-contain" *ngIf="feedback[1]==2">
@@ -1281,7 +1281,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUISurveyA3" *ngIf="answers[1][1]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(1,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(1,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UIsurveyA3 ui-field-contain" *ngIf="feedback[1]==3">
@@ -1303,7 +1303,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUISurveyA4" *ngIf="answers[1][2]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(1,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(1,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UIsurveyA4 ui-field-contain" *ngIf="feedback[1]==4">
@@ -1325,7 +1325,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showUISurveyA5" *ngIf="answers[1][3]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(1,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(1,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="UIsurveyA5 ui-field-contain" *ngIf="feedback[1]==5">
@@ -1347,7 +1347,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="submitSurvey centerText" *ngIf="answers[1][4]!=''">
-                                    <input type="submit" id="submitUISurvey" name="submitUISurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (click)="transitFeedback(1,6)">
+                                    <input type="submit" id="submitUISurvey" name="submitUISurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (tap)="transitFeedback(1,6)">
                                 </p>
                             </div>
                         </form>
@@ -1359,7 +1359,7 @@
                 <br>
                 <hr class="hrblue">
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-nnnn',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][2], 'ui-icon-arrow-d': !state['tab-nnnn'][2]}"><span class="bluefont robotoLight">Application Value (AV)</span>         
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-nnnn',2)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][2], 'ui-icon-arrow-d': !state['tab-nnnn'][2]}"><span class="bluefont robotoLight">Application Value (AV)</span>         
                         <span class="redfont robotoLight font12" *ngIf="feedback_contents['rsAVSurveyName']>0">(<span class="mbsc-ic mbsc-ic-ion-android-checkmark"></span> Thank you!)</span>  
                         <span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
@@ -1375,7 +1375,7 @@
                                 </div>
                             </div>
                             <p class="centerText">
-                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showAVSurveyA1" (click)="transitFeedback(2,1)">Let's Start</button>
+                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showAVSurveyA1" (tap)="transitFeedback(2,1)">Let's Start</button>
                             </p>
                         </div>
                         <form action="" method="POST" name="AV_feedback_survey_form" id="AV_feedback_survey_form">
@@ -1401,7 +1401,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showAVSurveyA2" *ngIf="answers[2][0]!=''">                     
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(2,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(2,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="AVsurveyA2 ui-field-contain" *ngIf="feedback[2]==2">
@@ -1423,7 +1423,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showAVSurveyA3" *ngIf="answers[2][1]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(2,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(2,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="AVsurveyA3 ui-field-contain" *ngIf="feedback[2]==3">
@@ -1445,7 +1445,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showAVSurveyA4" *ngIf="answers[2][2]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(2,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(2,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="AVsurveyA4 ui-field-contain" *ngIf="feedback[2]==4">
@@ -1467,7 +1467,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showAVSurveyA5" *ngIf="answers[2][3]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(2,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(2,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="AVsurveyA5 ui-field-contain" *ngIf="feedback[2]==5">
@@ -1489,7 +1489,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="submitSurvey centerText" *ngIf="answers[2][4]!=''">
-                                    <input type="submit" id="submitAVSurvey" name="submitAVSurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (click)="transitFeedback(2,6)">
+                                    <input type="submit" id="submitAVSurvey" name="submitAVSurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (tap)="transitFeedback(2,6)">
                                 </p>
                             </div>
                         </form>
@@ -1502,7 +1502,7 @@
                 <hr class="hrblue">
                 <br>
                 <div data-collapsed-icon="arrow-r" data-inset="false" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed" data-role="collapsible">
-                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="toggleState('tab-nnnn',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][3], 'ui-icon-arrow-d': !state['tab-nnnn'][3]}"><span class="bluefont robotoLight">Content Quality (CQ)</span>         
+                    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (tap)="toggleState('tab-nnnn',3)" [ngClass]="{'ui-icon-arrow-r': state['tab-nnnn'][3], 'ui-icon-arrow-d': !state['tab-nnnn'][3]}"><span class="bluefont robotoLight">Content Quality (CQ)</span>         
                         <span class="redfont robotoLight font12" *ngIf="feedback_contents['rsCQSurveyName']>0">(<span class="mbsc-ic mbsc-ic-ion-android-checkmark"></span> Thank you!)</span>  
                         <span class="ui-collapsible-heading-status"> click to expand contents</span></a>
                     </h3>
@@ -1518,7 +1518,7 @@
                                 </div>
                             </div>
                             <p class="centerText">
-                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showCQSurveyA1" (click)="transitFeedback(3,1)">Let's Start</button>
+                                <button data-inline="true" data-role="none" class="buttonRedBorderThin showCQSurveyA1" (tap)="transitFeedback(3,1)">Let's Start</button>
                             </p>
                         </div>
                         <form action="" method="POST" name="CQ_feedback_survey_form" id="CQ_feedback_survey_form">
@@ -1544,7 +1544,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showCQSurveyA2" *ngIf="answers[3][0]!=''">                     
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(3,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(3,2)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">2 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="CQsurveyA2 ui-field-contain" *ngIf="feedback[3]==2">
@@ -1566,7 +1566,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showCQSurveyA3" *ngIf="answers[3][1]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(3,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(3,3)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">3 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="CQsurveyA3 ui-field-contain" *ngIf="feedback[3]==3">
@@ -1588,7 +1588,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showCQSurveyA4" *ngIf="answers[3][2]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(3,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(3,4)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">4 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="CQsurveyA4 ui-field-contain" *ngIf="feedback[3]==4">
@@ -1610,7 +1610,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="centerText showCQSurveyA5" *ngIf="answers[3][3]!=''"> 
-                                    <a href="#" class="linkBlue ui-link" data-inline="true" (click)="transitFeedback(3,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
+                                    <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="transitFeedback(3,5)">Next Question <span class="mbsc-ic mbsc-ic-ion-arrow-right-c mobi-icon-font24"></span><br> <span class="graygrayfontSmall">5 of 5</span></a>
                                 </p>
                             </div>
                             <div data-role="fieldcontain" class="CQsurveyA5 ui-field-contain" *ngIf="feedback[3]==5">
@@ -1632,7 +1632,7 @@
                                 <div class="clearboth"></div>
                                 <br>
                                 <p class="submitSurvey centerText" *ngIf="answers[3][4]!=''">
-                                    <input type="submit" id="submitCQSurvey" name="submitCQSurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (click)="transitFeedback(3,6)">
+                                    <input type="submit" id="submitCQSurvey" name="submitCQSurvey" data-role="none" class="buttonBlueBorder fontLarge" value="Send Feedback" (tap)="transitFeedback(3,6)">
                                 </p>
                             </div>
                         </form>
@@ -1670,7 +1670,7 @@
         <br>
         <p class="centerText"> 
             <a href="mailto:contactus@selfcare-otc.com?Subject=Feedback%20for%20Selfcare-OTC%20app" target="_top" class="linkOrangeBorder ui-link" data-inline="true">Contact Us</a>
-            <a href="#" class="linkBlue ui-link" data-inline="true" (click)="goBack()">Continue</a>
+            <a href="#" class="linkBlue ui-link" data-inline="true" (tap)="goBack()">Continue</a>
         </p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>

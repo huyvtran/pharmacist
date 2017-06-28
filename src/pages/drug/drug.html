@@ -12,7 +12,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -20,7 +20,7 @@
 </ion-header>
 
 
-<ion-content class="ui-page-theme-a" [ngClass]="{'no-scroll': noscroll}">
+<ion-content overflow-scroll="true"  class="ui-page-theme-a" [ngClass]="{'no-scroll': noscroll}">
 	<div class="fullWidth robotoLight bgGray">
 		<p>Drug Manufacturer Savings</p>
 	</div>
@@ -43,7 +43,7 @@
 			<form class="ui-filterable">
 				<div class="ui-input-search ui-shadow-inset ui-input-has-clear ui-body-inherit ui-corner-all">
 					<input type="text" [(ngModel)]="dsearch" name="title" placeholder="Search for drug" (input)='onInputSearch($event.target.value)'/>
-					<a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" *ngIf="dsearch.length>0" title="Clear text" (click)="clearSearch()">Clear text</a>
+					<a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" *ngIf="dsearch.length>0" title="Clear text" (tap)="clearSearch()">Clear text</a>
 				</div>
 			</form>
 			<ul id="coursemates" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search for drug" data-inset="true" class="ui-nodisc-icon ui-alt-icon ui-listview ui-listview-inset ui-corner-all ui-shadow">
@@ -55,7 +55,7 @@
 						<p class="graygrayfontSmallSmall" style="font-size:10px;">Last reviewed: {{each.last_view}}</p>
 					</a>
 				</li>
-			    <li id="search-list" class="no-results ui-li-static ui-body-inherit" [ngClass]="{'ui-screen-hidden': noFound}" (click)="hideNoFound()">
+			    <li id="search-list" class="no-results ui-li-static ui-body-inherit" [ngClass]="{'ui-screen-hidden': noFound}" (tap)="hideNoFound()">
 			        <p class="centerText">Oops, No drug savings program found.<br>Tap on the FAQ button below<br> for possible reasons. </p>
 			    </li>
 			</ul>
@@ -65,8 +65,8 @@
 			</p>
 			<hr class="hrblue">
 			<p class="centerText">
-				<button class="buttonAmber robotoLight" data-enhanced="false" data-role="none" id="fyi_btn" (click)="transitPage(1)">FYI</button>
-				<button class="buttonBlue robotoLight" data-enhanced="false" data-role="none" id="faq_btn" (click)="transitPage(2)">FAQ</button> 
+				<button class="buttonAmber robotoLight" data-enhanced="false" data-role="none" id="fyi_btn" (tap)="transitPage(1)">FYI</button>
+				<button class="buttonBlue robotoLight" data-enhanced="false" data-role="none" id="faq_btn" (tap)="transitPage(2)">FAQ</button> 
 			</p>
 			<p class="centerText"> 
 		    <a href="mailto:contactus@selfcare-otc.com?subject=Drug%20coupons%20improvement%20suggestions" class="linkGrayBorder robotoLightSmall ui-link" data-inline="true">Suggest A Savings Card</a>
@@ -84,7 +84,7 @@
 	</div>
 	<div lang="en" class="mbsc-mobi-light-orange mbsc-mobiscroll dw-top mbsc-wdg" *ngIf="page==1">
 	    <div class="dw-persp slidedown in">
-	        <div class="dwo" [ngStyle]="{'top': topPx+'px'}" (click)="transitPage(0)"></div>
+	        <div class="dwo" [ngStyle]="{'top': topPx+'px'}" (tap)="transitPage(0)"></div>
 	        <div role="dialog" tabindex="-1" class="dw dw-ltr" style="left: 0px;" [ngStyle]="{'top': topPx+'px'}">
 	            <div class="dwwr">
 	                <div aria-live="assertive" class="dw-aria dw-hidden"></div>
@@ -102,7 +102,7 @@
 	                </div>
 	                <div class="dwbc">
 	                    <div class="dwbw dwb-c">
-	                        <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (click)="transitPage(0)">GOT IT</div>
+	                        <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="transitPage(0)">GOT IT</div>
 	                    </div>
 	                </div>
 	            </div>
@@ -111,7 +111,7 @@
 	</div>
 	<div lang="en" class="mbsc-mobi-blue mbsc-mobiscroll dw-top  mbsc-wdg" *ngIf="page==2">
 	    <div class="dw-persp slidedown in">
-	        <div class="dwo" [ngStyle]="{'top': topPx+'px'}" (click)="transitPage(0)"></div>
+	        <div class="dwo" [ngStyle]="{'top': topPx+'px'}" (tap)="transitPage(0)"></div>
 	        <div role="dialog" tabindex="-1" class="dw dw-ltr" style="left: 0px;" [ngStyle]="{'top': topPx+'px'}">
 	            <div class="dwwr">
 	                <div aria-live="assertive" class="dw-aria dw-hidden"></div>
@@ -129,7 +129,7 @@
 	                </div>
 	                <div class="dwbc">
 	                    <div class="dwbw dwb-c">
-	                        <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (click)="transitPage(0)">GOT IT</div>
+	                        <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="transitPage(0)">GOT IT</div>
 	                    </div>
 	                </div>
 	            </div>

@@ -12,7 +12,7 @@
             </h1>
         </ion-title>
         <ion-buttons end>
-            <button ion-button icon-only (click)="showMenu()">
+            <button ion-button icon-only (tap)="showMenu()">
                 <ion-icon name="menu"></ion-icon>
             </button>
         </ion-buttons>
@@ -22,7 +22,7 @@
         <p class="fullWidth robotoLight bgLightBlue" *ngIf="pmode==1">Who is this for?</p>
     </ion-navbar>
 </ion-header>
-<ion-content class="ui-page-theme-a" [ngClass]="{'back1': pmode==0, 'back2': pmode==1, 'no-scroll': noscroll}">
+<ion-content overflow-scroll="true"  class="ui-page-theme-a" [ngClass]="{'back1': pmode==0, 'back2': pmode==1, 'no-scroll': noscroll}">
     <div class="ui-content intro-page" *ngIf="pmode==0">
         <div class="opacity8">
             <div class="opacityNone">
@@ -56,7 +56,7 @@
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <p><a href="#" data-role="button" class="ui-btn ui-btn-j ui-shadow ui-btn-inline" id="intro_firstname_link" data-inline="true" data-theme="j" (click)="transitPage(1)">Let's get Started</a></p>
+            <p><a href="#" data-role="button" class="ui-btn ui-btn-j ui-shadow ui-btn-inline" id="intro_firstname_link" data-inline="true" data-theme="j" (tap)="transitPage(1)">Let's get Started</a></p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -70,7 +70,7 @@
     </div>
     <div lang="en" class="mbsc-mobi-blue mbsc-mobiscroll dw-top  mbsc-wdg" *ngIf="page==1&&pmode==0">
         <div class="dw-persp slidedown in">
-            <div class="dwo" (click)="transitPage(0)"></div>
+            <div class="dwo" (tap)="transitPage(0)"></div>
             <div role="dialog" tabindex="-1" class="dw dw-ltr">
                 <div class="dwwr">
                     <div aria-live="assertive" class="dw-aria dw-hidden"></div>
@@ -101,10 +101,10 @@
                     </div>
                     <div class="dwbc">
                         <div class="dwbw ">
-                            <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (click)="hereGo()">Here You Go</div>
+                            <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="hereGo()">Here You Go</div>
                         </div>
                         <div class="dwbw ">
-                            <div tabindex="0" role="button" class="dwb1 dwb-e dwb" (click)="showWhy()">Why?</div>
+                            <div tabindex="0" role="button" class="dwb1 dwb-e dwb" (tap)="showWhy()">Why?</div>
                         </div>
                     </div>
                 </div>
@@ -140,9 +140,9 @@
             <p class="centerText">
                 <img src="assets/img/backgrounds/treatment/family-intro.png" alt="Who is this for?" width="300" usemap="#Map">
                 <map name="Map">
-                    <area shape="rect" coords="0,0,110,292" href="#" alt="Adult" target="_top" (click)="gotoPage(0)">
-                    <area shape="rect" coords="120,92,184,291" href="#" alt="Child" target="_top" (click)="gotoPage(1)">
-                    <area shape="rect" coords="192,7,296,292" href="#" alt="Adult" target="_top" (click)="gotoPage(0)">
+                    <area shape="rect" coords="0,0,110,292" href="#" alt="Adult" target="_top" (tap)="gotoPage(0)">
+                    <area shape="rect" coords="120,92,184,291" href="#" alt="Child" target="_top" (tap)="gotoPage(1)">
+                    <area shape="rect" coords="192,7,296,292" href="#" alt="Adult" target="_top" (tap)="gotoPage(0)">
                 </map>
             </p>
             <p>&nbsp;</p>

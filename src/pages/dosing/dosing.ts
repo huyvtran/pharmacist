@@ -14,26 +14,26 @@ import { SaveDoseListPage } from '../save-dose-list/save-dose-list';
 
 import { DiphenhydraminePage } from '../diphenhydramine/diphenhydramine';
 import { LoratadinePage } from '../loratadine/loratadine';
-// import { CetirizinePage } from '../cetirizine/cetirizine';
-// import { FexofenadinePage } from '../fexofenadine/fexofenadine';
-// import { TumsPage } from '../tums/tums';
-// import { MaaloxPage } from '../maalox/maalox';
-// import { MyliconPage } from '../mylicon/mylicon';
-// import { SudafedPage } from '../sudafed/sudafed';
-// import { PediacarePage } from '../pediacare/pediacare';
-// import { DimetappPage } from '../dimetapp/dimetapp';
-// import { TriaminicPage } from '../triaminic/triaminic';
-// import { PeptoPage } from '../pepto/pepto';
-// import { MucinexPage } from '../mucinex/mucinex';
-// import { LittleRemediesPage } from '../little-remedies/little-remedies';
-// import { AcetaminophenPage } from '../acetaminophen/acetaminophen';
-// import { IbuprofenPage } from '../ibuprofen/ibuprofen';
-// import { MiralaxPage } from '../miralax/miralax';
-// import { PedialaxPage } from '../pedialax/pedialax';
-// import { FletchersPage } from '../fletchers/fletchers';
-// import { ImodiumPage } from '../imodium/imodium';
-// import { MilkMagnesiaPage } from '../milk-magnesia/milk-magnesia';
-// import { RobitussinPage } from '../robitussin/robitussin';
+import { CetirizinePage } from '../cetirizine/cetirizine';
+import { FexofenadinePage } from '../fexofenadine/fexofenadine';
+import { TumsPage } from '../tums/tums';
+import { MaaloxPage } from '../maalox/maalox';
+import { MyliconPage } from '../mylicon/mylicon';
+import { SudafedPage } from '../sudafed/sudafed';
+import { PediacarePage } from '../pediacare/pediacare';
+import { DimetappPage } from '../dimetapp/dimetapp';
+import { TriaminicPage } from '../triaminic/triaminic';
+import { PeptoPage } from '../pepto/pepto';
+import { MucinexPage } from '../mucinex/mucinex';
+import { LittleRemediesPage } from '../little-remedies/little-remedies';
+import { AcetaminophenPage } from '../acetaminophen/acetaminophen';
+import { IbuprofenPage } from '../ibuprofen/ibuprofen';
+import { MiralaxPage } from '../miralax/miralax';
+import { PedialaxPage } from '../pedialax/pedialax';
+import { FletchersPage } from '../fletchers/fletchers';
+import { ImodiumPage } from '../imodium/imodium';
+import { MilkMagnesiaPage } from '../milk-magnesia/milk-magnesia';
+import { RobitussinPage } from '../robitussin/robitussin';
 
 @Component({
   selector: 'page-dosing',
@@ -58,26 +58,26 @@ export class DosingPage {
     this.subPages = [
       DiphenhydraminePage,  // 0
       LoratadinePage,       // 1
-      // CetirizinePage,       // 2
-      // FexofenadinePage,     // 3
-      // TumsPage,             // 4
-      // MaaloxPage,           // 5
-      // MyliconPage,          // 6
-      // SudafedPage,          // 7
-      // PediacarePage,        // 8
-      // DimetappPage,         // 9
-      // TriaminicPage,        // 10
-      // PeptoPage,            // 11
-      // MucinexPage,          // 12
-      // LittleRemediesPage,   // 13
-      // AcetaminophenPage,    // 14
-      // IbuprofenPage,        // 15
-      // MiralaxPage,          // 16
-      // PedialaxPage,         // 17
-      // FletchersPage,        // 18
-      // ImodiumPage,          // 19
-      // MilkMagnesiaPage,     // 20
-      // RobitussinPage        // 21
+      CetirizinePage,       // 2
+      FexofenadinePage,     // 3
+      TumsPage,             // 4
+      MaaloxPage,           // 5
+      MyliconPage,          // 6
+      SudafedPage,          // 7
+      PediacarePage,        // 8
+      DimetappPage,         // 9
+      TriaminicPage,        // 10
+      PeptoPage,            // 11
+      MucinexPage,          // 12
+      LittleRemediesPage,   // 13
+      AcetaminophenPage,    // 14
+      IbuprofenPage,        // 15
+      MiralaxPage,          // 16
+      PedialaxPage,         // 17
+      FletchersPage,        // 18
+      ImodiumPage,          // 19
+      MilkMagnesiaPage,     // 20
+      RobitussinPage        // 21
     ];
   }
   showMenu() {
@@ -102,7 +102,7 @@ export class DosingPage {
     this.navCtrl.push(SaveDoseListPage);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

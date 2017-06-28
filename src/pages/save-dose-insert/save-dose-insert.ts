@@ -90,7 +90,7 @@ export class SaveDoseInsertPage {
     toast.present();
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

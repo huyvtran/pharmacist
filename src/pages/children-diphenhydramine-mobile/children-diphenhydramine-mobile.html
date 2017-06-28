@@ -13,7 +13,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -23,7 +23,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="ui-page-theme-i">
+<ion-content overflow-scroll="true"  padding class="ui-page-theme-i">
 	<div class="ui-content transparentButton">
 	    <div class="opacity8">
 	        <p>&nbsp;</p>
@@ -41,21 +41,21 @@
 	        <br>
 	        <ul data-role="listview" class="ui-nodisc-icon ui-listview" data-corners="false">
 	            <li class="ui-first-child">
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(0)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(0)">
 	                    <h3 class="redfont">Diphenhydramine Liquid <br><span class="redfontSmall">12.5mg/5ml</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/diphenhydramine/diphen-liquid.png" height="60" alt="Diphenydramine liquid"></p>
 	                </a>
 	            </li>
 	            <hr>
 	            <li>
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(1)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(1)">
 	                    <h3 class="purplefont">Orally Dissolving<br> <span class="purplefontSmall">12.5mg/tablet</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/diphenhydramine/diphen-chewable.png" height="35" alt="Chewable diphenhydramine"></p>
 	                </a>
 	            </li>
 	            <hr>
 	            <li class="ui-last-child">
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(2)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(2)">
 	                    <h3 class="purple_redfont">Adult Tablets<br> <span class="purple_redfontSmall">25mg/tablet</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/diphenhydramine/diphen-adult-tabs.png" height="40" alt="Adult diphenhydramine"></p>
 	                </a>

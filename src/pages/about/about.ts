@@ -176,11 +176,11 @@ export class AboutPage {
         this.feedback_contents = data;
       }),
       err => {
-        console.log("Oops!");
+        // console.log("Oops!");
       }
   }
   ionViewDidLoad() {
     this.loadData();
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 }

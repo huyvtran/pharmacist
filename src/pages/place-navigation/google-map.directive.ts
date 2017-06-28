@@ -58,7 +58,7 @@ export class DirectionsMapDirective {
               // console.log( 'Estimated travel time: ' + point.duration.text + ' (' + point.distance.text + ')' );
 
             } else {
-              console.log('Directions request failed due to ' + status);
+              // console.log('Directions request failed due to ' + status);
             }
       });
     });

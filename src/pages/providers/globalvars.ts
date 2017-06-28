@@ -15,6 +15,7 @@ let char_number = {
     'm': 13,
     'n': 14,
     'o': 15,
+    'p': 16,
 }
 let settings = [
     {}, // nothing
@@ -107,6 +108,14 @@ let settings = [
         oval: "ovalBorderRightOrange",
         hr: "hrorange",
         arrow: "deep-orange",
+
+    },
+    {   // p - 16
+        spinner: "",
+        p: "bgTeal",
+        oval: "",
+        hr: "",
+        arrow: "",
 
     },
 ]

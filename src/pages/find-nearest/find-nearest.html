@@ -12,7 +12,7 @@
 	      	</h1>
 	    </ion-title>
 	    <ion-buttons end>
-	      <button ion-button icon-only (click)="showMenu()">
+	      <button ion-button icon-only (tap)="showMenu()">
 	        <ion-icon name="menu"></ion-icon>
 	      </button>
 	    </ion-buttons>
@@ -35,7 +35,7 @@
 	</ion-navbar>
 </ion-header>
 
-<ion-content class="{{setting.class}}">
+<ion-content overflow-scroll="true"  class="{{setting.class}}">
 	<div class="ui-content hospital_content" *ngIf="locationPage==1">
 		<div class="opacity5">
 		  <div class="opacity7">
@@ -55,7 +55,7 @@
 		    <p>&nbsp;</p>
 		    <hr class="{{setting.hr}}">
 		    <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
-		      <li class="ui-li-has-icon ui-first-child" (click)="useCurrentLocation()">
+		      <li class="ui-li-has-icon ui-first-child" (tap)="useCurrentLocation()">
 		        <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
 		          <img src="assets/img/icons/Map-Marker-Ball-Pink.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==0">
 		          <h3 class="orangefont" *ngIf="pageId==0">Use My Current Location</h3>
@@ -79,7 +79,7 @@
 		        </a>
 		      </li>
 		      <hr class="{{setting.hr}}">
-		      <li data-icon="arrow-d" class="ui-li-has-icon ui-last-child" (click)="toggleLocationByInput()">
+		      <li data-icon="arrow-d" class="ui-li-has-icon ui-last-child" (tap)="toggleLocationByInput()">
 		        <a href="#" id="show_address_form" class="ui-btn ui-btn-icon-right ui-icon-arrow-d">
 		          <img src="assets/img/icons/Map-Marker-Ball-Blue.png" alt="Blue location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==0">
 		          <h3 class="bluefont" *ngIf="pageId==0">I will enter a Location</h3>
@@ -119,7 +119,7 @@
 							</sebm-google-map> -->
 			            </div>
 			            <p class="centerText"><br>
-			                <a href="#" class="linkAmberBorder ui-link" data-inline="true" (click)="transitionPage(2)">Here You Go</a>
+			                <a href="#" class="linkAmberBorder ui-link" data-inline="true" (tap)="transitionPage(2)">Here You Go</a>
 			            </p>
 			        </div>
 			    </form>
@@ -167,12 +167,12 @@
 	        <p>&nbsp;</p>
 	        <div class="clearboth divider1"></div>
 	        <p class="centerText">
-	            <a href="#" *ngIf="pageId==0" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Hospital</a>
-	            <a href="#" *ngIf="pageId==1" class="linkPinkBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Clinic</a>
-				<a href="#" *ngIf="pageId==2" class="linkOrangeBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Doctor</a>
-				<a href="#" *ngIf="pageId==3" class="linkPurpleBorder ui-link" id="pediatric_doctor_list" data-inline="true" (click)="findHospital()">Find Nearby Pediatrician</a>
-				<a href="#" *ngIf="pageId==4" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Dentist</a>
-				<a href="#" *ngIf="pageId==5" class="linkGreenBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Pharmacy</a>
+	            <a href="#" *ngIf="pageId==0" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Hospital</a>
+	            <a href="#" *ngIf="pageId==1" class="linkPinkBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Clinic</a>
+				<a href="#" *ngIf="pageId==2" class="linkOrangeBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Doctor</a>
+				<a href="#" *ngIf="pageId==3" class="linkPurpleBorder ui-link" id="pediatric_doctor_list" data-inline="true" (tap)="findHospital()">Find Nearby Pediatrician</a>
+				<a href="#" *ngIf="pageId==4" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Dentist</a>
+				<a href="#" *ngIf="pageId==5" class="linkGreenBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Pharmacy</a>
 	        </p>
 	        <div class="{{setting.spinner}} floatright"></div>
 	        <p>&nbsp;</p>
@@ -217,12 +217,12 @@
 	        <div class="clearboth divider1"></div>
 	        <br>
 	        <p class="centerText">
-	            <a href="#" *ngIf="pageId==0" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Hospital</a>
-	            <a href="#" *ngIf="pageId==1" class="linkPinkBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Clinic</a>
-				<a href="#" *ngIf="pageId==2" class="linkOrangeBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Doctor</a>
-				<a href="#" *ngIf="pageId==3" class="linkPurpleBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Pediatrician</a>
-				<a href="#" *ngIf="pageId==4" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Dentist</a>
-				<a href="#" *ngIf="pageId==5" class="linkGreenBorder ui-link" id="hospital_list" data-inline="true" (click)="findHospital()">Find Nearby Pharmacy</a>
+	            <a href="#" *ngIf="pageId==0" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Hospital</a>
+	            <a href="#" *ngIf="pageId==1" class="linkPinkBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Clinic</a>
+				<a href="#" *ngIf="pageId==2" class="linkOrangeBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Doctor</a>
+				<a href="#" *ngIf="pageId==3" class="linkPurpleBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Pediatrician</a>
+				<a href="#" *ngIf="pageId==4" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Dentist</a>
+				<a href="#" *ngIf="pageId==5" class="linkGreenBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Pharmacy</a>
 	        </p>
 	        <div class="{{setting.spinner}} floatright"></div>
 	        <p>&nbsp;</p>

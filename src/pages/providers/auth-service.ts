@@ -26,7 +26,7 @@ export class AuthService {
   loginPage: any;
   loading: Loading;
   constructor(public http: Http) {
-    console.log('Hello UsuarioService Provider');
+    // console.log('Hello UsuarioService Provider');
     this.mainPage = null;
     this.currentUser = null;
     this.transitionPage = null;
@@ -77,7 +77,7 @@ export class AuthService {
     }
     else
     {
-      console.log("You didn't input the required data");
+      // console.log("You didn't input the required data");
       this.showToast("Please input the email and password");
     }
   }

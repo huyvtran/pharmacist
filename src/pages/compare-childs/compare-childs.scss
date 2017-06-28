@@ -27,6 +27,16 @@ page-compare-childs {
 	.ui-popup-container .ui-content a.ui-btn{
 		background-color: #FFF;
 	}
+	ion-navbar.fullWidth.bgCyan,
+	ion-navbar.fullWidth.bgLightBlue,
+	ion-navbar.fullWidth.bgDeepOrange,
+	ion-navbar.fullWidth.bgGreen,
+	ion-navbar.fullWidth.bgPink,
+	ion-navbar.fullWidth.bgRed,
+	ion-navbar.fullWidth.bgOrange
+	{
+		padding-left: 0px !important;
+	}
 }
 #ion-diagnostics-toast{
 	background: transparent;

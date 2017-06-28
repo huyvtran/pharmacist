@@ -77,12 +77,12 @@ export class DrugPage {
       }),
       err => {
         this.noFound = false;
-        console.log("Oops!");
+        // console.log("Oops!");
       }
   }
   ionViewDidLoad() {
     // this.loadData();
-    console.log('ionViewDidLoad DrugPage');
+    // console.log('ionViewDidLoad DrugPage');
   }
 
 }

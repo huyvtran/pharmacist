@@ -94,7 +94,7 @@ export class NearestPage {
   	this.navCtrl.push(slide.page);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad NearestPage');
+    // console.log('ionViewDidLoad NearestPage');
   }
 
 }

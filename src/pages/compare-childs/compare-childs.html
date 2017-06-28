@@ -12,14 +12,14 @@
       		</h1>
     	</ion-title>
 	    <ion-buttons end>
-	      	<button ion-button icon-only (click)="showMenu()">
+	      	<button ion-button icon-only (tap)="showMenu()">
 	        	<ion-icon name="menu"></ion-icon>
 	      	</button>
 	    </ion-buttons>
 	</ion-navbar>
 </ion-header>
 
-<ion-content class="{{setting.class}}" has-subheader="true">
+<ion-content overflow-scroll="true"  class="{{setting.class}}" has-subheader="true">
   	<ion-header class="ui-header">
     	<ion-navbar class="fullWidth robotoLight {{setting.p}}">
         	<p>{{pageTitle[pageId]}}</p>
@@ -28,7 +28,7 @@
 	<div class="fullWidth" #mainBody>
 	    <p>&nbsp;</p>
 	    <div class="fixed-action-btn" style="bottom: 45px; right: 24px; display: none;" id="arrow_upward">
-	        <a class="btn-floating btn-large {{setting.arrow}} ui-link" href="#" (click)="gotoTop(1000)">
+	        <a class="btn-floating btn-large {{setting.arrow}} ui-link" href="#" (tap)="gotoTop(1000)">
 	        	<i class="large material-icons">arrow_upward</i>
 	        </a>
 	    </div>
@@ -89,9 +89,9 @@
 	        </div>
 	    </div> -->
 	    <div class="centerText">
-	    	<a href="#" data-inline="true" class="linkBlueThin showFeedbackAlert ui-link" (click)="toggleFeedbackDlg(true)" *ngIf="pageId==13"><span class="mbsc-ic mbsc-ic-ion-chatbubble-working mbsc-ic-font36"></span>Give Feedback</a> 
-	        <a href="#" class="mbsc-ic mbsc-ic-stream-bubble-comment-talk mbsc-ic-font36 {{aClass[pageId]}} ui-link" (click)="showCommentCompare()"></a>
-	        <a href="#" data-rel="popup" data-transition="pop" class="mbsc-ic mbsc-ic-ion-ios7-search-strong mbsc-ic-font36 {{aClass[pageId]}} ui-link" aria-haspopup="true" aria-owns="filterallergy_medsTable-pop" aria-expanded="false" (click)="toggleSearchDlg(true)"></a>
+	    	<a href="#" data-inline="true" class="linkBlueThin showFeedbackAlert ui-link" (tap)="toggleFeedbackDlg(true)" *ngIf="pageId==13"><span class="mbsc-ic mbsc-ic-ion-chatbubble-working mbsc-ic-font36"></span>Give Feedback</a> 
+	        <a href="#" class="mbsc-ic mbsc-ic-stream-bubble-comment-talk mbsc-ic-font36 {{aClass[pageId]}} ui-link" (tap)="showCommentCompare()"></a>
+	        <a href="#" data-rel="popup" data-transition="pop" class="mbsc-ic mbsc-ic-ion-ios7-search-strong mbsc-ic-font36 {{aClass[pageId]}} ui-link" aria-haspopup="true" aria-owns="filterallergy_medsTable-pop" aria-expanded="false" (tap)="toggleSearchDlg(true)"></a>
 	    </div>
 	    <br>
 	    <hr class="{{setting.hr}}">
@@ -101,7 +101,7 @@
 	    <div class="marginR30">
 	        <div style="display: none;" id="allergy_meds_table-popup-placeholder">
 	        </div>
-	        <a href="#" class="ui-table-columntoggle-btn ui-btn ui-btn-{{mode[pageId]}} ui-corner-all ui-shadow ui-mini" data-rel="popup" (click)="toggleSortDlg(true)">Sort</a>
+	        <a href="#" class="ui-table-columntoggle-btn ui-btn ui-btn-{{mode[pageId]}} ui-corner-all ui-shadow ui-mini" data-rel="popup" (tap)="toggleSortDlg(true)">Sort</a>
 	        <table data-role="table" id="allergy_meds_table" data-filter="true" data-input="#filterallergy_medsTable-input" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive my-responsive-class ui-table ui-table-columntoggle" data-column-btn-theme="mode[pageId]" data-column-btn-text="Sort" data-column-popup-theme="mode[pageId]">
 	            <thead>
 	                <tr class="ui-bar-{{mode[pageId]}}">
@@ -183,24 +183,24 @@
 	    </div>
 	    <p>&nbsp;</p>
 	</div>
-	<div class="ui-popup-screen ui-overlay-b in" id="filterallergy_medsTable-pop-screen" *ngIf="SearchDlg.show" (click)="toggleSearchDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
+	<div class="ui-popup-screen ui-overlay-b in" id="filterallergy_medsTable-pop-screen" *ngIf="SearchDlg.show" (tap)="toggleSearchDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
 	<div class="ui-popup-container pop in ui-popup-active" id="filterallergy_medsTable-pop-popup" *ngIf="SearchDlg.show" [ngStyle]="{'max-width': SearchDlg.maxWidth+'px','top': SearchDlg.top+'px', 'left': SearchDlg.left+'px', 'width': SearchDlg.width+'px'}">
 		<div data-role="popup" id="filterallergy_medsTable-pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">
-		    <a href="#" data-rel="back" data-role="button" data-icon="check" data-iconpos="notext" class="ui-btn-right ui-link ui-btn ui-icon-check ui-btn-icon-notext ui-shadow ui-corner-all" role="button" (click)="toggleSearchDlg(false)">Close</a>
+		    <a href="#" data-rel="back" data-role="button" data-icon="check" data-iconpos="notext" class="ui-btn-right ui-link ui-btn ui-icon-check ui-btn-icon-notext ui-shadow ui-corner-all" role="button" (tap)="toggleSearchDlg(false)">Close</a>
 		    <form>
 		        <div class="ui-input-search ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear">
 		            <input id="filterallergy_medsTable-input" type="text" data-type="search" name="search" data-clear-btn="false" placeholder="Find Allergy Medication" [(ngModel)]="searchText" (input)="filterItems($event)" />
-		            <a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" title="Clear text" *ngIf="searchText.length>0" (click)="clearSearch()">Clear text</a>
+		            <a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" title="Clear text" *ngIf="searchText.length>0" (tap)="clearSearch()">Clear text</a>
 		        </div>
 		    </form>
 		</div>
 	</div>
-	<div class="ui-popup-screen ui-overlay-inherit" id="allergy_meds_table-popup-screen" *ngIf="SortDlg.show" (click)="toggleSortDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
+	<div class="ui-popup-screen ui-overlay-inherit" id="allergy_meds_table-popup-screen" *ngIf="SortDlg.show" (tap)="toggleSortDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
 	<div class="ui-popup-container ui-popup-active" id="allergy_meds_table-popup-popup" *ngIf="SortDlg.show" [ngStyle]="{'max-width': SortDlg.maxWidth+'px','top': SortDlg.top+'px', 'left': SortDlg.left+'px'}">
 		<div class="ui-table-columntoggle-popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" id="allergy_meds_table-popup">
 		    <fieldset class="ui-controlgroup ui-controlgroup-vertical ui-corner-all">
 		        <div class="ui-controlgroup-controls ">
-		            <div class="ui-checkbox" *ngFor="let tabs of ShowTabs" (click)="toggleSort(tabs)">
+		            <div class="ui-checkbox" *ngFor="let tabs of ShowTabs" (tap)="toggleSort(tabs)">
 		            	<ng-container *ngIf="tabs.title.length>0">
 			            	<label class="ui-btn ui-corner-all ui-btn-{{mode[pageId]}} ui-btn-icon-left" [ngClass]="{'ui-checkbox-on': tabs['ui-checkbox-on'], 'ui-checkbox-off': tabs['ui-checkbox-off']}">{{tabs.title}}</label>
 			            	<input type="checkbox" checked="" />
@@ -210,7 +210,7 @@
 			</fieldset>
 		</div>
 	</div>
-	<div class="ui-popup-screen ui-overlay-b in" id="filterallergy_medsTable-pop-screen" *ngIf="FeedbackDlg.show" (click)="toggleFeedbackDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
+	<div class="ui-popup-screen ui-overlay-b in" id="filterallergy_medsTable-pop-screen" *ngIf="FeedbackDlg.show" (tap)="toggleFeedbackDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
 	<div role="dialog" tabindex="-1" class="ui-popup-container pop in ui-popup-active mbsc-mobi-blue mbsc-mobiscroll dw-modal mbsc-wdg" *ngIf="FeedbackDlg.show" [ngStyle]="{'max-width': FeedbackDlg.maxWidth+'px','top': FeedbackDlg.top+'px', 'left': FeedbackDlg.left+'px', 'width': FeedbackDlg.width+'px'}">
 	    <div class="dwwr" style="width: 309px; white-space: nowrap;">
 	        <div aria-live="assertive" class="dw-aria dw-hidden"></div>
@@ -233,10 +233,10 @@
 	        </div>
 	        <div class="dwbc">
 	            <div class="dwbw ">
-	                <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (click)="showCompare()">Not Now</div>
+	                <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="showCompare()">Not Now</div>
 	            </div>
 	            <div class="dwbw ">
-	                <div tabindex="0" role="button" class="dwb1 dwb-e dwb" (click)="showFeedback()">Give Feedback</div>
+	                <div tabindex="0" role="button" class="dwb1 dwb-e dwb" (tap)="showFeedback()">Give Feedback</div>
 	            </div>
 	        </div>
 	    </div>

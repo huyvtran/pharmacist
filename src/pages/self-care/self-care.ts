@@ -78,7 +78,7 @@ export class SelfCarePage {
   }
   ionViewDidLoad() {
     // this.loadData();
-    console.log('ionViewDidLoad DrugPage');
+    // console.log('ionViewDidLoad DrugPage');
   }
 
 }

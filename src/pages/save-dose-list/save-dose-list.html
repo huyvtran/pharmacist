@@ -13,20 +13,20 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
 	</ion-navbar>
   <ion-navbar class="fullWidth roboto bgCyan">
     <p class="floatright paddingSides">
-    	<a href="#" class="linkGrayLightThin ui-link" (click)="logout()">Log out</a>
+    	<a href="#" class="linkGrayLightThin ui-link" (tap)="logout()">Log out</a>
     </p>
     <p>Saved doses</p>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="ui-page-theme-n ui-mobile">
+<ion-content overflow-scroll="true"  padding class="ui-page-theme-n ui-mobile">
 	<div class="ui-content">
 	   <p>&nbsp;</p>
 	   <div class="maxwidth450">

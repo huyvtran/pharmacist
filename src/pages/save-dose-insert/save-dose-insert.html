@@ -13,7 +13,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -23,7 +23,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="ui-page-theme-n ui-mobile">
+<ion-content overflow-scroll="true"  padding class="ui-page-theme-n ui-mobile">
 	<div class="ui-content">
 	   <div class="opacity7" style="padding:16px;">
 	      <p>&nbsp;</p>

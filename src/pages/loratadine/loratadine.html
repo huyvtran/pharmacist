@@ -13,7 +13,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -23,7 +23,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="ui-page-theme-a">
+<ion-content overflow-scroll="true"  padding class="ui-page-theme-a">
 	<div class="ui-content transparentButton">
 	    <div class="opacity1">
 	        <p>&nbsp;</p>
@@ -41,28 +41,28 @@
 	        <br>
 	        <ul data-role="listview" class="ui-nodisc-icon ui-listview" data-corners="false">
 	            <li class="ui-first-child">
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(0)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(0)">
 	                    <h3 class="bluefont">Loratadine Solution / Syrup<br><span class="orangefontSmall">5 mg / 5 ml</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/loratadine/loratadine-liquid.png" height="60" alt="loratadine liquid"></p>
 	                </a>
 	            </li>
 	            <hr>
 	            <li>
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(1)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(1)">
 	                    <h3 class="bluefont">Loratadine Chewable<br><span class="orangefontSmall">5 mg / tablet</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/loratadine/loratadine-chewable.png" height="30" alt="loratadine chewable"></p>
 	                </a>
 	            </li>
 	            <hr>
 	            <li>
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(2)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(2)">
 	                    <h3 class="bluefont">Disintegrating Tablets<br><span class="orangefontSmall">10 mg / tablet</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/loratadine/loratadine-adult-tabs.png" height="30" alt="loratadine adult tablets"></p>
 	                </a>
 	            </li>
 	            <hr>
 	            <li class="ui-last-child">
-	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="gotoSubPage(3)">
+	                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(3)">
 	                    <h3 class="bluefont">Adult Tablets<br><span class="orangefontSmall">10 mg / tablet</span></h3>
 	                    <p class="ui-li-aside"><img src="assets/img/dosing/loratadine/loratadine-adult-tabs.png" height="30" alt="loratadine adult tablets"></p>
 	                </a>

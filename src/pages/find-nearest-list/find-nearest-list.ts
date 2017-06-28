@@ -165,10 +165,10 @@ export class FindNearestListPage {
 	    this.http.get(url).map(res => res.json())
 	      .subscribe(data => {
 	        // this.TableData = this.TableData.concat(data);
-	        console.log(data);
+	        // console.log(data);
 	      }),
 	      err => {
-	        console.log("Oops!");
+	        // console.log("Oops!");
 	      }
 	}
 	loadDataFromOnline() {

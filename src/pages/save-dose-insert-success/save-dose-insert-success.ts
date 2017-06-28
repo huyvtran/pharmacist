@@ -41,7 +41,7 @@ export class SaveDoseInsertSuccessPage {
   	this.navCtrl.push(HomePage);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

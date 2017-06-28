@@ -28,11 +28,13 @@ page-compare-childs-container {
 		margin: 0px;
 		padding: 1em;
 	}
-    ion-navbar.bgCyan,
-	ion-navbar.bgLightBlue,
-	ion-navbar.bgDeepOrange,
-	ion-navbar.bgGreen,
-	ion-navbar.bgPink
+    ion-navbar.fullWidth.bgCyan,
+    ion-navbar.fullWidth.bgLightBlue,
+    ion-navbar.fullWidth.bgDeepOrange,
+    ion-navbar.fullWidth.bgGreen,
+    ion-navbar.fullWidth.bgPink,
+    ion-navbar.fullWidth.bgRed,
+    ion-navbar.fullWidth.bgOrange
 	{
 		padding-left: 0px !important;
 	}

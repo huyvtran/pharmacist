@@ -1,0 +1,27 @@
+$toolbar-background-color: #E91E63;
+page-diphen-liquid-mobile {
+	font-size: 16px;
+	.ui-content{
+		background-image: url(../assets/img/dosing/pink-balls.jpg);
+		height: 99%;
+	}
+	
+    .no-scroll{
+    	.scroll-content {
+	        overflow-y: hidden;
+	    }
+    }
+    .dww{
+    	overflow: inherit;
+    }
+    .dw-bf {
+	    -webkit-backface-visibility: inherit;
+	    -webkit-perspective: inherit;
+	    backface-visibility: inherit;
+	    perspective: inherit;
+	}
+	.toolbar-background-md, .toolbar-background{
+		background: $toolbar-background-color;
+	}
+	
+}

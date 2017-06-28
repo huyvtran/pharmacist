@@ -197,19 +197,13 @@ h1{
 button:focus{
     background-color: transparent;
 }
+fieldset{
+    border: 0px none;
+}
 #ion-diagnostics-toast{
     background: transparent;
 }
-ion-navbar.bgCyan,
-ion-navbar.bgLightBlue,
-ion-navbar.bgDeepOrange,
-ion-navbar.bgGreen,
-ion-navbar.bgPink,
-ion-navbar.bgRed,
-ion-navbar.bgOrange
-{
-    padding-left: 0px !important;
-}
+
 .fullWidth.bgCyan,
 .fullWidth.bgLightBlue,
 .fullWidth.bgDeepOrange,

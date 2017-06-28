@@ -12,7 +12,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -22,7 +22,7 @@
 	</ion-navbar>
 </ion-header>
 
-<ion-content class="ui-page-theme-a">
+<ion-content overflow-scroll="true"  class="ui-page-theme-a">
     <div class="ui-content" role="main">
         <sebm-google-map [latitude]="mapData.latitude" [longitude]="mapData.longitude" [zoom]="mapData.zoom" [scrollwheel]="true" [ngStyle]="{'height': MapHeight + 'px'}" >
         	<sebm-google-map-directions [origin]="origin" [destination]="destination"></sebm-google-map-directions>

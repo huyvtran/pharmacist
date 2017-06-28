@@ -37,7 +37,7 @@ export class SaveDoseRegisterPage {
   	this.authService.register(this.registerCredentials);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

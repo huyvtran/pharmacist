@@ -27,7 +27,7 @@ export class ChildTakeMobileListPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ChildTakeMobileListPage');
+    // console.log('ionViewDidLoad ChildTakeMobileListPage');
   }
 
 }

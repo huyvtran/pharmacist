@@ -42,12 +42,12 @@ export class SaveDoseListPage {
 	this.http.get(url).map(response => response.json()).subscribe(data => {
 			this.dosingData = data;
 	 	}),err => {
-          console.log("Oops");
+          // console.log("Oops");
         }
   }
   ionViewDidLoad() {
   	this.loadData();
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

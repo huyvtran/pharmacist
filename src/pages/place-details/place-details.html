@@ -12,7 +12,7 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
@@ -22,7 +22,7 @@
 	</ion-navbar>
 </ion-header>
 
-<ion-content class="ui-page-theme-e">
+<ion-content overflow-scroll="true"  class="ui-page-theme-e">
     <div class="ui-content" role="main">
         <div id="results">
             <p class="orangefont placename">
@@ -49,7 +49,7 @@
         </sebm-google-map>
         <br>
         <p class="centerText">
-        	<a href="#" id="directions-button" class="linkAmber ui-link" data-inline="true" (click)="getDirection()">Get Directions</a>
+        	<a href="#" id="directions-button" class="linkAmber ui-link" data-inline="true" (tap)="getDirection()">Get Directions</a>
         </p>
         <h3 class="bluefont lineBlue"><span class="redfont">google+</span> Reviews</h3>
         <div id="google-reviews">

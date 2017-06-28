@@ -34,7 +34,7 @@ export class AdultTakeMobileListPage {
     //   this.navCtrl.push(AdultTakeMobileToPharmacistListPage);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AdultTakeMobileListPage');
+    // console.log('ionViewDidLoad AdultTakeMobileListPage');
   }
 
 }

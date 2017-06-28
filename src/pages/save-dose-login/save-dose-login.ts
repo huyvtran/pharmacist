@@ -43,7 +43,7 @@ export class SaveDoseLoginPage {
   	this.navCtrl.push(SaveDoseRegisterPage);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

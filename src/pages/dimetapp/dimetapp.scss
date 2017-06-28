@@ -1,0 +1,15 @@
+
+$toolbar-background-color: #9C27B0;
+page-dimetapp {
+	font-size: 16px;
+    .ui-content{
+    	background-image: url(../assets/img/dosing/purple-flower.jpg);
+    	height: 99%;
+    }
+	.toolbar-background-md, .toolbar-background{
+		background: $toolbar-background-color;
+	}
+	ion-content, div.scroll-content{
+    	background-color: transparent;
+    }
+}

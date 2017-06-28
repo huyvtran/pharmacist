@@ -13,16 +13,16 @@
 	      	</h1>
 	    </ion-title>
     	<ion-buttons end>
-	      	<button ion-button icon-only (click)="showMenu()">
+	      	<button ion-button icon-only (tap)="showMenu()">
 	        	<ion-icon name="menu"></ion-icon>
 	      	</button>
 	    </ion-buttons>
 	</ion-navbar>
 </ion-header>
 
-<ion-content class="{{setting.class}}" has-subheader="true">
+<ion-content overflow-scroll="true"  class="{{setting.class}}" has-subheader="true">
 	<ion-header class="ui-header fullWidth">
-		<ion-navbar class="robotoLight {{setting.p}} shadowBottom littleSpan">
+		<ion-navbar class="fullWidth robotoLight {{setting.p}} shadowBottom littleSpan">
 			<p>{{pageTitle[pageId]}}</p>
 		</ion-navbar>
 	</ion-header>
@@ -47,7 +47,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_2_n_link ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="transitPage(0)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_2_n_link ui-btn ui-btn-inline ui-shadow ui-corner-all" (tap)="transitPage(0)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -67,8 +67,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_3_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(1)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_3_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(2)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_3_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(1)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_3_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(2)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -89,7 +89,7 @@
 		        <div class="orangeBorderAll"></div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_3_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(2)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_3_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(2)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -107,8 +107,8 @@
 		            <p>A &nbsp;feeling of <span style="color:#0000CD;">heaviness</span> on your chest?</p>
 		        </div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_4_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(3)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_4_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(4)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_4_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(3)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_4_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(4)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -133,7 +133,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_4_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(4)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_4_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(4)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -149,8 +149,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_5_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(5)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_5_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(6)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_5_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(5)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_5_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(6)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -171,7 +171,7 @@
 		        <div class="orangeBorderAll"></div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_5_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(6)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_5_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(6)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -187,8 +187,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_6_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(7)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_6_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(8)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_6_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(7)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_6_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(8)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -209,7 +209,7 @@
 		        <div class="blueBorderAll"></div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_6_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(8)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_6_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(8)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -225,8 +225,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_7_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(9)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_7_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(10)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_7_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(9)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_7_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(10)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -249,7 +249,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_7_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(10)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_7_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(10)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -265,8 +265,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_8_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(11)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_8_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(12)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_8_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(11)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_8_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(12)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -291,7 +291,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_8_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(12)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_8_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(12)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -307,8 +307,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_9_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(13)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_9_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(14)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_9_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(13)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_9_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(14)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -332,7 +332,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_9_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(14)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_9_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(14)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -351,8 +351,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_10_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(15)">Yes</button>
-		            <button data-inline="true" class="compare_cough_mobile_10_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(16)">No</button>
+		            <button data-inline="true" class="compare_cough_mobile_10_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(15)">Yes</button>
+		            <button data-inline="true" class="compare_cough_mobile_10_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(16)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -377,7 +377,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_cough_mobile_10_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(16)">Continue</button>
+		            <button data-inline="true" class="compare_cough_mobile_10_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(16)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -408,7 +408,7 @@
 		            08/17/2015 at 10:30:am<br>
 		        </p>
 		        <p class="centerText">
-		            <a href="#" data-inline="true" class="linkBlue back_compare_cough_mobile ui-link" (click)="transitPage(-1)"><span class="mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font40"></span>Back</a>
+		            <a href="#" data-inline="true" class="linkBlue back_compare_cough_mobile ui-link" (tap)="transitPage(-1)"><span class="mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font40"></span>Back</a>
 		        </p>
 		        <p>&nbsp;</p>
 		        <p>&nbsp;</p>
@@ -799,7 +799,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_2_n_link ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="transitPage(0)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_2_n_link ui-btn ui-btn-inline ui-shadow ui-corner-all" (tap)="transitPage(0)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -819,8 +819,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_3_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(1)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_3_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(2)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_3_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(1)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_3_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(2)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -844,7 +844,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_3_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(2)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_3_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(2)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -862,8 +862,8 @@
 		            <p>OTC yeast medications can cause a burning sensation.</p>
 		        </div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_4_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(3)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_4_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(4)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_4_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(3)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_4_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(4)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -888,7 +888,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_4_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(4)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_4_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(4)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -907,8 +907,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_5_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(5)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_5_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(6)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_5_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(5)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_5_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(6)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -931,7 +931,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_5_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(6)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_5_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(6)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -952,8 +952,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_6_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(7)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_6_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(8)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_6_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(7)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_6_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(8)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -977,7 +977,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_6_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(8)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_6_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(8)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -993,8 +993,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_7_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(9)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_7_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(10)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_7_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(9)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_7_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(10)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1018,7 +1018,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_7_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(10)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_7_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(10)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1037,8 +1037,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_8_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(11)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_8_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(12)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_8_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(11)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_8_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(12)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1061,7 +1061,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_8_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(12)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_8_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(12)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1077,8 +1077,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_9_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(13)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_9_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(14)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_9_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(13)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_9_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(14)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1101,7 +1101,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_9_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(14)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_9_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(14)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1117,8 +1117,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_10_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(15)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_10_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(16)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_10_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(15)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_10_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(16)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1141,7 +1141,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_10_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(16)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_10_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(16)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1160,8 +1160,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_11_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(17)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_11_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(18)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_11_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(17)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_11_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(18)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1188,7 +1188,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_11_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(18)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_11_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(18)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1207,8 +1207,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_12_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(19)">Yes</button>
-		            <button data-inline="true" class="compare_yeast_mobile_12_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(20)">No</button>
+		            <button data-inline="true" class="compare_yeast_mobile_12_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(19)">Yes</button>
+		            <button data-inline="true" class="compare_yeast_mobile_12_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(20)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1241,7 +1241,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_yeast_mobile_12_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(20)">Continue</button>
+		            <button data-inline="true" class="compare_yeast_mobile_12_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(20)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1270,10 +1270,10 @@
 		            08/17/2015 at 10:03:am<br>
 		        </p>
 		        <p class="centerText">
-		            <a href="#" data-inline="true" class="linkBlue back_compare_yeast_mobile ui-link" (click)="transitPage(-1)"><span class="mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font40"></span>Back</a>
+		            <a href="#" data-inline="true" class="linkBlue back_compare_yeast_mobile ui-link" (tap)="transitPage(-1)"><span class="mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font40"></span>Back</a>
 		        </p>
 		        <p class="centerText"> 
-		            <a href="#" class="linkCyan robotoLight compare_antifungi_creams ui-link" data-inline="true" (click)="transitPage(100)">Compare Products</a>
+		            <a href="#" class="linkCyan robotoLight compare_antifungi_creams ui-link" data-inline="true" (tap)="transitPage(100)">Compare Products</a>
 		        </p>
 		        <p>&nbsp;</p>
 		        <p>&nbsp;</p>
@@ -1605,8 +1605,8 @@
 			    <div class="clearboth divider1"></div>
 			    <p>&nbsp;</p>
 			    <p class="centerText">   
-			        <a href="#" data-role="none" class="refreshPage linkAmber" data-inline="true" (click)="transitPage(-1)">Refresh</a>   
-			        <a href="#" data-role="none" class="linkBlueBorderThin" data-inline="true" (click)="showCompare()">Compare Other</a>
+			        <a href="#" data-role="none" class="refreshPage linkAmber" data-inline="true" (tap)="transitPage(-1)">Refresh</a>   
+			        <a href="#" data-role="none" class="linkBlueBorderThin" data-inline="true" (tap)="showCompare()">Compare Other</a>
 			    </p>
 			    <!-- ----End Popoup div----- -->
 			</div>
@@ -1634,7 +1634,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_2_n_link ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="transitPage(0)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_2_n_link ui-btn ui-btn-inline ui-shadow ui-corner-all" (tap)="transitPage(0)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1651,8 +1651,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_3_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(1)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_3_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(2)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_3_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(1)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_3_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(2)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1676,7 +1676,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_3_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(2)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_3_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(2)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1691,8 +1691,8 @@
 		        <div class="clearboth divider1"></div>
 		        <!-- ---------------End Border right person------------------- -->
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_4_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(3)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_4_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(4)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_4_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(3)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_4_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(4)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1715,7 +1715,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_4_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(4)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_4_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(4)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1731,8 +1731,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_5_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(5)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_5_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(6)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_5_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(5)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_5_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(6)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1755,7 +1755,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_5_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(6)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_5_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(6)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1774,8 +1774,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_6_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(7)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_6_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(8)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_6_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(7)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_6_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(8)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1799,7 +1799,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_6_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(8)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_6_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(8)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1818,8 +1818,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_7_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(9)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_7_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(10)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_7_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(9)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_7_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(10)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1842,7 +1842,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_7_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(10)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_7_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(10)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1858,8 +1858,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_8_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(11)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_8_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(12)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_8_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(11)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_8_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(12)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1883,7 +1883,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_8_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(12)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_8_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(12)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1899,8 +1899,8 @@
 		        <!-- ---------------End Border right person------------------- -->
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_9_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(13)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_9_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(14)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_9_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(13)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_9_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(14)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1923,7 +1923,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_9_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(14)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_9_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(14)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1942,8 +1942,8 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_10_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (click)="transitPage(15)">Yes</button>
-		            <button data-inline="true" class="compare_athletesfoot_mobile_10_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (click)="transitPage(16)">No</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_10_y_link ui-btn ui-btn-g ui-btn-inline ui-shadow ui-corner-all" data-theme="g" (tap)="transitPage(15)">Yes</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_10_n_link ui-btn ui-btn-f ui-btn-inline ui-shadow ui-corner-all" data-theme="f" (tap)="transitPage(16)">No</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1970,7 +1970,7 @@
 		        </div>
 		        <div class="clearboth divider1"></div>
 		        <p class="centerText">
-		            <button data-inline="true" class="compare_athletesfoot_mobile_10_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (click)="transitPage(16)">Continue</button>
+		            <button data-inline="true" class="compare_athletesfoot_mobile_10_n_link ui-btn ui-btn-e ui-btn-inline ui-shadow ui-corner-all" data-theme="e" (tap)="transitPage(16)">Continue</button>
 		        </p>
 		        <p>&nbsp;</p>
 		    </div>
@@ -1996,7 +1996,7 @@
 		            08/17/2015 at 10:06:am<br>
 		        </p>
 		        <p class="centerText">
-		            <a href="#" data-inline="true" class="linkOrange back_compare_athletesfoot_mobile ui-link" (click)="transitPage(-1)"><span class="mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font40"></span>Back</a>
+		            <a href="#" data-inline="true" class="linkOrange back_compare_athletesfoot_mobile ui-link" (tap)="transitPage(-1)"><span class="mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font40"></span>Back</a>
 		        </p>
 		        <p>&nbsp;</p>
 		        <p>&nbsp;</p>

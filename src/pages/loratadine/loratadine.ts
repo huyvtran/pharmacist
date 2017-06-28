@@ -8,10 +8,12 @@ import { NavController, NavParams, MenuController } from 'ionic-angular';
   Ionic pages and navigation.
 */
 
-// import { LoratadineLiquidMobilePage } from '../loratadine-liquid-mobile/loratadine-liquid-mobile';
-// import { LoratadineChewableMobilePage } from '../loratadine-chewable-mobile/loratadine-chewable-mobile';
-// import { LoratadineDisintegratingMobilePage } from '../loratadine-disintegrating-mobile/loratadine-disintegrating-mobile';
-// import { LoratadineAdultMobilePage } from '../loratadine-adult-mobile/loratadine-adult-mobile';
+import { GlobalVars } from '../providers/globalvars';
+
+import { LoratadineLiquidMobilePage } from '../loratadine-liquid-mobile/loratadine-liquid-mobile';
+import { LoratadineChewableMobilePage } from '../loratadine-chewable-mobile/loratadine-chewable-mobile';
+import { LoratadineDisintegratingMobilePage } from '../loratadine-disintegrating-mobile/loratadine-disintegrating-mobile';
+import { LoratadineAdultMobilePage } from '../loratadine-adult-mobile/loratadine-adult-mobile';
 @Component({
   selector: 'page-loratadine',
   templateUrl: 'loratadine.html'
@@ -23,20 +25,23 @@ export class LoratadinePage {
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
   	this.menu = menu;
     this.subPages = [
-      // LoratadineLiquidMobilePage,  					// 0
-      // LoratadineChewableMobilePage,       			// 1
-      // LoratadineDisintegratingMobilePage,       	// 2
-      // LoratadineAdultMobilePage		     			// 3
+      LoratadineLiquidMobilePage,  					// 0
+      LoratadineChewableMobilePage,       			// 1
+      LoratadineDisintegratingMobilePage,       	// 2
+      LoratadineAdultMobilePage		     			// 3
     ];
   }
   showMenu() {
+    var menu = document.querySelector( 'ion-menu ion-content' );
+    var setting = GlobalVars.getPageSetting('a');
+    menu.className = "outer-content content" + " " + setting['class'];
   	this.menu.open();
   }
   gotoSubPage(id: number) {
     this.navCtrl.push(this.subPages[id]);
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DosingPage');
+    
   }
 
 }

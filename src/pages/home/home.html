@@ -14,11 +14,11 @@
   </ion-navbar>
 </ion-header>
 	
-<ion-content padding class="ui-page-theme-2">
+<ion-content overflow-scroll="true"  padding class="ui-page-theme-2">
   <ion-grid class="interface-items">
     <ion-row>
       <ion-col width-50>
-        <ion-item class="centerText" (click)="goTo('self_care')">
+        <ion-item class="centerText" (tap)="goTo('self_care')">
           <img src="assets/img/interface/icons/faces-logo.svg" height="80" alt="Find self-care over-the -counter help" />
           <figcaption>
             Find Self-Care<br/>
@@ -28,7 +28,7 @@
         </ion-item>
       </ion-col>
       <ion-col width-50>
-        <ion-item class="centerText" (click)="goTo('compare')">
+        <ion-item class="centerText" (tap)="goTo('compare')">
           <img src="assets/img/interface/icons/compare-icon.svg" height="80" alt="Compare OTC products" />
           <figcaption>
             Compare<br/>
@@ -44,7 +44,7 @@
   <ion-grid class="interface-items">
     <ion-row>
       <ion-col width-50>
-        <ion-item class="centerText" (click)="goTo('dosing')">
+        <ion-item class="centerText" (tap)="goTo('dosing')">
           <img src="assets/img/interface/icons/dosing-icons.svg" height="80" alt="OTC child medication dosing" />
           <figcaption>
             Get Children's <br/>
@@ -54,7 +54,7 @@
         </ion-item>
       </ion-col>
       <ion-col width-50>
-        <ion-item class="centerText" (click)="goTo('drug')">
+        <ion-item class="centerText" (tap)="goTo('drug')">
           <img src="assets/img/interface/icons/coupon-scissors.svg" height="80" alt="Drug manufacturer coupons" />
           <figcaption>
             Drug Manufacturer<br />
@@ -68,7 +68,7 @@
   <hr class="hrblue">
 
   <ion-slides pager>
-    <ion-slide *ngFor="let slide of slides" slider-width="0.5" (click)="transit(slide)">
+    <ion-slide *ngFor="let slide of slides" slider-width="0.5" (tap)="transit(slide)">
       <img [src]="slide.image" alt="slide.alt" class="slide-image" height="60"/>
       <h2 class="slide-title">
         <span class="grayfontSmall" [innerHTML]="slide.gray_title"></span>
@@ -80,7 +80,7 @@
   <ion-grid class="interface-items">
     <ion-row>
       <ion-col width-50>
-        <ion-item class="centerText" (click)="goTo('about')">
+        <ion-item class="centerText" (tap)="goTo('about')">
           <img src="assets/img/interface/icons/information-icon.svg" height="80" alt="About this app." />
           <figcaption>
             About This <br/>

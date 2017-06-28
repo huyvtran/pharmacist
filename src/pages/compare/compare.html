@@ -12,19 +12,19 @@
       </h1>
     </ion-title>
     <ion-buttons end>
-      <button ion-button icon-only (click)="showMenu()">
+      <button ion-button icon-only (tap)="showMenu()">
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
 	</ion-navbar>
-  <ion-navbar class="bgCyan littleSpan">
+  <ion-navbar class="bgCyan">
   	<p class="boxSpinnerCyan"></p>
     <p class="robotoLight">Compare</p>
   </ion-navbar>
 </ion-header>
 
 
-<ion-content class="ui-page-theme-n">
+<ion-content overflow-scroll="true"  class="ui-page-theme-n">
 	<div class="opacity1">
 		<div class="opacity5">
 			<p>&nbsp;</p>
@@ -42,7 +42,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('1')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('1')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-allergy-lady.svg" height="80" alt="Find self-care over-the -counter help" />
 		        </div>
@@ -54,7 +54,7 @@
 	        </ion-item>
 	      </ion-col>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('2')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('2')">
 	          <div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-cold-lady.svg" alt="compare cold and flu relief medications" height="100">
 		        </div>
@@ -72,7 +72,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('3')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('3')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-flu-child.svg" alt="Compare dimetapp, Triaminic, Pediacare and others." height="100">
 		        </div>
@@ -84,7 +84,7 @@
 	        </ion-item>
 	      </ion-col>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('4')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('4')">
 	          <div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-cough-child.svg" alt="Compare Mucinex, Delsym, Robitussin and others." height="100">
 		        </div>
@@ -102,7 +102,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('5')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('5')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-coldsore-lady.svg" alt="Compare Abreva, Orajel, Herpecin L and others." height="100">
 		        </div>
@@ -114,7 +114,7 @@
 	        </ion-item>
 	      </ion-col>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('6')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('6')">
 	          <div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-energy-man.svg" alt="Compare Redbull, Monster, AMP and others." height="100">
 		        </div>
@@ -132,7 +132,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('7')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('7')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-eyedrops-woman.svg" alt="Compare visine, zaditor, Systane and others." height="100">
 		        </div>
@@ -144,7 +144,7 @@
 	        </ion-item>
 	      </ion-col>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('8')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('8')">
 	          <div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-feet.svg" alt="Compare Lotrimin, Lamisil, Tinactin and others." height="100">
 		        </div>
@@ -162,7 +162,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('9')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('9')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-heartburn-man.svg" alt="Compare Prilosec, Nexium, Pepcid AC and others." height="100">
 		        </div>
@@ -174,7 +174,7 @@
 	        </ion-item>
 	      </ion-col>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('10')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('10')">
 	          <div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-constipation.svg" alt="Compare Ducolax, Miralax, Senna and others." height="100">
 		        </div>
@@ -192,7 +192,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('11')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('11')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-bodyache-man.svg" alt="Compare Motrin, Tylenol, IcyHot and others." height="100">
 		        </div>
@@ -204,7 +204,7 @@
 	        </ion-item>
 	      </ion-col>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('12')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('12')">
 	          <div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-probiotics.svg" alt="Compare Culturelle, Align, Florastor and others." height="100">
 		        </div>
@@ -222,7 +222,7 @@
 		<ion-grid class="interface-items">
 	    <ion-row>
 	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (click)="goTo('13')">
+	        <ion-item class="centerText page-theme-childs" (tap)="goTo('13')">
 	        	<div class="loaderBlue">
 		          <img src="assets/img/interface/icons/icon-sleeping-woman.svg" alt="Compare Melatonin, Unisom, Tylenol PM and others." height="100">
 		        </div>

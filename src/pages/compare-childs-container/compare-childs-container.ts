@@ -67,7 +67,7 @@ export class CompareChildsContainerPage {
 		}
 	}
 	ionViewDidLoad() {
-	    console.log('ionViewDidLoad ColdMedsPage');
+	    // console.log('ionViewDidLoad ColdMedsPage');
 	}
 
 }

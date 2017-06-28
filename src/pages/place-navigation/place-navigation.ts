@@ -122,7 +122,7 @@ export class PlaceNavigationPage {
 	}
 	ionViewDidLoad() {
 		this.loadData();
-		console.log('ionViewDidLoad PlaceNavigationPage');
+		// console.log('ionViewDidLoad PlaceNavigationPage');
 	}
 
 }

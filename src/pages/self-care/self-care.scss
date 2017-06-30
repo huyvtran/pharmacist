@@ -4,15 +4,14 @@ page-self-care {
 	font-size: 16px;
     .back1{
     	background-image: url('../assets/img/illustration/male-model.jpg');
-	    background-repeat: no-repeat;
-	    background-position: bottom;
-	    background-attachment: fixed;
     }
     .back2{
     	background-image: url(../assets/img/dosing/blue-balls.jpg);
-	    background-repeat: no-repeat;
-	    background-position: bottom;
-	    background-attachment: fixed;
+    }
+    .back1, .back2{
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
     }
     .no-scroll{
     	.scroll-content {

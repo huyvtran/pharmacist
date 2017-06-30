@@ -1,7 +1,9 @@
 import { Component,ViewChild } from '@angular/core';
 import { NavController, NavParams, MenuController, Content } from 'ionic-angular';
 import { AlertController, ToastController, LoadingController } from 'ionic-angular';
-
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 /*
   Generated class for the SelfCare page.
 
@@ -24,8 +26,10 @@ export class SelfCarePage {
   topPx: number;
   noscroll: boolean;
   CouponData: any;
+  html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
               public alertCtrl: AlertController, public loadingCtrl: LoadingController, 
+              public http: Http, private sanitizer: DomSanitizer,
               public toastCtrl: ToastController, ) {
     this.dsearch = "";
     this.menu = menu;
@@ -33,6 +37,12 @@ export class SelfCarePage {
     this.page = 0;
     this.topPx = 0;
     this.noscroll = false;
+  }
+  getHtmlData(){
+    this.html_data = [];
+    this.http.get("assets/json/self_care.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
@@ -77,6 +87,7 @@ export class SelfCarePage {
       this.noscroll = false;
   }
   ionViewDidLoad() {
+    this.getHtmlData();
     // this.loadData();
     // console.log('ionViewDidLoad DrugPage');
   }

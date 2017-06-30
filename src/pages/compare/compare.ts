@@ -1,26 +1,14 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
-
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 /*
   Generated class for the Compare page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
-
-// import { AllergyMedsPage } from '../allergy-meds/allergy-meds';
-// import { ColdMedsPage } from '../cold-meds/cold-meds';
-// import { ColdMedsChildPage } from '../cold-meds-child/cold-meds-child';
-// import { CoughMedsPage } from '../cough-meds/cough-meds';
-// import { ColdsoreMedsPage } from '../coldsore-meds/coldsore-meds';
-// import { EnergyDrinksPage } from '../energy-drinks/energy-drinks';
-// import { EyeDropsPage } from '../eye-drops/eye-drops';
-// import { AntifungiMedsPage } from '../antifungi-meds/antifungi-meds';
-// import { HeartburnMedsPage } from '../heartburn-meds/heartburn-meds';
-// import { LaxativesPage } from '../laxatives/laxatives';
-// import { PainRelieversPage } from '../pain-relievers/pain-relievers';
-// import { ProbioticsPage } from '../probiotics/probiotics';
-// import { SleepAidsPage } from '../sleep-aids/sleep-aids';
 
 import { GlobalVars } from '../providers/globalvars';
 import { CompareChildsPage } from '../compare-childs/compare-childs';
@@ -54,25 +42,18 @@ export class ComparePage {
     3: 'n',
     4: 'n',
     5: 'o',
-  }
-  // items = {
-  //   1     : AllergyMedsPage,
-  //   2     : ColdMedsPage,
-  //   3     : ColdMedsChildPage,
-  //   4     : CoughMedsPage,
-  //   5     : ColdsoreMedsPage,
-  //   6     : EnergyDrinksPage,
-  //   7     : EyeDropsPage,
-  //   8     : AntifungiMedsPage,
-  //   9     : HeartburnMedsPage,
-  //   10    : LaxativesPage,
-  //   11    : PainRelieversPage,
-  //   12    : ProbioticsPage,
-  //   13    : SleepAidsPage,
-  // }
+  };
+  html_data: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
+      public http: Http, private sanitizer: DomSanitizer) {
   	this.menu = menu;
+  }
+  getHtmlData(){
+    this.html_data = [];
+    this.http.get("assets/json/compare.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
@@ -80,12 +61,18 @@ export class ComparePage {
     menu.className = "outer-content content" + " " + setting['class'];
   	this.menu.open();
   }
-  goTo(index: string) {
-    if (index.length > 0)
+  goToLeft(index: number) {
+    this.goTo(index*2+1);
+  }
+  goToRight(index: number) {
+    this.goTo(index*2+2);
+  }
+  goTo(index: number) {
+    if (index > 0)
     {
       let mode = (<any>this.modes)[index];
       if (mode >='a' && mode<='z'){
-        GlobalVars.setPageId(parseInt(index,10));
+        GlobalVars.setPageId(index);
         this.navCtrl.push(CompareChildsPage);
       }
       else
@@ -99,13 +86,12 @@ export class ComparePage {
         {
           GlobalVars.setPageId(0);
           this.navCtrl.push(CompareYesnoPage);
-          // cough_meds page
         }
       }
     }
   }
   ionViewDidLoad() {
-    
+    this.getHtmlData();
   }
 
 }

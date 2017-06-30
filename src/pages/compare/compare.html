@@ -26,7 +26,8 @@
 
 <ion-content overflow-scroll="true"  class="ui-page-theme-n">
 	<div class="opacity1">
-		<div class="opacity5">
+		<div [innerHTML]="html_data?.header"></div>
+		<!-- <div class="opacity5">
 			<p>&nbsp;</p>
 		  
 			<div class="maxwidth450 paddingSides">
@@ -38,64 +39,81 @@
 			</div><br>
 			<div class="clearboth"></div>
 			<hr class="hrblue">
-		</div>
-		<ion-grid class="interface-items">
-	    <ion-row>
-	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (tap)="goTo('1')">
-	        	<div class="loaderBlue">
-		          <img src="assets/img/interface/icons/icon-allergy-lady.svg" height="80" alt="Find self-care over-the -counter help" />
-		        </div>
-		        <br />
-		        <div>
-		        	<span class="greenfont roboto">Allergy Relief</span><br />
-		        	<span class="grayfontSmallSmall">Compare Allegra, Claritin, Zyrtec and others.</span>
-		       	</div>
-	        </ion-item>
-	      </ion-col>
-	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (tap)="goTo('2')">
-	          <div class="loaderBlue">
-		          <img src="assets/img/interface/icons/icon-cold-lady.svg" alt="compare cold and flu relief medications" height="100">
-		        </div>
-		        <br />
-		        <div>
-		        	<span class="bluefont roboto">Adult Cold/Flu</span> <br/>
-		        	<span class="grayfontSmallSmall">Compare Nyquil, Tylenol cold, Sudafed and others.</span>
-		       	</div>
-	        </ion-item>
-	      </ion-col>
-	    </ion-row>
+		</div> -->
+		<ng-container *ngFor="let each_data of html_data?.items; let i = index">
+			<ion-grid class="interface-items">
+				<ion-row>
+			      	<ion-col width-50>
+				        <ion-item class="centerText page-theme-childs" (tap)="goToLeft(i)">
+				        	<div [innerHTML]="each_data?.left"></div>
+				        </ion-item>
+			      	</ion-col>
+			      	<ion-col width-50>
+				        <ion-item class="centerText page-theme-childs" (tap)="goToRight(i)">
+				        	<div [innerHTML]="each_data?.right"></div>
+				        </ion-item>
+			      	</ion-col>
+			    </ion-row>
+			</ion-grid>
+			<hr class="hrblue">
+		</ng-container>
+		<!-- <ion-grid class="interface-items">
+		    <ion-row>
+		      <ion-col width-50>
+		        <ion-item class="centerText page-theme-childs" (tap)="goTo('1')">
+		        	<div class="loaderBlue">
+			          <img src="assets/img/interface/icons/icon-allergy-lady.svg" height="80" alt="Find self-care over-the -counter help" />
+			        </div>
+			        <br />
+			        <div>
+			        	<span class="greenfont roboto">Allergy Relief</span><br />
+			        	<span class="grayfontSmallSmall">Compare Allegra, Claritin, Zyrtec and others.</span>
+			       	</div>
+		        </ion-item>
+		      </ion-col>
+		      <ion-col width-50>
+		        <ion-item class="centerText page-theme-childs" (tap)="goTo('2')">
+		          	<div class="loaderBlue">
+			          <img src="assets/img/interface/icons/icon-cold-lady.svg" alt="compare cold and flu relief medications" height="100">
+			        </div>
+			        <br />
+			        <div>
+			        	<span class="bluefont roboto">Adult Cold/Flu</span> <br/>
+			        	<span class="grayfontSmallSmall">Compare Nyquil, Tylenol cold, Sudafed and others.</span>
+			       	</div>
+		        </ion-item>
+		      </ion-col>
+		    </ion-row>
 		</ion-grid>
 		<hr class="hrblue">
 
 		<ion-grid class="interface-items">
-	    <ion-row>
-	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (tap)="goTo('3')">
-	        	<div class="loaderBlue">
-		          <img src="assets/img/interface/icons/icon-flu-child.svg" alt="Compare dimetapp, Triaminic, Pediacare and others." height="100">
-		        </div>
-		        <br />
-		        <div>
-		        	<span class="purple_redfont roboto">Child Cold/Flu</span><br />
-		        	<span class="grayfontSmallSmall">Compare Dimetapp, Triaminic and others.</span>
-		       	</div>
-	        </ion-item>
-	      </ion-col>
-	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (tap)="goTo('4')">
-	          <div class="loaderBlue">
-		          <img src="assets/img/interface/icons/icon-cough-child.svg" alt="Compare Mucinex, Delsym, Robitussin and others." height="100">
-		        </div>
-		        <br />
-		        <div>
-		        	<span class="orangefont roboto">Cough Relief</span> <br/>
-		        	<span class="grayfontSmallSmall">Compare Mucinex, Robitussin and others.</span>
-		       	</div>
-	        </ion-item>
-	      </ion-col>
-	    </ion-row>
+		    <ion-row>
+		      <ion-col width-50>
+		        <ion-item class="centerText page-theme-childs" (tap)="goTo('3')">
+		        	<div class="loaderBlue">
+			          <img src="assets/img/interface/icons/icon-flu-child.svg" alt="Compare dimetapp, Triaminic, Pediacare and others." height="100">
+			        </div>
+			        <br />
+			        <div>
+			        	<span class="purple_redfont roboto">Child Cold/Flu</span><br />
+			        	<span class="grayfontSmallSmall">Compare Dimetapp, Triaminic and others.</span>
+			       	</div>
+		        </ion-item>
+		      </ion-col>
+		      <ion-col width-50>
+		        <ion-item class="centerText page-theme-childs" (tap)="goTo('4')">
+		          <div class="loaderBlue">
+			          <img src="assets/img/interface/icons/icon-cough-child.svg" alt="Compare Mucinex, Delsym, Robitussin and others." height="100">
+			        </div>
+			        <br />
+			        <div>
+			        	<span class="orangefont roboto">Cough Relief</span> <br/>
+			        	<span class="grayfontSmallSmall">Compare Mucinex, Robitussin and others.</span>
+			       	</div>
+		        </ion-item>
+		      </ion-col>
+		    </ion-row>
 		</ion-grid>
 		<hr class="hrblue">
 
@@ -217,28 +235,30 @@
 	      </ion-col>
 	    </ion-row>
 		</ion-grid>
-		<hr class="hrblue">
+		<hr class="hrblue"> -->
 
 		<ion-grid class="interface-items">
-	    <ion-row>
-	      <ion-col width-50>
-	        <ion-item class="centerText page-theme-childs" (tap)="goTo('13')">
-	        	<div class="loaderBlue">
-		          <img src="assets/img/interface/icons/icon-sleeping-woman.svg" alt="Compare Melatonin, Unisom, Tylenol PM and others." height="100">
-		        </div>
-		        <br />
-		        <div>
-		        	<span class="purplefont roboto">Sleep Aids</span> <br />
-		        	<span class="grayfontSmallSmall">Compare Melatonin, Unisom<br>Tylenol PM and others.</span>
-		       	</div>
-	        </ion-item>
-	      </ion-col>
-	    </ion-row>
+		    <ion-row>
+		      <ion-col width-50>
+		        <ion-item class="centerText page-theme-childs" (tap)="goTo('13')">
+		        	<div [innerHTML]="html_data?.item_last"></div>
+		        	<!-- <div class="loaderBlue">
+			          <img src="assets/img/interface/icons/icon-sleeping-woman.svg" alt="Compare Melatonin, Unisom, Tylenol PM and others." height="100">
+			        </div>
+			        <br />
+			        <div>
+			        	<span class="purplefont roboto">Sleep Aids</span> <br />
+			        	<span class="grayfontSmallSmall">Compare Melatonin, Unisom<br>Tylenol PM and others.</span>
+			       	</div> -->
+		        </ion-item>
+		      </ion-col>
+		    </ion-row>
 		</ion-grid>
-		<hr class="hrblue">
+		<div [innerHTML]="html_data?.footer"></div>
+<!-- 		<hr class="hrblue">
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
-		<p>&nbsp;</p>
+		<p>&nbsp;</p> -->
 	</div>
 </ion-content>

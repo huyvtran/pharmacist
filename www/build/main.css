@@ -63703,42 +63703,8 @@ page-dosing .savedDose {
   margin-top: 15px !important;
 }
 
-page-dosing a.linkGrayLight {
-  position: relative;
-  top: 2rem;
-}
-
 page-dosing .toolbar-background-md, page-dosing .toolbar-background {
   background: #E91E63;
-}
-
-page-dosing .fontBold {
-  font-weight: bold;
-}
-
-page-dosing h3 {
-  font-size: 1.8em;
-  font-weight: bold;
-}
-
-page-dosing .boxSpinnerRed {
-  background-color: #E91E63;
-  opacity: 0.75;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  right: 5%;
-  top: 0%;
-  /* margin: -5px auto 0 auto; */
-  border-radius: 0px;
-  border: 10px solid #E91E63;
-  box-shadow: 10px 0px #FF9100, 10px 0px #FF9100;
-  -webkit-animation: shadowSpinRed 1s ease-in-out infinite;
-  animation: shadowSpinRed 1s ease-in-out infinite;
-}
-
-#ion-diagnostics-toast {
-  background: transparent;
 }
 
 page-drug {
@@ -65216,13 +65182,13 @@ page-self-care {
 
 page-self-care .back1 {
   background-image: url("../assets/img/illustration/male-model.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
 }
 
 page-self-care .back2 {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-self-care .back1, page-self-care .back2 {
   background-repeat: no-repeat;
   background-position: bottom;
   background-attachment: fixed;

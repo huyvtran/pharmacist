@@ -39,7 +39,8 @@
 
 <ion-content overflow-scroll="true"  padding class="ui-page-theme-i">
 	<div class="fullWidth mainPage" *ngIf="currentPage==0">
-		<p>&nbsp;</p>
+		<div [innerHTML]="html_data?.header"></div>
+		<!-- <p>&nbsp;</p>
 		<div class="opacity5">
 		  <div class="maxwidth450">
 		    <div class="ovalBorderRightPurple_red">
@@ -54,7 +55,7 @@
 		  <br>
 		  <p class="redBorderAll">Our pharmacists have put together a simple, weight based dosing system to make sure your child is getting the correct dose of an over-the-counter (OTC) medication. </p>
 		  <br>
-		</div>
+		</div> -->
 		<p class="centerText">
 			<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let's get started</a>
 		</p>

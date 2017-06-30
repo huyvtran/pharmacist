@@ -1,11 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, NavParams, MenuController, Content, Platform } from 'ionic-angular';
 import { AlertController, ToastController, LoadingController } from 'ionic-angular';
-import { DomSanitizer } from '@angular/platform-browser';
-import { Http } from '@angular/http';
-import {
-  OnInit, Input, NgModule, NgModuleFactory, Compiler
-} from '@angular/core';
+
 /*
   Generated class for the Dosing page.
 
@@ -22,8 +18,7 @@ import { SaveDoseLoginPage } from '../save-dose-login/save-dose-login';
 
 @Component({
   selector: 'page-dimetapp-cold-allergy-mobile',
-  template: '{{myVal}}',
-  // templateUrl: 'dimetapp-cold-allergy-mobile.html'
+  templateUrl: 'dimetapp-cold-allergy-mobile.html'
 })
 export class DimetappColdAllergyMobilePage {
 
@@ -57,10 +52,8 @@ export class DimetappColdAllergyMobilePage {
   	width: 309,
   	noscroll: false
   };
-  myVal: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController, private authService: AuthService,
       public alertCtrl: AlertController, public loadingCtrl: LoadingController, public toastCtrl: ToastController, 
-      private http: Http, private sanitizer: DomSanitizer, private compiler: Compiler,
       public platform: Platform) {
   	this.menu = menu;
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
@@ -71,15 +64,6 @@ export class DimetappColdAllergyMobilePage {
     this.currentWeight = this.defaultWeight;
     this.showConvertDlg = false;
     this.showFeedbackDlg = false;
-
-
-    this.http
-      .get('assets/html/test.html')
-      .map(response => response.text())
-      .subscribe(html => {
-        console.log(html);
-        this.myVal = html;
-      });
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );

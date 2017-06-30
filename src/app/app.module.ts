@@ -118,6 +118,8 @@ import { CommentLoginPage } from '../pages/comment-login/comment-login';
 
 import { AuthService} from '../pages/providers/auth-service';
 
+// import { FakeComponent } from '../pages/dosing/dosing';
+
 @NgModule({
     declarations: [
         MyApp,
@@ -230,6 +232,7 @@ import { AuthService} from '../pages/providers/auth-service';
         MucinexColdCoughSorethroatMobilePage,         // 2
         MucinexNighttimeMsColdMobilePage,             // 3
 
+        // FakeComponent,
     ],
     imports: [
         AgmCoreModule.forRoot({
@@ -350,6 +353,9 @@ import { AuthService} from '../pages/providers/auth-service';
             MucinexMsColdMobilePage,                      // 1
             MucinexColdCoughSorethroatMobilePage,         // 2
             MucinexNighttimeMsColdMobilePage,             // 3
+
+            // FakeComponent,
+
         ],
     providers: [
         AuthService,

@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
-
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 /*
   Generated class for the Dosing page.
 
@@ -45,7 +47,10 @@ export class DosingPage {
   pages: any;
   subPages: any;
   isLoggedIn: boolean;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController, private authService: AuthService) {
+  html_data: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, 
+      public http: Http, private sanitizer: DomSanitizer,
+      public menu: MenuController, private authService: AuthService) {
     let user = this.authService.getUserInfo();
     if (user == null)
       this.isLoggedIn = false;
@@ -80,6 +85,12 @@ export class DosingPage {
       RobitussinPage        // 21
     ];
   }
+  getHtmlData(){
+    this.html_data = [];
+    this.http.get("assets/json/dosing.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
+  }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
     var setting = GlobalVars.getPageSetting('i');
@@ -102,7 +113,7 @@ export class DosingPage {
     this.navCtrl.push(SaveDoseListPage);
   }
   ionViewDidLoad() {
-    
+    this.getHtmlData();
   }
 
 }

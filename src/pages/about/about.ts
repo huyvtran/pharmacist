@@ -25,6 +25,7 @@ export class AboutPage {
     feedback_contents: any;
     RestApiURL: string;
     loading: Loading;
+    html_data: any;
     constructor(public popoverCtrl: PopoverController, public menu: MenuController, 
               public navCtrl: NavController, public navParams: NavParams,
               public http: Http, private sanitizer: DomSanitizer,
@@ -34,13 +35,14 @@ export class AboutPage {
       	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
         this.RestApiURL = GlobalVars.getApiURL() + "page=about";
         this.init();
-        this.feedback_contents = {
-          "rsUXSurveyQuestions": [],
-          "rsUISurveyQuestions": [],
-          "rsAVSurveyQuestions": [],
-          "rsCQSurveyQuestions": [],
-        };
     }
+  getHtmlData(){
+    this.html_data = null;
+    this.http.get("assets/json/about.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+        console.log(data);
+    });
+  }
   init(){
     this.loading = null;
     this.page = 'tab-aaaa';
@@ -65,6 +67,12 @@ export class AboutPage {
       2: {0: "", 1: "", 2: "", 3: "", 4: ""},
       3: {0: "", 1: "", 2: "", 3: "", 4: ""},
     };
+    this.feedback_contents = {
+        "rsUXSurveyQuestions": [],
+        "rsUISurveyQuestions": [],
+        "rsAVSurveyQuestions": [],
+        "rsCQSurveyQuestions": [],
+      };
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
@@ -180,7 +188,7 @@ export class AboutPage {
       }
   }
   ionViewDidLoad() {
+    this.getHtmlData();
     this.loadData();
-    
   }
 }

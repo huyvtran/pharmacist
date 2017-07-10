@@ -62941,6 +62941,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: bottom;
   background-attachment: fixed;
+  overflow-x: hidden !important;
 }
 
 .divider1 {
@@ -63128,23 +63129,6 @@ page-about button:focus {
   right: 0;
 }
 
-page-acetaminophen {
-  font-size: 16px;
-}
-
-page-acetaminophen .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-acetaminophen .toolbar-background-md, page-acetaminophen .toolbar-background {
-  background: #E91E63;
-}
-
-page-acetaminophen ion-content, page-acetaminophen div.scroll-content {
-  background-color: transparent;
-}
-
 page-adult-take-mobile-list {
   font-size: 16px;
   background-image: url(../assets/img/dosing/blue-balls.jpg);
@@ -63162,107 +63146,6 @@ page-adult-take-mobile-list .toolbar-background-md, page-adult-take-mobile-list 
   background: transparent;
 }
 
-page-cetirizine {
-  font-size: 16px;
-}
-
-page-cetirizine .ui-content {
-  background-image: url(../assets/img/dosing/green-flower.jpg);
-  height: 99%;
-}
-
-page-cetirizine .toolbar-background-md, page-cetirizine .toolbar-background {
-  background: #4CAF50;
-}
-
-page-cetirizine ion-content, page-cetirizine div.scroll-content {
-  background-color: transparent;
-}
-
-page-cetirizine-adult-mobile {
-  font-size: 16px;
-}
-
-page-cetirizine-adult-mobile .ui-content {
-  background-image: url(../assets/img/dosing/green-flower.jpg);
-  height: 99%;
-}
-
-page-cetirizine-adult-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-cetirizine-adult-mobile .dww {
-  overflow: inherit;
-}
-
-page-cetirizine-adult-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-cetirizine-adult-mobile .toolbar-background-md, page-cetirizine-adult-mobile .toolbar-background {
-  background: #4CAF50;
-}
-
-page-cetirizine-chewable-mobile {
-  font-size: 16px;
-}
-
-page-cetirizine-chewable-mobile .ui-content {
-  background-image: url(../assets/img/dosing/green-flower.jpg);
-  height: 99%;
-}
-
-page-cetirizine-chewable-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-cetirizine-chewable-mobile .dww {
-  overflow: inherit;
-}
-
-page-cetirizine-chewable-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-cetirizine-chewable-mobile .toolbar-background-md, page-cetirizine-chewable-mobile .toolbar-background {
-  background: #4CAF50;
-}
-
-page-cetirizine-liquid-mobile {
-  font-size: 16px;
-}
-
-page-cetirizine-liquid-mobile .ui-content {
-  background-image: url(../assets/img/dosing/green-flower.jpg);
-  height: 99%;
-}
-
-page-cetirizine-liquid-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-cetirizine-liquid-mobile .dww {
-  overflow: inherit;
-}
-
-page-cetirizine-liquid-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-cetirizine-liquid-mobile .toolbar-background-md, page-cetirizine-liquid-mobile .toolbar-background {
-  background: #4CAF50;
-}
-
 page-child-take-mobile-list {
   font-size: 16px;
   background-image: url(../assets/img/dosing/pink-flower.jpg);
@@ -63278,19 +63161,6 @@ page-child-take-mobile-list .toolbar-background-md, page-child-take-mobile-list 
 
 #ion-diagnostics-toast {
   background: transparent;
-}
-
-page-children-diphenhydramine-mobile {
-  font-size: 16px;
-}
-
-page-children-diphenhydramine-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-flower.jpg);
-  height: 99%;
-}
-
-page-children-diphenhydramine-mobile .toolbar-background-md, page-children-diphenhydramine-mobile .toolbar-background {
-  background: #E91E63;
 }
 
 page-comment-login {
@@ -63383,21 +63253,15 @@ page-compare-childs-container ion-content, page-compare-childs-container div.scr
   background-color: transparent;
 }
 
-page-compare-childs-container ion-content {
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-}
-
-page-compare-childs-container ion-content.content0, page-compare-childs-container ion-content.content2, page-compare-childs-container ion-content.content4 {
+page-compare-childs-container ion-content.content0 .ui-content, page-compare-childs-container ion-content.content2 .ui-content, page-compare-childs-container ion-content.content4 .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
 }
 
-page-compare-childs-container ion-content.content3 {
+page-compare-childs-container ion-content.content3 .ui-content {
   background-image: url(../assets/img/dosing/blue-flower.jpg);
 }
 
-page-compare-childs-container ion-content.content5 {
+page-compare-childs-container ion-content.content5 .ui-content {
   background-image: url(../assets/img/dosing/orange-balls.jpg);
 }
 
@@ -63434,246 +63298,6 @@ page-compare-yesno ion-navbar.fullWidth.bgOrange {
   padding-left: 0px !important;
 }
 
-page-dimetapp {
-  font-size: 16px;
-}
-
-page-dimetapp .ui-content {
-  background-image: url(../assets/img/dosing/purple-flower.jpg);
-  height: 99%;
-}
-
-page-dimetapp .toolbar-background-md, page-dimetapp .toolbar-background {
-  background: #9C27B0;
-}
-
-page-dimetapp ion-content, page-dimetapp div.scroll-content {
-  background-color: transparent;
-}
-
-page-dimetapp-cold-allergy-mobile {
-  font-size: 16px;
-}
-
-page-dimetapp-cold-allergy-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-flower.jpg);
-  height: 99%;
-}
-
-page-dimetapp-cold-allergy-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-dimetapp-cold-allergy-mobile .dww {
-  overflow: inherit;
-}
-
-page-dimetapp-cold-allergy-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-dimetapp-cold-allergy-mobile .toolbar-background-md, page-dimetapp-cold-allergy-mobile .toolbar-background {
-  background: #9C27B0;
-}
-
-page-dimetapp-cold-congestion-mobile {
-  font-size: 16px;
-}
-
-page-dimetapp-cold-congestion-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-balls.jpg);
-  height: 99%;
-}
-
-page-dimetapp-cold-congestion-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-dimetapp-cold-congestion-mobile .dww {
-  overflow: inherit;
-}
-
-page-dimetapp-cold-congestion-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-dimetapp-cold-congestion-mobile .toolbar-background-md, page-dimetapp-cold-congestion-mobile .toolbar-background {
-  background: #9C27B0;
-}
-
-page-dimetapp-cold-cough-mobile {
-  font-size: 16px;
-}
-
-page-dimetapp-cold-cough-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-balls.jpg);
-  height: 99%;
-}
-
-page-dimetapp-cold-cough-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-dimetapp-cold-cough-mobile .dww {
-  overflow: inherit;
-}
-
-page-dimetapp-cold-cough-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-dimetapp-cold-cough-mobile .toolbar-background-md, page-dimetapp-cold-cough-mobile .toolbar-background {
-  background: #9C27B0;
-}
-
-page-dimetapp-cold-coughla-mobile {
-  font-size: 16px;
-}
-
-page-dimetapp-cold-coughla-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-balls.jpg);
-}
-
-page-dimetapp-cold-coughla-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-dimetapp-cold-coughla-mobile .dww {
-  overflow: inherit;
-}
-
-page-dimetapp-cold-coughla-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-dimetapp-cold-coughla-mobile .toolbar-background-md, page-dimetapp-cold-coughla-mobile .toolbar-background {
-  background: #9C27B0;
-}
-
-page-dimetapp-cold-flu-mobile {
-  font-size: 16px;
-}
-
-page-dimetapp-cold-flu-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-flower.jpg);
-  height: 99%;
-}
-
-page-dimetapp-cold-flu-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-dimetapp-cold-flu-mobile .dww {
-  overflow: inherit;
-}
-
-page-dimetapp-cold-flu-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-dimetapp-cold-flu-mobile .toolbar-background-md, page-dimetapp-cold-flu-mobile .toolbar-background {
-  background: #9C27B0;
-}
-
-page-diphen-adult-mobile {
-  font-size: 16px;
-}
-
-page-diphen-adult-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-diphen-adult-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-diphen-adult-mobile .dww {
-  overflow: inherit;
-}
-
-page-diphen-adult-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-diphen-adult-mobile .toolbar-background-md, page-diphen-adult-mobile .toolbar-background {
-  background: #E91E63;
-}
-
-page-diphen-chewable-mobile {
-  font-size: 16px;
-}
-
-page-diphen-chewable-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-diphen-chewable-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-diphen-chewable-mobile .dww {
-  overflow: inherit;
-}
-
-page-diphen-chewable-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-diphen-chewable-mobile .toolbar-background-md, page-diphen-chewable-mobile .toolbar-background {
-  background: #E91E63;
-}
-
-page-diphen-liquid-mobile {
-  font-size: 16px;
-}
-
-page-diphen-liquid-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-diphen-liquid-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-diphen-liquid-mobile .dww {
-  overflow: inherit;
-}
-
-page-diphen-liquid-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-diphen-liquid-mobile .toolbar-background-md, page-diphen-liquid-mobile .toolbar-background {
-  background: #E91E63;
-}
-
 page-diphenhydramine {
   font-size: 16px;
 }
@@ -63693,10 +63317,11 @@ page-diphenhydramine ion-content, page-diphenhydramine div.scroll-content {
 
 page-dosing {
   font-size: 16px;
+}
+
+page-dosing .ui-content {
   background-image: url(../assets/img/dosing/pink-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  height: 99%;
 }
 
 page-dosing .savedDose {
@@ -63707,13 +63332,276 @@ page-dosing .toolbar-background-md, page-dosing .toolbar-background {
   background: #E91E63;
 }
 
+page-dosing-child-container {
+  font-size: 16px;
+}
+
+page-dosing-child-container .ui-content {
+  height: 99%;
+}
+
+page-dosing-child-container ion-content.content0 .ui-content {
+  background-image: url(../assets/img/dosing/pink-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content1 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content2 .ui-content {
+  background-image: url(../assets/img/dosing/green-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content3 .ui-content {
+  background-image: url(../assets/img/dosing/purple-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content4 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content5 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content6 .ui-content {
+  background-image: url(../assets/img/dosing/green-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content7 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content8 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content9 .ui-content {
+  background-image: url(../assets/img/dosing/purple-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content10 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content11 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content12 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content13 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content14 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content15 .ui-content {
+  background-image: url(../assets/img/dosing/orange-balls.jpg);
+}
+
+page-dosing-child-container ion-content.content17 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-child-container ion-content.content21 .ui-content {
+  background-image: url(../assets/img/dosing/green-flower.jpg);
+}
+
+page-dosing-child-container .ui-header .robotoLight p {
+  margin: 0px;
+  padding: 1em;
+}
+
+page-dosing-child-container ion-navbar.fullWidth.bgCyan,
+page-dosing-child-container ion-navbar.fullWidth.bgLightBlue,
+page-dosing-child-container ion-navbar.fullWidth.bgDeepOrange,
+page-dosing-child-container ion-navbar.fullWidth.bgGreen,
+page-dosing-child-container ion-navbar.fullWidth.bgPink,
+page-dosing-child-container ion-navbar.fullWidth.bgRed,
+page-dosing-child-container ion-navbar.fullWidth.bgOrange,
+page-dosing-child-container ion-navbar.fullWidth.bgTeal,
+page-dosing-child-container ion-navbar.fullWidth.bgPurple {
+  padding-left: 0px !important;
+}
+
+page-dosing-child-container .ui-body-inherit {
+  border-color: transparent;
+}
+
+page-dosing-childs {
+  font-size: 16px;
+}
+
+page-dosing-childs ion-content.content0 .ui-content,
+page-dosing-childs ion-content.content1 .ui-content,
+page-dosing-childs ion-content.content2 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-childs ion-content.content3 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-childs ion-content.content7 .ui-content,
+page-dosing-childs ion-content.content8 .ui-content
+ion-content.content9 .ui-content {
+  background-image: url(../assets/img/dosing/green-flower.jpg);
+}
+
+page-dosing-childs ion-content.content10 .ui-content,
+page-dosing-childs ion-content.content11 .ui-content {
+  background-image: url(../assets/img/dosing/purple-flower.jpg);
+}
+
+page-dosing-childs ion-content.content4 .ui-content,
+page-dosing-childs ion-content.content5 .ui-content,
+page-dosing-childs ion-content.content6 .ui-content,
+page-dosing-childs ion-content.content12 .ui-content,
+page-dosing-childs ion-content.content13 .ui-content,
+page-dosing-childs ion-content.content14 .ui-content,
+page-dosing-childs ion-content.content15 .ui-content,
+page-dosing-childs ion-content.content16 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-dosing-childs ion-content.content17 .ui-content,
+page-dosing-childs ion-content.content18 .ui-content,
+page-dosing-childs ion-content.content19 .ui-content,
+page-dosing-childs ion-content.content20 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-childs ion-content.content21 .ui-content,
+page-dosing-childs ion-content.content22 .ui-content,
+page-dosing-childs ion-content.content23 .ui-content,
+page-dosing-childs ion-content.content24 .ui-content,
+page-dosing-childs ion-content.content25 .ui-content,
+page-dosing-childs ion-content.content26 .ui-content,
+page-dosing-childs ion-content.content27 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-childs ion-content.content28 .ui-content,
+page-dosing-childs ion-content.content29 .ui-content,
+page-dosing-childs ion-content.content30 .ui-content,
+page-dosing-childs ion-content.content31 .ui-content,
+page-dosing-childs ion-content.content32 .ui-content {
+  background-image: url(../assets/img/dosing/purple-balls.jpg);
+}
+
+page-dosing-childs ion-content.content33 .ui-content,
+page-dosing-childs ion-content.content34 .ui-content,
+page-dosing-childs ion-content.content35 .ui-content,
+page-dosing-childs ion-content.content36 .ui-content,
+page-dosing-childs ion-content.content37 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-childs ion-content.content38 .ui-content,
+page-dosing-childs ion-content.content39 .ui-content,
+page-dosing-childs ion-content.content40 .ui-content,
+page-dosing-childs ion-content.content41 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-childs ion-content.content42 .ui-content,
+page-dosing-childs ion-content.content43 .ui-content,
+page-dosing-childs ion-content.content44 .ui-content,
+page-dosing-childs ion-content.content45 .ui-content,
+page-dosing-childs ion-content.content46 .ui-content,
+page-dosing-childs ion-content.content47 .ui-content,
+page-dosing-childs ion-content.content48 .ui-content,
+page-dosing-childs ion-content.content49 .ui-content,
+page-dosing-childs ion-content.content50 .ui-content,
+page-dosing-childs ion-content.content51 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-childs ion-content.content52 .ui-content,
+page-dosing-childs ion-content.content53 .ui-content,
+page-dosing-childs ion-content.content54 .ui-content,
+page-dosing-childs ion-content.content55 .ui-content {
+  background-image: url(../assets/img/dosing/orange-balls.jpg);
+}
+
+page-dosing-childs ion-content.content56 .ui-content,
+page-dosing-childs ion-content.content57 .ui-content,
+page-dosing-childs ion-content.content58 .ui-content,
+page-dosing-childs ion-content.content59 .ui-content {
+  background-image: url(../assets/img/dosing/blue-flower.jpg);
+}
+
+page-dosing-childs ion-content.content60 .ui-content,
+page-dosing-childs ion-content.content61 .ui-content,
+page-dosing-childs ion-content.content62 .ui-content,
+page-dosing-childs ion-content.content63 .ui-content {
+  background-image: url(../assets/img/dosing/pink-balls.jpg);
+}
+
+page-dosing-childs ion-content.content64 .ui-content {
+  background-image: url(../assets/img/dosing/green-balls.jpg);
+}
+
+page-dosing-childs ion-content.content65 .ui-content {
+  background-image: url(../assets/img/dosing/green-balls.jpg);
+}
+
+page-dosing-childs ion-content.content66 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-dosing-childs .ui-content {
+  height: 99%;
+}
+
+page-dosing-childs .no-scroll .scroll-content {
+  overflow-y: hidden;
+}
+
+page-dosing-childs .dww {
+  overflow: inherit;
+}
+
+page-dosing-childs .dw-bf {
+  -webkit-backface-visibility: inherit;
+  -webkit-perspective: inherit;
+  backface-visibility: inherit;
+  perspective: inherit;
+}
+
+page-dosing-childs .ui-header .robotoLight p {
+  margin: 0px;
+  padding: 1em;
+}
+
+page-dosing-childs ion-navbar.fullWidth.bgCyan,
+page-dosing-childs ion-navbar.fullWidth.bgLightBlue,
+page-dosing-childs ion-navbar.fullWidth.bgDeepOrange,
+page-dosing-childs ion-navbar.fullWidth.bgGreen,
+page-dosing-childs ion-navbar.fullWidth.bgPink,
+page-dosing-childs ion-navbar.fullWidth.bgRed,
+page-dosing-childs ion-navbar.fullWidth.bgOrange,
+page-dosing-childs ion-navbar.fullWidth.bgTeal,
+page-dosing-childs ion-navbar.fullWidth.bgPurple {
+  padding-left: 0px !important;
+}
+
+page-dosing-childs #q1 label.ui-btn {
+  border-color: transparent;
+}
+
 page-drug {
   font-size: 16px;
+}
+
+page-drug .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  height: 500px;
+  height: 760px;
   min-height: 760px;
 }
 
@@ -63743,75 +63631,6 @@ page-drug .ui-title {
 
 page-drug .toolbar-background-md, page-drug .toolbar-background {
   background: #03a9f4;
-}
-
-page-fexofenadine {
-  font-size: 16px;
-}
-
-page-fexofenadine .ui-content {
-  background-image: url(../assets/img/dosing/purple-flower.jpg);
-  height: 99%;
-}
-
-page-fexofenadine .toolbar-background-md, page-fexofenadine .toolbar-background {
-  background: #9C27B0;
-}
-
-page-fexofenadine-chewable-mobile {
-  font-size: 16px;
-}
-
-page-fexofenadine-chewable-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-flower.jpg);
-  height: 99%;
-}
-
-page-fexofenadine-chewable-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-fexofenadine-chewable-mobile .dww {
-  overflow: inherit;
-}
-
-page-fexofenadine-chewable-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-fexofenadine-chewable-mobile .toolbar-background-md, page-fexofenadine-chewable-mobile .toolbar-background {
-  background: #9C27B0;
-}
-
-page-fexofenadine-liquid-mobile {
-  font-size: 16px;
-}
-
-page-fexofenadine-liquid-mobile .ui-content {
-  background-image: url(../assets/img/dosing/purple-flower.jpg);
-  height: 99%;
-}
-
-page-fexofenadine-liquid-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-fexofenadine-liquid-mobile .dww {
-  overflow: inherit;
-}
-
-page-fexofenadine-liquid-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-fexofenadine-liquid-mobile .toolbar-background-md, page-fexofenadine-liquid-mobile .toolbar-background {
-  background: #9C27B0;
 }
 
 page-find-nearest {
@@ -63883,38 +63702,6 @@ page-find-nearest-list .navbarButtons {
   background-color: transparent !important;
 }
 
-page-fletchers {
-  font-size: 16px;
-}
-
-page-fletchers .ui-content {
-  background-image: url(../assets/img/dosing/green-balls.jpg);
-  height: 99%;
-}
-
-page-fletchers .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-fletchers .dww {
-  overflow: inherit;
-}
-
-page-fletchers .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-fletchers .toolbar-background-md, page-fletchers .toolbar-background {
-  background: #4CAF50;
-}
-
-page-fletchers ion-content, page-fletchers div.scroll-content {
-  background-color: transparent;
-}
-
 page-home {
   font-size: 16px;
   color: #FFF;
@@ -63980,503 +63767,12 @@ page-home .ui-title span {
   top: -13px;
 }
 
-page-ibuprofen {
-  font-size: 16px;
-}
-
-page-ibuprofen .ui-content {
-  background-image: url(../assets/img/dosing/orange-balls.jpg);
-  height: 99%;
-}
-
-page-ibuprofen .toolbar-background-md, page-ibuprofen .toolbar-background {
-  background: #FF5722;
-}
-
-page-ibuprofen ion-content, page-ibuprofen div.scroll-content {
-  background-color: transparent;
-}
-
-page-imodium {
-  font-size: 16px;
-}
-
-page-imodium .ui-content {
-  background-image: url(../assets/img/dosing/green-balls.jpg);
-  height: 99%;
-}
-
-page-imodium .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-imodium .dww {
-  overflow: inherit;
-}
-
-page-imodium .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-imodium .toolbar-background-md, page-imodium .toolbar-background {
-  background: #009688;
-}
-
-page-imodium ion-content, page-imodium div.scroll-content {
-  background-color: transparent;
-}
-
-page-little-remedies {
-  font-size: 16px;
-}
-
-page-little-remedies .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-little-remedies .toolbar-background-md, page-little-remedies .toolbar-background {
-  background: #E91E63;
-}
-
-page-little-remedies ion-content, page-little-remedies div.scroll-content {
-  background-color: transparent;
-}
-
-page-loratadine {
-  font-size: 16px;
-}
-
-page-loratadine .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-loratadine .toolbar-background-md, page-loratadine .toolbar-background {
-  background: #03a9f4;
-}
-
-page-loratadine ion-content, page-loratadine div.scroll-content {
-  background-color: transparent;
-}
-
-page-loratadine-adult-mobile {
-  font-size: 16px;
-}
-
-page-loratadine-adult-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-loratadine-adult-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-loratadine-adult-mobile .dww {
-  overflow: inherit;
-}
-
-page-loratadine-adult-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-loratadine-adult-mobile .toolbar-background-md, page-loratadine-adult-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-loratadine-chewable-mobile {
-  font-size: 16px;
-}
-
-page-loratadine-chewable-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-loratadine-chewable-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-loratadine-chewable-mobile .dww {
-  overflow: inherit;
-}
-
-page-loratadine-chewable-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-loratadine-chewable-mobile .toolbar-background-md, page-loratadine-chewable-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-loratadine-disintegrating-mobile {
-  font-size: 16px;
-}
-
-page-loratadine-disintegrating-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-loratadine-disintegrating-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-loratadine-disintegrating-mobile .dww {
-  overflow: inherit;
-}
-
-page-loratadine-disintegrating-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-loratadine-disintegrating-mobile .toolbar-background-md, page-loratadine-disintegrating-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-loratadine-liquid-mobile {
-  font-size: 16px;
-}
-
-page-loratadine-liquid-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-loratadine-liquid-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-loratadine-liquid-mobile .dww {
-  overflow: inherit;
-}
-
-page-loratadine-liquid-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-loratadine-liquid-mobile .toolbar-background-md, page-loratadine-liquid-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-maalox {
-  font-size: 16px;
-}
-
-page-maalox .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-maalox .toolbar-background-md, page-maalox .toolbar-background {
-  background: #03a9f4;
-}
-
-page-maalox ion-content, page-maalox div.scroll-content {
-  background-color: transparent;
-}
-
-page-maalox-children-mobile {
-  font-size: 16px;
-}
-
-page-maalox-children-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-maalox-children-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-maalox-children-mobile .dww {
-  overflow: inherit;
-}
-
-page-maalox-children-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-maalox-children-mobile .toolbar-background-md, page-maalox-children-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-maalox-junior-mobile {
-  font-size: 16px;
-}
-
-page-maalox-junior-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-maalox-junior-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-maalox-junior-mobile .dww {
-  overflow: inherit;
-}
-
-page-maalox-junior-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-maalox-junior-mobile .toolbar-background-md, page-maalox-junior-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-maalox-regular-mobile {
-  font-size: 16px;
-}
-
-page-maalox-regular-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-maalox-regular-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-maalox-regular-mobile .dww {
-  overflow: inherit;
-}
-
-page-maalox-regular-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-maalox-regular-mobile .toolbar-background-md, page-maalox-regular-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-milk-magnesia {
-  font-size: 16px;
-}
-
-page-milk-magnesia .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-milk-magnesia .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-milk-magnesia .dww {
-  overflow: inherit;
-}
-
-page-milk-magnesia .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-milk-magnesia .toolbar-background-md, page-milk-magnesia .toolbar-background {
-  background: #03a9f4;
-}
-
-page-milk-magnesia ion-content, page-milk-magnesia div.scroll-content {
-  background-color: transparent;
-}
-
-page-miralax {
-  font-size: 16px;
-}
-
-page-miralax .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-miralax .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-miralax .dww {
-  overflow: inherit;
-}
-
-page-miralax .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-miralax .toolbar-background-md, page-miralax .toolbar-background {
-  background: #E91E63;
-}
-
-page-miralax ion-content, page-miralax div.scroll-content {
-  background-color: transparent;
-}
-
-page-mucinex {
-  font-size: 16px;
-}
-
-page-mucinex .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-mucinex .toolbar-background-md, page-mucinex .toolbar-background {
-  background: #03a9f4;
-}
-
-page-mucinex ion-content, page-mucinex div.scroll-content {
-  background-color: transparent;
-}
-
-page-mucinex-cold-cough-sorethroat-mobile {
-  font-size: 16px;
-}
-
-page-mucinex-cold-cough-sorethroat-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-mucinex-cold-cough-sorethroat-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-mucinex-cold-cough-sorethroat-mobile .dww {
-  overflow: inherit;
-}
-
-page-mucinex-cold-cough-sorethroat-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-mucinex-cold-cough-sorethroat-mobile .toolbar-background-md, page-mucinex-cold-cough-sorethroat-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-mucinex-ms-cold-fever-mobile {
-  font-size: 16px;
-}
-
-page-mucinex-ms-cold-fever-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-mucinex-ms-cold-fever-mobile .toolbar-background-md, page-mucinex-ms-cold-fever-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-mucinex-ms-cold-mobile {
-  font-size: 16px;
-}
-
-page-mucinex-ms-cold-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-mucinex-ms-cold-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-mucinex-ms-cold-mobile .dww {
-  overflow: inherit;
-}
-
-page-mucinex-ms-cold-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-mucinex-ms-cold-mobile .toolbar-background-md, page-mucinex-ms-cold-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-mucinex-nighttime-ms-cold-mobile {
-  font-size: 16px;
-}
-
-page-mucinex-nighttime-ms-cold-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-mucinex-nighttime-ms-cold-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-mucinex-nighttime-ms-cold-mobile .dww {
-  overflow: inherit;
-}
-
-page-mucinex-nighttime-ms-cold-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-mucinex-nighttime-ms-cold-mobile .toolbar-background-md, page-mucinex-nighttime-ms-cold-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-mylicon {
-  font-size: 16px;
-}
-
-page-mylicon .ui-content {
-  background-image: url(../assets/img/dosing/green-balls.jpg);
-  height: 99%;
-}
-
-page-mylicon .toolbar-background-md, page-mylicon .toolbar-background {
-  background: #009688;
-}
-
-page-mylicon ion-content, page-mylicon div.scroll-content {
-  background-color: transparent;
-}
-
 page-nearest {
   font-size: 16px;
+}
+
+page-nearest .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
   height: 620px;
 }
 
@@ -64488,266 +63784,9 @@ page-nearest .ui-title {
   font-weight: bold;
 }
 
-page-pediacare {
-  font-size: 16px;
-}
-
-page-pediacare .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare .toolbar-background-md, page-pediacare .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare ion-content, page-pediacare div.scroll-content {
-  background-color: transparent;
-}
-
-page-pediacare-cough-congestion-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-cough-congestion-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-cough-congestion-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-cough-congestion-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-cough-congestion-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-cough-congestion-mobile .toolbar-background-md, page-pediacare-cough-congestion-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare-cough-runnynose-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-cough-runnynose-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-cough-runnynose-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-cough-runnynose-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-cough-runnynose-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-cough-runnynose-mobile .toolbar-background-md, page-pediacare-cough-runnynose-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare-cough-sorethroat-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-cough-sorethroat-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-cough-sorethroat-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-cough-sorethroat-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-cough-sorethroat-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-cough-sorethroat-mobile .toolbar-background-md, page-pediacare-cough-sorethroat-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare-daytime-ms-cold-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-daytime-ms-cold-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-daytime-ms-cold-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-daytime-ms-cold-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-daytime-ms-cold-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-daytime-ms-cold-mobile .toolbar-background-md, page-pediacare-daytime-ms-cold-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare-flu-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-flu-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-flu-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-flu-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-flu-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-flu-mobile .toolbar-background-md, page-pediacare-flu-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare-multi-symptom-cold-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-multi-symptom-cold-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-multi-symptom-cold-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-multi-symptom-cold-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-multi-symptom-cold-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-multi-symptom-cold-mobile .toolbar-background-md, page-pediacare-multi-symptom-cold-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pediacare-nightime-ms-cold-mobile {
-  font-size: 16px;
-}
-
-page-pediacare-nightime-ms-cold-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pediacare-nightime-ms-cold-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pediacare-nightime-ms-cold-mobile .dww {
-  overflow: inherit;
-}
-
-page-pediacare-nightime-ms-cold-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pediacare-nightime-ms-cold-mobile .toolbar-background-md, page-pediacare-nightime-ms-cold-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pedialax {
-  font-size: 16px;
-}
-
-page-pedialax .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-pedialax .toolbar-background-md, page-pedialax .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pedialax ion-content, page-pedialax div.scroll-content {
-  background-color: transparent;
-}
-
-page-pepto {
-  font-size: 16px;
-}
-
-page-pepto .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-pepto .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-pepto .dww {
-  overflow: inherit;
-}
-
-page-pepto .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-pepto .toolbar-background-md, page-pepto .toolbar-background {
-  background: #03a9f4;
-}
-
-page-pepto ion-content, page-pepto div.scroll-content {
-  background-color: transparent;
+page-nearest .swiper-slide img {
+  max-height: 50%;
+  max-width: 60%;
 }
 
 page-place-details {
@@ -65074,37 +64113,26 @@ page-place-navigation .adp-substep .adp-stepicon .adp-maneuver {
   background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/maneuvers.png);
 }
 
-page-robitussin {
-  font-size: 16px;
-}
-
-page-robitussin .ui-content {
-  background-image: url(../assets/img/dosing/green-flower.jpg);
-  height: 99%;
-}
-
-page-robitussin .toolbar-background-md, page-robitussin .toolbar-background {
-  background: #E91E63;
-}
-
-page-robitussin ion-content, page-robitussin div.scroll-content {
-  background-color: transparent;
-}
-
 page-save-dose-insert {
   font-size: 16px;
+}
+
+page-save-dose-insert .toolbar-background-md, page-save-dose-insert .toolbar-background {
+  background: #00BCD4;
+}
+
+page-save-dose-insert .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  height: 99%;
 }
 
 page-save-dose-insert-success {
   font-size: 16px;
+}
+
+page-save-dose-insert-success .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  height: 99%;
 }
 
 page-save-dose-insert-success .toolbar-background-md, page-save-dose-insert-success .toolbar-background {
@@ -65113,10 +64141,11 @@ page-save-dose-insert-success .toolbar-background-md, page-save-dose-insert-succ
 
 page-save-dose-list {
   font-size: 16px;
+}
+
+page-save-dose-list .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  height: 99%;
 }
 
 page-save-dose-list .toolbar-background-md, page-save-dose-list .toolbar-background {
@@ -65137,10 +64166,11 @@ page-save-dose-login .toolbar-background-md, page-save-dose-login .toolbar-backg
 
 page-save-dose-register {
   font-size: 16px;
+}
+
+page-save-dose-register .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
+  height: 99%;
 }
 
 page-save-dose-register .toolbar-background-md, page-save-dose-register .toolbar-background {
@@ -65217,364 +64247,5 @@ page-self-care .mbsc-mobi-blue.mbsc-mobiscroll .dw.dw-ltr {
 }
 
 page-self-care .toolbar-background-md, page-self-care .toolbar-background {
-  background: #03a9f4;
-}
-
-page-sudafed {
-  font-size: 16px;
-}
-
-page-sudafed .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-sudafed .toolbar-background-md, page-sudafed .toolbar-background {
-  background: #E91E63;
-}
-
-page-sudafed ion-content, page-sudafed div.scroll-content {
-  background-color: transparent;
-}
-
-page-sudafed-cold-cough-mobile {
-  font-size: 16px;
-}
-
-page-sudafed-cold-cough-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-sudafed-cold-cough-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-sudafed-cold-cough-mobile .dww {
-  overflow: inherit;
-}
-
-page-sudafed-cold-cough-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-sudafed-cold-cough-mobile .toolbar-background-md, page-sudafed-cold-cough-mobile .toolbar-background {
-  background: #E91E63;
-}
-
-page-sudafed-pe-mobile {
-  font-size: 16px;
-}
-
-page-sudafed-pe-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-sudafed-pe-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-sudafed-pe-mobile .dww {
-  overflow: inherit;
-}
-
-page-sudafed-pe-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-sudafed-pe-mobile .toolbar-background-md, page-sudafed-pe-mobile .toolbar-background {
-  background: #E91E63;
-}
-
-page-sudafed-pseudo-mobile {
-  font-size: 16px;
-}
-
-page-sudafed-pseudo-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-sudafed-pseudo-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-sudafed-pseudo-mobile .dww {
-  overflow: inherit;
-}
-
-page-sudafed-pseudo-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-sudafed-pseudo-mobile .toolbar-background-md, page-sudafed-pseudo-mobile .toolbar-background {
-  background: #E91E63;
-}
-
-page-sudafed-pseudotab-mobile {
-  font-size: 16px;
-}
-
-page-sudafed-pseudotab-mobile .ui-content {
-  background-image: url(../assets/img/dosing/pink-balls.jpg);
-  height: 99%;
-}
-
-page-sudafed-pseudotab-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-sudafed-pseudotab-mobile .dww {
-  overflow: inherit;
-}
-
-page-sudafed-pseudotab-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-sudafed-pseudotab-mobile .toolbar-background-md, page-sudafed-pseudotab-mobile .toolbar-background {
-  background: #E91E63;
-}
-
-page-triaminic {
-  font-size: 16px;
-}
-
-page-triaminic .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-triaminic .toolbar-background-md, page-triaminic .toolbar-background {
-  background: #03a9f4;
-}
-
-page-triaminic ion-content, page-triaminic div.scroll-content {
-  background-color: transparent;
-}
-
-page-triaminic-cough-congestion-mobile {
-  font-size: 16px;
-}
-
-page-triaminic-cough-congestion-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-triaminic-cough-congestion-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-triaminic-cough-congestion-mobile .dww {
-  overflow: inherit;
-}
-
-page-triaminic-cough-congestion-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-triaminic-cough-congestion-mobile .toolbar-background-md, page-triaminic-cough-congestion-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-triaminic-cough-sorethroat-mobile {
-  font-size: 16px;
-}
-
-page-triaminic-cough-sorethroat-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-triaminic-cough-sorethroat-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-triaminic-cough-sorethroat-mobile .dww {
-  overflow: inherit;
-}
-
-page-triaminic-cough-sorethroat-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-triaminic-cough-sorethroat-mobile .toolbar-background-md, page-triaminic-cough-sorethroat-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-triaminic-daytime-cold-cough-mobile {
-  font-size: 16px;
-}
-
-page-triaminic-daytime-cold-cough-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-triaminic-daytime-cold-cough-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-triaminic-daytime-cold-cough-mobile .dww {
-  overflow: inherit;
-}
-
-page-triaminic-daytime-cold-cough-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-triaminic-daytime-cold-cough-mobile .toolbar-background-md, page-triaminic-daytime-cold-cough-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-triaminic-multi-symptom-fever-cold-mobile {
-  font-size: 16px;
-}
-
-page-triaminic-multi-symptom-fever-cold-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-triaminic-multi-symptom-fever-cold-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-triaminic-multi-symptom-fever-cold-mobile .dww {
-  overflow: inherit;
-}
-
-page-triaminic-multi-symptom-fever-cold-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-triaminic-multi-symptom-fever-cold-mobile .toolbar-background-md, page-triaminic-multi-symptom-fever-cold-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-triaminic-nighttime-cold-cough-mobile {
-  font-size: 16px;
-}
-
-page-triaminic-nighttime-cold-cough-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-flower.jpg);
-  height: 99%;
-}
-
-page-triaminic-nighttime-cold-cough-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-triaminic-nighttime-cold-cough-mobile .dww {
-  overflow: inherit;
-}
-
-page-triaminic-nighttime-cold-cough-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-triaminic-nighttime-cold-cough-mobile .toolbar-background-md, page-triaminic-nighttime-cold-cough-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-tums {
-  font-size: 16px;
-}
-
-page-tums .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-tums .toolbar-background-md, page-tums .toolbar-background {
-  background: #03a9f4;
-}
-
-page-tums ion-content, page-tums div.scroll-content {
-  background-color: transparent;
-}
-
-page-tums-kids-mobile {
-  font-size: 16px;
-}
-
-page-tums-kids-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-tums-kids-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-tums-kids-mobile .dww {
-  overflow: inherit;
-}
-
-page-tums-kids-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-tums-kids-mobile .toolbar-background-md, page-tums-kids-mobile .toolbar-background {
-  background: #03a9f4;
-}
-
-page-tums-regular-mobile {
-  font-size: 16px;
-}
-
-page-tums-regular-mobile .ui-content {
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  height: 99%;
-}
-
-page-tums-regular-mobile .no-scroll .scroll-content {
-  overflow-y: hidden;
-}
-
-page-tums-regular-mobile .dww {
-  overflow: inherit;
-}
-
-page-tums-regular-mobile .dw-bf {
-  -webkit-backface-visibility: inherit;
-  -webkit-perspective: inherit;
-  backface-visibility: inherit;
-  perspective: inherit;
-}
-
-page-tums-regular-mobile .toolbar-background-md, page-tums-regular-mobile .toolbar-background {
   background: #03a9f4;
 }

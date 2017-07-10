@@ -28,20 +28,10 @@
 
 <ion-content overflow-scroll="true"  padding class="ui-page-theme-n ui-mobile">
 	<div class="ui-content">
-	   <p>&nbsp;</p>
-	   <div class="maxwidth450">
-	      <div class="centerText">
-	         <img src="assets/img/illustration/process/swipe-left-right.svg" width="50" alt="swipe left or right gesture">
-	      </div>
-	      <p class="font12 centerText">
-	         <span class="bluefont">Swipe Right</span> for <span class="orangefont">details</span> or <span class="bluefont">complete</span> actions.<br>
-	         <span class="redfont">Swipe Left</span> for <span class="greenfont">in progress</span> or <span class="redfont">delete</span> actions.
-	      </p>
-	   </div>
-	   <p>&nbsp;</p>
-	   <div class="mbsc-lv-cont mbsc-lv-mobi-blue mbsc-lv-mobiscroll mbsc-lv-ic-anim mbsc-lv-alt-row  mbsc-lv-handle-right">
-	      <ul class="mbsc-lv mbsc-lv-dummy"></ul>
-	      <div class="mbsc-lv-sl-c" data-ref="1">
+	   	<div [innerHTML]="html_data?.header"></div>
+	   	<div class="mbsc-lv-cont mbsc-lv-mobi-blue mbsc-lv-mobiscroll mbsc-lv-ic-anim mbsc-lv-alt-row  mbsc-lv-handle-right">
+	      	<ul class="mbsc-lv mbsc-lv-dummy"></ul>
+	      	<div class="mbsc-lv-sl-c" data-ref="1">
 	         <ul id="saved_dose_list" class="dose-list mbsc-comp mbsc-lv mbsc-lv-v mbsc-lv-root mbsc-lv-sl-curr" style="">
 	            <li *ngFor="let eachDosing of dosingData" class="mbsc-lv-item mbsc-lv-item-enhanced">
 				   <h3 class="mbsc-lv-txt">

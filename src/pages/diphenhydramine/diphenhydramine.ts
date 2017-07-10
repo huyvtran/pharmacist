@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 
-/*
-  Generated class for the Dosing page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
-
-import { ChildrenDiphenhydramineMobilePage } from '../children-diphenhydramine-mobile/children-diphenhydramine-mobile';
+// import { ChildrenDiphenhydramineMobilePage } from '../children-diphenhydramine-mobile/children-diphenhydramine-mobile';
+import { DosingChildContainerPage } from '../dosing-child-container/dosing-child-container';
 import { GlobalVars } from '../providers/globalvars';
 
 @Component({
@@ -19,9 +16,17 @@ export class DiphenhydraminePage {
 
   AbsoluteURL: string;
   pages: any;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
+  html_data: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
+      public http: Http, private sanitizer: DomSanitizer) {
   	this.menu = menu;
     this.pages = [true, true];
+  }
+  getHtmlData(){
+    this.html_data = null;
+    this.http.get("assets/json/diphenhydramine.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
@@ -33,10 +38,11 @@ export class DiphenhydraminePage {
     this.pages[ind] = !this.pages[ind];
   }
   goContinue() {
-    this.navCtrl.push(ChildrenDiphenhydramineMobilePage);
+    GlobalVars.setPageId(0);
+    this.navCtrl.push(DosingChildContainerPage);
   }
   ionViewDidLoad() {
-    
+    this.getHtmlData();
   }
 
 }

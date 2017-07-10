@@ -22,7 +22,7 @@
 <ion-content overflow-scroll="true"  class="{{setting.class}}" has-subheader="true">
   	<ion-header class="ui-header">
     	<ion-navbar class="fullWidth robotoLight {{setting.p}}">
-        	<p>{{pageTitle[pageId]}}</p>
+        	<p>{{html_data?.pageTitle[pageId]}}</p>
     	</ion-navbar>
 	</ion-header>
 	<div class="fullWidth" #mainBody>
@@ -34,108 +34,40 @@
 	    </div>
 	    <div class="maxwidth450 paddingSides">
 	        <div class="{{setting.oval}}">
-	            <span *ngIf="pageId==1">Compare <span class="greenfont">allergy</span> medications using the table below.</span>
-	            <span *ngIf="pageId==3">Compare <span class="redfont">Children's</span> <span class="bluefont">Cold</span> medications using the table below.</span>
-	            <span *ngIf="pageId==5">Use the table below to compare <span class="bluefont">cold sore</span> medications.</span>
-	            <span *ngIf="pageId==6">Compare the different <span class="orangefont">energy drinks</span> using the table below.</span>
-	            <span *ngIf="pageId==10">Compare over-the-counter <span class="orangefont">laxatives</span> using the table below.</span>
-	            <span *ngIf="pageId==12">Use the table below to compare <span class="redfont">decongestants.</span></span>
-	            <span *ngIf="pageId==13">Compare over-the-counter <span class="bluefont"> sleep aids</span> using the table below.</span>
-	            <span *ngIf="pageId==14">Use the table below to compare <span class="redfont">decongestants.</span></span>
-	            <span *ngIf="pageId==15">Compare <span class="purple_redfont">multi-symptoms</span> cold and flu medications using the table below.</span>
-	            <span *ngIf="pageId==16">Compare <span class="orangefont">immune boosters</span> using the table below.</span>
-	            <span *ngIf="pageId==17">Compare <span class="purple_bluefont">Artifical tears</span> and <span class="bluefont">lubricants</span> for<span class="bluefont"> dry eyes</span> using the table below.</span>
-	            <span *ngIf="pageId==18">Compare eye drops for<span class="redfont"> red eyes</span> using the table below.</span>
-	            <span *ngIf="pageId==19">Compare drops for <span class="greenfont">eye allergy relief</span> using the table below.</span>
-	            <span *ngIf="pageId==22">Use the table below to compare <span class="orangefont">Antacids.</span></span>
-	            <span *ngIf="pageId==23">Compare <span class="bluefont">acid suppressing</span> medications using the table below.</span>
-	            <span *ngIf="pageId==24">Use the table below to compare <span class="purplefont">heartburn</span> medications as a group.</span>
-	            <span *ngIf="pageId==25">Compare pain relieving <span class="redfont">pills</span> using the table below.</span>
-	            <span *ngIf="pageId==26">Use the table below to compare pain relieving <span class="orangefont">creams / ointments</span></span>
-	            <span *ngIf="pageId==27">Compare pain relief <span class="bluefont">patches</span> using the table below.</span>
+	            <span [innerHTML]="html_data?.span[pageId]"></span>
 	            <br>
 	        </div>
 	        <div align="right">
-	            <img src="assets/img/{{imageUrls[pageId]}}" width="100" alt="Pharmacist"> 
+	            <img src="assets/img/{{html_data?.imageUrls[pageId]}}" width="100" alt="Pharmacist"> 
 	        </div>
 	    </div>
 	    <div class="clearboth divider1"></div>
-	    <p class="grayfontSmall greenBorderAll centerText nextDiv" *ngIf="pageId!=13">
-	    	<span class="greenfont">Show</span> and 
-	    	<span class="redfont">hide</span> columns with the 
-	    	<span class="bluefont">"Sort"</span>  button. <br>
-	    	For best results in a mobile device,  
-	    	<span class="redfont">check (√) one column</span> at a time due to limited screen size.
+	    <p class="grayfontSmall greenBorderAll centerText nextDiv" *ngIf="pageId!=13" [innerHTML]="html_data?.idnon13">
 	    </p>
-	    <p class="blueBorderAll grayfontSmall centerText" *ngIf="pageId==13">
-	    	Filter columns with the <span class="redfont">"Sort"</span> button.<br> For best results in a mobile device, check (√) <span class="redfont">one column</span> at a time.
+	    <p class="blueBorderAll grayfontSmall centerText" *ngIf="pageId==13" [innerHTML]="html_data?.id13">
 	    </p>
 	    <div class="clearboth divider1"></div>
 	    <br>
 	    <p>&nbsp;</p>
-	    <!--
-	    <div class="feedbackCompare" style="display: none;">
-	        <div class="alertWidth">
-	            <div class="maxwidth250">
-	                <div class="{{setting.oval}} centerText">
-	                    <span>Help improve this comparison of OTC allergy medications.</span><br>
-	                </div>
-	                <div align="right"><img src="assets/img/{{imageUrls[pageId]}}" alt="Pharmacist Alicia" width="80"></div>
-	            </div>
-	            <div class="clearboth"></div>
-	            <hr class="hrgreen">
-	            <p class="centerText"><span class="redfont">Thanks for your past feedback on this article.</span><br> You may give another feedback if you've seen changes since you last visited.</p>
-	            <hr class="hrgreen">
-	        </div>
-	    </div> -->
 	    <div class="centerText">
 	    	<a href="#" data-inline="true" class="linkBlueThin showFeedbackAlert ui-link" (tap)="toggleFeedbackDlg(true)" *ngIf="pageId==13"><span class="mbsc-ic mbsc-ic-ion-chatbubble-working mbsc-ic-font36"></span>Give Feedback</a> 
-	        <a href="#" class="mbsc-ic mbsc-ic-stream-bubble-comment-talk mbsc-ic-font36 {{aClass[pageId]}} ui-link" (tap)="showCommentCompare()"></a>
-	        <a href="#" data-rel="popup" data-transition="pop" class="mbsc-ic mbsc-ic-ion-ios7-search-strong mbsc-ic-font36 {{aClass[pageId]}} ui-link" aria-haspopup="true" aria-owns="filterallergy_medsTable-pop" aria-expanded="false" (tap)="toggleSearchDlg(true)"></a>
+	        <a href="#" class="mbsc-ic mbsc-ic-stream-bubble-comment-talk mbsc-ic-font36 {{html_data?.aClass[pageId]}} ui-link" (tap)="showCommentCompare()"></a>
+	        <a href="#" data-rel="popup" data-transition="pop" class="mbsc-ic mbsc-ic-ion-ios7-search-strong mbsc-ic-font36 {{html_data?.aClass[pageId]}} ui-link" aria-haspopup="true" aria-owns="filterallergy_medsTable-pop" aria-expanded="false" (tap)="toggleSearchDlg(true)"></a>
 	    </div>
 	    <br>
 	    <hr class="{{setting.hr}}">
 	    <br>
-	    <div style="display: none;" id="filterallergy_medsTable-pop-placeholder">
-	    </div>
 	    <div class="marginR30">
-	        <div style="display: none;" id="allergy_meds_table-popup-placeholder">
-	        </div>
 	        <a href="#" class="ui-table-columntoggle-btn ui-btn ui-btn-{{mode[pageId]}} ui-corner-all ui-shadow ui-mini" data-rel="popup" (tap)="toggleSortDlg(true)">Sort</a>
 	        <table data-role="table" id="allergy_meds_table" data-filter="true" data-input="#filterallergy_medsTable-input" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive my-responsive-class ui-table ui-table-columntoggle" data-column-btn-theme="mode[pageId]" data-column-btn-text="Sort" data-column-popup-theme="mode[pageId]">
 	            <thead>
 	                <tr class="ui-bar-{{mode[pageId]}}">
 	                    <th data-colstart="1"></th>
-	                    <th data-priority="1" data-colstart="2" class="ui-table-priority-3" [ngClass]="{'ui-table-cell-visible': ShowTabs[0]['ui-checkbox-on']}" *ngIf="ShowTabs[0]['title'].length>0">
-	                        <div class="centerText">{{ShowTabs[0]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="3" class="ui-table-priority-3" [ngClass]="{'ui-table-cell-visible': ShowTabs[1]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[1]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="4" class="ui-table-priority-3" [ngClass]="{'ui-table-cell-visible': ShowTabs[2]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[2]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="5" class="ui-table-priority-4" [ngClass]="{'ui-table-cell-visible': ShowTabs[3]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[3]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="6" class="ui-table-priority-5" [ngClass]="{'ui-table-cell-visible': ShowTabs[4]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[4]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="7" class="ui-table-priority-5" [ngClass]="{'ui-table-cell-visible': ShowTabs[5]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[5]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="8" class="ui-table-priority-6" [ngClass]="{'ui-table-cell-visible': ShowTabs[6]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[6]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="9" class="ui-table-priority-6" [ngClass]="{'ui-table-cell-visible': ShowTabs[7]['ui-checkbox-on']}">
-	                        <div class="centerText">{{ShowTabs[7]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="10" class="ui-table-priority-6" [ngClass]="{'ui-table-cell-visible': ShowTabs[8]['ui-checkbox-on']}" *ngIf="ShowTabs[8]['title'].length>0">
-	                        <div class="centerText">{{ShowTabs[8]['title']}}</div>
-	                    </th>
-	                    <th data-priority="1" data-colstart="11" class="ui-table-priority-6" [ngClass]="{'ui-table-cell-visible': ShowTabs[9]['ui-checkbox-on']}" *ngIf="ShowTabs[9]['title'].length>0">
-	                        <div class="centerText">{{ShowTabs[9]['title']}}</div>
-	                    </th>
+	                    <ng-container *ngFor="let eachData of html_data?.ShowTabs">
+		                    <th data-priority="1" data-colstart="2" class="ui-table-priority-3" class="ui-table-priority-3" [ngClass]="{'ui-table-cell-visible': eachData['ui-checkbox-on']}" *ngIf="eachData['title'].length>0">
+		                    	<div class="centerText">{{eachData["title"]}}</div>
+		                    </th>
+	                    </ng-container>
 	                </tr>
 	            </thead>
 	            <tbody>
@@ -143,38 +75,38 @@
 	                    <th style="font-size:14px">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['drug_name'])"></div>
 	                    </th>
-	                    <td style="font-size:14px" [ngClass]="{'ui-table-cell-hidden': ShowTabs[0]['ui-checkbox-off']}" *ngIf="ShowTabs[0]['title'].length>0">
+	                    <td style="font-size:14px" [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[0]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[0]['title'].length>0">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['description'])"></div>
 	                    </td>
-	                    <td style="font-size:12px" [ngClass]="{'ui-table-cell-hidden': ShowTabs[1]['ui-checkbox-off']}">
+	                    <td style="font-size:12px" [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[1]['ui-checkbox-on']}">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['ingredients'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[2]['ui-checkbox-off']}">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[2]['ui-checkbox-on']}">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['onset'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[3]['ui-checkbox-off']}">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[3]['ui-checkbox-on']}">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['duration'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[4]['ui-checkbox-off']}">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[4]['ui-checkbox-on']}">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['pros'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[5]['ui-checkbox-off']}">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[5]['ui-checkbox-on']}">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['cons'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[6]['ui-checkbox-off']}">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[6]['ui-checkbox-on']}">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['comments'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[7]['ui-checkbox-off']}">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[7]['ui-checkbox-on']}">
 	                        <div class="grayfont">
 	                            Did this medication help you? <br><br>
 	                            <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['user_vote'])"></div>
 	                            What about you?                       
 	                        </div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[8]['ui-checkbox-off']}" *ngIf="ShowTabs[8]['title'].length>0">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[8]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[8]['title'].length>0">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['cost'])"></div>
 	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': ShowTabs[9]['ui-checkbox-off']}" *ngIf="ShowTabs[9]['title'].length>0">
+	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[9]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[9]['title'].length>0">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['brand_names'])"></div>
 	                    </td>
 	                </tr>
@@ -200,9 +132,9 @@
 		<div class="ui-table-columntoggle-popup ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" id="allergy_meds_table-popup">
 		    <fieldset class="ui-controlgroup ui-controlgroup-vertical ui-corner-all">
 		        <div class="ui-controlgroup-controls ">
-		            <div class="ui-checkbox" *ngFor="let tabs of ShowTabs" (tap)="toggleSort(tabs)">
+		            <div class="ui-checkbox" *ngFor="let tabs of html_data?.ShowTabs" (tap)="toggleSort(tabs)">
 		            	<ng-container *ngIf="tabs.title.length>0">
-			            	<label class="ui-btn ui-corner-all ui-btn-{{mode[pageId]}} ui-btn-icon-left" [ngClass]="{'ui-checkbox-on': tabs['ui-checkbox-on'], 'ui-checkbox-off': tabs['ui-checkbox-off']}">{{tabs.title}}</label>
+			            	<label class="ui-btn ui-corner-all ui-btn-{{mode[pageId]}} ui-btn-icon-left" [ngClass]="{'ui-checkbox-on': tabs['ui-checkbox-on'], 'ui-checkbox-off': !tabs['ui-checkbox-on']}">{{tabs.title}}</label>
 			            	<input type="checkbox" checked="" />
 			            </ng-container>
 			        </div>
@@ -213,24 +145,7 @@
 	<div class="ui-popup-screen ui-overlay-b in" id="filterallergy_medsTable-pop-screen" *ngIf="FeedbackDlg.show" (tap)="toggleFeedbackDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
 	<div role="dialog" tabindex="-1" class="ui-popup-container pop in ui-popup-active mbsc-mobi-blue mbsc-mobiscroll dw-modal mbsc-wdg" *ngIf="FeedbackDlg.show" [ngStyle]="{'max-width': FeedbackDlg.maxWidth+'px','top': FeedbackDlg.top+'px', 'left': FeedbackDlg.left+'px', 'width': FeedbackDlg.width+'px'}">
 	    <div class="dwwr" style="width: 309px; white-space: nowrap;">
-	        <div aria-live="assertive" class="dw-aria dw-hidden"></div>
-	        <div class="dwcc mbsc-wdg-c mbsc-w-p">
-	            <div class="feedbackAlert mbsc-comp" style="display: block;" id="mobiscroll1490899336998">
-	                <div class="alertWidth">
-	                    <div class="maxwidth300">
-	                        <div class="ovalBorderRightBlue" align="center">
-	                            <span>Help improve this comparison of OTC sleep medications.</span><br>
-	                        </div>
-	                        <div align="right"><img src="assets/img/pharm/female/pharm-selena-cyan.svg" alt="Pharmacist" width="80"></div>
-	                    </div>
-	                    <div class="clearboth"></div>
-	                    <hr class="hrblue">
-	                    <p align="center"><span class="redfont">Thanks for your past feedback on this article.</span><br> You may give another feedback if you've seen changes since you last visited.</p>
-	                    <!------------End show if columns  are the same--------------> 
-	                    <hr class="hrblue">
-	                </div>
-	            </div>
-	        </div>
+	        <div [innerHTML]="html_data?.dlg"></div>
 	        <div class="dwbc">
 	            <div class="dwbw ">
 	                <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="showCompare()">Not Now</div>

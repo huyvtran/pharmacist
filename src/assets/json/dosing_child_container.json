@@ -1,0 +1,202 @@
+{
+	"title": {
+		"0": "Diphenhydramine",
+		"1": "Loratadine",
+		"2": "Cetirizine",
+		"3": "Fexofenadine",
+		"4": "Tums",
+		"5": "Maalox",
+		"6": "simethicone<span class=\"grayLightfontSmallSmall\">(20 mg in each 0.3 ml)<\/span>",
+		"7": "Sudafed",
+		"8": "Pediacare",
+		"9": "Dimetapp",
+		"10": "Children's Triaminic",
+		"11": "Pepto",
+		"12": "Children's Mucinex",
+		"13": "Little Remedies",
+		"14": "Acetaminophen",
+		"15": "Ibuprofen",
+		"17": "Pedia-lax",
+		"21": "Children's robitussin"
+	},
+	"header": {
+		"0": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightPurple_red\">\r\n\t<span>Which formulation of <span class=\"purple_redfont\">diphenhydramine<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-john-port-red.svg\" width=\"100\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<\/div>",
+		"1": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"bluefont\">loratadine<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-marilyn.svg\" width=\"100\" alt=\"pharmacist Marilyn\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<\/div>",
+		"2": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightGreen\">\r\n\t<span>Which formulation of <span class=\"greenfont\">cetirizine<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-green.svg\" width=\"100\"><\/div>\r\n\t<\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<p class=\"greenfontSmall greenBorderAll centerText\">To get the correct dose for your child be sure to choose the right formulation.<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<\/div>",
+		"3": "<div class=\"opacity8\">\r\n\t\t<p>&nbsp;<\/p>\r\n\t\t<div class=\"maxwidth450\">\r\n\t\t<div class=\"ovalBorderRightPurple_red\"> <span>Which formulation of <span class=\"purple_redfont\">fexofenadine<\/span> do you want a dose for?<\/span><br>\r\n\t\t<\/div>\r\n\t\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-purple.svg\" width=\"100\"><\/div>\r\n\t\t<\/div>\r\n\t\t<p>&nbsp;<\/p>\r\n\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t<p>&nbsp;<\/p>\r\n\t\t<\/div>",
+		"4": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"redfont\">tums<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-justin.svg\" width=\"100\" alt=\"Pharmacist Justin\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<\/div>",
+		"5": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"bluefont\">maalox<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-danny.svg\" width=\"100\" alt=\"Pharmacist Danny\"><\/div>\r\n\t<\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<\/div>",
+		"6": "<div class=\"centerText\">\r\n\t<p>&nbsp;<\/p>\r\n\t<p>Dosing information currently being updated.<\/p>\r\n\t<p>Please check back later.<\/p>\r\n\t<\/div>",
+		"7": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightPurple_red\">\r\n\t<span>Which formulation of <span class=\"redfont\">sudafed<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<\/div>",
+		"8": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"purple_redfont\">pediacare<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-lindsey.svg\" width=\"100\"><\/div>\r\n\t<\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<\/div>",
+		"9": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightPurple\">\r\n\t<span>Which formulation of <span class=\"purplefont\">dimetapp<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-purple.svg\" alt=\"pharmacist Selena\" width=\"100\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<\/div>",
+		"10": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"purple_bluefont\">triaminic<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-meg.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t<\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<!-- ---------------End Border right person------------------ -->\r\n\t<\/div>",
+		"11": "",
+		"12": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"orangefont\">mucinex<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-christina.svg\" width=\"100\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<\/div>",
+		"13": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightPurple_red\">\r\n\t<span>Which formulation of <span class=\"purple_redfont\">little remedies<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<\/div>",
+		"14": "<div class=\"opacity8\">\r\n\t\t\t<p>&nbsp;<\/p>\r\n\t\t<div class=\"maxwidth450\">\r\n\t\t<div class=\"ovalBorderRightPurple_red\">\r\n\t\t<span>Choose the formulation of <span class=\"redfont\">acetaminophen<\/span> from the list below.<\/span><br>\r\n\t\t<\/div>\r\n\t\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-red.svg\" width=\"100\"><\/div>\r\n\t\t<\/div>\r\n\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t<!-- ---------------End Border right person------------------- -->\r\n\t\t<p class=\"redfontSmall redBorderAll centerText\">To get the correct dose for your child be sure to choose the right formulation.<\/p>\r\n\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t<\/div>",
+		"15": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightOrange\">\r\n\t<span>Choose the formulation of <span class=\"redfont\">ibuprofen<\/span> you want a dose for from the list below.<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-meg-orange.svg\" width=\"100\" alt=\"Pharmacist Meg\"><\/div>\r\n\t<\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<br>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<p class=\"orangefontSmall redBorderAll centerText\">To get the correct dose for your child be sure to choose the right formulation.<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<\/div>",
+		"17": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightBlue\">\r\n\t<span>Which formulation of <span class=\"bluefont\">pedia-lax<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia.svg\" width=\"100\" alt=\"Pharmacist Alicia\"><\/div>\r\n\t<\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<\/div>",
+		"21": "<div class=\"opacity1\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t<div class=\"ovalBorderRightPurple_red\">\r\n\t<span>Which formulation of <span class=\"greenfont\">robitussin<\/span> do you want a dose for?<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-red.svg\" width=\"100\" alt=\"Pharmacist Henry\"><\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<!-- ---------------End Border right person------------------- -->\r\n\t<\/div>"
+	},
+	"lidata": {
+		"0": [
+			"<h3 class=\"redfont\">Diphenhydramine Liquid <br><span class=\"redfontSmall\">12.5mg\/5ml<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/diphenhydramine\/diphen-liquid.png\" height=\"60\" alt=\"Diphenydramine liquid\"><\/p>",
+			"<h3 class=\"purplefont\">Orally Dissolving<br> <span class=\"purplefontSmall\">12.5mg\/tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/diphenhydramine\/diphen-chewable.png\" height=\"35\" alt=\"Chewable diphenhydramine\"><\/p>",
+			"<h3 class=\"purple_redfont\">Adult Tablets<br> <span class=\"purple_redfontSmall\">25mg\/tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/diphenhydramine\/diphen-adult-tabs.png\" height=\"40\" alt=\"Adult diphenhydramine\"><\/p>"
+		],
+		"1": [
+			"<h3 class=\"bluefont\">Loratadine Solution \/ Syrup<br><span class=\"orangefontSmall\">5 mg \/ 5 ml<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/loratadine\/loratadine-liquid.png\" height=\"60\" alt=\"loratadine liquid\"><\/p>",
+			"<h3 class=\"bluefont\">Loratadine Chewable<br><span class=\"orangefontSmall\">5 mg \/ tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/loratadine\/loratadine-chewable.png\" height=\"30\" alt=\"loratadine chewable\"><\/p>",
+			"<h3 class=\"bluefont\">Disintegrating Tablets<br><span class=\"orangefontSmall\">10 mg \/ tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/loratadine\/loratadine-adult-tabs.png\" height=\"30\" alt=\"loratadine adult tablets\"><\/p>",
+			"<h3 class=\"bluefont\">Adult Tablets<br><span class=\"orangefontSmall\">10 mg \/ tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/loratadine\/loratadine-adult-tabs.png\" height=\"30\" alt=\"loratadine adult tablets\"><\/p>"
+		],
+		"2": [
+			"<h3 class=\"greenfont\">Cetirizine Syrup<br><span class=\"orangefontSmall\">5 mg \/ 5 ml<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/cetirizine\/cetirizine-syrup.png\" height=\"60\" alt=\"cetirizine liquid\"><\/p>",
+			"<h3 class=\"greenfont\">Chewable Tablets<br><span class=\"orangefontSmall\">10 mg \/ tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/cetirizine\/cetirizine-chewable.png\" height=\"30\" alt=\"cetirizine adult tablets\"><\/p>",
+			"<h3 class=\"greenfont\">Adult Tablets<br><span class=\"orangefontSmall\">10 mg \/ tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/cetirizine\/cetirizine-chewable.png\" height=\"30\" alt=\"cetirizine adult tablets\"><\/p>"
+		],
+		"3": [
+			"<h3 class=\"purple_redfont\">Fexofenadine Suspension<br><span class=\"orangefontSmall\">30 mg \/ 5 ml<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/fexofenadine\/allegra-susp.png\" height=\"60\" alt=\"fexofenadine liquid\"><\/p>",
+			"<h3 class=\"purple_redfont\">Disintegrating Tabs<br><span class=\"orangefontSmall\">30 mg \/ tablet<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/fexofenadine\/fexofenadine-odt.png\" height=\"30\" alt=\"fexofenadine liquid\"><\/p>"
+		],
+		"4": [
+			"<h3 class=\"redfont\">Tums Kids<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Calcium Carbonate USP 750mg<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/tums\/tums-kids.png\" height=\"60\" alt=\"tums kids\"><\/p>",
+			"<h3 class=\"bluefont\">Tums Regular Strength<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Calcium Carbonate USP 500mg<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/tums\/tums-regular.png\" height=\"60\" alt=\"tums regular\"><\/p>"
+		],
+		"5": [
+			"<h3 class=\"purplefont\">Children's Maalox<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Calcium carbonate 400 mg \/ tablet<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/maalox\/maalox-children.png\" height=\"50\" alt=\"maalox children\"><\/p>",
+			"<h3 class=\"redfont\">Junior Maalox<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Calcium carbonate 400 mg<br>Simethicone, 24 mg \/ tablet<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/maalox\/maalox-junior.png\" height=\"50\" alt=\"maalox junior\"><\/p>",
+			"<h3 class=\"bluefont\">Maalox Regular Strength<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Calcium carbonate 600 mg \/ tablet<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/maalox\/maalox-regular.png\" height=\"60\" alt=\"maalox regular\"><\/p>"
+		],
+		"6": [],
+		"7": [
+			"<h3 class=\"purple_redfont\">Sudafed <span class=\"orangefontSmall\">(pseudoephedrine)<\/span> Liquid<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Pseudoephedrine 15 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/sudafed\/sudafed-syrup.png\" height=\"60\" alt=\"sudafed pseudoephedrine\"><\/p>",
+			"<h3 class=\"orangefont\">Sudafed PE <span class=\"redfontSmall\">(Phenylephrine)<\/span> Liquid<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/sudafed\/sudafed-pe.png\" height=\"60\" alt=\"sudafed PE\"><\/p>",
+			"<h3 class=\"purplefont\">Sudafed Cold and Cough<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Dextromethorphan 5 mg <br>Phenylephrine 5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/sudafed\/sudafed-cold-cough.png\" height=\"60\" alt=\"sudafed cold and cough\"><\/p>",
+			"<h3 class=\"redfont\">Sudafed Tablets<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Pseudoephedrine 30 mg \/ tablet<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/sudafed\/sudafed-tabs.png\" height=\"40\" alt=\"sudafed 30 mg tablets\"><\/p>"
+		],
+		"8": [
+			"<h3 class=\"bluefont\">Multi-symptom cold<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Chlorpheniramine 1 mg,<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-ms-cold.png\" height=\"60\" alt=\"pediacare multi-symptom cold\"><\/p>",
+			"<h3 class=\"purple_redfont\">Cough And Runny Nose<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Chlorpheniramine 1 mg,<br>Dextromethorphan 5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-cough-runnynose.jpg\" height=\"60\" alt=\"pediacare cough and runny nose\"><\/p>",
+			"<h3 class=\"purple_bluefont\">Cough And Congestion<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Dextromethorphan 5 mg<br>Guaifenesin 100 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-cough-congestion.jpg\" height=\"60\" alt=\"pediacare cough and congestion\"><\/p>",
+			"<h3 class=\"orangefont\">Daytime Multi-Symptom Cold<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-ms-daytime.jpg\" height=\"60\" alt=\"pediacare daytime multi-symptom\"><\/p>",
+			"<h3 class=\"redfont\">Flu<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160mg<br>Chlorpheniramine maleate 1mg<br>Dextromethorphan HBr 5mg<br>Phenylephrine HCl 2.5mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-flu.jpg\" height=\"60\" alt=\"pediacare flu\"><\/p>",
+			"<h3 class=\"purplefont\">Nighttime Multi-Symptom Cold<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Diphenhydramine 6.25 mg<br>Phenylephrine HCl 2.5mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-ms-nighttime.jpg\" height=\"60\" alt=\"pediacare nighttime multi-symptom cold\"><\/p>",
+			"<h3 class=\"purple_redfont\">Cough and Sore Throat<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160mg<br>Dextromethorphan HBr 5mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/pediacare\/pediacare-cough-sorethroat.jpg\" height=\"60\" alt=\"pediacare cough and sore throat\"><\/p>"
+		],
+		"9": [
+			"<h3>Dimetapp <span class=\"purple_redfontSmall\">Cold and Cough<\/span><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Brompheniramine 2 mg <br>Dextromethorphan 10 mg <br>Phenylephrine 5 mg \/ 10 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/dimetapp\/dimetapp-cold-cough.png\" height=\"60\" alt=\"dimetapp cold and flu\"><\/p>",
+			"<h3>Dimetapp <span class=\"purplefontSmall\">Cold and Allergy<\/span><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Brompheniramine 2 mg <br>Phenylephrine 5 mg \/ 10 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/dimetapp\/dimetapp-cold-allergy.png\" height=\"60\" alt=\"dimetapp cold and allergy\"><\/p>",
+			"<h3>Dimetapp <span class=\"bluefontSmall\">Cold and Flu<\/span><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 320 mg<br>Diphenhydramine 12.5 mg <br>Phenylephrine 5 mg \/ 10 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/dimetapp\/dimetapp-cold-flu.png\" height=\"60\" alt=\"dimetapp cold and flu\"><\/p>",
+			"<h3>Dimetapp <span class=\"purple_redfontSmall\">Cold and Cough LA<\/span><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Chlorpheniramine 2 mg <br>Dextromethorphan 15 mg \/ 10 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/dimetapp\/dimetapp-cold-coughla.png\" height=\"60\" alt=\"dimetapp cold and cough long acting\"><\/p>",
+			"<h3>Dimetapp <span class=\"purplefontSmall\">Cold and Congestion<\/span><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Diphenhydramine 12.5 mg <br>Phenylephrine 5 mg \/ 10 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/dimetapp\/dimetapp-cold-congestion.png\" height=\"60\" alt=\"dimetapp cold and congestion night time\"><\/p>"
+		],
+		"10": [
+			"<h3 class=\"purple_redfont\">Multi-Symptom Fever And Cold<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Chlorpheniramine 1 mg,<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/triaminic\/triaminic-ms-fever-cold.png\" height=\"60\" alt=\"triaminic multi-symptom fever and cold\"><\/p>",
+			"<h3 class=\"purple_bluefont\">Cough And Congestion<br><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Dextromethorphan 5 mg<br>Guaifenesin 100 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/triaminic\/triaminic-cough-congestion.png\" height=\"60\" alt=\"triaminic cough and congestion\"><\/p>",
+			"<h3 class=\"purplefont\">Cough and Sore Throat<br><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Dextromethorphan 5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/triaminic\/triaminic-cough-sorethroat.png\" height=\"60\" alt=\"triaminic cough and sore throat\"><\/p>",
+			"<h3 class=\"redfont\">Day Time Cold &amp; Cough<br><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/triaminic\/triaminic-daytime-cold-cough.png\" height=\"60\" alt=\"triaminic day time cold and cough\"><\/p>",
+			"<h3 class=\"purplefont\">Night Time Cold &amp; Cough<br><\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Diphenhydramine 6.25 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/triaminic\/triaminic-nighttime-cold-cough.png\" height=\"60\" alt=\"triaminic night time cold and cough\"><\/p>"
+		],
+		"11": [],
+		"12": [
+			"<h3 class=\"purple_redfont\">Multi-Symptom Cold &amp; Fever<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Guaifenesion 100 mg,<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/mucinex\/mucinex-ms-cold-fever.png\" height=\"60\" alt=\"mucinex multi-symptom cold and fever\"><\/p>",
+			"<h3 class=\"purple_bluefont\">Multi-Symptom Cold<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Guaifenesion 100 mg,<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/mucinex\/mucinex-ms-cold.png\" height=\"60\" alt=\"mucinex multi-symptom cold\"><\/p>",
+			"<h3 class=\"bluefont\">Cold, Cough &amp; Sore Throat<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Guaifenesion 100 mg,<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/mucinex\/mucinex-cold-cough-sorethroat.png\" height=\"60\" alt=\"mucinex cold cough and sore throat\"><\/p>",
+			"<h3 class=\"purplefont\">Night Time Multi-Symptom Cold<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Diphenhydramine 6.25 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/mucinex\/mucinex-nighttime-ms-cold.png\" height=\"60\" alt=\"mucinex night time multi-symptom cold\"><\/p>"
+		],
+		"13": [
+			"<h3 class=\"purplefont\">Multi-Symptom Cold &amp; Fever<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Acetaminophen 160 mg<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/little\/little-remedies-ms-cold.png\" height=\"60\" alt=\"little multi-symptom cold and fever\"><\/p>",
+			"<h3 class=\"purple_redfont\">Decongestant Nose Drops<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Phenylephrine HCl 0.125%<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/little\/little-remedies-decongestant-drops.png\" height=\"50\" alt=\"little remedies decongestant nose drops\"><\/p>"
+		],
+		"14": [
+			{
+				"header": "<span class=\"pinkfont\">Liquid Formulations<\/span>\r\n\t\t\t\t<span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"list": [
+					{
+						"id": 0,
+						"content": "<h3 class=\"redfont\">Infants' Suspension <br><span class=\"redfontSmall\">160mg\/5ml<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-infant-bottle.png\" height=\"60\" alt=\"Acetaminophen infant suspension\"><\/p>"
+					},
+					{
+						"id": 1,
+						"content": "<h3 class=\"purple_redfont\">Children's Suspension<br> <span class=\"purple_redfontSmall\">160mg\/5ml<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-children-bottle.png\" height=\"60\" alt=\"Acetaminophen children suspension\"><\/p>"
+					}
+				]
+			},
+			{
+				"header": "<span class=\"purplefont\">Chewables<\/span> | <span class=\"orangefont\">Tablets<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"list": [
+					{
+						"id": 2,
+						"content": "<h3 class=\"purple_redfont\">Children Chewable <br><span class=\"purple_redfontSmall\">80mg \/ tablet<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-chewable-80.png\" height=\"40\" alt=\"Acetaminophen children chewable\"><\/p>"
+					},
+					{
+						"id": 3,
+						"content": "<h3 class=\"purplefont\">Junior Chewable <br><span class=\"purplefontSmall\">160mg \/ tablet<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-chewable-160.png\" height=\"40\" alt=\"Acetaminophen junior chewable\"><\/p>"
+					},
+					{
+						"id": 4,
+						"content": "<h3 class=\"redfont\">Acetaminophen Adult <br><span class=\"redfontSmall\">325mg Tabs.<\/span> <\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-tab.png\" height=\"50\" alt=\"Acetaminophen adult tablets\"><\/p>"
+					}
+				]
+			},
+			{
+				"header": "<span class=\"redfont\">Suppositories<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"list": [
+					{
+						"id": 5,
+						"content": "<h3 class=\"redfont\">Infants' Suppository <br><span class=\"redfontSmall\">80mg<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-suppository.png\" height=\"50\" alt=\"Acetaminophen Suppository\"><\/p>"
+					},
+					{
+						"id": 6,
+						"content": "<h3 class=\"purple_redfont\">Children's Suppository <br><span class=\"purple_redfontSmall\">120mg<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-suppository.png\" height=\"50\" alt=\"Acetaminophen Suppository\"><\/p>"
+					},
+					{
+						"id": 7,
+						"content": "<h3 class=\"purplefont\">Junior Suppository <br><span class=\"purplefontSmall\">325mg<\/span><\/h3>\r\n\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/aceta-suppository.png\" height=\"50\" alt=\"Acetaminophen Suppository\"><\/p>"
+					}
+				]
+			}
+		],
+		"15": [
+			{
+				"header": "<span class=\"orangefont\">Liquid Formulations<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"list": [
+					{
+						"id": 0,
+						"content": "<h3 class=\"redfont\">Ibuprofen Infant Drops <br><span class=\"redfontSmall\">50mg\/1.25ml<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/ibuprofen\/ibu-infant-bottle.png\" height=\"60\" alt=\"infant ibuprofen\"><\/p>"
+					},
+					{
+						"id": 1,
+						"content": "<h3 class=\"orangefont\">Ibuprofen Suspension<br> <span class=\"orangefontSmall\">100mg\/5ml<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/ibuprofen\/ibu-suspension.png\" height=\"60\" alt=\"children ibuprofen suspension\"><\/p>"
+					}
+				]
+			},
+			{
+				"header": "<span class=\"purplefont\">Chewables<\/span> <span class=\"purple_redfont\">| Tablets<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"list": [
+					{
+						"id": 2,
+						"content": "<h3 class=\"purplefont\">Ibuprofen Jr Strength<br> <span class=\"purplefontSmall\">100mg\/tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/ibuprofen\/ibu-chewable.png\" height=\"40\" alt=\"ibuprofen chewable tablets\"><\/p>"
+					},
+					{
+						"id": 3,
+						"content": "<h3 class=\"purple_redfont\">Adult Ibuprofen Tablets<br><span class=\"purple_redfontSmall\">200mg\/tablet<\/span><\/h3>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/ibuprofen\/ibu-tabs.png\" height=\"40\" alt=\"ibuprofen adult tablets\"><\/p>"
+					}
+				]
+			}
+		],
+		"17": [
+			"<h3 class=\"bluefont\">Pedia-lax Chewable Tabs<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Magnesium hydroxide 400 mg \/ tablet<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/pedialax.png\" height=\"60\" alt=\"pedialax chewable tablets\"><\/p>",
+			"<h3 class=\"bluefont\">Pedia-lax Liquid<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Docusate sodium 50 mg \/ tablespoon (15ml)<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/pedialax-liquid.png\" height=\"60\" alt=\"pedialax liquid\"><\/p>",
+			"<h3 class=\"bluefont\">Pedia-lax Glycerin<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Glycerin 2.8 g in 2.7 ml average dose<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/pedialax-glycerin.jpg\" height=\"50\" alt=\"pedialax glycerin\"><\/p>",
+			"<h3 class=\"bluefont\">Pedia-lax Enema<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Monobasic sodium phosphate 9.5g<br>Dibasic sodium phosphate 2.5g<br> in 59 ml dose<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/pedialax-enema.jpg\" height=\"80\" alt=\"pedialax enema\"><\/p>"
+		],
+		"21": [
+			"<h3 class=\"purple_redfont\">Cough &amp; Cold CF<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Guaifenesion 100 mg,<br>Dextromethorphan 5 mg<br>Phenylephrine 2.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/robitussin\/robitussin-cough-cold.png\" height=\"60\" alt=\"robitussin cough and cold CF\"><\/p>",
+			"<h3 class=\"bluefont\">Cough &amp; Chest Congestion DM<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Guaifenesion 100 mg,<br>Dextromethorphan 5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/robitussin\/robitussin-cough-chest.png\" height=\"60\" alt=\"robitussin cough and chest congestion\"><\/p>",
+			"<h3 class=\"purple_redfont\">Cough &amp; Cold Long Acting<\/h3>\r\n\t<p class=\"grayfontSmallSmall\">Chlorpheniramine 1 mg<br>Dextromethorphan 7.5 mg \/ 5 ml<\/p>\r\n\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/robitussin\/robitussin-cough-cold-la.png\" height=\"60\" alt=\"robitussin cough and cold long acting\"><\/p>"
+		]
+	}
+}

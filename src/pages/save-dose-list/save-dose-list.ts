@@ -23,10 +23,17 @@ export class SaveDoseListPage {
   AbsoluteURL: string;
   dosingData: any;
   loginCredentials = {'email': '', 'password': ''};
+  html_data: any;
   constructor(public http: Http, private sanitizer: DomSanitizer, public navCtrl: NavController, public navParams: NavParams, public menu: MenuController, private authService: AuthService) {
   	this.menu = menu;
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
   	this.dosingData = [];
+  }
+  getHtmlData(){
+    this.html_data = null
+    this.http.get("assets/json/dosing.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
   	this.menu.open();
@@ -46,6 +53,7 @@ export class SaveDoseListPage {
         }
   }
   ionViewDidLoad() {
+    this.getHtmlData();
   	this.loadData();
     
   }

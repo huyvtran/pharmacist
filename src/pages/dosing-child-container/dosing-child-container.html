@@ -1,0 +1,67 @@
+
+<ion-header class="ui-header {{setting.class}}">
+
+  <ion-navbar>
+    <ion-title>
+    	<h1 class="ui-title">
+      	&nbsp;
+      </h1>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (tap)="showMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+	</ion-navbar>
+  <ion-navbar class="fullWidth robotoLight {{setting.p}}">
+    <p [innerHTML]="html_data?.title[pageId]"></p>
+  </ion-navbar>
+</ion-header>
+
+<ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}}">
+	<div class="ui-content transparentButton">
+	    <div [innerHTML]="html_data?.header[pageId]"></div>
+	    <div class="opacity4" style="padding:0 15px;" *ngIf="pageId!=14 && pageId!=15">
+	        <br>
+	        <ul data-role="listview" class="ui-nodisc-icon ui-listview" data-corners="false">
+	        	<ng-container *ngFor="let eachdata of html_data?.lidata[pageId]; let i=index">
+	        		<li>
+		                <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(i)">
+		                    <div [innerHTML]="eachdata"></div>
+		                </a>
+		            </li>
+		            <hr>
+	        	</ng-container>
+	        </ul>
+	        <p>&nbsp;</p>
+	        <p>&nbsp;</p>
+	    </div>
+	    <div class="maxwidth600" *ngIf="pageId==14 || pageId==15">
+	        <ng-container *ngFor="let each_data of html_data?.lidata[pageId]; let i = index">
+		    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{'ui-collapsible-collapsed': pages[i]}">
+			        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+			        	<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" [ngClass]="{'ui-icon-plus': pages[i], 'ui-icon-minus': !pages[i]}" (tap)="togglePage(i)">
+			        		<div [innerHTML]="each_data?.header"></div>
+			        	</a>
+			        </h3>
+			        <div class="ui-collapsible-content ui-body-inherit" aria-hidden="true" [ngClass]="{'ui-collapsible-content-collapsed': pages[i]}">
+			            <br>
+			            <ul data-role="listview" class="ui-listview">
+			            	<li *ngFor="let li_data of each_data?.list">
+			            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(li_data.id)">
+			                        <div [innerHTML]="li_data?.content"></div>
+			                    </a>
+			            	</li>
+			            	<hr class="hrpink">
+			            </ul>
+			            <br>
+			        </div>
+			    </div>
+			    <hr class="hrpink">
+		    </ng-container>
+	    </div>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	</div>
+</ion-content>
+

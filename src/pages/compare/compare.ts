@@ -3,12 +3,6 @@ import { NavController, NavParams, MenuController } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the Compare page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 
 import { GlobalVars } from '../providers/globalvars';
 import { CompareChildsPage } from '../compare-childs/compare-childs';
@@ -50,7 +44,7 @@ export class ComparePage {
   	this.menu = menu;
   }
   getHtmlData(){
-    this.html_data = [];
+    this.html_data = null;
     this.http.get("assets/json/compare.json").map(response => response.json()).subscribe(data => {
         this.html_data = data;
     });

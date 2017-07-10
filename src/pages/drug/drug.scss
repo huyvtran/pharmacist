@@ -2,12 +2,11 @@ $toolbar-background-color: #03a9f4;
 
 page-drug {
 	font-size: 16px;
-	background-image: url(../assets/img/dosing/blue-balls.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-    height: 500px;
-    min-height: 760px;
+    .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    	height: 760px;
+    	min-height: 760px;
+    }
     .ui-input-search input {
 	    padding-left: 1.75em !important;
 	    width: 100% !important;

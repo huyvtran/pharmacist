@@ -185,6 +185,7 @@ h1{
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
+    overflow-x: hidden !important;
 }
 .divider1 {
     background-image: url(../assets/img/backgrounds/dividers/div1.png);

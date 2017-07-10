@@ -2,16 +2,19 @@ $toolbar-background-color: #03a9f4;
 
 page-nearest {
 	font-size: 16px;
-	background-image: url(../assets/img/dosing/blue-balls.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-    height: 620px;
-
+    .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    	height: 620px;
+    }
 	.toolbar-background-md, .toolbar-background{
 		background: $toolbar-background-color;
 	}
 	.ui-title{
 		font-weight: bold;
+	}
+	.swiper-slide img
+	{
+		max-height: 50%;
+    	max-width: 60%;
 	}
 }

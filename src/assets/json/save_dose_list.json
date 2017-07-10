@@ -1,0 +1,4 @@
+{
+	"header": "<p>&nbsp;<\/p>\r\n\t   <div class=\"maxwidth450\">\r\n\t      <div class=\"centerText\">\r\n\t         <img src=\"assets\/img\/illustration\/process\/swipe-left-right.svg\" width=\"50\" alt=\"swipe left or right gesture\">\r\n\t      <\/div>\r\n\t      <p class=\"font12 centerText\">\r\n\t         <span class=\"bluefont\">Swipe Right<\/span> for <span class=\"orangefont\">details<\/span> or <span class=\"bluefont\">complete<\/span> actions.<br>\r\n\t         <span class=\"redfont\">Swipe Left<\/span> for <span class=\"greenfont\">in progress<\/span> or <span class=\"redfont\">delete<\/span> actions.\r\n\t      <\/p>\r\n\t   <\/div>\r\n\t   <p>&nbsp;<\/p>",
+	"footer": "<p>&nbsp;<\/p>\r\n\t   <p>&nbsp;<\/p>\r\n\t   <p>&nbsp;<\/p>\r\n\t   <p>&nbsp;<\/p>\r\n\t   <p>&nbsp;<\/p>"
+}

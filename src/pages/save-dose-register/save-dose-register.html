@@ -29,17 +29,7 @@
 	    <p>
 	    </p>
 	    <div class="maxwidth650" style="padding:16px;">
-	        <div class="maxwidth450">
-	            <div class="ovalBorderRightBlue centerText">
-	                <span>Please fill out the form below.</span><br>
-	            </div>
-	            <div align="right"> 
-	                <img src="assets/img/pharm/female/pharm-amanda-cyan.svg" width="100" alt="Pharmacist"> 
-	            </div>
-	        </div>
-	        <div class="clearboth divider1"></div>
-	        <!-- ---------------End Border right person------------------- -->
-	        <p>&nbsp;</p>
+	        <div [innerHTML]="html_data?.header"></div>
 	        <form (ngSubmit)="registerPage()" #registerForm="ngForm">
 	        	<ion-row>
 			        <ion-col>
@@ -65,19 +55,6 @@
 			            <ion-item>
 			              <ion-input type="text" placeholder="Newsletter" name="newsletter" [(ngModel)]="registerCredentials.newsletter" required></ion-input>
 			            </ion-item>
-			            <!-- <ion-item>
-			            	<ion-select [(ngModel)]="registerCredentials.gender" name="gender">
-							    <ion-option value="Male" selected="true">Male</ion-option>
-							    <ion-option value="Female">Female</ion-option>
-							</ion-select>
-			            </ion-item>
-			            <ion-item>
-			            	<ion-select [(ngModel)]="registerCredentials.newsletter" name="newsletter">
-							    <ion-option value="" selected="true"></ion-option>
-							    <ion-option value="Yes">Yes, please</ion-option>
-							    <ion-option value="No">No, Thanks</ion-option>
-							</ion-select>
-			            </ion-item> -->
 			          </ion-list>
 			        </ion-col>
 				</ion-row>

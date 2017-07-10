@@ -1,0 +1,139 @@
+<ion-header class="ui-header {{setting.class}}">
+  	<ion-navbar>
+	    <ion-title>
+	    	<h1 class="ui-title">
+	      		{{html_data?.top_title[pageId]}}
+	      	</h1>
+	    </ion-title>
+	    <ion-buttons end>
+	      	<button ion-button icon-only (tap)="showMenu()">
+	        	<ion-icon name="menu"></ion-icon>
+	      	</button>
+	    </ion-buttons>
+		</ion-navbar>
+  	<ion-navbar class="fullWidth robotoLight {{setting.p}}">
+    	<p *ngIf="currentPage == 0" [innerHTML]="html_data?.title[pageId]"></p>
+    	<p *ngIf="currentPage > 0">Child's weight?</p>
+  	</ion-navbar>
+</ion-header>
+
+<ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}}" [ngClass]="{'no-scroll': convertDlgInfo.noscroll}">
+	<div class="ui-content" *ngIf="pageId==38 || pageId==43 || (pageId>=49 && pageId<=51) || pageId==58 || pageId==59">
+		<div [innerHTML]="html_data?.header[pageId]"></div>
+	</div>
+	<div class="ui-content" *ngIf="currentPage == 0 && pageId != 38 && pageId !=43 && pageId!=49 && pageId!=50 && pageId!=51 && pageId!=58 && pageId!=59">
+	    <div [innerHTML]="html_data?.header[pageId]"></div>
+	    <div id="q1" class="opacity7">
+	        <div data-role="fieldcontain" id="check_div2" class="ui-field-contain">
+	            <fieldset data-role="controlgroup" class="ui-nodisc-icon ui-controlgroup ui-controlgroup-vertical ui-corner-all">
+	                <div class="ui-controlgroup-controls ">
+	                	<ng-container *ngFor="let each of html_data?.labels[pageId]; let i=index">
+		                	<div class="ui-checkbox">
+		                		<label for="child_check_{{i}}" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left " [ngClass]="{'ui-checkbox-off': !options[i], 'ui-checkbox-on': options[i]}" (tap)="toggleOptions(i)"><div [innerHTML]="each"></div></label>
+		                		<input type="checkbox" name="child_check" id="child_check_{{i}}" class="child_check" value="">
+		                	</div>
+		                	<hr>
+		                </ng-container>
+	                </div>
+	            </fieldset>
+	            <div class="clearboth divider1"></div>
+	        </div>
+	    </div>
+	    <div class="opacity3">
+	        <p class="centerText">
+	            <a href="#" data-role="none" class="disclaimerFYI linkAmber" data-inline="true" (tap)="toggleTerm()">FYI</a>
+	            <a href="#" id="child_check_button" *ngIf="options[ html_data?.labelcount[pageId] ] == true" (tap)="setCurrentPage(1)" class=" linkPinkBorder" data-role="none" data-inline="true" data-transition="slide">Please Continue</a>
+	        </p>
+	    </div>
+	    <div class="opacity8 disclaimerDiv paddingSides centerText" [ngClass]="{'displayNone': !showTerm}">
+	        <div [innerHTML]="html_data?.term"></div>
+	    </div>
+	    <div [innerHTML]="html_data?.ppp"></div>
+	</div>
+	<div class="ui-content" *ngIf="currentPage>0">
+	    <p>&nbsp;</p>
+	    <div id="slider_div" class="opacity3 padding0" *ngIf="currentPage==1">
+	        <div [innerHTML]="html_data?.page0[pageId]"></div>
+	        <div data-role="fieldcontain" class="ui-field-contain">
+	            <div class="ui-slider">
+	                <ion-item>
+						<ion-range min="{{html_data?.slider[pageId]['min']}}" max="{{html_data?.slider[pageId]['max']}}" [(ngModel)]="currentWeight" color="sliderPink">
+							<ion-label range-left>{{currentWeight}}(lbs)</ion-label>
+						</ion-range>
+					</ion-item>
+	            </div>
+	        </div>
+	        <div class="clearboth divider1"></div>
+	        <div class="centerText">
+	            <a href="#" id="mobi_wt_link" data-role="none" data-inline="true" class="linkOrange" (tap)="toggleConvertDlg(true)">FYI</a>
+	            <input type="button" id="get_slider" data-inline="true" class="buttonPinkBorder" data-role="none" value="Here you go" (tap)="setCurrentPage(2)">
+	        </div>
+	        <div [innerHTML]="html_data?.ppp"></div>
+	    </div>
+	    <div class="opacityNone padding0" *ngIf="currentPage==2">
+	        <div class="container_12" id="slider_value_container" *ngIf="currentPage==2">
+	            <div class="maxwidth450">
+	                <div class="{{setting.oval}}">
+	                    <div id="slider_value">You said: <span style="background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;">{{currentWeight}}</span> (lbs)</div>
+	                </div>
+	                <div align="right"><img src="{{html_data?.imgurl[pageId]}}" width="100" alt="Pharmacist"> 
+	                </div>
+	            </div>
+	        </div>
+	        <div class="clearboth divider1"></div>
+	        <div id="lb">
+	            <div [innerHTML]="html_data?.weight_content[pageId][subPage]"></div>
+	            <p class="centerText"> 
+	            	<a href="#" (tap)="saveDoseWeight()" id="save_24" data-role="none" data-inline="true" class="linkCyanBorderThin" *ngIf="subPage>0">Save</a> 
+	                <button class="back_slider buttonPinkBorder" data-role="none" data-inline="true" (tap)="setCurrentPage(1)">New Wt.</button>
+	                <a href="#" data-role="none" data-inline="true" class="linkAmberBorderThin" (tap)="gotoDosePage()">
+	                	<span *ngIf="pageId<=62">New Dose</span>
+	                	<span *ngIf="pageId>62">New Drug</span>
+	                </a>
+	            </p>
+	            <p class="centerText" *ngIf="pageId==0">
+	            	<a href="#" data-inline="true" class="linkPurple_redThin showFeedbackAlert ui-link" (tap)="toggleFeedbackDlg(true)" > <span class="mbsc-ic mbsc-ic-ion-chatbubble-working font32"></span> Give Feedback </a>
+	            </p>
+	            <p>&nbsp;</p>
+	        </div>
+	        <div [innerHTML]="html_data?.ppp"></div>
+	    </div>
+	</div>
+	<div lang="en" class="mbsc-mobi-red mbsc-mobiscroll dw-modal  mbsc-wdg" *ngIf="showFeedbackDlg==true">
+	    <div class="dw-persp" [ngStyle]="{'height': feedbackDlgInfo.screenHeight+'px'}">
+	        <div class="dwo" (tap)="toggleFeedbackDlg(false)"></div>
+	        <div role="dialog" tabindex="-1" class="dw dw-ltr" [ngStyle]="{'top': feedbackDlgInfo.top+'px', 'left': feedbackDlgInfo.left+'px'}">
+	            <div class="dwwr" style="white-space: nowrap;" [ngStyle]="{'width': feedbackDlgInfo.width+'px'}">
+	                <div [innerHTML]="html_data?.dlg1"></div>
+	                <div class="dwbc">
+	                    <div class="dwbw ">
+	                        <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="gotoDosePage()">Not Now</div>
+	                    </div>
+	                    <div class="dwbw ">
+	                        <div tabindex="0" role="button" class="dwb1 dwb-e dwb">Give Feedback</div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div lang="en" class="mbsc-mobi-red mbsc-mobiscroll dw-modal" *ngIf="showConvertDlg==true">
+		<div class="dw-persp" [ngStyle]="{'height': convertDlgInfo.screenHeight+'px'}">
+	      <div class="dwo" (tap)="toggleConvertDlg(false)"></div>
+	      <div role="dialog" tabindex="-1" class="dw dw-ltr" [ngStyle]="{'top': convertDlgInfo.top+'px', 'left': convertDlgInfo.left+'px'}">
+	         <div class="dwwr" style="white-space: nowrap;" [ngStyle]="{'width': convertDlgInfo.width+'px'}">
+	            <div [innerHTML]="html_data?.dlg2"></div>
+	            <div class="dwbc">
+	               <div class="dwbw dwb-s">
+	                  <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="doneConvert()">Here You Go</div>
+	               </div>
+	               <div class="dwbw dwb-c">
+	                  <div tabindex="0" role="button" class="dwb1 dwb-e dwb" (tap)="toggleConvertDlg(false)">Cancel</div>
+	               </div>
+	            </div>
+	         </div>
+	      </div>
+	   </div>
+	</div>
+</ion-content>
+

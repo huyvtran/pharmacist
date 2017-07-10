@@ -20,17 +20,12 @@
 	<ion-navbar class="fullWidth">
 	  	<div class="{{setting.spinner}} floatright"></div>
 	    <p *ngIf="pageId==0 && locationPage==1" class="robotoLight {{setting.p}}">Nearby hospital</p>
-	    <p *ngIf="pageId==0 && locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 	    <p *ngIf="pageId==1 && locationPage==1" class="robotoLight {{setting.p}}">Nearest Urgent Care</p>
-	    <p *ngIf="pageId==1 && locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 	    <p *ngIf="pageId==2 && locationPage==1" class="robotoLight {{setting.p}}">Nearby doctor's offices</p>
-		<p *ngIf="pageId==2 && locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 		<p *ngIf="pageId==3 && locationPage==1" class="robotoLight {{setting.p}}">Nearby Children's Clinic</p>
-		<p *ngIf="pageId==3 && locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 		<p *ngIf="pageId==4 && locationPage==1" class="robotoLight {{setting.p}}">Nearby Dentist</p>
-		<p *ngIf="pageId==4 && locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 		<p *ngIf="pageId==5 && locationPage==1" class="robotoLight {{setting.p}}">Nearby Pharmacy</p>
-		<p *ngIf="pageId==5 && locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
+		<p *ngIf="locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 		<p *ngIf="locationPage==3" class="robotoLight {{setting.p}}">&nbsp;</p>
 	</ion-navbar>
 </ion-header>

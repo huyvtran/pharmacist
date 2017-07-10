@@ -8,19 +8,14 @@ page-compare-childs-container {
     ion-content, div.scroll-content{
     	background-color: transparent;
     }
-    ion-content{
-    	background-repeat: no-repeat;
-	    background-position: bottom;
-	    background-attachment: fixed;
-    }
-    ion-content.content0,ion-content.content2,ion-content.content4
+    ion-content.content0 .ui-content,ion-content.content2 .ui-content,ion-content.content4 .ui-content
     {
     	background-image: url(../assets/img/dosing/blue-balls.jpg);
     }
-    ion-content.content3{
+    ion-content.content3 .ui-content{
     	background-image: url(../assets/img/dosing/blue-flower.jpg);    
     }
-    ion-content.content5{
+    ion-content.content5 .ui-content{
     	background-image: url(../assets/img/dosing/orange-balls.jpg);
     }
 

@@ -39,7 +39,7 @@ export class SelfCarePage {
     this.noscroll = false;
   }
   getHtmlData(){
-    this.html_data = [];
+    this.html_data =  null;
     this.http.get("assets/json/self_care.json").map(response => response.json()).subscribe(data => {
         this.html_data = data;
     });

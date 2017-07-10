@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 
 import { SelfCarePage } from '../self-care/self-care';
 import { ComparePage } from '../compare/compare';
@@ -7,12 +10,6 @@ import { DosingPage } from '../dosing/dosing';
 import { DrugPage } from '../drug/drug';
 import { AboutPage } from '../about/about';
 
-// import { NearestHospitalPage } from '../nearest-hospital/nearest-hospital';
-// import { UrgentCarePage } from '../urgent-care/urgent-care';
-// import { DoctorOfficePage } from '../doctor-office/doctor-office';
-// import { ChildrenClinicPage } from '../children-clinic/children-clinic';
-// import { DentalCarePage } from '../dental-care/dental-care';
-// import { PharmacyCarePage } from '../pharmacy-care/pharmacy-care';
 import { FindNearestPage } from '../find-nearest/find-nearest';
 
 import { GlobalVars } from '../providers/globalvars';
@@ -22,68 +19,7 @@ import { GlobalVars } from '../providers/globalvars';
   templateUrl: 'home.html'
 })
 export class HomePage {
-	slides = [
-	    {
-			original_url: "nearest/hospital/nearest_hospital.php",
-			id: 0,
-			// page: NearestHospitalPage,
-			alt: "Nearest hospital",
-			gray_title: "Find Nearest ",
-			other_title: "Hospital",
-			other_title_class: "bluefontSmall",
-			image: "assets/img/interface/icons/hospital-icon.svg",
-	    },
-	    {
-			original_url: "nearest/urgentcare/nearest_urgentcare.php",
-			id: 1,
-			// page: UrgentCarePage,
-			alt: "Nearest urgent care",
-			gray_title: "Find Nearest ",
-			other_title: "Urgent Care",
-			other_title_class: "redfontSmall",
-			image: "assets/img/interface/icons/urgentcare-icon.svg",
-	    },
-	    {
-			original_url: "nearest/doctor/nearest_doctor.php",
-			id: 2,
-			// page: DoctorOfficePage,
-			alt: "Find a doctor",
-			gray_title: "Find Nearest ",
-			other_title: "Doctor",
-			other_title_class: "orangefontSmall",
-			image: "assets/img/interface/icons/doctor-icon.svg",
-	    },
-	    {
-			original_url: "nearest/pediatrician/nearest_pediatric_doctor.php",
-			id: 3,
-			// page: ChildrenClinicPage,
-			alt: "Find a pediatrician",
-			gray_title: "Find ",
-			other_title: "Children's Clinic",
-			other_title_class: "purplefontSmall",
-			image: "assets/img/interface/icons/pediatric-icon.svg",
-	    },
-	    {
-			original_url: "nearest/dentist/nearest_dentist.php",
-			id: 4,
-			// page: DentalCarePage,
-			alt: "Find a dentist",
-			gray_title: "Find Nearest ",
-			other_title: "Dentist",
-			other_title_class: "bluefontSmall",
-			image: "assets/img/interface/icons/dentist-icon.svg",
-	    },
-	    {
-			original_url: "nearest/pharmacy/nearest_pharmacy.php",
-			id: 5,
-			// page: PharmacyCarePage,
-			alt: "Nearest pharmacy",
-			gray_title: "Find Nearest ",
-			other_title: "Pharmacy",
-			other_title_class: "greenfontSmall",
-			image: "assets/img/interface/icons/pharmacy-icon.svg",
-	    }
-	];
+	slides: any;
 	items = {
 		self_care 		: SelfCarePage,
 		compare			: ComparePage,
@@ -91,7 +27,13 @@ export class HomePage {
 		drug 			: DrugPage,
 		about 			: AboutPage,
 	}
-	constructor(public navCtrl: NavController) {
+	constructor(public navCtrl: NavController, public http: Http, private sanitizer: DomSanitizer) {
+	}
+	getHtmlData(){
+	    this.slides = null;
+	    this.http.get("assets/json/nearest.json").map(response => response.json()).subscribe(data => {
+	        this.slides = data;
+	    });
 	}
 	transit(slide: any){
 		GlobalVars.setPageId(slide.id);
@@ -103,5 +45,8 @@ export class HomePage {
 			let page = (<any>this.items)[index];
 			this.navCtrl.push(page);
 		}
+	}
+	ionViewDidLoad() {
+	    this.getHtmlData();
 	}
 }

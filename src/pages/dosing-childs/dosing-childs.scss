@@ -1,0 +1,152 @@
+page-dosing-childs {
+	font-size: 16px;
+	ion-content.content0 .ui-content,
+	ion-content.content1 .ui-content,
+	ion-content.content2 .ui-content
+    {
+    	background-image: url(../assets/img/dosing/pink-balls.jpg);
+    }
+    ion-content.content3 .ui-content{
+		background-image: url(../assets/img/dosing/blue-flower.jpg);
+	}
+	ion-content.content7 .ui-content,
+	ion-content.content8 .ui-content
+	ion-content.content9 .ui-content
+	{
+		background-image: url(../assets/img/dosing/green-flower.jpg);
+	}
+	ion-content.content10 .ui-content,
+	ion-content.content11 .ui-content,
+	{
+		background-image: url(../assets/img/dosing/purple-flower.jpg);
+	}
+	ion-content.content4 .ui-content,
+	ion-content.content5 .ui-content,
+	ion-content.content6 .ui-content,
+	ion-content.content12 .ui-content,
+	ion-content.content13 .ui-content,
+	ion-content.content14 .ui-content,
+	ion-content.content15 .ui-content,
+	ion-content.content16 .ui-content,
+	{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+    ion-content.content17 .ui-content,
+    ion-content.content18 .ui-content,
+    ion-content.content19 .ui-content,
+    ion-content.content20 .ui-content
+    {
+		background-image: url(../assets/img/dosing/pink-balls.jpg);
+	}
+	ion-content.content21 .ui-content,
+	ion-content.content22 .ui-content,
+	ion-content.content23 .ui-content,
+	ion-content.content24 .ui-content,
+	ion-content.content25 .ui-content,
+	ion-content.content26 .ui-content,
+	ion-content.content27 .ui-content{
+		background-image: url(../assets/img/dosing/blue-flower.jpg);
+	}
+	ion-content.content28 .ui-content,
+	ion-content.content29 .ui-content,
+	ion-content.content30 .ui-content,
+	ion-content.content31 .ui-content,
+	ion-content.content32 .ui-content,
+	{
+		background-image: url(../assets/img/dosing/purple-balls.jpg);
+	}
+	ion-content.content33 .ui-content,
+	ion-content.content34 .ui-content,
+	ion-content.content35 .ui-content,
+	ion-content.content36 .ui-content,
+	ion-content.content37 .ui-content
+	{
+		background-image: url(../assets/img/dosing/blue-flower.jpg);
+	}
+	ion-content.content38 .ui-content,
+	ion-content.content39 .ui-content,
+	ion-content.content40 .ui-content,
+	ion-content.content41 .ui-content
+	{
+		background-image: url(../assets/img/dosing/blue-flower.jpg);
+	}
+	ion-content.content42 .ui-content,
+	ion-content.content43 .ui-content,
+	ion-content.content44 .ui-content,
+	ion-content.content45 .ui-content,
+	ion-content.content46 .ui-content,
+	ion-content.content47 .ui-content,
+	ion-content.content48 .ui-content,
+	ion-content.content49 .ui-content,
+	ion-content.content50 .ui-content,
+	ion-content.content51 .ui-content
+	{
+		background-image: url(../assets/img/dosing/pink-balls.jpg);
+	}
+	ion-content.content52 .ui-content,
+	ion-content.content53 .ui-content,
+	ion-content.content54 .ui-content,
+	ion-content.content55 .ui-content
+	{
+		background-image: url(../assets/img/dosing/orange-balls.jpg);
+	}
+	ion-content.content56 .ui-content,
+	ion-content.content57 .ui-content,
+	ion-content.content58 .ui-content,
+	ion-content.content59 .ui-content
+	{
+		background-image: url(../assets/img/dosing/blue-flower.jpg);
+	}
+	ion-content.content60 .ui-content,
+	ion-content.content61 .ui-content,
+	ion-content.content62 .ui-content,
+	ion-content.content63 .ui-content
+	{
+		background-image: url(../assets/img/dosing/pink-balls.jpg);
+	}
+	ion-content.content64 .ui-content{
+    	background-image: url(../assets/img/dosing/green-balls.jpg);
+    }
+    ion-content.content65 .ui-content{
+    	background-image: url(../assets/img/dosing/green-balls.jpg);
+    }
+    ion-content.content66 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+	.ui-content{
+		height: 99%;
+	}
+    .no-scroll{
+    	.scroll-content {
+	        overflow-y: hidden;
+	    }
+    }
+    .dww{
+    	overflow: inherit;
+    }
+    .dw-bf {
+	    -webkit-backface-visibility: inherit;
+	    -webkit-perspective: inherit;
+	    backface-visibility: inherit;
+	    perspective: inherit;
+	}
+	.ui-header .robotoLight p{
+		margin: 0px;
+		padding: 1em;
+	}
+    ion-navbar.fullWidth.bgCyan,
+    ion-navbar.fullWidth.bgLightBlue,
+    ion-navbar.fullWidth.bgDeepOrange,
+    ion-navbar.fullWidth.bgGreen,
+    ion-navbar.fullWidth.bgPink,
+    ion-navbar.fullWidth.bgRed,
+    ion-navbar.fullWidth.bgOrange,
+    ion-navbar.fullWidth.bgTeal,
+    ion-navbar.fullWidth.bgPurple
+	{
+		padding-left: 0px !important;
+	}
+	#q1 label.ui-btn{
+		border-color: transparent;
+	}
+}

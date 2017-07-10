@@ -1,0 +1,80 @@
+page-dosing-child-container {
+	font-size: 16px;
+	.ui-content{
+		height: 99%;
+	}
+	ion-content.content0 .ui-content
+    {
+    	background-image: url(../assets/img/dosing/pink-flower.jpg);
+    }
+    ion-content.content1 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+    ion-content.content2 .ui-content{
+    	background-image: url(../assets/img/dosing/green-flower.jpg);
+    }
+    ion-content.content3 .ui-content{
+    	background-image: url(../assets/img/dosing/purple-flower.jpg);
+    }
+    ion-content.content4 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+    ion-content.content5 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+    ion-content.content6 .ui-content{
+    	background-image: url(../assets/img/dosing/green-balls.jpg);
+    }
+    ion-content.content7 .ui-content{
+    	background-image: url(../assets/img/dosing/pink-balls.jpg);
+    }
+    ion-content.content8 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-flower.jpg);
+    }
+    ion-content.content9 .ui-content{
+    	background-image: url(../assets/img/dosing/purple-flower.jpg);
+    }
+    ion-content.content10 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-flower.jpg);
+    }
+    ion-content.content11 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    }
+    ion-content.content12 .ui-content{
+    	background-image: url(../assets/img/dosing/blue-flower.jpg);
+    }
+    ion-content.content13 .ui-content{
+    	background-image: url(../assets/img/dosing/pink-balls.jpg);
+    }
+    ion-content.content14 .ui-content{
+    	background-image: url(../assets/img/dosing/pink-balls.jpg);
+    }
+    ion-content.content15 .ui-content{
+    	background-image: url(../assets/img/dosing/orange-balls.jpg);
+    }
+    ion-content.content17 .ui-content{
+		background-image: url(../assets/img/dosing/blue-flower.jpg);
+	}
+	ion-content.content21 .ui-content{
+    	background-image: url(../assets/img/dosing/green-flower.jpg);
+    }
+	.ui-header .robotoLight p{
+		margin: 0px;
+		padding: 1em;
+	}
+    ion-navbar.fullWidth.bgCyan,
+    ion-navbar.fullWidth.bgLightBlue,
+    ion-navbar.fullWidth.bgDeepOrange,
+    ion-navbar.fullWidth.bgGreen,
+    ion-navbar.fullWidth.bgPink,
+    ion-navbar.fullWidth.bgRed,
+    ion-navbar.fullWidth.bgOrange,
+    ion-navbar.fullWidth.bgTeal,
+    ion-navbar.fullWidth.bgPurple
+	{
+		padding-left: 0px !important;
+	}
+	.ui-body-inherit{
+		border-color: transparent;
+	}
+}

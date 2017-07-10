@@ -1,31 +1,150 @@
 {
 	"header": 	"<p>&nbsp;<\/p>\r\n\t\t<div class=\"opacity5\">\r\n\t\t<div class=\"maxwidth450\">\r\n\t\t<div class=\"ovalBorderRightPurple_red\">\r\n\t\t<span class=\"redfontLarge\">Hello,<\/span><br>\r\n\t\tNeed the <span class=\"redfont\">dose<\/span> for a child's over-the-counter medication?\r\n\t\t<\/div>\r\n\t\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"lady pharmacist called Amanda\" width=\"100\"><\/div>\r\n\t\t<br>\r\n\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t<\/div>\r\n\t\t<h3 class=\"redBorderAll centerText graygrayfont\">All you need is the <span class=\"orangefont\">weight<\/span> of the child.<\/h3>\r\n\t\t<br>\r\n\t\t<p class=\"redBorderAll\">Our pharmacists have put together a simple, weight based dosing system to make sure your child is getting the correct dose of an over-the-counter (OTC) medication. <\/p>\r\n\t\t<br>\r\n\t\t<\/div>",
-	"items": [
-			{
-				"left": 	"<div class=\"loaderBlue\">\r\n\t\t\t<img src=\"assets\/img\/interface\/icons\/icon-allergy-lady.svg\" height=\"80\" alt=\"Find self-care over-the -counter help\" \/>\r\n\t\t\t<\/div>\r\n\t\t\t<br \/>\r\n\t\t\t<div>\r\n\t\t\t\t<span class=\"greenfont roboto\">Allergy Relief<\/span><br \/>\r\n\t\t\t\t<span class=\"grayfontSmallSmall\">Compare Allegra, Claritin, Zyrtec and others.<\/span>\r\n\t\t\t \t<\/div>",
-				"right":	"<div class=\"loaderBlue\">\r\n\t\t\t<img src=\"assets\/img\/interface\/icons\/icon-cold-lady.svg\" alt=\"compare cold and flu relief medications\" height=\"100\">\r\n\t\t\t<\/div>\r\n\t\t\t<br \/>\r\n\t\t\t<div>\r\n\t\t\t\t<span class=\"bluefont roboto\">Adult Cold\/Flu<\/span> <br\/>\r\n\t\t\t\t<span class=\"grayfontSmallSmall\">Compare Nyquil, Tylenol cold, Sudafed and others.<\/span>\r\n\t\t\t \t<\/div>"
-			},
-			{
-				"left":		"<div class=\"loaderBlue\">\r\n\t\t\t<img src=\"assets\/img\/interface\/icons\/icon-flu-child.svg\" alt=\"Compare dimetapp, Triaminic, Pediacare and others.\" height=\"100\">\r\n\t\t\t<\/div>\r\n\t\t\t<br \/>\r\n\t\t\t<div>\r\n\t\t\t\t<span class=\"purple_redfont roboto\">Child Cold\/Flu<\/span><br \/>\r\n\t\t\t\t<span class=\"grayfontSmallSmall\">Compare Dimetapp, Triaminic and others.<\/span>\r\n\t\t\t \t<\/div>",
-				"right":	"<div class=\"loaderBlue\">\r\n\t\t\t<img src=\"assets\/img\/interface\/icons\/icon-cough-child.svg\" alt=\"Compare Mucinex, Delsym, Robitussin and others.\" height=\"100\">\r\n\t\t\t<\/div>\r\n\t\t\t<br \/>\r\n\t\t\t<div>\r\n\t\t\t\t<span class=\"orangefont roboto\">Cough Relief<\/span> <br\/>\r\n\t\t\t\t<span class=\"grayfontSmallSmall\">Compare Mucinex, Robitussin and others.<\/span>\r\n\t\t\t \t<\/div>"
-			},
-			{
-				"left":		"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-coldsore-lady.svg\" alt=\"Compare Abreva, Orajel, Herpecin L and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"bluefont roboto\">Cold Sore<\/span><br \/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Abreva, Orajel<br>Herpecin L and others.<\/span>\r\n\t\t \t<\/div>",
-				"right":	"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-energy-man.svg\" alt=\"Compare Redbull, Monster, AMP and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"redfont roboto\">Energy Drinks<\/span> <br\/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Redbull, Monster<br>AMP and others.<\/span>\r\n\t\t \t<\/div>"
-			},
-			{
-				"left":		"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-eyedrops-woman.svg\" alt=\"Compare visine, zaditor, Systane and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"bluefont roboto\">Eye Drops<\/span><br \/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare visine, zaditor<br>Systane and others.<\/span>\r\n\t\t \t<\/div>",
-				"right":	"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-feet.svg\" alt=\"Compare Lotrimin, Lamisil, Tinactin and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"purple_redfont roboto\">Anti-fungals<\/span> <br\/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Lotrimin, Lamisil<br>Tinactin and others.<\/span>\r\n\t\t \t<\/div>"
-			},
-			{
-				"left":		"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-heartburn-man.svg\" alt=\"Compare Prilosec, Nexium, Pepcid AC and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"cyanfont roboto\">Heartburn Relief<\/span> <br \/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Prilosec, Nexium<br>Pepcid AC and others.<\/span>\r\n\t\t \t<\/div>",
-				"right":	"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-constipation.svg\" alt=\"Compare Ducolax, Miralax, Senna and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"greenfont roboto\">Constipation Relief<\/span> <br\/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Ducolax, Miralax<br>Senna and others.<\/span>\r\n\t\t \t<\/div>"
-			},
-			{
-				"left":		"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-bodyache-man.svg\" alt=\"Compare Motrin, Tylenol, IcyHot and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"redfont roboto\">Pain Relievers<\/span> <br \/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Motrin, Tylenol<br>IcyHot and others.<\/span>\r\n\t\t \t<\/div>",
-				"right":	"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-probiotics.svg\" alt=\"Compare Culturelle, Align, Florastor and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"orangefont roboto\">Probiotic Aids<\/span> <br\/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Culturelle, Align<br>Florastor and others.<\/span>\r\n\t\t \t<\/div>"
-			}
-		],
-	"item_last":	"<div class=\"loaderBlue\">\r\n\t\t<img src=\"assets\/img\/interface\/icons\/icon-sleeping-woman.svg\" alt=\"Compare Melatonin, Unisom, Tylenol PM and others.\" height=\"100\">\r\n\t\t<\/div>\r\n\t\t<br \/>\r\n\t\t<div>\r\n\t\t\t<span class=\"purplefont roboto\">Sleep Aids<\/span> <br \/>\r\n\t\t\t<span class=\"grayfontSmallSmall\">Compare Melatonin, Unisom<br>Tylenol PM and others.<\/span>\r\n\t\t \t<\/div>",
-	"footer":	"<hr class=\"hrblue\">\r\n\t\t<p>&nbsp;<\/p>\r\n\t\t<p>&nbsp;<\/p>\r\n\t\t<p>&nbsp;<\/p>\r\n\t\t<p>&nbsp;<\/p>"
+	"main_header":	"<div class=\"opacity7\">\r\n\t\t\t<div class=\"maxwidth450\">\r\n\t\t\t<div class=\"ovalBorderRightPurple_red\">\r\n\t\t\t<span>Which <span class=\"purple_redfont\">over-the-counter<\/span> <span class=\"purplefont\">medication<\/span> would you like a dose for?<\/span><br>\r\n\t\t\t<\/div>\r\n\t\t\t<div class=\"clearboth\"><\/div>\r\n\t\t\t<div align=\"right\">\r\n\t\t\t<img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"pharmacist Amanda\" width=\"100\">\r\n\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t\t<br>\r\n\t\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t\t<br>\r\n\t\t\t<\/div>\r\n\t\t\t<p>&nbsp;<\/p>",
+	"ppp":	"<p>&nbsp;<\/p>\r\n\t\t\t<p>&nbsp;<\/p>\r\n\t\t\t<p>&nbsp;<\/p>\r\n\t\t\t<p>&nbsp;<\/p>",
+	"data":	[
+		{
+			"header":	"<span class=\"redfont\">MOST POPULAR<\/span>\r\n\t\t\t\t\t\t<span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	14,
+					"content":		"<h3 class=\"redfont\">Acetaminophen<\/h3>\r\n\t\t\t\t<p><span class=\"redfontSmall\">Tylenol\u00AE, Pediacare\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	15,
+					"content":	"<h3 class=\"orangefont\">Ibuprofen<\/h3>\r\n\t\t\t\t<p><span class=\"orangefontSmall\">Motrin\u00AE<\/span> | <span class=\"bluefontSmall\">Advil\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	0,
+					"content":	"<h3 class=\"purple_redfont\">Diphenhydramine<\/h3>\r\n\t\t\t\t<p><span class=\"purple_redfontSmall\">Benadryl\u00AE<\/span> | Store Brands<\/p>"
+				}
+			]
+		},
+		{
+			"header":	"<span class=\"greenfont\">Allergy Relief<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	0,
+					"content":		"<h4 class=\"redfont\">Diphenhydramine<\/h4>\r\n\t\t\t<p><span class=\"redfontSmall\">Benadryl\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	1,
+					"content":		"<h4 class=\"bluefont\">Loratadine<\/h4>\r\n\t\t\t<p><span class=\"bluefontSmall\">Claritin\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	2,
+					"content":		"<h3 class=\"greenfont\">Cetirizine<\/h3>\r\n\t\t\t<p><span class=\"greenfontSmall\">Zyrtec\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	3,
+					"content":		"<h3 class=\"purple_redfont\">Fexofenadine<\/h3>\r\n\t\t\t<p><span class=\"purple_redfontSmall\">Allergra\u00AE<\/span> | Store Brands<\/p>"
+				}
+			]
+		},
+		{
+			"header":	"<span class=\"bluefont\">Antacid | Antigas<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	4,
+					"content":		"<h3 class=\"redfont\">Tums\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	5,
+					"content":		"<h3 class=\"bluefont\">Maalox\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	11,
+					"content":		"<h3 class=\"pinkfont\">Children's Pepto\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	6,
+					"content":		"<h3 class=\"greenfont\">Infants's Mylicon\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				}
+			]
+		},
+		{
+			"header":	"<span class=\"purplefont\">Cold |<\/span> <span class=\"pinkfont\">Flu |<\/span> <span class=\"orangefont\">Cough<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	7,
+					"content":		"<h3 class=\"redfont\">Children's Sudafed\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	9,
+					"content":		"<h3 class=\"purplefont\">Children's Dimetapp\u00AE<\/h3>\r\n\t\t\t<p><span class=\"purplefontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	8,
+					"content":		"<h3 class=\"orangefont\">Children's Pediacare\u00AE<\/h3>\r\n\t\t\t<p><span class=\"orangefontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	10,
+					"content":		"<h3 class=\"bluefont\">Children's Triaminic\u00AE<\/h3>\r\n\t\t\t<p><span class=\"bluefontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	12,
+					"content":		"<h3 class=\"orangefont\">Children's Mucinex\u00AE<\/h3>\r\n\t\t\t<p><span class=\"orangefontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	13,
+					"content":		"<h3 class=\"purplefont\">Little Remedies\u00AE<\/h3>\r\n\t\t\t<p><span class=\"purplefontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	21,
+					"content":		"<h3 class=\"greenfont\">Children's Robitussin\u00AE<\/h3>\r\n\t\t\t<p><span class=\"greenfontSmall\">Brand\u00AE<\/span> | Store Brands<\/p>"
+				}
+			]
+		},
+		{
+			"header":	"<span class=\"redfont\">Fever Reducers<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	14,
+					"content":		"<h3 class=\"redfont\">Acetaminophen<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Tylenol\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	15,
+					"content":		"<h3 class=\"orangefont\">Ibuprofen<\/h3>\r\n\t\t\t<p><span class=\"orangefontSmall\">Motrin\u00AE<\/span> | <span class=\"bluefontSmall\">Advil\u00AE<\/span> | Store Brands<\/p>"
+				}
+			]
+		},
+		{
+			"header":	"<span class=\"purple_redfont\">Laxatives |<\/span><span class=\"greenfont\"> Anti-diarrhea<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	16,
+					"content":		"<h3 class=\"purple_redfont\">Miralax\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<br>Strength<\/p>\r\n\t\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/miralax.png\" height=\"60\" alt=\"miralax\"><\/p>"
+				},
+				{
+					"id":	17,
+					"content":		"<h3 class=\"bluefont\">Pedia.Lax\u00AE<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<br><\/p>\r\n\t\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/pedialax.png\" height=\"60\" alt=\"pedialax\"><\/p>"
+				},
+				{
+					"id":	18,
+					"content":		"<h3 class=\"greenfont\">Fletcher's Laxative\u00AE<\/h3>\r\n\t\t\t<p class=\"grayfontSmallSmall\"><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<br>Senna pod concentrate:\t167 mg\/teaspoon<\/p>\r\n\t\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/fletchers.png\" height=\"60\" alt=\"Fletcher's castoria\"><\/p>"
+				},
+				{
+					"id":	19,
+					"content":		"<h3 class=\"purplefont\">Imodium A-D\u00AE<\/h3>\r\n\t\t\t<p class=\"grayfontSmallSmall\"><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<br>Loperamide 1 mg \/ 7.5 ml<\/p>\r\n\t\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/imodium.png\" height=\"60\" alt=\"imodium\"><\/p>"
+				},
+				{
+					"id":	20,
+					"content":		"<h3 class=\"bluefont\">Milk of Magnesia<\/h3>\r\n\t\t\t<p class=\"grayfontSmallSmall\"><span class=\"redfontSmall\">Brand\u00AE<\/span> | Store Brands<br>Magnesium hydroxide 1200 mg \/ 15 ml<\/p>\r\n\t\t\t<p class=\"ui-li-aside\"><img src=\"assets\/img\/dosing\/others\/milk-magnesia.png\" height=\"60\" alt=\"Milk of magnesia\"><\/p>"
+				}
+			]
+		},
+		{
+			"header":	"<span class=\"orangefont\">Pain Relievers<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+			"list":	[
+				{
+					"id":	14,
+					"content":		"<h3 class=\"redfont\">Acetaminophen<\/h3>\r\n\t\t\t<p><span class=\"redfontSmall\">Tylenol\u00AE<\/span> | Store Brands<\/p>"
+				},
+				{
+					"id":	15,
+					"content":		"<h3 class=\"orangefont\">Ibuprofen<\/h3>\r\n\t\t\t<p><span class=\"orangefontSmall\">Motrin\u00AE<\/span> | <span class=\"bluefontSmall\">Advil\u00AE<\/span> | Store Brands<\/p>"
+				}
+			]
+		}
+	]
 }	

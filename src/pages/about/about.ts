@@ -40,7 +40,6 @@ export class AboutPage {
     this.html_data = null;
     this.http.get("assets/json/about.json").map(response => response.json()).subscribe(data => {
         this.html_data = data;
-        console.log(data);
     });
   }
   init(){

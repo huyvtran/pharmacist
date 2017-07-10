@@ -40,7 +40,9 @@ let settings = [
     },
     {   // d - 4
         spinner: "",
-        p: "",
+        p: "bgPurple",
+        oval: "ovalBorderRightPurple_red",
+        hr: ""
     },
     {   // e - 5
         spinner: "",

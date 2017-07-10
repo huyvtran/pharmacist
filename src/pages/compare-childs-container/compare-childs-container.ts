@@ -1,16 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
 
-/*
-  Generated class for the ColdMeds page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
-// import { DecongestantsPage } from '../decongestants/decongestants';
-// import { MultisymptomsPage } from '../multisymptoms/multisymptoms';
-// import { ImmuneboostersPage } from '../immuneboosters/immuneboosters';
-
 import { GlobalVars } from '../providers/globalvars';
 import { CompareChildsPage } from '../compare-childs/compare-childs';
 import { CompareYesnoPage } from '../compare-yesno/compare-yesno';

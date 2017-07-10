@@ -25,23 +25,7 @@
 
 <ion-content overflow-scroll="true"  padding class="ui-page-theme-n ui-mobile">
 	<div class="ui-content">
-	   <p>&nbsp;</p>
-	   <div class="padded opacity5">
-	      <div class="maxwidth450">
-	         <div class="ovalBorderRightBlue centerText">
-	            <span class="bluefontLarge">Great!</span><br>
-	            The dose for <span class="bluefontLarge caps">f</span> has been saved. What would you like to do next?
-	         </div>
-	         <div align="right"> 
-	            <img src="assets/img/pharm/female/pharm-amanda-cyan.svg" width="100" alt="Pharmacist"> 
-	         </div>
-	      </div>
-	      <div class="clearboth divider1"></div>
-	      <!-- ---------------End Border right person------------------- -->
-	      <p>&nbsp;</p>
-	   </div>
-	   <!-- ----End Padding----- -->
-	   <p>&nbsp;</p>
+	   <div [innerHTML]="html_data?.header"></div>
 	   <p class="centerText">
 	      <a href="#" data-inline="true" class="linkPink ui-link" (tap)="gotoDose()">New Dose</a>
 	      <a href="#" data-inline="true" class="linkCyanBorder ui-link" (tap)="gotoSavedDose()">See It</a>

@@ -4,12 +4,6 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
-/*
-  Generated class for the AllergyMeds page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 // import { CommentComparePage } from '../comment-compare/comment-compare';
 import { ComparePage } from '../compare/compare';
@@ -54,395 +48,28 @@ export class CompareChildsPage {
     	26: 'e', // PainCreamsPage, 
     	27: 'a', // PainPatchesPage
 	};
-	pageTitle = {
-		1: "Allergy medications",
-		3: "Children's Cold",
-		5: "Coldsore medicines",
-		6: "Energy drinks",
-		10: "Laxatives",
-		12: "Probiotics",
-		13: "Sleep aids",
-		14: "Decongestants",
-		15: "Multi-symptoms Cold",
-		16: "Immune Boosters",
-		17: "Dry Eyes",
-		18: "Red eyes",
-		19: "Itchy eyes",
-		22: "Heartburn relief",
-		23: "Heartburn relief",
-		24: "Heartburn relief",
-		25: "Pain relief",
-		26: "Pain creams",
-		27: "Pain patches",
-	}
-	aClass = {
-		1: "linkGreen",
-		3: "linkCyan",
-		5: "linkBlue",
-		6: "linkOrange",
-		10: "linkGreen",
-		12: "linkRed",
-		13: "linkBlue",
-		14: "linkRed",
-		15: "linkBlue",
-		16: "linkOrange",
-		17: "linkBlue",
-		18: "linkRed",
-		19: "linkGreen",
-		22: "linkOrange",
-		23: "linkBlue",
-		24: "linkCyan",
-		25: "linkOrange",
-		26: "linkRed",
-		27: "linkBlue",
-	}
-	imageUrls = {
-		1: "pharm/female/pharm-alicia-green.svg",
-		3: "pharm/female/pharm-amanda-cyan.svg",
-		5: "pharm/female/pharm-becky.svg",
-		6: "pharm/male/pharm-barry-orange.svg",
-		10: "pharm/male/pharm-joe-green.svg",
-		12: "pharm/male/pharm-john-port-red.svg",
-		13: "pharm/female/pharm-selena-cyan.svg",
-		14: "pharm/male/pharm-john-port-red.svg",
-		15: "pharm/male/pharm-john-port.svg",
-		16: "pharm/male/pharm-john-port-orange.svg",
-		17: "pharm/female/pharm-trisha.svg",
-		18: "pharm/female/pharm-trisha-red.svg",
-		19: "pharm/female/pharm-trisha-green.svg",
-		22: "pharm/male/pharm-henry-orange.svg",
-		23: "pharm/male/pharm-henry.svg",
-		24: "pharm/male/pharm-henry-cyan.svg",
-		25: "pharm/male/pharm-tony-orange.svg",
-		26: "pharm/male/pharm-tony-orange.svg",
-		27: "pharm/male/pharm-tony.svg",
-	};
 	apiUrls = {
 		1: "allergy_meds",
-		3: "cold_meds_child",
-		5: "coldsore_meds",
-		6: "energy_drinks",
-		10: "laxatives",
-		12: "probiotics",
+		3:  "cold_meds_child",
+		5:  "coldsore_meds",
+		6:  "energy_drinks",
+		10:  "laxatives",
+		12:  "probiotics",
 		13: "sleep_aids",
-		14: "decongestants",
-		15: "multisymptoms",
-		16: "immuneboosters",
-		17: "dry_eye_drops",
-		18: "red_eye_drops",
-		19: "itchy_eye_drops",
-		22: "antacids",
-		23: "acid_reducers",
-		24: "heartburn_group",
-		25: "pain_pills",
-		26: "pain_creams",
-		27: "pain_patches",
-	}
-	tabTitles = {
-		1: [
-			"Description",
-			"How supplied",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		3: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		5: [
-			"Description",
-			"Active Ingredients",
-			"Heading Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"",
-			"",
-			""
-		],
-		6: [
-			"Ingredients",
-			"Caffeine Content",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manuf.",
-			""
-		],
-		10: [
-			"Description",
-			"How Supplied",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		12: [
-			"Ingredients",
-			"Manuf. Claim",
-			"Dose",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			""
-		],
-		13: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			""
-		],
-		14: [
-			"Ingredients",
-			"Uses",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		15: [
-			"Ingredients",
-			"Use For",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"Our Take",
-			"User Votes",
-			"Avg. Cost",
-			"",
-			"",
-		],
-		16: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"",
-			""
-		],
-		17: [
-			"Active Ingredients",
-			"Uses",
-			"Preservative",
-			"How Supplied",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			""
-		],
-		18: [
-			"Active Ingredients",
-			"Uses",
-			"Preservative",
-			"How Supplied",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			"",
-		],
-		19: [
-			"Active Ingredients",
-			"Uses",
-			"Preservative",
-			"How Supplied",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			"",
-		],
-		22: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			""
-		],
-		23: [
-			"",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		24: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Manufacturer",
-			""
-		],
-		25: [
-			"How Supplied",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		26: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-		27: [
-			"Ingredients",
-			"Description",
-			"Onset",
-			"Duration",
-			"Pros",
-			"Cons",
-			"FYI",
-			"User Votes",
-			"Avg. Cost",
-			"Brand Names",
-			""
-		],
-	}
-	ShowTabs = [{
-	        title: "Description",
-	        "ui-checkbox-on": true,
-	        "ui-checkbox-off": false
-	    },
-	    {
-	        title: "How supplied",
-	        "ui-checkbox-on": true,
-	        "ui-checkbox-off": false
-	    },
-	    {
-	        title: "Onset",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "Duration",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "Pros",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "Cons",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "FYI",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "User Votes",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "Avg. Cost",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "Brand Names",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    },
-	    {
-	        title: "",
-	        "ui-checkbox-on": false,
-	        "ui-checkbox-off": true
-	    }
-	];
+		14:  "decongestants",
+		15:  "multisymptoms",
+		16:  "immuneboosters",
+		17:  "dry_eye_drops",
+		18:  "red_eye_drops",
+		19:  "itchy_eye_drops",
+		22:  "antacids",
+		23:  "acid_reducers",
+		24:  "heartburn_group",
+		25:  "pain_pills",
+		26:  "pain_creams",
+		27:  "pain_patches"
+	};
+	html_data: any;
 	MyContent = {
 	    width: 0,
 	    height: 0,
@@ -487,6 +114,16 @@ export class CompareChildsPage {
 	  	this.setting = GlobalVars.getPageSetting(this.mode[this.pageId]);
 	    this.initData();
 	}
+	getHtmlData(){
+	    this.html_data = null;
+	    this.http.get("assets/json/compare_child.json").map(response => response.json()).subscribe(data => {
+	        this.html_data = data;
+	        for (let i=0;i<11;i++)
+		    {
+		    	this.html_data.ShowTabs[i]['title'] = this.html_data.tabTitles[ this.pageId ][i];
+		    }
+	    });
+	  }
 	showCommentCompare() {
 	    // this.navCtrl.push(CommentComparePage);
 	}
@@ -547,8 +184,7 @@ export class CompareChildsPage {
 	    // this.navCtrl.push(CompareFeedbackPage); 
 	}
 	toggleSort(tabs) {
-	    tabs["ui-checkbox-on"] = tabs["ui-checkbox-off"];
-	    tabs["ui-checkbox-off"] = !tabs["ui-checkbox-off"];
+	    tabs["ui-checkbox-on"] = 1 - tabs["ui-checkbox-on"];
 	}
 	clearSearch() {
 	    this.searchText = "";
@@ -581,11 +217,6 @@ export class CompareChildsPage {
 	    this.MyContent.screenHeight = this.platform.height();
 	    this.MyContent.scrollPos = 0;
 	    this.MyContent.isArrowShow = false;
-
-	    for (let i=0;i<11;i++)
-	    {
-	    	this.ShowTabs[i]['title'] = this.tabTitles[ this.pageId ][i];
-	    }
 	}
 	loadData() {
 	    //this.RestApiURL
@@ -620,6 +251,7 @@ export class CompareChildsPage {
 	    });
 	}
 	ionViewDidLoad() {
+		this.getHtmlData();
 	    this.loadData();
 	    var arrow = document.getElementById('arrow_upward');
 	    arrow.style.display = 'none';

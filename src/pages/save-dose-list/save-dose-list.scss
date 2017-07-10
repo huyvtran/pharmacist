@@ -1,10 +1,10 @@
 $toolbar-background-color: #00BCD4;
 page-save-dose-list {
 	font-size: 16px;
-	background-image: url(../assets/img/dosing/blue-balls.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
+	.ui-content{
+		background-image: url(../assets/img/dosing/blue-balls.jpg);
+		height: 99%;
+	}
 	.toolbar-background-md, .toolbar-background{
 		background: $toolbar-background-color;
 	}

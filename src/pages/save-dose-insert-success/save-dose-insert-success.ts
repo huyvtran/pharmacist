@@ -1,13 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
 import { AlertController, ToastController, LoadingController } from 'ionic-angular';
-
-/*
-  Generated class for the Dosing page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 import { GlobalVars } from '../providers/globalvars';
 import { AuthService} from '../providers/auth-service';
 
@@ -23,10 +19,17 @@ export class SaveDoseInsertSuccessPage {
 
   AbsoluteURL: string;
   loginCredentials = {'email': '', 'password': ''};
+  html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController, private authService: AuthService,
-      public alertCtrl: AlertController, public loadingCtrl: LoadingController, public toastCtrl: ToastController) {
+      public alertCtrl: AlertController, public loadingCtrl: LoadingController, public toastCtrl: ToastController,public http: Http, private sanitizer: DomSanitizer) {
   	this.menu = menu;
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
+  }
+  getHtmlData(){
+    this.html_data = null;
+    this.http.get("assets/json/save_dose_insert_success.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
   	this.menu.open();
@@ -41,7 +44,7 @@ export class SaveDoseInsertSuccessPage {
   	this.navCtrl.push(HomePage);
   }
   ionViewDidLoad() {
-    
+    this.getHtmlData();
   }
 
 }

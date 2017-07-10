@@ -3,12 +3,7 @@ import { NavController, NavParams, MenuController, Content } from 'ionic-angular
 import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the Drug page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 
 @Component({
@@ -23,6 +18,7 @@ export class DrugPage {
   noscroll: boolean;
   CouponData: any;
   noFound: boolean;
+  html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
               public http: Http, private sanitizer: DomSanitizer) {
   	this.menu = menu;
@@ -32,6 +28,12 @@ export class DrugPage {
     this.noscroll = false;
     this.CouponData = [];
     this.noFound = true;
+  }
+  getHtmlData(){
+    this.html_data = null;
+    this.http.get("assets/json/drug.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
@@ -81,6 +83,7 @@ export class DrugPage {
       }
   }
   ionViewDidLoad() {
+    this.getHtmlData();
     // this.loadData();
     // console.log('ionViewDidLoad DrugPage');
   }

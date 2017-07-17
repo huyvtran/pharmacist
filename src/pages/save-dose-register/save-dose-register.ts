@@ -10,8 +10,6 @@ import { AuthService} from '../providers/auth-service';
 
 import { SaveDoseLoginPage } from '../save-dose-login/save-dose-login';
 
-
-
 @Component({
   selector: 'page-save-dose-register',
   templateUrl: 'save-dose-register.html'

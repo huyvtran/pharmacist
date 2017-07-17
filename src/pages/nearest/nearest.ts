@@ -14,7 +14,7 @@ import { FindNearestPage } from '../find-nearest/find-nearest';
 
 export class NearestPage {
 	AbsoluteURL: string;
-	slides: any;
+	html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, 
         public http: Http, private sanitizer: DomSanitizer,
         public menu: MenuController) {
@@ -22,9 +22,9 @@ export class NearestPage {
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
   }
   getHtmlData(){
-    this.slides = null;
-    this.http.get("assets/json/nearest.json").map(response => response.json()).subscribe(data => {
-        this.slides = data;
+    this.html_data = null;
+    this.http.get("assets/json/home.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
     });
   }
   showMenu() {

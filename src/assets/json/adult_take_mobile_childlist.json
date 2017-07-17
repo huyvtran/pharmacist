@@ -1,0 +1,882 @@
+{
+	"title":  {
+		"0": "Check Symptoms",
+		"1": "Straight to pharmacist"
+	},
+	"header": {
+		"0": "<div class=\"opacity5\">\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t    <div class=\"ovalBorderRightBlue centerText\">\r\n\t<span>Common health needs for <span class=\"bluefont\">over-the-counter<\/span> <span class=\"orangefont\">(OTC)<\/span> medications are listed below.<\/span><br>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth\"><\/div>\r\n\t    <div class=\"container_12\">\r\n\t<div class=\"grid_8\">\r\n\t<br>\r\n\t<div class=\"bubbleRightBlue\">\r\n\t    Find what relates to your symptom(s) and see how we can help.\r\n\t<\/div>\r\n\t<\/div>\r\n\t<div class=\"grid_4\">\r\n\t<img src=\"assets\/img\/pharm\/male\/pharm-john.svg\" width=\"100\" align=\"right\">\r\n\t<\/div>\r\n\t    <\/div>\r\n\t<\/div>\r\n\t<br>\r\n\t<!-- ---------------End Point Right------------------- -->\r\n\t<p>&nbsp;<\/p>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>",
+		"1": "<div class=\"opacity8\">\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<div class=\"maxwidth450\">\r\n\t    <div class=\"ovalBorderRightBlue centerText\">\r\n\t<span>Skipping the symptoms analyzer will take you straight to an <span class=\"orangefont\">over-the-counter<\/span> recommendation?<\/span><br>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth\"><\/div>\r\n\t    <div class=\"container_12\">\r\n\t<div class=\"grid_8\">\r\n\t<br>\r\n\t<div class=\"bubbleRightBlue\">\r\n\t    We strongly recommend checking your symptoms first.\r\n\t<\/div>\r\n\t<\/div>\r\n\t<div class=\"grid_4\">\r\n\t<img src=\"assets\/img\/pharm\/male\/pharm-john-port.svg\" width=\"100\" align=\"right\" alt=\"Pharmacist\">\r\n\t<\/div>\r\n\t    <\/div>\r\n\t<\/div>\r\n\t<br>\r\n\t<!-- ---------------End Point Right------------------- -->\r\n\t<div class=\"redBorderAll\">\r\n\t    <p class=\"orangeBorderAll orangefont centerText\">Going straight to a pharmacist's recommendation will  assume:<\/p>\r\n\t    <ul>\r\n\t<li>You know what your symptoms are and just like to know what to take over-the-counter.<\/li>\r\n\t<br>\r\n\t<li>You are reviewing the recommendation one more time.<\/li>\r\n\t<br>\r\n\t<li>You are leaving a comment or contributing to the pharmacist's recommendation.<\/li>\r\n\t<br>\r\n\t<li>You are contacting the pharmacist.<\/li>\r\n\t    <\/ul>\r\n\t    <p class=\"orangeBorderAll grayfontSmall\">If this is the case, please use the list below to go straight to a pharmacist's over the counter recommendation.<\/p>\r\n\t    <div class=\"clearboth\"><\/div>\r\n\t<\/div>\r\n\t<\/div>\r\n\t<p>&nbsp;<\/p>"
+	},
+	"footer": "<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>",
+	"content": {
+		"0": [
+
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-allergy.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"purple_bluefontLarge\">Cold<\/span>  | <span class=\"redfontLarge\">Flu<\/span>  | <span class=\"greenfontLarge\">Allergy<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">What do you think you are looking at?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/allergy-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 0,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-allergy.svg\" alt=\"Allergy\" height=\"100\"><\/div>\r\n\t<br><span class=\"greenfont roboto\">Allergy<\/span>"
+						},
+						"1": {
+							"id": 1,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-cold.svg\" alt=\"Cold\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Cold<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 2,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-flu.svg\" alt=\"Flu\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Flu<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-headache-man.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Head<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<div class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/head-woman-main.svg\" alt=\"\" width=\"200\"><\/div>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 3,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-headache-man.svg\" alt=\"Headache\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Headache<\/span>"
+						},
+						"1": {
+							"id": 4,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sleeping-lady.svg\" alt=\"Sleep\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Sleep<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 5,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-hairloss.svg\" alt=\"Hair Loss\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Hair Loss<\/span>"
+						},
+						"1": {
+							"id": 6,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-dandruff-woman.svg\" alt=\"Dandruff\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Dandruff<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 7,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-lice-lady.svg\" alt=\"Head Lice\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Head Lice<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/eye-main.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"redfontLarge\">Eye<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/eye-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 8,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-pinkeye.svg\" alt=\"Pinkeye\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Pinkeye<\/span>"
+						},
+						"1": {
+							"id": 9,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-redeye.svg\" alt=\"Red Eye\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Red Eye<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 10,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stye.svg\" alt=\"Sty\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Sty<\/span>"
+						},
+						"1": {
+							"id": 11,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-dryeyes-lady.svg\" alt=\"Dry Eyes\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Dry Eyes<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/ear-main.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Ear<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">What would you like a remedy for?<\/p>\r\n\t<!-- ----------Main image------------- -->   \r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/ear-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 12,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-earache.svg\" alt=\"Earache\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Earache<\/span>"
+						},
+						"1": {
+							"id": 13,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-swimear.svg\" alt=\"Swimmer's Ear\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Swimmer's Ear<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 14,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-earwax.svg\" alt=\"Earwax\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Earwax<\/span>"
+						},
+						"1": {
+							"id": 15,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-motionsickness.svg\" alt=\"Motion Sickness\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Motion Sickness<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 16,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-vertigo.svg\" alt=\"Vertigo\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Vertigo<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-mouth-main.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"orangefontLarge\">Mouth<\/span> | <span class=\"redfontLarge\">Teeth<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/mouth-main.svg\" alt=\"\" width=\"120\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 17,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-toothache.svg\" alt=\"Toothache\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Toothache<\/span>"
+						},
+						"1": {
+							"id": 18,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-coldsore.svg\" alt=\"Cold Sore\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Cold Sore<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 19,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-cankersore.svg\" alt=\"Canker Sore\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Canker Sore<\/span>"
+						},
+						"1": {
+							"id": 20,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-drymouth.svg\" alt=\"Dry Mouth\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Dry Mouth<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 21,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-badbreath.svg\" alt=\"Bad Breath\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Bad Breath<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-stuffynose.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"purple_redfontLarge\">Nose<\/span> | <span class=\"pinkfontLarge\">Sinuses<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/nose-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 22,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stuffynose.svg\" alt=\"Stuffy Nose\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Stuffy Nose<\/span>"
+						},
+						"1": {
+							"id": 23,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-runnynose.svg\" alt=\"Runny Nose\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Runny Nose<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 24,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sinuspain.svg\" alt=\"Sinus Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Sinus Pain<\/span>"
+						},
+						"1": {
+							"id": 25,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-snoring.svg\" alt=\"Snoring\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Snoring<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-sorethroat-lady.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Throat<\/span> | <span class=\"purplefontLarge roboto\">Neck<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/throat-main.svg\" alt=\"\" width=\"130\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 26,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-cough-lady.svg\" alt=\"Cough\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Cough<\/span>"
+						},
+						"1": {
+							"id": 27,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sorethroat-lady.svg\" alt=\"Sore Throat\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Sore Throat<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 28,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stiffneck.svg\" alt=\"Stiff Neck\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Stiff Neck<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-backpain.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"orangefontLarge\">chest<\/span> | <span class=\"bluefontLarge\">Back<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/back-main.svg\" alt=\"\" width=\"130\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 29,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-chestcongestion.svg\" alt=\"Chest Congestion\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Chest Congestion<\/span>"
+						},
+						"1": {
+							"id": 30,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-backpain.svg\" alt=\"Back Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Back Pain<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 31,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-heartburn.svg\" alt=\"Heartburn\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Heartburn<\/span>"
+						},
+						"1": {
+							"id": 32,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-chestpain.svg\" alt=\"Chest Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Chest Pain<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-shoulderpain.svg\" alt=\"\" height=\"50\"> &nbsp;<span class=\"purple_redfontLarge\">Shoulder<\/span> | <span class=\"orangefontLarge\">Elbow <\/span>| <span class=\"purple_redfontLarge\">Wrist <\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/shoulder-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 33,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-shoulderpain.svg\" alt=\"Shoulder Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Shoulder Pain<\/span>"
+						},
+						"1": {
+							"id": 34,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-wristpain.svg\" alt=\"Wrist Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Wrist Pain<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 35,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-elbowpain.svg\" alt=\"Elbow Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Elbow Pain<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-stomachache.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"greenfontLarge roboto\">Stomach<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p> \r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/stomach-main.svg\" alt=\"\" width=\"170\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 36,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-constipation.svg\" alt=\"constipated\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Constipation<\/span>"
+						},
+						"1": {
+							"id": 37,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-diarrhea.svg\" alt=\"Diarrhea\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Diarrhea<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 31,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-heartburn.svg\" alt=\"Heartburn\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Heartburn<\/span>"
+						},
+						"1": {
+							"id": 38,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-nausea.svg\" alt=\"Nausea \/ Vomiting\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Nausea \/ Vomiting<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 39,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stomachache.svg\" alt=\"Stomach Ache\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Stomach Ache<\/span>"
+						},
+						"1": {
+							"id": 40,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stomachvirus.svg\" alt=\"Stomach Virus\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Stomach Virus<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 41,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-foodpoisoning.svg\" alt=\"Food Poisoning\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Food Poisoning<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-menstrualpain.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"redfontLarge roboto\">Pelvic Area<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/pelvic-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 42,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-yeastinfection.svg\" alt=\"Yeast Infection\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Yeast <\/span>"
+						},
+						"1": {
+							"id": 43,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-uti.svg\" alt=\"UTI\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">UTI<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 44,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-jockitch.svg\" alt=\"Jock Itch\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Jock Itch<\/span>"
+						},
+						"1": {
+							"id": 45,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-hemorrhoid.svg\" alt=\"Hemorrhoids\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Hemorrhoids<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 46,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-pinworm.svg\" alt=\"Pinworms\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Pinworms<\/span>"
+						},
+						"1": {
+							"id": 47,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-menstrualpain.svg\" alt=\"Menstrual Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Menstrual Pain<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-rash.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Skin<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/skin-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 48,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-bites.svg\" alt=\"Insect Bites\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Insect Bites<\/span>"
+						},
+						"1": {
+							"id": 49,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-acne.svg\" alt=\"Acne\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Acne<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 50,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-rash.svg\" alt=\"Skin Rash\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Skin Rash<\/span>"
+						},
+						"1": {
+							"id": 51,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-eczema.svg\" alt=\"Eczema\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Eczema<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 52,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-burn.svg\" alt=\"Burn\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Burn<\/span>"
+						},
+						"1": {
+							"id": 53,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sunburn.svg\" alt=\"Sunburn\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Sunburn<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 54,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-poisonivy.svg\" alt=\"Poison Ivy\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Poison Ivy<\/span>"
+						},
+						"1": {
+							"id": 55,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-hives.svg\" alt=\"Hives\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Hives<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 56,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-ringworm.svg\" alt=\"Ringworm\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Ringworm<\/span>"
+						},
+						"1": {
+							"id": 57,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-wartfinger.svg\" alt=\"Warts\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Warts<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 58,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-scabies.svg\" alt=\"Scabies\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Scabies<\/span>"
+						},
+						"1": {
+							"id": 59,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-shingles.svg\" alt=\"Shingles\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Shingles<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-athletesfoot.svg\" alt=\"\" height=\"40\"> &nbsp;&nbsp;<span class=\"orangefontLarge\">Legs<\/span> | <span class=\"purple_redfontLarge\">Foot<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/leg-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 60,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-anklesprain.svg\" alt=\"Ankle Sprain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Ankle Sprain<\/span>"
+						},
+						"1": {
+							"id": 61,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-athletesfoot.svg\" alt=\"Athletes Foot\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Athletes Foot<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 62,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-footpain-man.svg\" alt=\"Foot Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Foot Pain<\/span>"
+						},
+						"1": {
+							"id": 63,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-arthritis.svg\" alt=\"Arthritis\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Arthritis<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 64,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-nailfungus.svg\" alt=\"Nail Fungus\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Nail Fungus<\/span>"
+						},
+						"1": {
+							"id": 57,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-wartfinger-2.svg\" alt=\"Warts\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Warts<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 65,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-swollenleg.svg\" alt=\"Swollen Leg\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Swollen Leg<\/span>"
+						},
+						"1": {
+							"id": 66,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-corn.svg\" alt=\"Corns Calluses\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Corns Calluses<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 67,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-ingrowntoenail.svg\" alt=\"Ingrown Toenail\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Ingrown Toenail<\/span>"
+						}
+					}
+				]
+			}
+
+		],
+		"1": [
+
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-allergy.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"purple_bluefontLarge\">Cold<\/span>  | <span class=\"redfontLarge\">Flu<\/span>  | <span class=\"greenfontLarge\">Allergy<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">What do you think you are looking at?<\/p>\r\n\t<p class=\"centerText\">\r\n\t<img src=\"assets\/img\/interface\/adult\/allergy-main.svg\" alt=\"\" width=\"140\">\r\n\t<\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 0,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-allergy.svg\" alt=\"Allergy\" height=\"100\"><\/div>\r\n\t<br><span class=\"greenfont roboto\">Allergy<\/span>"
+						},
+						"1": {
+							"id": 1,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-cold.svg\" alt=\"Cold\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Cold<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 2,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-flu.svg\" alt=\"Flu\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Flu<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-headache-man.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Head<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<div class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/head-woman-main.svg\" alt=\"\" width=\"150\"><\/div>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 3,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-headache-man.svg\" alt=\"Headache\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Headache<\/span>"
+						},
+						"1": {
+							"id": 4,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sleeping-lady.svg\" alt=\"Sleep\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Sleep<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 5,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-hairloss.svg\" alt=\"Hair Loss\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Hair Loss<\/span>"
+						},
+						"1": {
+							"id": 6,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-dandruff-woman.svg\" alt=\"Dandruff\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Dandruff<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 7,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-lice-lady.svg\" alt=\"Head Lice\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Head Lice<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-pinkeye.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"redfontLarge\">Eye<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/eye-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 8,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-pinkeye.svg\" alt=\"Pinkeye\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Pinkeye<\/span>"
+						},
+						"1": {
+							"id": 9,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-redeye.svg\" alt=\"Red Eye\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Red Eye<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 10,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stye.svg\" alt=\"Sty\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Sty<\/span>"
+						},
+						"1": {
+							"id": 11,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-dryeyes-lady.svg\" alt=\"Dry Eyes\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Dry Eyes<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-earache.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Ear<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">What would you like a remedy for?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/ear-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 12,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-earache.svg\" alt=\"Earache\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Earache<\/span>"
+						},
+						"1": {
+							"id": 13,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-swimear.svg\" alt=\"Swimmer's Ear\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Swimmer's Ear<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 14,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-earwax.svg\" alt=\"Earwax\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Earwax<\/span>"
+						},
+						"1": {
+							"id": 15,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-motionsickness.svg\" alt=\"Motion Sickness\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Motion Sickness<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 16,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-vertigo.svg\" alt=\"Vertigo\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Vertigo<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-toothache.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"orangefontLarge\">Mouth<\/span> | <span class=\"redfontLarge\">Teeth<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/mouth-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 17,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-toothache.svg\" alt=\"Toothache\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Toothache<\/span>"
+						},
+						"1": {
+							"id": 18,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-coldsore.svg\" alt=\"Cold Sore\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Cold Sore<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 19,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-cankersore.svg\" alt=\"Canker Sore\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Canker Sore<\/span>"
+						},
+						"1": {
+							"id": 20,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-drymouth.svg\" alt=\"Dry Mouth\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Dry Mouth<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 21,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-badbreath.svg\" alt=\"Bad Breath\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Bad Breath<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-stuffynose.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"purple_redfontLarge\">Nose<\/span> | <span class=\"pinkfontLarge\">Sinuses<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/nose-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 22,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stuffynose.svg\" alt=\"Stuffy Nose\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Stuffy Nose<\/span>"
+						},
+						"1": {
+							"id": 23,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-runnynose.svg\" alt=\"Runny Nose\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Runny Nose<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 24,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sinuspain.svg\" alt=\"Sinus Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Sinus Pain<\/span>"
+						},
+						"1": {
+							"id": 25,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-snoring.svg\" alt=\"Snoring\" height=\"100\"><\/div>\r\n\t<br><span class=\"purplefont roboto\">Snoring<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-sorethroat-lady.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Throat<\/span> | <span class=\"purplefontLarge roboto\">Neck<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/throat-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 26,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-cough-lady.svg\" alt=\"Cough\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Cough<\/span>"
+						},
+						"1": {
+							"id": 27,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sorethroat-lady.svg\" alt=\"Sore Throat\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Sore Throat<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 28,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stiffneck.svg\" alt=\"Stiff Neck\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Stiff Neck<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-heartburn.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"orangefontLarge\">chest<\/span> | <span class=\"bluefontLarge\">Back<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/back-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 29,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-chestcongestion.svg\" alt=\"Chest Congestion\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Chest Congestion<\/span>"
+						},
+						"1": {
+							"id": 30,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-backpain.svg\" alt=\"Back Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Back Pain<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 31,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-heartburn.svg\" alt=\"Heartburn\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Heartburn<\/span>"
+						},
+						"1": {
+							"id": 32,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-chestpain.svg\" alt=\"Chest Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Chest Pain<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-elbowpain.svg\" alt=\"\" height=\"50\"> &nbsp;<span class=\"purple_redfontLarge\">Shoulder<\/span> | <span class=\"orangefontLarge\">Elbow <\/span>| <span class=\"purple_redfontLarge\">Wrist <\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/shoulder-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 33,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-shoulderpain.svg\" alt=\"Shoulder Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Shoulder Pain<\/span>"
+						},
+						"1": {
+							"id": 34,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-wristpain.svg\" alt=\"Wrist Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Wrist Pain<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 35,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-elbowpain.svg\" alt=\"Elbow Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Elbow Pain<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-stomachache.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Stomach<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/stomach-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 36,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-constipation.svg\" alt=\"constipated\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Constipation<\/span>"
+						},
+						"1": {
+							"id": 37,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-diarrhea.svg\" alt=\"Diarrhea\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Diarrhea<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 38,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-heartburn.svg\" alt=\"Heartburn\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Heartburn<\/span>"
+						},
+						"1": {
+							"id": 39,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-nausea.svg\" alt=\"Nausea \/ Vomiting\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Nausea \/ Vomiting<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 40,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stomachache.svg\" alt=\"Stomach Ache\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Stomach Ache<\/span>"
+						},
+						"1": {
+							"id": 41,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-stomachvirus.svg\" alt=\"Stomach Virus\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Stomach Virus<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 42,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-foodpoisoning.svg\" alt=\"Food Poisoning\" height=\"100\"><\/div>\r\n\t<br><span class=\"cyanfont roboto\">Food Poisoning<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-yeastinfection.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Pelvic Area<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/pelvic-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 43,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-yeastinfection.svg\" alt=\"Yeast Infection\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Yeast <\/span>"
+						},
+						"1": {
+							"id": 44,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-uti.svg\" alt=\"UTI\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">UTI<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 45,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-jockitch.svg\" alt=\"Jock Itch\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Jock Itch<\/span>"
+						},
+						"1": {
+							"id": 46,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-hemorrhoid.svg\" alt=\"Hemorrhoids\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Hemorrhoids<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 47,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-pinworm.svg\" alt=\"Pinworms\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Pinworms<\/span>"
+						},
+						"1": {
+							"id": 48,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-menstrualpain.svg\" alt=\"Menstrual Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Menstrual Pain<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-ringworm.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"bluefontLarge roboto\">Skin<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/skin-main.svg\" alt=\"\" width=\"200\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 49,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-bites.svg\" alt=\"Insect Bites\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Insect Bites<\/span>"
+						},
+						"1": {
+							"id": 50,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-acne.svg\" alt=\"Acne\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Acne<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 51,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-rash.svg\" alt=\"Skin Rash\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Skin Rash<\/span>"
+						},
+						"1": {
+							"id": 52,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-eczema.svg\" alt=\"Eczema\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Eczema<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 53,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-burn.svg\" alt=\"Burn\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Burn<\/span>"
+						},
+						"1": {
+							"id": 54,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-sunburn.svg\" alt=\"Sunburn\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Sunburn<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 55,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-poisonivy.svg\" alt=\"Poison Ivy\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Poison Ivy<\/span>"
+						},
+						"1": {
+							"id": 56,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-hives.svg\" alt=\"Hives\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Hives<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 57,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-ringworm.svg\" alt=\"Ringworm\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Ringworm<\/span>"
+						},
+						"1": {
+							"id": 58,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-wartfinger.svg\" alt=\"Warts\" height=\"100\"><\/div>\r\n\t<br><span class=\"bluefont roboto\">Warts<\/span>"
+						}
+					}
+				]
+			},
+			{
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-footpain-man.svg\" alt=\"\" height=\"40\"> &nbsp;&nbsp;<span class=\"orangefontLarge\">Legs<\/span> | <span class=\"purple_redfontLarge\">Foot<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/leg-main.svg\" alt=\"\" width=\"150\"><\/p>\r\n\t<br>",
+				"list": [
+					{
+						"0": {
+							"id": 59,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-anklesprain.svg\" alt=\"Ankle Sprain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Ankle Sprain<\/span>"
+						},
+						"1": {
+							"id": 60,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-athletesfoot.svg\" alt=\"Athletes Foot\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Athletes Foot<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 61,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-footpain-man.svg\" alt=\"Foot Pain\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Foot Pain<\/span>"
+						},
+						"1": {
+							"id": 62,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-arthritis.svg\" alt=\"Arthritis\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Arthritis<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 63,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-nailfungus.svg\" alt=\"Nail Fungus\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Nail Fungus<\/span>"
+						},
+						"1": {
+							"id": 64,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-wartfinger-2.svg\" alt=\"Warts\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Warts<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 65,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-swollenleg.svg\" alt=\"Swollen Leg\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Swollen Leg<\/span>"
+						},
+						"1": {
+							"id": 66,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-corn.svg\" alt=\"Corns Calluses\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Corns Calluses<\/span>"
+						}
+					},
+					{
+						"0": {
+							"id": 67,
+							"con": "<div class=\"loaderBlue\"><img src=\"assets\/img\/interface\/adult\/icon-ingrowntoenail.svg\" alt=\"Ingrown Toenail\" height=\"100\"><\/div>\r\n\t<br><span class=\"redfont roboto\">Ingrown Toenail<\/span>"
+						}
+					}
+				]
+			}
+		]
+	}
+}

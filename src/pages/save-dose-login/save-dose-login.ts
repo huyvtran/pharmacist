@@ -4,12 +4,7 @@ import { AlertController, ToastController, LoadingController } from 'ionic-angul
 import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the Dosing page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 import { AuthService} from '../providers/auth-service';
 

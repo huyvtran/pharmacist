@@ -19,7 +19,7 @@ import { GlobalVars } from '../providers/globalvars';
   templateUrl: 'home.html'
 })
 export class HomePage {
-	slides: any;
+	html_data: any;
 	items = {
 		self_care 		: SelfCarePage,
 		compare			: ComparePage,
@@ -30,9 +30,9 @@ export class HomePage {
 	constructor(public navCtrl: NavController, public http: Http, private sanitizer: DomSanitizer) {
 	}
 	getHtmlData(){
-	    this.slides = null;
-	    this.http.get("assets/json/nearest.json").map(response => response.json()).subscribe(data => {
-	        this.slides = data;
+	    this.html_data = null;
+	    this.http.get("assets/json/home.json").map(response => response.json()).subscribe(data => {
+	        this.html_data = data;
 	    });
 	}
 	transit(slide: any){

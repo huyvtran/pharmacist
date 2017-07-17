@@ -14,8 +14,7 @@
     </ion-buttons>
 	</ion-navbar>
   <ion-navbar class="fullWidth roboto bgPink" *ngIf="currentPage==0">
-    <p class="boxSpinnerRed"></p>
-    <p class="font14 fontBold">Medication Dosing</p>
+    <div [innerHTML]="html_data?.navbar"></div>
   </ion-navbar>
   <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">
   	<div class="floatright"> 

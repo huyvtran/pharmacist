@@ -4,12 +4,11 @@ import { NavController, NavParams, MenuController } from 'ionic-angular';
 import { ElementRef, NgZone, ViewChild } from '@angular/core';
 import { FormControl } from "@angular/forms";
 import { MapsAPILoader } from 'angular2-google-maps/core';
-/*
-  Generated class for the NearestHospital page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
+
 import { GlobalVars } from '../providers/globalvars';
 
 import { FindNearestListPage } from '../find-nearest-list/find-nearest-list';
@@ -48,8 +47,9 @@ export class FindNearestPage {
 
   @ViewChild("search")
   public searchElementRef: ElementRef;
-
+  html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
+    public http: Http, private sanitizer: DomSanitizer,
     private mapsAPILoader: MapsAPILoader,private ngZone: NgZone) 
   {
   	this.pageId = GlobalVars.getPageId();
@@ -62,6 +62,12 @@ export class FindNearestPage {
     var menu = document.querySelector( 'ion-menu ion-content' );
     menu.className = "outer-content content" + " " + this.setting['class'];
   	this.menu.open();
+  }
+  getHtmlData(){
+    this.html_data = null
+    this.http.get("assets/json/findnearest.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   transitionPage(pageNum: number){
     if (pageNum == 2)
@@ -80,6 +86,7 @@ export class FindNearestPage {
     this.enterLocation = !this.enterLocation;
   }
   ionViewDidLoad() {
+    this.getHtmlData();
   }  
   ngOnInit() {
     //set google maps defaults

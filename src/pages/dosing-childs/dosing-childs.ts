@@ -8,7 +8,6 @@ import 'rxjs/add/operator/map';
 import { GlobalVars } from '../providers/globalvars';
 import { AuthService} from '../providers/auth-service';
 
-import { CommentLoginPage } from '../comment-login/comment-login';
 import { DosingPage } from '../dosing/dosing';
 import { DiphenhydraminePage } from '../diphenhydramine/diphenhydramine';
 import { DosingChildContainerPage } from '../dosing-child-container/dosing-child-container';
@@ -297,9 +296,6 @@ export class DosingChildsPage {
   }
   toggleTerm() {
   	this.showTerm = !this.showTerm;
-  }
-  gotoLogin() {
-    this.navCtrl.push(CommentLoginPage);
   }
   doneConvert(){
   	this.convertDlgInfo.noscroll = false;

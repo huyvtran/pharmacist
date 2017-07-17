@@ -18,24 +18,10 @@
 
 <ion-content overflow-scroll="true"  padding class="ui-page-theme-a">
 	<div class="ui-content">
-		<div class="opacity8">
-		  <div class="maxwidth450">
-		    <p>&nbsp;</p>
-		    <div class="ovalBorderRightBlue centerText"> 
-		      <span class="bluefontLarge">Hi,</span><br>
-		      What type of healthcare facility would you like to find? 
-		    </div>
-		    <div align="right">
-		      <img src="assets/img/pharm/male/pharm-john-port.svg" width="100">
-		    </div>
-		  </div>
-		  <div class="clearboth divider1"></div>
-		  <br>
-		</div>
-		<p>&nbsp;</p>
+		<div [innerHTML]="html_data?.nearest"></div>
 		<div class="swiper-container swiper-container-horizontal swiper-container-free-mode swiper-container-android">
 			<ion-slides pager>
-		    <ion-slide *ngFor="let slide of slides" slider-width="0.5" (tap)="transit(slide)">
+		    <ion-slide *ngFor="let slide of html_data?.slides" slider-width="0.5" (tap)="transit(slide)">
 		      <img [src]="slide.image" alt="slide.alt" class="slide-image" height="60"/>
 		      <h2 class="slide-title">
 		        <span class="grayfontSmall" [innerHTML]="slide.gray_title"></span>

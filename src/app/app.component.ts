@@ -8,7 +8,6 @@ import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 
 import { AdultTakeMobileListPage } from '../pages/adult-take-mobile-list/adult-take-mobile-list';
-import { ChildTakeMobileListPage } from '../pages/child-take-mobile-list/child-take-mobile-list';
 import { DosingPage } from '../pages/dosing/dosing';
 import { ComparePage } from '../pages/compare/compare';
 import { NearestPage } from '../pages/nearest/nearest';
@@ -33,7 +32,7 @@ export class MyApp {
     appPages: PageInterface[] = [
         { title: 'Home', description: 'Main app menu.', component: HomePage,icon: 'home' },
         { title: 'Adult Symptoms', description: 'Pharmacist over the counter (OTC) recommendation.', component: AdultTakeMobileListPage, index: 1, icon: 'man' },
-        { title: 'Child Symptoms', description: 'Pharmacist recommendation for common child symptoms.', component: ChildTakeMobileListPage, index: 2, icon: 'female' },
+        { title: 'Child Symptoms', description: 'Pharmacist recommendation for common child symptoms.', component: AdultTakeMobileListPage, index: 2, icon: 'female' },
         { title: 'Product Comparison', description: 'Compare over-the-counter products.', component: ComparePage, index: 3, icon: 'git-compare' },
         { title: 'Medication Dosing', description: 'Kids over-the-counter medication dosing.', component: DosingPage, index: 4, icon: 'eye-off' },
         { title: 'Drug Savings', description: 'Drug manufactures Rx savings program', component: DrugPage, index: 5, icon: 'attach' },
@@ -64,6 +63,8 @@ export class MyApp {
     }
     openPage(page: PageInterface) {
         if (page.index) {
+            if (page.index <= 2)
+                GlobalVars.setPageId(page.index - 1);
             this.nav.push(page.component);
         } else {
             this.nav.setRoot(page.component).catch(() => {

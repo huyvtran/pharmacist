@@ -31,7 +31,7 @@ export class SaveDoseListPage {
   }
   getHtmlData(){
     this.html_data = null
-    this.http.get("assets/json/dosing.json").map(response => response.json()).subscribe(data => {
+    this.http.get("assets/json/save_dose_list.json").map(response => response.json()).subscribe(data => {
         this.html_data = data;
     });
   }

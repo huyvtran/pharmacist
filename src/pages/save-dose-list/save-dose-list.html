@@ -52,22 +52,12 @@
             		<div *ngIf="eachDosing['complete'] == 'No'">
             			<div class="greenfontLarge">In Progress ...</div>
             		</div>
-				   <div class="mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle">
-				      <div class=" mbsc-lv-handle-bar-c mbsc-lv-handle">
-				         <div class="mbsc-lv-handle-bar mbsc-lv-handle"></div>
-				         <div class="mbsc-lv-handle-bar mbsc-lv-handle"></div>
-				         <div class="mbsc-lv-handle-bar mbsc-lv-handle"></div>
-				      </div>
-				   </div>
+				   	<div [innerHTML]="html_data?.mbsc"></div>
 				</li>
 	         </ul>
 	      </div>
-	   </div>
-	   <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	   <p>&nbsp;</p>
-	   <p>&nbsp;</p>
+	   	</div>
+		<div [innerHTML]="html_data?.footer"></div>
 	</div>
 </ion-content>
 

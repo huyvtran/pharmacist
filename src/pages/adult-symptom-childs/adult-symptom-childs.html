@@ -1,0 +1,74 @@
+
+<ion-header class="ui-header {{setting.class}}">
+  <ion-navbar>
+    <ion-title>
+    	<h1 class="ui-title">
+      	Allergy
+      </h1>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (tap)="showMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+	</ion-navbar>
+  <ion-navbar class="fullWidth robotoLight {{setting.p}}">
+  	<p [innerHTML]="getTitle()"></p>
+  </ion-navbar>
+</ion-header>
+
+<ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}} ui-page-theme-{{pagemode[pageId]}}">
+	<div class="ui-content" role="main" *ngIf="html_data!=null">
+		<div [innerHTML]="getHeader()"></div>
+		<div *ngIf="html_data[pageId]?.pages[page]['options']!=null">
+			<div id="allergy3_mobile_q1_form_div" style="" mbsc-enhance="" data-enhance="false" class="mbsc-comp mbsc-form mbsc-mobi-{{html_data[pageId]?.pages[page]['optcolor']}} mbsc-mobiscroll mbsc-ltr">
+				<ng-container *ngFor="let each_option of html_data[pageId]?.pages[page]['options'];">
+		            <label for="allergy3_mobile_q1_{{each_option.id}}" class="mbsc-checkbox" (tap)="toggleRecs(each_option.id)">
+		            	<input type="checkbox" name="allergy3_mobile_q1" id="allergy3_mobile_q1_{{each_option.id}}" class="allergy3_mobileQ1 mbsc-control mbsc-control-ev" value="" data-enhanced="false" [(ngModel)]="recs[each_option.id]">
+		        		<span class="mbsc-checkbox-box"></span>         
+		        		<span class="mbsc-label">{{each_option.title}}</span>
+		            </label>
+		            <hr class="hr{{html_data[pageId]?.pages[page]['optcolor']}}">
+				</ng-container>
+				<div class="clearboth divider1"></div>
+				<p class="centerText"> 
+					<input type="button" data-inline="true" id="get_allergy3_mobile_q1" value="{{html_data[pageId]?.pages[page]['buttons'][0]['title']}}" class="mbsc-control mbsc-btn mbsc-control-ev" (tap)="processFunc(html_data[pageId]?.pages[page]['buttons'][0])">
+				</p>
+			</div>
+			<div *ngIf="mode==100" [innerHTML]="html_data[pageId]?.pages[page]['except']">
+			</div>
+		</div>
+		<div data-role="fieldcontain" class="ui-field-contain" *ngIf="html_data[pageId]?.pages[page]['slider']!=null">
+            <label for="slider_cold_fever_mobile" id="slider_cold_fever_mobile-label">Temp <span class="redfont">( °F )</span>:</label>
+            <div class="ui-slider">
+            	<ion-item>
+					<ion-range min="{{html_data[pageId]?.pages[page]['slider']['min']}}" max="{{html_data[pageId]?.pages[page]['slider']['max']}}" step="{{html_data[pageId]?.pages[page]['slider']['step']}}" [(ngModel)]="currentTemp" color="sliderPink">
+						<ion-label range-left>{{currentTemp}}</ion-label>
+					</ion-range>
+				</ion-item>
+            </div>
+            <input type="hidden" id="mobi_cold_temp" name="mobi_cold_temp" value="" class="displayNone mbsc-comp" readonly="">
+        </div>
+		<p class="centerText" *ngIf="html_data[pageId]?.pages[page]['options']==null">
+			<ng-container *ngFor="let each_but of html_data[pageId]?.pages[page]['buttons']">
+				<a *ngIf="each_but.type=='a'" href="#" class="ui-link ui-btn ui-btn-{{each_but.theme}} ui-btn-inline ui-shadow ui-corner-all" role="button" (click)="processFunc(each_but)">
+					{{each_but.title}}
+				</a>
+				<button *ngIf="each_but.type=='button'" data-inline="true" class="allergy1_mobile_2_y_link ui-btn ui-btn-{{each_but.theme}} ui-btn-inline ui-shadow ui-corner-all" (click)="processFunc(each_but)">
+					{{each_but.title}}
+				</button>
+			</ng-container>
+		</p>
+		<p>&nbsp;</p>
+	</div>
+	
+	<ng-container *ngFor="let eachDlg of FYIDlg;let i=index">
+		<div class="ui-popup-screen ui-overlay-b in" id="allergy_mobile_pop-screen" *ngIf="eachDlg.show" (click)="toggleFYIDlg(false,i)"></div>
+		<div class="ui-popup-container pop in ui-popup-active" id="allergy_mobile_pop-popup" *ngIf="eachDlg.show" [ngStyle]="{'max-width': eachDlg.maxWidth+'px','top': eachDlg.top+'px', 'left': eachDlg.left+'px', 'width': eachDlg.width+'px'}">
+		    <div data-role="popup" id="allergy_mobile_pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">
+		        <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-link ui-btn ui-icon-delete ui-btn-icon-notext ui-shadow ui-corner-all" role="button" (tap)="toggleFYIDlg(false,i)">Close</a>
+		        <div [innerHTML]="html_data[pageId]?.dlg[i]"></div>
+		    </div>
+		</div>
+	</ng-container>
+</ion-content>

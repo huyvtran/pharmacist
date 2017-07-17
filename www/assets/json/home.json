@@ -1,0 +1,61 @@
+{
+  "slides": [
+    {
+      "id": 0,
+    	"alt": "Nearest hospital",
+      "gray_title": "Find Nearest ",
+      "other_title": "Hospital",
+      "other_title_class": "bluefontSmall",
+      "image": "assets/img/interface/icons/hospital-icon.svg"
+    },
+    {
+      "id": 1,
+    	"alt": "Nearest urgent care",
+      "gray_title": "Find Nearest ",
+      "other_title": "Urgent Care",
+      "other_title_class": "redfontSmall",
+      "image": "assets/img/interface/icons/urgentcare-icon.svg"
+    },
+    {
+      "id": 2,
+    	"alt": "Find a doctor",
+      "gray_title": "Find Nearest ",
+      "other_title": "Doctor",
+      "other_title_class": "orangefontSmall",
+      "image": "assets/img/interface/icons/doctor-icon.svg"
+    },
+    {
+      "id": 3,
+    	"alt": "Find a pediatrician",
+      "gray_title": "Find ",
+      "other_title": "Children's Clinic",
+      "other_title_class": "purplefontSmall",
+      "image": "assets/img/interface/icons/pediatric-icon.svg"
+    },
+    {
+      "id": 4,
+    	"alt": "Find a dentist",
+      "gray_title": "Find Nearest ",
+      "other_title": "Dentist",
+      "other_title_class": "bluefontSmall",
+      "image": "assets/img/interface/icons/dentist-icon.svg"
+    },
+    {
+      "id": 5,
+    	"alt": "Nearest pharmacy",
+      "gray_title": "Find Nearest ",
+      "other_title": "Pharmacy",
+      "other_title_class": "greenfontSmall",
+      "image": "assets/img/interface/icons/pharmacy-icon.svg"
+    }
+  ],
+  "items": [
+    "<img src=\"assets\/img\/interface\/icons\/faces-logo.svg\" height=\"80\" alt=\"Find self-care over-the -counter help\" \/>\r\n          <figcaption>\r\n            Find Self-Care<br\/>\r\n            <span class=\"bluefont\">Over-The-Counter<\/span><br\/>\r\n            Recommendation\r\n          <\/figcaption>",
+    "<img src=\"assets\/img\/interface\/icons\/compare-icon.svg\" height=\"80\" alt=\"Compare OTC products\" \/>\r\n          <figcaption>\r\n            Compare<br\/>\r\n            <span class=\"bluefont\">Over-The-Counter<\/span><br\/>\r\n            Products\r\n          <\/figcaption>",
+    "<img src=\"assets\/img\/interface\/icons\/dosing-icons.svg\" height=\"80\" alt=\"OTC child medication dosing\" \/>\r\n          <figcaption>\r\n            Get Children's <br\/>\r\n            <span class=\"redfont\">Over The Counter<\/span><br\/>\r\n            Medicine dosing\r\n          <\/figcaption>",
+    "<img src=\"assets\/img\/interface\/icons\/coupon-scissors.svg\" height=\"80\" alt=\"Drug manufacturer coupons\" \/>\r\n          <figcaption>\r\n            Drug Manufacturer<br \/>\r\n            <span class=\"bluefont\">Savings Cards<\/span><br \/>\r\n            And Programs\r\n          <\/figcaption>",
+    "<img src=\"assets\/img\/interface\/icons\/information-icon.svg\" height=\"80\" alt=\"About this app.\" \/>\r\n          <figcaption>\r\n            About This <br\/>\r\n            <span class=\"orangefont\">Application<\/span>\r\n          <\/figcaption>"
+  ],
+  "title": "<h1 class=\"ui-title\">\r\n    \t\t<img src=\"assets\/img\/interface\/logos\/logo-scotc-face.svg\" height=\"50\" alt=\"\">\r\n    \t\t<span>Self-Care OTC<\/span>\r\n    \t<\/h1>",
+  "nearest": "<div class=\"opacity8\">\r\n\t\t  <div class=\"maxwidth450\">\r\n\t\t    <p>&nbsp;<\/p>\r\n\t\t    <div class=\"ovalBorderRightBlue centerText\"> \r\n\t\t      <span class=\"bluefontLarge\">Hi,<\/span><br>\r\n\t\t      What type of healthcare facility would you like to find? \r\n\t\t    <\/div>\r\n\t\t    <div align=\"right\">\r\n\t\t      <img src=\"assets\/img\/pharm\/male\/pharm-john-port.svg\" width=\"100\">\r\n\t\t    <\/div>\r\n\t\t  <\/div>\r\n\t\t  <div class=\"clearboth divider1\"><\/div>\r\n\t\t  <br>\r\n\t\t<\/div>\r\n\t\t<p>&nbsp;<\/p>"
+}

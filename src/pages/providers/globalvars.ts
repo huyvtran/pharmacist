@@ -36,6 +36,7 @@ let settings = [
         spinner: "spinner-purple",
         p: "bgDeepPurple",
         oval: "ovalBorderRightPurple",
+        font: "purplefont",
         hr: "hrpurple",
     },
     {   // d - 4
@@ -63,6 +64,7 @@ let settings = [
         spinner: "spinner-green",
         p: "bgGreen",
         oval: "ovalBorderRightGreen",
+        font: "orangefont",
         arrow: "green",
         hr: "hrgreen",
     },
@@ -77,6 +79,7 @@ let settings = [
         spinner: "spinner",
         p: "bgPink",
         oval: "ovalBorderRightPurple_red",
+        font: "orangefont",
         hr: "hrpink",
         arrow: "pink",
     },
@@ -101,6 +104,7 @@ let settings = [
         p: "bgCyan",
         oval: "ovalBorderRightBlue",
         arrow: "cyan",
+        font: "orangefont",
         hr: "hrblue",
         
     },
@@ -108,6 +112,7 @@ let settings = [
         spinner: "spinner",
         p: "bgDeepOrange",
         oval: "ovalBorderRightOrange",
+        font: "orangefont",
         hr: "hrorange",
         arrow: "deep-orange",
 
@@ -220,6 +225,7 @@ export var GlobalVars = {
             pageSetting["class"] = "ui-page-theme-" + num_id;
             pageSetting["spinner"] = settings[num_id]["spinner"];
             pageSetting["p"] = settings[num_id]["p"];
+            pageSetting["font"] = settings[num_id]["font"];
             pageSetting["oval"] = settings[num_id]["oval"];
             pageSetting["hr"] = settings[num_id]["hr"];
             pageSetting["arrow"] = settings[num_id]["arrow"];

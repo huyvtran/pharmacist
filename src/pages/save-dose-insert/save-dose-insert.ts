@@ -5,12 +5,7 @@ import { AlertController, ToastController, LoadingController } from 'ionic-angul
 import { Loading } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the Dosing page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 import { AuthService} from '../providers/auth-service';
 
@@ -32,14 +27,14 @@ export class SaveDoseInsertPage {
   	this.menu = menu;
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
   	this.loading = null;
-  	this.dose['dose_direction'] = "<p>&amp;nbsp;</p><p><span style=&quot;font-size: 13px; line-height: 20.7999992370605px;&quot;>Give&amp;nbsp;</span><span style=&quot;line-height: 20.7999992370605px; font-size: 22px;&quot;><span style=&quot;color: rgb(255, 0, 0);&quot;>&amp;nbsp;3.75 ml (¾ teaspoonful)</span></span><span style=&quot;font-size: 13px; line-height: 20.7999992370605px;&quot;>&amp;nbsp;using the medicine syringe or a store brand dosing syringe usually every</span><span style=&quot;line-height: 20.7999992370605px; font-size: 18px;&quot;><span style=&quot;color: rgb(255, 0, 0);&quot;>&amp;nbsp;4 to 6 hours</span></span><span style=&quot;font-size: 13px; line-height: 20.7999992370605px;&quot;>&amp;nbsp;as needed.</span></p><p><img alt=&quot;3.75 ml syringe&quot; src=&quot;http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/3-75ml-cherry-syringe.png&quot; style=&quot;width: 180px; height: 340px;&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</p><p><span style=&quot;color: rgb(255, 0, 0); font-size: 18px; line-height: 20.7999992370605px; text-align: center;&quot;>Not more than 5 times a day.</span></p>";
-	this.dose['dose_medication']  = "Acetaminophen Infant Suspension<br> <span class=&quot;redfontSmall centerText&quot;> 160 mg / 5 ml</span>"
-	this.dose['saved_on'] = "";
+	  this.dose['saved_on'] = "";
   }
   getHtmlData(){
     this.html_data = null;
     this.http.get("assets/json/save_dose_insert.json").map(response => response.json()).subscribe(data => {
         this.html_data = data;
+        this.dose['dose_direction'] = data['dose_direction'];
+        this.dose['dose_medication'] = data['dose_medication'];
     });
   }
   showMenu() {

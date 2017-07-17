@@ -63129,51 +63129,105 @@ page-about button:focus {
   right: 0;
 }
 
-page-adult-take-mobile-list {
-  font-size: 16px;
-  background-image: url(../assets/img/dosing/blue-balls.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  height: 620px;
-}
-
-page-adult-take-mobile-list .toolbar-background-md, page-adult-take-mobile-list .toolbar-background {
-  background: #03a9f4;
-}
-
-#ion-diagnostics-toast {
-  background: transparent;
-}
-
-page-child-take-mobile-list {
-  font-size: 16px;
-  background-image: url(../assets/img/dosing/pink-flower.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  height: 620px;
-}
-
-page-child-take-mobile-list .toolbar-background-md, page-child-take-mobile-list .toolbar-background {
-  background: #E91E63;
-}
-
-#ion-diagnostics-toast {
-  background: transparent;
-}
-
-page-comment-login {
+page-adult-symptom-childs {
   font-size: 16px;
 }
 
-page-comment-login .ui-content {
+page-adult-symptom-childs #allergy3_mobile_q1_form_div span {
+  font-size: 2em;
+}
+
+page-adult-symptom-childs .ui-popup-screen {
+  position: fixed;
+}
+
+page-adult-symptom-childs .ui-content a.ui-btn {
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
+page-adult-symptom-childs .ui-content.ui-popup {
+  overflow-x: visible !important;
+}
+
+page-adult-symptom-childs .ui-popup-container .ui-btn-icon-notext:after {
+  position: initial;
+  margin-top: -17px;
+  margin-left: 2px;
+}
+
+page-adult-symptom-childs .ui-header .robotoLight p {
+  margin: 0px;
+  padding: 1em;
+}
+
+page-adult-symptom-childs .ui-field-contain label {
+  font-size: 1em;
+}
+
+page-adult-symptom-childs ion-navbar.fullWidth.bgCyan,
+page-adult-symptom-childs ion-navbar.fullWidth.bgLightBlue,
+page-adult-symptom-childs ion-navbar.fullWidth.bgDeepOrange,
+page-adult-symptom-childs ion-navbar.fullWidth.bgGreen,
+page-adult-symptom-childs ion-navbar.fullWidth.bgPink,
+page-adult-symptom-childs ion-navbar.fullWidth.bgRed,
+page-adult-symptom-childs ion-navbar.fullWidth.bgOrange {
+  padding-left: 0px !important;
+}
+
+page-adult-take-mobile-childlist {
+  font-size: 16px;
+}
+
+page-adult-take-mobile-childlist .ui-content {
   background-image: url(../assets/img/dosing/blue-balls.jpg);
   height: 99%;
 }
 
-page-comment-login .toolbar-background-md, page-comment-login .toolbar-background, page-comment-login .toolbar-background-ios {
-  background: #03a9f4;
+page-adult-take-mobile-childlist .ui-header .robotoLight p {
+  margin: 0px;
+  padding: 1em;
+}
+
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgCyan,
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgLightBlue,
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgDeepOrange,
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgGreen,
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgPink,
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgRed,
+page-adult-take-mobile-childlist ion-navbar.fullWidth.bgOrange {
+  padding-left: 0px !important;
+}
+
+page-adult-take-mobile-list {
+  font-size: 16px;
+}
+
+page-adult-take-mobile-list ion-content.content0 .ui-content {
+  background-image: url(../assets/img/dosing/blue-balls.jpg);
+}
+
+page-adult-take-mobile-list ion-content.content1 .ui-content {
+  background-image: url(../assets/img/dosing/pink-flower.jpg);
+}
+
+page-adult-take-mobile-list .ui-content {
+  height: 99%;
+}
+
+page-adult-take-mobile-list .ui-header .robotoLight p {
+  margin: 0px;
+  padding: 1em;
+}
+
+page-adult-take-mobile-list ion-navbar.fullWidth.bgCyan,
+page-adult-take-mobile-list ion-navbar.fullWidth.bgLightBlue,
+page-adult-take-mobile-list ion-navbar.fullWidth.bgDeepOrange,
+page-adult-take-mobile-list ion-navbar.fullWidth.bgGreen,
+page-adult-take-mobile-list ion-navbar.fullWidth.bgPink,
+page-adult-take-mobile-list ion-navbar.fullWidth.bgRed,
+page-adult-take-mobile-list ion-navbar.fullWidth.bgOrange {
+  padding-left: 0px !important;
 }
 
 page-compare {

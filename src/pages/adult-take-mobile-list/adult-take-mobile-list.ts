@@ -1,40 +1,57 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 
-/*
-  Generated class for the AdultTakeMobileList page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
+import { AdultTakeMobileChildlistPage } from '../adult-take-mobile-childlist/adult-take-mobile-childlist';
 // import { AdultTakeMobileSymptomsListPage } from '../adult-take-mobile-symptoms-list/adult-take-mobile-symptoms-list';
 // import { AdultTakeMobileToPharmacistListPage } from '../adult-take-mobile-to-pharmacist-list/adult-take-mobile-to-pharmacist-list';
 
+let mode = {
+  0: 'a',
+  1: 'i'
+}
 @Component({
   selector: 'page-adult-take-mobile-list',
   templateUrl: 'adult-take-mobile-list.html'
 })
 export class AdultTakeMobileListPage {
-	AbsoluteURL: string;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
+  html_data: any;
+  pageId: number;
+  setting: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
+        public http: Http, private sanitizer: DomSanitizer) {
   	this.menu = menu;
-  	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
+    this.pageId = GlobalVars.getPageId();
+    this.setting = GlobalVars.getPageSetting(mode[this.pageId]);
+  }
+  getHtmlData(){
+    this.html_data =  null;
+    this.http.get("assets/json/adult_take_mobile_list.json").map(response => response.json()).subscribe(data => {
+        this.html_data = data;
+    });
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
-    var setting = GlobalVars.getPageSetting('a');
+    var setting = GlobalVars.getPageSetting(mode[this.pageId]);
     menu.className = "outer-content content" + " " + setting['class'];
   	this.menu.open();
   }
   movePage(p: number){
-    // if (p == 0)
-    //   this.navCtrl.push(AdultTakeMobileSymptomsListPage);
-    // else
-    //   this.navCtrl.push(AdultTakeMobileToPharmacistListPage);
+    if (this.pageId == 0)
+    {
+      GlobalVars.setPageId(p);
+      this.navCtrl.push(AdultTakeMobileChildlistPage);
+      // if (p == 0)
+      //   this.navCtrl.push(AdultTakeMobileSymptomsListPage);
+      // else
+      //   this.navCtrl.push(AdultTakeMobileToPharmacistListPage);
+    }
   }
   ionViewDidLoad() {
-    // console.log('ionViewDidLoad AdultTakeMobileListPage');
+    this.getHtmlData();
   }
 
 }

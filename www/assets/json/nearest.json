@@ -1,50 +1,52 @@
-[
-  {
-    "id": 0,
-  	"alt": "Nearest hospital",
-    "gray_title": "Find Nearest ",
-    "other_title": "Hospital",
-    "other_title_class": "bluefontSmall",
-    "image": "assets/img/interface/icons/hospital-icon.svg"
-  },
-  {
-    "id": 1,
-  	"alt": "Nearest urgent care",
-    "gray_title": "Find Nearest ",
-    "other_title": "Urgent Care",
-    "other_title_class": "redfontSmall",
-    "image": "assets/img/interface/icons/urgentcare-icon.svg"
-  },
-  {
-    "id": 2,
-  	"alt": "Find a doctor",
-    "gray_title": "Find Nearest ",
-    "other_title": "Doctor",
-    "other_title_class": "orangefontSmall",
-    "image": "assets/img/interface/icons/doctor-icon.svg"
-  },
-  {
-    "id": 3,
-  	"alt": "Find a pediatrician",
-    "gray_title": "Find ",
-    "other_title": "Children's Clinic",
-    "other_title_class": "purplefontSmall",
-    "image": "assets/img/interface/icons/pediatric-icon.svg"
-  },
-  {
-    "id": 4,
-  	"alt": "Find a dentist",
-    "gray_title": "Find Nearest ",
-    "other_title": "Dentist",
-    "other_title_class": "bluefontSmall",
-    "image": "assets/img/interface/icons/dentist-icon.svg"
-  },
-  {
-    "id": 5,
-  	"alt": "Nearest pharmacy",
-    "gray_title": "Find Nearest ",
-    "other_title": "Pharmacy",
-    "other_title_class": "greenfontSmall",
-    "image": "assets/img/interface/icons/pharmacy-icon.svg"
-  }
-]
+{
+  "slides": [
+    {
+      "id": 0,
+    	"alt": "Nearest hospital",
+      "gray_title": "Find Nearest ",
+      "other_title": "Hospital",
+      "other_title_class": "bluefontSmall",
+      "image": "assets/img/interface/icons/hospital-icon.svg"
+    },
+    {
+      "id": 1,
+    	"alt": "Nearest urgent care",
+      "gray_title": "Find Nearest ",
+      "other_title": "Urgent Care",
+      "other_title_class": "redfontSmall",
+      "image": "assets/img/interface/icons/urgentcare-icon.svg"
+    },
+    {
+      "id": 2,
+    	"alt": "Find a doctor",
+      "gray_title": "Find Nearest ",
+      "other_title": "Doctor",
+      "other_title_class": "orangefontSmall",
+      "image": "assets/img/interface/icons/doctor-icon.svg"
+    },
+    {
+      "id": 3,
+    	"alt": "Find a pediatrician",
+      "gray_title": "Find ",
+      "other_title": "Children's Clinic",
+      "other_title_class": "purplefontSmall",
+      "image": "assets/img/interface/icons/pediatric-icon.svg"
+    },
+    {
+      "id": 4,
+    	"alt": "Find a dentist",
+      "gray_title": "Find Nearest ",
+      "other_title": "Dentist",
+      "other_title_class": "bluefontSmall",
+      "image": "assets/img/interface/icons/dentist-icon.svg"
+    },
+    {
+      "id": 5,
+    	"alt": "Nearest pharmacy",
+      "gray_title": "Find Nearest ",
+      "other_title": "Pharmacy",
+      "other_title_class": "greenfontSmall",
+      "image": "assets/img/interface/icons/pharmacy-icon.svg"
+    }
+  ]
+}

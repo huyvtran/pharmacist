@@ -1,0 +1,15 @@
+{
+	"header": [
+		"<div class=\"maxwidth450 opacity8\">\r\n\t<div class=\"ovalBorderRightBlue centerText\">\r\n\t<span> 2 ways to get the best over-the-counter recommendation to meet your self-care healthcare needs.<\/span><br>\r\n\t<\/div>\r\n\t<div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-john.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t<div class=\"clearboth divider1\"><\/div>\r\n\t  <\/div>\r\n\t  <p class=\"blueBorderTrans\">1. Check your symptoms first to be sure you are getting the right recommendation. Use our interactive, actionable, and efficient symptoms elimination and review system. <span class=\"grayfontItalicSmall\">(Highly recommended)<\/span><\/p>\r\n\t  <p class=\"orangeBorderAll\">2. Skip to go straight to a pharmacist's over-the-counter recommendation. You would do this if you are very sure about what symptoms you are looking at. <\/p>\r\n\t  <p>&nbsp;<\/p>",
+		"<div class=\"opacity7\">\r\n<div class=\"maxwidth450\">\r\n  <div class=\"ovalBorderRightPurple_red centerText\">\r\n<span> 2 ways to get the best over-the-counter recommendation to meet your child's self-care healthcare needs.<\/span><br>\r\n  <\/div>\r\n  <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-pink.svg\" width=\"110\" alt=\"Pharmacist\"><\/div>\r\n<\/div>\r\n<div class=\"clearboth divider1\"><\/div>\r\n<p>&nbsp;<\/p>\r\n<\/div>\r\n<p class=\"blueBorderTrans\">1. Check your child's symptoms first to be sure you are getting the right recommendation. Use our interactive, actionable, and efficient symptoms elimination and review system. <span class=\"grayfontItalicSmall\">(Highly recommended)<\/span><\/p>\r\n<p class=\"orangeBorderAll\">2. Skip to go straight to a pharmacist's over-the-counter recommendation. You would do this if you are very sure about what your child is experiencing. <\/p>\r\n<p>&nbsp;<\/p>"
+	],
+	"atag1": [
+		"linkOrangeBorder",
+		"linkPinkBorder"
+	],
+	"atag2": [
+		"linkBlue",
+		"linkOrange"
+	],
+	"footer": "<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>"
+}

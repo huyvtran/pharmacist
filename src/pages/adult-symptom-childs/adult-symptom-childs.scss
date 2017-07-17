@@ -1,0 +1,39 @@
+
+page-adult-symptom-childs {
+	font-size: 16px;
+	#allergy3_mobile_q1_form_div span{
+		font-size: 2em;
+	}
+	.ui-popup-screen{
+		position: fixed;
+	}
+	.ui-content a.ui-btn{
+		border-width: 1px !important;
+		border-style: solid !important;
+	}
+	.ui-content.ui-popup{
+		overflow-x: visible !important;
+	}
+	.ui-popup-container .ui-btn-icon-notext:after{
+		position: initial;
+		margin-top: -17px;
+		margin-left: 2px;
+	}
+	.ui-header .robotoLight p{
+		margin: 0px;
+		padding: 1em;
+	}
+	.ui-field-contain label{
+		font-size: 1em;
+	}
+    ion-navbar.fullWidth.bgCyan,
+    ion-navbar.fullWidth.bgLightBlue,
+    ion-navbar.fullWidth.bgDeepOrange,
+    ion-navbar.fullWidth.bgGreen,
+    ion-navbar.fullWidth.bgPink,
+    ion-navbar.fullWidth.bgRed,
+    ion-navbar.fullWidth.bgOrange
+	{
+		padding-left: 0px !important;
+	}
+}

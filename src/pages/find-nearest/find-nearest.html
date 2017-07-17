@@ -19,12 +19,7 @@
 	</ion-navbar>
 	<ion-navbar class="fullWidth">
 	  	<div class="{{setting.spinner}} floatright"></div>
-	    <p *ngIf="pageId==0 && locationPage==1" class="robotoLight {{setting.p}}">Nearby hospital</p>
-	    <p *ngIf="pageId==1 && locationPage==1" class="robotoLight {{setting.p}}">Nearest Urgent Care</p>
-	    <p *ngIf="pageId==2 && locationPage==1" class="robotoLight {{setting.p}}">Nearby doctor's offices</p>
-		<p *ngIf="pageId==3 && locationPage==1" class="robotoLight {{setting.p}}">Nearby Children's Clinic</p>
-		<p *ngIf="pageId==4 && locationPage==1" class="robotoLight {{setting.p}}">Nearby Dentist</p>
-		<p *ngIf="pageId==5 && locationPage==1" class="robotoLight {{setting.p}}">Nearby Pharmacy</p>
+		<p *ngIf="locationPage==1" class="robotoLight {{setting.p}}">{{html_data?.navbar[pageId]}}</p>
 		<p *ngIf="locationPage==2" class="robotoLight {{setting.p}}">Search By Address</p>
 		<p *ngIf="locationPage==3" class="robotoLight {{setting.p}}">&nbsp;</p>
 	</ion-navbar>
@@ -36,15 +31,10 @@
 		  <div class="opacity7">
 		    <div class="maxwidth450">
 		      <div class="{{setting.oval}} centerText">
-		        <span>From <span class="orangefont">where</span> should the search begin?</span><br>
+		        <span>From <span class="{{setting.font}}">where</span> should the search begin?</span><br>
 		      </div>
 		      <div align="right">
-				<img src="assets/img/pharm/female/pharm-alicia-cyan.svg" width="100" *ngIf="pageId==0">
-				<img src="assets/img/pharm/female/pharm-amanda-pink.svg" width="100" *ngIf="pageId==1">
-				<img src="assets/img/pharm/female/pharm-karen-orange.svg" width="100" *ngIf="pageId==2">
-				<img src="assets/img/pharm/female/pharm-selena-deep-purple.svg" width="100" *ngIf="pageId==3">
-				<img src="assets/img/pharm/male/pharm-peter.svg" width="100" *ngIf="pageId==4">
-				<img src="assets/img/pharm/female/pharm-amy-green.svg" width="100" *ngIf="pageId==5">
+		      	<img src="{{html_data?.imgsrc[pageId]}}" width="100">
 		      </div>
 		    </div>
 		    <p>&nbsp;</p>
@@ -52,49 +42,17 @@
 		    <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
 		      <li class="ui-li-has-icon ui-first-child" (tap)="useCurrentLocation()">
 		        <a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-		          <img src="assets/img/icons/Map-Marker-Ball-Pink.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==0">
-		          <h3 class="orangefont" *ngIf="pageId==0">Use My Current Location</h3>
-
-		          <img src="assets/img/icons/Map-Marker-Ball-Pink.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==1">
-		          <h3 class="redfont" *ngIf="pageId==1">Use My Current Location</h3>
-
-		          <img src="assets/img/icons/Map-Marker-Ball-Red.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==2">
-			      <h3 class="orangefont" *ngIf="pageId==2">Use My Current Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Red.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==3">
-			      <h3 class="purplefont" *ngIf="pageId==3">Use My Current Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Pink.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==4">
-			      <h3 class="orangefont" *ngIf="pageId==4">Use My Current Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Pink.png" alt="Pink location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==5">
-			      <h3 class="orangefont" *ngIf="pageId==5">Use My Current Location</h3>
-		          
-		          <p class="grayfontSmall">Search based on where you are now.</p>
+		        	<img src="{{html_data?.curloc[pageId]}}" alt="location icon" class="ui-li-icon ui-corner-none">
+		         	<h3 class="{{setting.font}}">Use My Current Location</h3>
+					<p class="grayfontSmall">Search based on where you are now.</p>
 		        </a>
 		      </li>
 		      <hr class="{{setting.hr}}">
 		      <li data-icon="arrow-d" class="ui-li-has-icon ui-last-child" (tap)="toggleLocationByInput()">
 		        <a href="#" id="show_address_form" class="ui-btn ui-btn-icon-right ui-icon-arrow-d">
-		          <img src="assets/img/icons/Map-Marker-Ball-Blue.png" alt="Blue location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==0">
-		          <h3 class="bluefont" *ngIf="pageId==0">I will enter a Location</h3>
-
-		          <img src="assets/img/icons/Map-Marker-Ball-Blue.png" alt="Blue location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==1">
-			      <h3 class="purple_redfont" *ngIf="pageId==1">I will enter a Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Blue.png" alt="Orange location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==2">
-			      <h3 class="bluefont" *ngIf="pageId==2">I will enter a Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Blue.png" alt="Purple location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==3">
-			      <h3 class="bluefont" *ngIf="pageId==3">I will enter a Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Blue.png" alt="Blue location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==4">
-			      <h3 class="bluefont" *ngIf="pageId==4">I will enter a Location</h3>
-
-			      <img src="assets/img/icons/Map-Marker-Ball-Green.png" alt="Green location icon" class="ui-li-icon ui-corner-none" *ngIf="pageId==5">
-			      <h3 class="greenfont" *ngIf="pageId==5">I will enter a Location</h3>
-
-		          <p class="grayfontSmall">Address | City, State | Zip code</p>
+		        	<img src="{{html_data?.enterloc[pageId]}}" alt="Location icon" class="ui-li-icon ui-corner-none">
+					<h3 class="{{html_data?.h3[pageId]}}">I will enter a Location</h3>
+					<p class="grayfontSmall">Address | City, State | Zip code</p>
 		        </a>
 		      </li>
 		    </ul>
@@ -109,9 +67,6 @@
 			            	<span class="mbsc-input-wrap">
 			            		<input name="enter_address" id="enter_address" placeholder="Start typing address here...." autocorrect="off" autocapitalize="off" spellcheck="off" type="text" class="form-control" #search [formControl]="searchControl" class="mbsc-control mbsc-control-ev">
 				            </span>
-				            <!-- <sebm-google-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="true" [zoom]="zoom">
-				            	<sebm-google-map-marker [latitude]="latitude" [longitude]="longitude"></sebm-google-map-marker>
-							</sebm-google-map> -->
 			            </div>
 			            <p class="centerText"><br>
 			                <a href="#" class="linkAmberBorder ui-link" data-inline="true" (tap)="transitionPage(2)">Here You Go</a>
@@ -119,8 +74,7 @@
 			        </div>
 			    </form>
 			</div>
-		    <p>&nbsp;</p>
-		    <p>&nbsp;</p>
+		    <div [innerHTML]="html_data?.ppp"></div>
 		  </div>
 		  <div class="{{setting.spinner}} floatright"></div>
 
@@ -130,49 +84,26 @@
 	    <div class="opacity8">
 	        <div class="maxwidth450">
 	            <div class="{{setting.oval}} centerText">
-	                <span *ngIf="pageId==0">The <span class="bluefont">address you entered</span> is shown below. If correct, let's find the nearby hospital to you.</span>
-	                <span *ngIf="pageId==1">The <span class="purple_redfont">address you entered</span> is shown below. If correct, let's find the nearest urgent care clinic to you.</span>
-	                <span *ngIf="pageId==2">The <span class="orangefont">address you entered</span> is shown below. If correct, let's find the nearby doctor to you.</span>
-	                <span *ngIf="pageId==3">The <span class="purplefont">address you entered</span> is shown below. If correct, let's find the nearby pediatrician to you.</span>
-	                <span *ngIf="pageId==4">The <span class="bluefont">address you entered</span> is shown below. If correct, let's find the nearby dental clinic to you.</span>
-	                <span *ngIf="pageId==5">The <span class="greenfont">address you entered</span> is shown below. If correct, let's find the nearby pharmacy to you.</span>
+	            	<span [innerHTML]="html_data?.content[pageId]"></span>
 	                <br>
 	            </div>
 	            <div align="right">
-	            	<img src="assets/img/pharm/female/pharm-alicia-cyan.svg" width="100" *ngIf="pageId==0">
-			      	<img src="assets/img/pharm/female/pharm-amanda-pink.svg" width="100" *ngIf="pageId==1">
-			      	<img src="assets/img/pharm/female/pharm-karen-orange.svg" width="100" *ngIf="pageId==2">
-			      	<img src="assets/img/pharm/female/pharm-selena-deep-purple.svg" width="100" *ngIf="pageId==3">
-			      	<img src="assets/img/pharm/male/pharm-peter.svg" width="100" *ngIf="pageId==4">
-			      	<img src="assets/img/pharm/female/pharm-amy-green.svg" width="100" *ngIf="pageId==5">
+	            	<img src="{{html_data?.imgsrc[pageId]}}" width="100">
 	            </div>
 	        </div>
 	        <div class="clearboth divider1"></div>
-	        <!-- ---------------End Border right person------------------- -->
 	        <p>&nbsp;</p>
-	        <h3 class="lineBlue bluefont" *ngIf="pageId==0">You entered a location of:</h3>
-	        <h3 class="lineRed orangefont" *ngIf="pageId==1">You entered a location of:</h3>
-			<h3 class="lineRed redfont" *ngIf="pageId==2">You entered a location of:</h3>
-			<h3 class="lineRed redfont" *ngIf="pageId==3">You entered a location of:</h3>
-			<h3 class="lineBlue bluefont" *ngIf="pageId==4">You entered a location of:</h3>
-			<h3 class="lineGreen greenfont" *ngIf="pageId==5">You entered a location of:</h3>
+	        <h3 class="{{html_data?.line[pageId]}} {{html_data?.h3[pageId]}}">You entered a location of:</h3>
         	<div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset bg_highlight">
         		{{mapData.location}}
         	</div>
 	        <p>&nbsp;</p>
 	        <div class="clearboth divider1"></div>
 	        <p class="centerText">
-	            <a href="#" *ngIf="pageId==0" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Hospital</a>
-	            <a href="#" *ngIf="pageId==1" class="linkPinkBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Clinic</a>
-				<a href="#" *ngIf="pageId==2" class="linkOrangeBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Doctor</a>
-				<a href="#" *ngIf="pageId==3" class="linkPurpleBorder ui-link" id="pediatric_doctor_list" data-inline="true" (tap)="findHospital()">Find Nearby Pediatrician</a>
-				<a href="#" *ngIf="pageId==4" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Dentist</a>
-				<a href="#" *ngIf="pageId==5" class="linkGreenBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Pharmacy</a>
+	        	<a href="#" class="{{html_data?.aclass[pageId]}} ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">{{html_data?.atext[pageId]}}</a>
 	        </p>
 	        <div class="{{setting.spinner}} floatright"></div>
-	        <p>&nbsp;</p>
-	        <p>&nbsp;</p>
-	        <p>&nbsp;</p>
+	        <div [innerHTML]="html_data?.ppp"></div>
 	    </div>
 	    
 	</div>
@@ -180,21 +111,11 @@
 	    <div class="opacity8">
 	        <div class="maxwidth450">
 	            <div class="{{setting.oval}} centerText">
-	                <span *ngIf="pageId==0">Your <span class="bluefont">current location</span> is shown below. If correct, let's find the nearest hospital to you.</span>
-	                <span *ngIf="pageId==1">Your <span class="purple_redfont">current location</span> is shown below. If this is correct, let's find a nearby urgent care clinic.</span>
-					<span *ngIf="pageId==2">Your <span class="orangefont">current location</span> is shown below. If correct, let's find the nearby doctor to you.</span>
-					<span *ngIf="pageId==3">Your <span class="purplefont">current location</span> is shown below. If correct, let's find the nearby pediatrician to you.</span>
-					<span *ngIf="pageId==4">Your <span class="bluefont">current location</span> is shown below. If correct, let's find the nearby dental clinic to you.</span>
-					<span *ngIf="pageId==5">Your <span class="greenfont">current location</span> is shown below. If correct, let's find the nearby pharmacy to you.</span>
+	            	<span [innerHTML]="html_data?.conten2[pageId]"></span>
 	                <br>
 	            </div>
 	            <div align="right">
-	            	<img src="assets/img/pharm/female/pharm-alicia-cyan.svg" width="100" *ngIf="pageId==0">
-			      	<img src="assets/img/pharm/female/pharm-amanda-pink.svg" width="100" *ngIf="pageId==1">
-			      	<img src="assets/img/pharm/female/pharm-karen-orange.svg" width="100" *ngIf="pageId==2">
-			      	<img src="assets/img/pharm/female/pharm-selena-deep-purple.svg" width="100" *ngIf="pageId==3">
-			      	<img src="assets/img/pharm/male/pharm-peter.svg" width="100" *ngIf="pageId==4">
-			      	<img src="assets/img/pharm/female/pharm-amy-green.svg" width="100" *ngIf="pageId==5">
+	            	<img src="{{html_data?.imgsrc[pageId]}}" width="100">
 	            </div>
 	        </div>
 	        <div class="clearboth divider1"></div>
@@ -212,25 +133,13 @@
 	        <div class="clearboth divider1"></div>
 	        <br>
 	        <p class="centerText">
-	            <a href="#" *ngIf="pageId==0" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Hospital</a>
-	            <a href="#" *ngIf="pageId==1" class="linkPinkBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Clinic</a>
-				<a href="#" *ngIf="pageId==2" class="linkOrangeBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Doctor</a>
-				<a href="#" *ngIf="pageId==3" class="linkPurpleBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Pediatrician</a>
-				<a href="#" *ngIf="pageId==4" class="linkBlueBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Dentist</a>
-				<a href="#" *ngIf="pageId==5" class="linkGreenBorder ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">Find Nearby Pharmacy</a>
+	        	<a href="#" class="{{html_data?.aclass[pageId]}} ui-link" id="hospital_list" data-inline="true" (tap)="findHospital()">{{html_data?.atext[pageId]}}</a>
 	        </p>
 	        <div class="{{setting.spinner}} floatright"></div>
-	        <p>&nbsp;</p>
-	        <p>&nbsp;</p>
-	        <p>&nbsp;</p>
+	        <div [innerHTML]="html_data?.ppp"></div>
 	    </div>
 	    
 	</div>
-	
-	<p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+	<div [innerHTML]="html_data?.ppp"></div>
+	<div [innerHTML]="html_data?.ppp"></div>
 </ion-content>

@@ -37,7 +37,6 @@ export class CompareChildsContainerPage {
 	constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
 	    this.menu = menu;
 		this.pageId = GlobalVars.getPageId();
-	  	this.menu = menu;
 	  	this.setting = GlobalVars.getPageSetting(mode[this.pageId]);
 	}
 	showMenu() {

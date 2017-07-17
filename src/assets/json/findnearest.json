@@ -1,0 +1,83 @@
+{
+	"navbar": [
+		"Nearby hospital",
+		"Nearest Urgent Care",
+		"Nearby doctor's offices",
+		"Nearby Children's Clinic",
+		"Nearby Dentist",
+		"Nearby Pharmacy"
+	],
+	"imgsrc": [
+		"assets/img/pharm/female/pharm-alicia-cyan.svg",
+		"assets/img/pharm/female/pharm-amanda-pink.svg",
+		"assets/img/pharm/female/pharm-karen-orange.svg",
+		"assets/img/pharm/female/pharm-selena-deep-purple.svg",
+		"assets/img/pharm/male/pharm-peter.svg",
+		"assets/img/pharm/female/pharm-amy-green.svg"
+	],
+	"curloc": [
+		"assets/img/icons/Map-Marker-Ball-Pink.png",
+		"assets/img/icons/Map-Marker-Ball-Pink.png",
+		"assets/img/icons/Map-Marker-Ball-Red.png",
+		"assets/img/icons/Map-Marker-Ball-Red.png",
+		"assets/img/icons/Map-Marker-Ball-Pink.png",
+		"assets/img/icons/Map-Marker-Ball-Pink.png"
+	],
+	"enterloc": [
+		"assets/img/icons/Map-Marker-Ball-Blue.png",
+		"assets/img/icons/Map-Marker-Ball-Blue.png",
+		"assets/img/icons/Map-Marker-Ball-Blue.png",
+		"assets/img/icons/Map-Marker-Ball-Blue.png",
+		"assets/img/icons/Map-Marker-Ball-Blue.png",
+		"assets/img/icons/Map-Marker-Ball-Green.png"
+	],
+	"h3": [
+		"bluefont",
+		"purple_redfont",
+		"bluefont",
+		"bluefont",
+		"bluefont",
+		"greenfont"
+	],
+	"content": [
+		"The <span class=\"bluefont\">address you entered<\/span> is shown below. If correct, let's find the nearby hospital to you.",
+		"The <span class=\"purple_redfont\">address you entered<\/span> is shown below. If correct, let's find the nearest urgent care clinic to you.",
+		"The <span class=\"orangefont\">address you entered<\/span> is shown below. If correct, let's find the nearby doctor to you.",
+		"The <span class=\"purplefont\">address you entered<\/span> is shown below. If correct, let's find the nearby pediatrician to you.",
+		"The <span class=\"bluefont\">address you entered<\/span> is shown below. If correct, let's find the nearby dental clinic to you.",
+		"The <span class=\"greenfont\">address you entered<\/span> is shown below. If correct, let's find the nearby pharmacy to you."
+	],
+	"line": [
+		"lineBlue",
+		"lineRed",
+		"lineRed",
+		"lineRed",
+		"lineBlue",
+		"lineGreen"
+	],
+	"ppp": "<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>\r\n\t<p>&nbsp;<\/p>",
+	"aclass": [
+		"linkBlueBorder",
+		"linkPinkBorder",
+		"linkOrangeBorder",
+		"linkPurpleBorder",
+		"linkBlueBorder",
+		"linkGreenBorder"
+	],
+	"atext": [
+		"Find Nearby Hospital",
+		"Find Nearby Clinic",
+		"Find Nearby Doctor",
+		"Find Nearby Pediatrician",
+		"Find Nearby Dentist",
+		"Find Nearby Pharmacy"
+	],
+	"content2": [
+		"Your <span class=\"bluefont\">current location<\/span> is shown below. If correct, let's find the nearest hospital to you.",
+		"Your <span class=\"purple_redfont\">current location<\/span> is shown below. If this is correct, let's find a nearby urgent care clinic.",
+		"Your <span class=\"orangefont\">current location<\/span> is shown below. If correct, let's find the nearby doctor to you.",
+		"Your <span class=\"purplefont\">current location<\/span> is shown below. If correct, let's find the nearby pediatrician to you.",
+		"Your <span class=\"bluefont\">current location<\/span> is shown below. If correct, let's find the nearby dental clinic to you.",
+		"Your <span class=\"greenfont\">current location<\/span> is shown below. If correct, let's find the nearby pharmacy to you."
+	]
+}

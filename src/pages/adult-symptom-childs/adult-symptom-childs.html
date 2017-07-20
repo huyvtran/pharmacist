@@ -2,9 +2,9 @@
 <ion-header class="ui-header {{setting.class}}">
   <ion-navbar>
     <ion-title>
-    	<h1 class="ui-title">
-      	Allergy
-      </h1>
+    	<h1 class="ui-title" *ngIf="html_data!=null">
+      		{{html_data[pageId]?.title}}
+      	</h1>
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-only (tap)="showMenu()">
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		<div data-role="fieldcontain" class="ui-field-contain" *ngIf="html_data[pageId]?.pages[page]['slider']!=null">
-            <label for="slider_cold_fever_mobile" id="slider_cold_fever_mobile-label">Temp <span class="redfont">( °F )</span>:</label>
+            <label for="slider_cold_fever_mobile" id="slider_cold_fever_mobile-label" [innerHTML]="html_data[pageId]?.pages[page]['slider']['label']"></label>
             <div class="ui-slider">
             	<ion-item>
 					<ion-range min="{{html_data[pageId]?.pages[page]['slider']['min']}}" max="{{html_data[pageId]?.pages[page]['slider']['max']}}" step="{{html_data[pageId]?.pages[page]['slider']['step']}}" [(ngModel)]="currentTemp" color="sliderPink">
@@ -49,13 +49,46 @@
             </div>
             <input type="hidden" id="mobi_cold_temp" name="mobi_cold_temp" value="" class="displayNone mbsc-comp" readonly="">
         </div>
+
+        <div *ngIf="html_data[pageId]?.pages[page]['lists']!=null">
+	        <ng-container *ngFor="let each_data of html_data[pageId]?.pages[page]['lists']; let i = index">
+	        	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content " [ngClass]="{'ui-collapsible-collapsed': pages[i]}">
+	            	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+	            		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" [ngClass]="{'ui-icon-arrow-r': pages[i], 'ui-icon-arrow-d': !pages[i]}" (tap)="togglePages(i)">
+	            			<div [innerHTML]="each_data?.title"></div>
+	            		</a>
+	            	</h3>
+	            	<div class="ui-collapsible-content ui-body-inherit " [ngClass]="{'ui-collapsible-content-collapsed': pages[i]}" aria-hidden="true">
+	            		<div [innerHTML]="each_data?.content"></div>
+	            	</div>
+	            </div>
+	        </ng-container>
+	    </div>
+	    <div *ngIf="html_data[pageId]?.pages[page]['buttonlist']!=null">
+	    	<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-listview ui-listview-inset ui-corner-all ui-shadow">
+	    		<li *ngFor="let each_data of html_data[pageId]?.pages[page]['buttonlist']">
+	    			<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="togglePage(each_data?.go)">
+	                    <div [innerHTML]="each_data?.title"></div>
+	                </a>
+	    		</li>
+	    	</ul>
+	   	</div>
 		<p class="centerText" *ngIf="html_data[pageId]?.pages[page]['options']==null">
 			<ng-container *ngFor="let each_but of html_data[pageId]?.pages[page]['buttons']">
+				<p *ngIf="each_but.type=='refresh'" class="orangeBorderWhite orangefontSmall centerText">
+					If this is the case, tap&nbsp;  <span data-inline="true" class="mbsc-ic mbsc-ic-ion-ios7-refresh-outline mobi-icon-font40 refreshPage" (click)="processFunc(each_but)"></span> to start over.<br>
+				</p>
+				<a *ngIf="each_but.type=='tel'" href="tel:" data-role="button" data-inline="true" class="ui-link ui-btn ui-btn-{{each_but.theme}} ui-btn-inline ui-shadow ui-corner-all" role="button">{{each_but.title}}</a>
+				<div *ngIf="each_but.type=='div'" href="#" class="{{each_but.theme}}" role="button">
+					<a href="#" data-rel="popup" data-transition="slide" class="linkBanner ui-link" aria-haspopup="true" aria-owns="3BPRa-jpg-modal" aria-expanded="false" (click)="processFunc(each_but)">
+		                <div [innerHTML]="each_but.title"></div>
+		            </a>
+				</div>
 				<a *ngIf="each_but.type=='a'" href="#" class="ui-link ui-btn ui-btn-{{each_but.theme}} ui-btn-inline ui-shadow ui-corner-all" role="button" (click)="processFunc(each_but)">
-					{{each_but.title}}
+					<div [innerHTML]="each_but.title"></div>
 				</a>
 				<button *ngIf="each_but.type=='button'" data-inline="true" class="allergy1_mobile_2_y_link ui-btn ui-btn-{{each_but.theme}} ui-btn-inline ui-shadow ui-corner-all" (click)="processFunc(each_but)">
-					{{each_but.title}}
+					<div [innerHTML]="each_but.title"></div>
 				</button>
 			</ng-container>
 		</p>

@@ -18,7 +18,11 @@ export class AdultSymptomChildsPage {
 
 	pagemode = {
 		0: 'h',
-		1: 'a'
+		1: 'a',
+		2: 'i',
+		3: 'n',
+		4: 'n',
+		5: 'p'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -30,6 +34,7 @@ export class AdultSymptomChildsPage {
 	currentTemp: any;
 	dlgcount: number;
 	recs: any;
+	pages: any;
 	page: number;
 	mode: number;
 	subPages: any;
@@ -71,14 +76,31 @@ export class AdultSymptomChildsPage {
 					"id": 24,
 					"page": AdultSymptomChildsPage
 				},
-				{	// 205 AllergiesMobilePage
+				{	// 206 AllergiesMobilePage
 					"id": 0,
 					"page": AdultSymptomChildsPage
+				},
+				{	// 207 ColdMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 208 FluMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 209 SleepInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 210 HairlossInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
 				}
 			];
 		this.recs = [
 			false, false, false, false, false, false, false, false, false, false, false, false, false
 		];
+		this.pages = [true, true, true, true, true, true, true, true, true, true, true, true, true];
 		this.mode = 0;
 	}
 	getTitle(){
@@ -109,8 +131,10 @@ export class AdultSymptomChildsPage {
 			return "";
 	}
 	getHtmlData(){
+		let num = Math.floor(this.pageId / 4);
 	    this.html_data =  null;
-	    this.http.get("assets/json/adult_symptom_childs.json").map(response => response.json()).subscribe(data => {
+	    console.log(num);
+	    this.http.get("assets/json/adult_symptom_childs_" + num + ".json").map(response => response.json()).subscribe(data => {
 	        this.html_data = data;
 	        this.FYIDlg = this.html_data[this.pageId]['fyidlg'];
 	        this.dlgcount = this.FYIDlg.length;
@@ -123,7 +147,9 @@ export class AdultSymptomChildsPage {
 	  	this.menu.open();
 	}
 	processFunc(button: any){
-		if (button.go >= 0)
+		if (button.go == 0) 
+			return;
+		else if (button.go > 0)
 		{
 			let slider, myslider, options;
 			myslider = this.html_data[this.pageId]['pages'][this.page]['slider'];
@@ -160,6 +186,9 @@ export class AdultSymptomChildsPage {
 			this.navCtrl.push(this.subPages[ind].page);
 		}
 	}
+	togglePages(ind: number) {
+	    this.pages[ind] = !this.pages[ind];
+	}
 	toggleFYIDlg(b: boolean, id: number) {
 		if (b)
 		{
@@ -195,10 +224,11 @@ export class AdultSymptomChildsPage {
 		if (this.pageId == 0 && ind == 32)
 		{
 			let len = 0;
-			for (let i=0;i<5;i++)
+			for (let i=0;i<6;i++)
 			{
 				if (this.recs[i] == true) len++;
 			}
+			this.mode = 0;
 			if (this.recs[10] == true)
 				this.page = 32;
 			else if (len>0)
@@ -210,7 +240,7 @@ export class AdultSymptomChildsPage {
 		}
 		else if (this.pageId == 1 && ind == 11){
 			let trueCount = 0;
-		  	for (let i=0;i<this.recs.length-1;i++)
+		  	for (let i=0;i<9;i++)
 		  		if (this.recs[i] == true)
 		  			trueCount ++;
 	    	if (this.recs[10] == true)
@@ -230,6 +260,125 @@ export class AdultSymptomChildsPage {
 	    	if (this.mode != 6)
 	    		ind = 11 + this.mode - 1;
 		}
+		else if (this.pageId == 1 && ind == 42){
+	    	let trueCount = 0;
+		  	for (let i=0;i<6;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	this.mode = 0;
+		  	if (this.recs[10] == true)
+		  		ind = 43;
+		  	else if (trueCount > 0)
+		  		ind = 42;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 41;
+		  	}
+	    }
+	    else if (this.pageId == 2 && ind == 51)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<9;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[9] == true)
+		  		this.mode = 2;
+		  	else if (trueCount > 0)
+		  		this.mode = 3;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 50;
+		  	}
+		  	if (this.mode != 100) ind = 50 + this.mode;
+	  	}
+	  	else if (this.pageId==3 && ind == 111)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<5;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[3] == true)
+		  		this.mode = 2;
+		  	else if (trueCount > 0)
+		  		this.mode = 3;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 110;
+		  	}
+		  	if (this.mode != 100) ind = 110 + this.mode;
+	  	}
+	  	else if (this.pageId==4 && ind == 21)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<7;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (trueCount > 0)
+		  		this.mode = 2;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 20;
+		  	}
+			if (this.mode != 100) ind = 20 + this.mode;
+	  	}
+	  	else if (this.pageId==4 && ind == 31)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<7;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[5] == true)
+		  		this.mode = 2;
+		  	else if (trueCount > 0)
+		  		this.mode = 3;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 30;
+		  	}
+		  	if (this.mode != 100) ind = 30 + this.mode;
+	  	}
+	  	else if (this.pageId==4 && ind == 41)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<6;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (trueCount > 0)
+		  		this.mode = 2;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 40;
+		  	}
+		  	if (this.mode != 100) ind = 40 + this.mode;
+	  	}
+	  	else if (this.pageId==4 && ind == 61)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<6;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[3] == true)
+		  		this.mode = 2;
+		  	else if (trueCount > 0)
+		  		this.mode = 3;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 60;
+		  	}
+		  	if (this.mode != 100) ind = 60 + this.mode;
+	  	}
 		this.page = ind;
 	}
 	ionViewDidLoad() {

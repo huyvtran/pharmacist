@@ -63171,7 +63171,8 @@ page-adult-symptom-childs ion-navbar.fullWidth.bgDeepOrange,
 page-adult-symptom-childs ion-navbar.fullWidth.bgGreen,
 page-adult-symptom-childs ion-navbar.fullWidth.bgPink,
 page-adult-symptom-childs ion-navbar.fullWidth.bgRed,
-page-adult-symptom-childs ion-navbar.fullWidth.bgOrange {
+page-adult-symptom-childs ion-navbar.fullWidth.bgOrange,
+page-adult-symptom-childs ion-navbar.fullWidth.bgTeal {
   padding-left: 0px !important;
 }
 

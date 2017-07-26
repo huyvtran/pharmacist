@@ -22,7 +22,10 @@ export class AdultSymptomChildsPage {
 		2: 'i',
 		3: 'n',
 		4: 'n',
-		5: 'p'
+		5: 'p',
+		6: 'a',
+		7: 'i',
+		8: 'i'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -95,6 +98,18 @@ export class AdultSymptomChildsPage {
 				{	// 210 HairlossInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
+				},
+				{	// 211 DandruffInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 212 LiceInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 213 PinkeyeMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
 				}
 			];
 		this.recs = [
@@ -108,6 +123,7 @@ export class AdultSymptomChildsPage {
 	    {
 	    	let navbar = this.html_data[this.pageId].navbar;
 	    	let title: string;
+	    	title = "&nbsp;";
 	    	for (let each in navbar) {
 	    		if (navbar[each]['min'] <=this.page && navbar[each]['max']>this.page)
 	    		{
@@ -157,7 +173,7 @@ export class AdultSymptomChildsPage {
 			{
 				let sliderstep = this.html_data[this.pageId]['pages'][this.page]['sliderstep'], go = this.page+1;
 				for (let each in sliderstep) {
-		    		if (sliderstep[each]['min'] <this.page && sliderstep[each]['max']>=this.page)
+		    		if (sliderstep[each]['min'] <this.currentTemp && sliderstep[each]['max']>=this.currentTemp)
 		    		{
 		    			go = sliderstep[each]['go']; break;
 		    		}

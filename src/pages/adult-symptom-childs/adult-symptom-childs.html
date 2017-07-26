@@ -100,7 +100,7 @@
 		<div class="ui-popup-container pop in ui-popup-active" id="allergy_mobile_pop-popup" *ngIf="eachDlg.show" [ngStyle]="{'max-width': eachDlg.maxWidth+'px','top': eachDlg.top+'px', 'left': eachDlg.left+'px', 'width': eachDlg.width+'px'}">
 		    <div data-role="popup" id="allergy_mobile_pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">
 		        <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-link ui-btn ui-icon-delete ui-btn-icon-notext ui-shadow ui-corner-all" role="button" (tap)="toggleFYIDlg(false,i)">Close</a>
-		        <div [innerHTML]="html_data[pageId]?.dlg[i]"></div>
+		        <div [innerHTML]="html_data[pageId]?.dlg[i]" style="max-height: 500px; overflow-y: scroll;"></div>
 		    </div>
 		</div>
 	</ng-container>

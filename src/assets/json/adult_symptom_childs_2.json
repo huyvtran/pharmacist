@@ -1,0 +1,172 @@
+{
+	"8": {
+		"title": "Pink Eye",
+		"dlg": [
+			"<p class=\"redBorder\"> This inflammation or infection causes blood vessels in these areas to become more pronounced and so the whites of your eyes take a pink or red color.<\/p>\r\n\t        <p class=\"redBorderAll centerText\"><span class=\"redfont\">What caused this inflammation?<\/span><br><br>It might be virus, bacteria, allergy , chemicals, contact lenses or trauma.<\/p>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 176,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Pink eye?"
+			},
+			"1": {
+				"min": 1,
+				"max": 20,
+				"content": "Is it pink eye?"
+			},
+			"2": {
+				"min": 20,
+				"max": 30,
+				"content": "Next question."
+			},
+			"3": {
+				"min": 40,
+				"max": 60,
+				"content": "Need a doctor?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red\">\r\n\t            <span>This is <span class=\"purple_redfont\">inflammation or infection<\/span> of the thin, transparent film that lines the eyeball or eyelids.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border left person------------------- -->\r\n\t    <!------Start Popoup div----- -->   \r\n\t    <div style=\"display: none;\" id=\"pinkeye_mobile_pop-placeholder\">\r\n\t        <!-- placeholder for pinkeye_mobile_pop -->\r\n\t    <\/div>\r\n\t    <!------End Popoup div----- -->\r\n\t    <div class=\"redBorder centerText\">\r\n\t        <p> Let's see what you need to do and how best to take care of this.<\/p>\r\n\t        <p><\/p>\r\n\t        <hr class=\"hrpink\">\r\n\t        <br>\r\n\t        <p class=\"centerText\">\r\n\t            <img src=\"assets\/img\/people\/adult\/eyes\/eye-rubbing-lady.svg\" width=\"200\" alt=\"lady rubbing the eye\">\r\n\t        <\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"orangefont firstname\"><\/span><br>\r\n\t                <span>the first question you would ask yourself if the eye is <span class=\"redfont\">inflamed<\/span> is:<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        <span class=\"redfont\">\"Does this look like pink eye?\"<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <p class=\"redBorder centerText\">Let's start with that.<\/p>\r\n\t        <p class=\"redBorder centerText\">We will take a look at your symptoms and see if you are looking at pink eye, what type of pink eye and what is the best course of action to take.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"orangefont firstname\"><\/span><br>\r\n\t                <span>the first question you would ask yourself if the eye is <span class=\"redfont\">inflamed<\/span> is:<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        <span class=\"redfont\">\"Does this look like pink eye?\"<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <p class=\"redBorder centerText\">Let's start with that.<\/p>\r\n\t        <p class=\"redBorder centerText\">We will take a look at your symptoms and see if you are looking at pink eye, what type of pink eye and what is the best course of action to take.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 3
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 4
+					}
+				]
+			},
+			"3": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightPurple_red\">\r\n\t                    <span class=\"orangefontLarge\">Hmmm.<\/span><br>\r\n\t                    Well, a lot of things including pink eye can cause that. So let's Continue.\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <p>&nbsp;<\/p>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 4
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you experiencing <span class=\"grayfont\">increased<\/span> <span class=\"purplefont\">tearing<\/span> in the eye?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 5
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 6
+					}
+				]
+			},
+			"5": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightPurple_red\">\r\n\t                    <span class=\"bluefont\"> Just thinking.<\/span><br>\r\n\t                    Other things including <span class=\"pinkfont\">pink eye<\/span> can also cause this. Let's continue and see if you can narrow it down.\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 6
+					}
+				]
+			},
+			"6": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the eye <span class=\"orangefont\">itchy<\/span> and <span class=\"redfont\">red?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 7
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 8
+					}
+				]
+			},
+			"7": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purplefont\">Alright.<\/span><br>\r\n\t                This is a <span class=\"grayfont\">symptom<\/span> of <span class=\"pinkfont\">pink eye.<\/span> In some cases, the eyes will be itchy and red.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder centerText\">Symptoms of pink eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>A feeling of something in the eye<\/li>\r\n\t                <li>Increased tearing<\/li>\r\n\t                <li class=\"orangefont\">Eye is itchy and red.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 8
+					}
+				]
+			},
+			"8": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the eye or eyelid <span class=\"purple_redfont\">swollen <\/span>and <span class=\"orangefont\">sore?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 9
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 10
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

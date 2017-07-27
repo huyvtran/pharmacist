@@ -6,6 +6,7 @@ import 'rxjs/add/operator/map';
 
 import { GlobalVars } from '../providers/globalvars';
 import { FindNearestPage } from '../find-nearest/find-nearest';
+import { NearestPage } from '../nearest/nearest';
 // import { ColdMobilePage } from '../cold-mobile/cold-mobile';
 // import { UrgentCarePage } from '../urgent-care/urgent-care';
 import { AdultSymptomInfographicsPage } from '../adult-symptom-infographics/adult-symptom-infographics';
@@ -25,7 +26,10 @@ export class AdultSymptomChildsPage {
 		5: 'p',
 		6: 'a',
 		7: 'i',
-		8: 'i'
+		8: 'i',
+		9: 'i',
+		10: 'o',
+		11: 'n'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -108,6 +112,26 @@ export class AdultSymptomChildsPage {
 					"page": AdultSymptomInfographicsPage
 				},
 				{	// 213 PinkeyeMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 214 Nearest page
+					"id": 0,
+					"page": NearestPage
+				},
+				{	// 215 PinkeyeMobilePage
+					"id": 8,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 216 RedeyeMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 217 StyeyeMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 218 DryeyeMobileInfographicsPage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
 				}

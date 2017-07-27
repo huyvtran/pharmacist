@@ -1,4 +1,3 @@
-
 <ion-header class="ui-header {{setting.class}}">
   <ion-navbar>
     <ion-title>
@@ -16,7 +15,6 @@
   	<p [innerHTML]="getTitle()"></p>
   </ion-navbar>
 </ion-header>
-
 <ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}} ui-page-theme-{{pagemode[pageId]}}">
 	<div class="ui-content" role="main" *ngIf="html_data!=null">
 		<div [innerHTML]="getHeader()"></div>
@@ -49,7 +47,6 @@
             </div>
             <input type="hidden" id="mobi_cold_temp" name="mobi_cold_temp" value="" class="displayNone mbsc-comp" readonly="">
         </div>
-
         <div *ngIf="html_data[pageId]?.pages[page]['lists']!=null">
 	        <ng-container *ngFor="let each_data of html_data[pageId]?.pages[page]['lists']; let i = index">
 	        	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content " [ngClass]="{'ui-collapsible-collapsed': pages[i]}">
@@ -94,8 +91,7 @@
 		</p>
 		<p>&nbsp;</p>
 	</div>
-	
-	<ng-container *ngFor="let eachDlg of FYIDlg;let i=index">
+		<ng-container *ngFor="let eachDlg of FYIDlg;let i=index">
 		<div class="ui-popup-screen ui-overlay-b in" id="allergy_mobile_pop-screen" *ngIf="eachDlg.show" (click)="toggleFYIDlg(false,i)"></div>
 		<div class="ui-popup-container pop in ui-popup-active" id="allergy_mobile_pop-popup" *ngIf="eachDlg.show" [ngStyle]="{'max-width': eachDlg.maxWidth+'px','top': eachDlg.top+'px', 'left': eachDlg.left+'px', 'width': eachDlg.width+'px'}">
 		    <div data-role="popup" id="allergy_mobile_pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">

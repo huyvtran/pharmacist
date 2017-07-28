@@ -1,0 +1,1343 @@
+{
+	"20": {
+		"title": "Dry Mouth",
+		"dlg": [
+			
+		],
+		"fyidlg": [
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Dry Mouth?"
+			},
+			"1": {
+				"min": 10,
+				"max": 40,
+				"content": "Is it dry mouth?"
+			},
+			"2": {
+				"min": 40,
+				"max": 50,
+				"content": "What could be the cause?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightBlue centerText\">\r\n\t            <span><span class=\"blue_brightfont\">Dry mouth<\/span> is unknown for some people, but to you it is killing you.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"blueBorder\">\r\n\t        <p>Food is difficult to swallow, seem dry, not as tasteful as you would expect because of a dry tongue.<\/p>\r\n\t        <p class=\"blueBorderAll\">And since saliva is in short supply, some enzymes that aid in digestion or even saliva that help to prevent tooth decay will be lacking.<\/p>\r\n\t        <br>\r\n\t        <p class=\"centerText\">\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/mouth\/drymouth-lady.svg\" width=\"200\" alt=\"Lady with dry mouth\">\r\n\t        <\/p>\r\n\t        <p class=\"orangeBorderAll\">It's okay. Let's see if there is anything over the counter to help with dry mouth.<\/p>\r\n\t    <\/div>\r\n\t    <p class=\"orangeBorderAll\">But first, let's be sure you are looking at a dry mouth and not something more serious that will need urgent care or emergency room visit.<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightBlue centerText\">\r\n\t            <span>Have you been <span class=\"purplefont\">diagnosed<\/span> with dry mouth <span class=\"purple_bluefont\">(xerostomia)?<\/span><\/span><br>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <div class=\"container_12\">\r\n\t            <div class=\"grid_8\">\r\n\t                <br>\r\n\t                <div class=\"bubbleRightBlue centerText\">\r\n\t                    Or this is your <span class=\"blue_brightfont\">first time<\/span> feeling your mouth being dry?\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div class=\"grid_4\">\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t    <\/div>\r\n\t    <br>\r\n\t    <!-----------------End Point Right------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "b",
+						"title": "First time",
+						"go": 10
+					},
+					{
+						"type": "a",
+						"theme": "i",
+						"title": "Diagnosed",
+						"go": 40
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"bluefont\">Alright, <\/span><br>\r\n\t                let's be sure you are looking at a dry mouth.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">Lack of saliva which moistens the mouth and help with digestion will make your mouth feel dry.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 11
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does it feel like your <span class=\"purple_bluefont\">saliva<\/span> is <span class=\"orangefont\">thick<\/span> and <span class=\"purple_bluefont\">stringy?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 12
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 13
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                <span class=\"purple_bluefont\">Dryness<\/span> of the mouth can make it feel this way.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 13
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does the <span class=\"orangefont\">tongue<\/span> feel dry to you?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 14
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 15
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a <span class=\"purplefont\">symptom<\/span> of a dry mouth. The tongue feels dry.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 15
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does <span class=\"orangefont\">food<\/span> feel dry to you?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 16
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 17
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                With a dry mouth <span class=\"orangefont\">food <\/span>will feel dry. This is a symptom.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 17
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are the <span class=\"bluefont\">corners<\/span> of the mouth splitting?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 18
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 19
+					}
+				]
+			},
+			"18": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">They are?<\/span><br>\r\n\t                With dry mouth the corners of the mouth start splitting.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Dry mouth symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Thick and Stringy saliva<\/li>\r\n\t                <li>Tongue feeling dry<\/li>\r\n\t                <li>Food feeling dry<\/li>\r\n\t                <li><span class=\"purple_bluefont\">Corners<\/span> of mouth splitting<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 19
+					}
+				]
+			},
+			"19": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are the lips <span class=\"pinkfont\">cracking?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 20
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 21
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                <span class=\"purplefont\"> Absence<\/span> of saliva to moisten the lips will make them crack.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Thick and Stringy saliva<\/li>\r\n\t                <li>Tongue feeling dry<\/li>\r\n\t                <li>Food feeling dry<\/li>\r\n\t                <li>Corners of mouth splitting<\/li>\r\n\t                <li class=\"purple_redfont\">Cracking lips<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 21
+					}
+				]
+			},
+			"21": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you losing <span class=\"orangefont\">taste sensations?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 22
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 23
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a <span class=\"orangefont\">symptom<\/span> of a dry mouth.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Thick and Stringy saliva<\/li>\r\n\t                <li>Tongue feeling dry<\/li>\r\n\t                <li>Food feeling dry<\/li>\r\n\t                <li>Corners of mouth splitting<\/li>\r\n\t                <li>Cracking lips<\/li>\r\n\t                <li>Loss of <span class=\"orangefont\">taste sensations<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 23
+					}
+				]
+			},
+			"23": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you having difficulty<span class=\"purplefont\"> speaking?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 24
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 25
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge\">Yes?<\/span><br>\r\n\t                With a dry mouth, you will have <span class=\"grayfont\">difficulty speaking.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 25
+					}
+				]
+			},
+			"25": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you think you have <span class=\"purple_bluefont\">dry mouth<\/span> because...<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue centerText\">\r\n\t                        ...food is <span class=\"purple_bluefont\">hard to swallow?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 27
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 27
+					}
+				]
+			},
+			"27": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you experiencing more <span class=\"purple_redfont\">tooth decaying?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 28
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 29
+					}
+				]
+			},
+			"28": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                <span class=\"bluefont\">Tooth decay<\/span> usually accompany dryness of the mouth.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"blueBorder\">If you are also experiencing other symptoms described above, discuss this with your dentist or doctor.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 29
+					}
+				]
+			},
+			"29": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you frequently experience <span class=\"redfont\">soreness <\/span>of the throat?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 30
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 31
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">You do?<\/span><br>\r\n\t                Saliva not  reaching the throat to <span class=\"purplefont\"> moisturize<\/span> it will make it sore.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefont firstname\"> <\/span><br>\r\n\t                Those were the <span class=\"purple_bluefont\">main symptoms<\/span> of a dry mouth.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">You should have a pretty good idea if you are looking at a dry mouth or not by now.<\/p>\r\n\t        <p class=\"blueBorderAll centerText\">Let's continue and see what may be causing this.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 40
+					}
+				]
+			},
+			"40": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you currently taking <span class=\"redfont\"> prescription medications?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorderAll\">Most prescription medications can cause dry mouth.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 41
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 42
+					}
+				]
+			},
+			"41": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                Call the pharmacy and see if it has dry mouth as a side effect and then discuss this with your doctor.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">Do not stop taking the medication without your doctor's knowledge.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 42
+					}
+				]
+			},
+			"42": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>With this dry mouth, do you also have <span class=\"redfont\">fever?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 43
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 44
+					}
+				]
+			},
+			"43": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at something serious.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 44
+					}
+				]
+			},
+			"44": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you have or had any <span class=\"greenfont\">diarrhea?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 45
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 46
+					}
+				]
+			},
+			"45": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Sign of dehydration.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 46
+					}
+				]
+			},
+			"46": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Did you start feeling dry mouth after excessive <span class=\"purple_bluefont\">sweating?<\/span> <\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 47
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 48
+					}
+				]
+			},
+			"47": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at dehydration.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 48
+					}
+				]
+			},
+			"48": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefont firstname\"> <\/span><br>\r\n\t                There are other causes of dryness of the mouth. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-tonia.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">The important thing is to make sure you are not looking at a <span class=\"redfont\">dehydration<\/span> situation.<\/p>\r\n\t        <p>If the dryness of the mouth is getting worse, you should discuss this with a doctor. It is very important to find out what is causing it. Bear in mind though that dry mouth is more common as you age and can be age related.\r\n\t        <\/p>\r\n\t        <p class=\"blueBorder\">Let's see what a pharmacist recommend to help with this dry mouth that is available over-the-counter for now.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -232
+					}
+				]
+			}
+		}
+	},
+	"21": {
+		"title": "Bad Breath",
+		"dlg": [
+			
+		],
+		"fyidlg": [
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Bad breath?"
+			},
+			"1": {
+				"min": 1,
+				"max": 2,
+				"content": "Describe this breath"
+			},
+			"2": {
+				"min": 2,
+				"max": 3,
+				"content": "Fruity or sweet?"
+			},
+			"3": {
+				"min": 3,
+				"max": 4,
+				"content": "Fishy or Urine-like?"
+			},
+			"4": {
+				"min": 4,
+				"max": 5,
+				"content": "Smells like feces?"
+			},
+			"5": {
+				"min": 5,
+				"max": 6,
+				"content": "Mousy?"
+			},
+			"6": {
+				"min": 11,
+				"max": 20,
+				"content": "Other smell"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span>An <span class=\"greenfont\">unpleasant odor<\/span> that originates from the mouth and may cause personal embarrassment.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"greenBorderAll centerText\">\r\n\t        <p>Up to half of the US population suffer from bad breath.<\/p>\r\n\t        <hr class=\"hrgreen\">\r\n\t        <br>\r\n\t        <p>\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/mouth\/badbreath-lady.svg\" width=\"150\" alt=\"Lady with bad breathe covering her mouth\">\r\n\t        <\/p>\r\n\t        <p class=\"greenBorderAll\">We can either mask it or try to find out what's causing it and get rid of it.<\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t            <span> What would describe this <span class=\"bluefont\">breath odor?<\/span><\/span>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>",
+				"buttonlist": [
+					{
+						"type": "button",
+						"title": "<h3><span class=\"orangefont\">Fruity<\/span><span class=\"grayfontSmall\"> or<\/span> <span class=\"redfont\">sweet<\/span> <span class=\"grayfontSmall\">chemical smell<\/span><\/h3>",
+						"go": 2
+					},
+					{
+						"type": "button",
+						"title": "<h3><span class=\"purple_redfont\">Urine-like<\/span> <span class=\"grayfontSmall\">or<\/span> <span class=\"bluefont\">fishy<\/span><\/h3>",
+						"go": 3
+					},
+					{
+						"type": "button",
+						"title": "<h3><span class=\"grayfontSmall\">Smells like<\/span> <span class=\"orangefont\">feces<\/span><\/h3>",
+						"go": 4
+					},
+					{
+						"type": "button",
+						"title": "<h3><span class=\"purplefont\">Mousy<\/span> <span class=\"grayfontSmall\">or  faintly<\/span> <span class=\"orangefont\">sulfurous<\/span><span class=\"grayfontSmall\"> odor<\/span><\/h3>",
+						"go": 5
+					},
+					{
+						"type": "button",
+						"title": "<h3><span class=\"grayfontSmall\">Some<\/span> <span class=\"greenfont\">other<\/span> <span class=\"grayfontSmall\">smell<\/span><\/h3>",
+						"go": 10
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span>If fruity or sweet, it can be a sign of <span class=\"orangefont\">ketoacidosis.<\/span><\/span><br>\r\n\t            This may occur in <span class=\"orangefont\">diabetics.<\/span>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <p class=\"redBorder\">If you are diabetic, it means the body is trying to get rid of excess acetone through the breath.<\/p>\r\n\t    <p class=\"redBorderAll centerText\"><span class=\"redfont\">This is life-threatening.<\/span><br> \r\n\t        There is a lack of insulin. Which means the body cannot use your glucose as a source of fuel. So it is now using fat instead. \r\n\t    <\/p>\r\n\t    <p class=\"redBorder\">Ketone is the byproducts of fat breakdown and they are building up in your blood.<\/p>\r\n\t    <p class=\"redBorderAll\">If you have missed a dose of insulin, go ahead and use it now. You need insulin. If not, then go to the nearest emergency room. This can be life threatening.<\/p>\r\n\t    <p class=\"redBorder\">Would you like to visit the nearest urgent care or emergency room?<\/p>\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -214
+					}
+				]
+			},
+			"3": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span> May be looking at some kind of <span class=\"redfont\">kidney failure<\/span> here.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <p class=\"purpleRedBorder\">Chronic kidney failure can cause the breath to smell like ammonia. Some people would describe this as fishy or urine-like.<\/p>\r\n\t    <p class=\"purpleRedBorderAll\">You should be seeing a doctor by now. Let the doctor know of the breath odor.<\/p>\r\n\t    <p class=\"redBorder\">Would you like to visit the nearest urgent care or hospital?<\/p>\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -214
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span>Looking at a possible bowel <span class=\"orangefont\">obstruction<\/span> or severe constipation.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <p class=\"orangeBorder\">This can also happen if you have  been vomiting for a long time, especially when there is bowel obstruction.<\/p>\r\n\t    <p class=\"orangeBorderAll\">Try to take care of the constipation, get rid of the stomach gas or see if you can stop the vomiting.<\/p>\r\n\t    <p class=\"orangeBorder\">If this continue, see the doctor. Would you like to visit the nearest urgent care or hospital, especially if this has been going on for a while now?<\/p>\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -214
+					}
+				]
+			},
+			"5": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span>Or faintly <span class=\"orangefont\">sulfurous?<\/span><\/span><br>\r\n\t            Looking at a possible sign of <span class=\"redfont\">liver failure<\/span>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <p class=\"greenBorder\">If under treatment of any kind, give the doctor a call as soon as possible or go to the nearest hospital for further evaluation.<\/p>\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -214
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightGreen centerText\">\r\n\t                <span>In addition to this breath odor, do you have <span class=\"redfont\">fever?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightGreen\">\r\n\t                        Or a <span class=\"orangefont\">productive cough?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>You may be looking at a <span class=\"redfont\">serious infection<\/span> of the respiratory pathways like the lungs or bronchioles.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightGreen centerText\">\r\n\t                <span>What about <span class=\"bluefont\">nasal discharge<\/span> or <span class=\"bluefont\">headache?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightGreen\">\r\n\t                        Or <span class=\"bluefont\">facial pain?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 13
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 14
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>You may be looking at a <span class=\"purple_redfont\">sinus infection<\/span> here.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 14
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightGreen centerText\">\r\n\t                <span>Do you also have a <span class=\"bluefont\">toothache<\/span> with this <span class=\"blue_brightfont\">bad breath?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Yes",
+						"go": 15
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "No",
+						"go": 16
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightGreen centerText\">\r\n\t                <span class=\"redfontLarge\">Seek dental care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <div class=\"clearboth divider1\"><\/div>\r\n\t            <p class=\"redBorder centerText\">You may be looking at:<\/p>\r\n\t            <ul>\r\n\t                <li>Abscessed tooth<\/li>\r\n\t                <li>Cavities<\/li>\r\n\t                <li>Gingivitis<\/li>\r\n\t                <li>Unerupted tooth<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <p class=\"blueBorder\">It is much better to take care of the underlying cause of the bad breath than to just mask it with mint or something else.<\/p>\r\n\t        <p class=\"blueBorderAll\">If you use dentures, ensure proper denture hygiene. Discuss this with the dentist to ensure proper use.<\/p>\r\n\t        <p class=\"blueBorderAll\">Would you like to see the nearest dentist to you or Continue?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Dentist",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 16
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightGreen centerText\">\r\n\t                <span class=\"orangefontLarge firstname\"> <\/span><br>\r\n\t                About 85% of bad breath is caused by <span class=\"orangefont\">poor<\/span> oral conditions.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"greenBorder\">This is usually due to the growth of bacteria on the tongue, in-between the teeth and in cavities of the tooth.<\/p>\r\n\t        <p class=\"greenBorderAll\">You should see a dentist for a better analysis of your oral hygiene situation. To take care of bad breath, it is necessary to fix the underlying situation.<\/p>\r\n\t        <p class=\"greenBorder\">Until then let's see what is available over the counter to help with the bad breath.<\/p>\r\n\t        <p class=\"greenBorderAll\">Or would you like to see the nearest dentist to you?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Dentist",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": -233
+					}
+				]
+			}
+		}
+	},
+	"22": {
+		"title": "Nasal Congestion",
+		"dlg": [
+			"<p class=\"purpleRedBorder\">Congestion is usually due to the inflammation and swelling of the blood vessels in the tissues that line the inside of the nose.<\/p>\r\n\t        <p class=\"purpleRedBorderAll\">You will need a decongestant which helps to shrink the swollen blood vessels in the tissues or a steroidal nasal spray which helps with the inflammation helping to reduce the swelling.<\/p>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 192,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Nose stuffed up?"
+			},
+			"1": {
+				"min": 10,
+				"max": 30,
+				"content": "Need to see a doctor?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightGreen centerText\">\r\n\t            <span>An <span class=\"greenfont\">unpleasant odor<\/span> that originates from the mouth and may cause personal embarrassment.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"greenBorderAll centerText\">\r\n\t        <p>Up to half of the US population suffer from bad breath.<\/p>\r\n\t        <hr class=\"hrgreen\">\r\n\t        <br>\r\n\t        <p>\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/mouth\/badbreath-lady.svg\" width=\"150\" alt=\"Lady with bad breathe covering her mouth\">\r\n\t        <\/p>\r\n\t        <p class=\"greenBorderAll\">We can either mask it or try to find out what's causing it and get rid of it.<\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Which of these do you think is causing the <span class=\"purple_redfont\">stuffy nose?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"optcolor": "",
+				"options": [
+					{
+						"title": "Cold or Flu",
+						"id": "0"
+					},
+					{
+						"title": "Sinus infection",
+						"id": "1"
+					},
+					{
+						"title": "Allergies",
+						"id": "2"
+					},
+					{
+						"title": "Pregnancy",
+						"id": "3"
+					},
+					{
+						"title": "Nasal polyps",
+						"id": "4"
+					},
+					{
+						"title": "None of these",
+						"id": "10"
+					}
+				],
+				"except": "<div class=\"grid_9\">\r\n\t            <div class=\"bubbleRightBlue\">\r\n\t                <div id=\"selected_congestion1_mobile_q1 centerText\">\r\n\t                \t<span class=\"redfontLarge\">Oops!,<\/span> You told me nothing \r\n\t                <\/div>\r\n\t                <!--empty division- -->\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"grid_3\">\r\n\t            <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"80\" alt=\"Pharmacist\" align=\"right\">\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Here you  go",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge\">None of these?<\/span><br>\r\n\t                Oh well, we must have left something out. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">Let's continue and see what we can do about the nasal congestion.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"3": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefont\">Nasal polyps?<\/span><br>\r\n\t                Sac-like growths of inflamed tissue lining the nose  or sinuses.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"purpleRedBorderAll\">\r\n\t            <p class=\"purpleRedBorder purple_redfont centerText\">Symptoms usually include:<\/p>\r\n\t            <ul>\r\n\t                <li>Runny nose<\/li>\r\n\t                <li>Reduced or complete loss of sense of smell<\/li>\r\n\t                <li>Nose feeling blocked<\/li>\r\n\t                <li>Breathing through the mouth<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"purpleRedBorder\">For nasal polyps, you would need to see a doctor. You will also need a steroidal nasal spray.<\/p>\r\n\t        <p class=\"purpleRedBorderAll\">Well, let's see what a pharmacist can come up with until you see a doctor.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Cold?<\/span><br>\r\n\t                Like to see the entry for <span class=\"bluefont\">cold<\/span> or continue with only stuffy nose?\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">Continuing would assume you are only looking at a stuffy nose and no other symptoms like a sore throat, runny nose and so on associated with cold or flu.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Cold",
+						"go": -234
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"5": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"greenfontLarge\">Allergy?<\/span><br>\r\n\t                Like to see the <span class=\"greenfont\">allergy<\/span> entry or continue with just stuffy nose?\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"greenBorder\">Continuing would assume you are only looking at a stuffy nose and no other symptoms like a runny nose associated with allergy.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Allergy",
+						"go": -206
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"6": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge\">Sinus Infection?<\/span><br>\r\n\t                Hope you are seeing a doctor for this <span class=\"purple_redfont\">sinus infection.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">Let's continue and see what we can do about this stuffy nose if you are already taking care of the sinus infection. <\/p>\r\n\t        <p class=\"redBorderAll\">Continuing would assume you are only looking at a stuffy nose. <\/p>\r\n\t        <p class=\"redBorder centerText\">Or would you like to see the nearest urgent care clinic to take care of the sinus infection?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- --> \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"7": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge\">OK.<\/span><br>\r\n\t                Let's continue and see what we can do about the nasal congestion. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 1
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span>With this stuffy nose, any <span class=\"redfont\">severe<\/span> sore throat <span class=\"redfont\">pain?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible upper respiratory tract infection going on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about <span class=\"purplefont\">swollen<\/span> glands or tonsils?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 13
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 14
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img class=\"redBorderWhite shadowInset\" src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Looking at an <span class=\"redfont\">infection<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 14
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you coughing out <span class=\"orangefont\">yellowish - green<\/span> or <span class=\"grayfont\">gray<\/span> stuff?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 15
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 16
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow\">\r\n\t                <span class=\"orangefontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img class=\"redBorderWhite shadowInset\" src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possibly looking at an <span class=\"redfont\">infection.<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 16
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Is your <span class=\"bluefont\">nose<\/span> or <span class=\"purple_bluefont\">cheek<\/span> area <span class=\"bluefont\">swollen?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 17
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 18
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possibly looking at a <span class=\"purple_redfont\">sinus infection<\/span><\/li>\r\n\t                <li>You will need some antibiotics.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 18
+					}
+				]
+			},
+			"18": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Have you used a decongestant <span class=\"purple_redfont\">nasal spray<\/span> or drops for more than <span class=\"bluefont\">3 days<\/span> now?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 19
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 20
+					}
+				]
+			},
+			"19": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                Possibly looking at a <span class=\"bluefont\">rebound effect.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">Using nasal spray decongestants for more than 3 days often lead to significant rebound congestion when the effects of the drug wear off, causing you to continue using the decongestant in a vicious circle of persistent, worsening congestion.<\/p>\r\n\t        <p class=\"redBorderAll\">This situation called <span class=\"purplefont\">rhinitis medicamentosa<\/span> may continue for some time and you may be thinking this is a  continuation of the original problem rather than a side effect of using the nasal spray.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t                See a doctor if the stuffiness is not accompanied by any other symptoms.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\"> You may be looking at <span class=\"purple_redfont\">nasal polyps<\/span> or a stuffy nose caused by <span class=\"redfont\">medications<\/span> like clonidine or flomax.<\/p>\r\n\t        <p class=\"blueBorderAll\">Also birth control pills and estrogen containing hormone replacement drugs may also cause nasal congestion in some women.<\/p>\r\n\t        <p class=\"redBorderAll centerText\">Let's see how bad it is.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>On what <span class=\"bluefont\">day<\/span> is this <span class=\"purple_redfont\">stuffy nose?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"slider": {
+					"min": 1,
+					"max": 21,
+					"step": 0.5,
+					"label": "Day:"
+				},
+				"sliderstep": {
+					"0": {
+						"min": 0,
+						"max": 0,
+						"go": 31
+					},
+					"1": {
+						"min": 3,
+						"max": 7,
+						"go": 32
+					},
+					"2": {
+						"min": 7,
+						"max": 14,
+						"go": 33
+					},
+					"3": {
+						"min": 14,
+						"max": 21,
+						"go": 34
+					}
+				},
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "This Long",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <div id=\"selected_congestion3_mobile_value\">\r\n\t                \tYou said:<br> <br> <span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\"> {{currentTemp}} <\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<h3 class=\"orangeBorder orangefont centerText\">Not too bad.<\/h3>\r\n\t        <p class=\"orangeBorderAll\">Let's see what is available over the counter to help with this nasal congestion.<\/p>\r\n\t        <p class=\"orangeBorder\">Or would you like to see the nearest urgent care clinic to you based on what we have discussed so far?<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 30
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -235
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <div id=\"selected_congestion3_mobile_value\">\r\n\t                \tYou said:<br> <br> <span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\"> {{currentTemp}} <\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<h3 class=\"purpleRedBorder purple_redfont centerText\">Over 3 days now?<\/h3>\r\n\t        <p class=\"purpleRedBorderAll\">Hope the congestion improves very soon. If you develop any signs of infection such as a fever, remember to visit the nearest urgent care clinic.<\/p>\r\n\t        <p class=\"redBorder\">Let's see what a pharmacist recommend over the counter to help with this nasal congestion.<\/p>\r\n\t        <p class=\"redBorderAll\">Or would you like to see the nearest urgent care clinic to you based on what we have discussed so far?<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 30
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -235
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <div id=\"selected_congestion3_mobile_value\">\r\n\t                \tYou said:<br> <br> <span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\"> {{currentTemp}} <\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<h3 class=\"redfont redBorder centerText\">Taking some time.<\/h3>\r\n\t        <p class=\"redBorderAll\">Let's see what a pharmacist recommend you do to help with the nasal congestion.<\/p>\r\n\t        <p class=\"redBorder\">Or would you like to see the nearest urgent care clinic to you based on what we have discussed so far?<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 30
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -235
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <div id=\"selected_congestion3_mobile_value\">\r\n\t                \tYou said:<br> <br> <span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\"> {{currentTemp}} <\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<p class=\"redfont redBorder centerText\">See a doctor on this one.<\/p>\r\n\t        <p class=\"redBorderAll\">Chances are you are looking at an inflammation of the nasal and sinus passages and quite possibly an infection if it has taken this long.<\/p>\r\n\t        <p class=\"redBorder\">For these, you will need steroids or antibiotics and there are none over the counter.<\/p>\r\n\t        <p class=\"redBorderAll\">Would you like to visit the nearest urgent care clinic or still see what a pharmacist recommend over the counter to help with your nasal congestion at least for now?<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 30
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -235
+					}
+				]
+			}
+		}
+	},
+	"23": {
+		"title": "Runny Nose",
+		"dlg": [
+			"<p class=\"orangeBorderAll\">This excess mucus can also cause a <span class=\"bluefont\">cough<\/span> that is worse at night and a <span class=\"redfont\">sore throat<\/span> may result from all the drainage to the back of the throat.<\/p>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 102,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Runny nose?"
+			},
+			"1": {
+				"min": 3,
+				"max": 30,
+				"content": "Need a doctor?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightOrange centerText\">\r\n\t            <span><span class=\"orangefont\">Runny nose<\/span> is excess mucus running outside the nose.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-shaun-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"orangeBorder\">\r\n\t        <p>If the mucus run down the back of the throat, it is called <span class=\"orangefont\">postnasal drip.<\/span><\/p>\r\n\t        <hr class=\"hrorange\">\r\n\t        <br>\r\n\t        <p class=\"centerText\">\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/nose\/runnynose-lady.svg\" width=\"150\" alt=\"Lady with runny nose\">\r\n\t        <\/p>\r\n\t        <p class=\"orangeBorderAll\">Let's see if you can narrow down the cause before you see what a pharmacist recommend over the counter for the runny nose.<\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <!------Start Popoup div----- -->   \r\n\t    <div style=\"display: none;\" id=\"runnynose_mobile_pop-placeholder\">\r\n\t        <!-- placeholder for runnynose_mobile_pop -->\r\n\t    <\/div>\r\n\t    <!------End Popoup div----- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			}
+
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

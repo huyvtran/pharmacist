@@ -29,7 +29,19 @@ export class AdultSymptomChildsPage {
 		8: 'i',
 		9: 'i',
 		10: 'o',
-		11: 'n'
+		11: 'n',
+		12: 'o',
+		13: 'i',
+		14: 'p',
+		15: 'e',
+		16: 'd',
+		17: 'a',
+		18: 'n',
+		19: 'i',
+		20: 'a',
+		21: 'p',
+		22: 'n',
+		23: 'o'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -132,6 +144,74 @@ export class AdultSymptomChildsPage {
 					"page": AdultSymptomInfographicsPage
 				},
 				{	// 218 DryeyeMobileInfographicsPage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 219 SwimearMobilePage
+					"id": 13,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 220 EarwaxMobilePage
+					"id": 14,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 221 ToothacheMobilePage
+					"id": 17,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 222 EaracheInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 223 SwimearInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 224 EarwaxInfographicMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 225 MotionAdultRecomMobilePage				// NEEDS TO BE UPDATED
+					"id": 0,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 226 MotionSicknessInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 227 VertigoAdultRecomMobilePage
+					"id": 0,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 228 VertigoInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 229 ToothacheInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 230 ColdSoreInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 231 CankerSoreInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 232 DrymouthInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},	
+				{	// 233 BadBreathInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 234 ColdMobilePage
+					"id": 1,
+					"page": AdultSymptomChildsPage
+				},
+				{	// 235 CongestionInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
 				}
@@ -418,6 +498,119 @@ export class AdultSymptomChildsPage {
 		  		ind = 60;
 		  	}
 		  	if (this.mode != 100) ind = 60 + this.mode;
+	  	}
+	  	else if (this.pageId==14 && ind == 2)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<5;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[0] == true)
+		  		this.mode = 2;
+		  	else if (this.recs[0] == true)
+		  		this.mode = 3;
+		  	else if (trueCount > 0)
+		  		this.mode = 4;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 1;
+		  	}
+		  	if (this.mode != 100) ind = 1 + this.mode;
+	  	}
+	  	else if (this.pageId==16 && ind == 11){
+	  		let trueCount = 0;
+		  	for (let i=0;i<8;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (trueCount > 0)
+		  		this.mode = 2;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 10;
+		  	}
+		  	if (this.mode != 100) ind = 10 + this.mode;
+	  	}
+	  	else if (this.pageId==16 && ind == 31)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<7;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (trueCount > 0)
+		  		this.mode = 2;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 30;
+		  	}
+		  	if (this.mode != 100) ind = 30 + this.mode;
+	  	}
+	  	else if (this.pageId==18 && ind == 21)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<7;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[7] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[6] == true)
+		  		this.mode = 2;
+		  	else if (trueCount > 0)
+		  		this.mode = 3;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 20;
+		  	}
+		  	if (this.mode != 100) ind = 20 + this.mode;
+	  	}
+	  	else if (this.pageId==19 && ind == 31)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<9;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[5] == true)
+		  		this.mode = 2;
+		  	else if (this.recs[7] == true)
+		  		this.mode = 3;
+		  	else if (trueCount > 0)
+		  		this.mode = 4;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 30;
+		  	}
+		  	if (this.mode != 100) ind = 30 + this.mode;
+	  	}
+	  	else if (this.pageId==22 && ind == 2)
+	  	{
+	  		let trueCount = 0;
+		  	for (let i=0;i<5;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+		  	if (this.recs[10] == true)
+		  		this.mode = 1;
+		  	else if (this.recs[4] == true)
+		  		this.mode = 2;
+		  	else if (this.recs[0] == true)
+		  		this.mode = 3;
+		  	else if (this.recs[2] == true)
+		  		this.mode = 4;
+		  	else if (this.recs[3] == true)
+		  		this.mode = 5;
+		  	else if (trueCount > 0)
+		  		this.mode = 6;
+		  	else{
+		  		this.mode = 100;
+		  		ind = 1;
+		  	}
+		  	if (this.mode != 100) ind = 1 + this.mode;
 	  	}
 		this.page = ind;
 	}

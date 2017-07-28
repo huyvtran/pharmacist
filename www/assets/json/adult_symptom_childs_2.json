@@ -3067,7 +3067,7 @@
 					}
 				]
 			},
-			"61": {
+			"80": {
 				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue shadowRight centerText\">\r\n\t                <span>Let's take a look at the <span class=\"Bluefont\">symptoms<\/span> of a dry eye.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorderAll\">\r\n\t            Remember, we are not here to <span class=\"purplefont\">diagnose<\/span> a dry eye for you. Only your healthcare provider can do that.\r\n\t        <\/p>\r\n\t        <p class=\"blueBorder\">Let's see if you should suspect a dry eye or something else so you can decide on the best course to take.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
 				"buttons": [
 					{
@@ -3179,6 +3179,291 @@
 					}
 				]
 			},
+			"88": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a <span class=\"bluefont\">symptom <\/span>of a dry eye.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Other symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li class=\"redfont\">Tearing excessively.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 89
+					}
+				]
+			},
+			"89": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does your vision become <span class=\"pinkfont\">blurry<\/span> at the end of the day?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 90
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 91
+					}
+				]
+			},
+			"90": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                With dry eyes, the sight gets <span class=\"pinkfont\">blurry<\/span> at the end of the day.<br><span class=\"grayfontSmall\"> See other symptoms below.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets <span class=\"pinkfont\">blurred<\/span> at end of day.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 91
+					}
+				]
+			},
+			"91": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does <span class=\"purple_bluefont\">smoke<\/span> or <span class=\"bluefont\">wind<\/span> <span class=\"grayfont\">irritate<\/span> your eyes quickly and excessively?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 92
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 93
+					}
+				]
+			},
+			"92": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                This is a symptom of <span class=\"bluefont\">dryness<\/span> of the eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">The symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets blurry at end of day.<\/li>\r\n\t                <li>Excessive eye <span class=\"redfont\">irritation<\/span> from smoke or wind<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 93
+					}
+				]
+			},
+			"93": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Anything like a little <span class=\"orangefont\">mucus<\/span> discharge from the eye?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 94
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 95
+					}
+				]
+			},
+			"94": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                This can be a symptom of a dry eye. See others below.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder\">The symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets blurred at end of day.<\/li>\r\n\t                <li>Excessive eye irritation from smoke or wind<\/li>\r\n\t                <li>Sometimes a little <span class=\"orangefont\">mucus<\/span> discharge from the eye.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 95
+					}
+				]
+			},
+			"95": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you use <span class=\"bluefont\">contact lenses<\/span> and if so are they getting less comfortable?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 96
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 97
+					}
+				]
+			},
+			"96": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">OK.<\/span><br>\r\n\t                With dry eyes <span class=\"purple_bluefont\">contact lenses <\/span>become less comfortable.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets blurred at end of day.<\/li>\r\n\t                <li>Excessive eye irritation from smoke or wind<\/li>\r\n\t                <li>Sometimes a little mucus discharge from the eye.<\/li>\r\n\t                <li class=\"redfont\">Contact lens becoming uncomfortable.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 97
+					}
+				]
+			},
+			"97": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont firstname\"><\/span><br>\r\n\t                We just went through the main symptoms of a dry eye. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If none applied to you, then you may not be looking at a dry eye.<\/p>\r\n\t        <p class=\"redBorder\">If any applied to you, we encourage you to get your <span class=\"redfont\">OSDI<\/span><span class=\"redfontSmall\">\u00A9<\/span> <span class=\"grayfontSmall\">(Ocular Surface Disease Index)<\/span> score by tapping on the <span class=\"orangefont\">\"FYI\"<\/span> button below. <\/p>\r\n\t        <p class=\"blueBorderAll\">This will take you to the \"grade your dry eye\" tool provided by refreshbrand.<\/p>\r\n\t        <p class=\"blueBorder\">The <span class=\"redfontSmall\">OSDI\u00A9<\/span> is a valid and reliable tool for measuring and classifying dry eye into normal, mild to moderate and severe.<\/p>\r\n\t        <p class=\"blueBorder\">If you are done with the OSDI\u00A9 tool, remember to come back and see what is available over the counter for dry eyes recommended by the pharmacist.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 100
+					}
+				]
+			},
+			"100": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you currently taking <span class=\"purple_redfont\">antihistamines<\/span> for cold or allergies?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or antihistamine <span class=\"purple_redfont\">sleeping pills?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 101
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 102
+					}
+				]
+			},
+			"101": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                These can cause <span class=\"bluefont\">dryness<\/span> of the eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 102
+					}
+				]
+			},
+			"102": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about <span class=\"bluefont\">beta-blockers<\/span> for heart or high blood pressure?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"purple_bluefont\">diuretics?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 103
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 104
+					}
+				]
+			},
+			"103": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                Discuss your <span class=\"bluefont\">dry eyes<\/span> with the doctor. These can also cause dry eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 104
+					}
+				]
+			},
+			"104": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you taking <span class=\"orangefont\">Tricyclic anti-depressants?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"orangefont\">SSRIs<\/span> for depression?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 105
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 106
+					}
+				]
+			},
+			"105": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can cause dry eyes. Discuss this with the doctor.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If the dryness started after you started taking the medication, you should let your doctor know. But <strong>do not stop<\/strong> taking the medication.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 106
+					}
+				]
+			},
+			"106": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you taking <span class=\"orangefont\">Isotretinoin<\/span> for <span class=\"purple_redfont\">acne?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 107
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 108
+					}
+				]
+			},
+			"107": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can lead to dryness of the eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 108
+					}
+				]
+			},
+			"108": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">OK<\/span><br>\r\n\t                We listed below other <span class=\"orangefont\">medications<\/span> that can cause dry eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Medications include:<\/p>\r\n\t            <ul>\r\n\t                <li>Atropine<\/li>\r\n\t                <li>Birth control pills<\/li>\r\n\t                <li>Lortab, Ibuprofen<\/li>\r\n\t                <li>Prilosec, prevacid, nexium, pepcid, tagamet<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorder\">If the dryness of the eyes started after you began taking these medications, let the doctor know. But do not stop taking the medication unless directed by the doctor. <\/p>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 110
+					}
+				]
+			},
+			"109": {
+				"header": "<div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 110
+					}
+				]
+			},
+			"110": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">OK<\/span><br>\r\n\t                We listed below other <span class=\"orangefont\">medications<\/span> that can cause dry eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Medications include:<\/p>\r\n\t            <ul>\r\n\t                <li>Atropine<\/li>\r\n\t                <li>Birth control pills<\/li>\r\n\t                <li>Lortab, Ibuprofen<\/li>\r\n\t                <li>Prilosec, prevacid, nexium, pepcid, tagamet<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorder\">If the dryness of the eyes started after you began taking these medications, let the doctor know. But do not stop taking the medication unless directed by the doctor. <\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Eye Clinic",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -218
+					}
+				]
+			}
 		}
 	},
 	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"

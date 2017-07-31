@@ -823,7 +823,7 @@
 					{
 						"type": "button",
 						"theme": "",
-						"title": "Here you  go",
+						"title": "Here you go",
 						"go": 11
 					}
 				]
@@ -1084,7 +1084,7 @@
 					},
 					{
 						"type": "a",
-						"theme": "e",
+						"theme": "",
 						"title": "No",
 						"go": 50
 					}

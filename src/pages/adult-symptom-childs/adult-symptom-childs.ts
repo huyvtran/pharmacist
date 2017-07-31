@@ -41,7 +41,13 @@ export class AdultSymptomChildsPage {
 		20: 'a',
 		21: 'p',
 		22: 'n',
-		23: 'o'
+		23: 'o',
+		24: 'i',
+		25: 'p',
+		26: 'a',
+		27: 'i',
+		28: 'o',
+		29: 'n'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -214,6 +220,34 @@ export class AdultSymptomChildsPage {
 				{	// 235 CongestionInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
+				},
+				{	// 236 RunnyNoseInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 237 SinusPressureInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 238 SnoringInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 239 CoughInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 240 SoreThroatInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 241 StiffNeckInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 242 ChestCongestionInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
 				}
 			];
 		this.recs = [
@@ -253,7 +287,6 @@ export class AdultSymptomChildsPage {
 	getHtmlData(){
 		let num = Math.floor(this.pageId / 4);
 	    this.html_data =  null;
-	    console.log(num);
 	    this.http.get("assets/json/adult_symptom_childs_" + num + ".json").map(response => response.json()).subscribe(data => {
 	        this.html_data = data;
 	        this.FYIDlg = this.html_data[this.pageId]['fyidlg'];
@@ -612,6 +645,22 @@ export class AdultSymptomChildsPage {
 		  	}
 		  	if (this.mode != 100) ind = 1 + this.mode;
 	  	}
+	  	else if (this.pageId==27 && ind == 41){
+	  		let trueCount = 0;
+		  	for (let i=0;i<5;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+
+	    	if (this.recs[10] == true)
+	    		this.mode = 1;
+	    	else if (trueCount > 0)
+	    		this.mode = 2;
+	    	else{
+	    		this.mode = 100;
+	    		ind = 40;
+	    	}
+	    	if (this.mode != 100) ind = 40 + this.mode;
+	    }
 		this.page = ind;
 	}
 	ionViewDidLoad() {

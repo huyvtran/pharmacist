@@ -47,7 +47,15 @@ export class AdultSymptomChildsPage {
 		26: 'a',
 		27: 'i',
 		28: 'o',
-		29: 'n'
+		29: 'n',
+		30: 'o',
+		31: 'n',
+		32: 'p',
+		33: 'i',
+		34: 'e',
+		35: 'a',
+		36: 'a',
+		37: 'p'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -248,6 +256,42 @@ export class AdultSymptomChildsPage {
 				{	// 242 ChestCongestionInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
+				},
+				{	// 243 BackPainInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 244 HeartburnInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 245 ShoulderInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 246 WristPainInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage		
+				},
+				{	// 247 ElbowInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 248 ConstipationInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 249 StomachFluMobilePage
+					"id": 40,
+					"page": AdultSymptomChildsPage	
+				},
+				{	// 250 DiarrheaInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 251 FoodPoisoningMobilePage
+					"id": 41,
+					"page": AdultSymptomChildsPage	
 				}
 			];
 		this.recs = [
@@ -660,6 +704,24 @@ export class AdultSymptomChildsPage {
 	    		ind = 40;
 	    	}
 	    	if (this.mode != 100) ind = 40 + this.mode;
+	    }
+	    else if (this.pageId==32 && ind == 2){
+	  		let trueCount = 0;
+		  	for (let i=0;i<6;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+
+	    	if (this.recs[10] == true)
+	    		this.mode = 1;
+	    	else if (this.recs[9] == true)
+	    		this.mode = 2;
+	    	else if (trueCount > 0)
+	    		this.mode = 3;
+	    	else{
+	    		this.mode = 4;
+	    		ind = 1;
+	    	}
+	    	if (this.mode != 100) ind = 1 + this.mode;
 	    }
 		this.page = ind;
 	}

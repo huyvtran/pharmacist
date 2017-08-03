@@ -204,7 +204,7 @@
 				]
 			},
 			{
-				"header": "<img src=\"assets\/img\/interface\/adult\/icon-backpain.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"orangefontLarge\">chest<\/span> | <span class=\"bluefontLarge\">Back<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
+				"header": "<img src=\"assets\/img\/interface\/adult\/icon-backpain.svg\" alt=\"\" height=\"50\"> &nbsp;&nbsp;&nbsp;<span class=\"orangefontLarge\">Chest<\/span> | <span class=\"bluefontLarge\">Back<\/span><span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
 				"subheader": "<hr>\r\n\t<p class=\"centerText\">Which of these are you experiencing?<\/p>\r\n\t<p class=\"centerText\"><img src=\"assets\/img\/interface\/adult\/back-main.svg\" alt=\"\" width=\"130\"><\/p>\r\n\t<br>",
 				"list": [
 					{

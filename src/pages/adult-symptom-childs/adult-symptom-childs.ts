@@ -55,7 +55,17 @@ export class AdultSymptomChildsPage {
 		34: 'e',
 		35: 'a',
 		36: 'a',
-		37: 'p'
+		37: 'p',
+		38: 'o',
+		39: 'i',
+		40: 'e',
+		41: 'f',
+		42: 'n',
+		43: 'o',
+		44: 'a',
+		45: 'a',
+		46: 'i',
+		47: 'i'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -292,6 +302,50 @@ export class AdultSymptomChildsPage {
 				{	// 251 FoodPoisoningMobilePage
 					"id": 41,
 					"page": AdultSymptomChildsPage	
+				},
+				{	// 252 NauseaInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 253 MotionSicknessMobilePage
+					"id": 15,
+					"page": AdultSymptomChildsPage	
+				},
+				{	// 254 StomachAcheInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 255 StomachFluInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 256 FoodPoisoningInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 257 YeastInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 258 UtiInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 259 JockitchInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 260 HemorrhoidsInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 261 PinwormInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 262 MenstrualInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
 				}
 			];
 		this.recs = [

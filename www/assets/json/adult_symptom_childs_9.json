@@ -1521,7 +1521,7 @@
 						"type": "button",
 						"theme": "k",
 						"title": "No",
-						"go": 3
+						"go": 70
 					}
 				]
 			},
@@ -2038,6 +2038,1868 @@
 					}
 				]
 			},
+			"50": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you also have a <span class=\"redfont\">stiff neck<\/span> along with this nausea and fever?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 51
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 52
+					}
+				]
+			},
+			"51": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Let's make sure you are not looking at <span class=\"redfont\">meningitis<\/span> which can be a life threatening emergency.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 52
+					}
+				]
+			},
+			"52": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you have a <span class=\"redfont\">severe headache<\/span> with this stiff neck and nausea?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 53
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 54
+					}
+				]
+			},
+			"53": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"orangeBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>This is a sign of meningitis.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">Note:<\/span><br>You should only continue if you are not experiencing the question asked.<\/p>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 54
+					}
+				]
+			},
+			"54": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you more <span class=\"blue_brightfont\">sensitive to light<\/span> with this stiff neck and nausea with fever?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 55
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 56
+					}
+				]
+			},
+			"55": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"orangeBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Possible sign of meningitis.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">Note:<\/span><br>You should only continue if you are not experiencing the question asked.<\/p>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 56
+					}
+				]
+			},
+			"56": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you feel you are <span class=\"purple_bluefont\">breathing rapidly<\/span> with this stiff neck, nausea and fever?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 57
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 58
+					}
+				]
+			},
+			"57": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"orangeBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Possible sign of meningitis<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">Note:<\/span><br>You should only continue if you are not experiencing the question asked.<\/p>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Hospital",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 58
+					}
+				]
+			},
+			"58": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge firstname\"> <\/span><br>\r\n\t                We just went through the main signs of <span class=\"redfont\">meningitis.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Bacteria meningitis is a <span class=\"redfont\">medical emergency.<\/span> <\/p>\r\n\t        <p class=\"redBorder\">Urgent treatment is required to avoid serious complications and even death. Time is of a factor.<\/p>\r\n\t        <p class=\"redBorderAll\">If you don't think it is meningitis you are looking at, let's continue and see what else may be causing this nausea and or vomiting.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "o",
+						"title": "Continue",
+						"go": 60
+					}
+				]
+			},
+			"60": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightOrange centerText\">\r\n\t            <span>If you have <span class=\"orangefont\">nausea<\/span> with <span class=\"redfont\">fever,<\/span> chances are something serious is going on.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <p class=\"redBorder centerText\">We will recommend you visit the nearest urgent care clinic.<\/p>\r\n\t    <p class=\"redBorderAll\">If any of the discussions does not apply to you, then let's continue.<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "o",
+						"title": "Continue",
+						"go": 61
+					}
+				]
+			},
+			"61": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>How <span class=\"bluefont\">many times<\/span> have you <span class=\"purple_redfont\">thrown up<\/span> since it all started?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"slider": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"label": "Times"
+				},
+				"sliderstep": {
+					"0": {
+						"min": 0,
+						"max": 3,
+						"go": 62
+					},
+					"1": {
+						"min": 3,
+						"max": 7,
+						"go": 63
+					},
+					"2": {
+						"min": 7,
+						"max": 10,
+						"go": 64
+					}
+				},
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Here you  go",
+						"go": 62
+					}
+				]
+			},
+			"62": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <div id=\"selected_nausea4_mobile_value\">\r\n\t                \tYou said:<span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\">{{currentTemp}}<\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<div class=\"clearboth divider1\"><\/div>\r\n\t        <h3 class=\"redBorder purple_redfont centerText\">Less than 3 times?<\/h3>\r\n\t        <p class=\"redBorder\">Let's see what a pharmacist recommend you use over-the-counter to help with the nausea and vomiting.<\/p>\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder centerText\">This will assume that:<\/p>\r\n\t            <ul>\r\n\t                <li>No other symptoms are present or nausea and or vomiting is the predominant symptom.<\/li>\r\n\t                <br>\r\n\t                <li>You know what is causing the nausea and vomiting.<\/li>\r\n\t                <br>\r\n\t                <li>You want to know what is available for nausea and or vomiting over the counter.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 61
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -252
+					}
+				]
+			},
+			"63": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <div id=\"selected_nausea4_mobile_value\">\r\n\t                \tYou said:<span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\">{{currentTemp}}<\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<div class=\"clearboth divider1\"><\/div>\r\n\t        <h3 class=\"redBorder orangefont centerText\">More than 3 times?<\/h3>\r\n\t        <p class=\"orangeBorder\">Watch out for the signs and symptoms of dehydration.<\/p>\r\n\t        <p class=\"orangeBorder\">Seek urgent care if other symptoms are present.<\/p>\r\n\t        <p class=\"orangeBorderAll\">Let's see what a pharmacist recommend you use over-the-counter to help with the nausea and vomiting.<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 61
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -252
+					}
+				]
+			},
+			"64": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <div id=\"selected_nausea4_mobile_value\">\r\n\t                \tYou said:<span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\">{{currentTemp}}<\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<div class=\"clearboth divider1\"><\/div>\r\n\t        <h3 class=\"redBorder redfont centerText\">Pretty bad?<\/h3>\r\n\t        <p class=\"redBorder\">Have to seek urgent care or give the doctor a call.<\/p>\r\n\t        <p class=\"redBorderAll\">Call the doctor or the after hours line. They can always call in a prescription to take care of this nausea and\/or vomiting for you. You don't have to wait till the office is opened for business.<\/p>\r\n\t        <p class=\"redBorderAll\">Let's see what a pharmacist recommend you use over-the-counter to help with the nausea and vomiting at least until you see a doctor.<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "b",
+						"title": "Back",
+						"go": 61
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -252
+					}
+				]
+			},
+			"70": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you also have <span class=\"greenfont\">diarrhea<\/span> with this nausea or vomiting?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 71
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 72
+					}
+				]
+			},
+			"71": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <div id=\"selected_nausea4_mobile_value\">\r\n\t                \tYou said:<span style=\"background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;\">{{currentTemp}}<\/span>\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\r\n\r\n<div class=\"clearboth divider1\"><\/div>\r\n\t        <h3 class=\"redBorder redfont centerText\">Pretty bad?<\/h3>\r\n\t        <p class=\"redBorder\">Have to seek urgent care or give the doctor a call.<\/p>\r\n\t        <p class=\"redBorderAll\">Call the doctor or the after hours line. They can always call in a prescription to take care of this nausea and\/or vomiting for you. You don't have to wait till the office is opened for business.<\/p>\r\n\t        <p class=\"redBorderAll\">Let's see what a pharmacist recommend you use over-the-counter to help with the nausea and vomiting at least until you see a doctor.<\/p>\r\n\r\n\r\n<div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 72
+					}
+				]
+			},
+			"72": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you have <span class=\"redfont\">burning pain<\/span> in the <span class=\"orangefont\">stomach<\/span> with this nausea and or vomiting?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 73
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 74
+					}
+				]
+			},
+			"73": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>You may be looking at peptic ulcer or gastritis<\/li>\r\n\t                <li>If you have a history of ulcer, it is a good time to check with your doctor.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 74
+					}
+				]
+			},
+			"74": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>What about burning pain in the <span class=\"purplefont\">lower part<\/span> of the <span class=\"purplefont\">chest?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightOrange\">\r\n\t                        With a sour or bitter <span class=\"purplefont\">taste<\/span> in the mouth or throat.\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 75
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 76
+					}
+				]
+			},
+			"75": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Most likely looking at a <span class=\"redfont\">serious<\/span> case of heartburn or GERD.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 76
+					}
+				]
+			},
+			"76": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you in addition to the nausea and\/or vomiting <span class=\"purple_redfont\">feeling dizzy?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"bubbleTopRightOrange\">\r\n\t            <p class=\"orangeBorder orangefont\"> With these symptoms:<\/p>\r\n\t            <ul>\r\n\t                <li>Sweating<\/li>\r\n\t                <li>Drooling saliva<\/li>\r\n\t                <li>Feeling cold<\/li>\r\n\t                <li>Headaches<\/li>\r\n\t                <li>Pale skin<\/li>\r\n\t                <li>Fatigue<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"orangeBorderAll\">And you are in a motion situation like a moving boat, train, airplane, car, or amusement park rides?<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 77
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 78
+					}
+				]
+			},
+			"77": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Most likely looking at a <span class=\"redfont\">serious<\/span> case of heartburn or GERD.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "Motion<br>Sickness",
+						"go": -253
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 78
+					}
+				]
+			},
+			"78": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you have a severe <span class=\"bluefont\">headache<\/span> with this nausea\/vomiting?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"bubbleTopRightOrange\">\r\n\t            <p class=\"orangeBorder bluefont\">Especially with:<\/p>\r\n\t            <ul>\r\n\t                <li>Sensitivity to light<\/li>\r\n\t                <li>Sensitivity to sounds<\/li>\r\n\t                <li>Sensitivity to smells<\/li>\r\n\t                <li>Blurred vision<\/li>\r\n\t                <li>Headache that has a pulsating, throbbing feel to it<\/li>\r\n\t                <li>Lightheadedness.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 79
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 80
+					}
+				]
+			},
+			"79": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at a <span class=\"purplefont\">migraine<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 80
+					}
+				]
+			},
+			"80": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you of child bearing age and if so did you <span class=\"pinkfont\">miss a period?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 81
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 82
+					}
+				]
+			},
+			"81": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Take a <span class=\"purple_bluefont\">pregnancy test<\/span> especially if it is triggered by food.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">Nausea or vomiting due to pregnancy often occur in the morning or can be triggered by food.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 82
+					}
+				]
+			},
+			"82": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span> Are you <span class=\"greenfont\">diabetic?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 83
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 84
+					}
+				]
+			},
+			"83": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible ketoacidosis<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 84
+					}
+				]
+			},
+			"84": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Did you just start taking a new <span class=\"purplefont\">medication?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 85
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 86
+					}
+				]
+			},
+			"85": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Most medications will<span class=\"orangefont\"> cause<\/span> nausea and\/or vomiting.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">Some medications may also cause nausea or vomiting days after you started taking them. Even Acetaminophen.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 86
+					}
+				]
+			},
+			"86": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"purplefont firstname\"> <\/span><br>\r\n\t                There are other causes of vomiting not talked about here.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-stephanie-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">For instance, you can trigger the vomiting center as a result of being stressed out.<\/p>\r\n\t        <p class=\"orangeBorder\">Eating some mushrooms can cause vomiting many days later.<\/p>\r\n\t        <p class=\"centerText\">Let's see what a pharmacist recommend you use over-the-counter.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 60
+					}
+				]
+			}
+		}
+	},
+	"39": {
+		"title": "Stomach Ache",
+		"dlg": [
+			"<p>&nbsp;<\/p>\r\n\t\t        <div class=\"redBorderAll\">\r\n\t\t            <p class=\"redBorder centerText\">Symptoms may start with:<\/p>\r\n\t\t            <ul>\r\n\t\t                <li> pain around your belly button.<\/li>\r\n\t\t                <li> pain may be minor at first, but it becomes more sharp and severe.<\/li>\r\n\t\t                <li>your appetite will be reduced<\/li>\r\n\t\t                <li> you may have nausea or vomiting<\/li>\r\n\t\t                <li>you may have low grade fever.<\/li>\r\n\t\t            <\/ul>\r\n\t\t        <\/div>\r\n\t\t        <div>\r\n\t\t            <p class=\"redBorder centerText\">As the swelling in the appendix increases, in 12 to 24 hours after the start of the illness:<\/p>\r\n\t\t            <ul>\r\n\t\t                <li>Pain tends to move into your right lower abdomen<\/li>\r\n\t\t                <li>Focuses right above the appendix at a place called McBurney's point.<\/li>\r\n\t\t                <li>Pain will increase when you gently press on your lower right belly area.<\/li>\r\n\t\t            <\/ul>\r\n\t\t        <\/div>\r\n\t\t        <div class=\"redBorderAll\">\r\n\t\t            <p class=\"redBorder redfont centerText\">If your appendix ruptures:<\/p>\r\n\t\t            <ul>\r\n\t\t                <li>You may have less pain for a short time and  feel better.<\/li>\r\n\t\t                <li>However, the lining of your abdomen can become infected and swollen from the rupture (peritonitis).<\/li>\r\n\t\t                <li> Then the pain gets worse and you become very sick.<\/li>\r\n\t\t                <li>Your pain may be worse when you walk or cough.<\/li>\r\n\t\t                <li>Sudden movement causes pain.<\/li>\r\n\t\t                <li>You may prefer to lie still because any movement gives you pain.<\/li>\r\n\t\t                <li>You might have nausea and vomiting<\/li>\r\n\t\t                <li>You might be shaking and feverish<\/li>\r\n\t\t                <li>You might have chills with diarrhea<\/li>\r\n\t\t            <\/ul>\r\n\t\t        <\/div>\r\n\t\t        <p class=\"redBorder centerText\">If you are nodding your head to any of these, this is a<br> <span class=\"redfont\">medical emergency<\/span><br> and you need to get to the <span class=\"redfont\">hospital now.<\/span><\/p>\r\n\t\t        <p>&nbsp;<\/p>\r\n\t\t        <div class=\"clearboth divider1\"><\/div>",
+			"<div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder bluefont centerText\">Severe pain that:<\/p>\r\n\t            <ul>\r\n\t                <li>started suddenly and may go away suddenly<\/li>\r\n\t                <li>comes in waves <span class=\"grayfontSmall\">(colicky)<\/span><\/li>\r\n\t                <li>is felt in the belly area or side of the back<\/li>\r\n\t                <li> may move to groin area <span class=\"grayfontSmall\">(groin pain)<\/span> or testicles <span class=\"grayfontSmall\">(testicle pain)<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder redfont centerText\">Also severe pain with<\/p>\r\n\t            <ul>\r\n\t                <li>Blood in urine<\/li>\r\n\t                <li>Abnormal urine color<\/li>\r\n\t                <li>nausea and vomiting<\/li>\r\n\t                <li>chills or fever<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>"		
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 500,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			},
+			{
+				"show": false,
+			    "height": 414,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Stomach ache?"
+			},
+			"1": {
+				"min": 1,
+				"max": 20,
+				"content": "How bad is it?"
+			},
+			"2": {
+				"min": 20,
+				"max": 21,
+				"content": "What could cause it?"
+			},
+			"3": {
+				"min": 30,
+				"max": 50,
+				"content": "Is it appendicitis?"
+			},
+			"4": {
+				"min": 50,
+				"max": 70,
+				"content": "Is it gallstones?"
+			},
+			"5": {
+				"min": 70,
+				"max": 90,
+				"content": "Is it kidney stones?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t            <span> Let's figure out what is going on with the stomach and make a <span class=\"orangefont\">good decision.<\/span><\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"redBorder\">\r\n\t        <p> You will narrow down the cause and determine if you need urgent care or if it is something that can be taken care of at the local pharmacy with over-the-counter remedies.<\/p>\r\n\t        <hr class=\"hrpink\">\r\n\t        <br>\r\n\t        <p class=\"centerText\">\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/stomach\/stomachache-lady.svg\" width=\"140\" alt=\"Lady with stomach ache\">\r\n\t        <\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->   \r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span> Good to have an idea of what you are dealing with.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">Know that:<\/span><br>The severity of the stomach pain may not reflect the magnitude of the problem causing the pain. For instance pain caused by appendicitis is usually dull in the beginning.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>With this stomach pain, are you seeing<span class=\"redfont\"> blood <\/span>in the <span class=\"purple_redfont\">stool?<\/span> <\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Or <span class=\"purple_redfont\">vomiting<\/span> <span class=\"redfont\">blood?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 3
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 4
+					}
+				]
+			},
+			"3": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span> Good to have an idea of what you are dealing with.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">Know that:<\/span><br>The severity of the stomach pain may not reflect the magnitude of the problem causing the pain. For instance pain caused by appendicitis is usually dull in the beginning.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 4
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>With this stomach pain, are you seeing<span class=\"redfont\"> blood <\/span>in the <span class=\"purple_redfont\">stool?<\/span> <\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Or <span class=\"purple_redfont\">vomiting<\/span> <span class=\"redfont\">blood?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 5
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 6
+					}
+				]
+			},
+			"5": {
+				"header": "<div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 6
+					}
+				]
+			},
+			"6": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Any <span class=\"purplefont\">shoulder pain?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Or pain in or between <span class=\"purplefont\">shoulder blades?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 7
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 8
+					}
+				]
+			},
+			"7": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or  emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li class=\"redfont\">Heart attack warning.<\/li>\r\n\t                <li>Need to rule this out unless it is pain you are familiar with.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 8
+					}
+				]
+			},
+			"8": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>If a female, are you <span class=\"bluefont\">pregnant<\/span> or think you could be pregnant?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 9
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 10
+					}
+				]
+			},
+			"9": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek a doctor or  emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need to rule out a serious cause if pregnant.<\/li>\r\n\t                <li>Need to rule out pregnancy if not pregnant.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you having difficulty <span class=\"bluefont\">breathing<\/span> with this stomach ache?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"redBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Consider this an urgent medical situation.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">Note:<\/span><br>You should only continue if you are not experiencing the question asked.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you currently being treated for <span class=\"pinkfont\">cancer?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 13
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 14
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Serious situation going on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 14
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did this stomach pain start <span class=\"redfont\">suddenly?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        And is <span class=\"redfont\">sharp?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 15
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 16
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or the emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible emergency situation.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 16
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge firstname\"> <\/span><br>\r\n\t                You've been trying to rule out going to the emergency room.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\"><span class=\"redfont\">But wait!<\/span><br>You are not out of the woods yet.<\/p>\r\n\t        <p class=\"redBorderAll\">Let's make sure it is not something like kidney stones, appendicitis, or even food poisoning.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- --> \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t            <span>Is the pain <span class=\"bluefont\">confined<\/span> to the <span class=\"redfont\">lower right<\/span> belly area?<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 30
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 50
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                Let's make sure you are not looking at <span class=\"bluefont\">appendicitis.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did this stomach pain <span class=\"orangefont\">start<\/span> around the <span class=\"purple_bluefont\">belly button?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 32
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 33
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 33
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Was this pain minor at first, but became <span class=\"bluefont\">sharper<\/span> and <span class=\"redfont\">severe?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 34
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 35
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightPurple_red\">\r\n\t                    <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                    <span class=\"redfont\">Appendicitis<\/span> usually start this way. But don't panic yet. \r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder\">Appendicitis usually <span class=\"redfont\">start<\/span> with:<\/p>\r\n\t            <ul>\r\n\t                <li>Pain around the belly button<\/li>\r\n\t                <li>Pain, minor at first, but becomes sharp and severe.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 35
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you feeling <span class=\"orangefont\">nauseated<\/span> and\/or <span class=\"purple_redfont\">vomiting?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 36
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 37
+					}
+				]
+			},
+			"36": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                There is a <span class=\"purple_bluefont\">feeling<\/span> of nausea or vomiting with appendicitis.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Pain around the belly button<\/li>\r\n\t                <li>Pain, minor at first, but becomes sharp and severe.<\/li>\r\n\t                <li class=\"bluefont\">Nausea and \/ or vomiting<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 37
+					}
+				]
+			},
+			"37": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you have any <span class=\"blue_brightfont\">appetite <\/span>for food?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 38
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 39
+					}
+				]
+			},
+			"38": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"bluefontLarge\">No appetite?<\/span><br>\r\n\t                With appendicitis, there is <span class=\"grayfont\">reduced<\/span> appetite for food.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder purplefont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Pain around the belly button<\/li>\r\n\t                <li>Pain, minor at first, but becomes sharp and severe.<\/li>\r\n\t                <li>Nausea and\/or vomiting<\/li>\r\n\t                <li class=\"bluefontSmall\">Reduced appetite.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 39
+					}
+				]
+			},
+			"39": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you experiencing <span class=\"orangefont\">low grade<\/span> <span class=\"redfont\">fever?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- --> \t\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 40
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 41
+					}
+				]
+			},
+			"40": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of <span class=\"purple_redfont\">appendicitis.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder purplefont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Pain around the belly button<\/li>\r\n\t                <li>Pain, minor at first, but becomes sharp and severe.<\/li>\r\n\t                <li>Nausea and\/or vomiting<\/li>\r\n\t                <li>Reduced appetite.<\/li>\r\n\t                <li class=\"bluefont\">Low grade fever<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 41
+					}
+				]
+			},
+			"41": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span><span class=\"grayfont\">Gently press<\/span> on the <span class=\"bluefont\">right lower belly<\/span> area.<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Does the <span class=\"redfont\">pain increase?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 42
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 43
+					}
+				]
+			},
+			"42": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"redfontLarge\">Yes?<\/span><br>\r\n\t                This is a sign of <span class=\"orangefont\">inflammation<\/span> of the <span class=\"redfont\">appendix.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Pressing on the right lower belly area increases the pain.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 43
+					}
+				]
+			},
+			"43": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Does this pain get <span class=\"bluefont\">worse<\/span> when you <span class=\"purple_bluefont\">walk?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 44
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 45
+					}
+				]
+			},
+			"44": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 45
+					}
+				]
+			},
+			"45": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Does the stomach pain <span class=\"orangefont\">get worse<\/span> when you <span class=\"purple_redfont\">cough?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 46
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 47
+					}
+				]
+			},
+			"46": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                This is a sign of appendicitis. The stomach <span class=\"redfont\">pain is worse <\/span>when you cough or walk.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 47
+					}
+				]
+			},
+			"47": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfont firstname\"> <\/span><br>\r\n\t                Those were signs and symptoms of  <span class=\"redfont\">appendicitis.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorderAll\"><span class=\"redfont\">Appendicitis<\/span> is swelling or inflammation of the appendix caused by infection or fecal matter blockade.<\/p>\r\n\t        <p class=\"redBorder\"> The appendix is a small pouch attached to the beginning of your large intestine.<\/p>\r\n\t        <p class=\"redBorder\">Tap on the <span class=\"orangefont\">\"FYI\"<\/span> button to see a description of the symptoms.<\/p>\r\n\t        <p class=\"redBorderAll\">Continue if it is not what you are looking at.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "m",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Hospital",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Continue",
+						"go": 50
+					}
+				]
+			},
+			"50": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the stomach pain in the <span class=\"bluefont\">right or middle<\/span> <span class=\"purple_redfont\">upper<\/span> belly area?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 51
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 70
+					}
+				]
+			},
+			"51": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfont\">Yes?<\/span><br>\r\n\t                <span class=\"firstname\"> <\/span> let's make sure you are not looking at a <span class=\"purple_redfont\">gallstone <\/span>situation.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 52
+					}
+				]
+			},
+			"52": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>If the pain is in the right or middle <span class=\"bluefont\">upper<\/span> belly..<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        ..is it <span class=\"purple_redfont\">dull<\/span> and <span class=\"bluefont\">constant?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 53
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 54
+					}
+				]
+			},
+			"53": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 54
+					}
+				]
+			},
+			"54": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is it <span class=\"redfont\">sharp<\/span> and <span class=\"purple_redfont\">cramping?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- --> \t\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 55
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 56
+					}
+				]
+			},
+			"55": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightPurple_red\">\r\n\t                    <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                    This is a symptom of a <span class=\"redfont\">gallstone attack.<\/span> But don't panic yet.\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder orangefont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Dull, constant pain in the right upper or middle upper abdomen<\/li>\r\n\t                <li><span class=\"orangefont\">Sharp, cramping<\/span> pain in the right upper or middle upper abdomen<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 56
+					}
+				]
+			},
+			"56": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is this pain spreading or did it spread to your <span class=\"purple_bluefont\">back?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 57
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 58
+					}
+				]
+			},
+			"57": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 58
+					}
+				]
+			},
+			"58": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did it spread to <span class=\"bluefont\">below<\/span> the <span class=\"orangefont\">right shoulder blade?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 59
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 60
+					}
+				]
+			},
+			"59": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                This is a sign and symptom of <span class=\"purple_redfont\">gallstones<\/span> attack.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder orangefont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Dull, constant pain in the right upper or middle upper abdomen<\/li>\r\n\t                <li>Sharp, cramping pain in the right upper or middle upper abdomen<\/li>\r\n\t                <li>Pain that may spread to the <span class=\"redfont\">back<\/span> or below the <span class=\"orangefontSmall\"> right shoulder blade<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 60
+					}
+				]
+			},
+			"60": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you passing <span class=\"brownfont\">clay-colored<\/span> <span class=\"orangefont\">stools<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 61
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 62
+					}
+				]
+			},
+			"61": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"orangefont\">You are?<\/span><br>\r\n\t                With <span class=\"purplefont\">gallstones,<\/span> you may pass clay-colored stools.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder orangefont centerText\">Symptoms of gallstones include:<\/p>\r\n\t            <ul>\r\n\t                <li>Dull, constant pain in the right upper or middle upper abdomen<\/li>\r\n\t                <li>Sharp, cramping pain in the right upper or middle upper abdomen<\/li>\r\n\t                <li>Pain that may spread to the back or below the right shoulder blade.<\/li>\r\n\t                <li class=\"redfontSmall\">Clay colored stools<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 62
+					}
+				]
+			},
+			"62": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is your skin or whites of your eyes <span class=\"yellowfont\">yellowing<\/span> <span class=\"purple_redfont\">(jaundice)?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 63
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 64
+					}
+				]
+			},
+			"63": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfont\">Yes?<\/span><br>\r\n\t                With gallstones, the skin or whites of the eyes may be yellowing.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 64
+					}
+				]
+			},
+			"64": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span> Any <span class=\"redfont\">fever<\/span> with this pain?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- --> \t\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 65
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 66
+					}
+				]
+			},
+			"65": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 66
+					}
+				]
+			},
+			"66": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>What about <span class=\"orangefont\">nausea<\/span> or <span class=\"purple_redfont\">vomiting?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 67
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 68
+					}
+				]
+			},
+			"67": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 68
+					}
+				]
+			},
+			"68": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"orangefontLarge firstname\"> <\/span><br>\r\n\t                Those were signs of <span class=\"redfont\">gallstones attack.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">If you nodded your head to the discussion so far, you should go to the nearest hospital or urgent care clinic?<\/p>\r\n\t        <p class=\"orangeBorderAll\">If that is not the case, we can keep looking into what may be causing this stomach pain you are experiencing.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "m",
+						"title": "FYI",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Hospital",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 70
+					}
+				]
+			},
+			"70": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did this pain start on the <span class=\"orangefont\">belly<\/span> area or side of the <span class=\"purple_redfont\">back?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        And moved down to the <span class=\"redfont\">groin<\/span> or <span class=\"orangefont\">bladder<\/span> area?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 71
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 90
+					}
+				]
+			},
+			"71": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalLeftPurple_red\">\r\n\t                    <span class=\"redfont\">Yes?<\/span><br>\r\n\t                    Hmmm. Let's make sure you are not looking at <span class=\"purple_redfont\">kidney stones.<\/span>\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle left person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 72
+					}
+				]
+			},
+			"72": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is this a <span class=\"redfont\">severe<\/span> pain that started  <span class=\"orangefont\">suddenly?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        It may also go away suddenly only to <span class=\"orangefont\">return<\/span> later.\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 73
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 74
+					}
+				]
+			},
+			"73": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfont\">Yes?<\/span><br>\r\n\t                This is a sign of <span class=\"purple_redfont\">kidney stones.<\/span> But don't panic yet.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 74
+					}
+				]
+			},
+			"74": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Any <span class=\"redfont\">blood<\/span> in the urine?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 75
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 76
+					}
+				]
+			},
+			"75": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 76
+					}
+				]
+			},
+			"76": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>What about an abnormal urine <span class=\"redfont\">color?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Or <span class=\"bluefont\">cloudy<\/span> urine with <span class=\"redfont\">strong odor?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 77
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 78
+					}
+				]
+			},
+			"77": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                This is a sign and symptom of <span class=\"purple_redfont\">kidney stones.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Severe pain that started suddenly<\/li>\r\n\t                <li>Pain that comes in waves (colicky)<\/li>\r\n\t                <li>Pain that moved down to the groin or bladder area<\/li>\r\n\t                <li><span class=\"redfont\">Bloody<\/span> urine<\/li>\r\n\t                <li><span class=\"purple_redfont\">Cloudy<\/span> urine with strong odor<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 78
+					}
+				]
+			},
+			"78": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you experiencing <span class=\"orangefont\">nausea<\/span> and or <span class=\"purple_redfont\">vomiting?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->  \t\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 79
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 80
+					}
+				]
+			},
+			"79": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                You may experience this with <span class=\"purple_redfont\">kidney stones.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Severe pain that started suddenly<\/li>\r\n\t                <li>Pain that comes in waves (colicky)<\/li>\r\n\t                <li>Pain that moved down to the groin or bladder area<\/li>\r\n\t                <li>Bloody urine<\/li>\r\n\t                <li>Cloudy urine with strong odor<\/li>\r\n\t                <li class=\"orangefont\">Nausea and vomiting<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 80
+					}
+				]
+			},
+			"80": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>What about frequent urge to<span class=\"purple_redfont\"> urinate<\/span> with this severe stomach pain?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 81
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 82
+					}
+				]
+			},
+			"81": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                Possible <span class=\"purple_redfont\">kidney stones.<\/span><br> <span class=\"grayfontSmall\">If with severe stomach pain.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">kidney stones symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Severe pain that started suddenly<\/li>\r\n\t                <li>Pain that comes in waves (colicky)<\/li>\r\n\t                <li>Pain that moved down to the groin or bladder area<\/li>\r\n\t                <li>Bloody urine<\/li>\r\n\t                <li>Cloudy urine with strong odor<\/li>\r\n\t                <li>Nausea and vomiting<\/li>\r\n\t                <li class=\"bluefont\">Frequent urge to urinate<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 82
+					}
+				]
+			},
+			"82": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span><span class=\"orangefont\">Fever<\/span> and <span class=\"bluefont\">chills.<\/span><br> Any of that?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 83
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 84
+					}
+				]
+			},
+			"83": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Passing <span class=\"purple_redfont\">kidney stones<\/span> can aslo cause this.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">kidney stones symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Severe pain that started suddenly<\/li>\r\n\t                <li>Pain that comes in waves (colicky)<\/li>\r\n\t                <li>Pain that moved down to the groin or bladder area<\/li>\r\n\t                <li>Bloody urine<\/li>\r\n\t                <li>Cloudy urine with strong odor<\/li>\r\n\t                <li>Nausea and vomiting<\/li>\r\n\t                <li>Frequent urge to urinate<\/li>\r\n\t                <li class=\"orangefont\">Fever and chills<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 84
+					}
+				]
+			},
+			"84": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge firstname\"> <\/span><br>\r\n\t                Those were symptoms of <span class=\"purple_redfont\">kidney stones<\/span> pain.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorderAll\">Main signs your stomach pain might be due to kidney stones are listed in the <span class=\"orangefont\">\"FYI\"<\/span> below.<\/p>\r\n\t        <!------Start Popoup div----- -->   \r\n\t        <div style=\"display: none;\" id=\"stomach_kidney_mobile_9_pop-placeholder\">\r\n\t            <!-- placeholder for stomach_kidney_mobile_9_pop -->\r\n\t        <\/div>\r\n\t        <!------End Popoup div----- -->\r\n\t        <p class=\"redBorder\">If these apply to you, we suggest you go to the nearest hospital or urgent care clinic. <\/p>\r\n\t        <p class=\"redBorderAll\">Would you like to do that now or continue if you don't think it is a kidney stone situation?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "m",
+						"title": "FYI",
+						"go": -102
+					},
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Hospital",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 90
+					}
+				]
+			},
+			"90": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you feel pain mainly when you apply <span class=\"orangefont\">pressure<\/span> to certain parts of the belly?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 91
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 92
+					}
+				]
+			},
+			"91": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or  emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Doctors call this point tenderness. It means you have tenderness in a certain area.<\/li>\r\n\t                <li>May be looking at peritonitis <span class=\"grayfontSmall\">(inflammation of the tissue that lines the abdominal cavity)<\/span><\/li>\r\n\t                <li>May be looking at appendicitis or twisted Fallopian tube.<\/li>\r\n\t                <li>May be looking at certain types of hernia.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <p class=\"redBorder\">If you or someone else touch parts of the belly and you feel pain in that part or the area feels tender, we consider this a <span class=\"redfont\">medical emergency.<\/span><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 92
+					}
+				]
+			},
+			"92": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Would you describe the stomach pain as being <span class=\"purplefont\">cramp-like?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 93
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 94
+					}
+				]
+			},
+			"93": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                This is more likely due to <span class=\"blue_brightfont\">gas<\/span> and <span class=\"purple_bluefont\">bloating.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">If it is followed by diarrhea, then it is due to gas or bloating. You may be suffering from lactose intolerance or food allergies.<\/p>\r\n\t        <p class=\"redBorderAll centerText\">If it lasts more than 24 hours or there is fever, then you will need to <span class=\"redfont\">seek urgent care.<\/span><\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 94
+					}
+				]
+			},
+			"94": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you feel the stomach ache <span class=\"bluefont\">all over<\/span> your belly? <\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Or in more than <span class=\"bluefont\">half<\/span> of your belly?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- --> \t\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 95
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 96
+					}
+				]
+			},
+			"95": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                You may be looking at a stomach virus, indigestion, or gas.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">If it gets more severe, your intestines might be blocked.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 96
+					}
+				]
+			},
+			"96": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is this pain <span class=\"purplefont\">dull<\/span> and coming in <span class=\"orangefont\">waves?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        And you are <span class=\"purplefont\">vomiting?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 97
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 98
+					}
+				]
+			},
+			"97": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                May be looking at <span class=\"redfont\">intestinal obstruction.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 98
+					}
+				]
+			},
+			"98": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is this stomach ache <span class=\"orangefont\">sharp<\/span> and <span class=\"purple_redfont\">constant?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        <span class=\"purple_redfont\">Worse<\/span> when you <span class=\"orangefont\">move?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 99
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 100
+					}
+				]
+			},
+			"99": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or  emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at peritonitis.<\/li>\r\n\t                <br>\r\n\t                <li>If you feel relief when lying still and severe pain when you move or try to get up. Call 911.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 100
+					}
+				]
+			},
+			"100": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did the pain start <span class=\"orangefont\">suddenly,<\/span> like turning on the <span class=\"bluefont\">light switch?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 101
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 102
+					}
+				]
+			},
+			"101": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or  emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible causes include kidney stones, perforated ulcer.<\/li>\r\n\t                <br>\r\n\t                <li>Something may have ruptured in the stomach.<\/li>\r\n\t                <br>\r\n\t                <li>If you are pregnant, you might be looking at a ruptured ectopic pregnancy.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- --> \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 102
+					}
+				]
+			},
+			"102": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Does this pain <span class=\"orangefont\">travel<\/span>  to any other areas of the body?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 103
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 104
+					}
+				]
+			},
+			"103": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or  emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">If it travels to:<\/p>\r\n\t            <ul>\r\n\t                <li><span class=\"purple_redfont\">Right collar bone:<\/span><br>May suggest gallbladder pain<\/li>\r\n\t                <br>\r\n\t                <li><span class=\"orangefont\">Left shoulder area:<\/span><br>May suggest a ruptured spleen or even pancreatitis.<\/li>\r\n\t                <br>\r\n\t                <li><span class=\"purple_bluefont\">Private parts:<\/span><br>May suggest Kidney stones.<\/li>\r\n\t                <br>\r\n\t                <li><span class=\"redfont\">The back:<\/span><br>Must seek <span class=\"redfont\">emergency <\/span>help.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Nearest ER",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 104
+					}
+				]
+			},
+			"104": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>There are other causes of stomach pain not discussed so far.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-karen-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">Some will require emergency care, others urgent care while others are due to minor stomach discomfort.<\/p>\r\n\t        <p class=\"orangeBorderAll centerText\"><span class=\"redfont\">Bottom line:<\/span><br>If you are writhing around with severe pain trying to find the best comfortable position for you, you should start heading to the emergency room or seek urgent care. <\/p>\r\n\t        <p class=\"orangeBorderAll\">Especially if it started suddenly and you know you didn't eat anything bad or do not have gas problems. <\/p>\r\n\t        <p class=\"orangeBorder\">If you are convinced your stomach pain is not life threatening or does not require urgent care, let's see what a pharmacist recommend you take to relieve the pain that is available over-the-counter.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": -254
+					}
+				]
+			}
 		}
 	},
 	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"

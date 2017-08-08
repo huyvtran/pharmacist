@@ -1078,13 +1078,13 @@
 				"buttons": [
 					{
 						"type": "a",
-						"theme": "",
+						"theme": "l",
 						"title": "Yes",
 						"go": 41
 					},
 					{
 						"type": "a",
-						"theme": "",
+						"theme": "k",
 						"title": "No",
 						"go": 50
 					}

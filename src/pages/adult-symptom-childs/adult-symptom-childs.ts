@@ -65,7 +65,14 @@ export class AdultSymptomChildsPage {
 		44: 'a',
 		45: 'a',
 		46: 'i',
-		47: 'i'
+		47: 'i',
+		48: 'n',
+		49: 'a',
+		50: 'a',
+		51: 'n',
+		52: 'i',
+		53: 'o',
+		54: 'h'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -344,6 +351,22 @@ export class AdultSymptomChildsPage {
 					"page": AdultSymptomInfographicsPage	
 				},
 				{	// 262 MenstrualInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 263 BitesInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 264 EczemaInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 265 BurnInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 266 SunburnInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
 				}

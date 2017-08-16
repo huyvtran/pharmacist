@@ -72,7 +72,9 @@ export class AdultSymptomChildsPage {
 		51: 'n',
 		52: 'i',
 		53: 'o',
-		54: 'h'
+		54: 'h',
+		55: 'o',
+		56: 'i'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -367,6 +369,22 @@ export class AdultSymptomChildsPage {
 					"page": AdultSymptomInfographicsPage	
 				},
 				{	// 266 SunburnInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 267 PoisonIvyInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 268 HivesInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 269 BitesMobilePage
+					"id": 48,
+					"page": AdultSymptomChildsPage	
+				},
+				{	// 270 RingwormInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
 				}
@@ -795,10 +813,32 @@ export class AdultSymptomChildsPage {
 	    	else if (trueCount > 0)
 	    		this.mode = 3;
 	    	else{
-	    		this.mode = 4;
+	    		this.mode = 100;
 	    		ind = 1;
 	    	}
 	    	if (this.mode != 100) ind = 1 + this.mode;
+	    }
+	    else if (this.pageId==55 && ind == 21){
+	  		let trueCount = 0;
+		  	for (let i=0;i<9;i++)
+		  		if (this.recs[i] == true)
+		  			trueCount ++;
+
+	    	if (this.recs[10] == true)
+	    		this.mode = 1;
+	    	else if (this.recs[5] == true)
+	    		this.mode = 2;
+	    	else if (this.recs[0] == true)
+	    		this.mode = 3;
+	    	else if (this.recs[3] == true)
+	    		this.mode = 4;
+	    	else if (trueCount > 0)
+	    		this.mode = 5;
+	    	else{
+	    		this.mode = 100;
+	    		ind = 20;
+	    	}
+	    	if (this.mode != 100) ind = 20 + this.mode;
 	    }
 		this.page = ind;
 	}

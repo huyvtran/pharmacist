@@ -1,0 +1,512 @@
+{
+	"56": {
+		"title": "Ringworm",
+		"dlg": [
+			"<p class=\"purpleRedBorder\">Ringworms  are fungi or yeast that use keratin from dead skin cells for food.<\/p>\r\n\t        <p class=\"purpleRedBorderWhite\">They must live on the outermost layer of the skin <span class=\"italicSmall\">(dead skin cells that are filled with the protein keratin)<\/span>, hair, or nails to survive.\r\n\t        <\/p>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 176,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Ringworm?"
+			},
+			"1": {
+				"min": 20,
+				"max": 40,
+				"content": "Need a doctor?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red\">\r\n\t            <span class=\"purple_redfont\"> Does this look like ringworm?<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border left person------------------- -->\r\n\t    <!------Start Popoup div----- -->   \r\n\t    <div style=\"display: none;\" id=\"ringworm_mobile_pop-placeholder\">\r\n\t        <!-- placeholder for ringworm_mobile_pop  -->\r\n\t    <\/div>\r\n\t    <!------End Popoup div----- -->\r\n\t    <div class=\"purpleRedBorder centerText\">\r\n\t        <p>That is probably the first question  you will yourself.<\/p>\r\n\t        <hr class=\"hrpink\">\r\n\t        <br>\r\n\t        <p>\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/skin\/ringworm-leg.svg\" width=\"200\" alt=\"Lady with ringworm on the leg\">\r\n\t        <\/p>\r\n\t        <br>\r\n\t        <p class=\"purpleRedBorderAll\">Let's find out if that is what you are looking at. We will be talking about ringworm of the body here. <\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span>Listed below are a few things to <span class=\"orangefont\">know.<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorder\">\r\n\t            <ul>\r\n\t                <li>Ringworm is contagious. You can get it from direct contact with ringworm on someone's skin.<\/li>\r\n\t                <br>\r\n\t                <li>Touching items that have the fungi on them, such as clothing, shower floors, pool surfaces can give it to you <span class=\"italicSmall\">(They thrive in warm, moist areas)<\/span>.<\/li>\r\n\t                <br>\r\n\t                <li>You can also get it from your pets especially cats.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorder centerText\">Let's continue and see if you are looking at ringworm.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you looking at a <span class=\"pinkfont\">patch<\/span> or <span class=\"purple_redfont\">patches<\/span> that are <span class=\"pinkfont\">itchy?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 3
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 4
+					}
+				]
+			},
+			"3": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"pinkfontLarge\">Yes?<\/span><br>\r\n\t                A ringworm is sometimes <span class=\"purple_redfont\">itchy<\/span> and like a <span class=\"pinkfont\">patch<\/span> that will keep <span class=\"grayfont\">expanding outwards.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 4
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the area <span class=\"bluefont\">scaly <\/span>with <span class=\"grayfont\">dry and flaky<\/span> skin surrounding it?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 5
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 6
+					}
+				]
+			},
+			"5": {
+				"header": "<h3>Yes?</h3>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 6
+					}
+				]
+			},
+			"6": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Does the affected area have outside <span class=\"redfont\">red<\/span> border like a <span class=\"grayfont\">ring?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 7
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 8
+					}
+				]
+			},
+			"7": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                This is a sign of <span class=\"purple_redfont\">ringworm <\/span>infection. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"redBorder\">The contours of the ring may be irregular with <span class=\"grayfont\">scaly borders.<\/span><\/p>\r\n\t        <div class=\"purpleBorderAll\">\r\n\t            <p class=\"purpleBorder centerText\">Signs of a ringworm include:<\/p>\r\n\t            <ul>\r\n\t                <li>Itchy patch or patches<\/li>\r\n\t                <li>Scaly area with dry and flaky surrounding skin<\/li>\r\n\t                <li class=\"purple_redfont\">Outside ring like red border<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 8
+					}
+				]
+			},
+			"8": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are the <span class=\"grayfont\">edges<\/span> of the area <span class=\"grayfont\">defined<\/span> and <span class=\"pinkfont\">slightly raised?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 9
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 10
+					}
+				]
+			},
+			"9": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                This is a description of a <span class=\"purple_redfont\">ringworm<\/span> infection. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder centerText\">Signs include:<\/p>\r\n\t            <ul>\r\n\t                <li>Itchy patch or patches<\/li>\r\n\t                <li>Scaly area with dry and flaky surrounding skin<\/li>\r\n\t                <li>Outside ring like red border<\/li>\r\n\t                <li class=\"purple_redfont\">Sharply defined borders<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is this an area that is <span class=\"redfont\">redder<\/span> outside?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        With a clear or normal <span class=\"orangefont\">skin tone<\/span> in the center?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                A <span class=\"purple_redfont\">ringworm<\/span> may look like this. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"purpleBorder\">The inside of the ring may be scaly or marked with scattered red bumps and several rings may develop at the same time and overlap.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"orangefontLarge\">Alright<\/span><br>\r\n\t                Those were what a <span class=\"purple_redfont\">ringworm<\/span> infection may look like.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"redBorder\">If you think you are looking at a ringworm infection, let's continue and see what a pharmacist recommend you use over the counter to help clear this up.<\/p>\r\n\t        <p align=\"center\" class=\"orangeBorder\">\r\n\t            If you are still not sure, you will have to see a healthcare provider.\r\n\t        <\/p>\r\n\t        <p class=\"redBorder centerText\">\r\n\t            A healthcare provider may examine your skin in a dark room with a blue light called Wood's lamp. This will make the fungus glow if it is ringworm.\r\n\t        <\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"firstname purple_redfont\"> <\/span><br>\r\n\t                Having to see a doctor depends on a few things listed below.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"purpleRedBorder purple_redfont centerText\">It depends on if the area is:<\/p>\r\n\t            <ul>\r\n\t                <li>Infected due to scratching.<\/li>\r\n\t                <br>\r\n\t                <li>Very extensive. <span class=\"grayfontSmall\">In which case you will need oral medications.<\/span><\/li>\r\n\t                <br>\r\n\t                <li>Very inflammed.<\/li>\r\n\t                <br>\r\n\t                <li>Mixed with other causes.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderAll\">Let's make the right decision regarding this ringworm.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 21
+					}
+				]
+			},
+			"21": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the affected area <span class=\"purple_redfont\">swollen?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        <span class=\"purple_redfont\">Warm to touch?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 22
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 23
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Looking at infection.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 23
+					}
+				]
+			},
+			"23": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the area <span class=\"bluefont\">draining<\/span> or forming <span class=\"pinkfont\">pus?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->  \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 24
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 25
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible infection.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 25
+					}
+				]
+			},
+			"25": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you looking at <span class=\"redfont\">red<\/span> <span class=\"orangefont\">streaks<\/span> in the affected area?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 26
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 27
+					}
+				]
+			},
+			"26": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible infection.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 27
+					}
+				]
+			},
+			"27": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you have any <span class=\"orangefont\">fever<\/span> in addition to this <span class=\"grayfont\">ringworm?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 28
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 29
+					}
+				]
+			},
+			"28": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Looking at a serious situation if you think the ringworm is the cause.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 29
+					}
+				]
+			},
+			"29": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the ringworm on the <span class=\"purplefont\">scalp?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 30
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 31
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Hard to treat.<\/li>\r\n\t                <li>Over-the-counter creams won't cut this.<\/li>\r\n\t                <li>You will need oral prescription medication like griseofulvin.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is the ringworm <span class=\"grayfont\">over much<\/span> of the<span class=\"purple_redfont\"> body?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 32
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 33
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need oral prescription medication.<\/li>\r\n\t                <li>Cannot rub cream to a very large area. May be too expensive to do anyway.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 33
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Have you tried selfcare for <span class=\"orangefont\">4 weeks<\/span> now and still <span class=\"redfont\">no relief?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 34
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 35
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Time to seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need something stronger.<\/li>\r\n\t                <li>Need to make sure it is a ringworm infection.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 35
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Does this ringworm keep <span class=\"orangefont\">coming back<\/span> even after going away?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 36
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 37
+					}
+				]
+			},
+			"36": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need further evaluation.<\/li>\r\n\t                <li>Need to keep treating for a few more weeks even after clearing.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 37
+					}
+				]
+			},
+			"37": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red\">\r\n\t                <span class=\"orangefont firstname\"> <\/span><br>\r\n\t                Those were some of the reasons to see a doctor.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"purpleRedBorder\">If none applied to you, let's get an over-the-counter recommendation for this ringworm infection.<\/p>\r\n\t        <p class=\"purpleRedBorderAll\">Or perhaps you would like to see the nearest urgent care clinic to you.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": -270
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

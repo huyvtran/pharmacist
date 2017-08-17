@@ -83,7 +83,9 @@ export class AdultSymptomChildsPage {
 		61: 'o',
 		62: 'a',
 		63: 'o',
-		64: 'e'
+		64: 'e',
+		65: 'a',
+		66: 'o'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -420,6 +422,14 @@ export class AdultSymptomChildsPage {
 				{	// 276 NailFungusInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage	
+				},
+				{	// 277 SwollenFootInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 278 CornInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
 				}
 			];
 		this.recs = [

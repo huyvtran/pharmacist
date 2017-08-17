@@ -10,6 +10,7 @@ import { NearestPage } from '../nearest/nearest';
 // import { ColdMobilePage } from '../cold-mobile/cold-mobile';
 // import { UrgentCarePage } from '../urgent-care/urgent-care';
 import { AdultSymptomInfographicsPage } from '../adult-symptom-infographics/adult-symptom-infographics';
+import { AdultTakeMobileListPage } from '../adult-take-mobile-list/adult-take-mobile-list';
 
 @Component({
   selector: 'page-adult-symptom-childs',
@@ -74,7 +75,13 @@ export class AdultSymptomChildsPage {
 		53: 'o',
 		54: 'h',
 		55: 'o',
-		56: 'i'
+		56: 'i',
+		57: 'a',
+		58: 'e',
+		59: 'i',
+		60: 'n',
+		61: 'o',
+		62: 'a'
 	}
 	@ViewChild(Content) content: Content;
 	MyContent = {
@@ -122,7 +129,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 204 AdultTakeMobileListPage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage
+					"page": AdultTakeMobileListPage
 				},
 				{	// 205 SinusPressureMobilePage
 					"id": 24,
@@ -387,6 +394,22 @@ export class AdultSymptomChildsPage {
 				{	// 270 RingwormInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
+				},
+				{	// 271 WartsInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 272 AnkleSprainInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 273 AthletesInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage
+				},
+				{	// 274 FootPainInfographicsMobilePage
+					"id": 0,
+					"page": AdultSymptomInfographicsPage	
 				}
 			];
 		this.recs = [

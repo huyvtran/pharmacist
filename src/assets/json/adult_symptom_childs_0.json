@@ -625,7 +625,7 @@
 					},
 					{
 						"type": "button",
-						"theme": "",
+						"theme": "k",
 						"title": "No fever",
 						"go": 10
 					}

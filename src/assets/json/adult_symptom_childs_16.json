@@ -1,0 +1,531 @@
+{
+	"64": {
+		"title": "Nail fungus",
+		"dlg": [
+		],
+		"fyidlg": [
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Nail fungus?"
+			},
+			"1": {
+				"min": 1,
+				"max": 20,
+				"content": "Is it nail fungus?"
+			},
+			"2": {
+				"min": 20,
+				"max": 40,
+				"content": "Need a doctor?"
+			},
+			"3": {
+				"min": 40,
+				"max": 41,
+				"content": "A,"
+			},
+			"4": {
+				"min": 41,
+				"max": 42,
+				"content": "Reoccurrence"
+			},
+			"5": {
+				"min": 42,
+				"max": 43,
+				"content": "First time"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightYellow centerText\">\r\n\t            <span><span class=\"orangefont\">Nail fungus<\/span> may start as a tiny white or orange spot on the nail.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"orangeBorder centerText\">\r\n\t        <p>Now, let's see what can be done about it.<\/p>\r\n\t        <hr class=\"hrorange\">\r\n\t        <br>\r\n\t        <p class=\"centerText\">\r\n\t            <br>\r\n\t            <img src=\"assets\/img\/people\/adult\/leg\/nailfungus-leg.svg\" width=\"200\" alt=\"person with a nail fungus\">\r\n\t        <\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange\">\r\n\t                <span class=\"orangefontLarge firstname\">A,<\/span><br>\r\n\t                To start with, are you looking at a nail fungus infection in the first place?\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"purpleRedBorder centerText\">You don't want to assume  a nail fungus infection when it could be something serious.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>The nail is getting <span class=\"orangefont\">discolored.<\/span> Is this why you suspect nail fungus?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 3
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 4
+					}
+				]
+			},
+			"3": {
+				"header": "<h3>Yes?</h3><p>&nbsp;</p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 4
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the nail surface losing its <span class=\"orangefont\">luster<\/span> or <span class=\"purple_bluefont\">shine?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 5
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 6
+					}
+				]
+			},
+			"5": {
+				"header": "<h3>Yes?</h3>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 6
+					}
+				]
+			},
+			"6": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are there white or orange lines on the <span class=\"pinkfont\">side of the nail?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 7
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 8
+					}
+				]
+			},
+			"7": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Yes?<\/span><br>\r\n\t                Start suspecting <span class=\"orangefont\">nail fungus<\/span> <span class=\"grayfont\">infection.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder centerText\">Suspect nail fungus if:<\/p>\r\n\t            <ul>\r\n\t                <li>Nail is getting discolored<\/li>\r\n\t                <li>Nail is losing luster or shine on the surface<\/li>\r\n\t                <li><span class=\"pinkfontSmall\">Side of the nail<\/span> has white or orange lines<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 8
+					}
+				]
+			},
+			"8": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the nail turning <span class=\"bluefont\">brittle?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 9
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 10
+					}
+				]
+			},
+			"9": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Suspecting <span class=\"orangefont\">nail fungus<\/span> infection.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Suspect nail fungus if:<\/p>\r\n\t            <ul>\r\n\t                <li>Nail is getting discolored<\/li>\r\n\t                <li>Nail is losing luster or shine on the surface<\/li>\r\n\t                <li>Side of the nail has white or orange lines<\/li>\r\n\t                <li class=\"bluefont\">Nail is turning brittle<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are the outside edges of the nail <span class=\"purple_redfont\">crumbling?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                May be looking at a nail fungus <span class=\"redfont\">infection.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Nail  getting discolored<\/li>\r\n\t                <li>Nail  losing luster or shine on the surface<\/li>\r\n\t                <li>Side of the nail having white or orange lines<\/li>\r\n\t                <li>Nail  turning brittle<\/li>\r\n\t                <li>Outside edges of the nail  <span class=\"bluefont\">crumbling.<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is <span class=\"bluefont\">debris<\/span> <span class=\"purple_bluefont\">trapped<\/span> under the nail?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 13
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 14
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                Looking at a <span class=\"orangefont\">nail fungus<\/span> infection most likely.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Nail getting discolored<\/li>\r\n\t                <li>Nail  losing luster or shine on the surface<\/li>\r\n\t                <li>Side of the nail having white or orange lines<\/li>\r\n\t                <li>Nail  turning brittle<\/li>\r\n\t                <li>Outside edges of the nail  crumbling<\/li>\r\n\t                <li>Debris <span class=\"orangefontSmall\">trapped<\/span> under the nail<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 14
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the nail getting <span class=\"orangefont\">thicker?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 15
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 16
+					}
+				]
+			},
+			"15": {
+				"header": "<h3>Yes?</h3>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 16
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the <span class=\"purple_redfont\">shape<\/span> getting <span class=\"bluefont\">distorted?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 17
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 18
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Yes?<\/span><br>\r\n\t                More than likely looking at a <span class=\"orangefont\">nail fungus<\/span> infection.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder centerText\">Suspect nail fungus infection if:<\/p>\r\n\t            <ul>\r\n\t                <li>Nail is getting discolored<\/li>\r\n\t                <li>Nail is losing luster or shine on the surface<\/li>\r\n\t                <li>Side of the nail has white or orange lines<\/li>\r\n\t                <li>Nail is turning brittle<\/li>\r\n\t                <li>Outside edges of the nail is crumbling<\/li>\r\n\t                <li>Debris is trapped under the nail<\/li>\r\n\t                <li>Nail is getting <span class=\"orangefontSmall\">thicker<\/span><\/li>\r\n\t                <li>Shape is getting <span class=\"bluefontSmall\">distorted.<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 18
+					}
+				]
+			},
+			"18": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge firstname\">A,<\/span><br>\r\n\t                Those were the main signs of a <span class=\"redfont\">nail fungus<\/span> infection.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">If you think you are looking at a nail fungus infection, let's find out if you need to see a doctor for this and how soon.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are the <span class=\"bluefont\">tissues<\/span> surrounding the affected nail <span class=\"redfont\">red?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 21
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 22
+					}
+				]
+			},
+			"21": {
+				"header": "<h3>Yes?</h3><p>&nbsp;</p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 22
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"purple_redfont\">Are they swollen?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 23
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 24
+					}
+				]
+			},
+			"23": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Looking at a serious infection<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 24
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are the tissues <span class=\"grayfont\">filled<\/span> with <span class=\"orangefont\">pus?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 25
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 26
+					}
+				]
+			},
+			"25": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Looking at infection<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 26
+					}
+				]
+			},
+			"26": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Any <span class=\"redfont\">red<\/span> <span class=\"purple_redfont\">streaks<\/span> along the skin area?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 27
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 28
+					}
+				]
+			},
+			"27": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at bacteria infection also.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 28
+					}
+				]
+			},
+			"28": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the nail <span class=\"bluefont\">loosening<\/span> or <span class=\"pinkfont\">lifting up<\/span> from the skin?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 29
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 30
+					}
+				]
+			},
+			"29": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Over-the-counter creams and ointments generally do not help treat this condition.<\/li>\r\n\t                <br>\r\n\t                <li>Prescription anti-fungal medicines taken by mouth may help clear the fungus.<br>You will need to take the medicine for about 2 to 3 months for toenails; a shorter time for fingernails.<\/li>\r\n\t                <br>\r\n\t                <li>In some cases, the health care provider may remove the nail. Nails grow slowly. Even if treatment is successful, a new, clearer nail may take up to a year to grow in.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefont\">Are you diabetic?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 31
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 32
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Self care is not adviced.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 32
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge firstname\">A,<\/span><br>\r\n\t                Those were some of the <span class=\"bluefont\">reasons <\/span> to see a doctor.\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightOrange\">\r\n\t                        Just one more <span class=\"redfont\">question.<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 40
+					}
+				]
+			},
+			"40": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightOrange centerText\">\r\n\t            <span>Is this a <span class=\"orangefont\">reoccurrence<\/span> or <span class=\"purple_redfont\">first time<\/span> nail fungal infection?<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "f",
+						"title": "Reoccurrence",
+						"go": 41
+					},
+					{
+						"type": "button",
+						"theme": "g",
+						"title": "First time",
+						"go": 42
+					}
+				]
+			},
+			"41": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightYellow centerText\">\r\n\t            <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"redBorderAll\">\r\n\t        <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t        <ul>\r\n\t            <li>Nail fungus are hard to treat.<\/li>\r\n\t            <br>\r\n\t            <li>You will need prescription oral antifungal medications and stay with it all the way.<\/li>\r\n\t            <br>\r\n\t            <li>About 50% of people with nail fungal infection get successful treatment first time around with preescription antifungal.<\/li>\r\n\t            <br>\r\n\t            <li>In some cases, the health care provider may remove the nail. Nails grow slowly. <\/li>\r\n\t            <br>\r\n\t            <li>Even if treatment is successful, a new, clearer nail may take up to a year to grow in.<\/li>\r\n\t        <\/ul>\r\n\t    <\/div>\r\n\t    <br>\r\n\t    <!---------------------End Seek urgent care------------- -->\r\n\t    <p class=\"redBorder centerText\">Would you like to see what a pharmacist recommend for nail fungus infection that is available over-the-counter anyway or see the nearest clinic to you?<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "e",
+						"title": "Podiatrist",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Continue",
+						"go": -276
+					}
+				]
+			},
+			"42": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightOrange centerText\">\r\n\t            <span>If it is pretty bad, seeing a healthcare provider will be your best option.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-carly-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"redBorderAll\">\r\n\t        <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t        <ul>\r\n\t            <li>The over-the-counter nail fungus medications are not usually successful and will take a long time to work.<\/li>\r\n\t            <br>\r\n\t            <li>The time and effort required to treat the nail fungus over-the-counter is going to be far more expensive for you than seeing a doctor.<\/li>\r\n\t        <\/ul>\r\n\t    <\/div>\r\n\t    <br>\r\n\t    <!---------------------End Seek urgent care------------- -->\r\n\t    <div class=\"purpleRedBorder\">\r\n\t        <p>If it is just starting, you may be able to nip it in the bud.<\/p>\r\n\t        <p>In this case, we will send you to a pharmacist for recommendation on what is available to use over-the-counter.<\/p>\r\n\t    <\/div>\r\n\t    <p class=\"purpleRedBorderAll centerText\">Would you like to do this or visit the nearest clinic for evaluation and treatment?<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t    <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "e",
+						"title": "Podiatrist",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Continue",
+						"go": -276
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

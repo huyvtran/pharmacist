@@ -63129,6 +63129,117 @@ page-about button:focus {
   right: 0;
 }
 
+page-adult-pharmacist-childs {
+  font-size: 16px;
+}
+
+page-adult-pharmacist-childs .swiper-scrollbar {
+  position: fixed;
+  -ms-touch-action: none;
+  background: rgba(0, 0, 0, 0.1);
+  height: 5px;
+  margin: 46px auto 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+page-adult-pharmacist-childs .swiper-scrollbar-drag {
+  height: 5px;
+  width: 25%;
+  position: relative;
+  background: #FFFF00;
+  border-radius: 0px;
+  transition-duration: 500ms;
+}
+
+page-adult-pharmacist-childs .swiper-scrollbar-cursor-drag {
+  cursor: move;
+}
+
+page-adult-pharmacist-childs .ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn,
+page-adult-pharmacist-childs .ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:visited,
+page-adult-pharmacist-childs .ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:hover,
+page-adult-pharmacist-childs .ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:active {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  padding-bottom: 5px;
+  color: #000000;
+  text-shadow: 0 1px 1px #eeeeee;
+}
+
+page-adult-pharmacist-childs input[type=checkbox] {
+  visibility: hidden;
+}
+
+page-adult-pharmacist-childs .tabs {
+  width: 100%;
+  margin: 0 auto;
+}
+
+page-adult-pharmacist-childs .tabs a:hover {
+  opacity: 1;
+}
+
+page-adult-pharmacist-childs .tabs a {
+  display: block;
+  float: left;
+  width: 25%;
+  color: #e0e0e0 !important;
+  text-align: center;
+  line-height: 20px;
+  background: #4CAF50;
+  padding: 15px 0px;
+  text-decoration: none;
+}
+
+page-adult-pharmacist-childs .tabs a.active {
+  color: #FFFF00;
+}
+
+page-adult-pharmacist-childs input[type='text'], page-adult-pharmacist-childs input[type='email'], page-adult-pharmacist-childs input[type='password'] {
+  width: 400px;
+  font-size: 20px;
+  color: #666;
+  padding: 2px 8px 6px 8px;
+  position: relative;
+  display: block;
+  outline: none;
+  border-bottom: 1px solid #03A9F4;
+}
+
+page-adult-pharmacist-childs input[type='text'] {
+  text-transform: capitalize;
+}
+
+page-adult-pharmacist-childs input[type='text']:hover, page-adult-pharmacist-childs input[type='text']:focus, page-adult-pharmacist-childs input[type='email']:hover, page-adult-pharmacist-childs input[type='email']:focus, page-adult-pharmacist-childs input[type='password']:hover, page-adult-pharmacist-childs input[type='password']:focus {
+  border-bottom: 1px solid #FF9100;
+}
+
+page-adult-pharmacist-childs .ui-controlgroup-controls label.ui-btn.ui-corner-all.ui-btn-inherit {
+  border: 0px none;
+  background-color: transparent;
+}
+
+page-adult-pharmacist-childs .swiper-slide {
+  width: 100%;
+  height: auto !important;
+  float: left;
+  box-sizing: content-box;
+  display: block;
+}
+
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgCyan,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgLightBlue,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgDeepOrange,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgGreen,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgPink,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgRed,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgOrange,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgTeal,
+page-adult-pharmacist-childs ion-navbar.fullWidth.bgPurple {
+  padding-left: 0px !important;
+}
+
 page-adult-symptom-childs {
   font-size: 16px;
 }
@@ -63248,6 +63359,10 @@ page-compare .page-theme-childs {
   font-weight: bold;
 }
 
+page-compare ion-label {
+  white-space: initial;
+}
+
 page-compare-childs {
   font-size: 16px;
 }
@@ -63334,6 +63449,12 @@ page-compare-childs-container ion-navbar.fullWidth.bgPink,
 page-compare-childs-container ion-navbar.fullWidth.bgRed,
 page-compare-childs-container ion-navbar.fullWidth.bgOrange {
   padding-left: 0px !important;
+}
+
+@media screen and (max-width: 400px) {
+  page-compare-childs-container .ui-link {
+    display: block;
+  }
 }
 
 page-compare-yesno {
@@ -63767,6 +63888,11 @@ page-home {
 page-home figcaption {
   margin: 10px 2px;
   font-size: 0.75em;
+  white-space: initial;
+}
+
+page-home .robotoLight {
+  white-space: initial;
 }
 
 page-home ion-slide h2 {

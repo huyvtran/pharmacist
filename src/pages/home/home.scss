@@ -8,8 +8,11 @@ page-home {
 	figcaption {
 	    margin: 10px 2px;
 	    font-size: 0.75em;
+	    white-space: initial;
 	}
-
+	.robotoLight{
+		white-space: initial;
+	}
 	// Ion slides
 	ion-slide h2 {
 	    font-weight: bold;

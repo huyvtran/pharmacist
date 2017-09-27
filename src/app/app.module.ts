@@ -43,6 +43,7 @@ import { DosingChildsPage } from '../pages/dosing-childs/dosing-childs';
 import { AdultTakeMobileChildlistPage } from '../pages/adult-take-mobile-childlist/adult-take-mobile-childlist';
 import { AdultSymptomChildsPage } from '../pages/adult-symptom-childs/adult-symptom-childs';
 import { AdultSymptomInfographicsPage } from '../pages/adult-symptom-infographics/adult-symptom-infographics';
+import { AdultPharmacistChildsPage } from '../pages/adult-pharmacist-childs/adult-pharmacist-childs';
 
 import { AuthService} from '../pages/providers/auth-service';
 
@@ -85,7 +86,7 @@ import { AuthService} from '../pages/providers/auth-service';
         AdultTakeMobileChildlistPage,
         AdultSymptomChildsPage,
         AdultSymptomInfographicsPage,
-
+        AdultPharmacistChildsPage,
     ],
     imports: [
         AgmCoreModule.forRoot({
@@ -134,7 +135,7 @@ import { AuthService} from '../pages/providers/auth-service';
             AdultTakeMobileChildlistPage,
             AdultSymptomChildsPage,
             AdultSymptomInfographicsPage,
-
+            AdultPharmacistChildsPage,
         ],
     providers: [
         AuthService,

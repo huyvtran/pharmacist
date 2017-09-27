@@ -1,0 +1,103 @@
+page-adult-pharmacist-childs {
+	font-size: 16px;
+
+	.swiper-scrollbar {
+		position: fixed;
+		-ms-touch-action: none;
+		background: rgba(0,0,0,0.1);
+		height: 5px;
+		margin:46px auto 0px;
+		width: 100%;
+		z-index: 999;
+	}
+	.swiper-scrollbar-drag {
+		height: 5px;
+		width: 25%;
+		position: relative;
+		background: #FFFF00;
+		border-radius: 0px;
+		transition-duration: 500ms;
+	}
+	.swiper-scrollbar-cursor-drag {
+		cursor: move;
+	}
+	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn,
+	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:visited,
+	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:hover,
+	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:active {
+		background: rgba(255,255,255,0.1);
+		border-color:transparent;
+		padding-bottom:5px;
+		color: #000000;
+		text-shadow: 0 1px 1px #eeeeee;
+	}
+
+	input[type=checkbox] {
+		visibility: hidden;
+	}
+
+	.tabs {
+	  	width: 100%;
+	  	margin: 0 auto;
+	}
+	.tabs a:hover{
+		opacity: 1;
+	}
+	.tabs a {
+		display: block;
+		float: left;
+		width: 25%;
+		color: #e0e0e0 !important;
+		text-align: center;
+		line-height:20px;
+		background: #4CAF50;
+		padding:15px 0px;
+		text-decoration: none;
+	}
+	.tabs a.active {
+		color:#FFFF00;
+	}
+		
+	input[type='text'], input[type='email'], input[type='password'] {
+	    width: 400px;
+		font-size: 20px;
+		color:#666;
+		padding: 2px 8px 6px 8px;
+		position: relative;
+		display: block;
+		
+		outline: none;
+		border-bottom:1px solid #03A9F4;
+	}
+	input[type='text'] {
+		text-transform:capitalize;
+	}
+
+	input[type='text']:hover, input[type='text']:focus, input[type='email']:hover, input[type='email']:focus, input[type='password']:hover, input[type='password']:focus {
+		border-bottom:1px solid #FF9100;	
+	}
+	.ui-controlgroup-controls label.ui-btn.ui-corner-all.ui-btn-inherit{
+		border: 0px none;
+		background-color: transparent;
+	}
+	.swiper-slide{
+		width: 100%;
+		height: auto !important;
+		float: left;
+		box-sizing: content-box;
+		display: block;
+	}
+
+    ion-navbar.fullWidth.bgCyan,
+    ion-navbar.fullWidth.bgLightBlue,
+    ion-navbar.fullWidth.bgDeepOrange,
+    ion-navbar.fullWidth.bgGreen,
+    ion-navbar.fullWidth.bgPink,
+    ion-navbar.fullWidth.bgRed,
+    ion-navbar.fullWidth.bgOrange,
+    ion-navbar.fullWidth.bgTeal,
+    ion-navbar.fullWidth.bgPurple
+	{
+		padding-left: 0px !important;
+	}
+}

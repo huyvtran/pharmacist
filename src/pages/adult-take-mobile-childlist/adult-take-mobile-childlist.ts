@@ -6,6 +6,9 @@ import 'rxjs/add/operator/map';
 
 import { GlobalVars } from '../providers/globalvars';
 import { AdultSymptomChildsPage } from '../adult-symptom-childs/adult-symptom-childs';
+import { AdultPharmacistChildsPage } from '../adult-pharmacist-childs/adult-pharmacist-childs';
+
+//  ---------- For SymptomChilds pages -----------
 // 	AllergiesMobilePage,		// 0
 //  ColdMobilePage,				// 1
 //  FluMobilePage,				// 2
@@ -74,6 +77,8 @@ import { AdultSymptomChildsPage } from '../adult-symptom-childs/adult-symptom-ch
 //  SwollenFootMobilePage,		// 65
 //  CornMobilePage,				// 66
 //  IngrownNailMobilePage,		// 67
+
+//  ---------- For PharmacistChilds pages -----------
 @Component({
   selector: 'page-adult-take-mobile-childlist',
   templateUrl: 'adult-take-mobile-childlist.html'
@@ -107,8 +112,11 @@ export class AdultTakeMobileChildlistPage {
 	  	this.menu.open();
 	}
 	gotoSubPage(id: number) {
-		GlobalVars.setPageId(id + this.pageId * 100);
-		this.navCtrl.push(AdultSymptomChildsPage);
+		GlobalVars.setPageId(id);
+		if (this.pageId == 0)
+			this.navCtrl.push(AdultSymptomChildsPage);
+		else
+			this.navCtrl.push(AdultPharmacistChildsPage);
 	}
 	togglePage(ind: number) {
 		this.pages[ind] = !this.pages[ind];

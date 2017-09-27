@@ -33,4 +33,9 @@ page-compare-childs-container {
 	{
 		padding-left: 0px !important;
 	}
+    @media screen and (max-width: 400px) {
+      .ui-link{
+        display: block;
+      }
+    }
 }

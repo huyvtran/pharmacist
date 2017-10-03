@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController, Platform } from 'ionic-angular';
 
-import { NgZone } from '@angular/core';
-import { MapsAPILoader } from 'angular2-google-maps/core';
 
 import { DomSanitizer } from '@angular/platform-browser';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 /*
   Generated class for the NearestHospital page.
@@ -41,7 +38,6 @@ export class PlaceDetailsPage {
 	MapHeight: number;
 	greviews: any;
 	constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
-    	private mapsAPILoader: MapsAPILoader,private ngZone: NgZone, public http: Http, 
     	private sanitizer: DomSanitizer, platform: Platform) 
 	{
 		this.menu = menu;
@@ -140,11 +136,11 @@ export class PlaceDetailsPage {
 	}
 	renderStars(rating){
 		var stars = "<div class='review-stars'><ul>";      
-		for (var i = 0; i < rating; i++) {
+		for (let i = 0; i < rating; i++) {
 		stars = stars+"<li><i class='star'></i></li>";
 		};
 		if(rating < 5){
-			for (var i = 0; i < (5 - rating); i++) {
+			for (let i = 0; i < (5 - rating); i++) {
 			  stars = stars+"<li><i class='star inactive'></i></li>";
 			};
 		}

@@ -16,8 +16,8 @@ import { FindNearestListPage } from '../find-nearest-list/find-nearest-list';
 declare var google: any;
 
 let mode = [
-		'n','i','o','c','a','g'
-	];
+    'n','i','o','c','a','g'
+  ];
 
 @Component({
   selector: 'page-find-nearest',
@@ -25,17 +25,17 @@ let mode = [
 })
 export class FindNearestPage {
 
-	enterLocation: boolean;
-	setting: any;
-	pageId: number;
-	pageTitle = {
-		0: "Hospital / ER",
-		1: "Urgent care",
-		2: "Doctor Office",
-		3: "Children's Clinic",
-		4: "Dental Care",
-		5: "Pharmacy Care",
-	}
+  enterLocation: boolean;
+  setting: any;
+  pageId: number;
+  pageTitle = {
+    0: "Hospital / ER",
+    1: "Urgent care",
+    2: "Doctor Office",
+    3: "Children's Clinic",
+    4: "Dental Care",
+    5: "Pharmacy Care",
+  }
   locationPage: number;
   public mapData = {
     latitude: 0,
@@ -52,16 +52,16 @@ export class FindNearestPage {
     public http: Http, private sanitizer: DomSanitizer,
     private mapsAPILoader: MapsAPILoader,private ngZone: NgZone) 
   {
-  	this.pageId = GlobalVars.getPageId();
-  	this.menu = menu;
-  	this.setting = GlobalVars.getPageSetting(mode[this.pageId]);
+    this.pageId = GlobalVars.getPageId();
+    this.menu = menu;
+    this.setting = GlobalVars.getPageSetting(mode[this.pageId]);
     this.enterLocation = false;
     this.locationPage = 1;
   }
   showMenu() {
     var menu = document.querySelector( 'ion-menu ion-content' );
     menu.className = "outer-content content" + " " + this.setting['class'];
-  	this.menu.open();
+    this.menu.open();
   }
   getHtmlData(){
     this.html_data = null

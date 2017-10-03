@@ -10,50 +10,50 @@
         "cordova-plugin-camera": {
             "CAMERA_USAGE_DESCRIPTION": " ",
             "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-geolocation": {
             "GEOLOCATION_USAGE_DESCRIPTION": " ",
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-googlemaps": {
             "API_KEY_FOR_IOS": "AIzaSyDuyKR3ExQrD1dP7twK4o4nnKseCs9X7bE",
             "NSLOCATIONWHENINUSEUSAGEDESCRIPTION": "Show your location on the map",
             "NSLOCATIONALWAYSUSAGEDESCRIPTION": "Trace your location on the map",
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-request-location-accuracy": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         },
         "phonegap-plugin-barcodescanner": {
             "CAMERA_USAGE_DESCRIPTION": " ",
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         }
     },
     "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
-        },
         "com.googlemaps.ios": {
-            "PACKAGE_NAME": "com.ionicframework.nativetest236848"
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.pharmacist192129"
         }
     }
 }

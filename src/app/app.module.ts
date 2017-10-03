@@ -1,3 +1,4 @@
+import { HttpModule } from '@angular/http';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
@@ -96,6 +97,7 @@ import { AuthService} from '../pages/providers/auth-service';
         BrowserModule,
         FormsModule,
         ReactiveFormsModule,
+        HttpModule,
         IonicModule.forRoot(MyApp),
     ],
     bootstrap: [IonicApp],

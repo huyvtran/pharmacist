@@ -1,12 +1,9 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NavController, NavParams, MenuController, Platform } from 'ionic-angular';
 
-import { NgZone } from '@angular/core';
-
-import { MapsAPILoader, GoogleMapsAPIWrapper} from 'angular2-google-maps/core';
+import { MapsAPILoader} from 'angular2-google-maps/core';
 
 import { DomSanitizer } from '@angular/platform-browser';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 /*
   Generated class for the PlaceNavigation page.
@@ -22,7 +19,7 @@ declare var google:any;
 @Component({
   selector: 'page-place-navigation',
   templateUrl: 'place-navigation.html',
-  providers : [ GoogleMapsAPIWrapper ]
+  providers : [  ]
 })
 export class PlaceNavigationPage {
 	@ViewChild(DirectionsMapDirective) vc: DirectionsMapDirective;
@@ -47,9 +44,6 @@ export class PlaceNavigationPage {
 	detailRoute: string;
   	constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
     	private mapsAPILoader: MapsAPILoader,
-		private ngZone: NgZone,
-		private gmapsApi: GoogleMapsAPIWrapper,
-		private _elementRef : ElementRef, public http: Http, 
     	private sanitizer: DomSanitizer, platform: Platform) 
 	{
 		this.menu = menu;

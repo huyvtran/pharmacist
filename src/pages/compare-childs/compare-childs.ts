@@ -245,7 +245,7 @@ export class CompareChildsPage {
 	    }
 	}
 	ngAfterViewInit() {
-	    this.content.enableScrollListener();
+	    // this.content.enableScrollListener();
 	    this.content.ionScroll.subscribe((event) => {
 	        this.getScrollPosition(event);
 	    });

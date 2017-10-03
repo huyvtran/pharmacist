@@ -73,7 +73,7 @@ export class MyApp {
         }
     }
     isActive(page: PageInterface) {
-        let childNav = this.nav.getActiveChildNav();
+        let childNav = this.nav.getActiveChildNavs()[0];
         if (childNav) {
             if (childNav.getSelected()) {
                 return 'primary';

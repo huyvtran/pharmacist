@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, MenuController } from 'ionic-angular';
+import { NavController, MenuController } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
@@ -15,7 +15,7 @@ import { FindNearestPage } from '../find-nearest/find-nearest';
 export class NearestPage {
 	AbsoluteURL: string;
 	html_data: any;
-  constructor(public navCtrl: NavController, public navParams: NavParams, 
+  constructor(public navCtrl: NavController, 
         public http: Http, private sanitizer: DomSanitizer,
         public menu: MenuController) {
   	this.menu = menu;

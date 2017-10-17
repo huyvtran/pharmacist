@@ -21,10 +21,84 @@ page-adult-pharmacist-childs {
 	.swiper-scrollbar-cursor-drag {
 		cursor: move;
 	}
-	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn,
-	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:visited,
-	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:hover,
-	.ui-page-theme-g #adult_recom_allergy_mobile_q1_form_div .ui-btn:active {
+	.swiper-slide .maxwidth450 img{
+		width: 100px;
+	}
+	.swiper-slide p.centerText img{
+		width: 120px;
+	}
+	.swiper-slide{
+		.color1{color:#cc0000;}
+		.color2{color:#6633cc;}
+		.color3{color:#800080;}
+		.color4{color:#6666ff;}
+		.color5{color:#008000;}
+		.color6{color:#EE82EE;}
+		.color7{color:#4B0082;}
+		.color8{color:#FF0000;}
+		.color9{color:#0000CD;}
+		.color10{color:#B22222;}
+		.color11{color:#FF8C00;}
+		.color12{color:#696969;}
+		.color13{color:#FFA500;}
+		.color14{color:#000080;}
+		.color15{color:#006400;}
+		.color16{color:#3399ff;}
+		.color17{color:#0066cc;}
+		.color18{color:#6666cc;}
+		.color19{color:#ff6600;}
+		.color20{color:#cc3399;}
+		.color21{color:#DAA520;}
+		.color22{color:#008080;}
+		.color23{color:#ff0066;}
+		.color24{color:#6699ff;}
+		.color25{color:#ff0099;}
+		.color26{color:#3399cc;}
+		.color27{color:#996699;}
+		.color28{color: rgb(128, 0, 128);}
+		.color29{color: rgb(255, 140, 0);}
+		.img_style1{width: 100px; margin: 8px; float: left;}
+		.img_style2{width: 300px; height: 250px;}
+		.img_style3{width: 120px; height: 94px; margin: 8px; float: right;}
+		.img_style4{width: 150px; height: 104px; margin: 8px; float: right;}
+		.img_style5{width: 80px; height: 100px; float: left; margin: 10px;}
+		.img_style6{width: 100px; height: 86px; margin: 8px; float: left;}
+		.img_style7{width: 80px; height: 86px; margin: 8px; float: left;}
+		.img_style8{width: 80px; height: 76px; margin: 10px; float: right;}
+		.img_style9{width: 100px; height: 106px; margin: 8px; float: right;}
+		.img_style10{width: 95px; height: 105px; margin: 8px; float: right;}
+		.img_style11{width: 80px; height: 98px; margin: 8px; float: left;}
+		.img_style12{width: 100px; height: 123px; margin: 8px; float: left;}
+		.img_style13{opacity: 0.9; line-height: 20.8px; width: 100px; height: 88px; margin: 8px; float: left;}
+		.img_style14{opacity: 0.9; line-height: 20.8px; width: 80px; height: 107px; margin: 8px; float: right;}
+		.img_style15{opacity: 0.9; line-height: 20.8px; width: 100px; height: 80px; margin: 8px 10px; float: right;}
+		.img_style16{opacity: 0.9; line-height: 20.8px; width: 60px; height: 70px; margin: 8px; float: left;}
+		.img_style17{width: 120px; height: 104px; margin: 8px; float: left;}
+		.img_style18{opacity: 0.9; font-size: 13px; line-height: 20.8px; width: 100px; height: 71px; margin: 8px; float: right;}
+		.img_style19{width: 40px; height: 158px; margin: 8px; float: left;}
+		.img_style20{width: 100px; height: 96px; margin: 8px; float: left;}
+		.img_style21{width: 100px; height: 97px; margin: 8px; float: left;}
+		.img_style22{width: 80px; height: 125px; margin: 8px; float: right;}
+		.img_style23{width: 100px; height: 104px; margin: 8px; float: right;}
+		.img_style24{width: 120px; height: 125px; margin: 8px; float: left;}
+		.img_style25{width: 80px; height: 124px; margin: 8px; float: right;}
+		.img_style26{width: 100px; height: 94px; margin: 8px; float: left;}
+		.img_style27{width: 100px; height: 90px; margin: 8px; float: right;}
+		.img_style28{width: 100px; height: 96px; margin: 8px; float: right;}
+		.img_style29{width: 120px; height: 90px; margin: 8px; float: left;}
+		.img_style30{width: 120px; height: 85px; margin: 8px; float: right;}
+		.img_style31{width: 120px; height: 84px; margin: 8px; float: right;}
+		.img_style32{width: 100px; height: 108px; margin: 8px; float: right;}
+		.img_style33{width: 100px; height: 94px; margin: 8px; float: right;}
+		.span1{font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px;}
+		.padding1{padding:5px;}
+		.div_style1{width: 320px;}
+	}
+	fieldset.ui-controlgroup-vertical span{font-weight: bold;}
+	fieldset.ui-controlgroup-vertical .ui-btn,
+	fieldset.ui-controlgroup-vertical .ui-btn:visited,
+	fieldset.ui-controlgroup-vertical .ui-btn:hover,
+	fieldset.ui-controlgroup-vertical .ui-btn:active {
 		background: rgba(255,255,255,0.1);
 		border-color:transparent;
 		padding-bottom:5px;
@@ -47,17 +121,22 @@ page-adult-pharmacist-childs {
 		display: block;
 		float: left;
 		width: 25%;
-		color: #e0e0e0 !important;
 		text-align: center;
 		line-height:20px;
-		background: #4CAF50;
+		color: #E0E0E0 !important;
 		padding:15px 0px;
 		text-decoration: none;
 	}
 	.tabs a.active {
 		color:#FFFF00;
 	}
-		
+	.ui-content a.ui-btn {
+	    border: 1px solid !important;
+	}
+	.ui-page-theme-a .tabs a{background: #03a9f4;}
+	.ui-page-theme-g .tabs a{background: #4CAF50;}
+	.ui-page-theme-i .tabs a{background: #E91E63;}
+	.ui-page-theme-n .tabs a{background: #00BCD4;}
 	input[type='text'], input[type='email'], input[type='password'] {
 	    width: 400px;
 		font-size: 20px;

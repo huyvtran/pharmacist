@@ -30,8 +30,6 @@ input[type='text'] {
 	border-right: none;
 	border-left: none;
 	border-bottom:2px solid #03A9F4;
-	/*background: bottom left linear-gradient(#03A9F4, #03A9F4) no-repeat, bottom center linear-gradient(#03A9F4, #03A9F4) repeat-x, bottom right linear-gradient(#03A9F4, #03A9F4) no-repeat;
-	background-size: 2px 6px, 2px 2px, 2px 6px;*/
 }
 	
 input[type='email'], input[type='password'] {
@@ -48,14 +46,10 @@ input[type='email'], input[type='password'] {
 	border-right: none;
 	border-left: none;
 	border-bottom:2px solid #03A9F4;
-	/*background: bottom left linear-gradient(#03A9F4, #03A9F4) no-repeat, bottom center linear-gradient(#03A9F4, #03A9F4) repeat-x, bottom right linear-gradient(#03A9F4, #03A9F4) no-repeat;
-	background-size: 2px 6px, 2px 2px, 2px 6px;*/
 }
 
 input[type='text']:hover, input[type='text']:focus, input[type='email']:hover, input[type='email']:focus, input[type='password']:hover, input[type='password']:focus {
 	border-bottom:2px solid #FF9100;	
-	/*background: bottom left linear-gradient(#FF9100, #FF9100) no-repeat, bottom center linear-gradient(#FF9100, #FF9100) repeat-x, bottom right linear-gradient(#FF9100, #FF9100) no-repeat;
-	background-size: 2px 6px, 2px 2px, 2px 6px;	*/
 }	
 
 .textArea{
@@ -117,43 +111,33 @@ html .ui-panel-page-container-a {
 
 /* Inherits mobile styles, but floats containers to make columns */
 @media all and (min-width: 40em){
-	/*.main { float: left; width:60%; }
-	.sidebar { float: left; width:40%; }*/
 	
-input[type='text'], input[type='email'], input[type='password'] {
-    width: 480px;
+	input[type='text'], input[type='email'], input[type='password'] {
+	    width: 480px;
+	}
+
+	.textArea {
+		width: 480px;
+		height: 200px;
+	}
+		
+	.textArea:focus {
+		width: 480px;
+		height: 200px;
+	}	
+	.textAreaTitle {
+		width: 480px;
+		height: 150px;
+	}
+		
+	.textAreaTitle:focus {
+		width: 480px;
+		height: 100px;
+	}
+
+
 }
 
-.textArea {
-	width: 480px;
-	height: 200px;
-}
-	
-.textArea:focus {
-	width: 480px;
-	height: 200px;
-}	
-.textAreaTitle {
-	width: 480px;
-	height: 150px;
-}
-	
-.textAreaTitle:focus {
-	width: 480px;
-	height: 100px;
-}
-
-
-}
-
-/* Second breakpoint at 1024px (Desk LapTop)*/
-/* Adjusts column proportions, tweaks base H1 */
 @media all and (min-width: 64em){
-	/*.main { width:70%; }
-	.sidebar { width:30%; }*/
-
-	/* You can also tweak any other styles in a breakpoint */
-
-
 
 }

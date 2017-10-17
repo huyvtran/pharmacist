@@ -28,8 +28,7 @@ export class DirectionsMapDirective {
       
       var directionsService = new google.maps.DirectionsService;
       var me = this;
-      // var latLngA = new google.maps.LatLng({lat: this.origin.latitude, lng: this.origin.longitude });
-      // var latLngB = new google.maps.LatLng({lat: this.destination.latitude, lng: this.destination.longitude });
+
       this.directionsDisplay.setMap(map);
       this.directionsDisplay.setOptions({
         polylineOptions: {
@@ -54,8 +53,6 @@ export class DirectionsMapDirective {
               me.estimatedTime = point.duration.text ;
               me.estimatedDistance = point.distance.text;
               me.makeRouteHtml();
-              // console.log(me.estimatedTime);
-              // console.log( 'Estimated travel time: ' + point.duration.text + ' (' + point.distance.text + ')' );
 
             } else {
               // console.log('Directions request failed due to ' + status);
@@ -142,8 +139,4 @@ export class DirectionsMapDirective {
     </div>\
     ";
   }
-  // private getcomputeDistance(latLngA: any , latLngB: any ) 
-  // {
-  //   return (google.maps.geometry.spherical.computeDistanceBetween(latLngA, latLngB) / 1000).toFixed(2);
-  // }
 }

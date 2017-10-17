@@ -7,8 +7,6 @@ import 'rxjs/add/operator/map';
 
 import { GlobalVars } from '../providers/globalvars';
 import { AdultTakeMobileListPage } from '../adult-take-mobile-list/adult-take-mobile-list';
-// import { AdultTakeMobileIntroPage } from '../adult-take-mobile-intro/adult-take-mobile-intro';
-// import { ChildTakeMobileIntroPage } from '../child-take-mobile-intro/child-take-mobile-intro';
 
 @Component({
   selector: 'page-self-care',
@@ -54,6 +52,7 @@ export class SelfCarePage {
       this.pmode = 1;
       this.page = 0;
       this.noscroll = false;
+      this.html_data.main_header = this.html_data.main_header.replace("{{dsearch}}", this.dsearch);
     }
   }
   showWhy() {
@@ -69,10 +68,6 @@ export class SelfCarePage {
   gotoPage(p: number) {
     GlobalVars.setFirstname(this.dsearch);
     this.navCtrl.push(AdultTakeMobileListPage);
-    // if (p == 0)
-    //   this.navCtrl.push(AdultTakeMobileIntroPage);
-    // else
-    //   this.navCtrl.push(ChildTakeMobileIntroPage);
   }
   transitPage(p: number){
     this.page = p;

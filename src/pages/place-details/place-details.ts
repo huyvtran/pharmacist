@@ -4,12 +4,7 @@ import { NavController, NavParams, MenuController, Platform } from 'ionic-angula
 
 import { DomSanitizer } from '@angular/platform-browser';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the NearestHospital page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 import { PlaceNavigationPage } from '../place-navigation/place-navigation';
 

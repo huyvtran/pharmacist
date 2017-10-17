@@ -1,9 +1,3 @@
-<!--
-  Generated template for the AllergyMeds page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header class="ui-header {{setting.class}}">
 	<ion-navbar>
     	<ion-title>
@@ -75,40 +69,16 @@
 	                    <th style="font-size:14px">
 	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['drug_name'])"></div>
 	                    </th>
-	                    <td style="font-size:14px" [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[0]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[0]['title'].length>0">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['description'])"></div>
-	                    </td>
-	                    <td style="font-size:12px" [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[1]['ui-checkbox-on']}">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['ingredients'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[2]['ui-checkbox-on']}">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['onset'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[3]['ui-checkbox-on']}">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['duration'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[4]['ui-checkbox-on']}">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['pros'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[5]['ui-checkbox-on']}">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['cons'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[6]['ui-checkbox-on']}">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['comments'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[7]['ui-checkbox-on']}">
-	                        <div class="grayfont">
-	                            Did this medication help you? <br><br>
-	                            <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['user_vote'])"></div>
-	                            What about you?                       
-	                        </div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[8]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[8]['title'].length>0">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['cost'])"></div>
-	                    </td>
-	                    <td [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[9]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[9]['title'].length>0">
-	                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData['brand_names'])"></div>
-	                    </td>
+	                    <ng-container *ngFor="let each_field of html_data?.fields; let i = index">
+		                    <td style="font-size:14px" [ngClass]="{'ui-table-cell-hidden': !html_data?.ShowTabs[i]['ui-checkbox-on']}" *ngIf="html_data?.ShowTabs[i]['title'].length>0">
+		                        <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData[each_field])" *ngIf="i!=7"></div>
+		                        <div class="grayfont" *ngIf="i==7">
+		                            Did this medication help you? <br><br>
+		                            <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData[each_field])"></div>
+		                            What about you?                       
+		                        </div>
+		                    </td>
+	                	</ng-container>
 	                </tr>
 	            </tbody>
 	        </table>

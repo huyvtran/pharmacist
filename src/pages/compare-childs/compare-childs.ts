@@ -219,8 +219,6 @@ export class CompareChildsPage {
 	    this.MyContent.isArrowShow = false;
 	}
 	loadData() {
-	    //this.RestApiURL
-	    // console.log("Loading data");
 	    this.http.get(this.RestApiURL).map(res => res.json())
 	        .subscribe(data => {
 	            this.TableTempData = this.TableData = data;
@@ -251,9 +249,9 @@ export class CompareChildsPage {
 	    });
 	}
 	ionViewDidLoad() {
+		var arrow = document.getElementById('arrow_upward');
 		this.getHtmlData();
 	    this.loadData();
-	    var arrow = document.getElementById('arrow_upward');
 	    arrow.style.display = 'none';
 	}
 

@@ -1,18 +1,10 @@
-$toolbar-background-color: #03a9f4;
-
 page-compare-yesno {
 	font-size: 16px;
 
 	.littleSpan p{
 		padding: 0 0 0 1em !important;
 	}
-	ion-navbar.fullWidth.bgCyan,
-    ion-navbar.fullWidth.bgLightBlue,
-    ion-navbar.fullWidth.bgDeepOrange,
-    ion-navbar.fullWidth.bgGreen,
-    ion-navbar.fullWidth.bgPink,
-    ion-navbar.fullWidth.bgRed,
-    ion-navbar.fullWidth.bgOrange
+	ion-navbar.fullWidth.robotoLight
 	{
 		padding-left: 0px !important;
 	}

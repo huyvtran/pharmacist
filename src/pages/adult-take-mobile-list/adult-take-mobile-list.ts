@@ -6,8 +6,6 @@ import 'rxjs/add/operator/map';
 
 import { GlobalVars } from '../providers/globalvars';
 import { AdultTakeMobileChildlistPage } from '../adult-take-mobile-childlist/adult-take-mobile-childlist';
-// import { AdultTakeMobileSymptomsListPage } from '../adult-take-mobile-symptoms-list/adult-take-mobile-symptoms-list';
-// import { AdultTakeMobileToPharmacistListPage } from '../adult-take-mobile-to-pharmacist-list/adult-take-mobile-to-pharmacist-list';
 
 let mode = {
   0: 'a',
@@ -44,10 +42,6 @@ export class AdultTakeMobileListPage {
     {
       GlobalVars.setPageId(p);
       this.navCtrl.push(AdultTakeMobileChildlistPage);
-      // if (p == 0)
-      //   this.navCtrl.push(AdultTakeMobileSymptomsListPage);
-      // else
-      //   this.navCtrl.push(AdultTakeMobileToPharmacistListPage);
     }
   }
   ionViewDidLoad() {

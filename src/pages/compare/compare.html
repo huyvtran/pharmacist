@@ -2,8 +2,8 @@
 	<ion-navbar>
     <ion-title>
     	<h1 class="ui-title hide">
-      	Compare over-the-counter OTC medicines side-by-side using a comparison table. | Self-care OTC
-      </h1>
+      		Compare over-the-counter OTC medicines side-by-side using a comparison table. | Self-care OTC
+      	</h1>
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-only (tap)="showMenu()">
@@ -38,11 +38,13 @@
 		</ng-container>
 		<ion-grid class="interface-items">
 		    <ion-row>
-		      <ion-col width-50>
-		        <ion-item class="centerText page-theme-childs" (tap)="goTo('13')">
-		        	<div [innerHTML]="html_data?.item_last"></div>
-		        </ion-item>
-		      </ion-col>
+		      	<ion-col width-50>
+		        	<ion-item class="centerText page-theme-childs" (tap)="goTo('13')">
+		        		<div [innerHTML]="html_data?.item_last"></div>
+		        	</ion-item>
+		      	</ion-col>
+		      	<ion-col width-50>
+		  		</ion-col>
 		    </ion-row>
 		</ion-grid>
 		<div [innerHTML]="html_data?.footer"></div>

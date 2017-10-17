@@ -1,0 +1,105 @@
+{
+	"pageTitle":  {
+		"0": "Cold medicines",
+		"2": "Eye Drops",
+		"3": "Antifungal",
+		"4": "Heartburn Medicines",
+		"5": "Pain relief"
+	},
+	"imageUrls": {
+		"0": "pharm/male/pharm-john-port.svg",
+		"2": "pharm/female/pharm-trisha.svg",
+		"3": "pharm/female/pharm-selena-cyan.svg",
+		"4": "pharm/male/pharm-henry-cyan.svg",
+		"5": "pharm/male/pharm-tony-orange.svg"
+	},
+	"span": {
+		"0": "What type of over-the-counter <span class=\"bluefontLarge\">OTC cold<\/span> medicines would you like to compare?",
+		"2": "What type of over-the-counter <span class=\"bluefontLarge\">eye drops<\/span> would you like to compare?",
+		"3": "What type of over-the-counter <span class=\"bluefontLarge\">anti-fungal<\/span> creams or lotions would you like to compare?",
+		"4": "What type of over-the-counter <span class=\"bluefontLarge\">heartburn<\/span> medications would you like to compare?",
+		"5": "What type of over-the-counter <span class=\"bluefontLarge\">pain relievers<\/span> would you like to compare?"
+	},
+	"links": {
+		"0": [
+			{
+				"class": "linkPinkBorder",
+				"name": "Decongestants",
+				"transit": 0
+			},
+			{
+				"class": "linkBlueBorder",
+				"name": "Multi-symptoms",
+				"transit": 1
+			},
+			{
+				"class": "linkOrangeBorder",
+				"name": "Immune Boosters",
+				"transit": 2
+			}
+		],
+		"2": [
+			{
+				"class": "linkBlueBorder",
+				"name": "Dry",
+				"transit": 3
+			},
+			{
+				"class": "linkRedBorder",
+				"name": "Red",
+				"transit": 4
+			},
+			{
+				"class": "linkGreenBorder",
+				"name": "Itchy",
+				"transit": 5
+			}
+		],
+		"3": [
+			{
+				"class": "linkBlueBorder",
+				"name": "Yeast Medications",
+				"transit": 6
+			},
+			{
+				"class": "linkOrangeBorder",
+				"name": "Athletes' Foot Creams",
+				"transit": 7
+			}
+		],
+		"4": [
+			{
+				"class": "linkBlueBorder",
+				"name": "Antacids",
+				"transit": 8
+			},
+			{
+				"class": "linkDeepPurpleBorder",
+				"name": "Acid Reducers",
+				"transit": 9
+			},
+			{
+				"class": "linkPinkBorder",
+				"name": "As A Group",
+				"transit": 10
+			}
+		],
+		"5": [
+			{
+				"class": "linkPinkBorderThin",
+				"name": "Pills",
+				"transit": 11
+			},
+			{
+				"class": "linkOrangeBorder",
+				"name": "Creams",
+				"transit": 12
+			},
+			{
+				"class": "linkBlueBorderThin",
+				"name": "Patches",
+				"transit": 13
+			}
+		]
+	}
+}

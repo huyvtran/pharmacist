@@ -12,8 +12,11 @@ export class OrderByPipe implements PipeTransform {
 	        if ( ae == be ) return 0;
 	        if (orderField == 'distance')
 	        	return orderType ? (parseFloat(ae) > parseFloat(be) ? -1 : 1) : (parseFloat(be) > parseFloat(ae) ? -1 : 1);
-	        else
-	        	return orderType ? (ae.toString().toLowerCase() > be.toString().toLowerCase() ? -1 : 1) : (be.toString().toLowerCase() > ae.toString().toLowerCase() ? -1 : 1);
+	        else{
+	        	var ael = ae.toString().toLowerCase(), bel = be.toString().toLowerCase();
+	        	return orderType ? (ael > bel ? -1 : 1) : (bel > ael ? -1 : 1);
+	        }
+	        	
 	    });
 	    return array;
 	}

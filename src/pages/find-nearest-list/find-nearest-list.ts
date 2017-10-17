@@ -7,12 +7,7 @@ import { MapsAPILoader } from 'angular2-google-maps/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the NearestHospital page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 import { PlaceDetailsPage } from '../place-details/place-details';
 import { OrderByPipe } from '../orderby/orderby';
@@ -164,8 +159,7 @@ export class FindNearestListPage {
 		let url = this.RestApiURL + "&lat=" + this.mapData.latitude + "&lng=" + this.mapData.longitude;
 	    this.http.get(url).map(res => res.json())
 	      .subscribe(data => {
-	        // this.TableData = this.TableData.concat(data);
-	        // console.log(data);
+
 	      }),
 	      err => {
 	        // console.log("Oops!");
@@ -253,9 +247,6 @@ export class FindNearestListPage {
 					$this.ngZone.run(() => $this.TableData);
 				}
 			});
-	}
-	ngOnInit() {
-		
 	}
 	clickedMarker(label: string, id: number){
 		for (let i=0;i<this.TableData.length;i++)

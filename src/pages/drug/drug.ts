@@ -84,8 +84,6 @@ export class DrugPage {
   }
   ionViewDidLoad() {
     this.getHtmlData();
-    // this.loadData();
-    // console.log('ionViewDidLoad DrugPage');
   }
 
 }

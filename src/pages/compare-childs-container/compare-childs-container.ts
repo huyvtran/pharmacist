@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, MenuController } from 'ionic-angular';
+import { DomSanitizer } from '@angular/platform-browser';
+import { Http } from '@angular/http';
 
 import { GlobalVars } from '../providers/globalvars';
 import { CompareChildsPage } from '../compare-childs/compare-childs';
@@ -20,24 +22,19 @@ let mode = {
 export class CompareChildsContainerPage {
 	setting: any;
 	pageId: number;
-	pageTitle = {
-		0: "Cold medicines",
-		2: "Eye Drops",
-		3: "Antifungal",
-		4: "Heartburn Medicines",
-		5: "Pain relief",
-	};
-	imageUrls = {
-		0: "pharm/male/pharm-john-port.svg",
-		2: "pharm/female/pharm-trisha.svg",
-		3: "pharm/female/pharm-selena-cyan.svg",
-		4: "pharm/male/pharm-henry-cyan.svg",
-		5: "pharm/male/pharm-tony-orange.svg",
-	};
-	constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController) {
+	html_data: any;
+	constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
+			public http: Http, private sanitizer: DomSanitizer) {
 	    this.menu = menu;
 		this.pageId = GlobalVars.getPageId();
 	  	this.setting = GlobalVars.getPageSetting(mode[this.pageId]);
+
+	}
+	getHtmlData(){
+	    this.html_data = null;
+	    this.http.get("assets/json/compare_child_container.json").map(response => response.json()).subscribe(data => {
+	        this.html_data = data;
+	    });
 	}
 	showMenu() {
 		var menu = document.querySelector( 'ion-menu ion-content' );
@@ -56,7 +53,7 @@ export class CompareChildsContainerPage {
 		}
 	}
 	ionViewDidLoad() {
-	    // console.log('ionViewDidLoad ColdMedsPage');
+		this.getHtmlData();
 	}
 
 }

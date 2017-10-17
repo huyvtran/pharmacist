@@ -5,12 +5,7 @@ import { MapsAPILoader} from 'angular2-google-maps/core';
 
 import { DomSanitizer } from '@angular/platform-browser';
 import 'rxjs/add/operator/map';
-/*
-  Generated class for the PlaceNavigation page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 import { GlobalVars } from '../providers/globalvars';
 import { DirectionsMapDirective } from './google-map.directive';
 
@@ -78,7 +73,7 @@ export class PlaceNavigationPage {
 		            // alert("Geocode was not successful for the following reason: " + status);
 		        }
 		    });
-		    geocoder.geocode( { 'address': address2}, function(results, status)
+		    geocoder.geocode({'address': address2}, function(results, status)
 		    {
 		        if (status == google.maps.GeocoderStatus.OK)
 		        {

@@ -62,6 +62,18 @@
 		"26":  "pharm/male/pharm-tony-orange.svg",
 		"27":  "pharm/male/pharm-tony.svg"
 	},
+	"fields": [
+		"description",
+		"ingredients",
+		"onset",
+		"duration",
+		"pros",
+		"cons",
+		"comments",
+		"user_vote",
+		"cost",
+		"brand_names"
+	],
 	"tabTitles": {
 		"1": [
 			"Description",

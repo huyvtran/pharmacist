@@ -2,16 +2,14 @@ $toolbar-background-color: #03a9f4;
 
 page-self-care {
 	font-size: 16px;
-    .back1{
+    .back1 .ui-content{
     	background-image: url('../assets/img/illustration/male-model.jpg');
     }
-    .back2{
-    	background-image: url(../assets/img/dosing/blue-balls.jpg);
+    .back2 .ui-content{
+    	background-image: url('../assets/img/dosing/blue-balls.jpg');
     }
-    .back1, .back2{
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-attachment: fixed;
+    .ui-content{
+        height: 99%;
     }
     .no-scroll{
     	.scroll-content {

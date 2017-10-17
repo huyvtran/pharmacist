@@ -91,7 +91,7 @@
 		</p>
 		<p>&nbsp;</p>
 	</div>
-		<ng-container *ngFor="let eachDlg of FYIDlg;let i=index">
+	<ng-container *ngFor="let eachDlg of FYIDlg;let i=index">
 		<div class="ui-popup-screen ui-overlay-b in" id="allergy_mobile_pop-screen" *ngIf="eachDlg.show" (click)="toggleFYIDlg(false,i)"></div>
 		<div class="ui-popup-container pop in ui-popup-active" id="allergy_mobile_pop-popup" *ngIf="eachDlg.show" [ngStyle]="{'max-width': eachDlg.maxWidth+'px','top': eachDlg.top+'px', 'left': eachDlg.left+'px', 'width': eachDlg.width+'px'}">
 		    <div data-role="popup" id="allergy_mobile_pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">

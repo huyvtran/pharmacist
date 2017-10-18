@@ -129,7 +129,7 @@ export class AdultPharmacistChildsPage {
 				// AllergyMedsPage,			// 1
 				// ContactSocialMobilePage,	// 2
 				// CommentLoginPage,			// 3
-				
+
 			];
 		this.tabId = 1;
 		this.tabCss = "translate3d(0px, 0px, 0px)";
@@ -554,7 +554,7 @@ export class AdultPharmacistChildsPage {
 	    this.html_data =  null;
 	    this.http.get("assets/json/adult_pharmacist_childs_" + num + ".json").map(response => response.json()).subscribe(data => {
 	        this.html_data = data;
-	        console.log(this.html_data[this.pageId]);
+	        // console.log(this.html_data[this.pageId]);
 	    });
 	}
 }

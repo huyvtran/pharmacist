@@ -129,6 +129,7 @@ export class AdultPharmacistChildsPage {
 				// AllergyMedsPage,			// 1
 				// ContactSocialMobilePage,	// 2
 				// CommentLoginPage,			// 3
+				
 			];
 		this.tabId = 1;
 		this.tabCss = "translate3d(0px, 0px, 0px)";

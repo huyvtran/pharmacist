@@ -49463,6 +49463,14 @@ page-adult-pharmacist-childs .ui-page-theme-n .tabs a {
   background: #00BCD4;
 }
 
+page-adult-pharmacist-childs .ui-page-theme-p .tabs a {
+  background: #009688;
+}
+
+page-adult-pharmacist-childs .ui-page-theme-o .tabs a {
+  background: #FF5722;
+}
+
 page-adult-pharmacist-childs input[type='text'], page-adult-pharmacist-childs input[type='email'], page-adult-pharmacist-childs input[type='password'] {
   width: 400px;
   font-size: 20px;

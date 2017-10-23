@@ -79,11 +79,11 @@ export class AdultPharmacistChildsPage {
 		60: 'o',
 		61: 'a',
 		62: 'i',
-		63: 'n',
-		64: 'g',
-		65: 'a',
-		66: 'i',
-		67: 'n'
+		63: 'e',
+		64: 'a',
+		65: 'n',
+		66: 'o',
+		67: 'i'
 	}
 	pageId: number;
 	setting: any;

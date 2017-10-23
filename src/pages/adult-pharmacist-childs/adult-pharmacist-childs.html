@@ -26,7 +26,7 @@
 	        </div>
 		</div>
 		<div class="swipe-container" *ngIf="html_data!=null">
-			<div class="swiper-wrapper opacity5" [ngStyle]="{'transform': tabConCss+''}">
+			<div class="swiper-wrapper opacity5" [ngStyle]="{'transform': tabConCss+''}" *ngIf="html_data[pageId]?.tabs?.length>0">
 				<div class="swiper-slide">
 					<div class="content-slide ui-content">
 					    <div [innerHTML]="html_data[pageId]?.tabs[0]['top_header']" *ngIf="html_data!=null"></div>
@@ -109,14 +109,6 @@
 					            </div>
 							</div>
 					    </ng-container>
-				        <!-- <div data-role="collapsible" data-collapsed="true" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed">
-				            <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="expandPage(html_data[pageId]?.tabs[2].colstart)" [ngClass]="{'ui-icon-plus': expands[html_data[pageId]?.tabs[2].colstart], 'ui-icon-minus': !expands[html_data[pageId]?.tabs[2].colstart]}">
-				            	<div [innerHTML]="html_data[pageId]?.tabs[2].collapsable[0].title"></div>
-				            </a></h3>
-				            <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': expands[html_data[pageId]?.tabs[2].colstart]}" aria-hidden="true">
-				                <div [innerHTML]="html_data[pageId]?.tabs[2].collapsable[0].content"></div>
-				            </div>
-				        </div> -->
 				    </div>
 				</div>
 				<div class="swiper-slide">

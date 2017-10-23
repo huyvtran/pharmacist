@@ -179,7 +179,7 @@
 				]
 			},
 			{
-				"header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightPurple_red centerText\"> <span>No <span class=\"bluefont\">comments</span> or <span class=\"orangefont\">ratings</span> on this recommendation yet. How about being the first to say something?</span><br>\n        </div>\n        <div align=\"right\"> <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-pink.svg\" width=\"80\" alt=\"Pharmacist\" align=\"right\">\n        </div>\n    </div>",
+				"header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightPurple_red centerText\"> <span>No <span class=\"bluefont\">comments</span> or <span class=\"orangefont\">ratings</span> on this recommendation yet. How about being the first to say something?</span><br>\n        </div>\n        <div align=\"right\"> <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-pink.svg\" width=\"80\" alt=\"Pharmacist\" align=\"right\">\n        </div>\n    </div><div class=\"clearboth divider1\"></div>",
 				"buttons": [
 					{
 						"class": "linkBlueBorder",
@@ -349,7 +349,7 @@
 				]
 			},
 			{
-				"header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightPurple_red centerText\"> <span>No <span class=\"bluefont\">comments</span> or <span class=\"orangefont\">ratings</span> on this recommendation yet. How about being the first to say something?</span><br>\n        </div>\n        <div align=\"right\"> <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-pink.svg\" width=\"80\" alt=\"Pharmacist\" align=\"right\">\n        </div>\n    </div>",
+				"header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightPurple_red centerText\"> <span>No <span class=\"bluefont\">comments</span> or <span class=\"orangefont\">ratings</span> on this recommendation yet. How about being the first to say something?</span><br>\n        </div>\n        <div align=\"right\"> <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-pink.svg\" width=\"80\" alt=\"Pharmacist\" align=\"right\">\n        </div>\n    </div><div class=\"clearboth divider1\"></div>",
 				"buttons": [
 					{
 						"class": "linkBlueBorder",

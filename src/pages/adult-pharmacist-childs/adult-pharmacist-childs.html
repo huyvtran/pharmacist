@@ -95,7 +95,7 @@
 				    <div class="content-slide ui-content">
 				        <div [innerHTML]="html_data[pageId]?.tabs[2]['header']" *ngIf="html_data!=null"></div>
 				        <ng-container *ngFor="let each of html_data[pageId]?.tabs[2].collapsable;let i=index">
-					    	<div data-role="collapsible" data-collapsed="false" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed" *ngIf="i!=0">
+					    	<div data-role="collapsible" data-collapsed="false" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed" *ngIf="i!=0"> 
 					            <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="expandPage(i+html_data[pageId]?.tabs[2].colstart)" [ngClass]="{'ui-icon-plus': expands[i+html_data[pageId]?.tabs[2].colstart], 'ui-icon-minus': !expands[i+html_data[pageId]?.tabs[2].colstart]}">
 					            	<div [innerHTML]="each['title']"></div>
 					            </a></h3>

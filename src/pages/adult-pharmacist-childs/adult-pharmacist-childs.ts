@@ -196,7 +196,11 @@ export class AdultPharmacistChildsPage {
 		this.expands[id] = !this.expands[id];
 	}
 	togglePage(ind: number) {
-		if (ind == 1)
+		if (ind == 0){
+			this.page = ind;
+			this.mode = 0;
+		}
+		else if (ind == 1)
 		{
 			if (this.pageId == 0)
 			{
@@ -396,7 +400,7 @@ export class AdultPharmacistChildsPage {
 				    this.mode = 50;
 				}
 			}
-			else if (this.pageId >= 2) // == 2
+			else if (this.pageId == 2) // == 2
 			{
 				var
 				    sorethroat = this.recs[0],
@@ -513,6 +517,157 @@ export class AdultPharmacistChildsPage {
 				    this.mode = 50;
 				}
 			}
+			else if (this.pageId == 4)
+			{
+				var
+				    sleep_quicker = this.recs[0],
+				wake_early = this.recs[1],
+				wake_often = this.recs[2],
+				work_nights = this.recs[3],
+				stressed = this.recs[4],
+				toothache = this.recs[5],
+				headache = this.recs[6],
+				anxiety = this.recs[7],
+				bigday = this.recs[8],
+				jetlag = this.recs[9],
+				prevention = this.recs[11],
+				allabove = this.recs[10],
+				none = this.recs[12];
+
+				//Medication variables in collapsible
+
+				var
+				    antihistamine = wake_early || wake_often,
+				antihistamine_painrelief = toothache || headache,
+				melatonin = sleep_quicker || work_nights || bigday || jetlag,
+				valerian = stressed || anxiety || bigday,
+				combination = stressed || anxiety || bigday || sleep_quicker;
+				if (none) {
+					this.mode = 1;
+				}
+				else if (prevention) {
+					this.mode = 2;
+				}
+				else if (allabove) {
+					this.mode = 3;
+				   
+				}
+				else if (antihistamine && !(antihistamine_painrelief || melatonin || valerian || combination)) {
+					this.mode = 4;
+				    
+
+				} else if (antihistamine_painrelief && !(antihistamine || melatonin || valerian || combination)) {
+					this.mode = 5;
+				    
+
+				} else if (melatonin && !(antihistamine || antihistamine_painrelief || valerian || combination)) {
+					this.mode = 6;
+				    
+
+				} else if (valerian && !(antihistamine || antihistamine_painrelief || melatonin || combination)) {
+					this.mode = 7;
+				    
+
+				} else if (combination && !(antihistamine || antihistamine_painrelief || valerian || melatonin)) {
+					this.mode = 8;
+				    
+
+				}
+				//-------------------------------double---------------------------
+				else if (antihistamine && antihistamine_painrelief && !(melatonin || valerian || combination)) {
+					this.mode = 9;
+				    
+
+				} else if (antihistamine && melatonin && !(antihistamine_painrelief || valerian || combination)) {
+					this.mode = 10;
+				    
+
+				} else if (antihistamine && valerian && !(antihistamine_painrelief || melatonin || combination)) {
+					this.mode = 11;
+				    
+
+				} else if (antihistamine && combination && !(antihistamine_painrelief || melatonin || valerian)) {
+					this.mode = 12;
+				    
+
+				} else if (antihistamine_painrelief && melatonin && !(antihistamine || valerian || combination)) {
+					this.mode = 13;
+				    
+
+				} else if (antihistamine_painrelief && valerian && !(antihistamine || melatonin || combination)) {
+					this.mode = 14;
+				    
+
+				} else if (antihistamine_painrelief && combination && !(antihistamine || melatonin || valerian)) {
+					this.mode = 15;
+				    
+				} else if (melatonin && valerian && !(antihistamine || antihistamine_painrelief || combination)) {
+					this.mode = 16;
+				   
+				} else if (melatonin && combination && !(antihistamine || antihistamine_painrelief || valerian)) {
+					this.mode = 17;
+				} else if (valerian && combination && !(antihistamine || antihistamine_painrelief || melatonin)) {
+					this.mode = 18;
+				}
+				//---------------------Triple----------------------
+				else if (antihistamine && antihistamine_painrelief && melatonin && !(valerian || combination)) {
+					this.mode = 19;
+				    
+
+				} else if (antihistamine && antihistamine_painrelief && valerian && !(melatonin || combination)) {
+					this.mode = 20;
+				    
+
+				} else if (antihistamine && antihistamine_painrelief && combination && !(melatonin || valerian)) {
+					this.mode = 21;
+				    
+				} else if (antihistamine && melatonin && valerian && !(antihistamine_painrelief || combination)) {
+					this.mode = 22;
+				    
+				} else if (antihistamine && melatonin && combination && !(antihistamine_painrelief || valerian)) {
+					this.mode = 23;
+				    
+				} else if (antihistamine && valerian && combination && !(antihistamine_painrelief || melatonin)) {
+					this.mode = 24;
+				    
+				} else if (antihistamine_painrelief && melatonin && valerian && !(antihistamine || combination)) {
+					this.mode = 25;
+				    
+				} else if (antihistamine_painrelief && melatonin && combination && !(antihistamine || valerian)) {
+					this.mode = 26;
+				    
+				} else if (antihistamine_painrelief && valerian && combination && !(antihistamine || melatonin)) {
+					this.mode = 27;
+				    
+				} else if (melatonin && valerian && combination && !(antihistamine || antihistamine_painrelief)) {
+					this.mode = 28;
+				}
+				//---------------------Quadruple----------------------
+				else if (antihistamine && antihistamine_painrelief && melatonin && valerian && !(combination)) {
+					this.mode = 29;
+				    
+				} else if (antihistamine && antihistamine_painrelief && melatonin && combination && !(valerian)) {
+					this.mode = 30;
+				    
+				} else if (antihistamine && antihistamine_painrelief && valerian && combination && !(melatonin)) {
+					this.mode = 31;
+				    
+				} else if (antihistamine && melatonin && valerian && combination && !(antihistamine_painrelief)) {
+					this.mode = 32;
+				    
+				} else if (antihistamine_painrelief && melatonin && valerian && combination && !(antihistamine)) {
+					this.mode = 33;
+				   
+				}
+				//------------------------------All together------------------------------------
+				else if (antihistamine && antihistamine_painrelief && melatonin && valerian && combination) {
+					this.mode = 34;
+				    
+				} else {
+					this.mode = 50;
+					ind = 0;
+				}
+			}
 			if (this.html_data != null)
 			{
 				let length = this.html_data[this.pageId].tabs[0].collapsable.length;
@@ -548,35 +703,19 @@ export class AdultPharmacistChildsPage {
 			}
 			this.page = ind;
 		}
-		else if (ind>=101 && ind<=200)
+		else if (ind>=101 && ind<200)
 		{
 			this.page = 1;
 			this.mode = ind - 100;
 			if (this.html_data != null)
 			{
-				let length = this.html_data[this.pageId].tabs[0].collapsable.length;
-				console.log(length);
-				for (let i=0;i<length;i++)
-				{
-					let m = this.html_data[this.pageId].tabs[0].collapsable[i].mode;
-					if (m != undefined)
-					{
-						let m_arr = m.split(",");
-						let found = false;
-						for (let j=0;j<m_arr.length;j++)
-						{
-							if (m_arr[j] == this.mode)
-							{
-								found = true; break;
-							}
-						}
-						if (found)
-							this.html_data[this.pageId].tabs[0].collapsable[i].show = true;
-						else
-							this.html_data[this.pageId].tabs[0].collapsable[i].show = false;
-					}
-				}
+				this.checkCollapsableShow();	
 			}
+		}
+		else if (ind>=501 && ind<600){
+			this.page = 1;
+			this.mode = ind - 500;
+			this.checkCollapsableShow();
 		}
 	}
 	getHtmlData(){
@@ -584,7 +723,35 @@ export class AdultPharmacistChildsPage {
 	    this.html_data =  null;
 	    this.http.get("assets/json/adult_pharmacist_childs_" + num + ".json").map(response => response.json()).subscribe(data => {
 	        this.html_data = data;
+	        if (data[this.pageId].tabs[0]['startpage'] != undefined){
+	        	this.page = data[this.pageId].tabs[0]['startpage'];
+	        	this.mode = this.page;
+	        	this.checkCollapsableShow();
+	        }
 	        // console.log(this.html_data[this.pageId]);
 	    });
+	}
+	checkCollapsableShow() {
+		let length = this.html_data[this.pageId].tabs[0].collapsable.length;
+		for (let i=0;i<length;i++)
+		{
+			let m = this.html_data[this.pageId].tabs[0].collapsable[i].mode;
+			if (m != undefined)
+			{
+				let m_arr = m.split(",");
+				let found = false;
+				for (let j=0;j<m_arr.length;j++)
+				{
+					if (m_arr[j] == this.mode)
+					{
+						found = true; break;
+					}
+				}
+				if (found)
+					this.html_data[this.pageId].tabs[0].collapsable[i].show = true;
+				else
+					this.html_data[this.pageId].tabs[0].collapsable[i].show = false;
+			}
+		}
 	}
 }

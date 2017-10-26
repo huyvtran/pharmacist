@@ -60,9 +60,9 @@
 					       		</ng-container>
 					       	</ul>
 					    </div>
-					    <div [innerHTML]="html_data[pageId]?.tabs[0]['mode'][mode]"></div>
+					    <div [innerHTML]="html_data[pageId]?.tabs[0]['mode'][mode]" *ngIf="mode>0"></div>
 					    <ng-container *ngFor="let each of html_data[pageId]?.tabs[0].collapsable;let i=index">
-					    	<div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed" *ngIf="each.show && page==1">
+					    	<div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed" *ngIf="each.show && (page==1 || page == -1)">
 					            <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="expandPage(i)" [ngClass]="{'ui-icon-arrow-r': expands[i], 'ui-icon-arrow-d': !expands[i]}"><div [innerHTML]="each['title']"></div></a></h3>
 					            <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{'ui-collapsible-content-collapsed': expands[i]}" aria-hidden="true" [innerHTML]="each['content']">
 					            </div>
@@ -86,6 +86,15 @@
 								</p>
 							</div>
 					   	</ng-container>
+					   	<p class="centerText" *ngIf="html_data[pageId]?.tabs[0].firstpage_buttons!==undefined && page<1">
+					   		<ng-container *ngFor="let each of html_data[pageId]?.tabs[0].firstpage_buttons">
+					   			<button data-inline="true" data-role="none" class="{{each.type}} robotoLight" (click)="togglePage(each.goto)">{{each.title}}</button>
+					   		</ng-container>
+					   	</p>
+					   	<div *ngIf="page==-1">
+					   		<div [innerHTML]="html_data[pageId]?.tabs[0].irregular.content"></div>
+					   		<button data-inline="true" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="togglePage(html_data[pageId]?.tabs[0].irregular.button.goto)">{{html_data[pageId]?.tabs[0].irregular.button.title}}</button>
+					   	</div>
 					</div>
 				</div>
 				<div class="swiper-slide">

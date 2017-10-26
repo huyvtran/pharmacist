@@ -662,21 +662,97 @@
 			{
 				"top_header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n",
 				"header": "<div class=\"maxwidth450\">\n            <div class=\"ovalBorderRightBlue centerText\"> \n                <span class=\"bluefont firstname\">Ewe,</span><br>\n                Let's figure out something over the counter for this headache.\n            </div>\n            <div align=\"right\">\n                <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-john-port-cyan.svg\" width=\"100\" alt=\"Pharmacist\"> \n            </div>\n        </div>\n        <div class=\"clearboth divider1\"></div>\n        <br>\n        <!-----------------End Border right person------------------- -->\n        <div class=\"blueBorderAll\">\n            <p>Tap on the type of headache you think you are experiencing and see what is recommended to use over the counter.</p>\n        </div>\n        <p>&nbsp;</p>",
-				"abuttons": [
-					"<img src=\"assets/img/people/adult/head/headache-tension-man.svg\" alt=\"Man holding his head\">\n                    <h3><span class=\"redfont\">Tension</span></h3>\n                    <p>Dull, pressure-like pain.<br> Like a tight band around my head</p>",
-					"<img src=\"assets/img/people/adult/head/migraine-lady.svg\" alt=\"Lady holding her head in pain\">\n                    <h3><span class=\"purplefont\">Migraine</span></h3>\n                    <p>Pulsating, throbbing pain<br>Very sensitive to light, sound</p>",
-					"<img src=\"assets/img/people/adult/head/sinus-headache-lady.svg\" alt=\"Woman holding her sinuses\">\n                    <h3><span class=\"orangefont\">Sinus</span></h3>\n                    <p>Pain, pressure in forehead<br>Worse when I bend down</p>",
-					"<img src=\"assets/img/people/adult/head/headache-lady.svg\" alt=\"Lady touching her head in pain\">\n                    <h3><span class=\"greenfont\">Others</span></h3>\n                    <p>Hangover, premenstrual.</p>"
+				"ullist": [
+					{
+						"text": "<img src=\"assets/img/people/adult/head/headache-tension-man.svg\" alt=\"Man holding his head\">\n\t                                    <h3><span class=\"redfont\">Tension</span></h3>\n\t                                    <p>Dull, pressure-like pain.<br> Like a tight band around my head</p>",
+						"goto": 101
+					},
+					{
+						"text": "<img src=\"assets/img/people/adult/head/migraine-lady.svg\" alt=\"Lady holding her head in pain\">\n\t                                    <h3><span class=\"purplefont\">Migraine</span></h3>\n\t                                    <p>Pulsating, throbbing pain<br>Very sensitive to light, sound</p>",
+						"goto": 102
+					},
+					{
+						"text": "<img src=\"assets/img/people/adult/head/sinus-headache-lady.svg\" alt=\"Woman holding her sinuses\">\n\t                                    <h3><span class=\"orangefont\">Sinus</span></h3>\n\t                                    <p>Pain, pressure in forehead<br>Worse when I bend down</p>",
+						"goto": 103
+					},
+					{
+						"text": "<img src=\"assets/img/people/adult/head/headache-lady.svg\" alt=\"Lady touching her head in pain\">\n\t                                    <h3><span class=\"greenfont\">Others</span></h3>\n\t                                    <p>Hangover, premenstrual.</p>",
+						"goto": 104
+					}
 				],
 				"fieldset": [],
 				"fieldspecial": [],
 				"mode": {
-					
+					"1": "<div class=\"maxwidth450\">\n\t                            <div class=\"ovalBorderRightBlue centerText\"> \n\t                                <span>Over the counter recommendation for <span class=\"redfont\">tension</span> headaches are discussed below.</span><br>\n\t                            </div>\n\t                            <div align=\"right\">\n\t                                <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-john-port-cyan.svg\" style=\"width: 100px;\" alt=\"Pharmacist\"> \n\t                            </div>\n\t                        </div>\n\t                        <div class=\"clearboth divider1\"></div>\n\t                        <br>",
+					"2": "<div class=\"maxwidth450\">\n\t                            <div class=\"ovalBorderRightBlue centerText\"> \n\t                                <span> Over the counter recommendations for <span class=\"purplefont\">migraine</span> headaches are discussed below.</span><br>\n\t                            </div>\n\t                            <div align=\"right\">\n\t                                <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-john-port-cyan.svg\" style=\"width: 100px;\" alt=\"Pharmacist\"> \n\t                            </div>\n\t                        </div>\n\t                        <div class=\"clearboth divider1\"></div>\n\t                        <br>",
+					"3": "<div class=\"maxwidth450\">\n\t                            <div class=\"ovalBorderRightBlue centerText\"> \n\t                                <span>Take a look at over the counter recommendations for <span class=\"orangefont\">sinus</span>  headaches discussed below.</span><br>\n\t                            </div>\n\t                            <div align=\"right\">\n\t                                <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-john-port-cyan.svg\" style=\"width: 100px;\" alt=\"Pharmacist\"> \n\t                            </div>\n\t                        </div>\n\t                        <div class=\"clearboth divider1\"></div>\n\t                        <br>",
+					"4": "<div class=\"maxwidth450\">\n\t                            <div class=\"ovalBorderRightBlue centerText\"> \n\t                                <span>Over the counter recommendations for <span class=\"greenfont\">other types</span> of headaches include:</span><br>\n\t                            </div>\n\t                            <div align=\"right\">\n\t                                <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-john-port-cyan.svg\" style=\"width: 100px;\" alt=\"Pharmacist\"> \n\t                            </div>\n\t                        </div>\n\t                        <div class=\"clearboth divider1\"></div>\n\t                        <br>\n\t                        <!-----------------End Border right person------------------- -->\n\t                        <p>&nbsp;</p>\n\t                        <p class=\"redBorder redfont centerText\">Need treatment overview entry here</p>\n\t                        <p>&nbsp;</p>"
 				},
 				"mode_not": [
+					{
+						"mode_no": "50",
+						"content1": "<div class=\"clearboth divider1\"></div>\n\t\t\t\t\t        <div class=\"centerText\"><span class=\"grayfontSmallSmall\">Last updated by pharmacist on  01/25/2016 at 03:07:am</span>\n\t\t\t\t\t        </div>",
+						"content2": "",
+						"buttons": [
+							{
+								"class": "linkGreen",
+								"title": "<span class=\"mbsc-ic mbsc-ic-ion-android-system-back mobi-icon-font36\"></span>Back",
+								"goto": "200"
+							}
+						]
+					}
 				],
 				"collapsable": [
-					
+					{
+						"title": "<span class=\"color23\">Acetaminophen</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>Acetaminophen is usually better for headaches compared with NSAIDS or others.&nbsp;</p>\n\t                                <p>It may be better to combine it with caffeine to help boost its effectiveness.<img alt=\"Woman with a headache\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/headache-lady2.svg\" class=\"img_style25\"></p>\n\t                                <p>Another advantage is that it won't tear up your stomach as with NSAIDS. Usually, when you have a headache, you just want to lie down somewhere. Doing this can cause heartburn after taking something like ibuprofen. If you are prone to heartburn, go with acetaminophen.</p>\n\t                                <p>&nbsp;</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "1"
+					},
+					{
+						"title": "<span class=\"color19\">NSAIDs</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>These are anti-inflammatory pain relievers&nbsp;used to relieve headaches and other types of pain.<img alt=\"Lady with a headache\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/headache-lady3.svg\" class=\"img_style33\"></p>\n\t                                <h3><span class=\"color10\">First choice of NSAIDS:</span>&nbsp;&nbsp;&nbsp;&nbsp;&#8203;&nbsp;&nbsp;&nbsp;&nbsp;</h3>\n\t                                <p><span style=\"font-size: 13px; line-height: 20.8px;\">Ibuprofen or buffered aspirin. Choose this if you can take it. See the 'know this' section to see who should not take it &nbsp;and the side effects to expect.</span>&nbsp;&nbsp;&nbsp;&nbsp;&#8203;</p>\n\t                                <h3><span class=\"color24\">Others:</span></h3>\n\t                                <p>Naproxen</p>\n\t                                <p>&nbsp;</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "1"
+					},
+					{
+						"title": "<span class=\"color15\">&nbsp;Caffeine</span>&nbsp;+<span class=\"color6\"> Pain reliever</span> &nbsp;&nbsp;<span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p><span style=\"font-size:16px;\"><strong>Acetaminophen + <span class=\"color15\">caffeine</span></strong></span>&nbsp;&nbsp;</p>\n\t                                <p><span style=\"line-height: 1.6em;\">This will provide quick relief for the head, neck and shoulder pain associated with most tension headaches.</span></p>\n\t                                <p>The caffeine helps boost the effectiveness of acetaminophen for the headache.<img alt=\"Lady with headache\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/headache-lady3.svg\" class=\"img_style26\"></p>\n\t                                <p>The only catch, try not to take this late in the night because of the caffeine. The amount in 2 capsules is equivalent to a cup of coffee.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "1"
+					},
+					{
+						"title": "<span class=\"color8\">Pain reliever</span> +<span class=\"color9\"> PM</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p><span style=\"font-size:16px;\"><strong><span class=\"color7\">Acetaminophen</span> <span class=\"color15\">PM</span></strong></span></p>\n\t                                <p>This is a good choice for a late night or at bedtime headaches.</p>\n\t                                <p>They contain diphenhydramine (Benadryl). The goal is to ease your headache while getting you some sleep.<img alt=\"Lady with headache\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/headache-lady4.svg\" class=\"img_style27\"></p>\n\t                                <p><span style=\"font-size:16px;\"><strong><span class=\"color11\">Ibuprofen</span> <span class=\"color15\">PM</span></strong></span></p>\n\t                                <p>This is a good choice if you also have body aches and other sore muscles with this headache.&nbsp;</p>\n\t                                <p>But do not take this if you get frequent heartburn or other stomach irritation problems. You will wake up bloated in the morning with a headache coming back soon after.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "1"
+					},
+					{
+						"title": "<span class=\"color3\">Worth doing</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>1. If you are prone to tension headaches and anticipate coming down with one because of a stressful day or hectic activity, take acetaminophen or an NSAID before hand.</p>\n\t                                <p>2. If your tension headache is due to stress or anxiety. Take valerian with the headache medication before you go to sleep.<img alt=\"Man with ice bag over his head\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/icebag-man.svg\" class=\"img_style28\"></p>\n\t                                <p>3. Remember to rest with an ice bag over your forehead.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "1"
+					},
+					{
+						"title": "<span class=\"color11\">Acetaminophen</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>Acetaminophen is a non-specific medication for a migraine.<img alt=\"Woman with headache holding tablets\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/holding-pills-lady.svg\" class=\"img_style29\"> That is it works on all kinds of headaches.&nbsp;</p>\n\t                                <p>You may want to take this in a combination form. Like combined with caffeine and aspirin.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "2"
+					},
+					{
+						"title": "<span class=\"color16\">NSAIDS</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>These are anti-inflammatory pain relievers. They can be effective for headaches in general and are worth a try in migraine headaches.&nbsp;</p>\n\t                                <p>Ibuprofen and naproxen are good examples.&nbsp;</p>\n\t                                <p>Remember, over-the-counter medicines are no substitute for prescription migraine medicines. Those are more specific and work much better. You should only use OTC medicines in the absence of prescription migraine medicines. It is very necessary you treat your migraine immediately with the medicine prescribed by your physician.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "2"
+					},
+					{
+						"title": "<span class=\"color25\">Worth Doing</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>We assume you know what your triggers are by now. If not, this is the first thing to do. Try including these in your migraine therapy. They should help.<img alt=\"Woman with migraine lying down\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/migraine-lady2.svg\" class=\"img_style34\"></p>\n\t                                <p>1. You must see a doctor for migraine headaches. Make sure you always have enough supply of your doctor's recommended medication on hand. It is hard enough to find which prescription medicine will work for you, when you find one, do your best to have it with you. Just a reminder, if a medicine prescribed is not working for you, call the doctor to try something else. Taking more won't make any difference.</p>\n\t                                <p>2. Keep a headache journal. It is important you know how you respond to migraine medicines. Which one worked best for you? What triggered it? How bad is this migraine? These are questions you need to know as time goes on.</p>\n\t                                <p>3. Know your triggers. Prevention is better than cure. Moreover, prescription migraine medications are not cheap. You need to be more focused on prevention and use those medicines only when you need them.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "2"
+					},
+					{
+						"title": "<span class=\"color11\">NSAIDS</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>Non-Steroidal Anti-inflammatory Drugs (NSAIDS) include ibuprofen, naproxen, aspirin. We recommend this for sinus pain and pressure. Most of the time, inflammation of the sinuses would lead to a headache. NSAIDS&nbsp;helps with the inflammation while working on the head pain.<img alt=\"Woman with sinus headache\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/sinus-headache-lady2.svg\" class=\"img_style31\">&#8203;</p>\n\t                                <p>If this headache also includes severe sinus pressure, you will be better off adding pseudoephedrine to relieve the pressure. Good combinations are available behind the pharmacy counter. <span class=\"color11\">Ibuprofen + pseudoephedrine;</span> <span class=\"img_style16\">Naproxen + pseudoephedrine</span> are good examples. If the pharmacy is closed, a nasal spray with <span class=\"color3\">oxymetazoline</span> will help. But use this as a last resort.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "3"
+					},
+					{
+						"title": "<span class=\"color8\">Acetaminophen</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>We recommend acetaminophen if you can't take NSAIDS. If all you have is a headache, acetaminophen will be better. For instance a&nbsp;lingering headache after a sinus infection. In this case, acetaminophen will be appropriate.<img alt=\"Lady taking pills\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/lady-taking-pills.svg\" class=\"img_style32\"></p>\n\t                                <p>If you cannot take NSAIDS and think acetaminophen will work better for you, we encourage you to combine it with pseudoephedrine which is available behind the pharmacy counter. This combination will be useful in a case of headache with sinus pain and pressure.</p>\n\t                                <p>&nbsp;</p>",
+						"mode": "3"
+					}
 				]
 			},
 			{

@@ -50,6 +50,15 @@
 					            	<div class="ui-btn ui-input-btn ui-btn-l ui-corner-all ui-shadow ui-btn-inline">Here you go<input type="button" data-inline="true" data-theme="l" id="get_adult_recom_allergy_mobile_q1" value="Here you go" (click)="togglePage(1)"></div> 
 					            </div>
 					        </div>
+					        <ul class="ui-nodisc-icon ui-listview ui-listview-inset ui-corner-all ui-shadow">
+					        	<ng-container *ngFor="let each of html_data[pageId]?.tabs[0].ullist">
+					        		<li class="ui-li-has-thumb">
+	                                	<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="togglePage(each.goto)">
+	                                		<div [innerHTML]="each.text"></div>
+	                                	</a>
+	                                </li>
+					       		</ng-container>
+					       	</ul>
 					    </div>
 					    <div [innerHTML]="html_data[pageId]?.tabs[0]['mode'][mode]"></div>
 					    <ng-container *ngFor="let each of html_data[pageId]?.tabs[0].collapsable;let i=index">

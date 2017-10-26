@@ -546,8 +546,38 @@ export class AdultPharmacistChildsPage {
 					}
 				}
 			}
+			this.page = ind;
 		}
-		this.page = ind;
+		else if (ind>=101 && ind<=200)
+		{
+			this.page = 1;
+			this.mode = ind - 100;
+			if (this.html_data != null)
+			{
+				let length = this.html_data[this.pageId].tabs[0].collapsable.length;
+				console.log(length);
+				for (let i=0;i<length;i++)
+				{
+					let m = this.html_data[this.pageId].tabs[0].collapsable[i].mode;
+					if (m != undefined)
+					{
+						let m_arr = m.split(",");
+						let found = false;
+						for (let j=0;j<m_arr.length;j++)
+						{
+							if (m_arr[j] == this.mode)
+							{
+								found = true; break;
+							}
+						}
+						if (found)
+							this.html_data[this.pageId].tabs[0].collapsable[i].show = true;
+						else
+							this.html_data[this.pageId].tabs[0].collapsable[i].show = false;
+					}
+				}
+			}
+		}
 	}
 	getHtmlData(){
 		let num = Math.floor(this.pageId / 4);

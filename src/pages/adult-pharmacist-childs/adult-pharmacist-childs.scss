@@ -90,9 +90,17 @@ page-adult-pharmacist-childs {
 		.img_style31{width: 120px; height: 84px; margin: 8px; float: right;}
 		.img_style32{width: 100px; height: 108px; margin: 8px; float: right;}
 		.img_style33{width: 100px; height: 94px; margin: 8px; float: right;}
+		.img_style34{width: 120px; height: 85px; margin: 8px; float: right;	}
 		.span1{font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px;}
 		.padding1{padding:5px;}
 		.div_style1{width: 320px;}
+	}
+	.ui-listview .ui-li-has-thumb>.ui-btn img:first-child{
+		position: absolute;
+	    left: 0;
+	    top: 0;
+	    max-height: 5em;
+	    max-width: 5em;
 	}
 	fieldset.ui-controlgroup-vertical span{font-weight: bold;}
 	fieldset.ui-controlgroup-vertical .ui-btn,

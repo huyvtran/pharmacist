@@ -925,9 +925,9 @@ export class AdultPharmacistChildsPage {
 					contact_lens = this.recs[8],
 					chemical = this.recs[9],
 					prevention = this.recs[10],
-					allabove = false,
+					allabove,
 					none = this.recs[11];
-
+				allabove = false;
 				//Medication variables in collapsible
 				var allergy = allergy_symptoms || itchy || red_quickly,
 					viral = foreign_object || watery,

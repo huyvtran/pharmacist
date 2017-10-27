@@ -2,11 +2,11 @@ page-adult-pharmacist-childs {
 	font-size: 16px;
 
 	.swiper-scrollbar {
-		position: fixed;
+		position: relative;
 		-ms-touch-action: none;
 		background: rgba(0,0,0,0.1);
 		height: 5px;
-		margin:46px auto 0px;
+		margin: 0 auto;
 		width: 100%;
 		z-index: 999;
 	}
@@ -130,6 +130,7 @@ page-adult-pharmacist-childs {
 		.img_style49{width: 100px; height: 114px; margin: 8px; float: right;}
 		.img_style50{margin: 8px; float: right; width: 150px; height: 46px;}
 		.img_style51{width: 80px; height: 68px; margin: 8px; float: right;}
+		.img_style52{width: 80px; height: 86px; margin: 8px;}
 		.span1{font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px;}
 		.span2{font-family: sans-serif; line-height: 19.200000762939453px; background-color: rgb(255, 255, 255);}
 		.span3{color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.799999237060547px;}
@@ -163,6 +164,10 @@ page-adult-pharmacist-childs {
 	.tabs {
 	  	width: 100%;
 	  	margin: 0 auto;
+	  	position: fixed;
+		z-index: 99;
+		display: block;
+		height: 57px;
 	}
 	.tabs a:hover{
 		opacity: 1;
@@ -193,6 +198,16 @@ page-adult-pharmacist-childs {
 	.ui-page-theme-d .tabs a{background: #9C27B0;}
 	.ui-page-theme-f .tabs a{background: #F44336;}
 	.ui-page-theme-h .tabs a{background: #8BC34A;}
+	.ui-page-theme-a .swiper-scrollbar{background: #03a9f4;}
+	.ui-page-theme-g .swiper-scrollbar{background: #4CAF50;}
+	.ui-page-theme-i .swiper-scrollbar{background: #E91E63;}
+	.ui-page-theme-n .swiper-scrollbar{background: #00BCD4;}
+	.ui-page-theme-p .swiper-scrollbar{background: #009688;}
+	.ui-page-theme-o .swiper-scrollbar{background: #FF5722;}
+	.ui-page-theme-e .swiper-scrollbar{background: #FF9800;}
+	.ui-page-theme-d .swiper-scrollbar{background: #9C27B0;}
+	.ui-page-theme-f .swiper-scrollbar{background: #F44336;}
+	.ui-page-theme-h .swiper-scrollbar{background: #8BC34A;}
 	input[type='text'], input[type='email'], input[type='password'] {
 	    width: 400px;
 		font-size: 20px;

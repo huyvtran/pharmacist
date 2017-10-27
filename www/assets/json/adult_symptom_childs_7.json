@@ -1957,4 +1957,1164 @@
 				]
 			},
 			"12": {
-				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                Chances you are looking at a heart attack increasing. Except if the pain is <span
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                Chances you are looking at a heart attack increasing. Except if the pain is <span class=\"purple_bluefont\">familiar<\/span> to you.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 13
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you have <span class=\"redfont\">pain<\/span> in the <span class=\"purple_redfont\">neck or jaw?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 14
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 15
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge\">Yes?<\/span><br>\r\n\t                Chances you are looking at a heart attack increasing. Except if the <span class=\"purple_bluefont\">pain is familiar<\/span> to you.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 15
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about <span class=\"bluefont\">pain<\/span> between the <span class=\"orangefont\">shoulder blades?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 16
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 17
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Yes?<\/span><br>\r\n\t                Chances you are looking at a heart attack increasing. <span class=\"orangefont\">Except<\/span> if the pain is <span class=\"purple_redfont\">familiar<\/span> to you.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 17
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you experiencing <span class=\"bluefont\">shortness of breath<\/span> as we speak?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 18
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 19
+					}
+				]
+			},
+			"18": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Call 911 or seek emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"blueBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Possible heart attack coming on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorderWhite redfontSmall centerText\"><span class=\"bg_highlight\">Note:<\/span><br>We do not advice continuing. You should only continue if you are not experiencing the question asked.<\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "refresh",
+						"title": "Continue",
+						"go": 10
+					},
+					{
+						"type": "tel",
+						"theme": "k",
+						"title": "Call 911",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "ER",
+						"go": 0
+					}
+				]
+			},
+			"19": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>In <span class=\"purple_bluefont\">addition<\/span> to this chest pain or burning, are you <span class=\"redfont\">sweating<\/span> for no reason?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Did you <span class=\"redfont\">break out<\/span> in sweat?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 20
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 21
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Call 911 or seek emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"blueBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Possible heart attack coming on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorderWhite redfontSmall centerText\"><span class=\"bg_highlight\">Note:<\/span><br>We do not advice continuing. You should only continue if you are not experiencing the question asked.<\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "refresh",
+						"title": "Continue",
+						"go": 10
+					},
+					{
+						"type": "tel",
+						"theme": "k",
+						"title": "Call 911",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Call 911",
+						"go": 0
+					}
+				]
+			},
+			"21": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>With this chest or burning pain are you feeling<span class=\"orangefont\"> lightheaded<\/span> and <span class=\"pinkfont\">dizzy?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 22
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 22
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you feel your <span class=\"purple_redfont\">heart<\/span> is <span class=\"bluefont\">beating<\/span> too fast?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue bluefont\">\r\n\t                        Pounding?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 23
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 24
+					}
+				]
+			},
+			"23": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Call 911 or seek Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"blueBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Need to rule out a heart attack going on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorderWhite redfontSmall centerText\"><span class=\"bg_highlight\">Note:<\/span><br>We do not advice continuing. You should only continue if you are not experiencing the question asked.<\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "refresh",
+						"title": "Continue",
+						"go": 10
+					},
+					{
+						"type": "tel",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Call 911",
+						"go": 0
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about feeling <span class=\"purple_bluefont\">anxiety,<\/span> like you are about to<span class=\"purple_bluefont\"> die?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 25
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 26
+					}
+				]
+			},
+			"25": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Call 911 or seek Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"redBorderAll\">\r\n\t            <h3 class=\"blueBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Possibility of a heart attack likely.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"redBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <p class=\"redBorderWhite redfontSmall centerText\"><span class=\"bg_highlight\">Note:<\/span><br>We do not advice continuing. You should only continue if you are not experiencing the question asked.<\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "refresh",
+						"title": "Continue",
+						"go": 10
+					},
+					{
+						"type": "tel",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Call 911",
+						"go": 0
+					}
+				]
+			},
+			"26": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfontLarge firstname\"> <\/span><br>\r\n\t                Some symptoms of a heart attack can be <span class=\"purplefont\">mistaken<\/span> for symptoms of a heartburn.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder\">If you are feeling any of these symptoms in your chest area right now:<\/p>\r\n\t            <ul>\r\n\t                <li>Like a tight band around the chest<\/li>\r\n\t                <li>Like something heavy sitting on the chest<\/li>\r\n\t                <li>Squeezing or tightness of the chest area<\/li>\r\n\t            <\/ul>\r\n\t            <p class=\"redBorder\">Consider this a medical emergency. These are warning signs of a heart attack.<\/p>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorderAll\">If not and you have honestly answered the questions so far, then let's continue<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->  \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge fristname\"><\/span><br>\r\n\t                Some cases of heartburn require <span class=\"orangefont\">urgent care.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\"> Others can be taken care of with <span class=\"purplefont\">over-the-counter<\/span> medications. <\/p>\r\n\t        <p class=\"blueBorder centerText\">Let's determine how bad it is and make the right decision.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you have <span class=\"redfont\">blood<\/span> in the stool or seen <span class=\"purple_redfont\">blood<\/span> in your stool lately?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 32
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 33
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possible stomach\/intestinal bleeding<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you <span class=\"orangefont\">vomiting<\/span> <span class=\"purple_redfont\">blood?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or something like <span class=\"brownfont\">coffee grounds?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 34
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 35
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>First priority is to stop the bleeding.<\/li>\r\n\t                <li>Then the cause will need to be figured out.<\/li>\r\n\t                <li>There are many reasons of vomiting blood.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 35
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are your stools <strong>black like tar?<\/strong><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"purple_redfont\">maroon<\/span> colored?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 36
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 37
+					}
+				]
+			},
+			"36": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or emergency room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need to see the cause of the bleeding.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 37
+					}
+				]
+			},
+			"37": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does it feel like <span class=\"orangefont\">food is stuck<\/span> in the <span class=\"purple_redfont\">throat<\/span> as it goes down?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or you have difficulty <span class=\"bluefont\">swallowing?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 38
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 39
+					}
+				]
+			},
+			"38": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Your condition is worse than you can imagine.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 39
+					}
+				]
+			},
+			"39": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Have you <span class=\"blue_brightfont\">lost weight<\/span> that you didn't want to lose lately?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 40
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 41
+					}
+				]
+			},
+			"40": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 41
+					}
+				]
+			},
+			"41": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Have you been using <span class=\"greenfont\">(over 2 weeks),<\/span> any of the <span class=\"orangefont\">medications<\/span> listed below?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorder\">\r\n\t            <ul>\r\n\t                <li>Mylanta, Maalox (or store brands)<\/li>\r\n\t                <li>Pepcid, Tagamet, Zantac (or store brands)<\/li>\r\n\t                <li>Prilosec, Prevacid, Zegerid (or store brands)<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 42
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 43
+					}
+				]
+			},
+			"42": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need complete evaluation if no relief so far.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 43
+					}
+				]
+			},
+			"43": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Alright <span class=\"firstname\"> <\/span><\/span><br>\r\n\t                We will assume a minor case of <span class=\"bluefont\">heartburn<\/span> moving forward.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">Let's take a look at the symptoms of a heartburn and be sure this is the case.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 50
+					}
+				]
+			},
+			"50": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you looking at a <span class=\"redfont\">burning pain<\/span> that starts in the chest or breastbone...<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        ...and <span class=\"redfont\">moves up<\/span> toward the throat?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 51
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 52
+					}
+				]
+			},
+			"51": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                <span class=\"purplefont\">Heartburn<\/span> can cause this.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">This is because the acid from the stomach flows backward <span class=\"grayfontSmall\">(refluxes),<\/span> irritating the delicate lining of the esophagus.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 52
+					}
+				]
+			},
+			"52": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Any acidic or bitter <span class=\"purplefont\">taste<\/span> in the mouth especially at the back of the throat?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 53
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 54
+					}
+				]
+			},
+			"53": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a sign of heartburn.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">This is more likely when you lay down. <\/p>\r\n\t        <p class=\"blueBorder\">The acid may move up towards the mouth especially if you did not use a pillow to prop your head up.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 54
+					}
+				]
+			},
+			"54": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Any feeling that <span class=\"orangefont\">food<\/span> is trying to come back into the throat?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 55
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 56
+					}
+				]
+			},
+			"55": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of a heartburn.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder purple_redfont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Burning pain in the chest or breastbone.<\/li>\r\n\t                <li>Burning pain that may move upward to the throat<\/li>\r\n\t                <li>Acidic or bitter taste in the back of the throat<\/li>\r\n\t                <li>Feeling that food is coming back into the throat<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 56
+					}
+				]
+			},
+			"56": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does the pain come after you <span class=\"purplefont\">eat<\/span> food?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 57
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 58
+					}
+				]
+			},
+			"57": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 58
+					}
+				]
+			},
+			"58": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does the severity of the pain increase when you <span class=\"redfont\">lie down?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"redfont\">bend over?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 59
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 60
+					}
+				]
+			},
+			"59": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a sign and symptom of a <span class=\"purplefont\">heartburn.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder purple_redfont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Burning pain in the chest or breastbone.<\/li>\r\n\t                <li>Burning pain that may move upward to the throat<\/li>\r\n\t                <li>Acidic or bitter taste in the back of the throat<\/li>\r\n\t                <li>Feeling that food is coming back into the throat<\/li>\r\n\t                <li class=\"orangefont\">Pain after meals<\/li>\r\n\t                <li class=\"purple_redfont\">Increase severity of the pain when lying down or bending over.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 60
+					}
+				]
+			},
+			"60": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about feeling <span class=\"purplefont\">bloated,<\/span> <span class=\"purple_bluefont\">belching?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or a feeling of <span class=\"purplefont\">indigestion?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 61
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 62
+					}
+				]
+			},
+			"61": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                Too much <span class=\"purplefont\">acid <\/span>in the stomach can cause this.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 62
+					}
+				]
+			},
+			"62": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Any <span class=\"purplefont\">coughing<\/span> especially at night?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 63
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 64
+					}
+				]
+			},
+			"63": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a sign of <span class=\"purplefont\">heartburn.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">This is due to the leaked (refluxed) acid irritating the windpipe.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 64
+					}
+				]
+			},
+			"64": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you have a feeling of a <span class=\"bluefont\">lump<\/span> in the throat?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 65
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 66
+					}
+				]
+			},
+			"65": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be due to a <span class=\"purplefont\">heartburn.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder purple_redfont centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Burning pain in the chest or breastbone.<\/li>\r\n\t                <li>Burning pain that may move upward to the throat<\/li>\r\n\t                <li>Acidic or bitter taste in the back of the throat<\/li>\r\n\t                <li>Feeling that food is coming back into the throat<\/li>\r\n\t                <li>Pain after meals<\/li>\r\n\t                <li>Increase severity of the pain when lying down or bending over.<\/li>\r\n\t                <li>Indigestion, belching<\/li>\r\n\t                <li class=\"purplefont\">Night time cough<\/li>\r\n\t                <li class=\"purple_redfont\">Lumpy feeling in the throat.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 66
+					}
+				]
+			},
+			"66": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t                Those were signs and symptoms of <span class=\"purplefont\">heartburn.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If you think you are looking at a heartburn, let's continue and figure out what triggers it. <\/p>\r\n\t        <p class=\"blueBorder\">Knowing this would go a long way towards providing relief. <\/p>\r\n\t        <p class=\"blueBorderAll\">If you can manage the triggers, then you would spend less money on over-the-counter medications. They can add up pretty quick.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- --> \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 70
+					}
+				]
+			},
+			"70": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Let's use the criteria listed below to find <span class=\"greenfont\">answers<\/span> that can help.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">What is it, that is:<\/p>\r\n\t            <ul>\r\n\t                <li>Increasing the amount of acid produced in the stomach?<\/li>\r\n\t                <br>\r\n\t                <li>Making the esophagus more sensitive to stomach acid?<\/li>\r\n\t                <br>\r\n\t                <li>Causing the valve called the lower esophageal sphincter (LES) to not function properly?<\/li>\r\n\t                <br>\r\n\t                <li>Increasing the pressure in the stomach leading to regurgitation?<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorder centerText\">Well, you've got the thinking process cut out for you. Let's get started.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 71
+					}
+				]
+			},
+			"71": {
+				"header": "<p>Yes<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 72
+					}
+				]
+			},
+			"72": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you a fan of most of the food types listed below?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Things like:<\/p>\r\n\t            <ul>\r\n\t                <li>Chocolate<\/li>\r\n\t                <li>Citrus fruits and drinks<\/li>\r\n\t                <li>Tomatoes and tomatoes-based products<\/li>\r\n\t                <li>Spearmint, Peppermint<\/li>\r\n\t                <li>Raw onions, Garlic.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 73
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 74
+					}
+				]
+			},
+			"73": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                You would have to stay away from these.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">These can make the stomach acid more irritating should it makes its way back to the esophagus.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 74
+					}
+				]
+			},
+			"74": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you into fatty or oily <span class=\"purple_redfont\">greasy<\/span> foods?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 75
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 76
+					}
+				]
+			},
+			"75": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                You will have to cut down on these as much as possible.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Here is why?<\/p>\r\n\t            <p>Both the greasy, fatty foods you ate and the acid your body produced to break them down will remain in the stomach for a longer time. <\/p>\r\n\t            <p>The acid will have a greater chance of moving back up (refluxing) into the esophagus.<\/p>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 76
+					}
+				]
+			},
+			"76": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Still on food. Do you eat <span class=\"purplefont\">large<\/span> meals at a time?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"purple_redfont\">smaller<\/span> meals more frequently?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Large",
+						"go": 77
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "Smaller",
+						"go": 78
+					}
+				]
+			},
+			"77": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Large meals?<\/span><br>\r\n\t                Cutting down to frequent smaller meals may help.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">The stomach responds to large volume meals with large amounts of acid. More acid means a greater chance of acid reflux. <\/p>\r\n\t        <p class=\"blueBorder\">Remember, you have to reduce the chance of the stomach producing more acid than is needed.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 78
+					}
+				]
+			},
+			"78": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you normally <span class=\"greenfont\">finish eating<\/span> your last meal of the day... <\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        ...at least 2 to 3 hours <span class=\"greenfont\">before<\/span> going to bed?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 79
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 80
+					}
+				]
+			},
+			"79": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">No?<\/span><br>\r\n\t                Try eating the last meal of the day at least 2 to 3 hrs before bedtime.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">This will give your food and the increased acid level a good chance to clear before you lay down. <\/p>\r\n\t        <p class=\"blueBorder\">This reduces the amount of acid that will likely reflux to cause heartburn. <\/p>\r\n\t        <p>Also, try sucking on a hard candy after you eat to stimulate more saliva that will help neutralize the acid that may have backed up when the esophagus valve opened.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 80
+					}
+				]
+			},
+			"80": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you currently taking any  <span class=\"redfont\">medications?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Not including medications for heartburn.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 90
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 110
+					}
+				]
+			},
+			"90": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Let's take a look at <span class=\"purplefont\">medications<\/span> and see which can cause heartburn.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <!-----------------End Border right person------------------- -->   \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 91
+					}
+				]
+			},
+			"91": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you taking any of the <span class=\"redfont\">medications<\/span> listed below?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Medications like:<\/p>\r\n\t            <ul>\r\n\t                <li>Beta blockers <span class=\"grayfontSmall\">(atenolol, propranolol)<\/span><\/li>\r\n\t                <li>Calcium-channel blockers <span class=\"grayfontSmall\">(diltiazem, nifedipine)<\/span>.<\/li>\r\n\t                <li>Alpha blockers <span class=\"grayfontSmall\">(prazosin)<\/span><\/li>\r\n\t                <li>Nitrates <span class=\"grayfontSmall\">(isosorbide dinitrate, nitroglycerin)<\/span><\/li>\r\n\t                <li>Anticholinergics <span class=\"grayfontSmall\">(e.g., for sea sickness)<\/span>.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 92
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 93
+					}
+				]
+			},
+			"92": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can increase the risk of developing heartburn.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">They can relax the LES and increase reflux of stomach acid and juices into the esophagus. This can lead to heartburn.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 93
+					}
+				]
+			},
+			"93": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about the <span class=\"purplefont\">medications<\/span> listed below?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Talking about:<\/p>\r\n\t            <ul>\r\n\t                <li>NSAIDS <span class=\"grayfontSmall\">(ibuprofen, naproxen, aspirin, meloxicam)<\/span><\/li>\r\n\t                <li>COX-2 inhibitors <span class=\"grayfontSmall\">(celebrex\u00AE)<\/span><\/li>\r\n\t                <li>Theophylline.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 94
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 95
+					}
+				]
+			},
+			"94": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can cause or worsen heartburn.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">They irritate the stomach lining causing more acid to be produced and making the stomach more susceptible to the effect of the acid.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 95
+					}
+				]
+			},
+			"95": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you taking any of the ones listed below?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Medications like:<\/p>\r\n\t            <ul>\r\n\t                <li>Benzodiazepines <span class=\"grayfontSmall\">(diazepam, lorazepam, clonazepam, temazepam)<\/span><\/li>\r\n\t                <li>Tricyclic antidepressants <span class=\"grayfontSmall\">(amitriptyline)<\/span><\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 96
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 97
+					}
+				]
+			},
+			"96": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can relax the LES, causing acid reflux.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">There is a strong link between heartburn during sleep and taking a benzodiazepine medication.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 97
+					}
+				]
+			},
+			"97": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you take fosamax\u00AE, Boniva\u00AE or Actonel\u00AE ?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 98
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 99
+					}
+				]
+			},
+			"98": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can <span class=\"redfont\">injure<\/span> the lining of the esophagus.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">You must drink a full glass of water with every dose and avoid lying down for 30 to 60 minutes afterward. Take this seriously.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 99
+					}
+				]
+			},
+			"99": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t                Narcotic pain relievers <span class=\"grayfontSmall\">like morphine, meperidine, oxycodone.<\/span> Are you taking those?\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">Or are you taking pain medications with <span class=\"redfont\">hydrocodone?<\/span><\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 100
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 101
+					}
+				]
+			},
+			"100": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can <span class=\"purplefont\">worsen<\/span> or cause heartburn or stomach upset at the very least.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Take these only when needed for pain.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 101
+					}
+				]
+			},
+			"101": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>There are <span class=\"purplefont\">other <\/span>medications that can cause heartburn.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">If you just started taking a new medication and you are experiencing heartburn, check with the pharmacist and see if this is a side effect of the medication.<\/p>\r\n\t        <p class=\"redBorderWhite\">The goal is not to stop taking the medication but to know what you are dealing with.<\/p>\r\n\t        <p class=\"redBorder centerText\">Let's continue and check other things out.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 110
+					}
+				]
+			},
+			"110": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you <span class=\"bluefont\">smoke<\/span> cigarettes, cigars or pipes?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 111
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 112
+					}
+				]
+			},
+			"111": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                You will have to stop this. No way around it.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">Smoking  weakens the LES, stimulate acid production and inhibit saliva production which is supposed to help protect the esophagus against the effect of stomach acid.<\/p>\r\n\t        <p class=\"blueBorderAll\">You will have to choose between smoking and serious heartburn pain. It is going to get progressively worse.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 112
+					}
+				]
+			},
+			"112": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you <span class=\"purplefont\">chew gum<\/span> often <span class=\"redfont\">without<\/span> food in the stomach?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 113
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 114
+					}
+				]
+			},
+			"113": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                You may have to put it off till after eating.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">Chewing gum in an empty stomach may stimulate acid production in the stomach through a conditioned reflex action.<\/p>\r\n\t        <p>The stomach is used to expecting something when your mouth is moving or chewing. It produces acid and digestive juices in anticipation, but nothing shows up. You don't need this extra acid or digestive juices irritating your stomach.<\/p>\r\n\t        <p class=\"blueBorder\">In the same token, chewing gum for 30 minutes after eating a meal can help relieve heartburn.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 114
+					}
+				]
+			},
+			"114": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Would you consider yourself <span class=\"orangefont\">overweight?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 115
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 116
+					}
+				]
+			},
+			"115": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can put extra pressure on the stomach causing acid reflux.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 116
+					}
+				]
+			},
+			"116": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>When <span class=\"purplefont\">exercising,<\/span> do you do a lot of sit-ups?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 117
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 118
+					}
+				]
+			},
+			"117": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                May have to cut this down.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">Sit-ups may increase the risk of acid reflux. Depends on how bad the heartburn is, you may have to do exercises that minimize pressure to the abdomen.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 118
+					}
+				]
+			},
+			"118": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purple_redfontLarge firstname\"> <\/span><br>\r\n\t                Those were heartburn <span class=\"purplefont\">triggers <\/span>to avoid. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/male\/pharm-henry-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">Well, let's see what a pharmacist recommend for heartburn relief that is available over-the-counter.<\/p>\r\n\t        <p class=\"blueBorderAll centerText\">Or would you like to see the nearest urgent care clinic to you if you think that is what you need?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": -244
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

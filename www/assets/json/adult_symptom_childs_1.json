@@ -2068,4 +2068,588 @@
 			"<p class=\"redBorder centerText\">Note that it has nothing to do with poor hygiene and there is no evidence that lice prefer clean or dirty hair. They feed on blood, not dirt or skin cells on the scalp.<\/p>",
 			"<p class=\"redBorder\">They should be oval shaped, very small and hard to see. It may be yellow, white or even the same color as the hair.<\/p>\r\n\t        <p><span class=\"grayfont\">According to the CDC:<\/span> If crawling lice are not seen, finding nits attached firmly within \u00BC inch of the base of hair shafts suggests, but does not confirm, the person is infested.<\/p>\r\n\t        <p class=\"redBorder\">Nits that are attached more than \u00BC inch from the base of the hair shaft are almost always non-viable (hatched or dead). <\/p>",
 			"<p class=\"blueBorder centerText\">CDC's prevention and control<br><span class=\"grayfontSmall\">(copied text. See website for changes.)<\/span><\/p>\r\n\t        <ul>\r\n\t\t\t    <li>Avoid head-to-head (hair-to-hair) contact during play and other activities at home, school, and elsewhere (sports activities, playground, slumber parties, camp).<\/li>\r\n\t\t\t    <li>Do not share clothing such as hats, scarves, coats, sports uniforms, hair ribbons, or barrettes<\/li>\r\n\t\t\t    <li>Do not share combs, brushes, or towels. Disinfest combs and brushes used by an infested person by soaking them in hot water (at least 130\u00B0F) for 5\u201310 minutes.<\/li>\r\n\t\t\t    <li>Do not lie on beds, couches, pillows, carpets, or stuffed animals that have recently been in contact with an infested person<\/li>\r\n\t\t\t    <li>Machine wash and dry clothing, bed linens, and other items that an infested person wore or used during the 2 days before treatment using the hot water (130\u00B0F) laundry cycle and the high heat drying cycle. Clothing and items that are not washable can be dry-cleaned OR sealed in a plastic bag and stored for 2 weeks<\/li>\r\n\t\t\t    <li>Vacuum the floor and furniture, particularly where the infested person sat or lay. However, spending much time and money on housecleaning activities is not necessary to avoid reinfestation by lice or nits that may have fallen off the head or crawled onto furniture or clothing.<\/li>\r\n\t\t\t    <li>The risk of getting infested by a louse that has fallen onto a carpet or furniture is very small. Head lice survive less than 1\u20132 days if they fall off a person and cannot feed; nits cannot hatch and usually die within a week if they are not kept at the same temperature as that found close to the scalp.<\/li>\r\n\t\t\t    <li>Do not use fumigant sprays or fogs; they are not necessary to control head lice and can be toxic if inhaled or absorbed through the skin.<\/li>\r\n\t\t\t<\/ul>",
-			"<h3 align=\"cen
+			"<h3 align=\"center\" class=\"linePurple purplefont redBorder\">FAQs<\/h3>\r\n\t\t\t    <ul>\r\n\t\t\t        <li><strong>Is it a dandruff or a nit?<\/strong><br>\r\n\t\t\t            If the nit look-alike does not stick to the base of the hair, you may be looking at dandruff or hair pray droplets or even dirt here. A nit will be something \"glued\" to the hair.\r\n\t\t\t        <\/li>\r\n\t\t\t        <li><strong>I see something that is tan, yellow or clear and not white:<\/strong><br>\r\n\t\t\t            If these tiny eggs are yellow, tan, or brown, the lice haven't hatched yet. If the eggs are white or clear, the lice have hatched.\r\n\t\t\t        <\/li>\r\n\t\t\t        <li><strong>I see red bumps but no nit or lice:<\/strong><br>If you have red bumps on the scalp and no nit or lice is found, you may be looking at something else.<\/li>\r\n\t\t\t        <li><strong>I found no eggs or lice. Do I still need to treat?<\/strong><br>No. Over the counter shampoos or lotion do not prevent head lice. You have to see an egg or lice to treat. If you found nothing, wait another day and look again.<\/li>\r\n\t\t\t        <li><strong>How long does it take for the eggs to hatch?<\/strong><br>\r\n\t\t\t            It takes about 8 to 9 days for the eggs to hatch.\r\n\t\t\t        <\/li>\r\n\t\t\t        <li><strong>Should I also treat my dog or cat?<\/strong><br>No. They do not play a role in the spread of human head lice.<\/li>\r\n\t\t\t    <\/ul>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 176,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			},
+			{
+				"show": false,
+			    "height": 300,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			},
+			{
+				"show": false,
+			    "height": 500,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			},
+			{
+				"show": false,
+			    "height": 500,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Thinking head lice?"
+			},
+			"1": {
+				"min": 1,
+				"max": 20,
+				"content": "Why think head lice?"
+			},
+			"2": {
+				"min": 20,
+				"max": 30,
+				"content": "Now, is it head lice?"
+			},
+			"3": {
+				"min": 30,
+				"max": 50,
+				"content": "Looking for lice"
+			},
+			"4": {
+				"min": 60,
+				"max": 70,
+				"content": "Wet combing directions"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t            <span>Head lice are <span class=\"orangefont\">tiny parasites<\/span> that live in the hair and make it itchy.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t        <\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"purpleRedBorder\">\r\n\t        <p>They feed on blood from the scalp. Biting on the scalp makes it itch and irritated.<\/p>\r\n\t        <p class=\"centerText\">\r\n\t            <img src=\"assets\/img\/people\/adult\/head\/headlice-lady.svg\" width=\"150\" alt=\"lady with headlice symptoms\">\r\n\t        <\/p>\r\n\t    <\/div>\r\n\t    <!------Start Popoup div----- -->   \r\n\t    <div style=\"display: none;\" id=\"lice_mobile_pop-placeholder\">\r\n\t        <!-- placeholder for lice_mobile_pop -->\r\n\t    <\/div>\r\n\t    <!------End Popoup div----- -->\r\n\t    <p class=\"purpleRedBorder centerText\">Well, let's find out what to do about this.<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>What make you think you have <span class=\"purple_redfont\">head lice?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Let's answer that first.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Is it that <span class=\"orangefont\">someone<\/span> in your house has it?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 3
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 4
+					}
+				]
+			},
+			"3": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 4
+					}
+				]
+			},
+			"4": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did you come in close <span class=\"redfont\">contact<\/span> with someone who has lice?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 5
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 6
+					}
+				]
+			},
+			"5": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 6
+					}
+				]
+			},
+			"6": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you think you have lice because of <span class=\"purple_redfont\">tickling<\/span>  <span class=\"purple_redfont\">movement<\/span> in the hair<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 7
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 8
+					}
+				]
+			},
+			"7": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 8
+					}
+				]
+			},
+			"8": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Did you <span class=\"redfont\">share<\/span> hats, towels, or combs with someone who has lice?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 9
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 10
+					}
+				]
+			},
+			"9": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you thinking head lice due to <span class=\"purple_redfont\">irritability<\/span> and <span class=\"purplefont\">difficulty sleeping?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t                Those were some reasons to think <span class=\"purple_redfont\">head lice.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">If you still think you have head lice, let's answer a few more questions.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Are you experiencing <span class=\"redfont\">intense<\/span> <span class=\"orangefont\">itching<\/span> of the scalp?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 21
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 22
+					}
+				]
+			},
+			"21": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 22
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you have <span class=\"grayfont\">small,<\/span> <span class=\"redfont\">red bumps<\/span> on  your scalp?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red redfont\">\r\n\t                        Neck or shoulders?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 23
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 24
+					}
+				]
+			},
+			"23": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 24
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>What about  <span class=\"purple_redfont\">crusty,<\/span> <span class=\"orangefont\">oozing bumps<\/span> on the scalp?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 25
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 26
+					}
+				]
+			},
+			"25": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at an infection probably due to scratching.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <p class=\"redBorderAll\">Anyway, before you do that or if the bumps are not too bad, let's see if you can find some lice.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Clinic",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"26": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t                To rule out lice infestation, it would be wise to look for lice or their eggs.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder centerText\">Let's see how to do this.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>You will look for <span class=\"redfont\">adult louse<\/span> or <span class=\"purplefont\">nits.<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redBorder redfont centerText\">You will need the following:<\/p>\r\n\t            <ul>\r\n\t                <li>Someone to help<\/li>\r\n\t                <br>\r\n\t                <li>Disposable gloves<\/li>\r\n\t                <br>\r\n\t                <li>Magnifying glass (optional)<\/li>\r\n\t                <br>\r\n\t                <li>Bright light or daylight.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Alright.<\/span><br>\r\n\t                The person helping should follow the instructions below.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">With the gloves on <span class=\"grayfontSmall\">\r\n\t            (Using a magnifying glass if any):<\/span> \r\n\t        <\/p>\r\n\t        <p class=\"redBorder centerText\">Look <span class=\"redfont\">behind<\/span> the ear and <span class=\"orangefont\">back<\/span> of the head near the neckline.<\/p>\r\n\t        <p class=\"orangeBorderAll centerText\">Let's answer a few questions when you have looked.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 32
+					}
+				]
+			},
+			"32": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 33
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Do you see anything like <span class=\"purple_bluefont\">tiny white oval<\/span> eggs or <span class=\"redfont\">adult<\/span> moving <span class=\"redfont\">lice?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        See <span class=\"orangefont\">\"FYI\"<\/span> to know if it is dandruff or nit.\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -104
+					},
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 34
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 35
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                <span class=\"bluefont\">Treatment<\/span> is recommended if even <span class=\"bluefont\">one<\/span> egg is found. But let's look further.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 35
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Look at the <span class=\"bluefont\">base<\/span> of the hair near the scalp for <span class=\"bluefont\">eggs<\/span> (nits).<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        Did you find something within <span class=\"bluefont\">\u00BC inch<\/span> of the base of hair shafts?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <!------Start Popoup div----- -->   \r\n\t        <div style=\"display: none;\" id=\"lice3_mobile_4_pop-placeholder\">\r\n\t            <!-- placeholder for lice3_mobile_4_pop -->\r\n\t        <\/div>\r\n\t        <!------End Popoup div----- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -102
+					},
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 36
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 37
+					}
+				]
+			},
+			"36": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 37
+					}
+				]
+			},
+			"37": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"redfont\">OK.<\/span><br>\r\n\t                Look for <span class=\"brownfont\">adult<\/span> louse.<br> <span class=\"grayfontSmall\">Should be <span class=\"brownfont\">tan<\/span> to grayish-white in color.<\/span>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red redfont\">\r\n\t                        Anything like that?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <p class=\"redBorder\">They should be about the size of sesame seed <span class=\"grayfontSmall\">(1\/16 to 1\/8 of an inch)<\/span> with six legs.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 38
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 39
+					}
+				]
+			},
+			"38": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"purple_redfontLarge\">Yes?<\/span><br>\r\n\t                Let's see how to treat this head lice.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder grayfontSmall\">According to the CDC, the diagnosis of head lice infestation is best made by finding a live nymph or adult louse. <\/p>\r\n\t        <p class=\"orangeBorderAll\"> See <span class=\"orangefont\">\"FYI\"<\/span> for CDC <span class=\"grayfontSmall\">(Centers for disease control)<\/span> tips on how to prevent the spread of head lice.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -103
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -212
+					}
+				]
+			},
+			"39": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span class=\"redfontLarge\">Nothing?<\/span><br>\r\n\t                You will have to use the <span class=\"bluefont\">Wet Combing<\/span> method.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">It is a more time consuming but it has been proven to correctly identify lice in 90% of cases, compared with a 29% accuracy rate for visual inspections.<\/p>\r\n\t        <p class=\"blueBorderAll centerText\">Let's try this if you think you are up for it.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 50
+					}
+				]
+			},
+			"50": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red shadowRight centerText\">\r\n\t            <span>To do <span class=\"bluefont\">wet combing,<\/span> you will need some of the things listed below.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t        <\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-- ---------------End Border right person------------------- -->\r\n\t    <div class=\"blueBorderAll\">\r\n\t        <p class=\"blueBorder centerText\">Items for wet combing technique:<\/p>\r\n\t        <ul>\r\n\t            <li>Regular hair conditioner.<\/li>\r\n\t            <br>\r\n\t            <li>A quality lice comb such as the LiceMeister\u00AE.<\/li>\r\n\t            <br>\r\n\t            <li>Hair clips for separation.<\/li>\r\n\t            <br>\r\n\t            <li>A de-tangling comb.<\/li>\r\n\t            <br>\r\n\t            <li>Pin tail comb. <\/li>\r\n\t            <br>\r\n\t            <li>A bowl of hot water to rinse the lice comb.<\/li>\r\n\t            <br>\r\n\t            <li>White paper towels or rags.<\/li>\r\n\t        <\/ul>\r\n\t    <\/div>\r\n\t    <p class=\"redBorder centerText\">When you have most of these, let's continue<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 60
+					}
+				]
+			},
+			"60": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t            <span>Follow the <span class=\"orangefont\">directions<\/span> in the list form below.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t        <\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <p class=\"greenfontSmall centerText\">For ease of use, swipe left or right on a completed step to hide that step.<\/p>\r\n\t    <p>&nbsp;<\/p>\r\n\t    <p id=\"wet_combing_list_note\" style=\"display:none; centerText\"> Whooa, you did it! Tap here <span class=\"mbsc-ic mbsc-ic-loop2 redfont\"><\/span> to refresh!<br><\/p>\r\n\t    <p id=\"wet_combing_list_note2\" style=\"display:none; centerText\">Or continue if you are done<\/p>\r\n\t    <div class=\"mbsc-lv-cont mbsc-lv-mobi-red mbsc-lv-mobiscroll mbsc-lv-ic-anim mbsc-lv-alt-row  mbsc-lv-handle-right\">\r\n\t        <ul class=\"mbsc-lv mbsc-lv-dummy\"><\/ul>\r\n\t        <div class=\"mbsc-lv-sl-c\" data-ref=\"1\">\r\n\t            <ul id=\"wet_combing_list\" style=\"\" class=\"mbsc-comp mbsc-lv mbsc-lv-v mbsc-lv-root mbsc-lv-sl-curr\">\r\n\t                <li data-ref=\"2\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Apply the conditioner to saturate all the dry hair and scalp.\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"3\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Using the de-tangling comb, comb hair to remove all knots.\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"4\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Using the pin tail comb, separate the hair into 4 or 5 manageable sections.\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"5\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Using the hair clips,  hold the sections in place.\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"6\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Undo a section, starting at the bottom of the hair line closer to the neck or behind the ear, with the teeth of the lice comb as close to the root of the hair shaft as possible, pull through the whole length of the hair, from the shaft to the tip.\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"7\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Wipe both sides of the comb between passes on a white paper towel or rag\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"8\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Thoroughly inspect the white paper towel or rag for lice and nits\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"9\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Rinse the comb with the hot water and work on small sections at a time\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"10\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Repeat process until you come to one conclusion or the other\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"11\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Once all sections have been combed out, remove the hair clips and pass the nit comb through the whole hair working from the shaft to the tip\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"12\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Wipe on a white paper towel and repeat several times\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"13\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Rinse out the conditioner, style hair\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"14\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    Soak all tools in hot soapy water, wash towels and rags in a washer at hot setting and dryer if lice was found.\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t                <li data-ref=\"15\" class=\"mbsc-lv-item mbsc-lv-item-enhanced\">\r\n\t                    <span class=\"redfont\">\u2217\u2217\u2217<\/span>You may have to repeat every 3 days.<span class=\"redfont\">\u2217\u2217\u2217<\/span>\r\n\t                    <div class=\"mbsc-lv-handle-c mbsc-lv-item-h-right mbsc-lv-handle\">\r\n\t                        <div class=\" mbsc-lv-handle-bar-c mbsc-lv-handle\">\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                            <div class=\"mbsc-lv-handle-bar mbsc-lv-handle\"><\/div>\r\n\t                        <\/div>\r\n\t                    <\/div>\r\n\t                <\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t    <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 70
+					}
+				]
+			},
+			"70": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red shadowRight centerText\">\r\n\t                <span> Did you find any <span class=\"redfont\">lice<\/span> or <span class=\"purple_bluefont\">nit?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 71
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 72
+					}
+				]
+			},
+			"71": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>Let's get an <span class=\"orangefont\">over-the-counter<\/span> recommendation to treat this head lice.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">According to the CDC, the diagnosis of head lice infestation is best made by finding a live nymph or adult louse. <\/p>\r\n\t        <p class=\"orangeBorderWhite\"> See <span class=\"orangefont\">\"FYI\"<\/span> for CDC <span class=\"grayfontSmall\">(Centers for disease control)<\/span> tips on how to prevent the spread of head lice.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "m",
+						"title": "FYI",
+						"go": -103
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -212
+					}
+				]
+			},
+			"72": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightPurple_red centerText\">\r\n\t                <span>  Well, treatment is recommended if <span class=\"purplefont\">one nit<\/span> is found within \u00BC inch from the scalp.<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightPurple_red\">\r\n\t                        If <span class=\"redfont\">nothing<\/span> is found <span class=\"redfontLarge\">no<\/span> treatment is recommended.\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amy-red.svg\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <p class=\"orangeBorder\"><span class=\"grayfontSmall\">According to the CDC:<\/span> If no nymphs or adults are seen, and the only nits found are more than \u00BC inch from the scalp, then the infestation is probably old and no longer active \u2014 and does not need to be treated<\/p>\r\n\t        <p class=\"redBorderWhite centerText\"><span class=\"redfont\">Note that:<\/span><br>You have to find lice or eggs to use the over-the-counter shampoos or lotions. These shampoos do not prevent lice infestation.<\/p>\r\n\t        <p class=\"orangeBorder\"> See <span class=\"orangefont\">\"FYI\"<\/span> below for CDC <span class=\"grayfontSmall\">(Centers for disease control)<\/span> tips on how to prevent the spread of head lice.<\/p>\r\n\t        <p class=\"redBorderAll\">Would you like to see what a pharmacist recommend to get rid of head lice anyway?<\/p>\r\n\t        <p class=\"redBorder\">Or think you should go to the nearest urgent care clinic to you?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -103
+					},
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -212
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

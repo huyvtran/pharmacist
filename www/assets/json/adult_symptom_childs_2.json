@@ -1938,4 +1938,1533 @@
 				]
 			},
 			"8": {
-				"header": "<div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange\">\r\n\t                    <span class=\"bluefontLarge\">OK.<\/span><br>\r\n\t                    Let's continue and see if you are looking at a stye and figure out what to do about it.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth divider1\"><\/div>\r\n\t            
+				"header": "<div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange\">\r\n\t                    <span class=\"bluefontLarge\">OK.<\/span><br>\r\n\t                    Let's continue and see if you are looking at a stye and figure out what to do about it.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth divider1\"><\/div>\r\n\t            <!-----------------End Border left person------------------- -->\r\n\t            <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the bump or pimple <span class=\"redfont\">red<\/span> or <span class=\"purple_redfont\">tender?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightOrange\">\r\n\t                        Or <span class=\"redfont\">irritated?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 11
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 12
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightOrange\">\r\n\t                    <span class=\"redfontLarge\">No?<\/span><br>\r\n\t                    Hmmm. Usually, the bump of a sty might be red, tender and irritated. \r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <p class=\"purpleBorder centerText\">Let's answer some more questions.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 12
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are your eyes <span class=\"bluefont\">watery?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 13
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 14
+					}
+				]
+			},
+			"13": {
+				"header": "<h3>Yes?</h3>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 14
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you feel your eyes more <span class=\"blue_brightfont\">sensitive to light?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 15
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 16
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                With <span class=\"purple_redfont\">stye<\/span> your eyes gets more <span class=\"blue_brightfont\">sensitive<\/span> to light. Let's continue.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 16
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is blinking the eyes <span class=\"purple_bluefont\">uncomfortable<\/span> or <span class=\"bluefont\">painful<\/span> for you?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 17
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 18
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefontLarge\">They are?<\/span><br>\r\n\t                This sometimes happens with stye.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 18
+					}
+				]
+			},
+			"18": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you have any <span class=\"purple_redfont\">swelling<\/span> on the <span class=\"orangefont\">face?<\/span> <br><span class=\"grayfontSmall\">(Not including the eyelids).<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 19
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 20
+					}
+				]
+			},
+			"19": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightOrange\">\r\n\t                    <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                    Hope you are not looking at an <span class=\"redfont\">insect bite.<\/span>\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p class=\"redBorderWhite\"> A stye <span class=\"redfont\">does not<\/span> cause swelling on the face.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you experiencing a <span class=\"bluefont\">headache?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 21
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 22
+					}
+				]
+			},
+			"21": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightOrange\">\r\n\t                    <span class=\"bluefontLarge\">Headache?<\/span><br>\r\n\t                    Hmmm. Sty <span class=\"redfont\">does not<\/span> usually include a headache. Let's Continue.\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 22
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Did you share <span class=\"bluefont\">cosmetic<\/span> <span class=\"purple_bluefont\">eye product<\/span> with someone  who might have had a sty?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 23
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 24
+					}
+				]
+			},
+			"23": {
+				"header": "<h3>Yes?</h3>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 24
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Have you <span class=\"orangefont\">ever had<\/span> a stye before?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 30
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span> Let's see if you need to see a doctor <span class=\"orangefont\">assuming<\/span> you are looking at a sty.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">This will depend on how bad it is. Most of the time with sty, you will have to see a doctor. But some you can self manage.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 31
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the <span class=\"orangefont\">affected eye(s)<\/span> itself <span class=\"redfont\">red?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 32
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 33
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May be looking at more than a sty.<\/li>\r\n\t                <li>May be an eye infection going on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 33
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is there any <span class=\"purplefont\">blister<\/span> on the eyelid?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 34
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 35
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Possibility of infection is high.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 35
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>What about <span class=\"bluefont\">crusting<\/span> or <span class=\"blue_brightfont\">scaling<\/span> of the eyelids?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 36
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 37
+					}
+				]
+			},
+			"36": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img class=\"redBorderWhite shadowInset\" src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Nothing will take care of this over-the-counter.<\/li>\r\n\t                <li>More than a sty going on.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 37
+					}
+				]
+			},
+			"37": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the bump or pimple <span class=\"redfont\">bleeding?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 38
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 39
+					}
+				]
+			},
+			"38": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img class=\"redBorderWhite shadowInset\" src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>High risk of infection.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 39
+					}
+				]
+			},
+			"39": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is the bump or bumps <span class=\"purplefont\">very painful<\/span> and <span class=\"purple_bluefont\">large?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 40
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 41
+					}
+				]
+			},
+			"40": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Nothing over-the-counter will take care of this.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 41
+					}
+				]
+			},
+			"41": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Did this sty <span class=\"bluefont\">come back<\/span> soon after you <span class=\"bluefont\">treated<\/span> a previous one?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 42
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 43
+					}
+				]
+			},
+			"42": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Need to avoid risk of complications.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 43
+					}
+				]
+			},
+			"43": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Have you had this for about a <span class=\"bluefont\">week<\/span> and <span class=\"redfont\">no improvement?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 44
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 45
+					}
+				]
+			},
+			"44": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfont\">You have?<\/span><br>\r\n\t                Time to seek <span class=\"purple_redfont\">professional<\/span> help. Do not wait any longer.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">You will need prescription medications to get rid of this.<\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 45
+					}
+				]
+			},
+			"45": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"><\/span><br>\r\n\t                Those were signs of a stye that require urgent care.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-alicia-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If you are satisfied you are looking at a sty and don't need to see a doctor yet. Let's see what a pharmacist recommend.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -217
+					}
+				]
+			}
+		}
+	},
+	"11": {
+		"title": "Dry Eyes",
+		"dlg": [
+			"<p class=\"dropcapBlue blueBorder\">\r\n\t            Dryness of the eye is felt if the tear film is damaged or there is lack of tears allowing dry spots to form on the surface of the eyes leading to discomfort, burning, stinging, blurred vision and so on.\r\n\t        <\/p>\r\n\t        <p class=\"blueBorderAll grayfontSmall\">\r\n\t            There are many causes of dry eyes. Most will cause decreased production of tears from the tear gland (leading to low tear volume), poor tear quality (leading to quick evaporation of the tears in windy environments or in the sun).\r\n\t        <\/p>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 176,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Dry eyes?"
+			},
+			"1": {
+				"min": 1,
+				"max": 2,
+				"content": "Had it before?"
+			},
+			"2": {
+				"min": 2,
+				"max": 3,
+				"content": "Diagnosed already?"
+			},
+			"3": {
+				"min": 30,
+				"max": 50,
+				"content": "Is it blepharitis?"
+			},
+			"4": {
+				"min": 50,
+				"max": 70,
+				"content": "Sjogren syndrome?"
+			},
+			"5": {
+				"min": 80,
+				"max": 100,
+				"content": "Is it a dry eye?"
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightBlue\">\r\n\t            <span> You must be having a <span class=\"bluefont\">hard time<\/span> with activities that require your constant eye attention.<\/span><br>\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border left person------------------- -->\r\n\t    <div class=\"blueBorder\">\r\n\t        <p> Let's see what we can do about it and have a pharmacist recommend something to give you some relief that is available over-the-counter.<\/p>\r\n\t        <p class=\"centerText\">\r\n\t            <img src=\"assets\/img\/people\/adult\/eyes\/eye-dry-lady.svg\" width=\"200\" alt=\"lady with dry eyes symptoms\">\r\n\t        <\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <!------Start Popoup div----- -->   \r\n\t    <div style=\"display: none;\" id=\"dryeye_mobile_pop-placeholder\">\r\n\t        <!-- placeholder for dryeye_mobile_pop  -->\r\n\t    <\/div>\r\n\t    <!------End Popoup div----- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightBlue centerText\">\r\n\t            <span>Have you been <span class=\"purple_bluefont\">diagnosed<\/span> with <span class=\"bluefont\">dry eyes<\/span> and want something for a temporary relief?<\/span><br>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <div class=\"container_12\">\r\n\t            <div class=\"grid_8\">\r\n\t                <br>\r\n\t                <div class=\"bubbleRightBlue\">\r\n\t                    Or this is your <span class=\"purple_bluefont\">first time<\/span> experiencing dryness of the eyes?\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t            <div class=\"grid_4\">\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t    <\/div>\r\n\t    <br>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Point Right------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "c",
+						"title": "Diagnosed",
+						"go": 2
+					},
+					{
+						"type": "a",
+						"theme": "n",
+						"title": "First time",
+						"go": 10
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightBlue\">\r\n\t            <span class=\"orangefont\">Alright<\/span><br>\r\n\t            In that case we will see what is available over-the-counter.\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border left person------------------- -->\r\n\t    <p class=\"blueBorder\">Would you like to see what a pharmacist recommend to use over the counter for dry eyes? <\/p>\r\n\t    <p class=\"blueBorderAll\">Or check if you are looking at dry eyes assuming you need a refresher?<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "g",
+						"title": "Pharmacist",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "n",
+						"title": "Refresher",
+						"go": 10
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t        <div class=\"ovalBorderRightBlue\">\r\n\t            <span class=\"orangefont\">Alright<\/span><br>\r\n\t            In that case we will see what is available over-the-counter.\r\n\t        <\/div>\r\n\t        <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <!-----------------End Border left person------------------- -->\r\n\t    <p class=\"blueBorder\">Would you like to see what a pharmacist recommend to use over the counter for dry eyes? <\/p>\r\n\t    <p class=\"blueBorderAll\">Or check if you are looking at dry eyes assuming you need a refresher?<\/p>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 11
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Did you have <span class=\"redfont\">injury <\/span>to your eye?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 12
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 13
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img class=\"blueBorder shadowInset\" src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"redfont blueBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>It may be more serious than you think.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 13
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are your eyes also <span class=\"redfont\">red<\/span> and <span class=\"bluefont\">very painful?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 14
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 15
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                Hope you are not looking at <span class=\"redfont\">acute angle glaucoma.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">Let's quickly make sure this is not the case.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 15
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Is this like a <span class=\"orangefont\">severe <\/span>eye pain that started <span class=\"purple_redfont\">suddenly?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 16
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 17
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of acute angle closure glaucoma.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">Angle-closure (acute) glaucoma occurs when the exit path of the aqueous humor fluid is blocked suddenly. This quickly cause a  severe, and painful rise in the pressure in the eye leading to a sudden, severe eye pain usually in one eye for now.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 17
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you seeing <span class=\"orangefont\">halos<\/span> like rainbow around <span class=\"blue_brightfont\">lights?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 18
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 19
+					}
+				]
+			},
+			"18": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a symptom of acute angle closure glaucoma.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 19
+					}
+				]
+			},
+			"19": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about <span class=\"purple_redfont\">nausea<\/span> and \/ or <span class=\"orangefont\">vomiting<\/span> with this red eye and severe eye pain?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 20
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 21
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the Emergency Room.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <br>\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <h3 class=\"blueBorder redfont centerText\">Here is why:<\/h3>\r\n\t            <ul>\r\n\t                <li>Possible glaucoma which is very dangerous as time goes by.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorderWhite centerText\"><img src=\"assets\/img\/objects\/emergency_room.png\" width=\"200\" alt=\"Seek urgent care\"><\/p>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <p class=\"blueBorder purplefont centerText\">Would you like to see the nearest hospital or Continue?<\/p>\r\n\t        <p class=\"blueBorderAll redfontSmall centerText\">Note:<br>We do not advice continuing for now. You should only continue if you are not experiencing the question asked.<\/p>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "k",
+						"title": "Hospital",
+						"go": 0
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 21
+					}
+				]
+			},
+			"21": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Is your vision getting <span class=\"purplefont\">cloudy<\/span> with this red eye and eye pain?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 22
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 23
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of acute angle closure glaucoma.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 23
+					}
+				]
+			},
+			"23": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does the eye feel <span class=\"purple_redfont\">swollen?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 24
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 25
+					}
+				]
+			},
+			"24": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 25
+					}
+				]
+			},
+			"25": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Alright.<\/span><br>\r\n\t                Those were the symptoms of <span class=\"redfont\">acute angle closure<\/span> glaucoma.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">This is a medical emergency. If this apply to you, seek <span class=\"redfont\">emergency room<\/span> care.<\/p>\r\n\t        <p class=\"blueBorderAll\">If not, let's continue and rule out other things that might mimic a dry eye that can be dangerous.<\/p>\r\n\t        <p class=\"blueBorderAll\">Remember, with the eye, we cannot assume anything.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you experiencing <span class=\"grayfont\">rusting<\/span> of the <span class=\"purple_bluefont\">eyelids \/ eyelashes?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 31
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 50
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Let's make sure you are not looking at <span class=\"purplefont\">Blepharitis.<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 32
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are the <span class=\"purple_bluefont\">margins<\/span> of the eyelids <span class=\"redfont\">red?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 33
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 34
+					}
+				]
+			},
+			"33": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a symptom of <span class=\"purplefont\">blepharitis.<\/span> \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">Blepharitis is a condition that causes inflammation of the eyelids.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 34
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does it<span class=\"grayfont\"> feel like<\/span> there is <span class=\"bluefont\">something<\/span> in your eye?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 35
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 36
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                <span class=\"purplefont\">Blepharitis<\/span> can make it feel like there is a foreign body in the eye.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder centerText\">A dry eye can also make your eyes feel this way.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 36
+					}
+				]
+			},
+			"36": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Is your eye very <span class=\"blue_brightfont\">sensitive to light?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 37
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 38
+					}
+				]
+			},
+			"37": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a symptom of <span class=\"purplefont\">blepharitis.<\/span> The eyes gets <span class=\"blue_brightfont\">sensitive to light.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 38
+					}
+				]
+			},
+			"38": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you experience <span class=\"brownfont\">crusting<\/span> of the eyelashes on <span class=\"orangefont\">awakening?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 39
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 40
+					}
+				]
+			},
+			"39": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of <span class=\"bluefont\">blepharitis.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Tearing<\/li>\r\n\t                <li>Itchiness of the eye<\/li>\r\n\t                <li>Redness in the eyelid margins<\/li>\r\n\t                <li>Rusting of the eyelid\/eyelashes<\/li>\r\n\t                <li>Burning sensation<\/li>\r\n\t                <li>Like something in the eye?<\/li>\r\n\t                <li>Crusting of the eyelashes on awakening.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 40
+					}
+				]
+			},
+			"40": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"><\/span><br>\r\n\t                We just went through some of the symptoms of <span class=\"purplefont\">blepharitis.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If most of them apply to you, you should seek doctor office visit for full evaluation. If none apply to you, then let's continue and rule out something else.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 50
+					}
+				]
+			},
+			"50": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>With this suspected dry eyes, does your<span class=\"orangefont\"> mouth<\/span> also <span class=\"brownfont\">feel dry?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 51
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 80
+					}
+				]
+			},
+			"51": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Let's make sure you are not looking at <span class=\"bluefont\">Sjogren syndrome.<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 52
+					}
+				]
+			},
+			"52": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you experiencing a <span class=\"purple_bluefont\">feeling<\/span> that there is <span class=\"bluefont\">something in the eye?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 53
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 54
+					}
+				]
+			},
+			"53": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 54
+					}
+				]
+			},
+			"54": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about difficulty <span class=\"purple_redfont\">chewing <\/span>or <span class=\"orangefont\">swallowing?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 55
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 56
+					}
+				]
+			},
+			"55": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of <span class=\"bluefont\">Sjogren syndrome.<\/span> \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">Sjogren syndrome is a disorder that leads to the destruction of the glands that produce tears and saliva. This causes dry mouth and dry eyes.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 56
+					}
+				]
+			},
+			"56": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are your eyes <span class=\"purple_redfont\">itchy<\/span> and <span class=\"blue_brightfont\">sensitive to light?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 58
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 58
+					}
+				]
+			},
+			"58": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Would you say your sense of <span class=\"bluefont\">taste<\/span> and <span class=\"orangefont\">smell<\/span> is diminishing?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 59
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 59
+					}
+				]
+			},
+			"59": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 60
+					}
+				]
+			},
+			"60": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"><\/span><br>\r\n\t                Those were the main symptoms of <span class=\"bluefont\">Sjogren syndrome.<\/span>  \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If most of them apply to you see the doctor for further evaluation. If none, then let's continue and take a look at the symptoms of a dry eye.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "e",
+						"title": "Continue",
+						"go": 80
+					}
+				]
+			},
+			"80": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue shadowRight centerText\">\r\n\t                <span>Let's take a look at the <span class=\"Bluefont\">symptoms<\/span> of a dry eye.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorderAll\">\r\n\t            Remember, we are not here to <span class=\"purplefont\">diagnose<\/span> a dry eye for you. Only your healthcare provider can do that.\r\n\t        <\/p>\r\n\t        <p class=\"blueBorder\">Let's see if you should suspect a dry eye or something else so you can decide on the best course to take.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 81
+					}
+				]
+			},
+			"81": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does it feel as if there is <span class=\"bluefont\">something<\/span> in your eye(s)?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 82
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 83
+					}
+				]
+			},
+			"82": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                With <span class=\"bluefont\">dry eyes<\/span> it might feel as if there is something in the eye.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Let's continue",
+						"go": 83
+					}
+				]
+			},
+			"83": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Is the eye <span class=\"purplefont\">stinging<\/span> or <span class=\"redfont\">burning?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"bluefont\">scratchy?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 84
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 85
+					}
+				]
+			},
+			"84": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"redfont\">Yes?<\/span><br>\r\n\t                This is a symptom of a <span class=\"bluefont\">dry eye.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">The symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li class=\"redfont\">Eye stinging, burning or scratchy.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 85
+					}
+				]
+			},
+			"85": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does the eye get <span class=\"bluefont\">fatigued<\/span> after <span class=\"purple_bluefont\">reading<\/span> a little?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 86
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 87
+					}
+				]
+			},
+			"86": {
+				"header": "<div class=\"centerText\">\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalRightBlue\">\r\n\t                    <span class=\"purplefont\">It does?<\/span><br>\r\n\t                    <span class=\"redfont\">Hmmm.<\/span> Dryness of the eyes can cause this.\r\n\t                <\/div>\r\n\t                <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\">\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End middle right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye <span class=\"bluefont\">fatigue<\/span> after reading a little.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 87
+					}
+				]
+			},
+			"87": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Is the eye <span class=\"purplefont\">tearing<\/span> <span class=\"grayfont\">excessively?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 88
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 89
+					}
+				]
+			},
+			"88": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is a <span class=\"bluefont\">symptom <\/span>of a dry eye.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Other symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li class=\"redfont\">Tearing excessively.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 89
+					}
+				]
+			},
+			"89": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does your vision become <span class=\"pinkfont\">blurry<\/span> at the end of the day?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 90
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 91
+					}
+				]
+			},
+			"90": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                With dry eyes, the sight gets <span class=\"pinkfont\">blurry<\/span> at the end of the day.<br><span class=\"grayfontSmall\"> See other symptoms below.<\/span>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets <span class=\"pinkfont\">blurred<\/span> at end of day.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 91
+					}
+				]
+			},
+			"91": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Does <span class=\"purple_bluefont\">smoke<\/span> or <span class=\"bluefont\">wind<\/span> <span class=\"grayfont\">irritate<\/span> your eyes quickly and excessively?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 92
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 93
+					}
+				]
+			},
+			"92": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                This is a symptom of <span class=\"bluefont\">dryness<\/span> of the eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">The symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets blurry at end of day.<\/li>\r\n\t                <li>Excessive eye <span class=\"redfont\">irritation<\/span> from smoke or wind<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 93
+					}
+				]
+			},
+			"93": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Anything like a little <span class=\"orangefont\">mucus<\/span> discharge from the eye?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 94
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 95
+					}
+				]
+			},
+			"94": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                This can be a symptom of a dry eye. See others below.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder\">The symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets blurred at end of day.<\/li>\r\n\t                <li>Excessive eye irritation from smoke or wind<\/li>\r\n\t                <li>Sometimes a little <span class=\"orangefont\">mucus<\/span> discharge from the eye.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 95
+					}
+				]
+			},
+			"95": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Do you use <span class=\"bluefont\">contact lenses<\/span> and if so are they getting less comfortable?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 96
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 97
+					}
+				]
+			},
+			"96": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">OK.<\/span><br>\r\n\t                With dry eyes <span class=\"purple_bluefont\">contact lenses <\/span>become less comfortable.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Symptoms of a dry eye include:<\/p>\r\n\t            <ul>\r\n\t                <li>Feeling as if there is something in the eye.<\/li>\r\n\t                <li>Eye stinging, burning or scratchy.<\/li>\r\n\t                <li>Eye fatigue after reading a little.<\/li>\r\n\t                <li>Tearing excessively.<\/li>\r\n\t                <li>Vision gets blurred at end of day.<\/li>\r\n\t                <li>Excessive eye irritation from smoke or wind<\/li>\r\n\t                <li>Sometimes a little mucus discharge from the eye.<\/li>\r\n\t                <li class=\"redfont\">Contact lens becoming uncomfortable.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 97
+					}
+				]
+			},
+			"97": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont firstname\"><\/span><br>\r\n\t                We just went through the main symptoms of a dry eye. \r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If none applied to you, then you may not be looking at a dry eye.<\/p>\r\n\t        <p class=\"redBorder\">If any applied to you, we encourage you to get your <span class=\"redfont\">OSDI<\/span><span class=\"redfontSmall\">\u00A9<\/span> <span class=\"grayfontSmall\">(Ocular Surface Disease Index)<\/span> score by tapping on the <span class=\"orangefont\">\"FYI\"<\/span> button below. <\/p>\r\n\t        <p class=\"blueBorderAll\">This will take you to the \"grade your dry eye\" tool provided by refreshbrand.<\/p>\r\n\t        <p class=\"blueBorder\">The <span class=\"redfontSmall\">OSDI\u00A9<\/span> is a valid and reliable tool for measuring and classifying dry eye into normal, mild to moderate and severe.<\/p>\r\n\t        <p class=\"blueBorder\">If you are done with the OSDI\u00A9 tool, remember to come back and see what is available over the counter for dry eyes recommended by the pharmacist.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 100
+					}
+				]
+			},
+			"100": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you currently taking <span class=\"purple_redfont\">antihistamines<\/span> for cold or allergies?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or antihistamine <span class=\"purple_redfont\">sleeping pills?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 101
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 102
+					}
+				]
+			},
+			"101": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                These can cause <span class=\"bluefont\">dryness<\/span> of the eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 102
+					}
+				]
+			},
+			"102": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>What about <span class=\"bluefont\">beta-blockers<\/span> for heart or high blood pressure?<\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"purple_bluefont\">diuretics?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 103
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 104
+					}
+				]
+			},
+			"103": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                Discuss your <span class=\"bluefont\">dry eyes<\/span> with the doctor. These can also cause dry eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 104
+					}
+				]
+			},
+			"104": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you taking <span class=\"orangefont\">Tricyclic anti-depressants?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightBlue\">\r\n\t                        Or <span class=\"orangefont\">SSRIs<\/span> for depression?\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 105
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 106
+					}
+				]
+			},
+			"105": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can cause dry eyes. Discuss this with the doctor.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"blueBorder\">If the dryness started after you started taking the medication, you should let your doctor know. But <strong>do not stop<\/strong> taking the medication.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 106
+					}
+				]
+			},
+			"106": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span>Are you taking <span class=\"orangefont\">Isotretinoin<\/span> for <span class=\"purple_redfont\">acne?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 107
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 108
+					}
+				]
+			},
+			"107": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                These can lead to dryness of the eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 108
+					}
+				]
+			},
+			"108": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">OK<\/span><br>\r\n\t                We listed below other <span class=\"orangefont\">medications<\/span> that can cause dry eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Medications include:<\/p>\r\n\t            <ul>\r\n\t                <li>Atropine<\/li>\r\n\t                <li>Birth control pills<\/li>\r\n\t                <li>Lortab, Ibuprofen<\/li>\r\n\t                <li>Prilosec, prevacid, nexium, pepcid, tagamet<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorder\">If the dryness of the eyes started after you began taking these medications, let the doctor know. But do not stop taking the medication unless directed by the doctor. <\/p>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 110
+					}
+				]
+			},
+			"109": {
+				"header": "<div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 110
+					}
+				]
+			},
+			"110": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightBlue centerText\">\r\n\t                <span class=\"bluefontLarge\">OK<\/span><br>\r\n\t                We listed below other <span class=\"orangefont\">medications<\/span> that can cause dry eyes.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-molly-cyan.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"blueBorderAll\">\r\n\t            <p class=\"blueBorder centerText\">Medications include:<\/p>\r\n\t            <ul>\r\n\t                <li>Atropine<\/li>\r\n\t                <li>Birth control pills<\/li>\r\n\t                <li>Lortab, Ibuprofen<\/li>\r\n\t                <li>Prilosec, prevacid, nexium, pepcid, tagamet<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <p class=\"blueBorder\">If the dryness of the eyes started after you began taking these medications, let the doctor know. But do not stop taking the medication unless directed by the doctor. <\/p>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Eye Clinic",
+						"go": 0
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Pharmacist",
+						"go": -218
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

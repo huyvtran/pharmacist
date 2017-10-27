@@ -2112,4 +2112,702 @@
 				]
 			},
 			"20": {
-				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightGreen centerText\">\r\n\t    
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightGreen centerText\">\r\n\t                    <span>If still <span class=\"purplefont\">thinking earwax,<\/span> let's get an over-the-counter recommendation.<\/span><br>\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-bailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"greenBorder centerText\">Would you like to do that or seek urgent care?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -224
+					}
+				]
+			}
+		}
+	},
+	"15": {
+		"title": "Motion Sickness",
+		"dlg": [
+			"<p class=\"blueBorder\">The inner ear tells  the brain that it senses motion, but the eyes tell the brain that nothing is moving.<\/p>\r\n\t        <p class=\"blueBorderWhite\">When this happen, the brain gets confused and as a defence mechanism make you throw up in case it is a poison you ingested.<\/p>",
+			"<p class=\"orangeBorder\">If the last time was pretty bad, we recommend you see a doctor to get a motion sickness prevention patch containing scopolamine. This patch will give you about 72 hours of protection.<\/p>\r\n\t        <div>\r\n\t            <p> But you have to apply it 6 to 12 hours (no less than 4 hours) before you travel. If you are already sick, it is too late for it to work.<\/p>\r\n\t            <p>Is it  more effective than over-the-counter dramamine or something like that? Probably not. We have tried both of them and  didn't see any difference and moreover, the patch is way more expensive. It is about $15 a patch.<br> Most insurance do cover it however.<\/p>\r\n\t            <p class=\"orangetextBorderWhiteItalic\">The main advantage is the fact that it lasts for 72 hours. So you don't need to be popping pills all the time.<br>Also, the side effects are lesser with the patch.<\/p>\r\n\t            <p class=\"purpletextBorderWhiteItalic\">The bottom line is: You have to figure out what works best for you and stay with that when traveling.<\/p>\r\n\t        <\/div>"
+		],
+		"fyidlg": [
+			{
+				"show": false,
+			    "height": 176,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			},
+			{
+				"show": false,
+			    "height": 446,
+			    "width": 0,
+			    "maxWidth": 0,
+			    "left": 0,
+			    "top": 0
+			}
+		],
+		"navbar": {
+			"0": {
+				"min": 0,
+				"max": 1,
+				"content": "Motion sickness?"
+			},
+			"1": {
+				"min": 10,
+				"max": 20,
+				"content": "Is it motion sickness?"
+			},
+			"2": {
+				"min": 40,
+				"max": 60,
+				"content": "Be aware."
+			}
+		},
+		"pages": {
+			"0": {
+				"header": "<p>&nbsp;<\/p>\r\n\t    <div>\r\n\t        <div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Motion sickness occur when you are <span class=\"orangefont\">feeling<\/span> movement and the eye is not seeing it.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t    <\/div>\r\n\t    <div class=\"clearboth divider1\"><\/div>\r\n\t    <br>\r\n\t    <!-----------------End Border right person------------------- -->\r\n\t    <div class=\"orangeBorder\">\r\n\t        <p>Let's see what you can do about your motion sickness. But always remember, prevention is the best and most effective way to go.<\/p>\r\n\t        <p class=\"centerText\"><br>\r\n\t            <img src=\"assets\/img\/people\/adult\/ear\/motion-lady.svg\" width=\"180\" alt=\"\">\r\n\t        <\/p>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <div>\r\n\t    <\/div>\r\n\t    <!--------------------------Banner Link----------------------------- -->\r\n\t    <!------Start Popoup div----- -->   \r\n\t    <div style=\"display: none;\" id=\"motion_mobile_pop-placeholder\">\r\n\t        <!-- placeholder for motion_mobile_pop -->\r\n\t    <\/div>\r\n\t    <!------End Popoup div----- -->\r\n\t    <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "m",
+						"title": "FYI",
+						"go": -101
+					},
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 1
+					}
+				]
+			},
+			"1": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span>Knowing if you are looking at <span class=\"orangefont\">motion sickness<\/span> is usually straightforward.<\/span><br>\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\"> But there are other things that would be wise to rule out before we can assume it is motion sickness you are experiencing.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "",
+						"title": "Continue",
+						"go": 2
+					}
+				]
+			},
+			"2": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"redfont firstname\"> <\/span><br>\r\n\t                <span>Have you had <span class=\"orangefont\">motion<\/span> <span class=\"grayfontSmall\">(travel or sea)<\/span> <span class=\"orangefont\">sickness<\/span> before?<\/span>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightOrange\">\r\n\t                        Or is this your <span class=\"orangefont\">first time?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider10\"><\/div>\r\n\t        <br>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Had it before",
+						"go": 3
+					},
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "First time",
+						"go": 10
+					}
+				]
+			},
+			"3": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span class=\"greenfont\">Had it before?<\/span><br>\r\n\t                    We will Assume you know a lot about motion sickness by now.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <!------Start Popoup div----- -->   \r\n\t        <div style=\"display: none;\" id=\"motion1_mobile_3_pop-placeholder\">\r\n\t            <!-- placeholder for motion1_mobile_3_pop -->\r\n\t        <\/div>\r\n\t        <!------End Popoup div----- -->\r\n\t        <p class=\"orangeBorderAll centerText\"> Would you like to see what a pharmacist recommend for motion sickness that is available over-the-counter or do you need a refresher to be sure you have motion sickness?<br> <span class=\"orangefont\">(This will consider this a first time occurence). <\/span><\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "m",
+						"title": "FYI",
+						"go": -102
+					},
+					{
+						"type": "a",
+						"theme": "e",
+						"title": "Refresher",
+						"go": 10
+					},
+					{
+						"type": "a",
+						"theme": "l",
+						"title": "Pharmacist",
+						"go": -225
+					}
+				]
+			},
+			"10": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Let's see if it is <span class=\"orangefont\">motion sickness<\/span> you are looking at as best as we can.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">We will assume it is happening to you right now. You can also follow along if you want to prevent it from happening to you. The best way to take care of it is prevention.\r\n\t        <\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 11
+					}
+				]
+			},
+			"11": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is this affecting your <span class=\"bluefont\">speech?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 12
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 13
+					}
+				]
+			},
+			"12": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightRed centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the emergency room or call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Motion sickness <span class=\"redfont\">does not<\/span> affect the speech.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "f",
+						"title": "ER",
+						"go": -214
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 13
+					}
+				]
+			},
+			"13": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Is this making you experience <span class=\"purplefont\">shortness of breath?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 14
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 15
+					}
+				]
+			},
+			"14": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Go to the emergency room or urgent care.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>Motion sickness <span class=\"redfont\">does not<\/span> cause shortness of breath.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 15
+					}
+				]
+			},
+			"15": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Any <span class=\"redfont\">fever<\/span> with this dizziness?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 16
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 17
+					}
+				]
+			},
+			"16": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May not be looking at motion sickness. Seek urgent care.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- --> \r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 17
+					}
+				]
+			},
+			"17": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefontLarge firstname\"> <\/span><br>\r\n\t                We had to make sure we are looking at motion sickness.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Let's continue and see what we are dealing with.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 20
+					}
+				]
+			},
+			"20": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you experiencing some kind of <span class=\"bluefont\">abdominal<\/span> discomfort?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 21
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 22
+					}
+				]
+			},
+			"21": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 22
+					}
+				]
+			},
+			"22": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you feeling <span class=\"purple_redfont\">nauseated <\/span>or even <span class=\"orangefont\">vomiting?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 23
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 24
+					}
+				]
+			},
+			"23": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow centerText\">\r\n\t                <span class=\"redfontLarge\">Seek urgent care or call the doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>May not be looking at motion sickness<\/li>\r\n\t                <li>You should be feeling nauseated.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Nearest Clinic",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 24
+					}
+				]
+			},
+			"24": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Did this start with you <span class=\"purple_bluefont\">yawning?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightOrange\">\r\n\t                        Or <span class=\"bluefont\">salivating?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 25
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 26
+					}
+				]
+			},
+			"25": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 26
+					}
+				]
+			},
+			"26": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Before the nausea started, were you <span class=\"blue_brightfont\">sweating profusely?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div class=\"clearboth\"><\/div>\r\n\t            <div class=\"container_12\">\r\n\t                <div class=\"grid_8\">\r\n\t                    <br>\r\n\t                    <div class=\"bubbleRightOrange\">\r\n\t                        Or <span class=\"blue_brightfont\">hyperventilating?<\/span>\r\n\t                    <\/div>\r\n\t                <\/div>\r\n\t                <div class=\"grid_4\">\r\n\t                    <img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" alt=\"Pharmacist\" width=\"80\" align=\"right\">\r\n\t                <\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Point Right------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 27
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 28
+					}
+				]
+			},
+			"27": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 28
+					}
+				]
+			},
+			"28": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you also <span class=\"purple_redfont\">feeling dizzy?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 29
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 30
+					}
+				]
+			},
+			"29": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"orangefontLarge\">Yes?<\/span><br>\r\n\t                This is a major symptom of motion sickness.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p class=\"orangeBorder centerText\">It usually involve:<\/p>\r\n\t            <ul>\r\n\t                <li>Nausea and\/or vomiting<\/li>\r\n\t                <li class=\"redfont\">Feeling dizzy.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 30
+					}
+				]
+			},
+			"30": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you experiencing any <span class=\"purplefont\">headache?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 31
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 32
+					}
+				]
+			},
+			"31": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This can be a symptom of motion sickness.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p align=\"center\" class=\"orangeBorder\">Motion sickness usually involve:<\/p>\r\n\t            <ul>\r\n\t                <li>Nausea and\/or vomiting<\/li>\r\n\t                <li>Feeling dizzy<\/li>\r\n\t                <li class=\"redfont\">Some headache.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 32
+					}
+				]
+			},
+			"32": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you feel <span class=\"blue_brightfont\">weak and tired?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 33
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 34
+					}
+				]
+			},
+			"33": {
+				"header": "<h3>Yes?<\/h3>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 34
+					}
+				]
+			},
+			"34": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you having <span class=\"grayfont\">difficulty<\/span> with <span class=\"redfont\">concentration?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 35
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 36
+					}
+				]
+			},
+			"35": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"bluefontLarge\">Yes?<\/span><br>\r\n\t                This is also a sign of motion sickness.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorderAll\">\r\n\t            <p align=\"center\" class=\"orangeBorder\">Symptoms include:<\/p>\r\n\t            <ul>\r\n\t                <li>Nausea and\/or vomiting<\/li>\r\n\t                <li>Feeling dizzy<\/li>\r\n\t                <li>Some headache<\/li>\r\n\t                <li>Weakness<\/li>\r\n\t                <li class=\"redfont\">difficulty concentrating.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 36
+					}
+				]
+			},
+			"36": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Certain things can increase your risk of developing <span class=\"orangefont\">motion sickness<\/span> or increase the severity altogether.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"redBorder\">Let's take a look at those things so you can avoid them in the future.<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 40
+					}
+				]
+			},
+			"40": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span>Take <span class=\"purple_redfont\">preventive measures<\/span> before exposure to what might cause motion sickness.<\/span><br>\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->  \r\n\t        <p class=\"orangeBorder\">Once symptoms start, all you can do is manage it. For instance, if you are vomiting, take anti vomiting medication and so on.<\/p>\r\n\t        <p class=\"orangeBorderAll\">Certain things can trigger it or make it worse. Let's see what these might be.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 41
+					}
+				]
+			},
+			"41": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Are you in an area with <span class=\"grayfont\">smoke<\/span> or <span class=\"purple_bluefont\">fumes?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 42
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 43
+					}
+				]
+			},
+			"42": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightBlue\">\r\n\t                    <span class=\"redfont\">Yes?<\/span><br>\r\n\t                    This can trigger motion sickness symtoms or make it worse.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <p class=\"redBorder centerText\">Seek well ventilated areas.<\/p>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 43
+					}
+				]
+			},
+			"43": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you have <span class=\"redfont\">fear<\/span> of <span class=\"grayfont\">flying or sailing?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 44
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 45
+					}
+				]
+			},
+			"44": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightYellow\">\r\n\t                <span class=\"redfontLarge\">Call your doctor.<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img class=\"redBorderWhite shadowInset\" src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border left person------------------- -->\r\n\t        <div class=\"redBorderAll\">\r\n\t            <p class=\"redfont redBorder centerText\">Here is why:<\/p>\r\n\t            <ul>\r\n\t                <li>You will need some anti-anxiety medications before you engage in these activities.<\/li>\r\n\t            <\/ul>\r\n\t        <\/div>\r\n\t        <br>\r\n\t        <!---------------------End Seek urgent care------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 45
+					}
+				]
+			},
+			"45": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>If a female, do you use <span class=\"bluefont\">hormonal contraceptives?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 46
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 47
+					}
+				]
+			},
+			"46": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                    Let your doctor know about your motion sickness issues.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 47
+					}
+				]
+			},
+			"47": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span> Do you like to <span class=\"orangefont\">read <\/span>while <span class=\"grayfont\">traveling?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 48
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 49
+					}
+				]
+			},
+			"48": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span class=\"orangefont\">You do?<\/span><br>\r\n\t                    You may have to stop do this. This can make it worse or trigger it.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 49
+					}
+				]
+			},
+			"49": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span>Do you like to drink <span class=\"purplefont\">alcoholic<\/span> beverages during or before <span class=\"grayfont\">traveling?<\/span><\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">Some people might do this with the belief that it would help calm them down.<\/p>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 50
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 51
+					}
+				]
+			},
+			"50": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span class=\"purplefont\">OK.<\/span><br>\r\n\t                    <span class=\"bluefont\">Alcohol<\/span> can increase the likelihood of motion sickness.\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 51
+					}
+				]
+			},
+			"51": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span> What about <span class=\"pinkfont\">overeating<\/span> before or while traveling?<\/span><br>\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "l",
+						"title": "Yes",
+						"go": 52
+					},
+					{
+						"type": "button",
+						"theme": "k",
+						"title": "No",
+						"go": 53
+					}
+				]
+			},
+			"52": {
+				"header": "<div>\r\n\t            <div class=\"maxwidth450\">\r\n\t                <div class=\"ovalBorderRightOrange centerText\">\r\n\t                    <span class=\"purplefont\">Yes?<\/span><br>\r\n\t                    This can increase the likelihood of you developing <span class=\"pinkfont\">motion sickness.<\/span>\r\n\t                <\/div>\r\n\t                <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t            <\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <div class=\"orangeBorder centerText\">Stay with small amounts of food, like crackers or drink ginger ale.<br>\r\n\t            If possible avoid food or fluids altogether while traveling.\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": 53
+					}
+				]
+			},
+			"53": {
+				"header": "<div class=\"maxwidth450\">\r\n\t            <div class=\"ovalBorderRightOrange centerText\">\r\n\t                <span class=\"purplefont firstname\"> <\/span><br>\r\n\t                Many things can <span class=\"purple_bluefont\">increase<\/span> the likelihood of motion sickness.\r\n\t            <\/div>\r\n\t            <div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"><\/div>\r\n\t        <\/div>\r\n\t        <div class=\"clearboth divider1\"><\/div>\r\n\t        <!-----------------End Border right person------------------- -->\r\n\t        <p class=\"orangeBorder\">You should always have an idea what triggers it for you and take medications to prevent it or use other preventive measures before the symptoms start.<\/p>\r\n\t        <p>For instance, you should minimize your exposure when traveling by reducing the discrepancy between what you are seeing as motion and what your brain is thinking is motion.<br>\r\n\t            If traveling on a ship, look at the horizon. If in a car, seat in the front seat. Avoid areas with little ventilation.\r\n\t        <\/p>\r\n\t        <p class=\"orangeBorder\">Let's see what a pharmacist recommend you take over-the-counter to help with this motion sickness or do you want to seek urgent care for this?<\/p>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <div>\r\n\t        <\/div>\r\n\t        <!--------------------------Banner Link----------------------------- -->\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage1_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage2_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_25\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_50\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"ClickValuePage3_100\" value=\"\">\r\n\t        <input type=\"hidden\" class=\"totalResult\" value=\"\">\r\n\t        <div class=\"clearboth divider1\"><\/div>",
+				"buttons": [
+					{
+						"type": "a",
+						"theme": "j",
+						"title": "Urgent Care",
+						"go": -201
+					},
+					{
+						"type": "button",
+						"theme": "",
+						"title": "Continue",
+						"go": -226
+					}
+				]
+			}
+		}
+	},
+	"ppp": "<p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>\r\n\t        <p>&nbsp;<\/p>"
+}

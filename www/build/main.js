@@ -4100,6 +4100,117 @@ var AdultPharmacistChildsPage = (function () {
                     ind = 0;
                 }
             }
+            else if (this.pageId == 6) {
+                var mild = this.recs[0], moderate = this.recs[1], severe = this.recs[2], painful = this.recs[3], crusty = this.recs[4], drainy = this.recs[5], blonde = this.recs[6], colored = this.recs[7], oily = this.recs[8], dry = this.recs[9], prevention = this.recs[11], allabove = this.recs[10], none = this.recs[12];
+                //Medication variables in collapsible
+                var mild = mild, moderate = moderate, severe = severe, warning = oily || dry || blonde || colored, doctor = severe || painful || crusty || drainy;
+                if (none) {
+                    this.mode = 34;
+                }
+                else if (prevention) {
+                    this.mode = 1;
+                }
+                else if (allabove) {
+                    this.mode = 2;
+                }
+                else if (mild && !(moderate || severe || warning || doctor)) {
+                    this.mode = 3;
+                }
+                else if (moderate && !(mild || severe || warning || doctor)) {
+                    this.mode = 4;
+                }
+                else if (severe && !(mild || moderate || warning || doctor)) {
+                    this.mode = 5;
+                }
+                else if (warning && !(mild || moderate || severe || doctor)) {
+                    this.mode = 6;
+                }
+                else if (doctor && !(mild || moderate || warning || severe)) {
+                    this.mode = 7;
+                }
+                else if (mild && moderate && !(severe || warning || doctor)) {
+                    this.mode = 8;
+                }
+                else if (mild && severe && !(moderate || warning || doctor)) {
+                    this.mode = 9;
+                }
+                else if (mild && warning && !(moderate || severe || doctor)) {
+                    this.mode = 10;
+                }
+                else if (mild && doctor && !(moderate || severe || warning)) {
+                    this.mode = 11;
+                }
+                else if (moderate && severe && !(mild || warning || doctor)) {
+                    this.mode = 12;
+                }
+                else if (moderate && warning && !(mild || severe || doctor)) {
+                    this.mode = 13;
+                }
+                else if (moderate && doctor && !(mild || severe || warning)) {
+                    this.mode = 14;
+                }
+                else if (severe && warning && !(mild || moderate || doctor)) {
+                    this.mode = 15;
+                }
+                else if (severe && doctor && !(mild || moderate || warning)) {
+                    this.mode = 16;
+                }
+                else if (warning && doctor && !(mild || moderate || severe)) {
+                    this.mode = 17;
+                }
+                else if (mild && moderate && severe && !(warning || doctor)) {
+                    this.mode = 18;
+                }
+                else if (mild && moderate && warning && !(severe || doctor)) {
+                    this.mode = 19;
+                }
+                else if (mild && moderate && doctor && !(severe || warning)) {
+                    this.mode = 20;
+                }
+                else if (mild && severe && warning && !(moderate || doctor)) {
+                    this.mode = 21;
+                }
+                else if (mild && severe && doctor && !(moderate || warning)) {
+                    this.mode = 22;
+                }
+                else if (mild && warning && doctor && !(moderate || severe)) {
+                    this.mode = 23;
+                }
+                else if (moderate && severe && warning && !(mild || doctor)) {
+                    this.mode = 24;
+                }
+                else if (moderate && severe && doctor && !(mild || warning)) {
+                    this.mode = 25;
+                }
+                else if (moderate && warning && doctor && !(mild || severe)) {
+                    this.mode = 26;
+                }
+                else if (severe && warning && doctor && !(mild || moderate)) {
+                    this.mode = 27;
+                }
+                else if (mild && moderate && severe && warning && !(doctor)) {
+                    this.mode = 28;
+                }
+                else if (mild && moderate && severe && doctor && !(warning)) {
+                    this.mode = 29;
+                }
+                else if (mild && moderate && warning && doctor && !(severe)) {
+                    this.mode = 30;
+                }
+                else if (mild && severe && warning && doctor && !(moderate)) {
+                    this.mode = 31;
+                }
+                else if (moderate && severe && warning && doctor && !(mild)) {
+                    this.mode = 32;
+                }
+                else if (mild && moderate && severe && warning && doctor) {
+                    this.mode = 33;
+                }
+                else {
+                    this.mode = 50;
+                    ind = 0;
+                }
+            }
             if (this.html_data != null) {
                 var length = this.html_data[this.pageId].tabs[0].collapsable.length;
                 for (var i = 0; i < length; i++) {

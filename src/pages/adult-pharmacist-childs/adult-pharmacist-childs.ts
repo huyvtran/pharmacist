@@ -975,6 +975,141 @@ export class AdultPharmacistChildsPage {
 				    ind = 0; this.mode = 50;
 				}
 			}
+			else if (this.pageId == 11)
+			{
+				var
+				    severe = this.recs[0],
+				mild = this.recs[1],
+				burning = this.recs[2],
+				morning = this.recs[3],
+				painful = this.recs[4],
+				sand = this.recs[5],
+				four_times = this.recs[6],
+				blurry = this.recs[7],
+				/*iiii = $('#adult_recom_dryeye_mobile_q1_8'),
+				jjjj = $('#adult_recom_dryeye_mobile_q1_9'),*/
+				prevention = this.recs[8],
+				allabove,
+				none = this.recs[9];
+
+				allabove = false;
+				//Medication variables in collapsible
+
+				var
+				    thicker = severe || painful || sand,
+				watery = mild || burning || sand || blurry || painful,
+				nighttime = severe || mild || morning,
+				cold_warm_compress = severe || mild || painful,
+				preservative_free = severe || four_times;
+				if (none) {
+					this.mode = 1;
+				}
+				else if (prevention) {
+					this.mode = 2;
+
+				}
+				else if (allabove) {
+					this.mode = 3;
+
+				}
+				//--------------single------------------------
+				else if (thicker && !(watery || nighttime || cold_warm_compress || preservative_free)) {
+					this.mode = 4;
+
+				} else if (watery && !(thicker || nighttime || cold_warm_compress || preservative_free)) {
+					this.mode = 5;
+				} else if (nighttime && !(thicker || watery || cold_warm_compress || preservative_free)) {
+				    this.mode = 6;
+				} else if (cold_warm_compress && !(thicker || watery || nighttime || preservative_free)) {
+				    this.mode = 7;
+				} else if (preservative_free && !(thicker || watery || cold_warm_compress || nighttime)) {
+				    this.mode = 8; 
+				}
+				//-------------------------------double---------------------------
+				else if (thicker && watery && !(nighttime || cold_warm_compress || preservative_free)) {
+				    this.mode = 9;
+				} else if (thicker && nighttime && !(watery || cold_warm_compress || preservative_free)) {
+				    this.mode = 10;
+				} else if (thicker && cold_warm_compress && !(watery || nighttime || preservative_free)) {
+				    this.mode = 11;
+				} else if (thicker && preservative_free && !(watery || nighttime || cold_warm_compress)) {
+				    this.mode = 12;
+				} else if (watery && nighttime && !(thicker || cold_warm_compress || preservative_free)) {
+				    this.mode = 13;
+
+				} else if (watery && cold_warm_compress && !(thicker || nighttime || preservative_free)) {
+				    this.mode = 14;
+				   
+				} else if (watery && preservative_free && !(thicker || nighttime || cold_warm_compress)) {
+				    this.mode = 15;
+				    
+				} else if (nighttime && cold_warm_compress && !(thicker || watery || preservative_free)) {
+				    this.mode = 16;
+				    
+				} else if (nighttime && preservative_free && !(thicker || watery || cold_warm_compress)) {
+				    this.mode = 17;
+				    
+				} else if (cold_warm_compress && preservative_free && !(thicker || watery || nighttime)) {
+				    this.mode = 18;
+				    
+				}
+				//---------------------Triple----------------------
+				else if (thicker && watery && nighttime && !(cold_warm_compress || preservative_free)) {
+				    this.mode = 19;
+				    
+				} else if (thicker && watery && cold_warm_compress && !(nighttime || preservative_free)) {
+				    this.mode = 20;
+				    
+				} else if (thicker && watery && preservative_free && !(nighttime || cold_warm_compress)) {
+				    this.mode = 21;
+				    
+				} else if (thicker && nighttime && cold_warm_compress && !(watery || preservative_free)) {
+				    this.mode = 22;
+				    
+				} else if (thicker && nighttime && preservative_free && !(watery || cold_warm_compress)) {
+				    this.mode = 23;
+				    
+				} else if (thicker && cold_warm_compress && preservative_free && !(watery || nighttime)) {
+				    this.mode = 24;
+				    
+				} else if (watery && nighttime && cold_warm_compress && !(thicker || preservative_free)) {
+				    this.mode = 25;
+				    
+				} else if (watery && nighttime && preservative_free && !(thicker || cold_warm_compress)) {
+				    this.mode = 26;
+				    
+				} else if (watery && cold_warm_compress && preservative_free && !(thicker || nighttime)) {
+				    this.mode = 27;
+				    
+				} else if (nighttime && cold_warm_compress && preservative_free && !(thicker || watery)) {
+				    this.mode = 28;
+				    
+				}
+				//---------------------Quadruple----------------------
+				else if (thicker && watery && nighttime && cold_warm_compress && !(preservative_free)) {
+				    this.mode = 29;
+				    
+				} else if (thicker && watery && nighttime && preservative_free && !(cold_warm_compress)) {
+				    this.mode = 30;
+				    
+				} else if (thicker && watery && cold_warm_compress && preservative_free && !(nighttime)) {
+				    this.mode = 31;
+				    
+				} else if (thicker && nighttime && cold_warm_compress && preservative_free && !(watery)) {
+				    this.mode = 32;
+				    
+				} else if (watery && nighttime && cold_warm_compress && preservative_free && !(thicker)) {
+
+				    this.mode = 33;
+				}
+				//------------------------------All together------------------------------------
+				else if (thicker && watery && nighttime && cold_warm_compress && preservative_free) {
+				    this.mode = 34;
+				} else {
+				    this.mode = 50;
+				    ind = 0;
+				}
+			}
 			if (this.html_data != null)
 			{
 				let length = this.html_data[this.pageId].tabs[0].collapsable.length;

@@ -4323,9 +4323,124 @@ var AdultPharmacistChildsPage = (function () {
                     this.mode = 50;
                 }
             }
+            else if (this.pageId == 11) {
+                var severe = this.recs[0], mild = this.recs[1], burning = this.recs[2], morning = this.recs[3], painful = this.recs[4], sand = this.recs[5], four_times = this.recs[6], blurry = this.recs[7], 
+                /*iiii = $('#adult_recom_dryeye_mobile_q1_8'),
+                jjjj = $('#adult_recom_dryeye_mobile_q1_9'),*/
+                prevention = this.recs[8], allabove, none = this.recs[9];
+                allabove = false;
+                //Medication variables in collapsible
+                var thicker = severe || painful || sand, watery = mild || burning || sand || blurry || painful, nighttime = severe || mild || morning, cold_warm_compress = severe || mild || painful, preservative_free = severe || four_times;
+                if (none) {
+                    this.mode = 1;
+                }
+                else if (prevention) {
+                    this.mode = 2;
+                }
+                else if (allabove) {
+                    this.mode = 3;
+                }
+                else if (thicker && !(watery || nighttime || cold_warm_compress || preservative_free)) {
+                    this.mode = 4;
+                }
+                else if (watery && !(thicker || nighttime || cold_warm_compress || preservative_free)) {
+                    this.mode = 5;
+                }
+                else if (nighttime && !(thicker || watery || cold_warm_compress || preservative_free)) {
+                    this.mode = 6;
+                }
+                else if (cold_warm_compress && !(thicker || watery || nighttime || preservative_free)) {
+                    this.mode = 7;
+                }
+                else if (preservative_free && !(thicker || watery || cold_warm_compress || nighttime)) {
+                    this.mode = 8;
+                }
+                else if (thicker && watery && !(nighttime || cold_warm_compress || preservative_free)) {
+                    this.mode = 9;
+                }
+                else if (thicker && nighttime && !(watery || cold_warm_compress || preservative_free)) {
+                    this.mode = 10;
+                }
+                else if (thicker && cold_warm_compress && !(watery || nighttime || preservative_free)) {
+                    this.mode = 11;
+                }
+                else if (thicker && preservative_free && !(watery || nighttime || cold_warm_compress)) {
+                    this.mode = 12;
+                }
+                else if (watery && nighttime && !(thicker || cold_warm_compress || preservative_free)) {
+                    this.mode = 13;
+                }
+                else if (watery && cold_warm_compress && !(thicker || nighttime || preservative_free)) {
+                    this.mode = 14;
+                }
+                else if (watery && preservative_free && !(thicker || nighttime || cold_warm_compress)) {
+                    this.mode = 15;
+                }
+                else if (nighttime && cold_warm_compress && !(thicker || watery || preservative_free)) {
+                    this.mode = 16;
+                }
+                else if (nighttime && preservative_free && !(thicker || watery || cold_warm_compress)) {
+                    this.mode = 17;
+                }
+                else if (cold_warm_compress && preservative_free && !(thicker || watery || nighttime)) {
+                    this.mode = 18;
+                }
+                else if (thicker && watery && nighttime && !(cold_warm_compress || preservative_free)) {
+                    this.mode = 19;
+                }
+                else if (thicker && watery && cold_warm_compress && !(nighttime || preservative_free)) {
+                    this.mode = 20;
+                }
+                else if (thicker && watery && preservative_free && !(nighttime || cold_warm_compress)) {
+                    this.mode = 21;
+                }
+                else if (thicker && nighttime && cold_warm_compress && !(watery || preservative_free)) {
+                    this.mode = 22;
+                }
+                else if (thicker && nighttime && preservative_free && !(watery || cold_warm_compress)) {
+                    this.mode = 23;
+                }
+                else if (thicker && cold_warm_compress && preservative_free && !(watery || nighttime)) {
+                    this.mode = 24;
+                }
+                else if (watery && nighttime && cold_warm_compress && !(thicker || preservative_free)) {
+                    this.mode = 25;
+                }
+                else if (watery && nighttime && preservative_free && !(thicker || cold_warm_compress)) {
+                    this.mode = 26;
+                }
+                else if (watery && cold_warm_compress && preservative_free && !(thicker || nighttime)) {
+                    this.mode = 27;
+                }
+                else if (nighttime && cold_warm_compress && preservative_free && !(thicker || watery)) {
+                    this.mode = 28;
+                }
+                else if (thicker && watery && nighttime && cold_warm_compress && !(preservative_free)) {
+                    this.mode = 29;
+                }
+                else if (thicker && watery && nighttime && preservative_free && !(cold_warm_compress)) {
+                    this.mode = 30;
+                }
+                else if (thicker && watery && cold_warm_compress && preservative_free && !(nighttime)) {
+                    this.mode = 31;
+                }
+                else if (thicker && nighttime && cold_warm_compress && preservative_free && !(watery)) {
+                    this.mode = 32;
+                }
+                else if (watery && nighttime && cold_warm_compress && preservative_free && !(thicker)) {
+                    this.mode = 33;
+                }
+                else if (thicker && watery && nighttime && cold_warm_compress && preservative_free) {
+                    this.mode = 34;
+                }
+                else {
+                    this.mode = 50;
+                    ind = 0;
+                }
+            }
             if (this.html_data != null) {
-                var length_1 = this.html_data[this.pageId].tabs[0].collapsable.length;
-                for (var i = 0; i < length_1; i++) {
+                var length = this.html_data[this.pageId].tabs[0].collapsable.length;
+                for (var i = 0; i < length; i++) {
                     var m = this.html_data[this.pageId].tabs[0].collapsable[i].mode;
                     var ma = this.html_data[this.pageId].tabs[0].collapsable[i].mode_above;
                     this.html_data[this.pageId].tabs[0].collapsable[i].show = true;
@@ -4404,16 +4519,16 @@ var AdultPharmacistChildsPage = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]) === "function" && _a || Object)
 ], AdultPharmacistChildsPage.prototype, "content", void 0);
 AdultPharmacistChildsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'page-adult-pharmacist-childs',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/adult-pharmacist-childs/adult-pharmacist-childs.html"*/'<ion-header class="ui-header {{setting.class}}">\n	<ion-navbar>\n    	<ion-title>\n	    	<h1 class="ui-title" *ngIf="html_data!=null">\n	      		{{html_data[pageId]?.title}}\n	      	</h1>\n    	</ion-title>\n    	<ion-buttons end>\n      		<button ion-button icon-only (click)="showMenu()">\n        		<ion-icon name="menu"></ion-icon>\n      		</button>\n    	</ion-buttons>\n	</ion-navbar>\n</ion-header>\n<ion-content overflow-scroll="true" class="{{setting.class}} content{{pageId}} ui-page-theme-{{pagemode[pageId]}}">\n	<div class="fullWidth" style="padding:0px;">\n		<div class="fullWidth" >\n		    <div class="tabs" *ngIf="html_data!=null">\n		    	<ng-container *ngFor="let each of html_data[pageId]?.tabs_title;let i=index">\n		    		<a href="#" class="ui-link" (click)="showTab(i+1)" [ngClass]="{\'active\': tabId==(i+1)}">{{each}}</a>\n		    	</ng-container>\n		        <div class="clearboth"></div>\n		        <div class="swiper-scrollbar shadowBottom">\n		            <div class="swiper-scrollbar-drag swiper-scrollbar-cursor-drag" [ngStyle]="{\'transform\': tabCss+\'\'}"></div>\n		        </div>\n		        <div class="clearboth"></div>\n		    </div>\n		</div>\n		<div class="swipe-container" *ngIf="html_data!=null">\n			<div class="swiper-wrapper opacity5" [ngStyle]="{\'transform\': tabConCss+\'\'}" *ngIf="html_data[pageId]?.tabs?.length>0">\n				<div class="swiper-slide">\n					<div class="content-slide ui-content">\n					    <div [innerHTML]="html_data[pageId]?.tabs[0][\'top_header\']" *ngIf="html_data!=null"></div>\n					    <div [innerHTML]="html_data[pageId]?.tabs[0][\'header_iregular\']" *ngIf="html_data[pageId]?.tabs[0][\'header_iregular\']!==undefined && page==-1"></div>\n					    <div id="adult_recom_allergy_mobile_q1" *ngIf="page==0">\n					        <div [innerHTML]="html_data[pageId]?.tabs[0][\'header\']"></div>\n					        <div data-role="fieldcontain" class="ui-field-contain">\n					            <fieldset data-role="controlgroup" id="adult_recom_allergy_mobile_q1_form_div" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all">\n					                <div class="ui-controlgroup-controls ">\n					                	<ng-container *ngFor="let each of html_data[pageId]?.tabs[0].fieldset;let i=index">\n					                		<div class="ui-checkbox">\n					                			<label for="adult_recom_allergy_mobile_q1_{{i}}" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-first-child" [ngClass]="{\'ui-checkbox-on\': recs[i], \'ui-checkbox-off\': !recs[i]}" (click)="toggleRecs(i)">\n					                				<div [innerHTML]="each"></div>\n					                			</label>\n					                			<input type="checkbox" name="adult_recom_allergy_mobile_q1" id="adult_recom_allergy_mobile_q1_{{i}}" class="adult_recom_allergy_mobileQ1" value="" data-cacheval="true" [(ngModel)]="recs[i]"></div>\n					                	</ng-container>\n					                    <hr class="hrgreen">\n					                </div>\n					            </fieldset>\n					            <div class="clearboth divider1"></div>\n					            <div class="centerText" *ngIf="html_data[pageId]?.tabs[0].fieldset?.length > 0">\n					            	<div class="ui-btn ui-input-btn ui-btn-l ui-corner-all ui-shadow ui-btn-inline">Here you go<input type="button" data-inline="true" data-theme="l" id="get_adult_recom_allergy_mobile_q1" value="Here you go" (click)="togglePage(1)"></div> \n					            </div>\n					        </div>\n					        <ul class="ui-nodisc-icon ui-listview ui-listview-inset ui-corner-all ui-shadow">\n					        	<ng-container *ngFor="let each of html_data[pageId]?.tabs[0].ullist">\n					        		<li class="ui-li-has-thumb">\n	                                	<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (click)="togglePage(each.goto)">\n	                                		<div [innerHTML]="each.text"></div>\n	                                	</a>\n	                                </li>\n					       		</ng-container>\n					       	</ul>\n					    </div>\n					    <div [innerHTML]="html_data[pageId]?.tabs[0][\'mode\'][mode]" *ngIf="mode>0"></div>\n					    <ng-container *ngFor="let each of html_data[pageId]?.tabs[0].collapsable;let i=index">\n					    	<div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed" *ngIf="each.show && (page==1 || page == -1)">\n					            <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="expandPage(i)" [ngClass]="{\'ui-icon-arrow-r\': expands[i], \'ui-icon-arrow-d\': !expands[i]}"><div [innerHTML]="each[\'title\']"></div></a></h3>\n					            <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{\'ui-collapsible-content-collapsed\': expands[i]}" aria-hidden="true" [innerHTML]="each[\'content\']">\n					            </div>\n							</div>\n					    </ng-container>\n					    <ng-container *ngFor="let each of html_data[pageId]?.tabs[0].mode_not">\n							<div data-inline="true" *ngIf="page==1 && mode!=each.mode_no">\n								<div [innerHTML]="each[\'content1\']"></div>\n								<p class="centerText">\n									<a href="#" data-inline="true" class="{{each.buttons[0].class}} ui-link" (click)="gotoSubPage(each.buttons[0].goto)">\n										<span [innerHTML]="each.buttons[0][\'title\']"></span>\n									</a>\n								</p>\n								<div [innerHTML]="each[\'content2\']"></div>\n								<p class="centerText">\n									<ng-container *ngFor="let each_but of each.buttons;let i=index">\n										<a href="#" data-inline="true" class="{{each_but.class}} ui-link" (click)="gotoSubPage(each_but.goto)" *ngIf="i!=0">\n											<span [innerHTML]="each_but[\'title\']"></span>\n										</a>\n									</ng-container>\n								</p>\n							</div>\n					   	</ng-container>\n					   	<p class="centerText" *ngIf="html_data[pageId]?.tabs[0].firstpage_buttons!==undefined && page<1">\n					   		<ng-container *ngFor="let each of html_data[pageId]?.tabs[0].firstpage_buttons">\n					   			<button data-inline="true" data-role="none" class="{{each.type}} robotoLight" (click)="togglePage(each.goto)">{{each.title}}</button>\n					   		</ng-container>\n					   	</p>\n					   	<div *ngIf="page==-1 && html_data[pageId]?.tabs[0].irregular!==undefined">\n					   		<div [innerHTML]="html_data[pageId]?.tabs[0].irregular.content"></div>\n					   		<button data-inline="true" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="togglePage(html_data[pageId]?.tabs[0].irregular.button.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.button!==undefined">{{html_data[pageId]?.tabs[0].irregular.button.title}}</button>\n					   		<p class="centerText">\n					   			<a href="#" data-inline="true" class="{{html_data[pageId]?.tabs[0].irregular.buttongo.class}}" (click)="gotoSubPage(html_data[pageId]?.tabs[0].irregular.buttongo.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.buttongo!==undefined">{{html_data[pageId]?.tabs[0].irregular.buttongo.title}}</a>\n					   		</p>\n					   	</div>\n					</div>\n				</div>\n				<div class="swiper-slide">\n				    <div class="content-slide ui-content">\n				    	<div [innerHTML]="html_data[pageId]?.tabs[1][\'header\']" *ngIf="html_data!=null"></div>\n				    	<ng-container *ngFor="let each of html_data[pageId]?.tabs[1].collapsable;let i=index">\n					    	<div data-role="collapsible" data-collapsed="false" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed">\n					            <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="expandPage(i+html_data[pageId]?.tabs[1].colstart)" [ngClass]="{\'ui-icon-plus\': expands[i+html_data[pageId]?.tabs[1].colstart], \'ui-icon-minus\': !expands[i+html_data[pageId]?.tabs[1].colstart]}"><div [innerHTML]="each[\'title\']"></div></a></h3>\n					            <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{\'ui-collapsible-content-collapsed\': expands[i+html_data[pageId]?.tabs[1].colstart]}" aria-hidden="true" [innerHTML]="each[\'content\']">\n					            </div>\n							</div>\n					    </ng-container>\n				    </div>\n				</div>\n				<div class="swiper-slide">\n				    <div class="content-slide ui-content">\n				        <div [innerHTML]="html_data[pageId]?.tabs[2][\'header\']" *ngIf="html_data!=null"></div>\n				        <ng-container *ngFor="let each of html_data[pageId]?.tabs[2].collapsable;let i=index">\n					    	<div data-role="collapsible" data-collapsed="false" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content ui-collapsible-collapsed" *ngIf="i!=0"> \n					            <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit" (click)="expandPage(i+html_data[pageId]?.tabs[2].colstart)" [ngClass]="{\'ui-icon-plus\': expands[i+html_data[pageId]?.tabs[2].colstart], \'ui-icon-minus\': !expands[i+html_data[pageId]?.tabs[2].colstart]}">\n					            	<div [innerHTML]="each[\'title\']"></div>\n					            </a></h3>\n					            <div class="ui-collapsible-content ui-body-inherit" [ngClass]="{\'ui-collapsible-content-collapsed\': expands[i+html_data[pageId]?.tabs[2].colstart]}" aria-hidden="true">\n					            	<div [innerHTML]="each[\'content\']"></div>\n					            	<div class="centerText" *ngIf="each[\'buttons\']">\n					            		<ng-container *ngFor="let each_but of each[\'buttons\']">\n							        		<a data-role="button" data-inline="true" class="ui-link ui-btn ui-btn-{{each_but.type}} ui-btn-inline ui-shadow ui-corner-all" role="button" (click)="gotoSubPage(each_but.goto)">{{each_but.title}}</a> 	\n							        	</ng-container>\n					            	</div>\n					            </div>\n							</div>\n					    </ng-container>\n				    </div>\n				</div>\n				<div class="swiper-slide">\n				    <div class="content-slide ui-content">\n				        <div [innerHTML]="html_data[pageId]?.tabs[3][\'header\']" *ngIf="html_data!=null"></div>\n				        <p class="centerText">\n				        	<ng-container *ngFor="let each of html_data[pageId]?.tabs[3][\'buttons\']">\n				        		<a class="{{each.class}} ui-link" href="#" (click)="gotoSubPage(each.goto)">{{each.title}}</a> 	\n				        	</ng-container>\n				        </p>\n				        <div class="comment_why_div" *ngIf="why" [innerHTML]="html_data[pageId]?.tabs[3][\'why\']"></div>\n				    </div>\n				</div>\n				<p>&nbsp;</p><p>&nbsp;</p>\n			</div>\n		</div>\n	</div>\n</ion-content>'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/adult-pharmacist-childs/adult-pharmacist-childs.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
-        __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _g || Object])
 ], AdultPharmacistChildsPage);
 
+var _a, _b, _c, _d, _e, _f, _g;
 //# sourceMappingURL=adult-pharmacist-childs.js.map
 
 /***/ }),

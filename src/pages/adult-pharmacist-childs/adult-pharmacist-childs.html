@@ -92,7 +92,7 @@
 					   			<button data-inline="true" data-role="none" class="{{each.type}} robotoLight" (click)="togglePage(each.goto)">{{each.title}}</button>
 					   		</ng-container>
 					   	</p>
-					   	<div *ngIf="page==-1">
+					   	<div *ngIf="page==-1 && html_data[pageId]?.tabs[0].irregular!==undefined">
 					   		<div [innerHTML]="html_data[pageId]?.tabs[0].irregular.content"></div>
 					   		<button data-inline="true" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="togglePage(html_data[pageId]?.tabs[0].irregular.button.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.button!==undefined">{{html_data[pageId]?.tabs[0].irregular.button.title}}</button>
 					   		<p class="centerText">

@@ -14,7 +14,7 @@
 </ion-header>
 <ion-content overflow-scroll="true" class="{{setting.class}} content{{pageId}} ui-page-theme-{{pagemode[pageId]}}">
 	<div class="fullWidth" style="padding:0px;">
-		<div class="fullWidth" >
+		<div class="fullWidth">
 		    <div class="tabs" *ngIf="html_data!=null">
 		    	<ng-container *ngFor="let each of html_data[pageId]?.tabs_title;let i=index">
 		    		<a href="#" class="ui-link" (click)="showTab(i+1)" [ngClass]="{'active': tabId==(i+1)}">{{each}}</a>

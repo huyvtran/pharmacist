@@ -49218,6 +49218,22 @@ page-adult-pharmacist-childs .swiper-slide .color46 {
   color: #FFA07A;
 }
 
+page-adult-pharmacist-childs .swiper-slide .color47 {
+  color: #ff3399;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color48 {
+  color: #0099cc;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color49 {
+  color: mediumblue;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color50 {
+  color: darkgray;
+}
+
 page-adult-pharmacist-childs .swiper-slide .img_style1 {
   width: 100px;
   margin: 8px;
@@ -49547,6 +49563,34 @@ page-adult-pharmacist-childs .swiper-slide .img_style45 {
   float: right;
 }
 
+page-adult-pharmacist-childs .swiper-slide .img_style46 {
+  width: 100px;
+  height: 83px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style47 {
+  width: 100px;
+  height: 109px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style48 {
+  width: 60px;
+  height: 106px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style49 {
+  width: 100px;
+  height: 114px;
+  margin: 8px;
+  float: right;
+}
+
 page-adult-pharmacist-childs .swiper-slide .span1 {
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -49567,9 +49611,9 @@ page-adult-pharmacist-childs .swiper-slide .span3 {
 }
 
 page-adult-pharmacist-childs .swiper-slide .span4 {
-  font-family: sans-serif;
-  line-height: 19.200000762939453px;
-  background-color: white;
+  font-size: 13px;
+  line-height: 20.8px;
+  color: purple;
 }
 
 page-adult-pharmacist-childs .swiper-slide .padding1 {

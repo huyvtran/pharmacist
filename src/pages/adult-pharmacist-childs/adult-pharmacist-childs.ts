@@ -160,7 +160,7 @@ export class AdultPharmacistChildsPage {
 		if (ind>=special[0]){
 			this.recs[ special[0] ] = false;	// all
 			this.recs[ind] = temp;
-			if (ind == special[0])
+			if (ind == special[0] && special[0]!=special[1])
 				this.toggleAllRecs(true, special[0]);
 			else
 				this.toggleAllRecs(false, special[0]);
@@ -814,6 +814,165 @@ export class AdultPharmacistChildsPage {
 				} else {
 					this.mode = 50;
 					ind = 0;
+				}
+			}
+			else if (this.pageId == 7)
+			{
+				var
+				    //found = $('#adult_recom_lice_mobile_q1_0'),
+				    severe = this.recs[1],
+				best = this.recs[2],
+				prefer_natural = this.recs[3],
+				tried = this.recs[4],
+				returned = this.recs[5],
+				resistant = this.recs[6],
+				crusty = this.recs[7],
+				family = this.recs[8],
+				money = this.recs[9],
+				prevention = this.recs[11],
+				allabove = this.recs[10],
+				none = this.recs[12];
+
+				//Medication variables in collapsible
+
+				var
+				    pediculicides = family || best,
+				natural = prefer_natural,
+				outsource = severe || money || family,
+				doctor = severe || tried || returned || resistant || crusty;
+
+				if (none) {
+					this.mode = 1;
+				}
+				else if (prevention) {
+				    this.mode = 2;
+
+				}
+				else if (allabove) {
+				    this.mode = 3;
+				}
+				else if (pediculicides && !(natural || outsource || doctor)) {
+				    this.mode = 4;
+
+				} else if (natural && !(pediculicides || outsource || doctor)) {
+
+				    this.mode = 5;
+
+				} else if (outsource && !(pediculicides || natural || doctor)) {
+
+				    this.mode = 6;
+
+				} else if (doctor && !(pediculicides || natural || outsource)) {
+
+				    this.mode = 7;
+				}
+
+				//-------------------------------double---------------------------
+				else if (pediculicides && natural && !(outsource || doctor)) {
+
+				    this.mode = 8;
+				} else if (pediculicides && outsource && !(natural || doctor)) {
+
+				    this.mode = 9;
+				} else if (pediculicides && doctor && !(natural || outsource)) {
+
+				    this.mode = 10;
+				} else if (natural && outsource && !(pediculicides || doctor)) {
+
+				    this.mode = 11;
+				} else if (natural && doctor && !(pediculicides || outsource)) {
+
+				    this.mode = 12;
+				} else if (outsource && doctor && !(pediculicides || natural)) {
+
+				    this.mode = 13;
+				}
+
+				//---------------------Triple----------------------
+				else if (pediculicides && natural && outsource && !(doctor)) {
+
+				    this.mode = 14;
+				} else if (pediculicides && natural && doctor && !(outsource)) {
+
+				    this.mode = 15;
+				} else if (pediculicides && outsource && doctor && !(natural)) {
+
+				    this.mode = 16;
+				} else if (natural && outsource && doctor && !(pediculicides)) {
+
+				    this.mode = 17;
+				}
+
+				//------------------------------All together------------------------------------
+				else if (pediculicides && natural && outsource && doctor) {
+
+				    this.mode = 18;
+				} else {
+					this.mode = 50;
+					ind = 0;
+				}
+			}
+			else if (this.pageId == 8)
+			{
+				var pus = this.recs[0],
+					one_eye = this.recs[1],
+					eyelids_stuck = this.recs[2],
+					watery = this.recs[3],
+					foreign_object = this.recs[4],
+					allergy_symptoms = this.recs[5],
+					red_quickly = this.recs[6],
+					itchy = this.recs[7],
+					contact_lens = this.recs[8],
+					chemical = this.recs[9],
+					prevention = this.recs[10],
+					allabove = false,
+					none = this.recs[11];
+
+				//Medication variables in collapsible
+				var allergy = allergy_symptoms || itchy || red_quickly,
+					viral = foreign_object || watery,
+					doctor = pus || one_eye || eyelids_stuck;
+
+				//conditions for showing none of the above division.
+				if (none) {
+				    this.mode = 1;
+				}
+				//conditions for showing prevention division.
+				else if (prevention) {
+				    this.mode = 2;
+				}
+				//conditions for All division + Others else if.
+				else if (allabove) {
+				    this.mode = 3;
+				}
+				//condition for showing just one checked field
+				else if (contact_lens) {
+				    this.mode = 4;
+				} else if (chemical) {
+				    this.mode = 5;
+				}
+				//--------------single------------------------
+				else if (allergy && !(viral || doctor)) {
+				    this.mode = 6;
+
+				} else if (viral && !(allergy || doctor)) {
+				    this.mode = 7;
+				} else if (doctor && !(allergy || viral)) {
+				    this.mode = 8;
+				}
+				//-------------------------------double---------------------------
+				else if (allergy && viral && !(doctor)) {
+				    this.mode = 9;
+				} else if (allergy && doctor && !(viral)) {
+				    this.mode = 10;
+				} else if (viral && doctor && !(allergy)) {
+				    this.mode = 11;
+				}
+				//------------------------------All together------------------------------------
+				else if (allergy && viral && doctor) {
+				    this.mode = 12;
+				} else {
+				    ind = 0; this.mode = 50;
 				}
 			}
 			if (this.html_data != null)

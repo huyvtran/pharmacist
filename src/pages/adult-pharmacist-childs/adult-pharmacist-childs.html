@@ -30,6 +30,7 @@
 				<div class="swiper-slide">
 					<div class="content-slide ui-content">
 					    <div [innerHTML]="html_data[pageId]?.tabs[0]['top_header']" *ngIf="html_data!=null"></div>
+					    <div [innerHTML]="html_data[pageId]?.tabs[0]['header_iregular']" *ngIf="html_data[pageId]?.tabs[0]['header_iregular']!==undefined && page==-1"></div>
 					    <div id="adult_recom_allergy_mobile_q1" *ngIf="page==0">
 					        <div [innerHTML]="html_data[pageId]?.tabs[0]['header']"></div>
 					        <div data-role="fieldcontain" class="ui-field-contain">

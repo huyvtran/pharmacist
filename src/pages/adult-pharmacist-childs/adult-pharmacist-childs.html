@@ -94,7 +94,10 @@
 					   	</p>
 					   	<div *ngIf="page==-1">
 					   		<div [innerHTML]="html_data[pageId]?.tabs[0].irregular.content"></div>
-					   		<button data-inline="true" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="togglePage(html_data[pageId]?.tabs[0].irregular.button.goto)">{{html_data[pageId]?.tabs[0].irregular.button.title}}</button>
+					   		<button data-inline="true" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="togglePage(html_data[pageId]?.tabs[0].irregular.button.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.button!==undefined">{{html_data[pageId]?.tabs[0].irregular.button.title}}</button>
+					   		<p class="centerText">
+					   			<a href="#" data-inline="true" class="{{html_data[pageId]?.tabs[0].irregular.buttongo.class}}" (click)="gotoSubPage(html_data[pageId]?.tabs[0].irregular.buttongo.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.buttongo!==undefined">{{html_data[pageId]?.tabs[0].irregular.buttongo.title}}</a>
+					   		</p>
 					   	</div>
 					</div>
 				</div>

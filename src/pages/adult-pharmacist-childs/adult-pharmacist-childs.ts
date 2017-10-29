@@ -994,7 +994,6 @@ export class AdultPharmacistChildsPage {
 
 				allabove = false;
 				//Medication variables in collapsible
-
 				var
 				    thicker = severe || painful || sand,
 				watery = mild || burning || sand || blurry || painful,

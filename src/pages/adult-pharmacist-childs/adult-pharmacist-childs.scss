@@ -25,6 +25,9 @@ page-adult-pharmacist-childs {
 	.swiper-slide .maxwidth450 img{
 		width: 100px;
 	}
+	.swiper-slide img{
+		width: fit-content;
+	}
 	.swiper-slide p.centerText img{
 		width: 120px;
 	}
@@ -80,6 +83,7 @@ page-adult-pharmacist-childs {
 		.color49{color: rgb(0, 0, 205);}
 		.color50{color: rgb(169, 169, 169);}
 		.color51{color: #336699;}
+		.color52{color: rgb(0, 128, 128);}
 		.img_style1{width: 100px; margin: 8px; float: left;}
 		.img_style2{width: 300px; height: 250px;}
 		.img_style3{width: 120px; height: 94px; margin: 8px; float: right;}
@@ -132,10 +136,21 @@ page-adult-pharmacist-childs {
 		.img_style50{margin: 8px; float: right; width: 150px; height: 46px;}
 		.img_style51{width: 80px; height: 68px; margin: 8px; float: right;}
 		.img_style52{width: 80px; height: 86px; margin: 8px;}
+		.img_style53{opacity: 0.9; line-height: 20.8px; width: 100px; height: 106px; margin: 8px; float: right;}
+		.img_style54{opacity: 0.9; line-height: 20.8px; width: 50px; height: 110px; margin: 8px; float: right;}
+		.img_style55{opacity: 0.9; line-height: 20.8px; width: 50px; height: 119px; margin: 8px; float: right;}
+		.img_style56{opacity: 0.9; line-height: 20.8px; width: 100px; height: 94px; margin: 8px; float: right;}
+		.img_style57{width: 100px; height: 99px; margin: 8px; float: right;}
+		.img_style58{opacity: 0.9; font-size: 13px; line-height: 20.8px; width: 100px; height: 99px; margin: 8px; float: right;}
 		.span1{font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px;}
 		.span2{font-family: sans-serif; line-height: 19.200000762939453px; background-color: rgb(255, 255, 255);}
 		.span3{color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.799999237060547px;}
 		.span4{font-size: 13px; line-height: 20.8px; color: rgb(128, 0, 128);}
+		.span5{margin-top: 8px; margin-bottom: 15px; padding: 0px 5px; border: 0px; font-size: 14px; vertical-align: baseline; line-height: 1.35; font-family: Arial, Helvetica, sans-serif;}
+		.span6{margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(128, 0, 128);}
+		.span7{margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 100, 0);}
+		.span8{margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(255, 0, 0);}
+		.span9{margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(255, 140, 0);}
 		.padding1{padding:5px;}
 		.div_style1{width: 320px;}
 	}

@@ -49028,6 +49028,12 @@ page-adult-pharmacist-childs .swiper-slide .maxwidth450 img {
   width: 100px;
 }
 
+page-adult-pharmacist-childs .swiper-slide img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 page-adult-pharmacist-childs .swiper-slide p.centerText img {
   width: 120px;
 }
@@ -49237,6 +49243,10 @@ page-adult-pharmacist-childs .swiper-slide .color50 {
 
 page-adult-pharmacist-childs .swiper-slide .color51 {
   color: #336699;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color52 {
+  color: teal;
 }
 
 page-adult-pharmacist-childs .swiper-slide .img_style1 {
@@ -49616,6 +49626,59 @@ page-adult-pharmacist-childs .swiper-slide .img_style52 {
   margin: 8px;
 }
 
+page-adult-pharmacist-childs .swiper-slide .img_style53 {
+  opacity: 0.9;
+  line-height: 20.8px;
+  width: 100px;
+  height: 106px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style54 {
+  opacity: 0.9;
+  line-height: 20.8px;
+  width: 50px;
+  height: 110px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style55 {
+  opacity: 0.9;
+  line-height: 20.8px;
+  width: 50px;
+  height: 119px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style56 {
+  opacity: 0.9;
+  line-height: 20.8px;
+  width: 100px;
+  height: 94px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style57 {
+  width: 100px;
+  height: 99px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style58 {
+  opacity: 0.9;
+  font-size: 13px;
+  line-height: 20.8px;
+  width: 100px;
+  height: 99px;
+  margin: 8px;
+  float: right;
+}
+
 page-adult-pharmacist-childs .swiper-slide .span1 {
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -49639,6 +49702,49 @@ page-adult-pharmacist-childs .swiper-slide .span4 {
   font-size: 13px;
   line-height: 20.8px;
   color: purple;
+}
+
+page-adult-pharmacist-childs .swiper-slide .span5 {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  padding: 0px 5px;
+  border: 0px;
+  font-size: 14px;
+  vertical-align: baseline;
+  line-height: 1.35;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+page-adult-pharmacist-childs .swiper-slide .span6 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  color: purple;
+}
+
+page-adult-pharmacist-childs .swiper-slide .span7 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  color: darkgreen;
+}
+
+page-adult-pharmacist-childs .swiper-slide .span8 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  color: red;
+}
+
+page-adult-pharmacist-childs .swiper-slide .span9 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  color: darkorange;
 }
 
 page-adult-pharmacist-childs .swiper-slide .padding1 {

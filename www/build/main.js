@@ -4438,6 +4438,239 @@ var AdultPharmacistChildsPage = (function () {
                     ind = 0;
                 }
             }
+            else if (this.pageId == 12) {
+                var cold = this.recs[0], ruptured = this.recs[1], toothache = this.recs[2], water = this.recs[3], swollen = this.recs[4], itchy = this.recs[5], fever = this.recs[6], sore_throat = this.recs[7], pressure = this.recs[8], draining = this.recs[9], prevention = this.recs[10], allabove = false, none = this.recs[11];
+                //Medication variables in collapsible
+                var pain_reliever = cold || swollen || toothache || pressure, eardrops = water || itchy, decongestant = cold || pressure, warm_compress = ruptured || swollen || toothache, doctor = ruptured || swollen || fever || sore_throat || draining;
+                //conditions for showing none of the above division.
+                if (none) {
+                    this.mode = 1;
+                }
+                else if (prevention) {
+                    this.mode = 2;
+                }
+                else if (ruptured) {
+                    this.mode = 3;
+                }
+                else if (allabove) {
+                    this.mode = 4;
+                }
+                else if (pain_reliever && !(eardrops || decongestant || warm_compress || doctor)) {
+                    this.mode = 5;
+                }
+                else if (eardrops && !(pain_reliever || decongestant || warm_compress || doctor)) {
+                    this.mode = 6;
+                }
+                else if (decongestant && !(pain_reliever || eardrops || warm_compress || doctor)) {
+                    this.mode = 7;
+                }
+                else if (warm_compress && !(pain_reliever || eardrops || decongestant || doctor)) {
+                    this.mode = 8;
+                }
+                else if (doctor && !(pain_reliever || eardrops || warm_compress || decongestant)) {
+                    this.mode = 9;
+                }
+                else if (pain_reliever && eardrops && !(decongestant || warm_compress || doctor)) {
+                    this.mode = 10;
+                }
+                else if (pain_reliever && decongestant && !(eardrops || warm_compress || doctor)) {
+                    this.mode = 11;
+                }
+                else if (pain_reliever && warm_compress && !(eardrops || decongestant || doctor)) {
+                    this.mode = 12;
+                }
+                else if (pain_reliever && doctor && !(eardrops || decongestant || warm_compress)) {
+                    this.mode = 13;
+                }
+                else if (eardrops && decongestant && !(pain_reliever || warm_compress || doctor)) {
+                    this.mode = 14;
+                }
+                else if (eardrops && warm_compress && !(pain_reliever || decongestant || doctor)) {
+                    this.mode = 15;
+                }
+                else if (eardrops && doctor && !(pain_reliever || decongestant || warm_compress)) {
+                    this.mode = 16;
+                }
+                else if (decongestant && warm_compress && !(pain_reliever || eardrops || doctor)) {
+                    this.mode = 17;
+                }
+                else if (decongestant && doctor && !(pain_reliever || eardrops || warm_compress)) {
+                    this.mode = 18;
+                }
+                else if (warm_compress && doctor && !(pain_reliever || eardrops || decongestant)) {
+                    this.mode = 19;
+                }
+                else if (pain_reliever && eardrops && decongestant && !(warm_compress || doctor)) {
+                    this.mode = 20;
+                }
+                else if (pain_reliever && eardrops && warm_compress && !(decongestant || doctor)) {
+                    this.mode = 21;
+                }
+                else if (pain_reliever && eardrops && doctor && !(decongestant || warm_compress)) {
+                    this.mode = 22;
+                }
+                else if (pain_reliever && decongestant && warm_compress && !(eardrops || doctor)) {
+                    this.mode = 23;
+                }
+                else if (pain_reliever && decongestant && doctor && !(eardrops || warm_compress)) {
+                    this.mode = 24;
+                }
+                else if (pain_reliever && warm_compress && doctor && !(eardrops || decongestant)) {
+                    this.mode = 25;
+                }
+                else if (eardrops && decongestant && warm_compress && !(pain_reliever || doctor)) {
+                    this.mode = 26;
+                }
+                else if (eardrops && decongestant && doctor && !(pain_reliever || warm_compress)) {
+                    this.mode = 27;
+                }
+                else if (eardrops && warm_compress && doctor && !(pain_reliever || decongestant)) {
+                    this.mode = 28;
+                }
+                else if (decongestant && warm_compress && doctor && !(pain_reliever || eardrops)) {
+                    this.mode = 29;
+                }
+                else if (pain_reliever && eardrops && decongestant && warm_compress && !(doctor)) {
+                    this.mode = 30;
+                }
+                else if (pain_reliever && eardrops && decongestant && doctor && !(warm_compress)) {
+                    this.mode = 31;
+                }
+                else if (pain_reliever && eardrops && warm_compress && doctor && !(decongestant)) {
+                    this.mode = 32;
+                }
+                else if (pain_reliever && decongestant && warm_compress && doctor && !(eardrops)) {
+                    this.mode = 33;
+                }
+                else if (eardrops && decongestant && warm_compress && doctor && !(pain_reliever)) {
+                    this.mode = 34;
+                }
+                else if (pain_reliever && eardrops && decongestant && warm_compress && doctor) {
+                    this.mode = 35;
+                }
+                else {
+                    this.mode = 50;
+                    ind = 0;
+                }
+            }
+            else if (this.pageId == 13) {
+                var ruptured = this.recs[0], pus = this.recs[1], painful = this.recs[2], fluid = this.recs[3], swollen = this.recs[4], fever = this.recs[5], muffled = this.recs[6], itchy = this.recs[7], 
+                /*iiii = $('#adult_recom_swimear_mobile_q1_8'),
+                jjjj = $('#adult_recom_swimear_mobile_q1_9'),*/
+                prevention = this.recs[8], allabove = false, none = this.recs[9];
+                //Medication variables in collapsible
+                var ear_drops = fluid || muffled || itchy, pain_reliever = painful || swollen || fever, antihistamine = itchy, warm_compress = ruptured || painful || swollen, doctor = ruptured || pus || painful || swollen || fever || muffled;
+                //conditions for showing none of the above division.
+                if (none) {
+                    this.mode = 1;
+                }
+                else if (prevention) {
+                    this.mode = 2;
+                }
+                else if (allabove) {
+                    this.mode = 3;
+                }
+                else if (ruptured) {
+                    this.mode = 4;
+                }
+                else if (ear_drops && !(pain_reliever || antihistamine || warm_compress || doctor)) {
+                    this.mode = 5;
+                }
+                else if (pain_reliever && !(ear_drops || antihistamine || warm_compress || doctor)) {
+                    this.mode = 6;
+                }
+                else if (antihistamine && !(ear_drops || pain_reliever || warm_compress || doctor)) {
+                    this.mode = 7;
+                }
+                else if (warm_compress && !(ear_drops || pain_reliever || antihistamine || doctor)) {
+                    this.mode = 8;
+                }
+                else if (doctor && !(ear_drops || pain_reliever || warm_compress || antihistamine)) {
+                    this.mode = 9;
+                }
+                else if (ear_drops && pain_reliever && !(antihistamine || warm_compress || doctor)) {
+                    this.mode = 10;
+                }
+                else if (ear_drops && antihistamine && !(pain_reliever || warm_compress || doctor)) {
+                    this.mode = 11;
+                }
+                else if (ear_drops && warm_compress && !(pain_reliever || antihistamine || doctor)) {
+                    this.mode = 12;
+                }
+                else if (ear_drops && doctor && !(pain_reliever || antihistamine || warm_compress)) {
+                    this.mode = 13;
+                }
+                else if (pain_reliever && antihistamine && !(ear_drops || warm_compress || doctor)) {
+                    this.mode = 14;
+                }
+                else if (pain_reliever && warm_compress && !(ear_drops || antihistamine || doctor)) {
+                    this.mode = 15;
+                }
+                else if (pain_reliever && doctor && !(ear_drops || antihistamine || warm_compress)) {
+                    this.mode = 16;
+                }
+                else if (antihistamine && warm_compress && !(ear_drops || pain_reliever || doctor)) {
+                    this.mode = 17;
+                }
+                else if (antihistamine && doctor && !(ear_drops || pain_reliever || warm_compress)) {
+                    this.mode = 18;
+                }
+                else if (warm_compress && doctor && !(ear_drops || pain_reliever || antihistamine)) {
+                    this.mode = 19;
+                }
+                else if (ear_drops && pain_reliever && antihistamine && !(warm_compress || doctor)) {
+                    this.mode = 20;
+                }
+                else if (ear_drops && pain_reliever && warm_compress && !(antihistamine || doctor)) {
+                    this.mode = 21;
+                }
+                else if (ear_drops && pain_reliever && doctor && !(antihistamine || warm_compress)) {
+                    this.mode = 22;
+                }
+                else if (ear_drops && antihistamine && warm_compress && !(pain_reliever || doctor)) {
+                    this.mode = 23;
+                }
+                else if (ear_drops && antihistamine && doctor && !(pain_reliever || warm_compress)) {
+                    this.mode = 24;
+                }
+                else if (ear_drops && warm_compress && doctor && !(pain_reliever || antihistamine)) {
+                    this.mode = 25;
+                }
+                else if (pain_reliever && antihistamine && warm_compress && !(ear_drops || doctor)) {
+                    this.mode = 26;
+                }
+                else if (pain_reliever && antihistamine && doctor && !(ear_drops || warm_compress)) {
+                    this.mode = 27;
+                }
+                else if (pain_reliever && warm_compress && doctor && !(ear_drops || antihistamine)) {
+                    this.mode = 28;
+                }
+                else if (antihistamine && warm_compress && doctor && !(ear_drops || pain_reliever)) {
+                    this.mode = 29;
+                }
+                else if (ear_drops && pain_reliever && antihistamine && warm_compress && !(doctor)) {
+                    this.mode = 30;
+                }
+                else if (ear_drops && pain_reliever && antihistamine && doctor && !(warm_compress)) {
+                    this.mode = 31;
+                }
+                else if (ear_drops && pain_reliever && warm_compress && doctor && !(antihistamine)) {
+                    this.mode = 32;
+                }
+                else if (ear_drops && antihistamine && warm_compress && doctor && !(pain_reliever)) {
+                    this.mode = 33;
+                }
+                else if (pain_reliever && antihistamine && warm_compress && doctor && !(ear_drops)) {
+                    this.mode = 34;
+                }
+                else if (ear_drops && pain_reliever && antihistamine && warm_compress && doctor) {
+                    this.mode = 35;
+                }
+                else {
+                    this.mode = 50;
+                    ind = 0;
+                }
+            }
             if (this.html_data != null) {
                 var length = this.html_data[this.pageId].tabs[0].collapsable.length;
                 for (var i = 0; i < length; i++) {

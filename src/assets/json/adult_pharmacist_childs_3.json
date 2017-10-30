@@ -514,13 +514,9 @@
 		"tabs": [
 			{
 				"top_header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n",
-				"header": "<div class=\"maxwidth450\">\n            <div class=\"ovalBorderRightBlue centerText\"> \n                <span class=\"bluefont firstname\">Ewe,</span><br>\n                Let's figure out something over the counter for this headache.\n            </div>\n            <div align=\"right\">\n                <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-john-port-cyan.svg\" width=\"100\" alt=\"Pharmacist\"> \n            </div>\n        </div>\n        <div class=\"clearboth divider1\"></div>\n        <br>\n        <!-----------------End Border right person------------------- -->\n        <div class=\"blueBorderAll\">\n            <p>Tap on the type of headache you think you are experiencing and see what is recommended to use over the counter.</p>\n        </div>\n        <p>&nbsp;</p>",
-				"abuttons": [
-					"<img src=\"assets/img/people/adult/head/headache-tension-man.svg\" alt=\"Man holding his head\">\n                    <h3><span class=\"redfont\">Tension</span></h3>\n                    <p>Dull, pressure-like pain.<br> Like a tight band around my head</p>",
-					"<img src=\"assets/img/people/adult/head/migraine-lady.svg\" alt=\"Lady holding her head in pain\">\n                    <h3><span class=\"purplefont\">Migraine</span></h3>\n                    <p>Pulsating, throbbing pain<br>Very sensitive to light, sound</p>",
-					"<img src=\"assets/img/people/adult/head/sinus-headache-lady.svg\" alt=\"Woman holding her sinuses\">\n                    <h3><span class=\"orangefont\">Sinus</span></h3>\n                    <p>Pain, pressure in forehead<br>Worse when I bend down</p>",
-					"<img src=\"assets/img/people/adult/head/headache-lady.svg\" alt=\"Lady touching her head in pain\">\n                    <h3><span class=\"greenfont\">Others</span></h3>\n                    <p>Hangover, premenstrual.</p>"
-				],
+				"header_iregular": "<div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightOrange centerText\"> \n            <span class=\"firstname orangefont\"> </span><br>\n            Motion sickness is better prevented than treated. Let's see how we can help.\n        </div>\n        <div align=\"right\">\n            <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-orange.svg\" width=\"100\" alt=\"Pharmacist\"> \n        </div>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>\n    <!-----------------End Border right person------------------- -->\n    <div class=\"orangeBorderAll\">\n        <p>Over-the-counter motion sickness medications are usually antihistamines.</p>\n        <p>Some will cause drowsiness. So we have to figure out what will work best for your situation.</p>\n        <p>Let's take a look at &nbsp;available over-the-counter medications or options for motion sickness.</p>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>",
+				"header": "",
+				"startpage": -1,
 				"fieldset": [],
 				"fieldspecial": [],
 				"mode": {
@@ -529,8 +525,25 @@
 				"mode_not": [
 				],
 				"collapsable": [
-					
-				]
+					{
+						"title": "<span class=\"color3\">Antihistamines</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p style=\"font-size: 13px; line-height: 20.8px;\">This is the main medication&nbsp;available over-the-counter to help with motion sickness.</p>\n            <p style=\"font-size: 13px; line-height: 20.8px;\">Examples are meclizine, dimenhydrinate and diphenhydramine. The non-sedating antihistamines are not effective for motion sickness. So stay away from loratadine, cetirizine or fexofenadine.</p>\n            <p style=\"font-size: 13px; line-height: 20.8px;\">Choose meclizine if drowsiness is a concern for you. It is the least drowsy of the group.</p>\n            <p>&nbsp;</p>",
+						"mode": "-1"
+					},
+					{
+						"title": "<span class=\"color53\">Acupressure / Magnets</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p style=\"font-size: 13px; line-height: 20.8px;\"><span style=\"font-size: 12px;\"><span class=\"span10\">These are knitted elasticated wrist band, which operates by applying pressure on the Nei Kuan acupressure point on each wrist by means of a plastic stud. A good example is sea band.</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&#8203;</p>\n            <p style=\"font-size: 13px; line-height: 20.8px;\">Follow the package directions to be sure they work properly and use on both wrists is highly recommended for adequate effect.</p>\n            <p>&nbsp;</p>",
+						"mode": "-1"
+					},
+					{
+						"title": "<span class=\"color15\">Ginger Gum</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p style=\"font-size: 13px; line-height: 20.8px;\">Ginger gum will help with the nausea of motion sickness for some people. It is worth trying.</p>\n            <p style=\"font-size: 13px; line-height: 20.8px;\">Look for a product that will provide 25 mg of ginger oil or 8 g of fresh ginger root per gum.</p>\n            <p>&nbsp;</p>",
+						"mode": "-1"
+					}
+				],
+				"irregular": {
+					"page": -1,
+					"content": "<div class=\"clearboth divider1\"></div>\n    <p class=\"grayfontSmallSmall centerText\">\n        Last updated by pharmacist on : \n        02/16/2016 at 10:50:am          \n    </p>"				}
 			},
 			{
 				"header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightOrange centerText\"> <span> Know this about the <span class=\"bluefont\">safe and effective</span> use of this recommendation.</span><br>\n        </div>\n        <div align=\"right\"><img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-orange.svg\" width=\"80\" alt=\"Article photo\">\n        </div>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>",

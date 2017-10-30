@@ -49249,6 +49249,10 @@ page-adult-pharmacist-childs .swiper-slide .color52 {
   color: teal;
 }
 
+page-adult-pharmacist-childs .swiper-slide .color53 {
+  color: #0099ff;
+}
+
 page-adult-pharmacist-childs .swiper-slide .img_style1 {
   width: 100px;
   margin: 8px;
@@ -49745,6 +49749,12 @@ page-adult-pharmacist-childs .swiper-slide .span9 {
   border: 0px;
   vertical-align: baseline;
   color: darkorange;
+}
+
+page-adult-pharmacist-childs .swiper-slide .span10 {
+  color: #4d4d4d;
+  font-family: 'Proxima Nova Regular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 16.9px;
 }
 
 page-adult-pharmacist-childs .swiper-slide .padding1 {

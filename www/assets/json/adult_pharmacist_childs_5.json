@@ -8,7 +8,7 @@
 			"Comments"
 		],
 		"tabs": [
-			{
+			{ 
 				"top_header": "<p>&nbsp;<\/p>\r\n\t\t\t\t        <p>&nbsp;<\/p><div id=\"intro_adult_allergy_mobile_div\">\r\n\t\t\t\t\t        <div class=\"maxwidth450\">\r\n\t\t\t\t\t            <div class=\"ovalBorderRightGreen centerText\"> \r\n\t\t\t\t\t                <span class=\"greenfont firstname\"> <\/span><br>\r\n\t\t\t\t\t                Which of the <span class=\"greenfont\">symptoms<\/span> listed below are you <span class=\"purple_redfont\">experiencing<\/span> right now? \r\n\t\t\t\t\t            <\/div>\r\n\t\t\t\t\t            <div align=\"right\">\r\n\t\t\t\t\t                <img src=\"http:\/\/www.selfcarepharmacist.com\/images\/articles\/pharm-donald-green.svg\" width=\"100\" alt=\"Pharmacist\"> \r\n\t\t\t\t\t            <\/div>\r\n\t\t\t\t\t        <\/div>\r\n\t\t\t\t\t        <div class=\"clearboth divider1\"><\/div>\r\n\t\t\t\t\t        <br>\r\n\t\t\t\t\t        <div>\r\n\t\t\t\t\t        <\/div>\r\n\t\t\t\t\t    <\/div>",
 				"header": "<p class=\"centerText\">\r\n\t\t\t\t\t            <img src=\"assets\/img\/people\/adult\/cold\/allergy-lady.svg\" alt=\"Lady with allergy symptoms\" width=\"120\">\r\n\t\t\t\t\t        <\/p>\r\n\t\t\t\t\t        <br>\r\n\t\t\t\t\t        <p class=\"greenBorder centerText\"> Choose your allergy symptoms from the list below and see what is recommended. <\/p>\r\n\t\t\t\t\t        <br>",
 				"fieldset": [

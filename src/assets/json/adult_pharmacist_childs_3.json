@@ -417,7 +417,7 @@
 		],
 		"tabs": [
 			{
-				"top_header": "",
+				"top_header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n",
 				"header_iregular": "<p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightGreen centerText\"> \n            <span class=\"firstname purplefont\"> </span><br>\n            Let's see what is available over-the-counter to get rid of ear wax.\n        </div>\n        <div align=\"right\">\n            <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-hailey-teal.svg\" width=\"100\" alt=\"Pharmacist\"> \n        </div>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>\n    <!-----------------End Border right person------------------- -->\n    <div class=\"greenBorderAll\">\n        <p>Before getting rid of ear wax yourself, you must make sure you do not have a perforated (punctured) eardrum.</p>\n        <p>This can lead to middle ear infection.</p>\n        <p>If you are not sure, then seek doctor visit to get rid of the ear wax.</p>\n        <p>The goal of over-the-counter ear wax removal drops is to gradually soften the wax allowing you to flush it out with a bulb of water.</p>\n        <p>Let's take a look at what can achieve this objective by answering a few questions.</p>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <p>&nbsp;</p>",
 				"header": "<div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightGreen shadowRight centerText\"> \n            <span>Are you looking for a <span class=\"orangefont\">one time</span> process of removing ear wax?</span><br>\n        </div>\n        <div align=\"right\"><img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-hailey-teal.svg\" width=\"80\" alt=\"Pharmacist\"> \n        </div>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <!-----------------End Border right person--------------------->\n    <div class=\"orangeBorderAll\">\n        <p>May be you just want to get it over with.</p>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <p>&nbsp;</p>",
 				"startpage": -1,
@@ -543,7 +543,8 @@
 				],
 				"irregular": {
 					"page": -1,
-					"content": "<div class=\"clearboth divider1\"></div>\n    <p class=\"grayfontSmallSmall centerText\">\n        Last updated by pharmacist on : \n        02/16/2016 at 10:50:am          \n    </p>"				}
+					"content": "<div class=\"clearboth divider1\"></div>\n    <p class=\"grayfontSmallSmall centerText\">\n        Last updated by pharmacist on : \n        02/16/2016 at 10:50:am          \n    </p>"				
+				}
 			},
 			{
 				"header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n    <div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightOrange centerText\"> <span> Know this about the <span class=\"bluefont\">safe and effective</span> use of this recommendation.</span><br>\n        </div>\n        <div align=\"right\"><img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-amanda-orange.svg\" width=\"80\" alt=\"Article photo\">\n        </div>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>",

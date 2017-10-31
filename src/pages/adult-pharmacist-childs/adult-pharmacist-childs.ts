@@ -1229,7 +1229,7 @@ export class AdultPharmacistChildsPage {
 					ind = 0;
 				}
 			}
-			else if (this.pageId == 13)
+			else if (this.pageId >= 13)
 			{
 				var
 				    ruptured = this.recs[0],

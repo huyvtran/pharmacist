@@ -4553,7 +4553,7 @@ var AdultPharmacistChildsPage = (function () {
                     ind = 0;
                 }
             }
-            else if (this.pageId == 13) {
+            else if (this.pageId >= 13) {
                 var ruptured = this.recs[0], pus = this.recs[1], painful = this.recs[2], fluid = this.recs[3], swollen = this.recs[4], fever = this.recs[5], muffled = this.recs[6], itchy = this.recs[7], 
                 /*iiii = $('#adult_recom_swimear_mobile_q1_8'),
                 jjjj = $('#adult_recom_swimear_mobile_q1_9'),*/

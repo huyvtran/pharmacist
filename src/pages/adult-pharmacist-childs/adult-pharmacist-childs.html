@@ -96,8 +96,10 @@
 					   	<div *ngIf="page==-1 && html_data[pageId]?.tabs[0].irregular!==undefined">
 					   		<div [innerHTML]="html_data[pageId]?.tabs[0].irregular.content"></div>
 					   		<button data-inline="true" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" (click)="togglePage(html_data[pageId]?.tabs[0].irregular.button.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.button!==undefined">{{html_data[pageId]?.tabs[0].irregular.button.title}}</button>
-					   		<p class="centerText">
-					   			<a href="#" data-inline="true" class="{{html_data[pageId]?.tabs[0].irregular.buttongo.class}}" (click)="gotoSubPage(html_data[pageId]?.tabs[0].irregular.buttongo.goto)" *ngIf="html_data[pageId]?.tabs[0].irregular.buttongo!==undefined">{{html_data[pageId]?.tabs[0].irregular.buttongo.title}}</a>
+					   		<p class="centerText" *ngIf="html_data[pageId]?.tabs[0].irregular.buttongo!==undefined">
+					   			<ng-container *ngFor="let each of html_data[pageId]?.tabs[0].irregular.buttongo">
+					   				<a href="#" data-inline="true" class="{{each.class}}" (click)="gotoSubPage(each.goto)" >{{each.title}}</a>
+					   			</ng-container>
 					   		</p>
 					   	</div>
 					</div>

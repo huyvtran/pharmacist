@@ -1122,9 +1122,9 @@ export class AdultPharmacistChildsPage {
 					pressure = this.recs[8],
 					draining = this.recs[9],
 					prevention = this.recs[10],
-					allabove = false,
+					allabove,
 					none = this.recs[11];
-
+					allabove = false;
 				//Medication variables in collapsible
 
 				var
@@ -1243,9 +1243,9 @@ export class AdultPharmacistChildsPage {
 				/*iiii = $('#adult_recom_swimear_mobile_q1_8'),
 				jjjj = $('#adult_recom_swimear_mobile_q1_9'),*/
 				prevention = this.recs[8],
-				allabove = false,
+				allabove,
 				none = this.recs[9];
-
+				allabove = false;
 				//Medication variables in collapsible
 
 				var

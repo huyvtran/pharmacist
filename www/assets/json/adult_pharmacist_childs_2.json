@@ -193,11 +193,11 @@
 				"irregular": {
 					"page": -1,
 					"content": "<div class=\"clearboth divider1\"></div>\n\t\t\t\t            <p class=\"grayfontSmallSmall centerText\">\n\t\t\t\t                Last updated by pharmacist on : \n\t\t\t\t                09/10/2014 \n\t\t\t\t            </p>\n\t\t\t\t            <div class=\"clearboth divider1\"></div>",
-					"buttongo": {
+					"buttongo": [{
 						"title": "Compare Eye Drops",
 						"class": "linkPink robotoLight ui-link",
 						"goto": 901
-					}
+					}]
 				}
 			},
 			{

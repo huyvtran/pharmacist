@@ -102,7 +102,7 @@
 		"tabs": [
 			{
 				"top_header": "<p>&nbsp;</p>\n    <p>&nbsp;</p>\n",
-				"header_iregular": "<div class=\"maxwidth450\">\n         <div class=\"ovalBorderRightBlue centerText\"> \n            <span class=\"bluefont firstname\"> </span><br>\n            This recommendation assumes you are looking at a minor sprain.\n         </div>\n         <div align=\"right\">\n            <img src=\"assets/img/pharm/female/pharm-stella.svg\" width=\"100\" alt=\"Pharmacist\"> \n         </div>\n      </div>\n      <div class=\"clearboth divider1\"></div>\n      <br>\n      <!-----------------End Border right person------------------- -->\n      <div class=\"blueBorderAll\">\n         <p>There is nothing like it is just a sprain. You have to take this seriously.&nbsp;</p>\n         <p><img alt=\"woman holding the ankle\" src=\"http://www.selfcarepharmacist.com/admin/images/articles/html_editor_uploads/illustrations/anklesprain-lady.svg\" class=\"img_style95\"></p>\n         <p>What to remember is that for the first 48 to 72 hours&nbsp;you have to pay the <span class=\"color8\">PRICE</span> (Protect, Rest, Ice, Compress, Elevate) and <span class=\"color11\">do no HARM </span>(no Heat, Alcohol, Running, Massage).</p>\n         <p>That should be easy to remember. See what is recommended using this approach and which&nbsp;over the counter pain medications to use below.</p>\n         <hr class=\"hrblue\">\n         <p class=\"centerText\">\n            <img src=\"assets/img/people/adult/leg/anklesprain-ankle.svg\" width=\"200\" alt=\"Ankle sprain\">\n         </p>\n      </div>\n      <div class=\"clearboth divider1\"></div>\n      <br>",
+				"header_iregular": "<div class=\"maxwidth450\">\n        <div class=\"ovalBorderRightBlue centerText\"> \n            <span class=\"bluefont firstname\"> </span><br>\n            Let's see what is available over the counter to help with plantar fasciitis.\n        </div>\n        <div align=\"right\">\n            <img src=\"http://www.selfcarepharmacist.com/images/articles/pharm-andrew.svg\" width=\"100\" alt=\"Pharmacist\"> \n        </div>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>\n    <!-----------------End Border right person------------------- -->\n    <div class=\"blueBorderAll\">\n        <p>This usually go away on its own, but it often do so in about 6 to 18 months and you obviously want some relief until then.</p>\n        <p>The earlier it is recognised and treated, the shorter the length of time it will take to handle&nbsp;this.</p>\n        <p>If what is available over the counter does not provide relief, it is necessary to see a healthcare provider.</p>\n        <p>Don't delay.</p>\n        <p>With this in mind, see what is recommended over the counter below.</p>\n        <hr class=\"hrblue\">\n        <p class=\"centerText\">\n            <img src=\"assets/img/people/adult/leg/footpain-lady.svg\" width=\"150\" alt=\"Lady with foot pain\">\n        </p>\n    </div>\n    <div class=\"clearboth divider1\"></div>\n    <br>",
 				"header": "",
 				"startpage": -1,
 				"fieldset": [],
@@ -114,34 +114,34 @@
 				],
 				"collapsable": [
 					{
-						"title": "",
-						"content": "",
+						"title": "<span class=\"color7\">Stretching</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>This play a very important role in the treatment of plantar fasciitis.<br>\n                It should focus on increasing the flexibility of the calf muscles and attempt to eliminate trigger points in the calves and the muscles on the bottom of your feet.<br>\n                For instance, before getting out of bed in the morning, try stretching the foot with a towel<br>\n                Or why at work on your desk, role the arch of your foot over a 16oz can of that energy drink you just finished drinking or a tennis ball.\n            </p>\n            <p>You can see good illustrations at <a href=\"http://www.aafp.org/afp/2011/0915/p676.html\" target=\"_blank\" class=\"ui-link\">aafp.org.</a></p>\n            <p>&nbsp;</p>",
 						"mode": "-1"
 					},
 					{
-						"title": "",
-						"content": "",
+						"title": "<span class=\"color8\">Arch supports</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>This varies a lot depending on the material used. Look for a soft and dense material.<br>\n                Stick with a <span class=\"color8\">brand name</span> on this one and forget about the store brands.\n            </p>\n            <p>&nbsp;</p>",
 						"mode": "-1"
 					},
 					{
-						"title": "",
-						"content": "",
+						"title": "<span class=\"color9\">Night splints</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>This is designed to keep your ankle in a <span class=\"color7\">neutral</span> position overnight.<br>\n                This provide stretching of the calf and foot during sleep reducing tension when you first take your first step in the morning.<br>\n                Studies have shown great relief for people using night splints. Seriously consider this.\n            </p>\n            <p>&nbsp;</p>",
 						"mode": "-1"
 					},
 					{
-						"title": "",
-						"content": "",
+						"title": "<span class=\"color3\">Ice</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>Use ice after activities like exercise, stretching, work.<br>\n                Use for 15 to 20 minutes.\n            </p>\n            <p>&nbsp;</p>",
 						"mode": "-1"
 					},
 					{
-						"title": "",
-						"content": "",
+						"title": "<span class=\"color11\">Medications</span><span class=\"ui-collapsible-heading-status\"> click to expand contents</span>",
+						"content": "<p>Use this mainly to control the pain.<br>\n                Nsaids\n            </p>\n            <p>&nbsp;</p>",
 						"mode": "-1"
 					}
 				],
 				"irregular": {
 					"page": -1,
-					"content": "<div class=\"clearboth divider1\"></div>\n      <p class=\"grayfontSmallSmall centerText\">\n         Last updated by pharmacist on : \n         08/25/2015 \n      </p>\n      <p>&nbsp;</p>\n      <p>&nbsp;</p>"
+					"content": "<div class=\"clearboth divider1\"></div>\n    <p class=\"grayfontSmallSmall centerText\">\n        Last updated by pharmacist on : \n        10/07/2014 at 07:46:pm          \n    </p>\n    <p>&nbsp;</p>"
 				}
 			},
 			{

@@ -1229,7 +1229,7 @@ export class AdultPharmacistChildsPage {
 					ind = 0;
 				}
 			}
-			else if (this.pageId >= 13)
+			else if (this.pageId == 13)
 			{
 				var
 				    ruptured = this.recs[0],
@@ -1373,6 +1373,515 @@ export class AdultPharmacistChildsPage {
 				//------------------------------All together------------------------------------
 				else if (ear_drops && pain_reliever && antihistamine && warm_compress && doctor) {
 				    this.mode = 35;
+				} else {
+				    this.mode = 50;
+				    ind = 0;
+				}
+			}
+			else if (this.pageId == 18)
+			{
+				var
+			        tingling = this.recs[0],
+			        blistering = this.recs[1],
+			        weeping = this.recs[2],
+			        scabbing = this.recs[3],
+			        healing = this.recs[4],
+			        fluid = this.recs[5],
+			        large = this.recs[6],
+			        leaking = this.recs[7],
+			        red = this.recs[8],
+			        painful = this.recs[9],
+			        prevention = this.recs[11],
+			        allabove = this.recs[10],
+			        none = this.recs[12];
+			    var
+			        docosanol = tingling || blistering || fluid,
+			        antiinflammatory = weeping || red || fluid || large,
+			        analgesic = painful,
+			        antiseptic = weeping || blistering || large || leaking,
+			        protectants = scabbing || healing,
+			        supplements = tingling;
+			    if (none) {
+			        this.mode = 1;
+			    }
+			    //conditions for showing prevention division.
+			    else if (prevention) {
+			        this.mode = 2;
+			    }
+			    //conditions for All division + Others else if.
+			    else if (allabove) {
+			    	this.mode = 3;
+			    }
+			    //--------------single------------------------
+			    else if (docosanol && !(antiinflammatory || analgesic || antiseptic || protectants || supplements)) {
+			    	this.mode = 4;
+			    } else if (antiinflammatory && !(docosanol || analgesic || antiseptic || protectants || supplements)) {
+			    	this.mode = 5;
+			    } else if (analgesic && !(docosanol || antiinflammatory || antiseptic || protectants || supplements)) {
+			    	this.mode = 6;
+			    } else if (antiseptic && !(docosanol || antiinflammatory || analgesic || protectants || supplements)) {
+			    	this.mode = 7;
+			    } else if (protectants && !(docosanol || antiinflammatory || antiseptic || analgesic || supplements)) {
+			    	this.mode = 8;
+			    } else if (supplements && !(docosanol || antiinflammatory || antiseptic || analgesic || protectants)) {
+			    	this.mode = 9;
+			    }
+			    //-------------------------------double---------------------------
+			    else if (docosanol && antiinflammatory && !(analgesic || antiseptic || protectants || supplements)) {
+			    	this.mode = 10;
+			    } else if (docosanol && analgesic && !(antiinflammatory || antiseptic || protectants || supplements)) {
+			    	this.mode = 11;
+			    } else if (docosanol && antiseptic && !(antiinflammatory || analgesic || protectants || supplements)) {
+			    	this.mode = 12;
+			    } else if (docosanol && protectants && !(antiinflammatory || analgesic || antiseptic || supplements)) {
+			    	this.mode = 13;
+			    } else if (docosanol && supplements && !(antiinflammatory || analgesic || antiseptic || protectants)) {
+			    	this.mode = 14;
+			    } else if (antiinflammatory && analgesic && !(docosanol || antiseptic || protectants || supplements)) {
+			    	this.mode = 15;
+			    } else if (antiinflammatory && antiseptic && !(docosanol || analgesic || protectants || supplements)) {
+			    	this.mode = 16;
+			    } else if (antiinflammatory && protectants && !(docosanol || analgesic || antiseptic || supplements)) {
+			    	this.mode = 17;
+			    } else if (antiinflammatory && supplements && !(docosanol || analgesic || antiseptic || protectants)) {
+			    	this.mode = 18;
+			    } else if (analgesic && antiseptic && !(docosanol || antiinflammatory || protectants || supplements)) {
+			    	this.mode = 19;
+			    } else if (analgesic && protectants && !(docosanol || antiinflammatory || antiseptic || supplements)) {
+			    	this.mode = 20;
+			    } else if (analgesic && supplements && !(docosanol || antiinflammatory || antiseptic || protectants)) {
+			    	this.mode = 21;
+			    } else if (antiseptic && protectants && !(docosanol || antiinflammatory || analgesic || supplements)) {
+			    	this.mode = 22;
+			    } else if (antiseptic && supplements && !(docosanol || antiinflammatory || analgesic || protectants)) {
+			    	this.mode = 23;
+			    } else if (protectants && supplements && !(docosanol || antiinflammatory || analgesic || antiseptic)) {
+			    	this.mode = 24;
+			    }
+			    //---------------------Triple----------------------
+			    else if (docosanol && antiinflammatory && analgesic && !(antiseptic || protectants || supplements)) {
+			    	this.mode = 25;
+			    } else if (docosanol && antiinflammatory && antiseptic && !(analgesic || protectants || supplements)) {
+			    	this.mode = 26;
+			    } else if (docosanol && antiinflammatory && protectants && !(analgesic || antiseptic || supplements)) {
+			    	this.mode = 27;
+			    } else if (docosanol && antiinflammatory && supplements && !(analgesic || antiseptic || protectants)) {
+			    	this.mode = 28;
+			    } else if (docosanol && analgesic && antiseptic && !(antiinflammatory || protectants || supplements)) {
+			    	this.mode = 29;
+			    } else if (docosanol && analgesic && protectants && !(antiinflammatory || antiseptic || supplements)) {
+			    	this.mode = 30;
+			    } else if (docosanol && analgesic && supplements && !(antiinflammatory || antiseptic || protectants)) {
+			    	this.mode = 31;
+			    } else if (docosanol && antiseptic && protectants && !(antiinflammatory || analgesic || supplements)) {
+			    	this.mode = 32;
+			    } else if (docosanol && antiseptic && supplements && !(antiinflammatory || analgesic || protectants)) {
+			    	this.mode = 33;
+			    } else if (docosanol && protectants && supplements && !(antiinflammatory || analgesic || antiseptic)) {
+			    	this.mode = 34;
+			    } else if (antiinflammatory && analgesic && antiseptic && !(docosanol || protectants || supplements)) {
+			    	this.mode = 35;
+			    } else if (antiinflammatory && analgesic && protectants && !(docosanol || antiseptic || supplements)) {
+			    	this.mode = 36;
+			    } else if (antiinflammatory && analgesic && supplements && !(docosanol || antiseptic || protectants)) {
+			    	this.mode = 37;
+			    } else if (antiinflammatory && antiseptic && protectants && !(docosanol || analgesic || supplements)) {
+			    	this.mode = 38;
+			    } else if (antiinflammatory && antiseptic && supplements && !(docosanol || analgesic || protectants)) {
+			    	this.mode = 39;
+			    } else if (antiinflammatory && protectants && supplements && !(docosanol || analgesic || antiseptic)) {
+			    	this.mode = 40;
+			    } else if (analgesic && antiseptic && protectants && !(docosanol || antiinflammatory || supplements)) {
+			    	this.mode = 41;
+			    } else if (analgesic && antiseptic && supplements && !(docosanol || antiinflammatory || protectants)) {
+			    	this.mode = 42;
+			    } else if (analgesic && protectants && supplements && !(docosanol || antiinflammatory || antiseptic)) {
+			    	this.mode = 43;
+			    } else if (antiseptic && protectants && supplements && !(docosanol || antiinflammatory || analgesic)) {
+			    	this.mode = 44;
+			    }
+			    //---------------------Quadruple----------------------
+			    else if (docosanol && antiinflammatory && analgesic && antiseptic && !(protectants || supplements)) {
+			    	this.mode = 45;
+			    } else if (docosanol && antiinflammatory && analgesic && protectants && !(antiseptic || supplements)) {
+			    	this.mode = 46;
+			    } else if (docosanol && antiinflammatory && analgesic && supplements && !(antiseptic || protectants)) {
+			    	this.mode = 47;
+			    } else if (docosanol && antiinflammatory && antiseptic && protectants && !(analgesic || supplements)) {
+			    	this.mode = 48;
+			    } else if (docosanol && antiinflammatory && antiseptic && supplements && !(analgesic || protectants)) {
+			    	this.mode = 49;
+			    } else if (docosanol && antiinflammatory && protectants && supplements && !(analgesic || antiseptic)) {
+			    	this.mode = 60;
+			    } else if (docosanol && analgesic && antiseptic && protectants && !(antiinflammatory || supplements)) {
+			    	this.mode = 61;
+			    } else if (docosanol && analgesic && antiseptic && supplements && !(antiinflammatory || protectants)) {
+			    	this.mode = 62;
+			    } else if (docosanol && analgesic && protectants && supplements && !(antiinflammatory || antiseptic)) {
+			    	this.mode = 63;
+			    } else if (docosanol && antiseptic && protectants && supplements && !(antiinflammatory || analgesic)) {
+			    	this.mode = 64;
+			    } else if (antiinflammatory && analgesic && antiseptic && protectants && !(docosanol || supplements)) {
+			    	this.mode = 65;
+			    } else if (antiinflammatory && analgesic && antiseptic && supplements && !(docosanol || protectants)) {
+			    	this.mode = 66;
+			    } else if (antiinflammatory && analgesic && protectants && supplements && !(docosanol || antiseptic)) {
+			    	this.mode = 67;
+			    } else if (antiinflammatory && antiseptic && protectants && supplements && !(docosanol || analgesic)) {
+			    	this.mode = 68;
+			    } else if (analgesic && antiseptic && protectants && supplements && !(docosanol || antiinflammatory)) {
+			    	this.mode = 69;
+			    }
+			    //------------------------------5 options------------------------------------
+			    else if (docosanol && antiinflammatory && analgesic && antiseptic && protectants && !(supplements)) {
+			    	this.mode = 70;
+			    } else if (docosanol && antiinflammatory && analgesic && antiseptic && supplements && !(protectants)) {
+			    	this.mode = 71;
+			    } else if (docosanol && antiinflammatory && analgesic && protectants && supplements && !(antiseptic)) {
+			    	this.mode = 72;
+			    } else if (docosanol && antiinflammatory && antiseptic && protectants && supplements && !(analgesic)) {
+			    	this.mode = 73;
+			    } else if (docosanol && analgesic && antiseptic && protectants && supplements && !(antiinflammatory)) {
+			    	this.mode = 74;
+			    } else if (antiinflammatory && analgesic && antiseptic && protectants && supplements && !(docosanol)) {
+			    	this.mode = 75;
+			    }
+			    //---------------All together-----------------------------	
+			    else if (docosanol && antiinflammatory && analgesic && antiseptic && protectants && supplements) {
+			    	this.mode = 76;
+			    } else {
+			    	this.mode = 50;
+			    	ind = 0;
+			    }
+			}
+			else if (this.pageId == 26)
+			{
+				var
+			        dry = this.recs[0],
+			    productive = this.recs[1],
+			    congestion = this.recs[2],
+			    runnyNose = this.recs[3],
+			    soreThroat = this.recs[4],
+			    night = this.recs[5],
+			    tickly = this.recs[6],
+			    itchy = this.recs[7],
+			    heaviness = this.recs[8],
+			    headache = this.recs[9],
+			    blood = this.recs[10],
+			    noSleep = this.recs[11],
+			    prevention,
+			    allabove = this.recs[12],
+			    none = this.recs[13];
+			    //Medication variables in collapsible
+
+			    var
+			        dextromethorphan = dry || tickly || night,
+			    guaifenesin = productive || heaviness,
+			    coughDrops = dry || tickly || soreThroat,
+			    decongestant = congestion,
+			    antihistamine = runnyNose || itchy;
+
+			    prevention = false;
+			    //conditions for showing none of the above division.
+			    if (none) {
+			    	this.mode = 1;
+			    }
+			    //conditions for showing prevention division.
+			    else if (prevention) {
+			    	this.mode = 2;
+			    }
+			    //conditions for All division + Others else if.
+			    else if (allabove) {
+			    	this.mode = 3;
+			    }
+			    //condition for a specific  checked field	
+			    else if (headache || blood || noSleep) {
+			    	this.mode = 4;
+			    }
+			    //condition for showing just one checked field
+			    //--------------single------------------------
+			    else if (dextromethorphan && !(guaifenesin || coughDrops || decongestant || antihistamine)) {
+			    	this.mode = 5;
+			    } else if (guaifenesin && !(dextromethorphan || coughDrops || decongestant || antihistamine)) {
+			    	this.mode = 6;
+			    } else if (coughDrops && !(dextromethorphan || guaifenesin || decongestant || antihistamine)) {
+			    	this.mode = 7;
+			    } else if (decongestant && !(dextromethorphan || guaifenesin || coughDrops || antihistamine)) {
+			    	this.mode = 8;
+			    } else if (antihistamine && !(dextromethorphan || guaifenesin || decongestant || coughDrops)) {
+			    	this.mode = 9;
+			    }
+			    //-------------------------------double---------------------------
+			    else if (dextromethorphan && guaifenesin && !(coughDrops || decongestant || antihistamine)) {
+			    	this.mode = 10;
+			    } else if (dextromethorphan && coughDrops && !(guaifenesin || decongestant || antihistamine)) {
+			    	this.mode = 11;
+			    } else if (dextromethorphan && decongestant && !(guaifenesin || coughDrops || antihistamine)) {
+			    	this.mode = 12;
+			    } else if (dextromethorphan && antihistamine && !(guaifenesin || coughDrops || decongestant)) {
+			    	this.mode = 13;
+			    } else if (guaifenesin && coughDrops && !(dextromethorphan || decongestant || antihistamine)) {
+			    	this.mode = 14;
+			    } else if (guaifenesin && decongestant && !(dextromethorphan || coughDrops || antihistamine)) {
+			    	this.mode = 15;
+			    } else if (guaifenesin && antihistamine && !(dextromethorphan || coughDrops || decongestant)) {
+			    	this.mode = 16;
+			    } else if (coughDrops && decongestant && !(dextromethorphan || guaifenesin || antihistamine)) {
+			    	this.mode = 17;
+			    } else if (coughDrops && antihistamine && !(dextromethorphan || guaifenesin || decongestant)) {
+			    	this.mode = 18;
+			    } else if (decongestant && antihistamine && !(dextromethorphan || guaifenesin || coughDrops)) {
+			    	this.mode = 19;
+			    }
+			    //---------------------Triple----------------------
+			    else if (dextromethorphan && guaifenesin && coughDrops && !(decongestant || antihistamine)) {
+			    	this.mode = 20;
+			    } else if (dextromethorphan && guaifenesin && decongestant && !(coughDrops || antihistamine)) {
+			    	this.mode = 21;
+			    } else if (dextromethorphan && guaifenesin && antihistamine && !(coughDrops || decongestant)) {
+			    	this.mode = 22;
+			    } else if (dextromethorphan && coughDrops && decongestant && !(guaifenesin || antihistamine)) {
+			    	this.mode = 23;
+			    } else if (dextromethorphan && coughDrops && antihistamine && !(guaifenesin || decongestant)) {
+			    	this.mode = 24;
+			    } else if (dextromethorphan && decongestant && antihistamine && !(guaifenesin || coughDrops)) {
+			    	this.mode = 25;
+			    } else if (guaifenesin && coughDrops && decongestant && !(dextromethorphan || antihistamine)) {
+			    	this.mode = 26;
+			    } else if (guaifenesin && coughDrops && antihistamine && !(dextromethorphan || decongestant)) {
+			    	this.mode = 27;
+			    } else if (guaifenesin && decongestant && antihistamine && !(dextromethorphan || coughDrops)) {
+			    	this.mode = 28;
+			    } else if (coughDrops && decongestant && antihistamine && !(dextromethorphan || guaifenesin)) {
+			    	this.mode = 29;
+			    }
+			    //---------------------Quadruple----------------------
+			    else if (dextromethorphan && guaifenesin && coughDrops && decongestant && !(antihistamine)) {
+			    	this.mode = 30;
+			    } else if (dextromethorphan && guaifenesin && coughDrops && antihistamine && !(decongestant)) {
+			    	this.mode = 31;
+			    } else if (dextromethorphan && guaifenesin && decongestant && antihistamine && !(coughDrops)) {
+			    	this.mode = 32;
+			    } else if (dextromethorphan && coughDrops && decongestant && antihistamine && !(guaifenesin)) {
+			    	this.mode = 33;
+			    } else if (guaifenesin && coughDrops && decongestant && antihistamine && !(dextromethorphan)) {
+			    	this.mode = 34;
+			    }
+			    //------------------------------All together------------------------------------
+			    else if (dextromethorphan && guaifenesin && coughDrops && decongestant && antihistamine) {
+			    	this.mode = 35;
+			    } else {
+			    	this.mode = 50;
+			    	ind = 0;
+			    }
+			}
+			else if (this.pageId == 31)
+			{
+				var
+				    indigestion = this.recs[0],
+				bloated = this.recs[1],
+				reflux = this.recs[2],
+				fast = this.recs[3],
+				often = this.recs[4],
+				weeks = this.recs[5],
+				stuck = this.recs[6],
+				tar = this.recs[7],
+				situps = this.recs[8],
+				prevention = this.recs[9],
+				none = this.recs[10];
+				var
+				    antacid = fast || indigestion || reflux || often || stuck || situps,
+				antigas = indigestion || bloated,
+				h2_blocker = reflux || often || weeks,
+				ppi = reflux || often || stuck,
+				doctor = stuck || tar || weeks;
+
+				//conditions for showing none of the above division.
+				if (none) {
+					this.mode = 1;
+				}
+				//conditions for showing prevention division.
+				else if (prevention) {
+					this.mode = 2;
+				}
+				//--------------single------------------------
+				else if (antacid && !(antigas || h2_blocker || ppi || doctor)) {
+					this.mode = 3;
+				} else if (antigas && !(antacid || h2_blocker || ppi || doctor)) {
+					this.mode = 4;
+				} else if (h2_blocker && !(antacid || antigas || ppi || doctor)) {
+					this.mode = 5;
+				} else if (ppi && !(antacid || antigas || h2_blocker || doctor)) {
+					this.mode = 6;
+				} else if (doctor && !(antacid || antigas || ppi || h2_blocker)) {
+					this.mode = 7;
+				}
+				//-------------------------------double---------------------------
+				else if (antacid && antigas && !(h2_blocker || ppi || doctor)) {
+					this.mode = 8;
+				} else if (antacid && h2_blocker && !(antigas || ppi || doctor)) {
+					this.mode = 9;
+				} else if (antacid && ppi && !(antigas || h2_blocker || doctor)) {
+					this.mode = 10;
+				} else if (antacid && doctor && !(antigas || h2_blocker || ppi)) {
+					this.mode = 11;
+				} else if (antigas && h2_blocker && !(antacid || ppi || doctor)) {
+					this.mode = 12;
+				} else if (antigas && ppi && !(antacid || h2_blocker || doctor)) {
+					this.mode = 13;
+				} else if (antigas && doctor && !(antacid || h2_blocker || ppi)) {
+					this.mode = 14;
+				} else if (h2_blocker && ppi && !(antacid || antigas || doctor)) {
+					this.mode = 15;
+				} else if (h2_blocker && doctor && !(antacid || antigas || ppi)) {
+					this.mode = 16;
+				} else if (ppi && doctor && !(antacid || antigas || h2_blocker)) {
+					this.mode = 17;
+				}
+				//---------------------Triple----------------------
+				else if (antacid && antigas && h2_blocker && !(ppi || doctor)) {
+					this.mode = 18;
+				} else if (antacid && antigas && ppi && !(h2_blocker || doctor)) {
+					this.mode = 19;
+				} else if (antacid && antigas && doctor && !(h2_blocker || ppi)) {
+					this.mode = 20;
+				} else if (antacid && h2_blocker && ppi && !(antigas || doctor)) {
+					this.mode = 21;
+				} else if (antacid && h2_blocker && doctor && !(antigas || ppi)) {
+					this.mode = 22;
+				} else if (antacid && ppi && doctor && !(antigas || h2_blocker)) {
+					this.mode = 23;
+				} else if (antigas && h2_blocker && ppi && !(antacid || doctor)) {
+					this.mode = 24;
+				} else if (antigas && h2_blocker && doctor && !(antacid || ppi)) {
+					this.mode = 25;
+				} else if (antigas && ppi && doctor && !(antacid || h2_blocker)) {
+					this.mode = 26;
+				} else if (h2_blocker && ppi && doctor && !(antacid || antigas)) {
+					this.mode = 27;
+				}
+				//---------------------Quadruple----------------------
+				else if (antacid && antigas && h2_blocker && ppi && !(doctor)) {
+					this.mode = 28;
+				} else if (antacid && antigas && h2_blocker && doctor && !(ppi)) {
+					this.mode = 29;
+				} else if (antacid && antigas && ppi && doctor && !(h2_blocker)) {
+					this.mode = 30;
+				} else if (antacid && h2_blocker && ppi && doctor && !(antigas)) {
+					this.mode = 31;
+				} else if (antigas && h2_blocker && ppi && doctor && !(antacid)) {
+					this.mode = 32;
+				}
+				//------------------------------All together------------------------------------
+				else if (antacid && antigas && h2_blocker && ppi && doctor) {
+					this.mode = 33;
+				} else {
+					this.mode = 50;
+					ind = 0;
+				}
+			}
+			else if (this.pageId == 38)
+			{
+				var
+				    indigestion = this.recs[0],
+				bloated = this.recs[1],
+				reflux = this.recs[2],
+				fast = this.recs[3],
+				often = this.recs[4],
+				weeks = this.recs[5],
+				stuck = this.recs[6],
+				tar = this.recs[7],
+				situps = this.recs[8],
+				prevention = this.recs[9],
+				none = this.recs[10];
+
+				//Medication variables in collapsible
+				var
+				    antacid = fast || indigestion || reflux || often || stuck || situps;
+				antigas = indigestion || bloated;
+				h2_blocker = reflux || often || weeks;
+				ppi = reflux || often || stuck;
+				doctor = stuck || tar || weeks;
+
+				//conditions for showing none of the above division.
+				if (none) {
+				    this.mode = 1;
+				}
+				//conditions for showing prevention division.
+				else if (prevention) {
+				    this.mode = 2;
+				}
+				//--------------single------------------------
+				else if (antacid && !(antigas || h2_blocker || ppi || doctor)) {
+				    this.mode = 3;
+				} else if (antigas && !(antacid || h2_blocker || ppi || doctor)) {
+				    this.mode = 4;
+				} else if (h2_blocker && !(antacid || antigas || ppi || doctor)) {
+				    this.mode = 5;
+				} else if (ppi && !(antacid || antigas || h2_blocker || doctor)) {
+				    this.mode = 6;
+				} else if (doctor && !(antacid || antigas || ppi || h2_blocker)) {
+				    this.mode = 7;
+				}
+				//-------------------------------double---------------------------
+				else if (antacid && antigas && !(h2_blocker || ppi || doctor)) {
+				    this.mode = 8;
+				} else if (antacid && h2_blocker && !(antigas || ppi || doctor)) {
+				    this.mode = 9;
+				} else if (antacid && ppi && !(antigas || h2_blocker || doctor)) {
+				    this.mode = 10;
+				} else if (antacid && doctor && !(antigas || h2_blocker || ppi)) {
+				    this.mode = 11;
+				} else if (antigas && h2_blocker && !(antacid || ppi || doctor)) {
+				    this.mode = 12;
+				} else if (antigas && ppi && !(antacid || h2_blocker || doctor)) {
+				    this.mode = 13;
+				} else if (antigas && doctor && !(antacid || h2_blocker || ppi)) {
+				    this.mode = 14;
+				} else if (h2_blocker && ppi && !(antacid || antigas || doctor)) {
+				    this.mode = 15;
+				} else if (h2_blocker && doctor && !(antacid || antigas || ppi)) {
+				    this.mode = 16;
+				} else if (ppi && doctor && !(antacid || antigas || h2_blocker)) {
+				    this.mode = 17;
+				}
+				//---------------------Triple----------------------
+				else if (antacid && antigas && h2_blocker && !(ppi || doctor)) {
+				    this.mode = 18;
+				} else if (antacid && antigas && ppi && !(h2_blocker || doctor)) {
+				    this.mode = 19;
+				} else if (antacid && antigas && doctor && !(h2_blocker || ppi)) {
+				    this.mode = 20;
+				} else if (antacid && h2_blocker && ppi && !(antigas || doctor)) {
+				    this.mode = 21;
+				} else if (antacid && h2_blocker && doctor && !(antigas || ppi)) {
+				    this.mode = 22;
+				} else if (antacid && ppi && doctor && !(antigas || h2_blocker)) {
+				    this.mode = 23;
+				} else if (antigas && h2_blocker && ppi && !(antacid || doctor)) {
+				    this.mode = 24;
+				} else if (antigas && h2_blocker && doctor && !(antacid || ppi)) {
+				    this.mode = 25;
+				} else if (antigas && ppi && doctor && !(antacid || h2_blocker)) {
+				    this.mode = 26;
+				} else if (h2_blocker && ppi && doctor && !(antacid || antigas)) {
+				    this.mode = 27;
+				}
+				//---------------------Quadruple----------------------
+				else if (antacid && antigas && h2_blocker && ppi && !(doctor)) {
+				    this.mode = 28;
+				} else if (antacid && antigas && h2_blocker && doctor && !(ppi)) {
+				    this.mode = 29;
+				} else if (antacid && antigas && ppi && doctor && !(h2_blocker)) {
+				    this.mode = 30;
+				} else if (antacid && h2_blocker && ppi && doctor && !(antigas)) {
+				    this.mode = 31;
+				} else if (antigas && h2_blocker && ppi && doctor && !(antacid)) {
+				    this.mode = 32;
+				}
+				//------------------------------All together------------------------------------
+				else if (antacid && antigas && h2_blocker && ppi && doctor) {
+				    this.mode = 33;
 				} else {
 				    this.mode = 50;
 				    ind = 0;

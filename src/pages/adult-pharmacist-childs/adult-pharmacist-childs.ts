@@ -1908,7 +1908,6 @@ export class AdultPharmacistChildsPage {
 				hydrocortisone = itchy || sore,
 				powder = wet || keep_dry,
 				domeboro = keep_dry;
-
 				//conditions for showing none of the above division.
 				if (none) {
 				    this.mode = 1;

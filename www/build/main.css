@@ -49357,6 +49357,22 @@ page-adult-pharmacist-childs .swiper-slide .color79 {
   color: #40E0D0;
 }
 
+page-adult-pharmacist-childs .swiper-slide .color80 {
+  color: #EE82EE;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color81 {
+  color: #ff66cc;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color82 {
+  color: #66cc99;
+}
+
+page-adult-pharmacist-childs .swiper-slide .color83 {
+  color: #33cccc;
+}
+
 page-adult-pharmacist-childs .swiper-slide .img_style1 {
   width: 100px;
   margin: 8px;
@@ -50070,6 +50086,13 @@ page-adult-pharmacist-childs .swiper-slide .img_style97 {
   line-height: 20.8px;
   width: 120px;
   height: 118px;
+  margin: 8px;
+  float: right;
+}
+
+page-adult-pharmacist-childs .swiper-slide .img_style98 {
+  width: 120px;
+  height: 89px;
   margin: 8px;
   float: right;
 }

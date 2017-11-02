@@ -5360,14 +5360,20 @@ var AdultPharmacistChildsPage = (function () {
         else if (ind >= 101 && ind < 200) {
             this.page = 1;
             this.mode = ind - 100;
-            if (this.html_data != null) {
+            if (this.html_data != null)
                 this.checkCollapsableShow();
-            }
         }
         else if (ind >= 501 && ind < 600) {
             this.page = 1;
             this.mode = ind - 500;
-            this.checkCollapsableShow();
+            if (this.html_data != null)
+                this.checkCollapsableShow();
+        }
+        else if (ind >= 4901 && ind < 5000) {
+            this.page = 1;
+            this.mode = ind - 4900;
+            if (this.html_data != null)
+                this.checkCollapsableShow();
         }
     };
     AdultPharmacistChildsPage.prototype.getHtmlData = function () {

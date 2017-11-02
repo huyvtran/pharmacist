@@ -5216,6 +5216,117 @@ var AdultPharmacistChildsPage = (function () {
                     ind = 0;
                 }
             }
+            else if (this.pageId == 60) {
+                var itchy = this.recs[0], sore = this.recs[1], side = this.recs[2], wet = this.recs[3], keep_dry = this.recs[4], swollen = this.recs[5], streaks = this.recs[6], pus = this.recs[7], diabetic = this.recs[8], prevention = this.recs[9], none = this.recs[10];
+                var terbinafine = itchy || sore, clotrimazole = itchy || side, hydrocortisone = itchy || sore, powder = wet || keep_dry, domeboro = keep_dry;
+                //conditions for showing none of the above division.
+                if (none) {
+                    this.mode = 1;
+                }
+                else if (prevention) {
+                    this.mode = 2;
+                }
+                else if (swollen || streaks || pus || diabetic) {
+                    this.mode = 3;
+                }
+                else if (terbinafine && !(clotrimazole || hydrocortisone || powder || domeboro)) {
+                    this.mode = 4;
+                }
+                else if (clotrimazole && !(terbinafine || hydrocortisone || powder || domeboro)) {
+                    this.mode = 5;
+                }
+                else if (hydrocortisone && !(terbinafine || clotrimazole || powder || domeboro)) {
+                    this.mode = 6;
+                }
+                else if (powder && !(terbinafine || clotrimazole || hydrocortisone || domeboro)) {
+                    this.mode = 7;
+                }
+                else if (domeboro && !(terbinafine || clotrimazole || powder || hydrocortisone)) {
+                    this.mode = 8;
+                }
+                else if (terbinafine && clotrimazole && !(hydrocortisone || powder || domeboro)) {
+                    this.mode = 9;
+                }
+                else if (terbinafine && hydrocortisone && !(clotrimazole || powder || domeboro)) {
+                    this.mode = 10;
+                }
+                else if (terbinafine && powder && !(clotrimazole || hydrocortisone || domeboro)) {
+                    this.mode = 11;
+                }
+                else if (terbinafine && domeboro && !(clotrimazole || hydrocortisone || powder)) {
+                    this.mode = 12;
+                }
+                else if (clotrimazole && hydrocortisone && !(terbinafine || powder || domeboro)) {
+                    this.mode = 13;
+                }
+                else if (clotrimazole && powder && !(terbinafine || hydrocortisone || domeboro)) {
+                    this.mode = 14;
+                }
+                else if (clotrimazole && domeboro && !(terbinafine || hydrocortisone || powder)) {
+                    this.mode = 15;
+                }
+                else if (hydrocortisone && powder && !(terbinafine || clotrimazole || domeboro)) {
+                    this.mode = 16;
+                }
+                else if (hydrocortisone && domeboro && !(terbinafine || clotrimazole || powder)) {
+                    this.mode = 17;
+                }
+                else if (powder && domeboro && !(terbinafine || clotrimazole || hydrocortisone)) {
+                    this.mode = 18;
+                }
+                else if (terbinafine && clotrimazole && hydrocortisone && !(powder || domeboro)) {
+                    this.mode = 19;
+                }
+                else if (terbinafine && clotrimazole && powder && !(hydrocortisone || domeboro)) {
+                    this.mode = 20;
+                }
+                else if (terbinafine && clotrimazole && domeboro && !(hydrocortisone || powder)) {
+                    this.mode = 21;
+                }
+                else if (terbinafine && hydrocortisone && powder && !(clotrimazole || domeboro)) {
+                    this.mode = 22;
+                }
+                else if (terbinafine && hydrocortisone && domeboro && !(clotrimazole || powder)) {
+                    this.mode = 23;
+                }
+                else if (terbinafine && powder && domeboro && !(clotrimazole || hydrocortisone)) {
+                    this.mode = 24;
+                }
+                else if (clotrimazole && hydrocortisone && powder && !(terbinafine || domeboro)) {
+                    this.mode = 25;
+                }
+                else if (clotrimazole && hydrocortisone && domeboro && !(terbinafine || powder)) {
+                    this.mode = 26;
+                }
+                else if (clotrimazole && powder && domeboro && !(terbinafine || hydrocortisone)) {
+                    this.mode = 27;
+                }
+                else if (hydrocortisone && powder && domeboro && !(terbinafine || clotrimazole)) {
+                    this.mode = 28;
+                }
+                else if (terbinafine && clotrimazole && hydrocortisone && powder && !(domeboro)) {
+                    this.mode = 29;
+                }
+                else if (terbinafine && clotrimazole && hydrocortisone && domeboro && !(powder)) {
+                    this.mode = 30;
+                }
+                else if (terbinafine && clotrimazole && powder && domeboro && !(hydrocortisone)) {
+                    this.mode = 31;
+                }
+                else if (terbinafine && hydrocortisone && powder && domeboro && !(clotrimazole)) {
+                    this.mode = 32;
+                }
+                else if (clotrimazole && hydrocortisone && powder && domeboro && !(terbinafine)) {
+                    this.mode = 33;
+                }
+                else if (terbinafine && clotrimazole && hydrocortisone && powder && domeboro) {
+                    this.mode = 34;
+                }
+                else {
+                    this.mode = 50;
+                    ind = 0;
+                }
+            }
             if (this.html_data != null) {
                 var length = this.html_data[this.pageId].tabs[0].collapsable.length;
                 for (var i = 0; i < length; i++) {

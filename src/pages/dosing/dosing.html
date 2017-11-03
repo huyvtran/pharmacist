@@ -43,6 +43,13 @@
 		<div class="fullWidth mainPage transparentButton" *ngIf="currentPage==1">
 			<div class="opacity1">
 				<div [innerHTML]="html_data?.main_header"></div>
+				<div>
+					<p class="centerText" style="text-align: left;">
+						<a href="#" class="linkRedBorder ui-link" (tap)="gotoScanBarcode()">Scan Barcode</a>
+					</p>
+					<div class="clearboth divider1"></div>
+					<br/><br/>
+				</div>
 			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">
 			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{'ui-collapsible-collapsed': pages[i]}">
 				        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">

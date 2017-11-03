@@ -95,6 +95,9 @@ export class DosingPage {
       this.navCtrl.push(DosingChildContainerPage);
     }
   }
+  gotoScanBarcode(){
+    this.navCtrl.push(SaveDoseLoginPage);
+  }
   gotoLogin() {
     this.navCtrl.push(SaveDoseLoginPage);
   }

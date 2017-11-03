@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { AgmCoreModule } from "angular2-google-maps/core";
+import { BarcodeScanner} from '@ionic-native/barcode-scanner';
 
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
@@ -142,6 +143,7 @@ import { AuthService} from '../pages/providers/auth-service';
     providers: [
         AuthService,
         StatusBar,
+        BarcodeScanner,
         SplashScreen,
         {provide: ErrorHandler, useClass: IonicErrorHandler}
     ]

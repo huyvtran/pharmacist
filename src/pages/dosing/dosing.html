@@ -45,8 +45,9 @@
 				<div [innerHTML]="html_data?.main_header"></div>
 				<div>
 					<p class="centerText" style="text-align: left;">
-						<a href="#" class="linkRedBorder ui-link" (tap)="gotoScanBarcode()">Scan Barcode</a>
+						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Scan Barcode</a>
 					</p>
+					{{scannedcode}}
 					<div class="clearboth divider1"></div>
 					<br/><br/>
 				</div>
@@ -74,6 +75,23 @@
 			    <div [innerHTML]="html_data?.ppp"></div>
 			</div>
 		</div>
+	</div>
+	<div class="ui-popup-screen ui-overlay-b in" *ngIf="barcodeDlg.show" (click)="toggleDlg(false)"></div>
+	<div class="ui-popup-container pop in ui-popup-active" *ngIf="barcodeDlg.show" [ngStyle]="{'max-width': barcodeDlg.maxWidth+'px','top': barcodeDlg.top+'px', 'left': barcodeDlg.left+'px', 'width': barcodeDlg.width+'px'}">
+	    <div data-role="popup" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">
+	        <div style="max-height: 500px; overflow-y: scroll;">
+	        	<p>You scanned:</p>
+	        	<div align="center" style="height: 150px;">
+			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> 
+			    </div>
+				<p class="centerText">{{barcodeDlg.name}}</p>
+				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>
+				<div>
+					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>
+					<a href="#" style="float: right;" (click)="clickBarcode(1)">YES</a>
+				</div>
+	        </div>
+	    </div>
 	</div>
 </ion-content>
 

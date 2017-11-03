@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 114:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14,8 +14,8 @@ webpackJsonp([0],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__self_care_self_care__ = __webpack_require__(225);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__compare_compare__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dosing_dosing__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__drug_drug__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_about__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__drug_drug__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_about__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__find_nearest_find_nearest__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_globalvars__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -85,7 +85,7 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -159,7 +159,7 @@ NearestPage = __decorate([
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -448,7 +448,7 @@ CompareChildsPage = __decorate([
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -536,7 +536,7 @@ CompareYesnoPage = __decorate([
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -549,7 +549,7 @@ CompareYesnoPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__save_dose_insert_success_save_dose_insert_success__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__save_dose_insert_success_save_dose_insert_success__ = __webpack_require__(243);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -667,7 +667,7 @@ SaveDoseInsertPage = __decorate([
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -744,7 +744,7 @@ DiphenhydraminePage = __decorate([
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -758,9 +758,9 @@ DiphenhydraminePage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dosing_dosing__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__diphenhydramine_diphenhydramine__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__diphenhydramine_diphenhydramine__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dosing_child_container_dosing_child_container__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__save_dose_insert_save_dose_insert__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__save_dose_insert_save_dose_insert__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__save_dose_login_save_dose_login__ = __webpack_require__(48);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1108,7 +1108,7 @@ DosingChildsPage = __decorate([
 
 /***/ }),
 
-/***/ 129:
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1225,7 +1225,7 @@ DrugPage = __decorate([
 
 /***/ }),
 
-/***/ 130:
+/***/ 131:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1439,7 +1439,7 @@ AboutPage = __decorate([
 
 /***/ }),
 
-/***/ 139:
+/***/ 140:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -1452,11 +1452,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 139;
+webpackEmptyAsyncContext.id = 140;
 
 /***/ }),
 
-/***/ 181:
+/***/ 182:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -1469,7 +1469,7 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 181;
+webpackEmptyAsyncContext.id = 182;
 
 /***/ }),
 
@@ -1759,7 +1759,7 @@ AdultTakeMobileChildlistPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__find_nearest_find_nearest__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__nearest_nearest__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__nearest_nearest__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__adult_symptom_infographics_adult_symptom_infographics__ = __webpack_require__(239);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__adult_take_mobile_list_adult_take_mobile_list__ = __webpack_require__(59);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -5438,8 +5438,8 @@ AdultPharmacistChildsPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_globalvars__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__compare_childs_compare_childs__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__compare_yesno_compare_yesno__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__compare_childs_compare_childs__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__compare_yesno_compare_yesno__ = __webpack_require__(126);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5513,7 +5513,7 @@ CompareChildsContainerPage = __decorate([
 
 /***/ }),
 
-/***/ 242:
+/***/ 243:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5528,7 +5528,7 @@ CompareChildsContainerPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dosing_dosing__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__save_dose_list_save_dose_list__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__home_home__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__home_home__ = __webpack_require__(115);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5600,7 +5600,7 @@ SaveDoseInsertSuccessPage = __decorate([
 
 /***/ }),
 
-/***/ 243:
+/***/ 244:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5679,14 +5679,14 @@ SaveDoseRegisterPage = __decorate([
 
 /***/ }),
 
-/***/ 244:
+/***/ 245:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(264);
 
 
 
@@ -5885,7 +5885,7 @@ AuthService = __decorate([
 
 /***/ }),
 
-/***/ 263:
+/***/ 264:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5893,51 +5893,53 @@ AuthService = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(304);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular2_google_maps_core__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular2_google_maps_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_angular2_google_maps_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_home_home__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_about_about__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_adult_take_mobile_list_adult_take_mobile_list__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_dosing_dosing__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_self_care_self_care__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_compare_compare__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_nearest_nearest__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_drug_drug__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_find_nearest_find_nearest__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_find_nearest_list_find_nearest_list__ = __webpack_require__(235);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_place_details_place_details__ = __webpack_require__(236);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_orderby_orderby__ = __webpack_require__(316);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_place_navigation_place_navigation__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_place_navigation_google_map_directive__ = __webpack_require__(238);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_compare_childs_compare_childs__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_compare_childs_container_compare_childs_container__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_compare_yesno_compare_yesno__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_save_dose_insert_save_dose_insert__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_save_dose_login_save_dose_login__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_save_dose_insert_success_save_dose_insert_success__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_save_dose_list_save_dose_list__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_save_dose_logout_confirm_save_dose_logout_confirm__ = __webpack_require__(317);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_save_dose_login_direct_save_dose_login_direct__ = __webpack_require__(318);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_save_dose_register_save_dose_register__ = __webpack_require__(243);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_diphenhydramine_diphenhydramine__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_dosing_child_container_dosing_child_container__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_dosing_childs_dosing_childs__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_adult_take_mobile_childlist_adult_take_mobile_childlist__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_adult_symptom_childs_adult_symptom_childs__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_adult_symptom_infographics_adult_symptom_infographics__ = __webpack_require__(239);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_adult_pharmacist_childs_adult_pharmacist_childs__ = __webpack_require__(240);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_providers_auth_service__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_barcode_scanner__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_home_home__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_about_about__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_adult_take_mobile_list_adult_take_mobile_list__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_dosing_dosing__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_self_care_self_care__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_compare_compare__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_nearest_nearest__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_drug_drug__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_find_nearest_find_nearest__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_find_nearest_list_find_nearest_list__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_place_details_place_details__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_orderby_orderby__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_place_navigation_place_navigation__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_place_navigation_google_map_directive__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_compare_childs_compare_childs__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_compare_childs_container_compare_childs_container__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_compare_yesno_compare_yesno__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_save_dose_insert_save_dose_insert__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_save_dose_login_save_dose_login__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_save_dose_insert_success_save_dose_insert_success__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_save_dose_list_save_dose_list__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_save_dose_logout_confirm_save_dose_logout_confirm__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_save_dose_login_direct_save_dose_login_direct__ = __webpack_require__(319);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_save_dose_register_save_dose_register__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_diphenhydramine_diphenhydramine__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_dosing_child_container_dosing_child_container__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_dosing_childs_dosing_childs__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_adult_take_mobile_childlist_adult_take_mobile_childlist__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_adult_symptom_childs_adult_symptom_childs__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_adult_symptom_infographics_adult_symptom_infographics__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_adult_pharmacist_childs_adult_pharmacist_childs__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_providers_auth_service__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -5988,37 +5990,37 @@ AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_adult_take_mobile_list_adult_take_mobile_list__["a" /* AdultTakeMobileListPage */],
-            __WEBPACK_IMPORTED_MODULE_12__pages_dosing_dosing__["a" /* DosingPage */],
-            __WEBPACK_IMPORTED_MODULE_13__pages_self_care_self_care__["a" /* SelfCarePage */],
-            __WEBPACK_IMPORTED_MODULE_14__pages_compare_compare__["a" /* ComparePage */],
-            __WEBPACK_IMPORTED_MODULE_15__pages_nearest_nearest__["a" /* NearestPage */],
-            __WEBPACK_IMPORTED_MODULE_16__pages_drug_drug__["a" /* DrugPage */],
-            __WEBPACK_IMPORTED_MODULE_17__pages_find_nearest_find_nearest__["a" /* FindNearestPage */],
-            __WEBPACK_IMPORTED_MODULE_18__pages_find_nearest_list_find_nearest_list__["a" /* FindNearestListPage */],
-            __WEBPACK_IMPORTED_MODULE_19__pages_place_details_place_details__["a" /* PlaceDetailsPage */],
-            __WEBPACK_IMPORTED_MODULE_20__pages_orderby_orderby__["a" /* OrderByPipe */],
-            __WEBPACK_IMPORTED_MODULE_21__pages_place_navigation_place_navigation__["a" /* PlaceNavigationPage */],
-            __WEBPACK_IMPORTED_MODULE_22__pages_place_navigation_google_map_directive__["a" /* DirectionsMapDirective */],
-            __WEBPACK_IMPORTED_MODULE_23__pages_compare_childs_compare_childs__["a" /* CompareChildsPage */],
-            __WEBPACK_IMPORTED_MODULE_24__pages_compare_childs_container_compare_childs_container__["a" /* CompareChildsContainerPage */],
-            __WEBPACK_IMPORTED_MODULE_25__pages_compare_yesno_compare_yesno__["a" /* CompareYesnoPage */],
-            __WEBPACK_IMPORTED_MODULE_26__pages_save_dose_insert_save_dose_insert__["a" /* SaveDoseInsertPage */],
-            __WEBPACK_IMPORTED_MODULE_27__pages_save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */],
-            __WEBPACK_IMPORTED_MODULE_28__pages_save_dose_insert_success_save_dose_insert_success__["a" /* SaveDoseInsertSuccessPage */],
-            __WEBPACK_IMPORTED_MODULE_29__pages_save_dose_list_save_dose_list__["a" /* SaveDoseListPage */],
-            __WEBPACK_IMPORTED_MODULE_30__pages_save_dose_logout_confirm_save_dose_logout_confirm__["a" /* SaveDoseLogoutConfirmPage */],
-            __WEBPACK_IMPORTED_MODULE_31__pages_save_dose_login_direct_save_dose_login_direct__["a" /* SaveDoseLoginDirectPage */],
-            __WEBPACK_IMPORTED_MODULE_32__pages_save_dose_register_save_dose_register__["a" /* SaveDoseRegisterPage */],
-            __WEBPACK_IMPORTED_MODULE_33__pages_diphenhydramine_diphenhydramine__["a" /* DiphenhydraminePage */],
-            __WEBPACK_IMPORTED_MODULE_34__pages_dosing_child_container_dosing_child_container__["a" /* DosingChildContainerPage */],
-            __WEBPACK_IMPORTED_MODULE_35__pages_dosing_childs_dosing_childs__["a" /* DosingChildsPage */],
-            __WEBPACK_IMPORTED_MODULE_36__pages_adult_take_mobile_childlist_adult_take_mobile_childlist__["a" /* AdultTakeMobileChildlistPage */],
-            __WEBPACK_IMPORTED_MODULE_37__pages_adult_symptom_childs_adult_symptom_childs__["a" /* AdultSymptomChildsPage */],
-            __WEBPACK_IMPORTED_MODULE_38__pages_adult_symptom_infographics_adult_symptom_infographics__["a" /* AdultSymptomInfographicsPage */],
-            __WEBPACK_IMPORTED_MODULE_39__pages_adult_pharmacist_childs_adult_pharmacist_childs__["a" /* AdultPharmacistChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_adult_take_mobile_list_adult_take_mobile_list__["a" /* AdultTakeMobileListPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_dosing_dosing__["a" /* DosingPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_self_care_self_care__["a" /* SelfCarePage */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_compare_compare__["a" /* ComparePage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_nearest_nearest__["a" /* NearestPage */],
+            __WEBPACK_IMPORTED_MODULE_17__pages_drug_drug__["a" /* DrugPage */],
+            __WEBPACK_IMPORTED_MODULE_18__pages_find_nearest_find_nearest__["a" /* FindNearestPage */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_find_nearest_list_find_nearest_list__["a" /* FindNearestListPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_place_details_place_details__["a" /* PlaceDetailsPage */],
+            __WEBPACK_IMPORTED_MODULE_21__pages_orderby_orderby__["a" /* OrderByPipe */],
+            __WEBPACK_IMPORTED_MODULE_22__pages_place_navigation_place_navigation__["a" /* PlaceNavigationPage */],
+            __WEBPACK_IMPORTED_MODULE_23__pages_place_navigation_google_map_directive__["a" /* DirectionsMapDirective */],
+            __WEBPACK_IMPORTED_MODULE_24__pages_compare_childs_compare_childs__["a" /* CompareChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_25__pages_compare_childs_container_compare_childs_container__["a" /* CompareChildsContainerPage */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_compare_yesno_compare_yesno__["a" /* CompareYesnoPage */],
+            __WEBPACK_IMPORTED_MODULE_27__pages_save_dose_insert_save_dose_insert__["a" /* SaveDoseInsertPage */],
+            __WEBPACK_IMPORTED_MODULE_28__pages_save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */],
+            __WEBPACK_IMPORTED_MODULE_29__pages_save_dose_insert_success_save_dose_insert_success__["a" /* SaveDoseInsertSuccessPage */],
+            __WEBPACK_IMPORTED_MODULE_30__pages_save_dose_list_save_dose_list__["a" /* SaveDoseListPage */],
+            __WEBPACK_IMPORTED_MODULE_31__pages_save_dose_logout_confirm_save_dose_logout_confirm__["a" /* SaveDoseLogoutConfirmPage */],
+            __WEBPACK_IMPORTED_MODULE_32__pages_save_dose_login_direct_save_dose_login_direct__["a" /* SaveDoseLoginDirectPage */],
+            __WEBPACK_IMPORTED_MODULE_33__pages_save_dose_register_save_dose_register__["a" /* SaveDoseRegisterPage */],
+            __WEBPACK_IMPORTED_MODULE_34__pages_diphenhydramine_diphenhydramine__["a" /* DiphenhydraminePage */],
+            __WEBPACK_IMPORTED_MODULE_35__pages_dosing_child_container_dosing_child_container__["a" /* DosingChildContainerPage */],
+            __WEBPACK_IMPORTED_MODULE_36__pages_dosing_childs_dosing_childs__["a" /* DosingChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_37__pages_adult_take_mobile_childlist_adult_take_mobile_childlist__["a" /* AdultTakeMobileChildlistPage */],
+            __WEBPACK_IMPORTED_MODULE_38__pages_adult_symptom_childs_adult_symptom_childs__["a" /* AdultSymptomChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_39__pages_adult_symptom_infographics_adult_symptom_infographics__["a" /* AdultSymptomInfographicsPage */],
+            __WEBPACK_IMPORTED_MODULE_40__pages_adult_pharmacist_childs_adult_pharmacist_childs__["a" /* AdultPharmacistChildsPage */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_8_angular2_google_maps_core__["AgmCoreModule"].forRoot({
@@ -6036,39 +6038,40 @@ AppModule = __decorate([
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_adult_take_mobile_list_adult_take_mobile_list__["a" /* AdultTakeMobileListPage */],
-            __WEBPACK_IMPORTED_MODULE_12__pages_dosing_dosing__["a" /* DosingPage */],
-            __WEBPACK_IMPORTED_MODULE_13__pages_self_care_self_care__["a" /* SelfCarePage */],
-            __WEBPACK_IMPORTED_MODULE_14__pages_compare_compare__["a" /* ComparePage */],
-            __WEBPACK_IMPORTED_MODULE_15__pages_nearest_nearest__["a" /* NearestPage */],
-            __WEBPACK_IMPORTED_MODULE_16__pages_drug_drug__["a" /* DrugPage */],
-            __WEBPACK_IMPORTED_MODULE_17__pages_find_nearest_find_nearest__["a" /* FindNearestPage */],
-            __WEBPACK_IMPORTED_MODULE_18__pages_find_nearest_list_find_nearest_list__["a" /* FindNearestListPage */],
-            __WEBPACK_IMPORTED_MODULE_19__pages_place_details_place_details__["a" /* PlaceDetailsPage */],
-            __WEBPACK_IMPORTED_MODULE_21__pages_place_navigation_place_navigation__["a" /* PlaceNavigationPage */],
-            __WEBPACK_IMPORTED_MODULE_23__pages_compare_childs_compare_childs__["a" /* CompareChildsPage */],
-            __WEBPACK_IMPORTED_MODULE_24__pages_compare_childs_container_compare_childs_container__["a" /* CompareChildsContainerPage */],
-            __WEBPACK_IMPORTED_MODULE_25__pages_compare_yesno_compare_yesno__["a" /* CompareYesnoPage */],
-            __WEBPACK_IMPORTED_MODULE_26__pages_save_dose_insert_save_dose_insert__["a" /* SaveDoseInsertPage */],
-            __WEBPACK_IMPORTED_MODULE_27__pages_save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */],
-            __WEBPACK_IMPORTED_MODULE_28__pages_save_dose_insert_success_save_dose_insert_success__["a" /* SaveDoseInsertSuccessPage */],
-            __WEBPACK_IMPORTED_MODULE_29__pages_save_dose_list_save_dose_list__["a" /* SaveDoseListPage */],
-            __WEBPACK_IMPORTED_MODULE_30__pages_save_dose_logout_confirm_save_dose_logout_confirm__["a" /* SaveDoseLogoutConfirmPage */],
-            __WEBPACK_IMPORTED_MODULE_31__pages_save_dose_login_direct_save_dose_login_direct__["a" /* SaveDoseLoginDirectPage */],
-            __WEBPACK_IMPORTED_MODULE_32__pages_save_dose_register_save_dose_register__["a" /* SaveDoseRegisterPage */],
-            __WEBPACK_IMPORTED_MODULE_33__pages_diphenhydramine_diphenhydramine__["a" /* DiphenhydraminePage */],
-            __WEBPACK_IMPORTED_MODULE_34__pages_dosing_child_container_dosing_child_container__["a" /* DosingChildContainerPage */],
-            __WEBPACK_IMPORTED_MODULE_35__pages_dosing_childs_dosing_childs__["a" /* DosingChildsPage */],
-            __WEBPACK_IMPORTED_MODULE_36__pages_adult_take_mobile_childlist_adult_take_mobile_childlist__["a" /* AdultTakeMobileChildlistPage */],
-            __WEBPACK_IMPORTED_MODULE_37__pages_adult_symptom_childs_adult_symptom_childs__["a" /* AdultSymptomChildsPage */],
-            __WEBPACK_IMPORTED_MODULE_38__pages_adult_symptom_infographics_adult_symptom_infographics__["a" /* AdultSymptomInfographicsPage */],
-            __WEBPACK_IMPORTED_MODULE_39__pages_adult_pharmacist_childs_adult_pharmacist_childs__["a" /* AdultPharmacistChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_adult_take_mobile_list_adult_take_mobile_list__["a" /* AdultTakeMobileListPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_dosing_dosing__["a" /* DosingPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_self_care_self_care__["a" /* SelfCarePage */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_compare_compare__["a" /* ComparePage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_nearest_nearest__["a" /* NearestPage */],
+            __WEBPACK_IMPORTED_MODULE_17__pages_drug_drug__["a" /* DrugPage */],
+            __WEBPACK_IMPORTED_MODULE_18__pages_find_nearest_find_nearest__["a" /* FindNearestPage */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_find_nearest_list_find_nearest_list__["a" /* FindNearestListPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_place_details_place_details__["a" /* PlaceDetailsPage */],
+            __WEBPACK_IMPORTED_MODULE_22__pages_place_navigation_place_navigation__["a" /* PlaceNavigationPage */],
+            __WEBPACK_IMPORTED_MODULE_24__pages_compare_childs_compare_childs__["a" /* CompareChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_25__pages_compare_childs_container_compare_childs_container__["a" /* CompareChildsContainerPage */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_compare_yesno_compare_yesno__["a" /* CompareYesnoPage */],
+            __WEBPACK_IMPORTED_MODULE_27__pages_save_dose_insert_save_dose_insert__["a" /* SaveDoseInsertPage */],
+            __WEBPACK_IMPORTED_MODULE_28__pages_save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */],
+            __WEBPACK_IMPORTED_MODULE_29__pages_save_dose_insert_success_save_dose_insert_success__["a" /* SaveDoseInsertSuccessPage */],
+            __WEBPACK_IMPORTED_MODULE_30__pages_save_dose_list_save_dose_list__["a" /* SaveDoseListPage */],
+            __WEBPACK_IMPORTED_MODULE_31__pages_save_dose_logout_confirm_save_dose_logout_confirm__["a" /* SaveDoseLogoutConfirmPage */],
+            __WEBPACK_IMPORTED_MODULE_32__pages_save_dose_login_direct_save_dose_login_direct__["a" /* SaveDoseLoginDirectPage */],
+            __WEBPACK_IMPORTED_MODULE_33__pages_save_dose_register_save_dose_register__["a" /* SaveDoseRegisterPage */],
+            __WEBPACK_IMPORTED_MODULE_34__pages_diphenhydramine_diphenhydramine__["a" /* DiphenhydraminePage */],
+            __WEBPACK_IMPORTED_MODULE_35__pages_dosing_child_container_dosing_child_container__["a" /* DosingChildContainerPage */],
+            __WEBPACK_IMPORTED_MODULE_36__pages_dosing_childs_dosing_childs__["a" /* DosingChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_37__pages_adult_take_mobile_childlist_adult_take_mobile_childlist__["a" /* AdultTakeMobileChildlistPage */],
+            __WEBPACK_IMPORTED_MODULE_38__pages_adult_symptom_childs_adult_symptom_childs__["a" /* AdultSymptomChildsPage */],
+            __WEBPACK_IMPORTED_MODULE_39__pages_adult_symptom_infographics_adult_symptom_infographics__["a" /* AdultSymptomInfographicsPage */],
+            __WEBPACK_IMPORTED_MODULE_40__pages_adult_pharmacist_childs_adult_pharmacist_childs__["a" /* AdultPharmacistChildsPage */],
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_40__pages_providers_auth_service__["a" /* AuthService */],
+            __WEBPACK_IMPORTED_MODULE_41__pages_providers_auth_service__["a" /* AuthService */],
             __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
             __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }
         ]
@@ -6079,22 +6082,22 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 303:
+/***/ 304:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_adult_take_mobile_list_adult_take_mobile_list__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_dosing_dosing__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_compare_compare__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nearest_nearest__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_drug_drug__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nearest_nearest__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_drug_drug__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_providers_globalvars__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6193,7 +6196,7 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 316:
+/***/ 317:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6240,7 +6243,7 @@ OrderByPipe = __decorate([
 
 /***/ }),
 
-/***/ 317:
+/***/ 318:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6279,7 +6282,7 @@ SaveDoseLogoutConfirmPage = __decorate([
 
 /***/ }),
 
-/***/ 318:
+/***/ 319:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6330,9 +6333,9 @@ SaveDoseLoginDirectPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__compare_childs_compare_childs__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__compare_childs_compare_childs__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__compare_childs_container_compare_childs_container__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__compare_yesno_compare_yesno__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__compare_yesno_compare_yesno__ = __webpack_require__(126);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6450,13 +6453,14 @@ ComparePage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__save_dose_login_save_dose_login__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__save_dose_list_save_dose_list__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__diphenhydramine_diphenhydramine__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__dosing_child_container_dosing_child_container__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__dosing_childs_dosing_childs__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__save_dose_login_save_dose_login__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__save_dose_list_save_dose_list__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__diphenhydramine_diphenhydramine__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__dosing_child_container_dosing_child_container__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__dosing_childs_dosing_childs__ = __webpack_require__(129);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6466,6 +6470,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
 
 
 
@@ -6500,22 +6506,38 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // MilkMagnesiaPage,     // 20
 // RobitussinPage        // 21
 var DosingPage = (function () {
-    function DosingPage(navCtrl, navParams, http, sanitizer, menu, authService) {
+    function DosingPage(navCtrl, navParams, http, sanitizer, menu, authService, alertCtrl, loadingCtrl, toastCtrl, barcodeScanner, platform) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.http = http;
         this.sanitizer = sanitizer;
         this.menu = menu;
         this.authService = authService;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.toastCtrl = toastCtrl;
+        this.barcodeScanner = barcodeScanner;
+        this.platform = platform;
         var user = this.authService.getUserInfo();
         if (user == null)
             this.isLoggedIn = false;
         else
             this.isLoggedIn = true;
         this.menu = menu;
-        this.AbsoluteURL = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getAbsoluteURL();
+        this.AbsoluteURL = __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].getAbsoluteURL();
         this.currentPage = 0;
         this.pages = [true, true, true, true, true, true, true];
+        this.loading = null;
+        this.barcodeDlg = {};
+        this.barcodeDlg['show'] = false;
+        this.barcodeDlg['maxWidth'] = 600;
+        this.barcodeDlg['left'] = 0;
+        this.barcodeDlg['top'] = 0;
+        this.barcodeDlg['width'] = 200;
+        this.barcodeDlg['height'] = 333;
+        this.barcodeDlg['name'] = "";
+        this.barcodeDlg['image'] = "";
+        this.barcodeDlg['url'] = "";
     }
     DosingPage.prototype.getHtmlData = function () {
         var _this = this;
@@ -6526,7 +6548,7 @@ var DosingPage = (function () {
     };
     DosingPage.prototype.showMenu = function () {
         var menu = document.querySelector('ion-menu ion-content');
-        var setting = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getPageSetting('i');
+        var setting = __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].getPageSetting('i');
         menu.className = "outer-content content" + " " + setting['class'];
         this.menu.open();
     };
@@ -6538,7 +6560,7 @@ var DosingPage = (function () {
     };
     DosingPage.prototype.gotoSubPage = function (id) {
         if (id == 0)
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__diphenhydramine_diphenhydramine__["a" /* DiphenhydraminePage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__diphenhydramine_diphenhydramine__["a" /* DiphenhydraminePage */]);
         else if (id == 16 || id == 18 || id == 19 || id == 20) {
             var ids = {
                 16: 63,
@@ -6546,36 +6568,97 @@ var DosingPage = (function () {
                 19: 65,
                 20: 66
             };
-            __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].setPageId(ids[id]);
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__dosing_childs_dosing_childs__["a" /* DosingChildsPage */]);
+            __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].setPageId(ids[id]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__dosing_childs_dosing_childs__["a" /* DosingChildsPage */]);
         }
         else {
-            __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].setPageId(id);
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__dosing_child_container_dosing_child_container__["a" /* DosingChildContainerPage */]);
+            __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].setPageId(id);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__dosing_child_container_dosing_child_container__["a" /* DosingChildContainerPage */]);
         }
     };
-    DosingPage.prototype.gotoScanBarcode = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */]);
-    };
     DosingPage.prototype.gotoLogin = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__save_dose_login_save_dose_login__["a" /* SaveDoseLoginPage */]);
     };
     DosingPage.prototype.gotoSavedDose = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__save_dose_list_save_dose_list__["a" /* SaveDoseListPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__save_dose_list_save_dose_list__["a" /* SaveDoseListPage */]);
     };
     DosingPage.prototype.ionViewDidLoad = function () {
         this.getHtmlData();
     };
+    DosingPage.prototype.scanner = function () {
+        var _this = this;
+        this.barcodeScanner.scan().then(function (brcode) {
+            var scannedCode = brcode.text;
+            // scannedCode = "041100811028";
+            var barApiUrl = __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].getApiURL() + "code=" + scannedCode + "&ppp=barcode";
+            _this.http.get(barApiUrl).map(function (response) { return response.json(); }).subscribe(function (data) {
+                setTimeout(function () {
+                    if (data.res == 'success') {
+                        var scrollPos = _this.content.getContentDimensions().scrollTop;
+                        _this.barcodeDlg['width'] = _this.platform.width() * 0.9;
+                        if (_this.barcodeDlg['width'] > _this.barcodeDlg['maxWidth'])
+                            _this.barcodeDlg['width'] = _this.barcodeDlg['maxWidth'];
+                        _this.barcodeDlg['left'] = (_this.platform.width() - _this.barcodeDlg['width']) / 2;
+                        _this.barcodeDlg['top'] = (_this.platform.height() - _this.barcodeDlg['height']) / 2 + scrollPos - 60;
+                        _this.barcodeDlg['name'] = data['drug_name'];
+                        _this.barcodeDlg['image'] = data['drug_image_file'];
+                        _this.barcodeDlg['url'] = data['drug_ingredient_url'];
+                        _this.barcodeDlg['show'] = true;
+                    }
+                    else {
+                        _this.barcodeDlg['show'] = false;
+                        _this.showToast('Failed to get the required data');
+                    }
+                });
+            }),
+                function (err) {
+                    setTimeout(function () {
+                        _this.barcodeDlg['show'] = false;
+                        _this.showToast("Access denied");
+                    });
+                };
+        }, function (err) {
+            _this.barcodeDlg['show'] = false;
+        });
+    };
+    DosingPage.prototype.toggleDlg = function (b) {
+        this.barcodeDlg['show'] = b;
+    };
+    DosingPage.prototype.clickBarcode = function (n) {
+        if (n == 0)
+            this.toggleDlg(false);
+        else {
+            __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].setPageId(44);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__dosing_childs_dosing_childs__["a" /* DosingChildsPage */]);
+        }
+    };
+    DosingPage.prototype.showToast = function (message) {
+        if (this.loading != null) {
+            this.loading.dismiss().catch(function () { });
+        }
+        var toast = this.toastCtrl.create({
+            message: message,
+            duration: 3000
+        });
+        toast.present();
+    };
     return DosingPage;
 }());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+], DosingPage.prototype, "content", void 0);
 DosingPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-dosing',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/'\n<ion-header class="ui-header">\n\n  <ion-navbar>\n    <ion-title>\n    	<h1 class="ui-title">\n      	&nbsp;\n      </h1>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (tap)="showMenu()">\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n	</ion-navbar>\n  <ion-navbar class="fullWidth roboto bgPink" *ngIf="currentPage==0">\n    <div [innerHTML]="html_data?.navbar"></div>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">\n  	<div class="floatright"> \n	    <a href="#" class="linkGrayLight font12 absoluteRight ui-link" data-inline="true" (tap)="gotoLogin()">Login</a>\n	</div>\n	<p class="font14">Which medication?</p>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == true">\n  	<div class="spinner floatright"></div>\n	<div class="floatright savedDose">\n	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>  \n	</div>\n	<p>Medication?</p>\n  </ion-navbar>\n</ion-header>\n\n<ion-content overflow-scroll="true"  padding class="ui-page-theme-i">\n	<div class="ui-content">\n		<div class="fullWidth mainPage" *ngIf="currentPage==0">\n			<div [innerHTML]="html_data?.header"></div>\n			<p class="centerText">\n				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let\'s get started</a>\n			</p>\n			<div [innerHTML]="html_data?.ppp"></div>\n		</div>\n		<div class="fullWidth mainPage transparentButton" *ngIf="currentPage==1">\n			<div class="opacity1">\n				<div [innerHTML]="html_data?.main_header"></div>\n				<div>\n					<p class="centerText" style="text-align: left;">\n						<a href="#" class="linkRedBorder ui-link" (tap)="gotoScanBarcode()">Scan Barcode</a>\n					</p>\n					<div class="clearboth divider1"></div>\n					<br/><br/>\n				</div>\n			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">\n			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{\'ui-collapsible-collapsed\': pages[i]}">\n				        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">\n				        	<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" [ngClass]="{\'ui-icon-arrow-r\': pages[i], \'ui-icon-arrow-d\': !pages[i]}" (tap)="togglePage(i)">\n				        		<div [innerHTML]="each_data?.header"></div>\n				        	</a>\n				        </h3>\n				        <div class="ui-collapsible-content ui-body-inherit" aria-hidden="true" [ngClass]="{\'ui-collapsible-content-collapsed\': pages[i]}">\n				            <br>\n				            <ul data-role="listview" class="ui-listview">\n				            	<li *ngFor="let li_data of each_data?.list">\n				            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(li_data.id)">\n				                        <div [innerHTML]="li_data?.content"></div>\n				                    </a>\n				            	</li>\n				            </ul>\n				            <p>&nbsp;</p>\n				        </div>\n				    </div>\n				    <hr class="pink">\n			    </ng-container>\n			    <div [innerHTML]="html_data?.ppp"></div>\n			</div>\n		</div>\n	</div>\n</ion-content>\n\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/
+        selector: 'page-dosing',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/'\n<ion-header class="ui-header">\n\n  <ion-navbar>\n    <ion-title>\n    	<h1 class="ui-title">\n      	&nbsp;\n      </h1>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (tap)="showMenu()">\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n	</ion-navbar>\n  <ion-navbar class="fullWidth roboto bgPink" *ngIf="currentPage==0">\n    <div [innerHTML]="html_data?.navbar"></div>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">\n  	<div class="floatright"> \n	    <a href="#" class="linkGrayLight font12 absoluteRight ui-link" data-inline="true" (tap)="gotoLogin()">Login</a>\n	</div>\n	<p class="font14">Which medication?</p>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == true">\n  	<div class="spinner floatright"></div>\n	<div class="floatright savedDose">\n	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>  \n	</div>\n	<p>Medication?</p>\n  </ion-navbar>\n</ion-header>\n\n<ion-content overflow-scroll="true"  padding class="ui-page-theme-i">\n	<div class="ui-content">\n		<div class="fullWidth mainPage" *ngIf="currentPage==0">\n			<div [innerHTML]="html_data?.header"></div>\n			<p class="centerText">\n				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let\'s get started</a>\n			</p>\n			<div [innerHTML]="html_data?.ppp"></div>\n		</div>\n		<div class="fullWidth mainPage transparentButton" *ngIf="currentPage==1">\n			<div class="opacity1">\n				<div [innerHTML]="html_data?.main_header"></div>\n				<div>\n					<p class="centerText" style="text-align: left;">\n						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Scan Barcode</a>\n					</p>\n					{{scannedcode}}\n					<div class="clearboth divider1"></div>\n					<br/><br/>\n				</div>\n			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">\n			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{\'ui-collapsible-collapsed\': pages[i]}">\n				        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">\n				        	<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" [ngClass]="{\'ui-icon-arrow-r\': pages[i], \'ui-icon-arrow-d\': !pages[i]}" (tap)="togglePage(i)">\n				        		<div [innerHTML]="each_data?.header"></div>\n				        	</a>\n				        </h3>\n				        <div class="ui-collapsible-content ui-body-inherit" aria-hidden="true" [ngClass]="{\'ui-collapsible-content-collapsed\': pages[i]}">\n				            <br>\n				            <ul data-role="listview" class="ui-listview">\n				            	<li *ngFor="let li_data of each_data?.list">\n				            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(li_data.id)">\n				                        <div [innerHTML]="li_data?.content"></div>\n				                    </a>\n				            	</li>\n				            </ul>\n				            <p>&nbsp;</p>\n				        </div>\n				    </div>\n				    <hr class="pink">\n			    </ng-container>\n			    <div [innerHTML]="html_data?.ppp"></div>\n			</div>\n		</div>\n	</div>\n	<div class="ui-popup-screen ui-overlay-b in" *ngIf="barcodeDlg.show" (click)="toggleDlg(false)"></div>\n	<div class="ui-popup-container pop in ui-popup-active" *ngIf="barcodeDlg.show" [ngStyle]="{\'max-width\': barcodeDlg.maxWidth+\'px\',\'top\': barcodeDlg.top+\'px\', \'left\': barcodeDlg.left+\'px\', \'width\': barcodeDlg.width+\'px\'}">\n	    <div data-role="popup" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">\n	        <div style="max-height: 500px; overflow-y: scroll;">\n	        	<p>You scanned:</p>\n	        	<div align="center" style="height: 150px;">\n			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> \n			    </div>\n				<p class="centerText">{{barcodeDlg.name}}</p>\n				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>\n				<div>\n					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>\n					<a href="#" style="float: right;" (click)="clickBarcode(1)">YES</a>\n				</div>\n	        </div>\n	    </div>\n	</div>\n</ion-content>\n\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__["a" /* AuthService */]) === "function" && _f || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */], __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]])
 ], DosingPage);
 
-var _a, _b, _c, _d, _e, _f;
 //# sourceMappingURL=dosing.js.map
 
 /***/ }),
@@ -6593,8 +6676,8 @@ var _a, _b, _c, _d, _e, _f;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__save_dose_insert_save_dose_insert__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__save_dose_register_save_dose_register__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__save_dose_insert_save_dose_insert__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__save_dose_register_save_dose_register__ = __webpack_require__(244);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__save_dose_list_save_dose_list__ = __webpack_require__(63);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -7017,7 +7100,7 @@ SaveDoseListPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dosing_childs_dosing_childs__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dosing_childs_dosing_childs__ = __webpack_require__(129);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7341,5 +7424,5 @@ var GlobalVars = {
 
 /***/ })
 
-},[244]);
+},[245]);
 //# sourceMappingURL=main.js.map

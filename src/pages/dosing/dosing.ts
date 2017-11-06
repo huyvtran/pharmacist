@@ -3,9 +3,7 @@ import { NavController, NavParams, MenuController, Content, Platform } from 'ion
 import { DomSanitizer } from '@angular/platform-browser';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-import {BarcodeScanner} from '@ionic-native/barcode-scanner';
-import { AlertController, ToastController, LoadingController } from 'ionic-angular';
-import { Loading } from 'ionic-angular';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
 import { GlobalVars } from '../providers/globalvars';
 import { AuthService} from '../providers/auth-service';
@@ -44,17 +42,15 @@ import { DosingChildsPage } from '../dosing-childs/dosing-childs';
 })
 export class DosingPage {
   @ViewChild(Content) content: Content;
-  loading: Loading;
   currentPage: number;
 	AbsoluteURL: string;
   pages: any;
   isLoggedIn: boolean;
   html_data: any;
-  barcodeDlg: any;
+  barcodeDlg = {};
   constructor(public navCtrl: NavController, public navParams: NavParams, 
       public http: Http, private sanitizer: DomSanitizer,
       public menu: MenuController, private authService: AuthService,
-      public alertCtrl: AlertController, public loadingCtrl: LoadingController, public toastCtrl: ToastController,
       private barcodeScanner: BarcodeScanner, public platform: Platform) {
     let user = this.authService.getUserInfo();
     if (user == null)
@@ -65,18 +61,18 @@ export class DosingPage {
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();
     this.currentPage = 0;
     this.pages = [true, true, true, true, true, true, true];
-    this.loading = null;
 
-    this.barcodeDlg = {};
-    this.barcodeDlg['show'] = false;
+    this.barcodeDlg['show'] = 0;
     this.barcodeDlg['maxWidth'] = 600;
     this.barcodeDlg['left'] = 0;
     this.barcodeDlg['top'] = 0;
     this.barcodeDlg['width'] = 200;
-    this.barcodeDlg['height'] = 333;
+    this.barcodeDlg['height'] = 100;
     this.barcodeDlg['name'] = "";
+    this.barcodeDlg['description'] = "";
     this.barcodeDlg['image'] = "";
     this.barcodeDlg['url'] = "";
+    this.barcodeDlg['msg'] = "";
   }
   getHtmlData(){
     this.html_data = null
@@ -125,67 +121,67 @@ export class DosingPage {
   ionViewDidLoad() {
     this.getHtmlData();
   }
-  scanner(){
+  scanner(){   
     this.barcodeScanner.scan().then(brcode=>{
+      // var scannedCode = "041100811028";
       var scannedCode=brcode.text;
-      // scannedCode = "041100811028";
+      if (scannedCode.length == 12)
+        scannedCode = "0" + scannedCode;
       let barApiUrl = GlobalVars.getApiURL() + "code=" + scannedCode + "&ppp=barcode";
       this.http.get(barApiUrl).map(response => response.json()).subscribe(data => {
           setTimeout(() => {
             if (data.res == 'success')
             {
-              var scrollPos = this.content.getContentDimensions().scrollTop;
-              this.barcodeDlg['width'] = this.platform.width() * 0.9;
-              if (this.barcodeDlg['width'] > this.barcodeDlg['maxWidth'])
-                this.barcodeDlg['width'] = this.barcodeDlg['maxWidth'];
-              this.barcodeDlg['left'] = (this.platform.width() - this.barcodeDlg['width']) / 2;
-              this.barcodeDlg['top'] = (this.platform.height() - this.barcodeDlg['height']) / 2 + scrollPos - 60;
-
               this.barcodeDlg['name'] = data['drug_name'];
+              this.barcodeDlg['description'] = data['drug_description'];
               this.barcodeDlg['image'] = data['drug_image_file'];
               this.barcodeDlg['url'] = data['drug_ingredient_url'];
-              this.barcodeDlg['show'] = true;
+              
+              this.toggleDlg(1);
             }
             else
             {
-              this.barcodeDlg['show'] = false; 
-              this.showToast('Failed to get the required data');
+              this.barcodeDlg['msg'] = 'Failed to get the required data. The current barcode is ' + scannedCode;
+              this.toggleDlg(2);
             }
           });
         }),
         err => {
           setTimeout(() => {
-              this.barcodeDlg['show'] = false;
-              this.showToast("Access denied");
+              this.barcodeDlg['msg'] = "Access denied.";
+              this.toggleDlg(2);
           });
         }
     }, (err)=>{
-      this.barcodeDlg['show'] = false;
+      this.barcodeDlg['msg'] = "Barcode is not working.";
+      this.toggleDlg(2);
     });
   }
-  toggleDlg(b: boolean)
+  toggleDlg(b: number)
   {
+    if (b != 0)
+    {
+      var scrollPos = this.content.getContentDimensions().scrollTop;
+      if (b == 1)
+        this.barcodeDlg['height'] = 350;
+      else
+        this.barcodeDlg['height'] = 100;
+      this.barcodeDlg['width'] = this.platform.width() * 0.9;
+      if (this.barcodeDlg['width'] > this.barcodeDlg['maxWidth'])
+        this.barcodeDlg['width'] = this.barcodeDlg['maxWidth'];
+      this.barcodeDlg['left'] = (this.platform.width() - this.barcodeDlg['width']) / 2;
+      this.barcodeDlg['top'] = (this.platform.height() - this.barcodeDlg['height']) / 2 + scrollPos - 60;
+    }
     this.barcodeDlg['show'] = b;
   }
   clickBarcode(n: number)
   {
     if (n==0) // No
-      this.toggleDlg(false);
+      this.toggleDlg(0);
     else
     {
       GlobalVars.setPageId(44);
       this.navCtrl.push(DosingChildsPage);
     }
-  }
-  showToast(message: string) {
-    if (this.loading != null) {
-      this.loading.dismiss().catch(() => {});
-    }
-    
-    let toast = this.toastCtrl.create({
-      message: message,
-      duration: 3000
-    });
-    toast.present();
   }
 }

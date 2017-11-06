@@ -6483,7 +6483,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 // LoratadinePage,       // 1
 // CetirizinePage,       // 2
 // FexofenadinePage,     // 3
@@ -6506,18 +6505,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // MilkMagnesiaPage,     // 20
 // RobitussinPage        // 21
 var DosingPage = (function () {
-    function DosingPage(navCtrl, navParams, http, sanitizer, menu, authService, alertCtrl, loadingCtrl, toastCtrl, barcodeScanner, platform) {
+    function DosingPage(navCtrl, navParams, http, sanitizer, menu, authService, barcodeScanner, platform) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.http = http;
         this.sanitizer = sanitizer;
         this.menu = menu;
         this.authService = authService;
-        this.alertCtrl = alertCtrl;
-        this.loadingCtrl = loadingCtrl;
-        this.toastCtrl = toastCtrl;
         this.barcodeScanner = barcodeScanner;
         this.platform = platform;
+        this.barcodeDlg = {};
         var user = this.authService.getUserInfo();
         if (user == null)
             this.isLoggedIn = false;
@@ -6527,17 +6524,17 @@ var DosingPage = (function () {
         this.AbsoluteURL = __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].getAbsoluteURL();
         this.currentPage = 0;
         this.pages = [true, true, true, true, true, true, true];
-        this.loading = null;
-        this.barcodeDlg = {};
-        this.barcodeDlg['show'] = false;
+        this.barcodeDlg['show'] = 0;
         this.barcodeDlg['maxWidth'] = 600;
         this.barcodeDlg['left'] = 0;
         this.barcodeDlg['top'] = 0;
         this.barcodeDlg['width'] = 200;
-        this.barcodeDlg['height'] = 333;
+        this.barcodeDlg['height'] = 100;
         this.barcodeDlg['name'] = "";
+        this.barcodeDlg['description'] = "";
         this.barcodeDlg['image'] = "";
         this.barcodeDlg['url'] = "";
+        this.barcodeDlg['msg'] = "";
     }
     DosingPage.prototype.getHtmlData = function () {
         var _this = this;
@@ -6588,77 +6585,74 @@ var DosingPage = (function () {
     DosingPage.prototype.scanner = function () {
         var _this = this;
         this.barcodeScanner.scan().then(function (brcode) {
+            // var scannedCode = "041100811028";
             var scannedCode = brcode.text;
-            // scannedCode = "041100811028";
+            if (scannedCode.length == 12)
+                scannedCode = "0" + scannedCode;
             var barApiUrl = __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].getApiURL() + "code=" + scannedCode + "&ppp=barcode";
             _this.http.get(barApiUrl).map(function (response) { return response.json(); }).subscribe(function (data) {
                 setTimeout(function () {
                     if (data.res == 'success') {
-                        var scrollPos = _this.content.getContentDimensions().scrollTop;
-                        _this.barcodeDlg['width'] = _this.platform.width() * 0.9;
-                        if (_this.barcodeDlg['width'] > _this.barcodeDlg['maxWidth'])
-                            _this.barcodeDlg['width'] = _this.barcodeDlg['maxWidth'];
-                        _this.barcodeDlg['left'] = (_this.platform.width() - _this.barcodeDlg['width']) / 2;
-                        _this.barcodeDlg['top'] = (_this.platform.height() - _this.barcodeDlg['height']) / 2 + scrollPos - 60;
                         _this.barcodeDlg['name'] = data['drug_name'];
+                        _this.barcodeDlg['description'] = data['drug_description'];
                         _this.barcodeDlg['image'] = data['drug_image_file'];
                         _this.barcodeDlg['url'] = data['drug_ingredient_url'];
-                        _this.barcodeDlg['show'] = true;
+                        _this.toggleDlg(1);
                     }
                     else {
-                        _this.barcodeDlg['show'] = false;
-                        _this.showToast('Failed to get the required data');
+                        _this.barcodeDlg['msg'] = 'Failed to get the required data. The current barcode is ' + scannedCode;
+                        _this.toggleDlg(2);
                     }
                 });
             }),
                 function (err) {
                     setTimeout(function () {
-                        _this.barcodeDlg['show'] = false;
-                        _this.showToast("Access denied");
+                        _this.barcodeDlg['msg'] = "Access denied.";
+                        _this.toggleDlg(2);
                     });
                 };
         }, function (err) {
-            _this.barcodeDlg['show'] = false;
+            _this.barcodeDlg['msg'] = "Barcode is not working.";
+            _this.toggleDlg(2);
         });
     };
     DosingPage.prototype.toggleDlg = function (b) {
+        if (b != 0) {
+            var scrollPos = this.content.getContentDimensions().scrollTop;
+            if (b == 1)
+                this.barcodeDlg['height'] = 350;
+            else
+                this.barcodeDlg['height'] = 100;
+            this.barcodeDlg['width'] = this.platform.width() * 0.9;
+            if (this.barcodeDlg['width'] > this.barcodeDlg['maxWidth'])
+                this.barcodeDlg['width'] = this.barcodeDlg['maxWidth'];
+            this.barcodeDlg['left'] = (this.platform.width() - this.barcodeDlg['width']) / 2;
+            this.barcodeDlg['top'] = (this.platform.height() - this.barcodeDlg['height']) / 2 + scrollPos - 60;
+        }
         this.barcodeDlg['show'] = b;
     };
     DosingPage.prototype.clickBarcode = function (n) {
         if (n == 0)
-            this.toggleDlg(false);
+            this.toggleDlg(0);
         else {
             __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].setPageId(44);
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__dosing_childs_dosing_childs__["a" /* DosingChildsPage */]);
         }
     };
-    DosingPage.prototype.showToast = function (message) {
-        if (this.loading != null) {
-            this.loading.dismiss().catch(function () { });
-        }
-        var toast = this.toastCtrl.create({
-            message: message,
-            duration: 3000
-        });
-        toast.present();
-    };
     return DosingPage;
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]) === "function" && _a || Object)
 ], DosingPage.prototype, "content", void 0);
 DosingPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-dosing',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/'\n<ion-header class="ui-header">\n\n  <ion-navbar>\n    <ion-title>\n    	<h1 class="ui-title">\n      	&nbsp;\n      </h1>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (tap)="showMenu()">\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n	</ion-navbar>\n  <ion-navbar class="fullWidth roboto bgPink" *ngIf="currentPage==0">\n    <div [innerHTML]="html_data?.navbar"></div>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">\n  	<div class="floatright"> \n	    <a href="#" class="linkGrayLight font12 absoluteRight ui-link" data-inline="true" (tap)="gotoLogin()">Login</a>\n	</div>\n	<p class="font14">Which medication?</p>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == true">\n  	<div class="spinner floatright"></div>\n	<div class="floatright savedDose">\n	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>  \n	</div>\n	<p>Medication?</p>\n  </ion-navbar>\n</ion-header>\n\n<ion-content overflow-scroll="true"  padding class="ui-page-theme-i">\n	<div class="ui-content">\n		<div class="fullWidth mainPage" *ngIf="currentPage==0">\n			<div [innerHTML]="html_data?.header"></div>\n			<p class="centerText">\n				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let\'s get started</a>\n			</p>\n			<div [innerHTML]="html_data?.ppp"></div>\n		</div>\n		<div class="fullWidth mainPage transparentButton" *ngIf="currentPage==1">\n			<div class="opacity1">\n				<div [innerHTML]="html_data?.main_header"></div>\n				<div>\n					<p class="centerText" style="text-align: left;">\n						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Scan Barcode</a>\n					</p>\n					{{scannedcode}}\n					<div class="clearboth divider1"></div>\n					<br/><br/>\n				</div>\n			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">\n			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{\'ui-collapsible-collapsed\': pages[i]}">\n				        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">\n				        	<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" [ngClass]="{\'ui-icon-arrow-r\': pages[i], \'ui-icon-arrow-d\': !pages[i]}" (tap)="togglePage(i)">\n				        		<div [innerHTML]="each_data?.header"></div>\n				        	</a>\n				        </h3>\n				        <div class="ui-collapsible-content ui-body-inherit" aria-hidden="true" [ngClass]="{\'ui-collapsible-content-collapsed\': pages[i]}">\n				            <br>\n				            <ul data-role="listview" class="ui-listview">\n				            	<li *ngFor="let li_data of each_data?.list">\n				            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(li_data.id)">\n				                        <div [innerHTML]="li_data?.content"></div>\n				                    </a>\n				            	</li>\n				            </ul>\n				            <p>&nbsp;</p>\n				        </div>\n				    </div>\n				    <hr class="pink">\n			    </ng-container>\n			    <div [innerHTML]="html_data?.ppp"></div>\n			</div>\n		</div>\n	</div>\n	<div class="ui-popup-screen ui-overlay-b in" *ngIf="barcodeDlg.show" (click)="toggleDlg(false)"></div>\n	<div class="ui-popup-container pop in ui-popup-active" *ngIf="barcodeDlg.show" [ngStyle]="{\'max-width\': barcodeDlg.maxWidth+\'px\',\'top\': barcodeDlg.top+\'px\', \'left\': barcodeDlg.left+\'px\', \'width\': barcodeDlg.width+\'px\'}">\n	    <div data-role="popup" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">\n	        <div style="max-height: 500px; overflow-y: scroll;">\n	        	<p>You scanned:</p>\n	        	<div align="center" style="height: 150px;">\n			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> \n			    </div>\n				<p class="centerText">{{barcodeDlg.name}}</p>\n				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>\n				<div>\n					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>\n					<a href="#" style="float: right;" (click)="clickBarcode(1)">YES</a>\n				</div>\n	        </div>\n	    </div>\n	</div>\n</ion-content>\n\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/
+        selector: 'page-dosing',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/'\n<ion-header class="ui-header">\n\n  <ion-navbar>\n    <ion-title>\n    	<h1 class="ui-title">\n      	&nbsp;\n      </h1>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (tap)="showMenu()">\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n	</ion-navbar>\n  <ion-navbar class="fullWidth roboto bgPink" *ngIf="currentPage==0">\n    <div [innerHTML]="html_data?.navbar"></div>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">\n  	<div class="floatright"> \n	    <a href="#" class="linkGrayLight font12 absoluteRight ui-link" data-inline="true" (tap)="gotoLogin()">Login</a>\n	</div>\n	<p class="font14">Which medication?</p>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == true">\n  	<div class="spinner floatright"></div>\n	<div class="floatright savedDose">\n	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>  \n	</div>\n	<p>Medication?</p>\n  </ion-navbar>\n</ion-header>\n\n<ion-content overflow-scroll="true"  padding class="ui-page-theme-i">\n	<div class="ui-content">\n		<div class="fullWidth mainPage" *ngIf="currentPage==0">\n			<div [innerHTML]="html_data?.header"></div>\n			<p class="centerText">\n				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let\'s get started</a>\n			</p>\n			<div [innerHTML]="html_data?.ppp"></div>\n		</div>\n		<div class="fullWidth mainPage transparentButton" *ngIf="currentPage==1">\n			<div class="opacity1">\n				<div [innerHTML]="html_data?.main_header"></div>\n				<div>\n					<p class="centerText" style="text-align: left;">\n						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Scan Barcode</a>\n					</p>\n					<div class="clearboth divider1"></div>\n					<br/><br/>\n				</div>\n			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">\n			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{\'ui-collapsible-collapsed\': pages[i]}">\n				        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">\n				        	<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" [ngClass]="{\'ui-icon-arrow-r\': pages[i], \'ui-icon-arrow-d\': !pages[i]}" (tap)="togglePage(i)">\n				        		<div [innerHTML]="each_data?.header"></div>\n				        	</a>\n				        </h3>\n				        <div class="ui-collapsible-content ui-body-inherit" aria-hidden="true" [ngClass]="{\'ui-collapsible-content-collapsed\': pages[i]}">\n				            <br>\n				            <ul data-role="listview" class="ui-listview">\n				            	<li *ngFor="let li_data of each_data?.list">\n				            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(li_data.id)">\n				                        <div [innerHTML]="li_data?.content"></div>\n				                    </a>\n				            	</li>\n				            </ul>\n				            <p>&nbsp;</p>\n				        </div>\n				    </div>\n				    <hr class="pink">\n			    </ng-container>\n			    <div [innerHTML]="html_data?.ppp"></div>\n			</div>\n		</div>\n	</div>\n	<div class="ui-popup-screen ui-overlay-b in" *ngIf="barcodeDlg.show!=0" (click)="toggleDlg(false)"></div>\n	<div class="ui-popup-container pop in ui-popup-active" *ngIf="barcodeDlg.show!=0" [ngStyle]="{\'max-width\': barcodeDlg.maxWidth+\'px\',\'top\': barcodeDlg.top+\'px\', \'left\': barcodeDlg.left+\'px\', \'width\': barcodeDlg.width+\'px\'}">\n	    <div data-role="popup" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">\n	        <div style="max-height: 500px; overflow-y: scroll;" *ngIf="barcodeDlg.show==1">\n	        	<p>You scanned:</p>\n	        	<div align="center" style="height: 150px;">\n			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> \n			    </div>\n				<p class="centerText">{{barcodeDlg.name}}</p>\n				<p class="centerText">{{barcodeDlg.description}}</p>\n				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>\n				<div>\n					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>\n					<a href="#" style="float: right;" (click)="clickBarcode(1)">YES</a>\n				</div>\n	        </div>\n	        <div style="max-height: 500px; overflow-y: scroll;" *ngIf="barcodeDlg.show==2">\n	        	<p class="centerText">{{barcodeDlg.msg}}</p>\n	        </div>\n	    </div>\n	</div>\n</ion-content>\n\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */], __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-        __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _j || Object])
 ], DosingPage);
 
+var _a, _b, _c, _d, _e, _f, _g, _h, _j;
 //# sourceMappingURL=dosing.js.map
 
 /***/ }),

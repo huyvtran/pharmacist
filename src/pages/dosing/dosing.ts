@@ -36,6 +36,7 @@ import { DosingChildsPage } from '../dosing-childs/dosing-childs';
 // MilkMagnesiaPage,     // 20
 // RobitussinPage        // 21
 
+var url_length = 67;
 var url_analysis = {
   "0": "/diphenhydramine/diphen_liquid_mobile.php",
   "1": "/diphenhydramine/diphen_chewable_mobile.php",
@@ -206,9 +207,9 @@ export class DosingPage {
               this.barcodeDlg['description'] = data['drug_description'];
               this.barcodeDlg['image'] = data['drug_image_file'];
               this.barcodeDlg['url'] = data['drug_ingredient_url'];
-              for (let i=0;i<url_analysis.length;i++)
+              for (let i=0;i<url_length;i++)
               {
-                if (url_analysis[i] == drug['drug_ingredient_url'])
+                if (url_analysis[i] == data['drug_ingredient_url'])
                 {
                   this.barcodeDlg['goto'] = i; break;
                 }

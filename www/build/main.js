@@ -911,6 +911,7 @@ var DosingChildsPage = (function () {
             noscroll: false
         };
         this.pageId = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getPageId();
+        console.log(this.pageId);
         this.setting = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getPageSetting(mode[this.pageId]);
         this.menu = menu;
         this.AbsoluteURL = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getAbsoluteURL();
@@ -1092,18 +1093,16 @@ var DosingChildsPage = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]) === "function" && _a || Object)
 ], DosingChildsPage.prototype, "content", void 0);
 DosingChildsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'page-dosing-childs',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/dosing-childs/dosing-childs.html"*/'<ion-header class="ui-header {{setting.class}}">\n  	<ion-navbar>\n	    <ion-title>\n	    	<h1 class="ui-title">\n	      		{{html_data?.top_title[pageId]}}\n	      	</h1>\n	    </ion-title>\n	    <ion-buttons end>\n	      	<button ion-button icon-only (tap)="showMenu()">\n	        	<ion-icon name="menu"></ion-icon>\n	      	</button>\n	    </ion-buttons>\n		</ion-navbar>\n  	<ion-navbar class="fullWidth robotoLight {{setting.p}}">\n    	<p *ngIf="currentPage == 0" [innerHTML]="html_data?.title[pageId]"></p>\n    	<p *ngIf="currentPage > 0">Child\'s weight?</p>\n  	</ion-navbar>\n</ion-header>\n\n<ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}}" [ngClass]="{\'no-scroll\': convertDlgInfo.noscroll}">\n	<div class="ui-content" *ngIf="pageId==38 || pageId==43 || (pageId>=49 && pageId<=51) || pageId==58 || pageId==59">\n		<div [innerHTML]="html_data?.header[pageId]"></div>\n	</div>\n	<div class="ui-content" *ngIf="currentPage == 0 && pageId != 38 && pageId !=43 && pageId!=49 && pageId!=50 && pageId!=51 && pageId!=58 && pageId!=59">\n	    <div [innerHTML]="html_data?.header[pageId]"></div>\n	    <div id="q1" class="opacity7">\n	        <div data-role="fieldcontain" id="check_div2" class="ui-field-contain">\n	            <fieldset data-role="controlgroup" class="ui-nodisc-icon ui-controlgroup ui-controlgroup-vertical ui-corner-all">\n	                <div class="ui-controlgroup-controls ">\n	                	<ng-container *ngFor="let each of html_data?.labels[pageId]; let i=index">\n		                	<div class="ui-checkbox">\n		                		<label for="child_check_{{i}}" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left " [ngClass]="{\'ui-checkbox-off\': !options[i], \'ui-checkbox-on\': options[i]}" (tap)="toggleOptions(i)"><div [innerHTML]="each"></div></label>\n		                		<input type="checkbox" name="child_check" id="child_check_{{i}}" class="child_check" value="">\n		                	</div>\n		                	<hr>\n		                </ng-container>\n	                </div>\n	            </fieldset>\n	            <div class="clearboth divider1"></div>\n	        </div>\n	    </div>\n	    <div class="opacity3">\n	        <p class="centerText">\n	            <a href="#" data-role="none" class="disclaimerFYI linkAmber" data-inline="true" (tap)="toggleTerm()">FYI</a>\n	            <a href="#" id="child_check_button" *ngIf="options[ html_data?.labelcount[pageId] ] == true" (tap)="setCurrentPage(1)" class=" linkPinkBorder" data-role="none" data-inline="true" data-transition="slide">Please Continue</a>\n	        </p>\n	    </div>\n	    <div class="opacity8 disclaimerDiv paddingSides centerText" [ngClass]="{\'displayNone\': !showTerm}">\n	        <div [innerHTML]="html_data?.term"></div>\n	    </div>\n	    <div [innerHTML]="html_data?.ppp"></div>\n	</div>\n	<div class="ui-content" *ngIf="currentPage>0">\n	    <p>&nbsp;</p>\n	    <div id="slider_div" class="opacity3 padding0" *ngIf="currentPage==1">\n	        <div [innerHTML]="html_data?.page0[pageId]"></div>\n	        <div data-role="fieldcontain" class="ui-field-contain">\n	            <div class="ui-slider">\n	                <ion-item>\n						<ion-range min="{{html_data?.slider[pageId][\'min\']}}" max="{{html_data?.slider[pageId][\'max\']}}" [(ngModel)]="currentWeight" color="sliderPink">\n							<ion-label range-left>{{currentWeight}}(lbs)</ion-label>\n						</ion-range>\n					</ion-item>\n	            </div>\n	        </div>\n	        <div class="clearboth divider1"></div>\n	        <div class="centerText">\n	            <a href="#" id="mobi_wt_link" data-role="none" data-inline="true" class="linkOrange" (tap)="toggleConvertDlg(true)">FYI</a>\n	            <input type="button" id="get_slider" data-inline="true" class="buttonPinkBorder" data-role="none" value="Here you go" (tap)="setCurrentPage(2)">\n	        </div>\n	        <div [innerHTML]="html_data?.ppp"></div>\n	    </div>\n	    <div class="opacityNone padding0" *ngIf="currentPage==2">\n	        <div class="container_12" id="slider_value_container" *ngIf="currentPage==2">\n	            <div class="maxwidth450">\n	                <div class="{{setting.oval}}">\n	                    <div id="slider_value">You said: <span style="background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;">{{currentWeight}}</span> (lbs)</div>\n	                </div>\n	                <div align="right"><img src="{{html_data?.imgurl[pageId]}}" width="100" alt="Pharmacist"> \n	                </div>\n	            </div>\n	        </div>\n	        <div class="clearboth divider1"></div>\n	        <div id="lb">\n	            <div [innerHTML]="html_data?.weight_content[pageId][subPage]"></div>\n	            <p class="centerText"> \n	            	<a href="#" (tap)="saveDoseWeight()" id="save_24" data-role="none" data-inline="true" class="linkCyanBorderThin" *ngIf="subPage>0">Save</a> \n	                <button class="back_slider buttonPinkBorder" data-role="none" data-inline="true" (tap)="setCurrentPage(1)">New Wt.</button>\n	                <a href="#" data-role="none" data-inline="true" class="linkAmberBorderThin" (tap)="gotoDosePage()">\n	                	<span *ngIf="pageId<=62">New Dose</span>\n	                	<span *ngIf="pageId>62">New Drug</span>\n	                </a>\n	            </p>\n	            <p class="centerText" *ngIf="pageId==0">\n	            	<a href="#" data-inline="true" class="linkPurple_redThin showFeedbackAlert ui-link" (tap)="toggleFeedbackDlg(true)" > <span class="mbsc-ic mbsc-ic-ion-chatbubble-working font32"></span> Give Feedback </a>\n	            </p>\n	            <p>&nbsp;</p>\n	        </div>\n	        <div [innerHTML]="html_data?.ppp"></div>\n	    </div>\n	</div>\n	<div lang="en" class="mbsc-mobi-red mbsc-mobiscroll dw-modal  mbsc-wdg" *ngIf="showFeedbackDlg==true">\n	    <div class="dw-persp" [ngStyle]="{\'height\': feedbackDlgInfo.screenHeight+\'px\'}">\n	        <div class="dwo" (tap)="toggleFeedbackDlg(false)"></div>\n	        <div role="dialog" tabindex="-1" class="dw dw-ltr" [ngStyle]="{\'top\': feedbackDlgInfo.top+\'px\', \'left\': feedbackDlgInfo.left+\'px\'}">\n	            <div class="dwwr" style="white-space: nowrap;" [ngStyle]="{\'width\': feedbackDlgInfo.width+\'px\'}">\n	                <div [innerHTML]="html_data?.dlg1"></div>\n	                <div class="dwbc">\n	                    <div class="dwbw ">\n	                        <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="gotoDosePage()">Not Now</div>\n	                    </div>\n	                    <div class="dwbw ">\n	                        <div tabindex="0" role="button" class="dwb1 dwb-e dwb">Give Feedback</div>\n	                    </div>\n	                </div>\n	            </div>\n	        </div>\n	    </div>\n	</div>\n	<div lang="en" class="mbsc-mobi-red mbsc-mobiscroll dw-modal" *ngIf="showConvertDlg==true">\n		<div class="dw-persp" [ngStyle]="{\'height\': convertDlgInfo.screenHeight+\'px\'}">\n	      <div class="dwo" (tap)="toggleConvertDlg(false)"></div>\n	      <div role="dialog" tabindex="-1" class="dw dw-ltr" [ngStyle]="{\'top\': convertDlgInfo.top+\'px\', \'left\': convertDlgInfo.left+\'px\'}">\n	         <div class="dwwr" style="white-space: nowrap;" [ngStyle]="{\'width\': convertDlgInfo.width+\'px\'}">\n	            <div [innerHTML]="html_data?.dlg2"></div>\n	            <div class="dwbc">\n	               <div class="dwbw dwb-s">\n	                  <div tabindex="0" role="button" class="dwb0 dwb-e dwb" (tap)="doneConvert()">Here You Go</div>\n	               </div>\n	               <div class="dwbw dwb-c">\n	                  <div tabindex="0" role="button" class="dwb1 dwb-e dwb" (tap)="toggleConvertDlg(false)">Cancel</div>\n	               </div>\n	            </div>\n	         </div>\n	      </div>\n	   </div>\n	</div>\n</ion-content>\n\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/dosing-childs/dosing-childs.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */], __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__["a" /* AuthService */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],
-        __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__providers_auth_service__["a" /* AuthService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _k || Object, typeof (_l = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _l || Object])
 ], DosingChildsPage);
 
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
 //# sourceMappingURL=dosing-childs.js.map
 
 /***/ }),
@@ -6504,6 +6503,74 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // ImodiumPage,          // 19
 // MilkMagnesiaPage,     // 20
 // RobitussinPage        // 21
+var url_analysis = {
+    "0": "/diphenhydramine/diphen_liquid_mobile.php",
+    "1": "/diphenhydramine/diphen_chewable_mobile.php",
+    "2": "/diphenhydramine/diphen_adult_mobile.php",
+    "3": "/loratadine/loratadine_liquid_mobile.php",
+    "4": "/loratadine/loratadine_chewable_mobile.php",
+    "5": "/loratadine/loratadine_disintegrating_mobile.php",
+    "6": "/loratadine/loratadine_adult_mobile.php",
+    "7": "/cetirizine/cetirizine_liquid_mobile.php",
+    "8": "/cetirizine/cetirizine_chewable_mobile.php",
+    "9": "/cetirizine/cetirizine_adult_mobile.php",
+    "10": "/fexofenadine/fexofenadine_liquid_mobile.php",
+    "11": "/fexofenadine/fexofenadine_chewable_mobile.php",
+    "12": "/tums/tums_kids_mobile.php",
+    "13": "/tums/tums_regular_mobile.php",
+    "14": "/maalox/maalox_children_mobile.php",
+    "15": "/maalox/maalox_junior_mobile.php",
+    "16": "/maalox/maalox_regular_mobile.php",
+    "17": "/sudafed/sudafed.php",
+    "18": "/sudafed/sudafed_pe_mobile.php",
+    "19": "/sudafed/sudafed_cold_cough_mobile.php",
+    "20": "/sudafed/sudafed_pseudotab_mobile.php",
+    "21": "/pediacare/pediacare_multi_symptom_cold_mobile.php",
+    "22": "/pediacare/pediacare_cough_runnynose_mobile.php",
+    "23": "/pediacare/pediacare_cough_congestion_mobile.php",
+    "24": "/pediacare/pediacare_daytime_ms_cold_mobile.php",
+    "25": "/pediacare/pediacare_flu_mobile.php",
+    "27": "/pediacare/pediacare_cough_sorethroat_mobile.php",
+    "28": "/dimetapp/dimetapp_cold_cough_mobile.php",
+    "29": "/dimetapp/dimetapp_cold_allergy_mobile.php",
+    "30": "/dimetapp/dimetapp_cold_flu_mobile.php",
+    "31": "/dimetapp/dimetapp_cold_coughla_mobile.php",
+    "32": "/dimetapp/dimetapp_cold_congestion_mobile.php",
+    "33": "/triaminic/triaminic_multi_symptom_fever_cold_mobile.php",
+    "34": "/triaminic/triaminic_cough_congestion_mobile.php",
+    "35": "/triaminic/triaminic_cough_sorethroat_mobile.php",
+    "36": "/triaminic/triaminic_daytime_cold_cough_mobile.php",
+    "37": "/triaminic/triaminic_nighttime_cold_cough_mobile.php",
+    "38": "/mucinex/mucinex_ms_cold_fever_mobile.php",
+    "39": "/mucinex/mucinex_ms_cold_mobile.php",
+    "40": "/mucinex/mucinex_cold_cough_sorethroat_mobile.php",
+    "41": "/mucinex/mucinex_nighttime_ms_cold_mobile.php",
+    "42": "/little/little_ms_cold_fever_mobile.php",
+    "43": "/little/little_decongestant_drops_mobile.php",
+    "44": "/acetaminophen/infant_susp_mobile.php",
+    "45": "/acetaminophen/children_susp_mobile.php",
+    "46": "/acetaminophen/children_chewable_mobile.php",
+    "47": "/acetaminophen/junior_chewable_mobile.php",
+    "48": "/acetaminophen/regular_acet_mobile.php",
+    "49": "/acetaminophen/infant_suppository_mobile.php",
+    "50": "/acetaminophen/children_suppository_mobile.php",
+    "51": "/acetaminophen/junior_suppository_mobile.php",
+    "52": "/ibuprofen/ibuprofen_infant_drops_mobile.php",
+    "53": "/ibuprofen/ibuprofen_suspension_mobile.php",
+    "54": "/ibuprofen/ibuprofen_chewable_mobile.php",
+    "55": "/ibuprofen/ibuprofen_adult_mobile.php",
+    "56": "/pedialax/pedialax_chewable_mobile.php",
+    "57": "/pedialax/pedialax_liquid_mobile.php",
+    "58": "/pedialax/pedialax_glycerin_mobile.php",
+    "59": "/pedialax/pedialax_enema_mobile.php",
+    "60": "/robitussin/robitussin_cough_cold_mobile.php",
+    "61": "/robitussin/robitussin_cough_chest_mobile.php",
+    "62": "/robitussin/robitussin_cough_cold_la_mobile.php",
+    "63": "/others/miralax.php",
+    "64": "/others/fletchers.php",
+    "65": "/others/imodium.php",
+    "66": "/others/milk_magnesia.php"
+};
 var DosingPage = (function () {
     function DosingPage(navCtrl, navParams, http, sanitizer, menu, authService, barcodeScanner, platform) {
         this.navCtrl = navCtrl;
@@ -6534,6 +6601,7 @@ var DosingPage = (function () {
         this.barcodeDlg['description'] = "";
         this.barcodeDlg['image'] = "";
         this.barcodeDlg['url'] = "";
+        this.barcodeDlg['goto'] = -1;
         this.barcodeDlg['msg'] = "";
     }
     DosingPage.prototype.getHtmlData = function () {
@@ -6597,6 +6665,12 @@ var DosingPage = (function () {
                         _this.barcodeDlg['description'] = data['drug_description'];
                         _this.barcodeDlg['image'] = data['drug_image_file'];
                         _this.barcodeDlg['url'] = data['drug_ingredient_url'];
+                        for (var i = 0; i < url_analysis.length; i++) {
+                            if (url_analysis[i] == drug['drug_ingredient_url']) {
+                                _this.barcodeDlg['goto'] = i;
+                                break;
+                            }
+                        }
                         _this.toggleDlg(1);
                     }
                     else {
@@ -6620,7 +6694,7 @@ var DosingPage = (function () {
         if (b != 0) {
             var scrollPos = this.content.getContentDimensions().scrollTop;
             if (b == 1)
-                this.barcodeDlg['height'] = 350;
+                this.barcodeDlg['height'] = 400;
             else
                 this.barcodeDlg['height'] = 100;
             this.barcodeDlg['width'] = this.platform.width() * 0.9;
@@ -6635,7 +6709,7 @@ var DosingPage = (function () {
         if (n == 0)
             this.toggleDlg(0);
         else {
-            __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].setPageId(44);
+            __WEBPACK_IMPORTED_MODULE_6__providers_globalvars__["a" /* GlobalVars */].setPageId(this.barcodeDlg['goto']);
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__dosing_childs_dosing_childs__["a" /* DosingChildsPage */]);
         }
     };
@@ -6643,18 +6717,16 @@ var DosingPage = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]) === "function" && _a || Object)
 ], DosingPage.prototype, "content", void 0);
 DosingPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'page-dosing',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/'\n<ion-header class="ui-header">\n\n  <ion-navbar>\n    <ion-title>\n    	<h1 class="ui-title">\n      	&nbsp;\n      </h1>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button icon-only (tap)="showMenu()">\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n	</ion-navbar>\n  <ion-navbar class="fullWidth roboto bgPink" *ngIf="currentPage==0">\n    <div [innerHTML]="html_data?.navbar"></div>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">\n  	<div class="floatright"> \n	    <a href="#" class="linkGrayLight font12 absoluteRight ui-link" data-inline="true" (tap)="gotoLogin()">Login</a>\n	</div>\n	<p class="font14">Which medication?</p>\n  </ion-navbar>\n  <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == true">\n  	<div class="spinner floatright"></div>\n	<div class="floatright savedDose">\n	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>  \n	</div>\n	<p>Medication?</p>\n  </ion-navbar>\n</ion-header>\n\n<ion-content overflow-scroll="true"  padding class="ui-page-theme-i">\n	<div class="ui-content">\n		<div class="fullWidth mainPage" *ngIf="currentPage==0">\n			<div [innerHTML]="html_data?.header"></div>\n			<p class="centerText">\n				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let\'s get started</a>\n			</p>\n			<div [innerHTML]="html_data?.ppp"></div>\n		</div>\n		<div class="fullWidth mainPage transparentButton" *ngIf="currentPage==1">\n			<div class="opacity1">\n				<div [innerHTML]="html_data?.main_header"></div>\n				<div>\n					<p class="centerText" style="text-align: left;">\n						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Scan Barcode</a>\n					</p>\n					<div class="clearboth divider1"></div>\n					<br/><br/>\n				</div>\n			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">\n			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{\'ui-collapsible-collapsed\': pages[i]}">\n				        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">\n				        	<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-icon-arrow-r ui-btn-icon-left ui-btn-inherit" [ngClass]="{\'ui-icon-arrow-r\': pages[i], \'ui-icon-arrow-d\': !pages[i]}" (tap)="togglePage(i)">\n				        		<div [innerHTML]="each_data?.header"></div>\n				        	</a>\n				        </h3>\n				        <div class="ui-collapsible-content ui-body-inherit" aria-hidden="true" [ngClass]="{\'ui-collapsible-content-collapsed\': pages[i]}">\n				            <br>\n				            <ul data-role="listview" class="ui-listview">\n				            	<li *ngFor="let li_data of each_data?.list">\n				            		<a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r" (tap)="gotoSubPage(li_data.id)">\n				                        <div [innerHTML]="li_data?.content"></div>\n				                    </a>\n				            	</li>\n				            </ul>\n				            <p>&nbsp;</p>\n				        </div>\n				    </div>\n				    <hr class="pink">\n			    </ng-container>\n			    <div [innerHTML]="html_data?.ppp"></div>\n			</div>\n		</div>\n	</div>\n	<div class="ui-popup-screen ui-overlay-b in" *ngIf="barcodeDlg.show!=0" (click)="toggleDlg(false)"></div>\n	<div class="ui-popup-container pop in ui-popup-active" *ngIf="barcodeDlg.show!=0" [ngStyle]="{\'max-width\': barcodeDlg.maxWidth+\'px\',\'top\': barcodeDlg.top+\'px\', \'left\': barcodeDlg.left+\'px\', \'width\': barcodeDlg.width+\'px\'}">\n	    <div data-role="popup" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">\n	        <div style="max-height: 500px; overflow-y: scroll;" *ngIf="barcodeDlg.show==1">\n	        	<p>You scanned:</p>\n	        	<div align="center" style="height: 150px;">\n			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> \n			    </div>\n				<p class="centerText">{{barcodeDlg.name}}</p>\n				<p class="centerText">{{barcodeDlg.description}}</p>\n				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>\n				<div>\n					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>\n					<a href="#" style="float: right;" (click)="clickBarcode(1)">YES</a>\n				</div>\n	        </div>\n	        <div style="max-height: 500px; overflow-y: scroll;" *ngIf="barcodeDlg.show==2">\n	        	<p class="centerText">{{barcodeDlg.msg}}</p>\n	        </div>\n	    </div>\n	</div>\n</ion-content>\n\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/dosing/dosing.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */], __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */],
-        __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__providers_auth_service__["a" /* AuthService */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _j || Object])
 ], DosingPage);
 
+var _a, _b, _c, _d, _e, _f, _g, _h, _j;
 //# sourceMappingURL=dosing.js.map
 
 /***/ }),

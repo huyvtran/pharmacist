@@ -152,6 +152,7 @@ export class DosingChildsPage {
       public http: Http, private sanitizer: DomSanitizer,
       public platform: Platform) {
   	this.pageId = GlobalVars.getPageId();
+    console.log(this.pageId);
     this.setting = GlobalVars.getPageSetting(mode[this.pageId]);
     this.menu = menu;
   	this.AbsoluteURL = GlobalVars.getAbsoluteURL();

@@ -36,6 +36,75 @@ import { DosingChildsPage } from '../dosing-childs/dosing-childs';
 // MilkMagnesiaPage,     // 20
 // RobitussinPage        // 21
 
+var url_analysis = {
+  "0": "/diphenhydramine/diphen_liquid_mobile.php",
+  "1": "/diphenhydramine/diphen_chewable_mobile.php",
+  "2": "/diphenhydramine/diphen_adult_mobile.php",
+  "3": "/loratadine/loratadine_liquid_mobile.php",
+  "4": "/loratadine/loratadine_chewable_mobile.php",
+  "5": "/loratadine/loratadine_disintegrating_mobile.php",
+  "6": "/loratadine/loratadine_adult_mobile.php",
+  "7": "/cetirizine/cetirizine_liquid_mobile.php",
+  "8": "/cetirizine/cetirizine_chewable_mobile.php",
+  "9": "/cetirizine/cetirizine_adult_mobile.php",
+  "10": "/fexofenadine/fexofenadine_liquid_mobile.php",
+  "11": "/fexofenadine/fexofenadine_chewable_mobile.php",
+  "12": "/tums/tums_kids_mobile.php",
+  "13": "/tums/tums_regular_mobile.php",
+  "14": "/maalox/maalox_children_mobile.php",
+  "15": "/maalox/maalox_junior_mobile.php",
+  "16": "/maalox/maalox_regular_mobile.php",
+  "17": "/sudafed/sudafed.php",
+  "18": "/sudafed/sudafed_pe_mobile.php",
+  "19": "/sudafed/sudafed_cold_cough_mobile.php",
+  "20": "/sudafed/sudafed_pseudotab_mobile.php",
+  "21": "/pediacare/pediacare_multi_symptom_cold_mobile.php",
+  "22": "/pediacare/pediacare_cough_runnynose_mobile.php",
+  "23": "/pediacare/pediacare_cough_congestion_mobile.php",
+  "24": "/pediacare/pediacare_daytime_ms_cold_mobile.php",
+  "25": "/pediacare/pediacare_flu_mobile.php",
+  "27": "/pediacare/pediacare_cough_sorethroat_mobile.php",
+  "28": "/dimetapp/dimetapp_cold_cough_mobile.php",
+  "29": "/dimetapp/dimetapp_cold_allergy_mobile.php",
+  "30": "/dimetapp/dimetapp_cold_flu_mobile.php",
+  "31": "/dimetapp/dimetapp_cold_coughla_mobile.php",
+  "32": "/dimetapp/dimetapp_cold_congestion_mobile.php",
+  "33": "/triaminic/triaminic_multi_symptom_fever_cold_mobile.php",
+  "34": "/triaminic/triaminic_cough_congestion_mobile.php",
+  "35": "/triaminic/triaminic_cough_sorethroat_mobile.php",
+  "36": "/triaminic/triaminic_daytime_cold_cough_mobile.php",
+  "37": "/triaminic/triaminic_nighttime_cold_cough_mobile.php",
+  "38": "/mucinex/mucinex_ms_cold_fever_mobile.php",
+  "39": "/mucinex/mucinex_ms_cold_mobile.php",
+  "40": "/mucinex/mucinex_cold_cough_sorethroat_mobile.php",
+  "41": "/mucinex/mucinex_nighttime_ms_cold_mobile.php",
+  "42": "/little/little_ms_cold_fever_mobile.php",
+  "43": "/little/little_decongestant_drops_mobile.php",
+  "44": "/acetaminophen/infant_susp_mobile.php",
+  "45": "/acetaminophen/children_susp_mobile.php",
+  "46": "/acetaminophen/children_chewable_mobile.php",
+  "47": "/acetaminophen/junior_chewable_mobile.php",
+  "48": "/acetaminophen/regular_acet_mobile.php",
+  "49": "/acetaminophen/infant_suppository_mobile.php",
+  "50": "/acetaminophen/children_suppository_mobile.php",
+  "51": "/acetaminophen/junior_suppository_mobile.php",
+  "52": "/ibuprofen/ibuprofen_infant_drops_mobile.php",
+  "53": "/ibuprofen/ibuprofen_suspension_mobile.php",
+  "54": "/ibuprofen/ibuprofen_chewable_mobile.php",
+  "55": "/ibuprofen/ibuprofen_adult_mobile.php",
+  "56": "/pedialax/pedialax_chewable_mobile.php",
+  "57": "/pedialax/pedialax_liquid_mobile.php",
+  "58": "/pedialax/pedialax_glycerin_mobile.php",
+  "59": "/pedialax/pedialax_enema_mobile.php",
+  "60": "/robitussin/robitussin_cough_cold_mobile.php",
+  "61": "/robitussin/robitussin_cough_chest_mobile.php",
+  "62": "/robitussin/robitussin_cough_cold_la_mobile.php",
+  "63": "/others/miralax.php",
+  "64": "/others/fletchers.php",
+  "65": "/others/imodium.php",
+  "66": "/others/milk_magnesia.php"
+};
+
 @Component({
   selector: 'page-dosing',
   templateUrl: 'dosing.html'
@@ -72,6 +141,7 @@ export class DosingPage {
     this.barcodeDlg['description'] = "";
     this.barcodeDlg['image'] = "";
     this.barcodeDlg['url'] = "";
+    this.barcodeDlg['goto'] = -1;
     this.barcodeDlg['msg'] = "";
   }
   getHtmlData(){
@@ -136,7 +206,13 @@ export class DosingPage {
               this.barcodeDlg['description'] = data['drug_description'];
               this.barcodeDlg['image'] = data['drug_image_file'];
               this.barcodeDlg['url'] = data['drug_ingredient_url'];
-              
+              for (let i=0;i<url_analysis.length;i++)
+              {
+                if (url_analysis[i] == drug['drug_ingredient_url'])
+                {
+                  this.barcodeDlg['goto'] = i; break;
+                }
+              }
               this.toggleDlg(1);
             }
             else
@@ -163,7 +239,7 @@ export class DosingPage {
     {
       var scrollPos = this.content.getContentDimensions().scrollTop;
       if (b == 1)
-        this.barcodeDlg['height'] = 350;
+        this.barcodeDlg['height'] = 400;
       else
         this.barcodeDlg['height'] = 100;
       this.barcodeDlg['width'] = this.platform.width() * 0.9;
@@ -180,7 +256,7 @@ export class DosingPage {
       this.toggleDlg(0);
     else
     {
-      GlobalVars.setPageId(44);
+      GlobalVars.setPageId(this.barcodeDlg['goto']);
       this.navCtrl.push(DosingChildsPage);
     }
   }

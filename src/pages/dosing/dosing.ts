@@ -218,7 +218,7 @@ export class DosingPage {
             }
             else
             {
-              this.barcodeDlg['msg'] = 'Failed to get the required data. The current barcode is ' + scannedCode;
+              this.barcodeDlg['msg'] = 'Medication not found on file. Please use the list below. The current barcode is ' + scannedCode;
               this.toggleDlg(2);
             }
           });

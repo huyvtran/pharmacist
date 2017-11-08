@@ -193,13 +193,18 @@ export class DosingPage {
     this.getHtmlData();
   }
   scanner(){   
-    this.barcodeScanner.scan().then(brcode=>{
-      // var scannedCode = "041100811028";
-      var scannedCode=brcode.text;
-      if (scannedCode.length == 12)
-        scannedCode = "0" + scannedCode;
-      let barApiUrl = GlobalVars.getApiURL() + "code=" + scannedCode + "&ppp=barcode";
-      this.http.get(barApiUrl).map(response => response.json()).subscribe(data => {
+    this.barcodeScanner.scan({
+          "preferFrontCamera" : false, // iOS and Android
+          "showFlipCameraButton" : true, // iOS and Android
+          "showTorchButton" : true, // iOS and Android
+        }
+      ).then(brcode=>{
+        // var scannedCode = "041100811028";
+        var scannedCode=brcode.text;
+        if (scannedCode.length == 12)
+          scannedCode = "0" + scannedCode;
+        let barApiUrl = GlobalVars.getApiURL() + "code=" + scannedCode + "&ppp=barcode";
+        this.http.get(barApiUrl).map(response => response.json()).subscribe(data => {
           setTimeout(() => {
             if (data.res == 'success')
             {
@@ -229,10 +234,10 @@ export class DosingPage {
               this.toggleDlg(2);
           });
         }
-    }, (err)=>{
-      this.barcodeDlg['msg'] = "Barcode is not working.";
-      this.toggleDlg(2);
-    });
+      }, (err)=>{
+        this.barcodeDlg['msg'] = "Barcode is not working.";
+        this.toggleDlg(2);
+      });
   }
   toggleDlg(b: number)
   {

@@ -84,7 +84,7 @@
 			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> 
 			    </div>
 				<p class="centerText">{{barcodeDlg.name}}</p>
-				<p class="centerText">{{barcodeDlg.description}}</p>
+				<p class="centerText" [innerHTML]="barcodeDlg.description"></p>
 				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>
 				<div>
 					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>

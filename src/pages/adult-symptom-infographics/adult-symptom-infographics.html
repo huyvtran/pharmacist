@@ -1,18 +1,18 @@
-<!--
-  Generated template for the AdultSymptomInfographics page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
+<ion-header class="ui-header {{setting.class}}">
   <ion-navbar>
-    <ion-title>adult-symptom-infographics</ion-title>
-  </ion-navbar>
-
+    	<ion-title>
+	    	<h1 class="ui-title" *ngIf="html_data!=null">
+	      		{{html_data[pageId]?.title}}
+	      	</h1>
+    	</ion-title>
+    	<ion-buttons end>
+      		<button ion-button icon-only (click)="showMenu()">
+        		<ion-icon name="menu"></ion-icon>
+      		</button>
+    	</ion-buttons>
+	</ion-navbar>
 </ion-header>
-
-
-<ion-content padding>
-
+<ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}} ui-page-theme-{{pagemode[pageId]}}">
+	<div class="ui-content" role="main" *ngIf="html_data!=null">
+	</div>
 </ion-content>

@@ -3469,6 +3469,11 @@ DirectionsMapDirective = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdultSymptomInfographicsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__ = __webpack_require__(8);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3480,29 +3485,120 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-/*
-  Generated class for the AdultSymptomInfographics page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
+
+
+
 var AdultSymptomInfographicsPage = (function () {
-    function AdultSymptomInfographicsPage(navCtrl, navParams) {
+    function AdultSymptomInfographicsPage(navCtrl, navParams, menu, platform, http, sanitizer) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.menu = menu;
+        this.platform = platform;
+        this.http = http;
+        this.sanitizer = sanitizer;
+        this.pagemode = {
+            0: 'g',
+            1: 'a',
+            2: 'i',
+            3: 'n',
+            4: 'n',
+            5: 'p',
+            6: 'a',
+            7: 'i',
+            8: 'i',
+            9: 'i',
+            10: 'o',
+            11: 'n',
+            12: 'o',
+            13: 'i',
+            14: 'p',
+            15: 'e',
+            16: 'd',
+            17: 'a',
+            18: 'n',
+            19: 'i',
+            20: 'a',
+            21: 'p',
+            22: 'n',
+            23: 'n',
+            24: 'i',
+            25: 'p',
+            26: 'a',
+            27: 'i',
+            28: 'f',
+            29: 'n',
+            30: 'o',
+            31: 'n',
+            32: 'p',
+            33: 'i',
+            34: 'n',
+            35: 'a',
+            36: 'n',
+            37: 'p',
+            38: 'n',
+            39: 'o',
+            40: 'i',
+            41: 'e',
+            42: 'f',
+            43: 'n',
+            44: 'i',
+            45: 'n',
+            46: 'a',
+            47: 'i',
+            48: 'n',
+            49: 'n',
+            50: 'i',
+            51: 'n',
+            52: 'n',
+            53: 'i',
+            54: 'o',
+            55: 'h',
+            56: 'o',
+            57: 'i',
+            58: 'a',
+            59: 'n',
+            60: 'o',
+            61: 'a',
+            62: 'i',
+            63: 'e',
+            64: 'a',
+            65: 'n',
+            66: 'o',
+            67: 'i'
+        };
+        this.menu = menu;
+        this.pageId = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getPageId();
+        this.setting = __WEBPACK_IMPORTED_MODULE_5__providers_globalvars__["a" /* GlobalVars */].getPageSetting(this.pagemode[this.pageId]);
+        this.html_data = null;
+        this.getHtmlData();
+        console.log(this.pageId);
     }
+    AdultSymptomInfographicsPage.prototype.showMenu = function () {
+        var menu = document.querySelector('ion-menu ion-content');
+        menu.className = "outer-content content" + " " + this.setting['class'];
+        this.menu.open();
+    };
+    AdultSymptomInfographicsPage.prototype.getHtmlData = function () {
+        var _this = this;
+        var num = Math.floor(this.pageId / 4);
+        this.html_data = null;
+        this.http.get("assets/json/adult_symptom_infographics_" + num + ".json").map(function (response) { return response.json(); }).subscribe(function (data) {
+            _this.html_data = data;
+        });
+    };
     AdultSymptomInfographicsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AdultSymptomInfographicsPage');
     };
     return AdultSymptomInfographicsPage;
 }());
 AdultSymptomInfographicsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-adult-symptom-infographics',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/adult-symptom-infographics/adult-symptom-infographics.html"*/'<!--\n  Generated template for the AdultSymptomInfographics page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>adult-symptom-infographics</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/adult-symptom-infographics/adult-symptom-infographics.html"*/
+        selector: 'page-adult-symptom-infographics',template:/*ion-inline-start:"/Users/administrator/Desktop/pharmacist/src/pages/adult-symptom-infographics/adult-symptom-infographics.html"*/'<ion-header class="ui-header {{setting.class}}">\n  <ion-navbar>\n    	<ion-title>\n	    	<h1 class="ui-title" *ngIf="html_data!=null">\n	      		{{html_data[pageId]?.title}}\n	      	</h1>\n    	</ion-title>\n    	<ion-buttons end>\n      		<button ion-button icon-only (click)="showMenu()">\n        		<ion-icon name="menu"></ion-icon>\n      		</button>\n    	</ion-buttons>\n	</ion-navbar>\n</ion-header>\n<ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}} ui-page-theme-{{pagemode[pageId]}}">\n	<div class="ui-content" role="main" *ngIf="html_data!=null">\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Users/administrator/Desktop/pharmacist/src/pages/adult-symptom-infographics/adult-symptom-infographics.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]) === "function" && _f || Object])
 ], AdultSymptomInfographicsPage);
 
+var _a, _b, _c, _d, _e, _f;
 //# sourceMappingURL=adult-symptom-infographics.js.map
 
 /***/ }),

@@ -30,18 +30,17 @@ export class MyApp {
     @ViewChild(Nav) nav:Nav;
     rootPage = HomePage;
     appPages: PageInterface[] = [
-        { title: 'Home', description: 'Main app menu.', component: HomePage,icon: 'home' },
-        { title: 'Adult Symptoms', description: 'Pharmacist over the counter (OTC) recommendation.', component: AdultTakeMobileListPage, index: 1, icon: 'man' },
-        { title: 'Child Symptoms', description: 'Pharmacist recommendation for common child symptoms.', component: AdultTakeMobileListPage, index: 2, icon: 'female' },
-        { title: 'Product Comparison', description: 'Compare over-the-counter products.', component: ComparePage, index: 3, icon: 'git-compare' },
-        { title: 'Medication Dosing', description: 'Kids over-the-counter medication dosing.', component: DosingPage, index: 4, icon: 'eye-off' },
-        { title: 'Drug Savings', description: 'Drug manufactures Rx savings program', component: DrugPage, index: 5, icon: 'attach' },
-        { title: 'Nearest Health Care', description: 'Hospital, Urgentcare, Dentists, Pharmacy Doctors Office', component: NearestPage, index: 6, icon: 'pin' },
-        { title: 'About This App', description: 'What, where, when and how to use this.', component: AboutPage, index: 7, icon: 'information-circle' }
+        { title: 'Home', description: '', component: HomePage,icon: 'home' },
+        { title: 'Analyze Symptoms', description: '+ Get OTC recommendation', component: AdultTakeMobileListPage, index: 1, icon: 'body' },
+        { title: 'Compare OTC Products', description: 'Side-by-side comparison.', component: ComparePage, index: 3, icon: 'options' },
+        { title: 'Medication Dosing', description: 'Using Weight Of A Child.', component: DosingPage, index: 4, icon: 'flask' },
+        { title: 'Drug Savings', description: 'Drug manufacturer coupons', component: DrugPage, index: 5, icon: 'cut' },
+        { title: 'Nearby Health Care', description: 'Hospital, Urgentcare, Dentist, Doctor', component: NearestPage, index: 6, icon: 'pin' },
+        { title: 'About This App', description: 'What, where, when, how.', component: AboutPage, index: 7, icon: 'information-circle' }
     ];
     constructor(
-        public platform: Platform, 
-        public statusBar: StatusBar, 
+        public platform: Platform,
+        public statusBar: StatusBar,
         public splashScreen: SplashScreen,
         public menu: MenuController,
     ) {
@@ -86,4 +85,3 @@ export class MyApp {
         return;
     }
 }
-

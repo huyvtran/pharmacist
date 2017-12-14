@@ -1,4 +1,4 @@
-$toolbar-background-color: #2196f3;
+$toolbar-background-color: #64ffda;
 
 page-home {
 
@@ -55,5 +55,11 @@ page-home {
 	.ui-title span {
 	    position: relative;
 	    top: -13px;
+	}
+	.card {
+	    background-color: #fafafa;
+	}
+	.item {
+	    background-color: #fafafa;
 	}
 }

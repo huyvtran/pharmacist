@@ -10,7 +10,7 @@ button,
 .ui-btn {
 	font-size: 1em;
 	line-height: 1.3;
-	     font-family: Roboto-Regular, Noto, sans-serif /*{global-font-family}*/;
+	font-family: Roboto-Regular, Noto, sans-serif /*{global-font-family}*/;
 }
 legend,
 .ui-input-text input,
@@ -39,9 +39,6 @@ label.ui-btn {
 	font-weight: bold;
 	border-width: 1px;
 	border-style: solid;
-}
-.ui-btn {
-	text-decoration: none !important;
 }
 .ui-btn-active {
 	cursor: pointer;
@@ -81,9 +78,9 @@ label.ui-btn {
 /* Shadow
 -----------------------------------------------------------------------------------------------------------*/
 .ui-shadow {
-	-webkit-box-shadow: 0 1px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
-	-moz-box-shadow: 0 1px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
-	box-shadow: 0 1px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0 0px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
+	-moz-box-shadow: 0 0px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
+	box-shadow: 0 0px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
 }
 .ui-shadow-inset {
 	-webkit-box-shadow: inset 0 1px 0px /*{global-box-shadow-size}*/ rgba(0,0,0,0.2) /*{global-box-shadow-color}*/;
@@ -161,7 +158,7 @@ html .ui-alt-icon .ui-radio-off:after {
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
-	border-style: solid; 
+	border-style: solid;
 }
 .ui-alt-icon.ui-btn.ui-radio-on:after,
 .ui-alt-icon .ui-btn.ui-radio-on:after {
@@ -1454,9 +1451,9 @@ html .ui-bar-k .ui-btn:visited,
 html .ui-body-k .ui-btn:visited,
 html body .ui-group-theme-k .ui-btn:visited,
 html head + body .ui-btn.ui-btn-k:visited {
-	background-color: #F44336 /*{k-bup-background-color}*/;
-	border-color: #F44336 /*{k-bup-border}*/;
-	color: #ffffff /*{k-bup-color}*/;
+	background-color: transparent /*{k-bup-background-color}*/;
+	border-color: none /*{k-bup-border}*/;
+	color: #F44336 /*{k-bup-color}*/;
 	text-shadow: 0 /*{k-bup-shadow-x}*/ 0 /*{k-bup-shadow-y}*/ 0 /*{k-bup-shadow-radius}*/ #f3f3f3 /*{k-bup-shadow-color}*/;
 }
 /* Button hover */
@@ -2091,6 +2088,125 @@ html head + body .ui-btn.ui-btn-p:focus {
  -moz-box-shadow: 0 0 12px #FFFFFF /*{p-active-background-color}*/;
  box-shadow: 0 0 12px #FFFFFF /*{p-active-background-color}*/;
 }
+/* Q
+-----------------------------------------------------------------------------------------------------------*/
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-Q,
+.ui-page-theme-Q .ui-bar-inherit,
+html .ui-bar-Q .ui-bar-inherit,
+html .ui-body-Q .ui-bar-inherit,
+html body .ui-group-theme-Q .ui-bar-inherit {
+	background-color: #ffc107 /*{p-bar-background-color}*/;
+	border-color: #ffc107 /*{p-bar-border}*/;
+	color: #ffffff /*{p-bar-color}*/;
+	text-shadow: 0 /*{p-bar-shadow-x}*/ 0 /*{p-bar-shadow-y}*/ 0 /*{p-bar-shadow-radius}*/ #eeeeee /*{p-bar-shadow-color}*/;
+	font-weight: bold;
+}
+.ui-bar-Q {
+	border-width: 1px;
+	border-style: solid;
+}
+/* Page and overlay */
+.ui-overlay-Q,
+.ui-page-theme-Q,
+.ui-page-theme-Q .ui-panel-wrapper {
+	background-color: transparent /*{p-page-background-color}*/;
+	border-color: #ffffff /*{p-page-border}*/;
+	color: #333333 /*{p-page-color}*/;
+	text-shadow: 0 /*{p-page-shadow-x}*/ 0 /*{p-page-shadow-y}*/ 0 /*{p-page-shadow-radius}*/ #f3f3f3 /*{p-page-shadow-color}*/;
+}
+/* Body: Read-only lists, text inputs, collapsible content */
+.ui-body-Q,
+.ui-page-theme-Q .ui-body-inherit,
+html .ui-bar-Q .ui-body-inherit,
+html .ui-body-Q .ui-body-inherit,
+html body .ui-group-theme-Q .ui-body-inherit,
+html .ui-panel-page-container-Q {
+	background-color: #ffffff /*{p-body-background-color}*/;
+	border-color: #ffffff /*{p-body-border}*/;
+	color: #333333 /*{p-body-color}*/;
+	text-shadow: 0 /*{p-body-shadow-x}*/ 0 /*{p-body-shadow-y}*/ 0 /*{p-body-shadow-radius}*/ #f3f3f3 /*{p-body-shadow-color}*/;
+}
+.ui-body-Q {
+	border-width: 1px;
+	border-style: solid;
+}
+/* Links */
+.ui-page-theme-Q a,
+html .ui-bar-Q a,
+html .ui-body-Q a,
+html body .ui-group-theme-Q a {
+	color: #3388cc /*{p-link-color}*/;
+	font-weight: bold;
+}
+.ui-page-theme-Q a:visited,
+html .ui-bar-Q a:visited,
+html .ui-body-Q a:visited,
+html body .ui-group-theme-Q a:visited {
+    color: #3388cc /*{p-link-visited}*/;
+}
+.ui-page-theme-Q a:hover,
+html .ui-bar-Q a:hover,
+html .ui-body-Q a:hover,
+html body .ui-group-theme-Q a:hover {
+	color: #005599 /*{p-link-hover}*/;
+}
+.ui-page-theme-Q a:active,
+html .ui-bar-Q a:active,
+html .ui-body-Q a:active,
+html body .ui-group-theme-Q a:active {
+	color: #005599 /*{p-link-active}*/;
+}
+/* Button up */
+.ui-page-theme-Q .ui-btn,
+html .ui-bar-Q .ui-btn,
+html .ui-body-Q .ui-btn,
+html body .ui-group-theme-Q .ui-btn,
+html head + body .ui-btn.ui-btn-Q,
+/* Button visited */
+.ui-page-theme-Q .ui-btn:visited,
+html .ui-bar-Q .ui-btn:visited,
+html .ui-body-Q .ui-btn:visited,
+html body .ui-group-theme-Q .ui-btn:visited,
+html head + body .ui-btn.ui-btn-Q:visited {
+	background-color: #ffffff /*{p-bup-background-color}*/;
+	border-color: #ffc107 /*{p-bup-border}*/;
+	color: #ffc107 /*{p-bup-color}*/;
+	text-shadow: 0 /*{p-bup-shadow-x}*/ 0 /*{p-bup-shadow-y}*/ 0 /*{p-bup-shadow-radius}*/ #f3f3f3 /*{p-bup-shadow-color}*/;
+}
+/* Button hover */
+.ui-page-theme-Q .ui-btn:hover,
+html .ui-bar-Q .ui-btn:hover,
+html .ui-body-Q .ui-btn:hover,
+html body .ui-group-theme-Q .ui-btn:hover,
+html head + body .ui-btn.ui-btn-Q:hover {
+	background-color: #E0F2F1 /*{p-bhover-background-color}*/;
+	border-color: #ffc107 /*{p-bhover-border}*/;
+	color: #ffc107 /*{p-bhover-color}*/;
+	text-shadow: 0 /*{p-bhover-shadow-x}*/ 1px /*{p-bhover-shadow-y}*/ 0 /*{p-bhover-shadow-radius}*/ #f3f3f3 /*{p-bhover-shadow-color}*/;
+}
+/* Button down */
+.ui-page-theme-Q .ui-btn:active,
+html .ui-bar-Q .ui-btn:active,
+html .ui-body-Q .ui-btn:active,
+html body .ui-group-theme-Q .ui-btn:active,
+html head + body .ui-btn.ui-btn-Q:active {
+	background-color: #ffffff /*{p-bdown-background-color}*/;
+	border-color: #ffc107 /*{p-bdown-border}*/;
+	color: #ffc107 /*{p-bdown-color}*/;
+	text-shadow: 0 /*{p-bdown-shadow-x}*/ 1px /*{p-bdown-shadow-y}*/ 0 /*{p-bdown-shadow-radius}*/ #f3f3f3 /*{p-bdown-shadow-color}*/;
+}
+/* Focus */
+.ui-page-theme-Q .ui-btn:focus,
+html .ui-bar-Q .ui-btn:focus,
+html .ui-body-Q .ui-btn:focus,
+html body .ui-group-theme-Q .ui-btn:focus,
+html head + body .ui-btn.ui-btn-Q:focus {
+ -webkit-box-shadow: 0 0 12px #FFFFFF /*{p-active-background-color}*/;
+ -moz-box-shadow: 0 0 12px #FFFFFF /*{p-active-background-color}*/;
+ box-shadow: 0 0 12px #FFFFFF /*{p-active-background-color}*/;
+}
+
 
 .ui-btn:focus,
 .ui-btn.ui-focus {

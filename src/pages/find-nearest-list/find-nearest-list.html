@@ -14,7 +14,7 @@
 	<ion-navbar class="fullWidth">
 	  	<div class="{{setting.p}} floatright"></div>
 	  	<div align="center" class="floatright">
-			<button ion-button data-inline="true" data-role="none" class="{{pageClasses[pageId][0]}} navbarButtons" id="results-switch" (tap)="toggleResult(1)">List</button>
+			<button ion-button data-inline="true" data-role="none" class="{{pageClasses[pageId][1]}} navbarButtons" id="results-switch" (tap)="toggleResult(1)">List</button>
 			<button ion-button data-inline="true" data-role="none" class="{{pageClasses[pageId][1]}} navbarButtons" id="map-switch" (tap)="toggleResult(2)">Map</button>
 	 	</div>
 	</ion-navbar>
@@ -46,14 +46,14 @@
 	    </div>
 	    <sebm-google-map [scrollwheel]="true" [latitude]="mapData.latitude" [longitude]="mapData.longitude" [zoom]="mapData.zoom" [ngStyle]="{'display': DataDisplay[1], 'height': MapHeight + 'px'}" >
 	    	<ng-container *ngFor="let m of TableData; let i = index">
-		    	<sebm-google-map-marker 
-		    		*ngIf="i<TableMaxDisplayCount" 
+		    	<sebm-google-map-marker
+		    		*ngIf="i<TableMaxDisplayCount"
 			        (markerClick)="clickedMarker(m.name, i)"
 			        [latitude]="m.lat"
-			        [longitude]="m.lng" 
+			        [longitude]="m.lng"
 			        [markerDraggable]="false"
 			        [iconUrl]="m.marker_icon">
-			        
+
 			      	<sebm-google-map-info-window class="info_window" [isOpen] = "m.iw_open">
 			      		<div (tap)="showDetails(m)">
 					    	{{m.name}}<br>

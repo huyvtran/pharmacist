@@ -24,11 +24,33 @@ page-compare-childs {
 	.ui-input-search{
 		border: 0px none;
 	}
+	.ui-popup-container.ui-popup-active {
+  background: transparent;
+}
+.ui-overlay-shadow {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
 	.ui-popup-container .ui-content a.ui-btn{
 		background-color: #FFF;
 	}
+	.ui-popup.ui-body-inherit {
+  border-width: 0px;
+  border-style: solid;
+}
 	ion-navbar.fullWidth.robotoLight
 	{
 		padding-left: 0px !important;
 	}
+	.card {
+  background: #fff;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+input[type='text'] {
+border-bottom: 2px solid #cccccc;
+}
+input[type='text'], input[type='email'] {
+border-bottom: 2px solid #cccccc;
+}
 }

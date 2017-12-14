@@ -21,13 +21,16 @@
 
 <ion-content overflow-scroll="true"  padding class="{{setting.class}} content{{pageId}}">
 	<p>&nbsp;</p>
-	<div class="opacity4">
+	<div class="opacity4 maxwidth500">
 		<div [innerHTML]="html_data?.header[pageId]"></div>
-		<p class="centerText"> 
-			<a href="#" class="{{html_data?.atag1[pageId]}} ui-link" data-inline="true" (tap)="movePage(0)">CHECK</a>
+		<p class="centerText">
+			<a href="#" class="{{html_data?.atag1[pageId]}} ui-link" data-inline="true" (tap)="movePage(0)">Analyze Symptoms</a>
 			<a href="#" class="{{html_data?.atag2[pageId]}} ui-link" data-inline="true" (tap)="movePage(1)">Skip</a>
 		</p>
 		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
 	</div>
-	
+
 </ion-content>

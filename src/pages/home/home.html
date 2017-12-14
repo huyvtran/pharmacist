@@ -1,4 +1,4 @@
-<ion-header class="ui-header ui-page-theme-2">
+<ion-header class="ui-header ui-page-theme-17">
   <ion-navbar>
     <ion-title>
     	<div [innerHTML]="html_data?.title"></div>
@@ -6,23 +6,49 @@
   </ion-navbar>
   <ion-navbar>
   	<ion-title>
-  		<p class="ui-content centerText robotoLight">Your Health, Your Care, Yourself</p>
+  		<p class="ui-content centerText Roboto-Thin white-text">Your Health, Your Care, Yourself</p>
   	</ion-title>
   </ion-navbar>
 </ion-header>
-	
-<ion-content overflow-scroll="true"  padding class="ui-page-theme-2">
+
+<ion-content overflow-scroll="true"  no-padding class="ui-page-theme-2">
+  <br>
   <ion-grid class="interface-items">
     <ion-row>
-      <ion-col width-50>
-        <ion-item class="centerText" (tap)="goTo('self_care')">
-          <div [innerHTML]="html_data?.items[0]"></div>
+      <ion-col width-50 no-padding>
+        <ion-card padding-top (tap)="goTo('self_care')">
+          <ion-card-content no-padding>
+            <img src="assets/img/interface/icons/cold-lady-amber.svg" height="100">
+        <ion-item class="centerText">
+
+          <ion-card-title class="font12">
+      Find Self-Care OTC<br> Recommendation
+      </ion-card-title>
+          <button ion-button clear small color="gray" icon-right>
+            Let's Do This
+          <ion-icon name='arrow-forward'></ion-icon>
+
+        </button>
         </ion-item>
+      </ion-card-content>
+  </ion-card>
       </ion-col>
-      <ion-col width-50>
-        <ion-item class="centerText" (tap)="goTo('compare')">
-          <div [innerHTML]="html_data?.items[1]"></div>
+      <ion-col width-50 no-padding>
+        <ion-card padding-top (tap)="goTo('compare')">
+          <ion-card-content no-padding>
+              <img src="assets/img/interface/icons/compare-lady-amber.svg" height="100">
+        <ion-item no-padding class="centerText">
+          <ion-card-title class="font12">
+      Compare OTC<br> Products
+      </ion-card-title>
+          <button ion-button clear small color="gray" icon-right>
+            Let's Compare
+          <ion-icon name='arrow-forward'></ion-icon>
+
+        </button>
         </ion-item>
+      </ion-card-content>
+  </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -30,15 +56,39 @@
 
   <ion-grid class="interface-items">
     <ion-row>
-      <ion-col width-50>
-        <ion-item class="centerText" (tap)="goTo('dosing')">
-          <div [innerHTML]="html_data?.items[2]"></div>
+      <ion-col width-50 no-padding>
+         <ion-card padding-top (tap)="goTo('dosing')">
+          <ion-card-content no-padding>
+              <img src="assets/img/interface/icons/girl-taking-med.svg" height="100">
+        <ion-item class="centerText">
+          <ion-card-title class="font12">
+      OTC Medicine Dose<br> By Child's Weight
+      </ion-card-title>
+          <button ion-button clear small color="gray" icon-right>
+            Get Dose
+          <ion-icon name='arrow-forward'></ion-icon>
+
+        </button>
         </ion-item>
+      </ion-card-content>
+  </ion-card>
       </ion-col>
-      <ion-col width-50>
-        <ion-item class="centerText" (tap)="goTo('drug')">
-          <div [innerHTML]="html_data?.items[3]"></div>
-        </ion-item>
+      <ion-col width-50 no-padding>
+        <ion-card padding-top (tap)="goTo('drug')">
+         <ion-card-content no-padding>
+             <img src="assets/img/interface/icons/drugcard-icon.svg" height="100">
+       <ion-item class="centerText">
+         <ion-card-title class="font12">
+     Drug Manufacturer<br> Savings Cards
+     </ion-card-title>
+         <button ion-button clear small color="gray" icon-right>
+           I Love Savings
+         <ion-icon name='arrow-forward'></ion-icon>
+
+       </button>
+       </ion-item>
+     </ion-card-content>
+ </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -62,7 +112,7 @@
         </ion-item>
       </ion-col>
       <ion-col width-50>
-        
+
       </ion-col>
     </ion-row>
   </ion-grid>

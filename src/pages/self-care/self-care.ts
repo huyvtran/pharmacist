@@ -22,7 +22,7 @@ export class SelfCarePage {
   CouponData: any;
   html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
-              public alertCtrl: AlertController, public loadingCtrl: LoadingController, 
+              public alertCtrl: AlertController, public loadingCtrl: LoadingController,
               public http: Http, private sanitizer: DomSanitizer,
               public toastCtrl: ToastController, ) {
     this.dsearch = "";
@@ -56,7 +56,7 @@ export class SelfCarePage {
     }
   }
   showWhy() {
-    this.showToast("For a great conversational user experience. No information is stored.");
+    this.showToast("For a good personal user experience. No information is stored.");
   }
   showToast(message: string) {
     let toast = this.toastCtrl.create({

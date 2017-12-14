@@ -49,12 +49,12 @@ export class FindNearestListPage {
 		'n','i','o','c','a','g'
 	];
 	pageTitle = {
-		0: "Hospital Care",
+		0: "Hospital",
 		1: "Urgent care",
 		2: "Doctor's Offices",
 		3: "Children's Clinic",
 		4: "Dental Care",
-		5: "Pharmacy Care",
+		5: "Pharmacy",
 	};
 	pageClasses = [
 		{ // 0
@@ -118,8 +118,8 @@ export class FindNearestListPage {
 		1: 'block'
 	};
 	constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
-    	private mapsAPILoader: MapsAPILoader,private ngZone: NgZone, public http: Http, 
-    	private sanitizer: DomSanitizer, platform: Platform) 
+    	private mapsAPILoader: MapsAPILoader,private ngZone: NgZone, public http: Http,
+    	private sanitizer: DomSanitizer, platform: Platform)
 	{
 		this.menu = menu;
 		this.TableData = [];
@@ -153,7 +153,7 @@ export class FindNearestListPage {
 	}
 	loadData() {
 		// this.loadDataFromDatabase();
-		this.loadDataFromOnline();    
+		this.loadDataFromOnline();
 	}
 	loadDataFromDatabase() {
 		let url = this.RestApiURL + "&lat=" + this.mapData.latitude + "&lng=" + this.mapData.longitude;
@@ -177,12 +177,12 @@ export class FindNearestListPage {
 		let $this = this;
 		this.map = new google.maps.Map(document.createElement('div'), {
 		          mapTypeId: google.maps.MapTypeId.ROADMAP,
-		          center: userlocation, 
+		          center: userlocation,
 		          zoom: this.mapData.zoom
        		});
 		let service = new google.maps.places.PlacesService(this.map);
 		service.textSearch(request, function(results, status) {
-			if (status != google.maps.places.PlacesServiceStatus.OK) { 
+			if (status != google.maps.places.PlacesServiceStatus.OK) {
 				alert(status);
 	            return;
 	        } else {
@@ -202,14 +202,14 @@ export class FindNearestListPage {
 		var service = new google.maps.DistanceMatrixService();
 		let $this = this;
 		service.getDistanceMatrix(
-			{		
+			{
 				origins: [userLocation],
 				destinations: placeDestinations,
 				travelMode: google.maps.TravelMode.DRIVING,
 				unitSystem: google.maps.UnitSystem.IMPERIAL,
 				avoidHighways: false,
 				avoidTolls: false
-			}, 
+			},
 			function placeDistance(response, status) {
 				if (status != google.maps.DistanceMatrixStatus.OK) {
 					alert('Error was: ' + status);

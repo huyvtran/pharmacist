@@ -34,7 +34,7 @@ export class FindNearestPage {
     2: "Doctor Office",
     3: "Children's Clinic",
     4: "Dental Care",
-    5: "Pharmacy Care",
+    5: "Pharmacy",
   }
   locationPage: number;
   public mapData = {
@@ -50,7 +50,7 @@ export class FindNearestPage {
   html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController,
     public http: Http, private sanitizer: DomSanitizer,
-    private mapsAPILoader: MapsAPILoader,private ngZone: NgZone) 
+    private mapsAPILoader: MapsAPILoader,private ngZone: NgZone)
   {
     this.pageId = GlobalVars.getPageId();
     this.menu = menu;
@@ -87,7 +87,7 @@ export class FindNearestPage {
   }
   ionViewDidLoad() {
     this.getHtmlData();
-  }  
+  }
   ngOnInit() {
     //set google maps defaults
     this.mapData.zoom = 4;

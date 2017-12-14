@@ -120,7 +120,7 @@ export class AdultSymptomChildsPage {
 	  		this.firstname += ",";
     	this.html_data =  null;
 		this.subPages = [
-				{	// 201 UrgentCarePage
+				{	// 201 HospitalPage
 					"id": 0,
 					"page": FindNearestPage
 				},
@@ -210,7 +210,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 223 SwimearInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 224 EarwaxInfographicMobilePage
 					"id": 0,
@@ -246,8 +246,8 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 232 DrymouthInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
-				},	
+					"page": AdultSymptomInfographicsPage
+				},
 				{	// 233 BadBreathInfographicsMobilePage
 					"id": 0,
 					"page": AdultSymptomInfographicsPage
@@ -282,7 +282,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 241 StiffNeckInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 242 ChestCongestionInfographicsMobilePage
 					"id": 0,
@@ -298,43 +298,43 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 245 ShoulderInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 246 WristPainInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage		
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 247 ElbowInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 248 ConstipationInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 249 StomachFluMobilePage
 					"id": 40,
-					"page": AdultSymptomChildsPage	
+					"page": AdultSymptomChildsPage
 				},
 				{	// 250 DiarrheaInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 251 FoodPoisoningMobilePage
 					"id": 41,
-					"page": AdultSymptomChildsPage	
+					"page": AdultSymptomChildsPage
 				},
 				{	// 252 NauseaInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 253 MotionSicknessMobilePage
 					"id": 15,
-					"page": AdultSymptomChildsPage	
+					"page": AdultSymptomChildsPage
 				},
 				{	// 254 StomachAcheInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 255 StomachFluInfographicsMobilePage
 					"id": 0,
@@ -358,11 +358,11 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 260 HemorrhoidsInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 261 PinwormInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 262 MenstrualInfographicsMobilePage
 					"id": 0,
@@ -378,7 +378,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 265 BurnInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 266 SunburnInfographicsMobilePage
 					"id": 0,
@@ -394,7 +394,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 269 BitesMobilePage
 					"id": 48,
-					"page": AdultSymptomChildsPage	
+					"page": AdultSymptomChildsPage
 				},
 				{	// 270 RingwormInfographicsMobilePage
 					"id": 0,
@@ -422,7 +422,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 276 NailFungusInfographicsMobilePage
 					"id": 0,
-					"page": AdultSymptomInfographicsPage	
+					"page": AdultSymptomInfographicsPage
 				},
 				{	// 277 SwollenFootInfographicsMobilePage
 					"id": 0,
@@ -434,7 +434,7 @@ export class AdultSymptomChildsPage {
 				},
 				{	// 279 NailFungusMobilePage
 					"id": 64,
-					"page": AdultSymptomChildsPage	
+					"page": AdultSymptomChildsPage
 				},
 				{	// 280 IngrownNailInfographicsMobilePage
 					"id": 0,
@@ -491,7 +491,7 @@ export class AdultSymptomChildsPage {
 	  	this.menu.open();
 	}
 	processFunc(button: any){
-		if (button.go == 0) 
+		if (button.go == 0)
 			return;
 		else if (button.go > 0)
 		{
@@ -565,22 +565,22 @@ export class AdultSymptomChildsPage {
 			this.recs[i] = b;
 	}
 	togglePage(ind: number) {
-		if (this.pageId == 0 && ind == 32)
+		if (this.pageId == 0 && ind == 33)
 		{
-			let len = 0;
-			for (let i=0;i<6;i++)
-			{
-				if (this.recs[i] == true) len++;
-			}
-			this.mode = 0;
-			if (this.recs[10] == true)
-				this.page = 32;
-			else if (len>0)
-				this.page = 33;
-			else{
-				this.mode = 100;
-				ind = 31;
-			}
+      let trueCount = 0;
+    for (let i=0;i<6;i++)
+      if (this.recs[i] == true)
+        trueCount ++;
+    this.mode = 0;
+    if (this.recs[10] == true)
+      ind = 32;
+    else if (trueCount > 0)
+      ind = 33;
+    else{
+      this.mode = 100;
+      ind = 31;
+    }
+
 		}
 		else if (this.pageId == 1 && ind == 11){
 			let trueCount = 0;
@@ -637,6 +637,21 @@ export class AdultSymptomChildsPage {
 		  	}
 		  	if (this.mode != 100) ind = 50 + this.mode;
 	  	}
+  		else if (this.pageId == 2 && ind == 102){
+  	    	let trueCount = 0;
+  		  	for (let i=0;i<6;i++)
+  		  		if (this.recs[i] == true)
+  		  			trueCount ++;
+  		  	this.mode = 0;
+  		  	if (this.recs[10] == true)
+  		  		ind = 103;
+  		  	else if (trueCount > 0)
+  		  		ind = 102;
+  		  	else{
+  		  		this.mode = 100;
+  		  		ind = 102;
+  		  	}
+  	    }
 	  	else if (this.pageId==3 && ind == 111)
 	  	{
 	  		let trueCount = 0;
@@ -731,9 +746,9 @@ export class AdultSymptomChildsPage {
 		  			trueCount ++;
 		  	if (this.recs[10] == true)
 		  		this.mode = 1;
-		  	else if (this.recs[0] == true)
+		  	else if (this.recs[9] == true)
 		  		this.mode = 2;
-		  	else if (this.recs[0] == true)
+		  	else if (this.recs[1] == true)
 		  		this.mode = 3;
 		  	else if (trueCount > 0)
 		  		this.mode = 4;
@@ -800,9 +815,9 @@ export class AdultSymptomChildsPage {
 		  			trueCount ++;
 		  	if (this.recs[10] == true)
 		  		this.mode = 1;
-		  	else if (this.recs[5] == true)
+		  	else if (this.recs[6] == true)
 		  		this.mode = 2;
-		  	else if (this.recs[7] == true)
+		  	else if (this.recs[8] == true)
 		  		this.mode = 3;
 		  	else if (trueCount > 0)
 		  		this.mode = 4;
@@ -826,7 +841,7 @@ export class AdultSymptomChildsPage {
 		  		this.mode = 3;
 		  	else if (this.recs[2] == true)
 		  		this.mode = 4;
-		  	else if (this.recs[3] == true)
+		  	else if (this.recs[1] == true)
 		  		this.mode = 5;
 		  	else if (trueCount > 0)
 		  		this.mode = 6;

@@ -80,7 +80,7 @@ let mode = {
   62: 'i',
   63: 'i',
   64: 'g',
-  65: 'p',
+  65: 'g',
   66: 'a'
 }
 let pageStart = {
@@ -148,7 +148,7 @@ export class DosingChildsPage {
   };
   html_data: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public menu: MenuController, private authService: AuthService,
-      public alertCtrl: AlertController, public loadingCtrl: LoadingController, public toastCtrl: ToastController, 
+      public alertCtrl: AlertController, public loadingCtrl: LoadingController, public toastCtrl: ToastController,
       public http: Http, private sanitizer: DomSanitizer,
       public platform: Platform) {
   	this.pageId = GlobalVars.getPageId();
@@ -168,7 +168,7 @@ export class DosingChildsPage {
     this.html_data = null;
     this.http.get("assets/json/dosing_childs.json").map(response => response.json()).subscribe(data => {
         this.html_data = data;
-        if (this.pageId!=38 && this.pageId!=43 && this.pageId!=49 && 
+        if (this.pageId!=38 && this.pageId!=43 && this.pageId!=49 &&
               this.pageId!=50 && this.pageId!=51 && this.pageId!=58 && this.pageId!=59)
           this.defaultWeight = data['slider'][this.pageId]['min']; // lbs
     });
@@ -207,7 +207,7 @@ export class DosingChildsPage {
     }else{
       this.navCtrl.push(DosingPage);
     }
-    
+
   }
   setCurrentPage(page: number) {
     if (page == 1)
@@ -315,7 +315,7 @@ export class DosingChildsPage {
     	this.convertDlgInfo.noscroll = true;
   	}
   	else
-  		this.convertDlgInfo.noscroll = false;	
+  		this.convertDlgInfo.noscroll = false;
   	this.showConvertDlg = b;
   }
   toggleFeedbackDlg(b: boolean) {
@@ -330,7 +330,7 @@ export class DosingChildsPage {
     	this.feedbackDlgInfo.noscroll = this.convertDlgInfo.noscroll = true;
   	}
   	else
-  		this.feedbackDlgInfo.noscroll = this.convertDlgInfo.noscroll = false;	
+  		this.feedbackDlgInfo.noscroll = this.convertDlgInfo.noscroll = false;
   	this.showFeedbackDlg = b;
   }
   ionViewDidLoad() {

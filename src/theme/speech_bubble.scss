@@ -4,7 +4,7 @@
 /*--------------------============-Blue=======================--------------------------*/
 
 
-.bubbleRightBlue 
+.bubbleRightBlue
 {
 position: relative;
 padding: 10px;
@@ -16,7 +16,7 @@ border-radius: 10px;
 text-align:center;
 }
 
-.bubbleRightBlue:after 
+.bubbleRightBlue:after
 {
 content: "";
 position: absolute;
@@ -30,7 +30,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightBlue:before 
+.bubbleRightBlue:before
 {
 content: "";
 position: absolute;
@@ -45,12 +45,12 @@ z-index: 0;
 }
 
 .ovalRightBlue {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #81D4FA; 
+	border:2px solid #81D4FA;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 
 	-webkit-border-top-left-radius:240px 140px;
@@ -63,32 +63,32 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalRightBlue:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	left:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	left:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #81D4FA;
+	border:2px solid #81D4FA;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* Blueuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalRightBlue:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	left:120px; 
-	width:10px; 
-	height:10px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	left:120px;
+	width:10px;
+	height:10px;
 	border: 2px solid #81D4FA;
 	background:#fff;
 	/* css3 */
@@ -96,16 +96,16 @@ z-index: 0;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* Blueuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 .ovalBorderRightBlue {
-	position:relative; 
+	position:relative;
 	padding:45px 35px;
 	margin:1em auto 60px;
-	border: 2px solid #81D4FA; 
+	border: 2px solid #81D4FA;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	max-width:400px;
 	/* css3 */
@@ -124,17 +124,17 @@ z-index: 0;
 	-webkit-box-shadow: 5px 5px 5px  #ddd;
 	-moz-box-shadow: 5px 5px 5px  #ddd;
 	box-shadow: 5px 5px 5px  #ddd;
-	
+
 }
 
 /* creates larger curve */
 .ovalBorderRightBlue:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -146,34 +146,44 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightBlue:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#81D4FA;
 	margin-right:-20px;
 	background:transparent;
 	/* css3 */
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
-
+/* creates a white rectangle to cover part of the oval border*/
+.ovalBorderRightBlue > :first-child:after {
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:28px;
+	height:15px;
+	background:#fff;
+}
 /*--------===================-Green-========================------------*/
 
-.bubbleRightGreen 
+.bubbleRightGreen
 {
 position: relative;
 padding: 10px;
@@ -185,7 +195,7 @@ border-radius: 10px;
 text-align:center;
 }
 
-.bubbleRightGreen:after 
+.bubbleRightGreen:after
 {
 content: "";
 position: absolute;
@@ -199,7 +209,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightGreen:before 
+.bubbleRightGreen:before
 {
 content: "";
 position: absolute;
@@ -214,12 +224,12 @@ z-index: 0;
 }
 
 .ovalRightGreen {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #A5D6A7; 
+	border:2px solid #A5D6A7;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 
 	-webkit-border-top-left-radius:240px 140px;
@@ -232,32 +242,32 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalRightGreen:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	left:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	left:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #A5D6A7;
+	border:2px solid #A5D6A7;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* Greenuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalRightGreen:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	left:120px; 
-	width:10px; 
-	height:10px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	left:120px;
+	width:10px;
+	height:10px;
 	border: 2px solid #A5D6A7;
 	background:#fff;
 	/* css3 */
@@ -265,16 +275,16 @@ z-index: 0;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* Greenuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 .ovalBorderRightGreen {
-	position:relative; 
+	position:relative;
 	padding:45px 35px;
 	margin:1em auto 60px;
-	border: 2px solid #A5D6A7; 
+	border: 2px solid #A5D6A7;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 
 	-webkit-border-top-left-radius:240px 140px;
@@ -286,17 +296,17 @@ z-index: 0;
 	-webkit-box-shadow: 5px 5px 5px  #ddd;
 	-moz-box-shadow: 5px 5px 5px  #ddd;
 	box-shadow: 5px 5px 5px  #ddd;
-	
+
 }
 
 /* creates larger curve */
 .ovalBorderRightGreen:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -308,40 +318,40 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightGreen:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#A5D6A7;
 	margin-right:-20px;
 	background:transparent;
 	/* css3 */
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates a white rectangle to cover part of the oval border*/
 .ovalBorderRightGreen > :first-child:after {
-	content:""; 
-	position:absolute; 
-	z-index:1; 
-	bottom:-10px; 
-	right:41%; 
-	width:28px; 
-	height:15px; 
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:28px;
+	height:15px;
 	background:#fff;
 }
 
@@ -349,13 +359,74 @@ z-index: 0;
 
 /*-------------===================--Orange-=======================---------*/
 
+.ovalLeftOrange {
+	position: relative;
+	padding: 50px 20px;
+	margin: 1em auto 80px;
+	border: 2px solid #FFB74D;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	-webkit-border-top-left-radius: 240px 140px;
+	-webkit-border-top-right-radius: 240px 140px;
+	-webkit-border-bottom-right-radius: 240px 140px;
+	-webkit-border-bottom-left-radius: 240px 140px;
+	-moz-border-radius: 240px / 140px;
+	border-radius: 240px / 140px;
+}
+
+/* creates the larger circle */
+.ovalLeftOrange:before {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	bottom: -25px;
+	right: 100px;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #FFB74D;
+	background: #fff;
+	/* css3 */
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+/* creates the smaller circle */
+.ovalLeftOrange:after {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	bottom: -50px;
+	right: 120px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #FFB74D;
+	background: #fff;
+	/* css3 */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
 .ovalRightOrange {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #FFB74D; 
+	border:2px solid #FFB74D;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -367,32 +438,32 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalRightOrange:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	left:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	left:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #FFB74D;
+	border:2px solid #FFB74D;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* Orangeuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalRightOrange:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	left:120px; 
-	width:10px; 
-	height:10px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	left:120px;
+	width:10px;
+	height:10px;
 	border: 2px solid #FFB74D;
 	background:#fff;
 	/* css3 */
@@ -400,64 +471,10 @@ z-index: 0;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* Orangeuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
-.ovalLeftOrange {
-	position:relative; 
-	padding:50px 20px;
-	margin:1em auto 80px;
-	border:5px solid #FFB74D; 
-	text-align:center;
-	color:#333; 
-	background:#fff;
-	-webkit-border-top-left-radius:240px 140px;
-	-webkit-border-top-right-radius:240px 140px;
-	-webkit-border-bottom-right-radius:240px 140px;
-	-webkit-border-bottom-left-radius:240px 140px;
-	-moz-border-radius:240px / 140px;
-	border-radius:240px / 140px;
-}
-
-/* creates the larger circle */
-.ovalLeftOrange:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	right:100px; 
-	width:25px; 
-	height:25px;
-	border:5px solid #FFB74D;
-	background:#fff;
-	/* css3 */
-	-webkit-border-radius:25px;
-	-moz-border-radius:25px;
-	border-radius:25px;
-    /* Orangeuce the damage in FF3.0 */
-    display:block; 
-}
-
-/* creates the smaller circle */
-.ovalLeftOrange:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	right:120px; 
-	width:10px; 
-	height:10px; 
-	border: 2px solid #FFB74D;
-	background:#fff;
-	/* css3 */
-	-webkit-border-radius:15px;
-	-moz-border-radius:15px;
-	border-radius:15px;
-    /* Reduce the damage in FF3.0 */
-    display:block; 
-}
-
-.bubbleRightOrange 
+.bubbleRightOrange
 {
 position: relative;
 padding: 10px;
@@ -470,7 +487,7 @@ text-align:center;
 text-align:center;
 }
 
-.bubbleRightOrange:after 
+.bubbleRightOrange:after
 {
 content: "";
 position: absolute;
@@ -484,7 +501,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightOrange:before 
+.bubbleRightOrange:before
 {
 content: "";
 position: absolute;
@@ -500,12 +517,12 @@ z-index: 0;
 
 
 .ovalBorderRightOrange {
-	position:relative; 
+	position:relative;
 	padding:45px 35px;
 	margin:1em auto 60px;
-	border: 2px solid #FFB74D; 
+	border: 2px solid #FFB74D;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 
 	-webkit-border-top-left-radius:240px 140px;
@@ -517,17 +534,17 @@ z-index: 0;
 	-webkit-box-shadow: 5px 5px 5px  #ddd;
 	-moz-box-shadow: 5px 5px 5px  #ddd;
 	box-shadow: 5px 5px 5px  #ddd;
-	
+
 }
 
 /* creates larger curve */
 .ovalBorderRightOrange:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -539,18 +556,18 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightOrange:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#FFB74D;
@@ -558,22 +575,22 @@ z-index: 0;
 	background:transparent;
 	/* css3 */
 
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates a white rectangle to cover part of the oval border*/
 .ovalBorderRightOrange > :first-child:after {
-	content:""; 
-	position:absolute; 
-	z-index:1; 
-	bottom:-10px; 
-	right:41%; 
-	width:28px; 
-	height:15px; 
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:28px;
+	height:15px;
 	background:#fff;
 }
 
@@ -583,7 +600,7 @@ z-index: 0;
 /*-------====================Purple=============================----------*/
 
 
-.bubbleRightPurple 
+.bubbleRightPurple
 {
 position: relative;
 padding: 10px;
@@ -596,7 +613,7 @@ text-align:center;
 
 }
 
-.bubbleRightPurple:after 
+.bubbleRightPurple:after
 {
 content: "";
 position: absolute;
@@ -610,7 +627,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightPurple:before 
+.bubbleRightPurple:before
 {
 content: "";
 position: absolute;
@@ -633,7 +650,7 @@ z-index: 0;
 	border: 2px solid #C9ABFF;
 	text-align: center;
 	color: #333;
-	background: #fff; 
+	background: #fff;
 	-webkit-border-top-left-radius: 240px 140px;
 	-webkit-border-top-right-radius: 240px 140px;
 	-webkit-border-bottom-right-radius: 240px 140px;
@@ -647,12 +664,12 @@ z-index: 0;
 
 /* creates larger curve */
 .ovalBorderRightPurple:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -664,51 +681,51 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightPurple:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#C9ABFF;
 	margin-right:-20px;
 	background:transparent;
 	/* css3 */
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates a white rectangle to cover part of the oval border*/
 .ovalBorderRightPurple > :first-child:after {
-	content:""; 
-	position:absolute; 
-	z-index:1; 
-	bottom:-10px; 
-	right:41%; 
-	width:30px; 
-	height:15px; 
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:30px;
+	height:15px;
 	background:#fff;
 }
 
 
 .ovalLeftPurple_red {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #F48FB1; 
+	border:2px solid #F48FB1;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -720,32 +737,32 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalLeftPurple_red:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	right:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	right:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #F48FB1;
+	border:2px solid #F48FB1;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* Purple_reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalLeftPurple_red:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	right:120px; 
-	width:10px; 
-	height:10px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	right:120px;
+	width:10px;
+	height:10px;
 	border: 2px solid #F48FB1;
 	background:#fff;
 	/* css3 */
@@ -753,17 +770,17 @@ z-index: 0;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* Reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 
 .ovalBorderRightPurple_red {
-	position:relative; 
+	position:relative;
 	padding:45px 35px;
 	margin:1em auto 60px;
-	border: 2px solid #F48FB1; 
+	border: 2px solid #F48FB1;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -774,17 +791,17 @@ z-index: 0;
 	-webkit-box-shadow: 5px 5px 5px  #ddd;
 	-moz-box-shadow: 5px 5px 5px  #ddd;
 	box-shadow: 5px 5px 5px  #ddd;
-	
+
 }
 
 /* creates larger curve */
 .ovalBorderRightPurple_red:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -796,44 +813,101 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightPurple_red:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#F48FB1;
 	margin-right:-20px;
 	background:transparent;
 	/* css3 */
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates a white rectangle to cover part of the oval border*/
 .ovalBorderRightPurple_red > :first-child:after {
-	content:""; 
-	position:absolute; 
-	z-index:1; 
-	bottom:-10px; 
-	right:41%; 
-	width:28px; 
-	height:15px; 
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:28px;
+	height:15px;
 	background:#fff;
 }
 
-.bubbleRightPurple_red 
+
+
+.ovalRightPurple_red {
+	position:relative;
+	padding:50px 20px;
+	margin:1em auto 80px;
+	border:2px solid #F48FB1;
+	text-align:center;
+	color:#333;
+	background:#fff;
+	-webkit-border-top-left-radius:240px 140px;
+	-webkit-border-top-right-radius:240px 140px;
+	-webkit-border-bottom-right-radius:240px 140px;
+	-webkit-border-bottom-left-radius:240px 140px;
+	-moz-border-radius:240px / 140px;
+	border-radius:240px / 140px;
+}
+
+/* creates the larger circle */
+.ovalRightPurple_red:before {
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	left:100px;
+	width:25px;
+	height:25px;
+	border:2px solid #F48FB1;
+	background:#fff;
+	/* css3 */
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border-radius:25px;
+    /* reduce the damage in FF3.0 */
+    display:block;
+}
+
+/* creates the smaller circle */
+.ovalRightPurple_red:after {
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	left:120px;
+	width:10px;
+	height:10px;
+	border: 2px solid #F48FB1;
+	background:#fff;
+	/* css3 */
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+    /* reduce the damage in FF3.0 */
+    display:block;
+}
+
+
+.bubbleRightPurple_red
 {
 position: relative;
 padding: 10px;
@@ -848,7 +922,7 @@ text-align:center;
 
 
 
-.bubbleRightPurple_red:after 
+.bubbleRightPurple_red:after
 {
 content: "";
 position: absolute;
@@ -862,7 +936,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightPurple_red:before 
+.bubbleRightPurple_red:before
 {
 content: "";
 position: absolute;
@@ -885,7 +959,7 @@ z-index: 0;
 /*---------==================-Red-=========================-----------*/
 
 
-.bubbleRightRed 
+.bubbleRightRed
 {
 position: relative;
 padding: 10px;
@@ -897,7 +971,7 @@ border-radius: 10px;
 text-align:center;
 }
 
-.bubbleRightRed:after 
+.bubbleRightRed:after
 {
 content: "";
 position: absolute;
@@ -911,7 +985,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightRed:before 
+.bubbleRightRed:before
 {
 content: "";
 position: absolute;
@@ -927,12 +1001,12 @@ z-index: 0;
 
 
 .ovalRightRed {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #c81e2b; 
+	border:2px solid #e57373;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -944,49 +1018,49 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalRightRed:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	left:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	left:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #c81e2b;
+	border:2px solid #e57373;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalRightRed:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	left:120px; 
-	width:10px; 
-	height:10px; 
-	border: 2px solid #c81e2b;
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	left:120px;
+	width:10px;
+	height:10px;
+	border: 2px solid #e57373;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:15px;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 .ovalBorderRightRed {
-	position:relative; 
+	position:relative;
 	padding:45px 35px;
 	margin:1em auto 60px;
-	border: 2px solid #F77973; 
+	border: 2px solid #F77973;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -997,17 +1071,17 @@ z-index: 0;
 	-webkit-box-shadow: 5px 5px 5px  #ddd;
 	-moz-box-shadow: 5px 5px 5px  #ddd;
 	box-shadow: 5px 5px 5px  #ddd;
-	
+
 }
 
 /* creates larger curve */
 .ovalBorderRightRed:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -1019,47 +1093,47 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightRed:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#F77973;
 	margin-right:-20px;
 	background:transparent;
 	/* css3 */
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates a white rectangle to cover part of the oval border*/
 .ovalBorderRightRed > :first-child:after {
-	content:""; 
-	position:absolute; 
-	z-index:1; 
-	bottom:-10px; 
-	right:41%; 
-	width:28px; 
-	height:15px; 
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:28px;
+	height:15px;
 	background:#fff;
 }
 
 /*-------=====================Yellow-======================----------------*/
 
 
-.bubbleRightYellow 
+.bubbleRightYellow
 {
 position: relative;
 padding: 10px;
@@ -1071,7 +1145,7 @@ border-radius: 10px;
 text-align:center;
 }
 
-.bubbleRightYellow:after 
+.bubbleRightYellow:after
 {
 content: "";
 position: absolute;
@@ -1085,7 +1159,7 @@ width: 0;
 z-index: 1;
 }
 
-.bubbleRightYellow:before 
+.bubbleRightYellow:before
 {
 content: "";
 position: absolute;
@@ -1100,12 +1174,12 @@ z-index: 0;
 }
 
 .ovalRightYellow {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #FFD900; 
+	border:2px solid #FFD900;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -1117,32 +1191,32 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalRightYellow:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	left:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	left:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #FFD900;
+	border:2px solid #FFD900;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* Yellowuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalRightYellow:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	left:120px; 
-	width:10px; 
-	height:10px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	left:120px;
+	width:10px;
+	height:10px;
 	border: 2px solid #FFD900;
 	background:#fff;
 	/* css3 */
@@ -1150,16 +1224,16 @@ z-index: 0;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* Yellowuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 .ovalLeftYellow {
-	position:relative; 
+	position:relative;
 	padding:50px 20px;
 	margin:1em auto 80px;
-	border:5px solid #FFD900; 
+	border:2px solid #FFD900;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -1171,32 +1245,32 @@ z-index: 0;
 
 /* creates the larger circle */
 .ovalLeftYellow:before {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-25px; 
-	right:100px; 
-	width:25px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-25px;
+	right:100px;
+	width:25px;
 	height:25px;
-	border:5px solid #FFD900;
+	border:2px solid #FFD900;
 	background:#fff;
 	/* css3 */
 	-webkit-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius:25px;
     /* Yellowuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates the smaller circle */
 .ovalLeftYellow:after {
-	content:""; 
-	position:absolute; 
-	z-index:10; 
-	bottom:-50px; 
-	right:120px; 
-	width:10px; 
-	height:10px; 
+	content:"";
+	position:absolute;
+	z-index:10;
+	bottom:-50px;
+	right:120px;
+	width:10px;
+	height:10px;
 	border: 2px solid #FFD900;
 	background:#fff;
 	/* css3 */
@@ -1204,17 +1278,17 @@ z-index: 0;
 	-moz-border-radius:15px;
 	border-radius:15px;
     /* Yellowuce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 
 .ovalBorderRightYellow {
-	position:relative; 
+	position:relative;
 	padding:45px 35px;
 	margin:1em auto 60px;
-	border: 2px solid #FFD900; 
+	border: 2px solid #FFD900;
 	text-align:center;
-	color:#333; 
+	color:#333;
 	background:#fff;
 	-webkit-border-top-left-radius:240px 140px;
 	-webkit-border-top-right-radius:240px 140px;
@@ -1225,17 +1299,17 @@ z-index: 0;
 	-webkit-box-shadow: 5px 5px 5px  #ddd;
 	-moz-box-shadow: 5px 5px 5px  #ddd;
 	box-shadow: 5px 5px 5px  #ddd;
-	
+
 }
 
 /* creates larger curve */
 .ovalBorderRightYellow:before {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:50px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:50px;
 	height:30px;
 	border-style:solid;
 	border-width:0 0 2px 3px;
@@ -1247,39 +1321,298 @@ z-index: 0;
 	-moz-border-radius-bottom-left:80px 50px;
 	border-bottom-left-radius:80px 50px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates smaller curve */
 .ovalBorderRightYellow:after {
-	content:""; 
-	position:absolute; 
-	z-index:2; 
-	bottom:-33px; 
-	right:41%; 
-	width:20px; 
-	height:31px; 
+	content:"";
+	position:absolute;
+	z-index:2;
+	bottom:-33px;
+	right:41%;
+	width:20px;
+	height:31px;
 	border-style:solid;
 	border-width:0 0 2px 2px;
 	border-color:#FFD900;
 	margin-right:-20px;
 	background:transparent;
 	/* css3 */
-	-webkit-border-bottom-left-radius:40px 70px; 
-	-moz-border-radius-bottom-left:40px 70px; 
-	border-bottom-left-radius:40px 70px; 
+	-webkit-border-bottom-left-radius:40px 70px;
+	-moz-border-radius-bottom-left:40px 70px;
+	border-bottom-left-radius:40px 70px;
     /* reduce the damage in FF3.0 */
-    display:block; 
+    display:block;
 }
 
 /* creates a white rectangle to cover part of the oval border*/
 .ovalBorderRightYellow > :first-child:after {
-	content:""; 
-	position:absolute; 
-	z-index:1; 
-	bottom:-10px; 
-	right:41%; 
-	width:28px; 
-	height:15px; 
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-10px;
+	right:41%;
+	width:28px;
+	height:15px;
 	background:#fff;
+}
+
+.ovalRightGrey {
+	position: relative;
+	padding: 50px 20px;
+	margin: 1em auto 80px;
+	border: 2px solid #e0e0e0;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	-webkit-border-top-left-radius: 240px 140px;
+	-webkit-border-top-right-radius: 240px 140px;
+	-webkit-border-bottom-right-radius: 240px 140px;
+	-webkit-border-bottom-left-radius: 240px 140px;
+	-moz-border-radius: 240px / 140px;
+	border-radius: 240px / 140px;
+}
+
+/* creates the larger circle */
+.ovalRightGrey:before {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	bottom: -25px;
+	left: 100px;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #e0e0e0;
+	background: #fff;
+	/* css3 */
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+/* creates the smaller circle */
+.ovalRightGrey:after {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	bottom: -50px;
+	left: 120px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #e0e0e0;
+	background: #fff;
+	/* css3 */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+.ovalLeftGrey {
+	position: relative;
+	padding: 50px 20px;
+	margin: 1em auto 80px;
+	border: 2px solid #e0e0e0;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	-webkit-border-top-left-radius: 240px 140px;
+	-webkit-border-top-right-radius: 240px 140px;
+	-webkit-border-bottom-right-radius: 240px 140px;
+	-webkit-border-bottom-left-radius: 240px 140px;
+	-moz-border-radius: 240px / 140px;
+	border-radius: 240px / 140px;
+}
+
+/* creates the larger circle */
+.ovalLeftGrey:before {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	bottom: -25px;
+	right: 100px;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #e0e0e0;
+	background: #fff;
+	/* css3 */
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+/* creates the smaller circle */
+.ovalLeftGrey:after {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	bottom: -50px;
+	right: 120px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #e0e0e0;
+	background: #fff;
+	/* css3 */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+.ovalBorderRightGrey {
+	position: relative;
+	padding: 45px 35px;
+	margin: 1em auto 60px;
+	border: 2px solid #e0e0e0;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	max-width: 400px;
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	-webkit-border-top-left-radius: 240px 140px;
+	-webkit-border-top-right-radius: 240px 140px;
+	-webkit-border-bottom-right-radius: 240px 140px;
+	-webkit-border-bottom-left-radius: 240px 140px;
+	-moz-border-radius: 240px / 140px;
+	border-radius: 240px / 140px;
+	-webkit-box-shadow: 5px 5px 5px #ddd;
+	-moz-box-shadow: 5px 5px 5px #ddd;
+	box-shadow: 5px 5px 5px #ddd;
+}
+
+/* creates larger curve */
+.ovalBorderRightGrey:before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	bottom: -33px;
+	right: 41%;
+	width: 50px;
+	height: 30px;
+	border-style: solid;
+	border-width: 0 0 2px 3px;
+	border-color: #e0e0e0;
+	margin-right: -20px;
+	background: transparent;
+	/* css3 */
+	-webkit-border-bottom-left-radius: 80px 50px;
+	-moz-border-radius-bottom-left: 80px 50px;
+	border-bottom-left-radius: 80px 50px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+/* creates smaller curve */
+.ovalBorderRightGrey:after {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	bottom: -33px;
+	right: 41%;
+	width: 20px;
+	height: 31px;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	border-color: #e0e0e0;
+	margin-right: -20px;
+	background: transparent;
+	/* css3 */
+	-webkit-border-bottom-left-radius: 40px 70px;
+	-moz-border-radius-bottom-left: 40px 70px;
+	border-bottom-left-radius: 40px 70px;
+	/* reduce the damage in FF3.0 */
+	display: block;
+}
+
+/* creates a small circle to produce a rounded point where the two curves meet
+.ovalBorderRightGrey > :first-child:before {
+	content:"";
+	position:absolute;
+	z-index:1;
+	bottom:-35px;
+	right:40%;
+	width:5px;
+	height:5px;
+	margin-right:-20px;
+	background:#e0e0e0;
+
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+*/
+/* creates a white rectangle to cover part of the oval border*/
+.ovalBorderRightGrey > :first-child:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	bottom: -10px;
+	right: 41%;
+	width: 28px;
+	height: 15px;
+	background: #fff;
+}
+
+.bubbleRightGrey {
+	position: relative;
+	padding: 10px;
+	background: #FFFFFF;
+	border: #e0e0e0 solid 2px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.bubbleRightGrey:after {
+	content: "";
+	position: absolute;
+	top: 13px;
+	right: -21px;
+	border-style: solid;
+	border-width: 8px 0 8px 21px;
+	border-color: transparent #FFFFFF;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+.bubbleRightGrey:before {
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: -24px;
+	border-style: solid;
+	border-width: 9px 0 9px 22px;
+	border-color: transparent #e0e0e0;
+	display: block;
+	width: 0;
+	z-index: 0;
 }

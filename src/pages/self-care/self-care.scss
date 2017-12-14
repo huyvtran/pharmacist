@@ -34,4 +34,12 @@ page-self-care {
 	.toolbar-background-md, .toolbar-background{
 		background: $toolbar-background-color;
 	}
+	.zeroTopMargin {
+  -webkit-margin-before: 0px;
+	margin-top: 0;
+}
+.zeroBottomMargin {
+-webkit-margin-after: 0px;
+margin-bottom: 0;
+}
 }

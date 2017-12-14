@@ -56,14 +56,14 @@
 	        <div [innerHTML]="html_data?.page0[pageId]"></div>
 	        <div data-role="fieldcontain" class="ui-field-contain">
 	            <div class="ui-slider">
-	                <ion-item>
+	                <ion-item class="ui-slider padding0">
 						<ion-range min="{{html_data?.slider[pageId]['min']}}" max="{{html_data?.slider[pageId]['max']}}" [(ngModel)]="currentWeight" color="sliderPink">
-							<ion-label range-left>{{currentWeight}}(lbs)</ion-label>
+							<ion-label range-left><span class="font40 orangefont">{{currentWeight}}</span><span class="font12 grayfont">(lbs)</span></ion-label>
 						</ion-range>
 					</ion-item>
 	            </div>
 	        </div>
-	        <div class="clearboth divider1"></div>
+	        <div class="clearboth"></div><br><br>
 	        <div class="centerText">
 	            <a href="#" id="mobi_wt_link" data-role="none" data-inline="true" class="linkOrange" (tap)="toggleConvertDlg(true)">FYI</a>
 	            <input type="button" id="get_slider" data-inline="true" class="buttonPinkBorder" data-role="none" value="Here you go" (tap)="setCurrentPage(2)">
@@ -74,17 +74,17 @@
 	        <div class="container_12" id="slider_value_container" *ngIf="currentPage==2">
 	            <div class="maxwidth450">
 	                <div class="{{setting.oval}}">
-	                    <div id="slider_value">You said: <span style="background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;">{{currentWeight}}</span> (lbs)</div>
+	                    <div id="slider_value">You said: <br><br><span style="background-color:#FFFF99; border:inset; border-color:#FFFF00; padding:5px;">{{currentWeight}}</span> (lbs)</div>
 	                </div>
-	                <div align="right"><img src="{{html_data?.imgurl[pageId]}}" width="100" alt="Pharmacist"> 
+	                <div align="right"><img src="{{html_data?.imgurl[pageId]}}" width="100" alt="Pharmacist">
 	                </div>
 	            </div>
 	        </div>
 	        <div class="clearboth divider1"></div>
 	        <div id="lb">
 	            <div [innerHTML]="html_data?.weight_content[pageId][subPage]"></div>
-	            <p class="centerText"> 
-	            	<a href="#" (tap)="saveDoseWeight()" id="save_24" data-role="none" data-inline="true" class="linkCyanBorderThin" *ngIf="subPage>0">Save</a> 
+	            <p class="centerText">
+	            	<a href="#" (tap)="saveDoseWeight()" id="save_24" data-role="none" data-inline="true" class="linkCyanBorderThin" *ngIf="subPage>0">Save</a>
 	                <button class="back_slider buttonPinkBorder" data-role="none" data-inline="true" (tap)="setCurrentPage(1)">New Wt.</button>
 	                <a href="#" data-role="none" data-inline="true" class="linkAmberBorderThin" (tap)="gotoDosePage()">
 	                	<span *ngIf="pageId<=62">New Dose</span>
@@ -136,4 +136,3 @@
 	   </div>
 	</div>
 </ion-content>
-

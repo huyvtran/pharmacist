@@ -17,7 +17,7 @@
     <div [innerHTML]="html_data?.navbar"></div>
   </ion-navbar>
   <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == false">
-  	<div class="floatright"> 
+  	<div class="floatright">
 	    <a href="#" class="linkGrayLight font12 absoluteRight ui-link" data-inline="true" (tap)="gotoLogin()">Login</a>
 	</div>
 	<p class="font14">Which medication?</p>
@@ -25,7 +25,7 @@
   <ion-navbar class="fullWidth robotoLight bgPink" *ngIf="currentPage==1 && isLoggedIn == true">
   	<div class="spinner floatright"></div>
 	<div class="floatright savedDose">
-	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>  
+	   <a href="#" class="linkGrayBorderLightThin font12 absoluteRight ui-link" data-inline="true" (tap)="gotoSavedDose()">Saved Doses</a>
 	</div>
 	<p>Medication?</p>
   </ion-navbar>
@@ -36,7 +36,7 @@
 		<div class="fullWidth mainPage" *ngIf="currentPage==0">
 			<div [innerHTML]="html_data?.header"></div>
 			<p class="centerText">
-				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">Let's get started</a>
+				<a href="#" class="linkRedBorder ui-link" (tap)="transitPage(1)">GET DOSE</a>
 			</p>
 			<div [innerHTML]="html_data?.ppp"></div>
 		</div>
@@ -44,11 +44,14 @@
 			<div class="opacity1">
 				<div [innerHTML]="html_data?.main_header"></div>
 				<div>
-					<p class="centerText" style="text-align: left;">
-						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Scan Barcode</a>
+					<p style="text-align: center;" class="hand_red_para">
+						<a href="#" class="linkRedBorder ui-link" (click)="scanner()">Tap To Scan Barcode</a>
 					</p>
-					<div class="clearboth divider1"></div>
-					<br/><br/>
+					<div class="clearboth"></div>
+          <br/>
+          <div class="centerText" [innerHTML]="html_data?.toList"></div>
+
+					<br/>
 				</div>
 			    <ng-container *ngFor="let each_data of html_data?.data; let i = index">
 			    	<div data-role="collapsible" data-collapsed="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-corners="false" class="ui-nodisc-icon ui-collapsible ui-collapsible-inset ui-collapsible-themed-content" [ngClass]="{'ui-collapsible-collapsed': pages[i]}">
@@ -79,16 +82,16 @@
 	<div class="ui-popup-container pop in ui-popup-active" *ngIf="barcodeDlg.show!=0" [ngStyle]="{'max-width': barcodeDlg.maxWidth+'px','top': barcodeDlg.top+'px', 'left': barcodeDlg.left+'px', 'width': barcodeDlg.width+'px'}">
 	    <div data-role="popup" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">
 	        <div style="max-height: 500px; overflow-y: scroll;" *ngIf="barcodeDlg.show==1">
-	        	<p>You scanned:</p>
-	        	<div align="center" style="height: 150px;">
-			    	<img src="{{barcodeDlg.image}}" style="height: 150px; width: 100px;" alt="Drug Image"> 
+	        	<p class="grayfont font18">You scanned:</p>
+	        	<div align="center" style="height: 200px;">
+			    	<img src="{{barcodeDlg.image}}" style="height: 200px; width: auto;" alt="Drug Image">
 			    </div>
-				<p class="centerText">{{barcodeDlg.name}}</p>
+				<p class="centerText grayfont font18">{{barcodeDlg.name}}</p>
 				<p class="centerText" [innerHTML]="barcodeDlg.description"></p>
-				<p class="centerText"><b style="font-size: 140%;">Is this correct</b></p>
+				<p class="centerText"><span class="grayfont font24">Is this correct?</span></p>
 				<div>
-					<a href="#" style="float: left;" (click)="clickBarcode(0)">NO</a>
-					<a href="#" style="float: right;" (click)="clickBarcode(1)">YES</a>
+					<a href="#" style="float: left;" class="linkRed" (click)="clickBarcode(0)">NO</a>
+					<a href="#" style="float: right;" class="linkGreen" (click)="clickBarcode(1)">YES</a>
 				</div>
 	        </div>
 	        <div style="max-height: 500px; overflow-y: scroll;" *ngIf="barcodeDlg.show==2">
@@ -97,4 +100,3 @@
 	    </div>
 	</div>
 </ion-content>
-

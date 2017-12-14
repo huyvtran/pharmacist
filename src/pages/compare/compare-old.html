@@ -1,0 +1,52 @@
+<ion-header class="ui-header">
+	<ion-navbar>
+    <ion-title>
+    	<h1 class="ui-title hide">
+      		Compare over-the-counter OTC medicines side-by-side using a comparison table. | Self-care OTC
+      	</h1>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (tap)="showMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+	</ion-navbar>
+  <ion-navbar class="bgCyan">
+  	<p class="boxSpinnerCyan"></p>
+    <p class="robotoLight">Compare</p>
+  </ion-navbar>
+</ion-header>
+<ion-content overflow-scroll="true"  class="ui-page-theme-n">
+	<div class="opacity1">
+		<div [innerHTML]="html_data?.header"></div>
+		<ng-container *ngFor="let each_data of html_data?.items; let i = index">
+			<ion-grid class="interface-items">
+				<ion-row>
+			      	<ion-col width-50>
+				        <ion-item class="centerText page-theme-childs" (tap)="goToLeft(i)">
+				        	<div [innerHTML]="each_data?.left"></div>
+				        </ion-item>
+			      	</ion-col>
+			      	<ion-col width-50>
+				        <ion-item class="centerText page-theme-childs" (tap)="goToRight(i)">
+				        	<div [innerHTML]="each_data?.right"></div>
+				        </ion-item>
+			      	</ion-col>
+			    </ion-row>
+			</ion-grid>
+			<hr class="hrblue">
+		</ng-container>
+		<ion-grid class="interface-items">
+		    <ion-row>
+		      	<ion-col width-50>
+		        	<ion-item class="centerText page-theme-childs" (tap)="goTo('13')">
+		        		<div [innerHTML]="html_data?.item_last"></div>
+		        	</ion-item>
+		      	</ion-col>
+		      	<ion-col width-50>
+		  		</ion-col>
+		    </ion-row>
+		</ion-grid>
+		<div [innerHTML]="html_data?.footer"></div>
+	</div>
+</ion-content>

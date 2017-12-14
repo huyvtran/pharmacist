@@ -23,13 +23,13 @@
 				<ng-container *ngFor="let each_option of html_data[pageId]?.pages[page]['options'];">
 		            <label for="allergy3_mobile_q1_{{each_option.id}}" class="mbsc-checkbox" (tap)="toggleRecs(each_option.id)">
 		            	<input type="checkbox" name="allergy3_mobile_q1" id="allergy3_mobile_q1_{{each_option.id}}" class="allergy3_mobileQ1 mbsc-control mbsc-control-ev" value="" data-enhanced="false" [(ngModel)]="recs[each_option.id]">
-		        		<span class="mbsc-checkbox-box"></span>         
+		        		<span class="mbsc-checkbox-box"></span>
 		        		<span class="mbsc-label">{{each_option.title}}</span>
 		            </label>
 		            <hr class="hr{{html_data[pageId]?.pages[page]['optcolor']}}">
 				</ng-container>
 				<div class="clearboth divider1"></div>
-				<p class="centerText"> 
+				<p class="centerText">
 					<input type="button" data-inline="true" id="get_allergy3_mobile_q1" value="{{html_data[pageId]?.pages[page]['buttons'][0]['title']}}" class="mbsc-control mbsc-btn mbsc-control-ev" (tap)="processFunc(html_data[pageId]?.pages[page]['buttons'][0])">
 				</p>
 			</div>
@@ -41,9 +41,11 @@
             <div class="ui-slider">
             	<ion-item>
 					<ion-range min="{{html_data[pageId]?.pages[page]['slider']['min']}}" max="{{html_data[pageId]?.pages[page]['slider']['max']}}" step="{{html_data[pageId]?.pages[page]['slider']['step']}}" [(ngModel)]="currentTemp" color="sliderPink">
-						<ion-label range-left>{{currentTemp}}</ion-label>
+						<ion-label class="bluefont font24" range-left>{{currentTemp}}</ion-label>
 					</ion-range>
+
 				</ion-item>
+
             </div>
             <input type="hidden" id="mobi_cold_temp" name="mobi_cold_temp" value="" class="displayNone mbsc-comp" readonly="">
         </div>
@@ -68,11 +70,13 @@
 	                    <div [innerHTML]="each_data?.title"></div>
 	                </a>
 	    		</li>
-	    	</ul>
+	    	</ul><br>
+        <br>
 	   	</div>
 		<p class="centerText" *ngIf="html_data[pageId]?.pages[page]['options']==null">
+      <br>
 			<ng-container *ngFor="let each_but of html_data[pageId]?.pages[page]['buttons']">
-				<p *ngIf="each_but.type=='refresh'" class="orangeBorderWhite orangefontSmall centerText">
+				<p *ngIf="each_but.type=='refresh'" class="orangefontSmall centerText">
 					If this is the case, tap&nbsp;  <span data-inline="true" class="mbsc-ic mbsc-ic-ion-ios7-refresh-outline mobi-icon-font40 refreshPage" (click)="processFunc(each_but)"></span> to start over.<br>
 				</p>
 				<a *ngIf="each_but.type=='tel'" href="tel:" data-role="button" data-inline="true" class="ui-link ui-btn ui-btn-{{each_but.theme}} ui-btn-inline ui-shadow ui-corner-all" role="button">{{each_but.title}}</a>

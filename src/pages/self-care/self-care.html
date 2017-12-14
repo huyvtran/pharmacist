@@ -20,9 +20,8 @@
 <ion-content overflow-scroll="true"  class="ui-page-theme-a" [ngClass]="{'back1': pmode==0, 'back2': pmode==1, 'no-scroll': noscroll}">
     <div class="ui-content intro-page" *ngIf="pmode==0">
         <div [innerHTML]="html_data?.intro_header"></div>
-        <div class="centerText">
-            <div [innerHTML]="html_data?.intro_footer"></div>
-            <p><a href="#" data-role="button" class="ui-btn ui-btn-j ui-shadow ui-btn-inline" id="intro_firstname_link" data-inline="true" data-theme="j" (tap)="transitPage(1)">Let's get Started</a></p>
+        <div class="centerText opacity8">
+            <p class="zeroTopMargin"><a href="#" data-role="button" class="ui-btn ui-btn-j ui-shadow ui-btn-inline font18" id="intro_firstname_link" data-inline="true" data-theme="j" (tap)="transitPage(1)">Let's Start</a></p>
             <div [innerHTML]="html_data?.intro_footer"></div>
         </div>
         <div [innerHTML]="html_data?.intro_footer"></div>
@@ -31,7 +30,7 @@
         <div class="dw-persp slidedown in">
             <div class="dwo" (tap)="transitPage(0)"></div>
             <div role="dialog" tabindex="-1" class="dw dw-ltr">
-                <div class="dwwr">
+                <div class="dwwr maxwidth450 centerText">
                     <div aria-live="assertive" class="dw-aria dw-hidden"></div>
                     <div class="dwcc mbsc-wdg-c mbsc-w-p">
                         <div id="intro_firstname" style="" class="mbsc-comp">

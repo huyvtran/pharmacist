@@ -2,7 +2,7 @@
 /*---------------RESET CSS-------------------------------------------*/
 
 body {
-	
+
     font-family: Roboto-Regular;
 	font-size:16px;
 	margin: 0;
@@ -15,31 +15,31 @@ body {
 h1 {
     text-transform:capitalize;
 	font-size: 2.4em;
-    line-height:1.8; 
+    line-height:1.8;
 	margin-bottom:50px;
 	margin-top:30px;
 	text-align:center;
-	} 
+	}
 h3 {
 	font-family: Roboto-Light;
 	font-size:1.8em;
     line-height:1.5em;
-	letter-spacing: 1px;  
+	letter-spacing: 1px;
 	margin-bottom:30px;
 	margin-top:30px;
-	}  
+	}
 h4 {
 	font-family: Roboto-Thin;
 	font-size:1.5em;
-    line-height:1.5em; 
-	letter-spacing: 1px; 
+    line-height:1.5em;
+	letter-spacing: 1px;
 	margin-bottom:30px;
 	margin-top:30px;
 	}
 
 p {
-	
-   
+
+
 }
 
 ::-webkit-scrollbar {
@@ -53,7 +53,7 @@ p {
 div[data-role="page"] {
 	padding:0px;
 	}
-	
+
 .ui-btn {
     font-family: Roboto-Medium;
 }
@@ -63,14 +63,14 @@ div[data-role="fieldcontain"] {
 	max-width:720px;
 	margin:0 auto;
 }
-	
+
 
 .ui-shadow-inset {
 	box-shadow:none; /*{global-box-shadow-size}*/
 }
-	
+
 .robotoThin {
-	font-family: Roboto-Thin;	
+	font-family: Roboto-Thin;
 	font-size:100% !important;
 	font-weight:400;
 	color:#ffffff;
@@ -78,28 +78,28 @@ div[data-role="fieldcontain"] {
 	letter-spacing: 2px;
 }
 .robotoLight{
-	font-family: Roboto-Light;	
+	font-family: Roboto-Light;
 	font-size:120% !important;
 	font-weight:400;
 	color:#ffffff;
 	letter-spacing: 1px;
 }
 .robotoLightMedium{
-	font-family: Roboto-Light;	
+	font-family: Roboto-Light;
 	font-size:130% !important;
 	font-weight:400;
 	color:#ffffff;
 	letter-spacing: 2px;
 }
 .robotoLightSmall{
-	font-family: Roboto-Light;	
+	font-family: Roboto-Light;
 	font-size:80% !important;
 	font-weight:400;
 	color:#ffffff;
 	letter-spacing: 2px;
 }
 .roboto{
-	font-family: Roboto-Regular;	
+	font-family: Roboto-Regular;
 	font-size:120% !important;
 	color:#ffffff;
 	letter-spacing: 2px;
@@ -139,14 +139,29 @@ div[data-role="fieldcontain"] {
 .font24 {
 	font-size:1.5em !important;
 	}
+.font21 {
+	font-size:1.3em !important;
+	}
+.font20 {
+	font-size:1.2em !important;
+	}
+.font18 {
+	font-size:1.1em !important;
+	}
+.font14 {
+	font-size:0.9em !important;
+	}
 .font12 {
 	font-size:0.8em !important;
+	}
+.font10 {
+	font-size:0.6em !important;
 	}
 .font8 {
 	font-size:0.5em !important;
 	line-height:50%;
 	}
-	
+
 .caps {
 	text-transform:capitalize !important;
 	}
@@ -234,7 +249,6 @@ div[data-role="fieldcontain"] {
 	}
 .bgAmber {
 	color:#000000;
-	opacity:0.54;
 	background-color:#FFC107;
 	padding: 0 0 0 1em !important;
 	text-transform:capitalize;
@@ -245,27 +259,55 @@ div[data-role="fieldcontain"] {
 	}
 .bgGray {
 	color:#000000;
-	opacity:0.54;
 	padding: 0 0 0 1em !important;
 	background-color:#e0e0e0;
 	}
-	
+
 .bg_highlight{
 	background-color: #FFFF33;
 	padding: 5px;
+}
+
+
+.borderR {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #bdbdbd;
+	padding-right: 8px;
+}
+.borderL {
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #BDBDBD;
+}
+.borderT {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #bdbdbd;
+	padding-top: 8px;
+}
+.borderB {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #bdbdbd;
+	padding-bottom: 8px;
+}
+.borderAll {
+	border: 1px dotted #bdbdbd;
+	padding: 8px;
 }
 
 /*===============================ui-selfcareRx-swatch-css==============================*/
 
 .ui-grid-a {
 	align: center;
-	margin: auto;	
-	
+	margin: auto;
+
 	}
 .ui-grid-b {
 	align: center;
-	margin: auto;	
-	
+	margin: auto;
+
 	}
 
 /*---------------TABLE responsive break point----------------------*/
@@ -275,14 +317,14 @@ td {
 	border-left-style: dotted;
 	border-left-color: #CCC;
 	}
-	
+
 td .minWidth {
 	min-width:15em;
 	max-width:20em;
 	}
-	
+
 th {
-   font-size:14px;	
+   font-size:14px;
 	}
 .ui-table-columntoggle-btn {
 	float:right;
@@ -291,7 +333,7 @@ th {
 	padding: 5px;
 }
 
-	
+
 
 /* Show priority 1 at 240px (15em x 16px) */
 @media screen and (min-width: 15em) {
@@ -351,7 +393,7 @@ th {
    display: table-cell;
 }
 
-	
+
 /*---------------Tabs--------------------------------------*/
 
 .ui-tabs {
@@ -363,8 +405,8 @@ th {
 /*---------------FORMS-------------------------------------------------*/
 div[data-role="fieldcontain"] {
 	border:none;
-	
-	}	
+
+	}
 fieldset label {
 	color:#757575 !important;
 	font-weight:200 !important;
@@ -424,11 +466,11 @@ input[type='text'], input[type='email'] {
 	background-size: 2px 6px, 2px 2px, 2px 6px;*/
 }
 
-input[type='text']:hover, input[type='text']:focus {	
-	
+input[type='text']:hover, input[type='text']:focus {
+
 	border-bottom: 2px solid #08D916;
 	/*background: bottom left linear-gradient(#D9FB01, #FF9100) no-repeat, bottom center linear-gradient(#FF9100, #FF9100) repeat-x, bottom right linear-gradient(#FF9100, #FF9100) no-repeat;
-	background-size: 2px 6px, 2px 2px, 2px 6px;*/	
+	background-size: 2px 6px, 2px 2px, 2px 6px;*/
 }
 
 ::-webkit-input-placeholder {
@@ -438,17 +480,17 @@ input[type='text']:hover, input[type='text']:focus {
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-    
+
    color: #999;
    text-transform:none;
-   font-size:14px; 
+   font-size:14px;
 }
 
-:-ms-input-placeholder {  
-   
+:-ms-input-placeholder {
+
    color: #999;
    text-transform:none;
-   font-size:14px; 
+   font-size:14px;
 }
 
 
@@ -464,93 +506,93 @@ html .ui-body-a .ui-checkbox-on:after,
 	color: #ffffff /*{a-active-color}*/;
 	text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #090a0b /*{a-active-shadow-color}*/;
 }
-	
+
 hr {
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
-}	
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0));
+}
 hr.hrblue{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0)); 
-    background-image:      -o-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0));  
-}	
+    background-image: -webkit-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0));
+    background-image:    -moz-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0));
+    background-image:     -ms-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0));
+    background-image:      -o-linear-gradient(left, rgba(83,180,237,0), rgba(83,180,237,1.0), rgba(83,180,237,0));
+}
 hr.hrpink{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
+    background-image:    -moz-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
     background-image:     -ms-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
-    background-image:      -o-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));  
-}	
+    background-image:      -o-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
+}
 hr.hrgreen{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0)); 
-    background-image:      -o-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0));  
-}	
+    background-image: -webkit-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0));
+    background-image:    -moz-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0));
+    background-image:     -ms-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0));
+    background-image:      -o-linear-gradient(left, rgba(139,195,74,0), rgba(139,195,74,1.0), rgba(139,195,74,0));
+}
 hr.hrorange{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0)); 
-    background-image:      -o-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0));  
-}	
+    background-image: -webkit-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0));
+    background-image:    -moz-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0));
+    background-image:     -ms-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0));
+    background-image:      -o-linear-gradient(left, rgba(255,87,34,0), rgba(255,87,34,1.0), rgba(255,87,34,0));
+}
 hr.hrcyan{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0)); 
-    background-image:      -o-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0));  
-}	
+    background-image: -webkit-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0));
+    background-image:    -moz-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0));
+    background-image:     -ms-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0));
+    background-image:      -o-linear-gradient(left, rgba(1,188,212,0), rgba(1,188,212,1.0), rgba(1,188,212,0));
+}
 hr.hrpurple{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0)); 
-    background-image:      -o-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0));  
-}	
+    background-image: -webkit-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0));
+    background-image:    -moz-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0));
+    background-image:     -ms-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0));
+    background-image:      -o-linear-gradient(left, rgba(103,58,183,0), rgba(103,58,183,1.0), rgba(103,58,183,0));
+}
 hr.hrpurple_red{
 	margin-top:0px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
+    background-image:    -moz-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
     background-image:     -ms-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
     background-image:      -o-linear-gradient(left, rgba(233,30,99,0), rgba(233,30,99,1.0), rgba(233,30,99,0));
 }
 
 .padded {
-	padding: 16px !important;	
+	padding: 16px !important;
 }
 .padding0 {
-	padding: 0px !important;	
+	padding: 0px !important;
 }
 .paddingSides {
-	padding:0px 16px !important;	
+	padding:0px 16px !important;
 }
 .margin {
 	margin-right: 16px;
-	margin-left: 16px;	
-	
+	margin-left: 16px;
+
 }
 
 
@@ -575,12 +617,12 @@ dt {
 /* ~~ Styling links must remain in this order (LVHA) - including the group of selectors that create the hover effect. ~~ */
 /*a:link {
 	color:#414958;
-	text-decoration: underline; / unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification 
+	text-decoration: underline; / unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification
 } */
 a:visited {
 	color: #4E5869;
 }
-a:hover, a:active, a:focus { 
+a:hover, a:active, a:focus {
 	text-decoration: none;
 }
 
@@ -594,9 +636,9 @@ a.linkGray:link, a.linkGray:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGrayThin:link, a.linkGrayThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -606,9 +648,9 @@ a.linkGrayThin:link, a.linkGrayThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGrayLight:link, a.linkGrayLight:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -617,9 +659,9 @@ a.linkGrayLight:link, a.linkGrayLight:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGrayLightThin:link, a.linkGrayLightThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -629,9 +671,9 @@ a.linkGrayLightThin:link, a.linkGrayLightThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkRed:link, a.linkRed:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -640,9 +682,9 @@ a.linkRed:link, a.linkRed:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkRedThin:link, a.linkRedThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -652,9 +694,9 @@ a.linkRedThin:link, a.linkRedThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkBlue:link, a.linkBlue:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -663,9 +705,9 @@ a.linkBlue:link, a.linkBlue:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkBlueThin:link, a.linkBlueThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -675,9 +717,9 @@ a.linkBlueThin:link, a.linkBlueThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGreen:link, a.linkGreen:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -686,9 +728,9 @@ a.linkGreen:link, a.linkGreen:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGreenThin:link, a.linkGreenThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -698,9 +740,9 @@ a.linkGreenThin:link, a.linkGreenThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkOrange:link, a.linkOrange:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -709,9 +751,9 @@ a.linkOrange:link, a.linkOrange:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkOrangeThin:link, a.linkOrangeThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -721,9 +763,9 @@ a.linkOrangeThin:link, a.linkOrangeThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurple:link, a.linkPurple:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -732,9 +774,9 @@ a.linkPurple:link, a.linkPurple:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurpleThin:link, a.linkPurpleThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -744,9 +786,9 @@ a.linkPurpleThin:link, a.linkPurpleThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkDeepPurple:link, a.linkDeepPurple:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -755,7 +797,7 @@ a.linkDeepPurple:link, a.linkDeepPurple:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 a.linkDeepPurpleThin:link, a.linkDeepPurpleThin:visited {
     font-weight:200;
@@ -766,9 +808,9 @@ a.linkDeepPurpleThin:link, a.linkDeepPurpleThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurple_red:link, a.linkPurple_red:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -777,9 +819,9 @@ a.linkPurple_red:link, a.linkPurple_red:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurple_redThin:link, a.linkPurple_redThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -789,10 +831,10 @@ a.linkPurple_redThin:link, a.linkPurple_redThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 
-	
+
 a.linkPink:link, a.linkPink:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -801,9 +843,9 @@ a.linkPink:link, a.linkPink:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPinkThin:link, a.linkPinkThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -813,9 +855,9 @@ a.linkPinkThin:link, a.linkPinkThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkCyan:link, a.linkCyan:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -824,9 +866,9 @@ a.linkCyan:link, a.linkCyan:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkCyanThin:link, a.linkCyanThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -836,9 +878,9 @@ a.linkCyanThin:link, a.linkCyanThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkTeal:link, a.linkTeal:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -847,9 +889,9 @@ a.linkTeal:link, a.linkTeal:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkTealThin:link, a.linkTealThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -859,9 +901,9 @@ a.linkTealThin:link, a.linkTealThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkLime:link, a.linkLime:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -870,9 +912,9 @@ a.linkLime:link, a.linkLime:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkLimeThin:link, a.linkLimeThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -882,9 +924,9 @@ a.linkLimeThin:link, a.linkLimeThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkAmber:link, a.linkAmber:visited {
     font-weight: bold;
 	text-decoration:none;
@@ -893,9 +935,9 @@ a.linkAmber:link, a.linkAmber:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkAmberThin:link, a.linkAmberThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -905,9 +947,9 @@ a.linkAmberThin:link, a.linkAmberThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 
 a.linkBanner:link, a.linkBanner:visited {
     font-weight:100;
@@ -916,9 +958,9 @@ a.linkBanner:link, a.linkBanner:visited {
 	color:#000 !important;
 	padding:0px;
 	background:none;
-	
-	}	
-	
+
+	}
+
 /*---------------Links with borders-----------------------------*/
 
 a.linkGrayBorder:link, a.linkGrayBorder:visited {
@@ -930,7 +972,7 @@ a.linkGrayBorder:link, a.linkGrayBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 a.linkGrayBorderThin:link, a.linkGrayBorderThin:visited {
 	border: 1px solid #BDBDBD;
@@ -942,9 +984,9 @@ a.linkGrayBorderThin:link, a.linkGrayBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGrayBorderLight:link, a.linkGrayBorderLight:visited {
 	border: 1px solid #F5F5F5;
     font-weight: bold;
@@ -954,9 +996,9 @@ a.linkGrayBorderLight:link, a.linkGrayBorderLight:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGrayBorderLightThin:link, a.linkGrayBorderLightThin:visited {
 	border: 1px solid #F5F5F5;
     font-weight:200;
@@ -967,9 +1009,9 @@ a.linkGrayBorderLightThin:link, a.linkGrayBorderLightThin:visited {
 	padding:10px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGrayLightThin:link, a.linkGrayLightThin:visited {
     font-weight:200;
 	font-size:12px;
@@ -979,9 +1021,9 @@ a.linkGrayLightThin:link, a.linkGrayLightThin:visited {
 	padding:10px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkRedBorder:link, a.linkRedBorder:visited {
 	border: 1px solid #F44336;
     font-weight: bold;
@@ -991,9 +1033,9 @@ a.linkRedBorder:link, a.linkRedBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkRedBorderThin:link, a.linkRedBorderThin:visited {
 	border: 1px solid #F44336;
     font-weight:200;
@@ -1004,9 +1046,9 @@ a.linkRedBorderThin:link, a.linkRedBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkBlueBorder:link, a.linkBlueBorder:visited {
 	border: 1px solid #03A9F4;
     font-weight: bold;
@@ -1016,9 +1058,9 @@ a.linkBlueBorder:link, a.linkBlueBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkBlueBorderThin:link, a.linkBlueBorderThin:visited {
 	border: 1px solid #03A9F4;
     font-weight:200;
@@ -1029,9 +1071,9 @@ a.linkBlueBorderThin:link, a.linkBlueBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGreenBorder:link, a.linkGreenBorder:visited {
 	border: 1px solid #4CAF50;
     font-weight: bold;
@@ -1041,9 +1083,9 @@ a.linkGreenBorder:link, a.linkGreenBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkGreenBorderThin:link, a.linkGreenBorderThin:visited {
 	border: 1px solid #4CAF50;
     font-weight:200;
@@ -1054,9 +1096,9 @@ a.linkGreenBorderThin:link, a.linkGreenBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkOrangeBorder:link, a.linkOrangeBorder:visited {
 	border: 1px solid #FF9800;
     font-weight: bold;
@@ -1066,9 +1108,9 @@ a.linkOrangeBorder:link, a.linkOrangeBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkOrangeBorderThin:link, a.linkOrangeBorderThin:visited {
 	border: 1px solid #FF9800;
     font-weight:200;
@@ -1079,9 +1121,9 @@ a.linkOrangeBorderThin:link, a.linkOrangeBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurpleBorder:link, a.linkPurpleBorder:visited {
 	border: 1px solid #9C27B0;
     font-weight: bold;
@@ -1091,9 +1133,9 @@ a.linkPurpleBorder:link, a.linkPurpleBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurpleBorderThin:link, a.linkPurpleBorderThin:visited {
 	border: 1px solid #9C27B0;
     font-weight:200;
@@ -1104,9 +1146,9 @@ a.linkPurpleBorderThin:link, a.linkPurpleBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkDeepPurpleBorder:link, a.linkDeepPurpleBorder:visited {
 	border: 1px solid #763AB7;
     font-weight: bold;
@@ -1116,9 +1158,9 @@ a.linkDeepPurpleBorder:link, a.linkDeepPurpleBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkDeepPurpleBorderThin:link, a.linkDeepPurpleBorderThin:visited {
 	border: 1px solid #763AB7;
     font-weight:200;
@@ -1129,9 +1171,9 @@ a.linkDeepPurpleBorderThin:link, a.linkDeepPurpleBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurple_redBorder:link, a.linkPurple_redBorder:visited {
 	border: 1px solid #E91E63;
     font-weight: bold;
@@ -1141,9 +1183,9 @@ a.linkPurple_redBorder:link, a.linkPurple_redBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPurple_redBorderThin:link, a.linkPurple_redBorderThin:visited {
 	border: 1px solid #E91E63;
     font-weight:200;
@@ -1154,9 +1196,9 @@ a.linkPurple_redBorderThin:link, a.linkPurple_redBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPinkBorder:link, a.linkPinkBorder:visited {
 	border: 1px solid #E91E63;
     font-weight: bold;
@@ -1166,9 +1208,9 @@ a.linkPinkBorder:link, a.linkPinkBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkPinkBorderThin:link, a.linkPinkBorderThin:visited {
 	border: 1px solid #E91E63;
     font-weight:200;
@@ -1179,9 +1221,9 @@ a.linkPinkBorderThin:link, a.linkPinkBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkCyanBorder:link, a.linkCyanBorder:visited {
 	border: 1px solid #00BCD4;
     font-weight: bold;
@@ -1191,9 +1233,9 @@ a.linkCyanBorder:link, a.linkCyanBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkCyanBorderThin:link, a.linkCyanBorderThin:visited {
 	border: 1px solid #00BCD4;
     font-weight:200;
@@ -1204,9 +1246,9 @@ a.linkCyanBorderThin:link, a.linkCyanBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkTealBorder:link, a.linkTealBorder:visited {
 	border: 1px solid #009688;
     font-weight: bold;
@@ -1216,9 +1258,9 @@ a.linkTealBorder:link, a.linkTealBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkTealBorderThin:link, a.linkTealBorderThin:visited {
 	border: 1px solid #009688;
     font-weight:200;
@@ -1229,9 +1271,9 @@ a.linkTealBorderThin:link, a.linkTealBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkLimeBorder:link, a.linkLimeBorder:visited {
 	border: 1px solid #CDDC39;
     font-weight: bold;
@@ -1241,9 +1283,9 @@ a.linkLimeBorder:link, a.linkLimeBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkLimeBorderThin:link, a.linkLimeBorderThin:visited {
 	border: 1px solid #CDDC39;
     font-weight:200;
@@ -1254,9 +1296,9 @@ a.linkLimeBorderThin:link, a.linkLimeBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkAmberBorder:link, a.linkAmberBorder:visited {
 	border: 1px solid #FFC107;
     font-weight: bold;
@@ -1266,9 +1308,9 @@ a.linkAmberBorder:link, a.linkAmberBorder:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	border: 1px solid #FFC107;
     font-weight:200;
@@ -1279,9 +1321,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 /*---------------Buttons with borders-----------------------------*/
 
 .buttonWhiteBorder {
@@ -1292,9 +1334,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonRedBorder {
 	border: 1px solid #F44336;
     font-weight: bold;
@@ -1303,9 +1345,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonRedBorderThin {
 	border: 1px solid #F44336;
     font-weight:200;
@@ -1315,9 +1357,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonBlueBorder{
 	border: 1px solid #03A9F4;
     font-weight: bold;
@@ -1326,9 +1368,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonBlueBorderThin {
 	border: 1px solid #03A9F4;
     font-weight:200;
@@ -1338,9 +1380,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonGreenBorder{
 	border: 1px solid #4CAF50;
     font-weight: bold;
@@ -1350,9 +1392,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonGreenBorderThin{
 	border: 1px solid #4CAF50;
     font-weight:200;
@@ -1363,9 +1405,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonOrangeBorder{
 	border: 1px solid #FF9800;
     font-weight: bold;
@@ -1374,9 +1416,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonOrangeBorderThin{
 	border: 1px solid #FF9800;
     font-weight:200;
@@ -1386,9 +1428,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurpleBorder {
 	border: 1px solid #9C27B0;
     font-weight: bold;
@@ -1397,9 +1439,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurpleBorderThin {
 	border: 1px solid #9C27B0;
     font-weight:200;
@@ -1409,9 +1451,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonDeepPurpleBorder {
 	border: 1px solid #763AB7;
     font-weight: bold;
@@ -1420,7 +1462,7 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 .buttonDeepPurpleBorderThin {
 	border: 1px solid #763AB7;
@@ -1431,9 +1473,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurple_redBorder {
 	border: 1px solid #E91E63;
     font-weight: bold;
@@ -1442,9 +1484,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurple_redBorderThin {
 	border: 1px solid #E91E63;
     font-weight:200;
@@ -1454,10 +1496,10 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 
-	
+
 .buttonPinkBorder{
 	border: 1px solid #E91E63;
     font-weight: bold;
@@ -1466,9 +1508,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPinkBorderThin{
 	border: 1px solid #E91E63;
     font-weight:200;
@@ -1478,9 +1520,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonCyanBorder {
 	border: 1px solid #00BCD4;
     font-weight: bold;
@@ -1489,9 +1531,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonCyanBorderThin {
 	border: 1px solid #00BCD4;
     font-weight:200;
@@ -1501,9 +1543,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonTealBorder{
 	border: 1px solid #009688;
     font-weight: bold;
@@ -1512,9 +1554,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonTealBorderThin{
 	border: 1px solid #009688;
     font-weight:200;
@@ -1524,9 +1566,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonLimeBorder{
 	border: 1px solid #CDDC39;
     font-weight: bold;
@@ -1535,9 +1577,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonLimeBorderThin{
 	border: 1px solid #CDDC39;
     font-weight:200;
@@ -1547,9 +1589,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonAmberBorder {
 	border: 1px solid #FFC107;
     font-weight: bold;
@@ -1558,7 +1600,7 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 .buttonAmberBorderThin {
 	border: 1px solid #FFC107;
@@ -1569,9 +1611,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 /*---------------Buttons NO borders-----------------------------*/
 
 .buttonWhite {
@@ -1582,9 +1624,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonRed {
 	border-color:transparent;
     font-weight: bold;
@@ -1593,9 +1635,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonRedThin {
 	border-color:transparent;
     font-weight:200;
@@ -1605,9 +1647,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonBlue {
 	border-color:transparent;
     font-weight: bold;
@@ -1616,9 +1658,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonBlueThin {
 	border-color:transparent;
     font-weight:200;
@@ -1628,9 +1670,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonGreen {
 	border-color:transparent;
     font-weight: bold;
@@ -1640,9 +1682,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonGreenThin {
 	border-color:transparent;
     font-weight:200;
@@ -1653,9 +1695,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonOrange {
 	border-color:transparent;
     font-weight: bold;
@@ -1664,9 +1706,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonOrangeThin {
 	border-color:transparent;
     font-weight:200;
@@ -1676,9 +1718,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurple {
 	border-color:transparent;
     font-weight: bold;
@@ -1687,9 +1729,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurpleThin {
 	border-color:transparent;
     font-weight:200;
@@ -1699,9 +1741,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonDeepPurple {
 	border-color:transparent;
     font-weight: bold;
@@ -1710,9 +1752,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonDeepPurpleThin {
 	border-color:transparent;
     font-weight:200;
@@ -1722,9 +1764,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurple {
 	border-color:transparent;
     font-weight: bold;
@@ -1733,9 +1775,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPurpleThin {
 	border-color:transparent;
     font-weight:200;
@@ -1745,9 +1787,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPink {
 	border-color:transparent;
     font-weight: bold;
@@ -1756,9 +1798,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonPinkThin {
 	border-color:transparent;
     font-weight:200;
@@ -1768,9 +1810,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonCyan {
 	border-color:transparent;
     font-weight: bold;
@@ -1779,9 +1821,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonCyanThin {
 	border-color:transparent;
     font-weight:200;
@@ -1791,9 +1833,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonTeal {
 	border-color:transparent;
     font-weight: bold;
@@ -1802,9 +1844,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonTealThin {
 	border-color:transparent;
     font-weight:200;
@@ -1814,9 +1856,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonLime {
 	border-color:transparent;
     font-weight: bold;
@@ -1825,9 +1867,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonLimeThin {
 	border-color:transparent;
     font-weight:200;
@@ -1837,9 +1879,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonAmber {
 	border-color:transparent;
     font-weight: bold;
@@ -1848,9 +1890,9 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
-	
+
 .buttonAmberThin {
 	border-color:transparent;
     font-weight:200;
@@ -1860,7 +1902,7 @@ a.linkAmberBorderThin:link, a.linkAmberBorderThin:visited {
 	padding:12px;
 	margin:5px;
 	background:none;
-	
+
 	}
 
 /*------------------Swiper-------------------------------------------*/
@@ -1946,7 +1988,7 @@ sup {
 }
 
 .displayNone {
-	display:none;	
+	display:none;
 }
 .visibilityNone {
 	visibility:hidden;
@@ -2014,12 +2056,12 @@ sup {
 .grayfontSmall {
 	color: #555 !important;
 	font-size: 80%;
-	
+
 }
 .grayfontSmallSmall {
 	color: #666 !important;
 	font-size: 60%;
-	
+
 }
 .graygrayfont {
 	/*font-weight: bold;*/
@@ -2028,12 +2070,12 @@ sup {
 .graygrayfontSmall {
 	color: #9e9e9e !important;
 	font-size: 80%;
-	
+
 }
 .graygrayfontSmallSmall {
 	color: #9e9e9e !important;
 	font-size: 60%;
-	
+
 }
 .graygrayfontLarge {
 	/*font-weight: bold;*/
@@ -2048,7 +2090,7 @@ sup {
 .grayfontItalicSmall {
 	color: #555 !important;
 	font-size: 80%;
-	font-style: italic;	
+	font-style: italic;
 	/*font-weight: bold;*/
 }
 
@@ -2057,13 +2099,13 @@ sup {
 	color:#eee !important;
 	text-transform:none;
 	font-size: 80%;
-	
+
 }
 .grayLightfontSmallSmall {
 	color: #eee !important;
 	text-transform:none;
 	font-size: 60%;
-	
+
 }
 
 .purplefont {
@@ -2185,7 +2227,7 @@ sup {
 .yellowfontSmall {
 	color: #FC3 !important;
 	font-size: 80%;
-	
+
 }
 .yellowfontLarge {
 	font-weight: bold;
@@ -2265,7 +2307,7 @@ sup {
 	border-bottom-style: dotted;
 	border-bottom-color: #ffe100 !important;
 }
-		
+
 
 /*----------------------Dividers-Borders-------------------------------------------*/
 
@@ -2286,229 +2328,71 @@ sup {
 	margin-bottom: 5px;
 }
 
-
-/*============Border with BG color====================*/
-.redBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border: 1px dotted #FF0000;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.redBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border: 1px dotted #FF0000;*/
-	padding: 8px;
-}
-.redBorderTrans {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #FF0000;*/
-	background-color:transparent;
-	padding: 8px;
-}
-.redBorderWhite {
-	max-width:720px;
-	margin:0 auto;
-	/*border: 1px dotted #FF0000;*/
-	padding: 8px;
-	background-color: #ffffff;
-}
-.redBorderWhiteItalic {
-	max-width:720px;
-	margin:0 auto;
-	border: 1px dotted #FF0000;
-	padding: 8px;
-	background-color: #ffffff;
-	font-size: 12px;
-	font-style: italic;
-	-webkit-box-shadow: inset 5px 5px 5px #999;
-	-moz-box-shadow: inset 5px 5px 5px #999;
-	box-shadow: inset 5px 5px 5px #999;
-}
-.redtextBorderWhiteItalic {
-	max-width:720px;
-	margin:0 auto;
-	border: 1px dotted #FF0000;
-	padding: 8px;
-	background-color: #ffffff;
-	font-size: 12px;
-	font-style: italic;
-	color: #FF0000;
-	-webkit-box-shadow: inset 5px 5px 5px #999;
-	-moz-box-shadow: inset 5px 5px 5px #999;
-	box-shadow: inset 5px 5px 5px #999;
-	text-align:center;
-}
-
-.blueBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #5bd4ff;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.blueBorderTrans {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #5bd4ff;*/
-	background-color:transparent;
-	padding: 8px;
-}
-
-.blueBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #5bd4ff;*/
-	padding: 8px;
-}
-.blueBorderAllItalic {
-	max-width:720px;
-	margin:0 auto;
-	border: 1px dotted #5bd4ff;
-	padding: 8px;
-	font-size: 0.8em;
-	font-style: italic;
-	-webkit-box-shadow: inset 5px 5px 5px #999;
-	-moz-box-shadow: inset 5px 5px 5px #999;
-	box-shadow: inset 5px 5px 5px #999;
-}
-.blueBorderWhite {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #5bd4ff;*/
-	padding: 8px;
-	background-color: #ffffff;
-}
-
-.purpleBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #330099;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.purpleBorderTrans {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #330099;*/
-	padding: 8px;
-	background-color:transparent;
-}
-.purpleBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #330099;*/
-	padding: 8px;
-}
-.purpleBorderWhite {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #330099;*/
-	background-color: #ffffff;
-	padding: 8px;
-}
-
-.purpleRedBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #CC00CC;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.purpleRedBorderWhite {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #CC00CC;*/
-	padding: 8px;
-	background-color: #ffffff;
-}
-.purpleRedBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #CC00CC;*/
-	padding: 8px;
-}
-
-.purpleBlueBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #9999ff;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.purpleBlueBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #9999ff;*/
-	padding: 8px;
-}
-.orangeBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #FF6600;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.orangeBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #FF6600;*/
-	padding: 8px;
-}
-.orangeBorderWhite {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #FF6600;*/
-	padding: 8px;
-	background-color: #ffffff;
-}
-
-.yellowBorder {
-	max-width:720px;
-	margin:0 auto;
-	border: 1px dotted #FFCC00;
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.yellowBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	border: 1px dotted #FFCC00;
-	padding: 8px;
-}
-.greenBorder {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #33CC00;*/
-	padding: 8px;
-	background-color: #f5f5f5;
-}
-.greenBorderTrans {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #33CC00;*/
-	padding: 8px;
-	background-color:transparent;
-}
-.greenBorderAll {
-	max-width:720px;
-	margin:0 auto;
-	/*border-bottom: 1px dotted #33CC00;*/
-	padding: 8px;
-}
 .hand_red {
-	list-style-image: url(../assets/img/icons/hand_red.png);
+	list-style-image: url(../assets/img/icons/hand-red.svg);
 	list-style-type: none;
 	margin-left: 10px;
 	padding-top: 5px;
 }
 .hand_blue {
-	list-style-image: url(../assets/img/icons/hand_blue.png);
+	list-style-image: url(../assets/img/icons/hand-blue.svg);
 	list-style-type: none;
 	margin-left: 10px;
 	padding-top: 5px;
+}
+.hand_red {
+	list-style-image: url(../assets/img/icons/hand-red.svg);
+	list-style-type: none;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.hand_purple {
+	list-style-image: url(../assets/img/icons/hand-purple.svg);
+	list-style-type: none;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.hand_orange {
+	list-style-image: url(../assets/img/icons/hand-yellow.svg);
+	list-style-type: none;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.hand_green {
+	list-style-image: url(../assets/img/icons/hand-green.svg);
+	list-style-type: none;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.hand_gray {
+	list-style-image: url(../assets/img/icons/hand-gray.svg);
+	list-style-type: none;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.hand_red_para:before {
+content: url(../assets/img/icons/hand-red.svg);
+padding-right: 3px;
+}
+.hand_blue_para:before {
+content: url(../assets/img/icons/hand-blue.svg);
+padding-right: 3px;
+}
+.hand_green_para:before {
+content: url(../assets/img/icons/hand-green.svg);
+padding-right: 3px;
+}
+.hand_orange_para:before {
+content: url(../assets/img/icons/hand-yellow.svg);
+padding-right: 3px;
+}
+.hand_purple_para:before {
+content: url(../assets/img/icons/hand-purple.svg);
+padding-right: 3px;
+}
+.hand_gray_para:before {
+content: url(../assets/img/icons/hand-gray.svg);
+padding-right: 3px;
 }
 .square_blue{
 	list-style-image: url(../assets/img/icons/square_blue.png);
@@ -2525,6 +2409,11 @@ sup {
 	list-style-type: none;
 	margin-left: 10px;
 }
+.square_orange {
+	list-style-image: url(../assets/img/icons/square_orange.png);
+	list-style-type: none;
+	margin-left: 10px;
+}
 .square_green {
 	list-style-image: url(../assets/img/icons/square_green.png);
 	list-style-type: none;
@@ -2534,6 +2423,85 @@ sup {
 	list-style-image: url(../assets/img/icons/square_gray.png);
 	list-style-type: none;
 	margin-left: 10px;
+}
+.square_blue_para:before {
+content: url(../assets/img/icons/square_blue.png);
+padding-right: 5px;
+}
+.square_gray_para::before {
+content: url(../assets/img/icons/square_gray.png);
+padding-right: 5px;
+}
+.square_red_para:before {
+content: url(../assets/img/icons/square_red.png);
+padding-right: 5px;
+}
+.square_green_para:before {
+content: url(../assets/img/icons/square_green.png);
+padding-right: 5px;
+}
+.square_yellow_para:before {
+content: url(../assets/img/icons/square_yellow.png);
+padding-right: 5px;
+}
+.square_orange_para:before {
+content: url(../assets/img/icons/square_orange.png);
+padding-right: 5px;
+}
+.check_green {
+	list-style-image: url(../assets/img/icons/check_green.svg);
+	list-style-type: none;
+	margin-left: 10px;
+}
+.check_gray {
+	list-style-image: url(../assets/img/icons/check_gray.svg);
+	list-style-type: none;
+	margin-left: 10px;
+}
+.check_orange {
+	list-style-image: url(../assets/img/icons/check_orange.svg);
+	list-style-type: none;
+	margin-left: 10px;
+}
+.check_blue {
+	list-style-image: url(../assets/img/icons/check_blue.svg);
+	list-style-type: none;
+	margin-left: 10px;
+}
+.check_red {
+	list-style-image: url(../assets/img/icons/check_red.svg);
+	list-style-type: none;
+	margin-left: 10px;
+}
+.check_purple {
+	list-style-image: url(../assets/img/icons/check_purple.svg);
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+.check_blue_para:before {
+content: url(../assets/img/icons/check_blue.svg);
+padding-right: 5px;
+}
+.check_orange_para:before {
+content: url(../assets/img/icons/check_orange.svg);
+padding-right: 5px;
+}
+.check_red_para:before {
+content: url(../assets/img/icons/check_red.svg);
+padding-right: 5px;
+}
+.check_green_para:before {
+content: url(../assets/img/icons/check_green.svg);
+padding-right: 5px;
+}
+.check_gray_para:before {
+content: url(../assets/img/icons/check_gray.svg);
+padding-right: 5px;
+}
+.check_purple_para:before {
+content: url(../assets/img/icons/check_purple.svg);
+padding-right: 5px;
 }
 
 .shadowBottom {
@@ -2548,7 +2516,7 @@ sup {
 
 .opacity0 {
 	background-color: rgba(255,255,255,0);
-	}	
+	}
 .opacity1 {
 	background-color: rgba(255,255,255,0.1);
 	}
@@ -2560,7 +2528,7 @@ sup {
 	}
 .opacity4 {
 	background-color: rgba(255,255,255,0.4);
-	}	
+	}
 .opacity5 {
 	background-color: rgba(255,255,255,0.5);
 	}
@@ -2571,13 +2539,13 @@ sup {
 	background-color: rgba(255,255,255,0.7);
 	}
 .opacity8 {
-	background-color: rgba(255,255,255,0.8);	
+	background-color: rgba(255,255,255,0.8);
 	}
 .opacity9 {
 	background-color: rgba(255,255,255,0.9);
 	}
-	
-	
+
+
 .inset {
 	border: 1px inset #666;
 }
@@ -2626,17 +2594,73 @@ sup {
 	overflow:visible;
 	overflow-x:hidden;
 	}
-	
+
+.maxwidth250 {
+	max-width:250px;
+    margin:5px auto;
+
+}
+.maxwidth300 {
+	max-width:300px;
+    margin:5px auto;
+
+}
+.maxwidth350 {
+	max-width:350px;
+    margin:5px auto;
+
+}
+.maxwidth450 {
+	max-width:450px;
+    margin:5px auto;
+	overflow:visible;
+
+}
+.maxwidth500 {
+	max-width:500px;
+    margin:5px auto;
+	overflow:visible;
+
+}
+.maxwidth550 {
+	max-width:550px;
+    margin:5px auto;
+	overflow:visible;
+
+}
+
+.maxwidth600 {
+	max-width:600px;
+    margin:5px auto;
+	overflow:visible;
+
+}
+.maxwidth650 {
+	max-width:650px;
+	padding-left:20px;
+	padding-right:20px;
+    margin:5px auto;
+	overflow:visible;
+
+}
+
+.maxwidth720 {
+	max-width:720px;
+    margin:5px auto;
+	overflow:visible;
+
+}
+
 
 .alertWidth {
-	
-	max-width: 280px; 
+
+	max-width: 280px;
 	margin: 0 auto;
 
 }
 
 
-	
+
 /* First breakpoint at 640px (iPad)*/
 
 /* Inherits mobile styles, but floats containers to make columns */
@@ -2647,13 +2671,13 @@ sup {
 	figure img {
 			height:100px;
 		}
-		
+
 	td {
 		min-width:15em;
 		max-width:18em;
 		}
 	.alertWidth {
-	    max-width: 450px; 
+	    max-width: 450px;
 		margin: 0 auto;
 
 	}
@@ -2708,15 +2732,15 @@ sup {
 
 	figure img {
 		 height:140px;
-		 }	
-	
+		 }
+
 	.alertWidth {
-		
-		max-width: 600px; 
+
+		max-width: 600px;
 		margin: 0 auto;
 
 	}
-			 
+
 	.ui-content {
 			max-width:800px;
 	}

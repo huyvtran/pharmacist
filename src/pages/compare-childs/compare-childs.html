@@ -32,19 +32,19 @@
 	            <br>
 	        </div>
 	        <div align="right">
-	            <img src="assets/img/{{html_data?.imageUrls[pageId]}}" width="100" alt="Pharmacist"> 
+	            <img src="assets/img/{{html_data?.imageUrls[pageId]}}" width="100" alt="Pharmacist">
 	        </div>
 	    </div>
 	    <div class="clearboth divider1"></div>
-	    <p class="grayfontSmall greenBorderAll centerText nextDiv" *ngIf="pageId!=13" [innerHTML]="html_data?.idnon13">
+	    <p class="grayfontSmall centerText nextDiv" *ngIf="pageId!=13" [innerHTML]="html_data?.idnon13">
 	    </p>
-	    <p class="blueBorderAll grayfontSmall centerText" *ngIf="pageId==13" [innerHTML]="html_data?.id13">
+	    <p class="grayfontSmall centerText" *ngIf="pageId==13" [innerHTML]="html_data?.id13">
 	    </p>
 	    <div class="clearboth divider1"></div>
 	    <br>
 	    <p>&nbsp;</p>
 	    <div class="centerText">
-	    	<a href="#" data-inline="true" class="linkBlueThin showFeedbackAlert ui-link" (tap)="toggleFeedbackDlg(true)" *ngIf="pageId==13"><span class="mbsc-ic mbsc-ic-ion-chatbubble-working mbsc-ic-font36"></span>Give Feedback</a> 
+	    	<a href="#" data-inline="true" class="linkBlueThin showFeedbackAlert ui-link" (tap)="toggleFeedbackDlg(true)" *ngIf="pageId==13"><span class="mbsc-ic mbsc-ic-ion-chatbubble-working mbsc-ic-font36"></span>Give Feedback</a>
 	        <a href="#" class="mbsc-ic mbsc-ic-stream-bubble-comment-talk mbsc-ic-font36 {{html_data?.aClass[pageId]}} ui-link" (tap)="showCommentCompare()"></a>
 	        <a href="#" data-rel="popup" data-transition="pop" class="mbsc-ic mbsc-ic-ion-ios7-search-strong mbsc-ic-font36 {{html_data?.aClass[pageId]}} ui-link" aria-haspopup="true" aria-owns="filterallergy_medsTable-pop" aria-expanded="false" (tap)="toggleSearchDlg(true)"></a>
 	    </div>
@@ -75,7 +75,7 @@
 		                        <div class="grayfont" *ngIf="i==7">
 		                            Did this medication help you? <br><br>
 		                            <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(eachData[each_field])"></div>
-		                            What about you?                       
+		                            What about you?
 		                        </div>
 		                    </td>
 	                	</ng-container>
@@ -86,15 +86,21 @@
 	    <p>&nbsp;</p>
 	</div>
 	<div class="ui-popup-screen ui-overlay-b in" id="filterallergy_medsTable-pop-screen" *ngIf="SearchDlg.show" (tap)="toggleSearchDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>
+
 	<div class="ui-popup-container pop in ui-popup-active" id="filterallergy_medsTable-pop-popup" *ngIf="SearchDlg.show" [ngStyle]="{'max-width': SearchDlg.maxWidth+'px','top': SearchDlg.top+'px', 'left': SearchDlg.left+'px', 'width': SearchDlg.width+'px'}">
-		<div data-role="popup" id="filterallergy_medsTable-pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow ui-corner-all" data-overlay-theme="b" data-position-to="window">
-		    <a href="#" data-rel="back" data-role="button" data-icon="check" data-iconpos="notext" class="ui-btn-right ui-link ui-btn ui-icon-check ui-btn-icon-notext ui-shadow ui-corner-all" role="button" (tap)="toggleSearchDlg(false)">Close</a>
+
+				<div data-role="popup" id="filterallergy_medsTable-pop" class="ui-content ui-popup ui-body-inherit ui-overlay-shadow" data-overlay-theme="b" data-position-to="window">
+					<ion-card>
+	 	 			<ion-card-content>
+						 <a href="#" data-rel="back" class="ui-btn ui-link ui-icon-check ui-btn-icon-notext ui-corner-all ui-btn-right" (tap)="toggleSearchDlg(false)">Close</a>
 		    <form>
-		        <div class="ui-input-search ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear">
-		            <input id="filterallergy_medsTable-input" type="text" data-type="search" name="search" data-clear-btn="false" placeholder="Find Allergy Medication" [(ngModel)]="searchText" (input)="filterItems($event)" />
+		        <div class="ui-input-search ui-body-inherit ui-corner-all ui-input-has-clear">
+		            <input id="filterallergy_medsTable-input" type="text" data-type="search" name="search" data-clear-btn="false" placeholder="Find Product" [(ngModel)]="searchText" (input)="filterItems($event)" />
 		            <a href="#" tabindex="-1" aria-hidden="true" class="ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" title="Clear text" *ngIf="searchText.length>0" (tap)="clearSearch()">Clear text</a>
 		        </div>
 		    </form>
+						</ion-card-content>
+			</ion-card>
 		</div>
 	</div>
 	<div class="ui-popup-screen ui-overlay-inherit" id="allergy_meds_table-popup-screen" *ngIf="SortDlg.show" (tap)="toggleSortDlg(false)" [ngStyle]="{'height': MyContent.height+'px','width': MyContent.width+'px'}"></div>

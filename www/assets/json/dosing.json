@@ -1,8 +1,9 @@
 {
 	"navbar": "<p class=\"boxSpinnerRed\"><\/p>\r\n<p class=\"font14 fontBold\">Medication Dosing<\/p>",
-	"header": 	"<p>&nbsp;<\/p>\r\n\t\t<div class=\"opacity5\">\r\n\t\t<div class=\"maxwidth450\">\r\n\t\t<div class=\"ovalBorderRightPurple_red\">\r\n\t\t<span class=\"redfontLarge\">Hello,<\/span><br>\r\n\t\tNeed the <span class=\"redfont\">dose<\/span> for a child's over-the-counter medication?\r\n\t\t<\/div>\r\n\t\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"lady pharmacist called Amanda\" width=\"100\"><\/div>\r\n\t\t<br>\r\n\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t<\/div>\r\n\t\t<h3 class=\"redBorderAll centerText graygrayfont\">All you need is the <span class=\"orangefont\">weight<\/span> of the child.<\/h3>\r\n\t\t<br>\r\n\t\t<p class=\"redBorderAll\">Our pharmacists have put together a simple, weight based dosing system to make sure your child is getting the correct dose of an over-the-counter (OTC) medication. <\/p>\r\n\t\t<br>\r\n\t\t<\/div>",
+	"header": 	"<p>&nbsp;<\/p>\r\n\t\t<div class=\"opacity5\">\r\n\t\t<div class=\"maxwidth450\">\r\n\t\t<div class=\"ovalBorderRightPurple_red\">\r\n\t\t<span class=\"redfontLarge\">Hello,<\/span><br>\r\n\t\tNeed the <span class=\"redfont\">dose<\/span> for a child's over-the-counter medication?\r\n\t\t<\/div>\r\n\t\t<div align=\"right\"><img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"lady pharmacist called Amanda\" width=\"100\"><\/div>\r\n\t\t<br>\r\n\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t<\/div>\r\n\t\t<h3 class=\"redBorderAll centerText graygrayfont\">All you need is the <span class=\"orangefont\">weight<\/span> of the child.<\/h3>\r\n\t\t<br>\r\n\t\t<p class=\"graygrayfont font14 centerText\">Our pharmacists have put together a simple, weight based dosing system to make sure your child gets the correct dose of an over-the-counter (OTC) medication. <\/p>\r\n\t\t<br>\r\n\t\t<\/div>",
 	"main_header":	"<div class=\"opacity7\">\r\n\t\t\t<div class=\"maxwidth450\">\r\n\t\t\t<div class=\"ovalBorderRightPurple_red\">\r\n\t\t\t<span>Which <span class=\"purple_redfont\">over-the-counter<\/span> <span class=\"purplefont\">medication<\/span> would you like a dose for?<\/span><br>\r\n\t\t\t<\/div>\r\n\t\t\t<div class=\"clearboth\"><\/div>\r\n\t\t\t<div align=\"right\">\r\n\t\t\t<img src=\"assets\/img\/pharm\/female\/pharm-selena-red.svg\" alt=\"pharmacist Amanda\" width=\"100\">\r\n\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t\t<br>\r\n\t\t\t<div class=\"clearboth divider1\"><\/div>\r\n\t\t\t<br>\r\n\t\t\t<\/div>\r\n\t\t\t<p>&nbsp;<\/p>",
 	"ppp":	"<p>&nbsp;<\/p>\r\n\t\t\t<p>&nbsp;<\/p>\r\n\t\t\t<p>&nbsp;<\/p>\r\n\t\t\t<p>&nbsp;<\/p>",
+	"toList": "<div>\r\n\t\t\t\t<img src=\"assets\/img\/coupons\/list-arrow.svg\" width=\"300\" height=\"auto\" alt=\"tap here to choose from list arrow\">\r\n\t\t\t<\/div>",
 	"data":	[
 		{
 			"header":	"<span class=\"redfont\">MOST POPULAR<\/span>\r\n\t\t\t\t\t\t<span class=\"ui-collapsible-heading-status\"> click to expand contents<\/span>",
@@ -148,4 +149,4 @@
 			]
 		}
 	]
-}	
+}

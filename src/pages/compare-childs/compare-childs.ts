@@ -31,7 +31,7 @@ export class CompareChildsPage {
 	    9: 4,
 	    10: 'g',
 	    11: 5,
-	    12: 'i',
+	    12: 'e',
 	    13: 'n',
 	    14: 'i', // DecongestantsPage
 		15: 'a', // MultisymptomsPage
@@ -44,8 +44,8 @@ export class CompareChildsPage {
     	22: 'e', // AntacidsPage
     	23: 'a', // AcidReducersPage
     	24: 'n', // HeartburnGroupPage
-    	25: 'o', // PainPillsPage, 
-    	26: 'e', // PainCreamsPage, 
+    	25: 'o', // PainPillsPage,
+    	26: 'e', // PainCreamsPage,
     	27: 'a', // PainPatchesPage
 	};
 	apiUrls = {
@@ -100,7 +100,7 @@ export class CompareChildsPage {
 	    width: 309,
 	    maxWidth: 0,
 	    left: 0,
-	    top: 0 
+	    top: 0
 	};
 	searchText: string;
 	AbsoluteURL: string;
@@ -178,10 +178,10 @@ export class CompareChildsPage {
 	    this.FeedbackDlg.show = b;
 	}
 	showCompare() {
-	    this.navCtrl.push(ComparePage); 
+	    this.navCtrl.push(ComparePage);
 	}
 	showFeedback() {
-	    // this.navCtrl.push(CompareFeedbackPage); 
+	    // this.navCtrl.push(CompareFeedbackPage);
 	}
 	toggleSort(tabs) {
 	    tabs["ui-checkbox-on"] = 1 - tabs["ui-checkbox-on"];

@@ -32,12 +32,12 @@
 	            			<div [innerHTML]="each_data?.subheader"></div>
 	            			<ng-container *ngFor="let li_data of each_data?.list">
 	            				<div class="ui-grid-a">
-	                        		<div class="ui-block-a padded centerText">
+	                        		<div class="ui-block-a padded centerText borderAllGray">
 			            				<a href="#" class="ui-link" (tap)="gotoSubPage(li_data[0].id)">
 			                        		<div [innerHTML]="li_data[0].con"></div>
 			                    		</a>
 			                    	</div>
-			                    	<div class="ui-block-b padded centerText" *ngIf="li_data[1]?.con.length>0">
+			                    	<div class="ui-block-b padded centerText marginLeft borderAllGray" *ngIf="li_data[1]?.con.length>0">
 			                            <a href="#" class="ui-link" (click)="gotoSubPage(li_data[1].id)">
 			                                <div [innerHTML]="li_data[1].con"></div>
 			                            </a>
@@ -45,7 +45,7 @@
 			                    </div>
 			                    <br><hr class="hrblue"><br>
 			            	</ng-container>
-			            	<div class="clearboth divider9"></div>
+			            	<div class="clearboth"></div>
 	            		</div>
 	            	</div>
 	            </div>
